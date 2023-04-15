@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Packable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/PackableBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/PackableBagGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/CallingBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/FilteringBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Metody/GenericMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/No_Generic/NoGenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/package-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OOE1eeQVTnYfHGuZxC0W1GNuFH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.NoGenericMain">
+    <configuration name="CallingBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P1_Generyczne_Klasy.CallingBag" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P1_Generyczne_Klasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody.GenericMethodMain" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoGenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic.NoGenericMain" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NoGenericMain" />
+        <item itemvalue="Application.GenericMethodMain" />
+        <item itemvalue="Application.CallingBag" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="" />
+      <created>1681423016221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681423016221</updated>
+    </task>
+    <servers />
+  </component>
+</project>
