@@ -4,27 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/Packable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/PackableBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Interfejsy/PackableBagGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/CallingBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Klasy/FilteringBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/Generyczne_Metody/GenericMethodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/No_Generic/NoGenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/package-info.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasTrwania.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Progress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Warsztat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P10_Podsumowanie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P10_Podsumowanie/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P11_Testy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad2_Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P12_Zadania_Generyki/Zad6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartA/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartA/Sock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartA/Swimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartB/Bikable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartB/Cyclist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/PartB/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P5_Podsumowanie_od_1_do_4/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P6_Generics__Unbounded_Wildcards_Nieograniczony_Symbol_wieloznaczny/UnboundedWildcardsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P6_Generics__Unbounded_Wildcards_Nieograniczony_Symbol_wieloznaczny/UnboundedWildcardsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P7_UpperBound_Wildcart_gorna_Granica_Wieloznaczna/UpperBoundWildCartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P8_Generics_Lower_bound_Wildcard_dolna_granice_wieloznacznosci/LowerBoundsWildcartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P9_dziwne_przyklady_generykow/WeirdMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -59,13 +71,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NoGenericMain">
-    <configuration name="CallingBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P1_Generyczne_Klasy.CallingBag" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P10_Podsumowanie" />
+      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P6_Generics__Unbounded_Wildcards_Nieograniczony_Symbol_wieloznaczny" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Zad5">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P11_Testy.Car" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P1_Generyczne_Klasy.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P11_Testy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody.GenericMethodMain" />
+    <configuration name="Zad2_Tuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.Zad2_Tuple" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +107,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoGenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic.NoGenericMain" />
+    <configuration name="Zad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.Zad3" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.Zad4" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.Zad5" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,9 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NoGenericMain" />
-        <item itemvalue="Application.GenericMethodMain" />
-        <item itemvalue="Application.CallingBag" />
+        <item itemvalue="Application.Zad5" />
+        <item itemvalue="Application.Zad4" />
+        <item itemvalue="Application.Zad3" />
+        <item itemvalue="Application.Zad2_Tuple" />
+        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +165,18 @@
       <option name="presentableId" value="Default" />
       <updated>1681423016221</updated>
     </task>
+    <task id="LOCAL-00001" summary="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody">
+      <created>1681586151851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681586151851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody" />
   </component>
 </project>
