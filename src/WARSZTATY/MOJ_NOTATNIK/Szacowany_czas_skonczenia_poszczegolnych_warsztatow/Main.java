@@ -1,13 +1,15 @@
 package WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
         List<Warsztat> warsztaty = Arrays.asList(
                 new Warsztat("JAVA GENERICS I KOLEKCJE", 1, 40, new CzasTrwania(5), new CzasTrwania(6, 15), new CzasTrwania(7), new Progress(22)),
-                new Warsztat("PROGRAMOWANIE FUNKCYJNE", 2, 37, new CzasTrwania(7,15), new CzasTrwania(6, 60), new CzasTrwania(7, 15), new Progress(27)),
+                new Warsztat("PROGRAMOWANIE FUNKCYJNE", 2, 37, new CzasTrwania(7,15), new CzasTrwania(6, 30), new CzasTrwania(7, 15), new Progress(27)),
                 new Warsztat("LOKALIZACJA I OPERACJE NA PLIKACH", 3, 38, new CzasTrwania(8,45), new CzasTrwania(8, 30), new CzasTrwania(6), new Progress(33)),
                 new Warsztat("PODSTAWOWE OPERACJE NA BAZACH DANYCH I JDBC", 4, 16, new CzasTrwania(5,30), new CzasTrwania(0), new CzasTrwania(4, 45), new Progress(37)),
                 new Warsztat("BUILDING TOOLS", 5, 21, new CzasTrwania(5,30), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(39)),
@@ -29,5 +31,45 @@ public class Main {
                 new Warsztat("SPRING REST", 21, 39, new CzasTrwania(11,45), new CzasTrwania(0), new CzasTrwania(4), new Progress(96)),
                 new Warsztat("HOW TO DEPLOY", 22, 2, new CzasTrwania(10), new CzasTrwania(0), new CzasTrwania(0), new Progress(100))
         );
+        CzasTrwania sumaryczny_czas = new CzasTrwania(0, 0);
+        for (Warsztat warsztat : warsztaty) {
+            sumaryczny_czas = sumaryczny_czas.add(warsztat.getSumarycznyCzas());
+            System.out.println(sumaryczny_czas);
+        }
+        System.out.println(sumaryczny_czas);
+
+
+
+        System.out.println(warsztaty.get(0).getSumarycznyCzas());
+        System.out.println(warsztaty.get(0).getSumarycznyCzas().getGodziny());
+        System.out.println(warsztaty.get(0).getSumarycznyCzas().getMinuty());
+
+        CzasTrwania sumaryczny_czas_do_11_warsztatu = new CzasTrwania(0, 0);
+        for (int i = 0; i < 11; i++) {
+            sumaryczny_czas_do_11_warsztatu = sumaryczny_czas_do_11_warsztatu.add(warsztaty.get(i).getSumarycznyCzas());
+        }
+        System.out.println();
+        System.out.println("sumaryczny_czas_do_11_warsztatu: " + sumaryczny_czas_do_11_warsztatu);
+        Long suma_minut = sumaryczny_czas_do_11_warsztatu.getGodziny() * 60 + sumaryczny_czas_do_11_warsztatu.getMinuty();
+        System.out.println("suma_minut: " + suma_minut);
+        Long ilosc_minut_na_dzien = suma_minut / 157;
+        Long ilosc_minut_na_dzien_roboczy = suma_minut / 112;
+        System.out.println("ilosc_minut_na_dzien_roboczy " + ilosc_minut_na_dzien_roboczy);
+        System.out.println("ilosc_minut_na_dzien " + ilosc_minut_na_dzien);
+
+
+        AktualnaData aktualnaData = new AktualnaData(5l);
+        aktualnaData.printAmountOfMaterialsTime();
+        System.out.println();
+
+        AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 4, 30));
+        aktualnaData2.printAmountOfMaterialsTime();
+        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(18,15));
+        System.out.println();
+
+        aktualnaData3.printAmountOfMaterialsTime();
+
+
+
     }
 }

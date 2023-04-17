@@ -9,7 +9,7 @@ public class Warsztat {
 
     private CzasTrwania czasTrwaniaPodsumowan;
     private CzasTrwania czasTrwania_RozwiazanZadan;
-    private CzasTrwania sumarycznyCzas;
+    private CzasTrwania sumarycznyCzas = new CzasTrwania(0);
     private Progress procentPostepu;
 
     public Warsztat(String name,
@@ -26,5 +26,38 @@ public class Warsztat {
         this.czasTrwaniaPodsumowan = czasTrwaniaPodsumowan;
         this.czasTrwania_RozwiazanZadan = czasTrwania_RozwiazanZadan;
         this.procentPostepu = procentPostepu;
+        this.sumarycznyCzas = sumarycznyCzas.add(czasTrwania_FilmowKarola).add(czasTrwaniaPodsumowan).add(czasTrwania_RozwiazanZadan);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getNumer() {
+        return numer;
+    }
+
+    public int getIloscPostow() {
+        return iloscPostow;
+    }
+
+    public CzasTrwania getCzasTrwania_FilmowKarola() {
+        return czasTrwania_FilmowKarola;
+    }
+
+    public CzasTrwania getCzasTrwaniaPodsumowan() {
+        return czasTrwaniaPodsumowan;
+    }
+
+    public CzasTrwania getCzasTrwania_RozwiazanZadan() {
+        return czasTrwania_RozwiazanZadan;
+    }
+
+    public CzasTrwania getSumarycznyCzas() {
+        return sumarycznyCzas;
+    }
+
+    public Progress getProcentPostepu() {
+        return procentPostepu;
     }
 }
