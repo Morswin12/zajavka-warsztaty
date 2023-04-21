@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat1 ZADANIA GENERYKI PODUMOWANIE &lt;?&gt; z extends i super&#10;wprowadzenie danych dotyczacych warsztatow do mojego projektu">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasFilmików.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P21_podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P22_Set_HashSet__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P23_Set_LinkedHashSet__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P23_Set_LinkedHashSet__Zaawansowane_kolekcje/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P24_Set_TreeSet__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P25_Podsumowanie_Setow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P26_Map_HashMap__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P27_Map_LinkedHashMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Kursy_walut_NBP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/MainMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Nowy_Przelew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Platnik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/ZarobkiMiesieczne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P28_Map_TreeMap__Zaawansowane_kolekcje/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P28_Map_TreeMap__Zaawansowane_kolekcje/NavigableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P29_Podsumowanie_Map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P30_Queue_ArrayDeque_Stack_Zaawansowane_kolekcje/ExampleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P30_Queue_ArrayDeque_Stack_Zaawansowane_kolekcje/Stos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P31_Queue_PriorityQueue/ExamplePiorityQoeue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P32_Podsumowanie_kolejek/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P33_Obsluga_nulli_w_kolekcjach/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P35_Podsumowanie_zaawansowanych_kolekcji/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,7 @@
         <option value="package-info" />
         <option value="UML Sequence" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,20 +65,20 @@
       <recent name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P28_Map_TreeMap__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test" />
-      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P10_Podsumowanie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main">
+  <component name="RunManager" selected="Application.MainMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P26_Map_HashMap__Zaawansowane_kolekcje.Main" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P26_Map_HashMap__Zaawansowane_kolekcje.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
+    <configuration name="MainMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.MainMain" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje.Main" />
+    <configuration name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P32_Podsumowanie_kolejek.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P32_Podsumowanie_kolejek.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P32_Podsumowanie_kolejek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P25_Podsumowanie_Setow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P25_Podsumowanie_Setow.Main" />
+    <configuration name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P33_Obsluga_nulli_w_kolekcjach.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P33_Obsluga_nulli_w_kolekcjach.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P25_Podsumowanie_Setow.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P33_Obsluga_nulli_w_kolekcjach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap.Main" />
+    <configuration name="WczytajKursNBP_DlaPodanejDaty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.WczytajKursNBP_DlaPodanejDaty" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap.Main" />
+        <item itemvalue="Application.MainMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P25_Podsumowanie_Setow.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje.Main (1)" />
+        <item itemvalue="Application.WczytajKursNBP_DlaPodanejDaty" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P33_Obsluga_nulli_w_kolekcjach.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P32_Podsumowanie_kolejek.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,12 +189,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dog1.hashCode()" language="JAVA" />
-        <watch expression="dog2.hashCode()" language="JAVA" />
-        <watch expression="dog3.hashCode()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
