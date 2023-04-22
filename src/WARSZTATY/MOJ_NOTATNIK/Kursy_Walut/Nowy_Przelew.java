@@ -45,4 +45,15 @@ public class Nowy_Przelew {
     public Platnik getPlatnik() {
         return platnik;
     }
+
+    @Override
+    public String toString() {
+        return "Nowy_Przelew: " +
+                "\nbrutto =       " + brutto + " ISK "+
+                "\nnetto =        " + netto + " ISK "+
+                "\ntaxes =        " + taxes + " ISK "+
+                "\ndataPrzelewu = " + dataPrzelewu +
+                "\nnrPrzelewu =   " + nrPrzelewu +
+                "\nplatnik =      " + platnik;
+    }
 }

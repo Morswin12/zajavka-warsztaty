@@ -3,6 +3,7 @@ package WARSZTATY.MOJ_NOTATNIK.Kursy_Walut;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.LocalDate;
@@ -15,13 +16,13 @@ public class WczytajKursNBP_DlaPodanejDaty {
     private LocalDate podanaData;
     private LocalDate datePierwszegoKursu;
     private String szukany_kurs;
-    private Double kursWDouble;
+    private BigDecimal kursW_BD;
     private static int counter = 0;
 
     public WczytajKursNBP_DlaPodanejDaty(LocalDate podanaData) {
         this.podanaData = podanaData;
         szukany_kurs = wczytajKursNBP(podanaData);
-        kursWDouble = kursDouble();
+        kursW_BD = kursDouble();
         datePierwszegoKursu = podanaData.plusDays(counter);
     }
 
@@ -70,7 +71,7 @@ public class WczytajKursNBP_DlaPodanejDaty {
         return responseData;
     }
 
-    private Double kursDouble() {
+    private BigDecimal kursDouble() {
 
         String jsonString = szukany_kurs;
         Pattern pattern = Pattern.compile("\"mid\":(\\d+\\.\\d+)");
@@ -79,7 +80,7 @@ public class WczytajKursNBP_DlaPodanejDaty {
         if (matcher.find()) {
             midValue = matcher.group(1);
         }
-        return Double.parseDouble(midValue);
+        return new BigDecimal(midValue);
     }
 
     public LocalDate getPodanaData() {
@@ -94,9 +95,10 @@ public class WczytajKursNBP_DlaPodanejDaty {
         return szukany_kurs;
     }
 
-    public Double getKursWDouble() {
-        return kursWDouble;
+    public BigDecimal getKursWBigDecimal() {
+        return kursW_BD;
     }
+
 }
 
 

@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat1 ZADANIA GENERYKI PODUMOWANIE &lt;?&gt; z extends i super&#10;wprowadzenie danych dotyczacych warsztatow do mojego projektu">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Kursy_walut_NBP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/MainMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Nowy_Przelew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Platnik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/ZarobkiMiesieczne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P28_Map_TreeMap__Zaawansowane_kolekcje/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P28_Map_TreeMap__Zaawansowane_kolekcje/NavigableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P29_Podsumowanie_Map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P30_Queue_ArrayDeque_Stack_Zaawansowane_kolekcje/ExampleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P30_Queue_ArrayDeque_Stack_Zaawansowane_kolekcje/Stos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P31_Queue_PriorityQueue/ExamplePiorityQoeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P32_Podsumowanie_kolejek/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P33_Obsluga_nulli_w_kolekcjach/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P35_Podsumowanie_zaawansowanych_kolekcji/Main.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Projekt policzenia podatku">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Mieso_Programu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/PrzeliczNaPLN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/MainMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Nowy_Przelew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Nowy_Przelew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Platnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Platnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/ZarobkiMiesieczne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/ZarobkiMiesieczne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +27,8 @@
         <option value="Interface" />
         <option value="package-info" />
         <option value="UML Sequence" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +65,7 @@
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainMain">
+  <component name="RunManager" selected="Application.Mieso_Programu">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.Main" />
       <module name="WarsztatyZajavka" />
@@ -86,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.MainMain" />
+    <configuration name="Mieso_Programu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.Mieso_Programu" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainMain" />
+        <item itemvalue="Application.Mieso_Programu" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WczytajKursNBP_DlaPodanejDaty" />
         <item itemvalue="Application.WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P33_Obsluga_nulli_w_kolekcjach.Main" />
@@ -171,13 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681682050918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Projekt policzenia podatku">
+      <created>1682110932193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682110932193</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody" />
     <MESSAGE value="Warsztat1 ZADANIA GENERYKI PODUMOWANIE &lt;?&gt; z extends i super&#10;wprowadzenie danych dotyczacych warsztatow do mojego projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat1 ZADANIA GENERYKI PODUMOWANIE &lt;?&gt; z extends i super&#10;wprowadzenie danych dotyczacych warsztatow do mojego projektu" />
+    <MESSAGE value="Projekt policzenia podatku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projekt policzenia podatku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +187,11 @@
           <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P22_Set_HashSet__Zaawansowane_kolekcje/Main.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

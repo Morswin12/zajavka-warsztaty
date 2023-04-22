@@ -1,25 +1,26 @@
 package WARSZTATY.MOJ_NOTATNIK.Kursy_Walut;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ZarobkiMiesieczne {
+    List<Nowy_Przelew> listaPrzelewow = new ArrayList<>();
     private Integer miesiac;
     private Integer year;
-    List<Nowy_Przelew> listaPrzelewow = new ArrayList<>();
     private Nowy_Przelew nowyPrzelew;
     private BigDecimal bruttoSum = BigDecimal.ZERO;
     private BigDecimal nettoSum = BigDecimal.ZERO;
     private BigDecimal taxesSum = BigDecimal.ZERO;
+    private Integer iloscPrzelewowWMiesiacu = 0;
 
     public ZarobkiMiesieczne(Integer year, Integer miesiac) {
         this.miesiac = miesiac;
         this.year = year;
-        }
+    }
 
     public ZarobkiMiesieczne addPrzelew(Nowy_Przelew nowyPrzelew) {
+        iloscPrzelewowWMiesiacu++;
         listaPrzelewow.add(nowyPrzelew);
         add(nowyPrzelew);
         return this;
@@ -57,5 +58,22 @@ public class ZarobkiMiesieczne {
 
     public Nowy_Przelew getNowyPrzelew() {
         return nowyPrzelew;
+    }
+
+    public Integer getIloscPrzelewowWMiesiacu() {
+        return iloscPrzelewowWMiesiacu;
+    }
+
+    @Override
+    public String toString() {
+        return "ZarobkiMiesieczne: " +
+                "\nmiesiac = " + miesiac +
+                "\nyear=" + year +
+//                "\nlistaPrzelewow=" + listaPrzelewow +
+//                "\nnowyPrzelew=" + nowyPrzelew +
+                "\nbruttoSum=" + bruttoSum + " ISK "+
+                "\nnettoSum=" + nettoSum + " ISK "+
+                "\nprzelewow w miesiacu=" + iloscPrzelewowWMiesiacu +
+                "\ntaxesSum=" + taxesSum + " ISK ";
     }
 }
