@@ -1,5 +1,9 @@
 package WARSZTATY.MOJ_NOTATNIK.Kursy_Walut;
 
+import enumtypes.CurrencyCodeTableA;
+import exceptions.NBPDataException;
+import http.TableA;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,7 +31,13 @@ public class WczytajKursNBP_DlaPodanejDaty {
     }
 
     private static String wczytajKursNBP(LocalDate localDate) {
-
+        try {
+            var res = new TableA().publishedOnDateRangeExchangeRate(CurrencyCodeTableA.ISK
+                    , LocalDate.now().minusDays(10), LocalDate.now());
+//            System.out.println(res);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         String responseData = "";
         String tabel = "a";
         String code = "isk";

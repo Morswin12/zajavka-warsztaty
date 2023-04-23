@@ -29,6 +29,7 @@ public class PrzeliczNaPLN {
                         .setScale(2, RoundingMode.HALF_UP);
             }
         }
+        System.out.println();
         System.out.println("dochudBruttoPLN: " + dochudBruttoPLN + " PLN");
         System.out.println("dochudNettoPLN: " + dochudNettoPLN + " PLN");
         System.out.println("podatkiSumaPLN: " + podatkiSumaPLN + " PLN");
