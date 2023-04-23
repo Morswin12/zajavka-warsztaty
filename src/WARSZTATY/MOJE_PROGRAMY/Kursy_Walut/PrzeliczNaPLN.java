@@ -1,4 +1,4 @@
-package WARSZTATY.MOJ_NOTATNIK.Kursy_Walut;
+package WARSZTATY.MOJE_PROGRAMY.Kursy_Walut;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

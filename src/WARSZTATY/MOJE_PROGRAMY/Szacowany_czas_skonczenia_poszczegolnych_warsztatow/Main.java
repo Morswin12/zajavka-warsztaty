@@ -1,4 +1,4 @@
-package WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
+package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

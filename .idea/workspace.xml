@@ -5,22 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="wersja 2">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad1/Zadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad2/Zadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Nauka_Angielskiego/BazaSow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Nauka_Angielskiego/Czasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Nauka_Angielskiego/KonstrukcjeGramatyczne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Nauka_Angielskiego/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/ACCOUNTANT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/StackInvoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/Zadanie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/tresc_zadania" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarsztatyZajavka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/PrzeliczNaPLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/PrzeliczNaPLN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Kursy_walut_NBP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Kursy_walut_NBP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Mieso_Programu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Mieso_Programu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Nowy_Przelew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Nowy_Przelew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/Platnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Platnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/PrzeliczNaPLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/PrzeliczNaPLN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/ZarobkiMiesieczne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/ZarobkiMiesieczne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasFilmików.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasFilmików.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasTrwania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasTrwania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/KalkulatorMinutNaDzien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/KalkulatorMinutNaDzien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Progress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Warsztat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Warsztat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,33 +86,20 @@
       <recent name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P28_Map_TreeMap__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje" />
-      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zadanie2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.Main" />
-      <module name="WarsztatyZajavka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Zadanie3">
     <configuration name="Mieso_Programu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.Mieso_Programu" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Kursy_Walut.Mieso_Programu" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Kursy_Walut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WczytajKursNBP_DlaPodanejDaty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.WczytajKursNBP_DlaPodanejDaty" />
+    <configuration name="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJ_NOTATNIK.Kursy_Walut.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad3.Zadanie3" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadanie3" />
+        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" />
         <item itemvalue="Application.Zadanie2" />
         <item itemvalue="Application.Zadanie1" />
         <item itemvalue="Application.Mieso_Programu" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WczytajKursNBP_DlaPodanejDaty" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +225,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJ_NOTATNIK/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java</url>
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java</url>
           <line>86</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

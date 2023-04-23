@@ -1,7 +1,6 @@
-package WARSZTATY.MOJ_NOTATNIK.Kursy_Walut;
+package WARSZTATY.MOJE_PROGRAMY.Kursy_Walut;
 
 import enumtypes.CurrencyCodeTableA;
-import exceptions.NBPDataException;
 import http.TableA;
 
 import java.io.BufferedReader;
