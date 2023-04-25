@@ -24,6 +24,26 @@ public class Mieso_Programu {
         new PrzeliczNaPLN(roczne_zarobki).metodaPLN();
 
         print_informacje();
+        List<ZarobkiMiesieczne> zarobkiMiesiecznes = getZarobkiMiesiecznes();
+        BigDecimal bruttoSumAll = BigDecimal.ZERO;
+        BigDecimal nettoSumAll = BigDecimal.ZERO;
+        BigDecimal taxesSumAll = BigDecimal.ZERO;
+        for (ZarobkiMiesieczne zarobkiMiesieczne : zarobkiMiesiecznes) {
+            BigDecimal bruttoSum = zarobkiMiesieczne.getBruttoSum();
+            System.out.println(bruttoSum);
+            bruttoSumAll = bruttoSumAll.add(bruttoSum);
+            BigDecimal nettoSum = zarobkiMiesieczne.getNettoSum();
+            System.out.println(nettoSum);
+            nettoSumAll = nettoSumAll.add(nettoSum);
+            BigDecimal taxesSum = zarobkiMiesieczne.getTaxesSum();
+            System.out.println(taxesSum);
+            taxesSumAll = taxesSumAll.add(taxesSum);
+            System.out.println();
+        }
+        System.out.println(bruttoSumAll);
+        System.out.println(nettoSumAll);
+        System.out.println(taxesSumAll);
+
     }
 
     private static List<ZarobkiMiesieczne> getZarobkiMiesiecznes() {

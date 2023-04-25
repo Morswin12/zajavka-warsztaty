@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CEO implements Person {
-    private StackInvoices stackInvoices;
+    private final StackInvoices stackInvoices;
 
     public CEO(StackInvoices stackInvoices) {
         this.stackInvoices = stackInvoices;

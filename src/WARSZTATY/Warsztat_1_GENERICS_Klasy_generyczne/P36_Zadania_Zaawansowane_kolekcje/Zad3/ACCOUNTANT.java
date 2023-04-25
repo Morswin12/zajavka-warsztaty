@@ -1,7 +1,7 @@
 package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad3;
 
 public class ACCOUNTANT implements Person {
-    private StackInvoices stackInvoices;
+    private final StackInvoices stackInvoices;
 
     public ACCOUNTANT(StackInvoices stackInvoices) {
         this.stackInvoices = stackInvoices;

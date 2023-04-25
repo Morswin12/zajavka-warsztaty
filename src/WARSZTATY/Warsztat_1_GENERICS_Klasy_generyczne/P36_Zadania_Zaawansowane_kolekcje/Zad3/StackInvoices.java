@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class StackInvoices {
     private BigDecimal amountsSum = BigDecimal.ZERO;
-    private ArrayDeque<Invoice> invoiceQueue = new ArrayDeque<>();
+    private final ArrayDeque<Invoice> invoiceQueue = new ArrayDeque<>();
 
 
     public void addInvoiceToStack(Invoice invoice) {

@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Invoice {
-    private String id;
+    private final String id;
     private static int counter = 0;
-    private BigDecimal amount;
+    private final BigDecimal amount;
 
     public Invoice(BigDecimal amount) {
         counter++;
