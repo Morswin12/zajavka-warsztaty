@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P38_P40_PROJEKT/CustomQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P38_P40_PROJEKT/Kolejka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P38_P40_PROJEKT/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P38_P40_PROJEKT/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P38_P40_PROJEKT/Tresc_projektu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Checable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Checkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/CheskableImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/PodsumowanieMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe1Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe2Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe3Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe3Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/SomeFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P6_podsumowanie/ITraveller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P6_podsumowanie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Mieso_Programu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Mieso_Programu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/ACCOUNTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/ACCOUNTANT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/CEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/CEO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/StackInvoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P36_Zadania_Zaawansowane_kolekcje/Zad3/StackInvoices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +36,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="UML Sequence" />
         <option value="Enum" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +75,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_wstep" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT" />
       <recent name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow" />
     </key>
@@ -78,13 +87,13 @@
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT.Main" />
+  <component name="RunManager" selected="Application.MainStaticExample">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_lambda_powtorka.Main2" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_lambda_powtorka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.MOJE_PROGRAMY.Kursy_Walut.Mieso_Programu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Kursy_Walut.Mieso_Programu" />
+    <configuration name="MainStaticExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne.MainStaticExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Kursy_Walut.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" />
+    <configuration name="PodsumowanieMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.PodsumowanieMain" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad2.Zadanie2" />
+    <configuration name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad3.Zadanie3" />
+    <configuration name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad3.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Kursy_Walut.Mieso_Programu" />
-        <item itemvalue="Application.Zadanie3" />
-        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego.Main" />
-        <item itemvalue="Application.Zadanie2" />
+        <item itemvalue="Application.MainStaticExample" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" />
+        <item itemvalue="Application.PodsumowanieMain" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
