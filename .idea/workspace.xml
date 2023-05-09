@@ -4,26 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Checable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Checkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/CheskableImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P1_lambda_powtorka/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/PodsumowanieMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe1Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe2Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe3Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Exe3Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/ZAD1/SomeFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P2_podsumowanie/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P6_podsumowanie/ITraveller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P6_podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/package-info.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/DogPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/MainConstructorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/SteeringWheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P8_Podsumowanie_method_reference/IYacht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P8_Podsumowanie_method_reference/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P8_Podsumowanie_method_reference/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P8_Podsumowanie_method_reference/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P9_Predicate_Interfejsy_funkcyjne/BiConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P9_Predicate_Interfejsy_funkcyjne/BiPredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P9_Predicate_Interfejsy_funkcyjne/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P9_Predicate_Interfejsy_funkcyjne/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P9_Predicate_Interfejsy_funkcyjne/SupplierExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/MainInstanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P7_Method_Reference_podejscie_funkcyjne/MainInstanceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +73,26 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_wstep" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT" />
       <recent name="WARSZTATY.MOJ_NOTATNIK.Szacowany_czas_skonczenia_poszczegolnych_warsztatow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
       <recent name="WARSZTATY.MOJE_PROGRAMY.Nauka_Angielskiego" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P28_Map_TreeMap__Zaawansowane_kolekcje" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap" />
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje" />
-      <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainStaticExample">
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_lambda_powtorka.Main2" />
+  <component name="RunManager" selected="Application.BiConsumerExample">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.BiConsumerExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_lambda_powtorka.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainStaticExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne.MainStaticExample" />
+    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.BiPredicateExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PodsumowanieMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.PodsumowanieMain" />
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.ConsumerExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.PredicateExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" />
+    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.SupplierExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainStaticExample" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P6_podsumowanie.Main" />
-        <item itemvalue="Application.PodsumowanieMain" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P2_podsumowanie.ZAD1.Main" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.BiConsumerExample" />
+        <item itemvalue="Application.BiPredicateExample" />
+        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.ConsumerExample" />
+        <item itemvalue="Application.PredicateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682294188918</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego">
+      <created>1683630493559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683630493559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,7 +222,8 @@
     <MESSAGE value="Projekt policzenia podatku" />
     <MESSAGE value="wersja 2" />
     <MESSAGE value="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji" />
+    <MESSAGE value="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
