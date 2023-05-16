@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy 7-9 interfejsy funkcyjne itp.">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/BiFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/BinaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/FunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/UnaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P11_Podsumowanie_FunctionalInterface/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P11_Podsumowanie_FunctionalInterface/Main2.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp.">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Drewno_calculate_Volume/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Drewno_calculate_Volume/Wood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P12_Interfejsy_Funkcyjne_Ciekawe_Przypadki/FunctionalInterfaceJavaExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P12_Interfejsy_Funkcyjne_Ciekawe_Przypadki/LambdaVsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/MyCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/MyCustomerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/Testy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P13_Podsumowanie_i_testy/Testy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_1/Zad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_2/SomeFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_2/Zad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_3/Zad3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P18_Stream_teoria/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P19_Java_Stream_Stream_Creation/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +88,13 @@
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P27_Map_LinkedHashMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="BiFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.BiFunctionExample" />
+  <component name="RunManager" selected="Application.WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.Main">
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P19_Java_Stream_Stream_Creation.StreamExample" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P19_Java_Stream_Stream_Creation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.BinaryOperatorExample" />
+    <configuration name="WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P11_Podsumowanie_FunctionalInterface.Main1" />
+    <configuration name="WARSZTATY.MOJE_PROGRAMY.Objętość_drewna.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Objętość_drewna.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P11_Podsumowanie_FunctionalInterface.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P11_Podsumowanie_FunctionalInterface.Main2" />
+    <configuration name="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P11_Podsumowanie_FunctionalInterface.*" />
+          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.UnaryOperatorExample" />
+    <configuration name="Zad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_3.Zad3" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P10_Interface_Funkcyjne_cz2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.BinaryOperatorExample" />
-        <item itemvalue="Application.UnaryOperatorExample" />
-        <item itemvalue="Application.BiFunctionExample" />
+        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume.Main" />
+        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Objętość_drewna.Main" />
+        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
+        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.Zad3" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683676780812</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp.">
+      <created>1684107042810</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684107042810</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,7 +240,8 @@
     <MESSAGE value="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji" />
     <MESSAGE value="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego" />
     <MESSAGE value="Warsztat 2: Filmy 7-9 interfejsy funkcyjne itp." />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy 7-9 interfejsy funkcyjne itp." />
+    <MESSAGE value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,6 +255,16 @@
           <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java</url>
           <line>86</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_2/Zad2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Drewno_calculate_Volume/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

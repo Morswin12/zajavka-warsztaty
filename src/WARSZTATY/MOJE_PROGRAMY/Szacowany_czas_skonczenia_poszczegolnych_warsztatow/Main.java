@@ -63,7 +63,7 @@ public class Main {
 
         AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 4, 30));
         aktualnaData2.printAmountOfMaterialsTime();
-        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(21, 45));
+        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(40, 00));
         System.out.println();
 
         aktualnaData3.printAmountOfMaterialsTime();
