@@ -9,7 +9,7 @@ public class Purchase {
     private final Delivery delivery;
     private final Payment payment;
     private final LocalDate when;
-    private Status status = Status.PAID;
+    private final Status status;
     // konstruktory, gettery itp
 
     public Purchase(Client buyer, Product product, long quantity, Delivery delivery, Payment payment, LocalDate when) {
@@ -19,6 +19,48 @@ public class Purchase {
         this.delivery = delivery;
         this.payment = payment;
         this.when = when;
+        this.status = OrderService.checkOrderStatus(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Purchase{" +
+                "buyer=" + buyer +
+                ", product=" + product +
+                ", quantity=" + quantity +
+                ", delivery=" + delivery +
+                ", payment=" + payment +
+                ", when=" + when +
+                ", status=" + status +
+                '}';
+    }
+
+    public Client getBuyer() {
+        return buyer;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public long getQuantity() {
+        return quantity;
+    }
+
+    public Delivery getDelivery() {
+        return delivery;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public LocalDate getWhen() {
+        return when;
+    }
+
+    public Status getStatus() {
+        return status;
     }
 
     public enum Delivery {
@@ -26,11 +68,13 @@ public class Purchase {
         UPS,
         DHL
     }
+
     public enum Payment {
         CASH,
         BLIK,
         CREDIT_CARD
     }
+
     public enum Status {
         PAID,
         SENT,

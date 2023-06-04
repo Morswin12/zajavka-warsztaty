@@ -21,6 +21,33 @@ public class Client implements Comparable<Client> {
     }
 
     @Override
+    public String toString() {
+        return "Client{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", pesel=" + pesel +
+                ", city='" + city + '\'' +
+                '}';
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public BigInteger getPesel() {
+        return pesel;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    @Override
     public int compareTo(final Client o) {
         return this.id.compareTo(o.id);
     }

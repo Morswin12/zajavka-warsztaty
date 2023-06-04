@@ -4,38 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy do 28 straemy itp">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_brzozasr_exchange_rates_nbp_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/ISLAND_Rozliczenie/Dniowka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/ISLAND_Rozliczenie/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/ISLAND_Rozliczenie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/ISLAND_Rozliczenie/MonthsHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P29_Podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P30_Stream_Zaawansowane_Kolektory_cz_1/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P31_Stream_Zaawansowane_Kolektory_cz_2/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P32_Podsumowanie/GroupngBY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P32_Podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P33_Testy_Java_Stream/Zad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P33_Testy_Java_Stream/Zad6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P33_Testy_Java_Stream/Zad7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P34_Zadania/Zad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P34_Zadania/Zad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P34_Zadania/Zad3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P34_Zadania/Zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P34_Zadania/Zad5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/DataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Purchase.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad1_Zad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P28_Stream_vs_Typy_Prymitywne/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P28_Stream_vs_Typy_Prymitywne/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Purchase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +59,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
@@ -98,20 +82,20 @@
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_2_Programowanie_Funkcyjne" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P33_Testy_Java_Stream" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P31_Stream_Zaawansowane_Kolektory_cz_2" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P27_Java_stream_Po_Co_Te_Streamy" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P22_Java_Streams_Operacje_Terminujace2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zad5">
-    <configuration name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad1" />
+  <component name="RunManager" selected="Application.Main3_Zad1">
+    <configuration name="Main2_Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad4" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad2" />
+    <configuration name="Main2_Zad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad5" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad3" />
+    <configuration name="Main2_Zad6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad6" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad4" />
+    <configuration name="Main2_Zad7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad7" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad5" />
+    <configuration name="Main3_Zad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main3_Zad1" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zad5" />
-        <item itemvalue="Application.Zad4" />
-        <item itemvalue="Application.Zad3" />
-        <item itemvalue="Application.Zad2" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P34_Zadania.Zad1" />
+        <item itemvalue="Application.Main3_Zad1" />
+        <item itemvalue="Application.Main2_Zad7" />
+        <item itemvalue="Application.Main2_Zad6" />
+        <item itemvalue="Application.Main2_Zad5" />
+        <item itemvalue="Application.Main2_Zad4" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685377609570</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu">
+      <created>1685827909226</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685827909226</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,7 +265,8 @@
     <MESSAGE value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
     <MESSAGE value="Warsztat 2: Filmy 12-14 interfejsy funkcyjne itp.&#10;Oraz program do liczenia objętości drzewa" />
     <MESSAGE value="Warsztat 2: Filmy do 28 straemy itp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy do 28 straemy itp" />
+    <MESSAGE value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,6 +285,11 @@
           <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_2/Zad2.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad7.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
