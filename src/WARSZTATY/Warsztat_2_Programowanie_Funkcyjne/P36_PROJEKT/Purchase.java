@@ -19,7 +19,17 @@ public class Purchase {
         this.delivery = delivery;
         this.payment = payment;
         this.when = when;
-        this.status = OrderService.checkOrderStatus(this);
+        this.status = Status.PAID;
+    }
+
+    public Purchase(Purchase purchase, Status status) {
+        this.buyer = purchase.buyer;
+        this.product = purchase.product;
+        this.quantity = purchase.quantity;
+        this.delivery = purchase.delivery;
+        this.payment = purchase.payment;
+        this.when = purchase.when;
+        this.status = status;
     }
 
     @Override

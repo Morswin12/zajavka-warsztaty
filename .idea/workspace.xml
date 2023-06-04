@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad1_Zad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/OrderService.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/PrintingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad1_Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad1_Zad2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Purchase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +82,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main3_Zad1">
-    <configuration name="Main2_Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad4" />
+    <configuration name="Main2_Zad1_Zad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad1_Zad2" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2_Zad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad5" />
+    <configuration name="Main2_Zad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main2_Zad3" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
@@ -158,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main3_Zad1" />
+        <item itemvalue="Application.Main2_Zad3" />
+        <item itemvalue="Application.Main2_Zad1_Zad2" />
         <item itemvalue="Application.Main2_Zad7" />
         <item itemvalue="Application.Main2_Zad6" />
-        <item itemvalue="Application.Main2_Zad5" />
-        <item itemvalue="Application.Main2_Zad4" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685827909226</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu">
+      <created>1685889930841</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685889930841</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,7 +265,8 @@
     <MESSAGE value="Warsztat 2: Filmy 12-14 interfejsy funkcyjne itp.&#10;Oraz program do liczenia objętości drzewa" />
     <MESSAGE value="Warsztat 2: Filmy do 28 straemy itp" />
     <MESSAGE value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
+    <MESSAGE value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,5 +293,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="purchase.getProduct().getId().replace(&quot;product&quot;, &quot;&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
