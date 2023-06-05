@@ -63,10 +63,6 @@ public class Main {
 
         AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 4, 30));
         aktualnaData2.printAmountOfMaterialsTime();
-        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(39, 00));
-        System.out.println();
-
-        aktualnaData3.printAmountOfMaterialsTime();
 
 
         List<CzasFilmików> czasFilmikówList = new ArrayList<>();
@@ -109,5 +105,14 @@ public class Main {
 
         AktualnaData aktualnaData4 = new AktualnaData(new CzasTrwania(77, 00));
         System.out.println();
+
+
+        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(65, 00));
+        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(113, 00));
+        System.out.println();
+
+        aktualnaData3.printAmountOfMaterialsTime();
+        System.out.println();
+        aktualnaData5.printAmountOfMaterialsTime();
     }
 }
