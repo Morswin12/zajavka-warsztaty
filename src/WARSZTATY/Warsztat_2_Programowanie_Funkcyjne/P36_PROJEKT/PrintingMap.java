@@ -5,6 +5,6 @@ import java.util.Map;
 public class PrintingMap {
     //    public static <K, V> void printingMap(Map<K, V> map) {
     public static void printingMap(Map<?, ?> map) {
-        map.forEach((l, r) -> System.out.println("Key: " + l + ", value: " + r));
+        map.forEach((key, value) -> System.out.println("Key: " + key + ", value: " + value));
     }
 }

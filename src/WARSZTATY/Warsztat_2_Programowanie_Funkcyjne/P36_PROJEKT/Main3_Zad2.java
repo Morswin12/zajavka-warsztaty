@@ -17,11 +17,10 @@ public class Main3_Zad2 {
         TreeMap<Integer, Long> collect = produceShopingList.stream()
                 .collect(Collectors.toMap(
                         key -> key.getBuyer().getYearOfBirth(),
-                        Purchase::getQuantity,
+                        purchase -> purchase.getQuantity(),
                         Long::sum,
                         TreeMap::new
                 ));
-
 
         var collect1 = collect.entrySet().stream()
                 .collect(Collectors.toMap(
@@ -42,6 +41,5 @@ public class Main3_Zad2 {
         PrintingMap.printingMap(collect1);
         System.out.println();
         System.out.println(reduce);
-
     }
 }
