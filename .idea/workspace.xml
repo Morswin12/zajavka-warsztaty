@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego kosmetyczne zmiany">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/SuperMario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P1_Internationalization_i_Localization/P1_Internationalization_i_Localization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P1_Internationalization_i_Localization/P2_Podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P2_Podsumowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/code/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/code/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store_pl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/package-info.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 3: filmy 1-3">
+      <change afterPath="$PROJECT_DIR$/someExtraNewFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/someFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/someNewFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/someXXExtraNewFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/code/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_de_De.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_en_EN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P4_Podsumowanie/resouces/translations_pl_PL.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P6_Podsumowanie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WarsztatyZajavka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main3_Zad2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/PrintingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/PrintingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/resources/Store_en.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +42,8 @@
         <option value="UML Sequence" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,20 +93,20 @@
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_2_Programowanie_Funkcyjne" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P33_Testy_Java_Stream" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P31_Stream_Zaawansowane_Kolektory_cz_2" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P27_Java_stream_Po_Co_Te_Streamy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.Main2" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main2" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3_Zad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main3_Zad1" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main3" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3_Zad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.Main3_Zad2" />
+    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji.Main2" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1_Internationalization_i_Localization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P1_Internationalization_i_Localization.P1_Internationalization_i_Localization" />
+    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P6_Podsumowanie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P6_Podsumowanie.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P1_Internationalization_i_Localization.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P6_Podsumowanie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.Main" />
+    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main" />
       <module name="WarsztatyZajavka" />
-      <option name="PROGRAM_PARAMETERS" value="de DE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,18 +168,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3_Zad1" />
-      <item itemvalue="Application.Main3_Zad2" />
-      <item itemvalue="Application.P1_Internationalization_i_Localization" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.Main" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji.Main2" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P6_Podsumowanie.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P3_Resource_bundle.code.Main" />
-        <item itemvalue="Application.P1_Internationalization_i_Localization" />
-        <item itemvalue="Application.Main3_Zad1" />
-        <item itemvalue="Application.Main3_Zad2" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P6_Podsumowanie.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P5_Lokalizacja_Formatowanie_w_zaleznosci_od_lokalizacji.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685918705033</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Warsztat 3: filmy 1-3">
+      <created>1686485008327</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686485008327</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,7 +315,8 @@
     <MESSAGE value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
     <MESSAGE value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego" />
     <MESSAGE value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego kosmetyczne zmiany" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego kosmetyczne zmiany" />
+    <MESSAGE value="Warsztat 3: filmy 1-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 3: filmy 1-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
