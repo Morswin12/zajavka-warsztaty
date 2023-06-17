@@ -1,0 +1,29 @@
+// IO Stream
+        // Stream
+        // InputStream / OutputStream
+        // Reader / Writer
+        // BufferedStream
+        //
+        // UTF-8, UTF-16, US-ASCII, ISO_8859_1
+
+        // Reader - klasa abstrakcyjne i dziedziczą z niej wszystkie Readery
+        // FileReader - klasa, która czyta pojedyncze znaki z pliku | niskigo poziou
+        // InputStreamReader - klasa czytająca znaki z przekazanego do niej InputStreama | wysoki poziom
+        // BufferedReader - czytająca, grupująca w paczki  | wysoki poziom
+        // Writer - Klasa abstrakcyjna, do dziedziczenia przez inne writery
+        // FileWriter - stream do zapisywania danych w formie znaowej | niskiego poziomu
+        // OutputStreamWriter - klasa zapisująca znaki z przekazanego do niej InputStreama | wysoki poziom
+        // BufferedWriter - stream zapisujący, grupująca w paczki  | wysoki poziom
+        // PrintWriter - stream ułatwiajacy formatowanie treści  | wysoki poziom
+        // InputStream - klasa abstrakcyjna z której dziedziczą inne Input Streamy
+        // FileInputStream - klasa odczytująca informacje z plików w postaci bajtów | niski poziom
+        // BufferedInputStream - klasa buforująca odczyt bajtów | wysoki poiom
+        // ObjectinputStream - klasa, która może odczytac obiekt Javovy | wysoki poziom
+        // OutputStream - klasa abstrakcyjna z której dziedziczą inne Output Streamy
+        // FileOutputStream - klasa zapisujca pojedyncze bajtów | niski poziom
+        // BufferedoUTPUTStream - klasa GRUPUJĄCA OUTPUT STREAM, poprawia wydajność | wysoki poiom
+        // ObjectOutputStream - klasa, pozwalająca na zapis do OutoStreama obiektów Java  | wysoki poziom
+        // PrintStream - klasa pozwalająca na łatwiejsze formatowanie treści | wysoki poziom
+
+        // .flash() - wymusza zapisanei na dysku
+        // .skip() - pozwala pominąć (rzadko używana)
