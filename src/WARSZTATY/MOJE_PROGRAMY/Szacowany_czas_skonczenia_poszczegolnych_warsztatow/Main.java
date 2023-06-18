@@ -1,7 +1,6 @@
 package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -34,7 +33,9 @@ public class Main {
         CzasTrwania sumaryczny_czas = new CzasTrwania(0, 0);
         for (Warsztat warsztat : warsztaty) {
             sumaryczny_czas = sumaryczny_czas.add(warsztat.getSumarycznyCzas());
-            System.out.println("Do warsztatu nr: " + warsztat.getNumer() +" sumaryczny czas trwania filmów to: " + sumaryczny_czas);
+            AktualnaData actualDate = new AktualnaData(sumaryczny_czas);
+            System.out.println("\n Do warsztatu nr: " + warsztat.getNumer() + " sumaryczny czas trwania filmów to: " + sumaryczny_czas);
+            actualDate.printAmountOfMaterialsTime();
         }
         System.out.println(sumaryczny_czas);
 
@@ -64,41 +65,40 @@ public class Main {
         AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 6, 18));
         aktualnaData2.printAmountOfMaterialsTime();
 
-
-        List<CzasFilmików> czasFilmikówList = new ArrayList<>();
-        czasFilmikówList.add(new CzasFilmików(1, 22, 8));
-        czasFilmikówList.add(new CzasFilmików(2, 6, 15));
-        czasFilmikówList.add(new CzasFilmików(3, 11, 24));
-        czasFilmikówList.add(new CzasFilmików(4, 6, 44));
-        czasFilmikówList.add(new CzasFilmików(5, 61, 28));
-        czasFilmikówList.add(new CzasFilmików(6, 10, 15));
-        czasFilmikówList.add(new CzasFilmików(7, 6, 53));
-        czasFilmikówList.add(new CzasFilmików(8, 7, 30));
-        czasFilmikówList.add(new CzasFilmików(9, 6, 26));
-        czasFilmikówList.add(new CzasFilmików(10, 44, 6));
-        czasFilmikówList.add(new CzasFilmików(11, 0, 0));
-        czasFilmikówList.add(new CzasFilmików(12, 102, 16));
-        czasFilmikówList.add(new CzasFilmików(13, 6, 39));
-        czasFilmikówList.add(new CzasFilmików(14, 23, 20));
-        czasFilmikówList.add(new CzasFilmików(15, 9, 17));
-        czasFilmikówList.add(new CzasFilmików(16, 63, 5));
-        czasFilmikówList.add(new CzasFilmików(17, 0, 0));
-        czasFilmikówList.add(new CzasFilmików(18, 48, 18));
-        czasFilmikówList.add(new CzasFilmików(19, 7, 28));
-        czasFilmikówList.add(new CzasFilmików(20, 20, 30));
-        czasFilmikówList.add(new CzasFilmików(21, 40, 57));
-        czasFilmikówList.add(new CzasFilmików(22, 19, 7));
-        czasFilmikówList.add(new CzasFilmików(23, 5, 7));
-        czasFilmikówList.add(new CzasFilmików(24, 17, 29));
-        czasFilmikówList.add(new CzasFilmików(25, 39, 42));
-        czasFilmikówList.add(new CzasFilmików(26, 36, 23));
-        czasFilmikówList.add(new CzasFilmików(27, 3, 18));
-
-        CzasFilmików czasFilmikówDo = new CzasFilmików(0, 0, 0);
-        for (CzasFilmików czasFilmików : czasFilmikówList) {
-            czasFilmikówDo.setMinuty(czasFilmikówDo.getMinuty() + czasFilmików.getMinuty());
-            czasFilmikówDo.setSekundy(czasFilmikówDo.getSekundy() + czasFilmików.getSekundy());
-        }
+//        List<CzasFilmików> czasFilmikówList = new ArrayList<>();
+//        czasFilmikówList.add(new CzasFilmików(1, 22, 8));
+//        czasFilmikówList.add(new CzasFilmików(2, 6, 15));
+//        czasFilmikówList.add(new CzasFilmików(3, 11, 24));
+//        czasFilmikówList.add(new CzasFilmików(4, 6, 44));
+//        czasFilmikówList.add(new CzasFilmików(5, 61, 28));
+//        czasFilmikówList.add(new CzasFilmików(6, 10, 15));
+//        czasFilmikówList.add(new CzasFilmików(7, 6, 53));
+//        czasFilmikówList.add(new CzasFilmików(8, 7, 30));
+//        czasFilmikówList.add(new CzasFilmików(9, 6, 26));
+//        czasFilmikówList.add(new CzasFilmików(10, 44, 6));
+//        czasFilmikówList.add(new CzasFilmików(11, 0, 0));
+//        czasFilmikówList.add(new CzasFilmików(12, 102, 16));
+//        czasFilmikówList.add(new CzasFilmików(13, 6, 39));
+//        czasFilmikówList.add(new CzasFilmików(14, 23, 20));
+//        czasFilmikówList.add(new CzasFilmików(15, 9, 17));
+//        czasFilmikówList.add(new CzasFilmików(16, 63, 5));
+//        czasFilmikówList.add(new CzasFilmików(17, 0, 0));
+//        czasFilmikówList.add(new CzasFilmików(18, 48, 18));
+//        czasFilmikówList.add(new CzasFilmików(19, 7, 28));
+//        czasFilmikówList.add(new CzasFilmików(20, 20, 30));
+//        czasFilmikówList.add(new CzasFilmików(21, 40, 57));
+//        czasFilmikówList.add(new CzasFilmików(22, 19, 7));
+//        czasFilmikówList.add(new CzasFilmików(23, 5, 7));
+//        czasFilmikówList.add(new CzasFilmików(24, 17, 29));
+//        czasFilmikówList.add(new CzasFilmików(25, 39, 42));
+//        czasFilmikówList.add(new CzasFilmików(26, 36, 23));
+//        czasFilmikówList.add(new CzasFilmików(27, 3, 18));
+//
+//        CzasFilmików czasFilmikówDo = new CzasFilmików(0, 0, 0);
+//        for (CzasFilmików czasFilmików : czasFilmikówList) {
+//            czasFilmikówDo.setMinuty(czasFilmikówDo.getMinuty() + czasFilmików.getMinuty());
+//            czasFilmikówDo.setSekundy(czasFilmikówDo.getSekundy() + czasFilmików.getSekundy());
+//        }
 //        int minuty = czasFilmikówDo.getMinuty() + (czasFilmikówDo.getSekundy() / 60);
 //        System.out.println("Minut do filmu26: " + minuty);
 //        System.out.println("Godzin: " + minuty / 60 + ":" + minuty % 60);
@@ -107,12 +107,15 @@ public class Main {
         System.out.println();
 
 
-        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(62, 30));
-        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(112, 30));
+        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(20, 60));
+        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(58, 30));
+        AktualnaData aktualnaData6 = new AktualnaData(LocalDate.of(2023,6,18));
         System.out.println();
 
         aktualnaData3.printAmountOfMaterialsTime();
         System.out.println();
         aktualnaData5.printAmountOfMaterialsTime();
+        System.out.println();
+        aktualnaData6.printAmountOfMaterialsTime();
     }
 }

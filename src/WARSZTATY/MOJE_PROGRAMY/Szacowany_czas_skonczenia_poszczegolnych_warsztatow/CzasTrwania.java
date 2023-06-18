@@ -32,7 +32,7 @@ public class CzasTrwania {
 
         long sumMinuty = minuty1 + minuty2;
 
-        while (sumMinuty > 60) {
+        while (sumMinuty >= 60) {
             extraGodziny++;
             sumMinuty = sumMinuty - 60;
         }

@@ -16,7 +16,7 @@ public class AktualnaData {
     public AktualnaData(Long dayOfStart) {
         this.dayOfStart = dayOfStart;
         this.actualDate = start.plusDays(dayOfStart);
-        this.minutes = (long) (dayOfStart * 42);
+        this.minutes = (long) (dayOfStart * 22);
         this.houres = minutes / 60;
         this.godzinyIMinuty = new CzasTrwania(houres, minutes % 60);
     }
@@ -24,7 +24,7 @@ public class AktualnaData {
     public AktualnaData(LocalDate actualDate) {
         this.actualDate = actualDate;
         this.dayOfStart = ChronoUnit.DAYS.between(start, actualDate);
-        this.minutes = (long) (dayOfStart * 42);
+        this.minutes = (long) (dayOfStart * 22);
         this.houres = minutes / 60;
         this.godzinyIMinuty = new CzasTrwania(houres, minutes % 60);
     }
@@ -32,7 +32,7 @@ public class AktualnaData {
     public AktualnaData(CzasTrwania godzinyIMinuty) {
         this.godzinyIMinuty = godzinyIMinuty;
         this.minutes = godzinyIMinuty.getMinuty() + godzinyIMinuty.getGodziny() * 60;
-        this.dayOfStart = minutes/42;
+        this.dayOfStart = minutes/22;
         this.actualDate = start.plusDays(dayOfStart);
         this.houres = godzinyIMinuty.getGodziny();
     }
@@ -40,7 +40,7 @@ public class AktualnaData {
 
     public void printAmountOfMaterialsTime() {
         System.out.println("W dniu: " + actualDate + " powinno być przerobione: " + godzinyIMinuty);
-        System.out.println("A w minutach jest to: " + minutes + " minut filmow");
+//        System.out.println("A w minutach jest to: " + minutes + " minut filmow");
 
     }
 }
