@@ -26,7 +26,11 @@ public class Warsztat {
         this.czasTrwaniaPodsumowan = czasTrwaniaPodsumowan;
         this.czasTrwania_RozwiazanZadan = czasTrwania_RozwiazanZadan;
         this.procentPostepu = procentPostepu;
-        this.sumarycznyCzas = sumarycznyCzas.add(czasTrwania_FilmowKarola).add(czasTrwaniaPodsumowan).add(czasTrwania_RozwiazanZadan);
+        this.sumarycznyCzas = sumarycznyCzas
+                .add(czasTrwania_FilmowKarola)
+//                .add(czasTrwaniaPodsumowan)
+//                .add(czasTrwania_RozwiazanZadan)
+        ;
     }
 
     public String getName() {

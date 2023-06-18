@@ -7,7 +7,7 @@ public class Main {
         // Input/OutputStream
 
         File inputFile = new File("./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/" +
-                "P17_IO__in_out__Podsumowanie_InputStream_OutputStream/inputFile.txt");
+                "P17_IO__in_out__Podsumowanie_InputStream_OutputStream/toRepeatFile.txt");
 
         File outputFile = new File("./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/" +
                 "P17_IO__in_out__Podsumowanie_InputStream_OutputStream/outputFile.txt");

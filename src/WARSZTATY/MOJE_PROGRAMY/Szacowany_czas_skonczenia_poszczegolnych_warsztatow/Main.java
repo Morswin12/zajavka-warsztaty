@@ -34,14 +34,14 @@ public class Main {
         CzasTrwania sumaryczny_czas = new CzasTrwania(0, 0);
         for (Warsztat warsztat : warsztaty) {
             sumaryczny_czas = sumaryczny_czas.add(warsztat.getSumarycznyCzas());
-            System.out.println(sumaryczny_czas);
+            System.out.println("Do warsztatu nr: " + warsztat.getNumer() +" sumaryczny czas trwania filmów to: " + sumaryczny_czas);
         }
         System.out.println(sumaryczny_czas);
 
 
         System.out.println(warsztaty.get(0).getSumarycznyCzas());
-        System.out.println(warsztaty.get(0).getSumarycznyCzas().getGodziny());
-        System.out.println(warsztaty.get(0).getSumarycznyCzas().getMinuty());
+//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getGodziny());
+//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getMinuty());
 
         CzasTrwania sumaryczny_czas_do_11_warsztatu = new CzasTrwania(0, 0);
         for (int i = 0; i < 11; i++) {
@@ -61,7 +61,7 @@ public class Main {
         aktualnaData.printAmountOfMaterialsTime();
         System.out.println();
 
-        AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 4, 30));
+        AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 6, 18));
         aktualnaData2.printAmountOfMaterialsTime();
 
 
@@ -99,16 +99,16 @@ public class Main {
             czasFilmikówDo.setMinuty(czasFilmikówDo.getMinuty() + czasFilmików.getMinuty());
             czasFilmikówDo.setSekundy(czasFilmikówDo.getSekundy() + czasFilmików.getSekundy());
         }
-        int minuty = czasFilmikówDo.getMinuty() + (czasFilmikówDo.getSekundy() / 60);
-        System.out.println("Minut do filmu26: " + minuty);
-        System.out.println("Godzin: " + minuty / 60 + ":" + minuty % 60);
+//        int minuty = czasFilmikówDo.getMinuty() + (czasFilmikówDo.getSekundy() / 60);
+//        System.out.println("Minut do filmu26: " + minuty);
+//        System.out.println("Godzin: " + minuty / 60 + ":" + minuty % 60);
 
         AktualnaData aktualnaData4 = new AktualnaData(new CzasTrwania(77, 00));
         System.out.println();
 
 
-        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(65, 00));
-        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(113, 00));
+        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(62, 30));
+        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(112, 30));
         System.out.println();
 
         aktualnaData3.printAmountOfMaterialsTime();
