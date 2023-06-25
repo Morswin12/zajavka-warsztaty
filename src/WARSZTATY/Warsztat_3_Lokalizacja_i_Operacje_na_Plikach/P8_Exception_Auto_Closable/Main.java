@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-        example2(Paths.get("someFile.txt"), Paths.get("someFileP8.txt"));
+        example2(Paths.get("someFile1.txt"), Paths.get("someFileP8.txt"));
     }
 
     public static void example2(Path path1, Path path2) {

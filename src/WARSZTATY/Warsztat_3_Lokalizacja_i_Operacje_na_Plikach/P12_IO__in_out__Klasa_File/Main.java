@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file1 = new File("someFile.txt");
+        File file1 = new File("someFile1.txt");
         System.out.println(file1.exists());
         System.out.println();
 

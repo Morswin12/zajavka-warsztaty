@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class Main3 {
     public static void main(String[] args) throws IOException {
-        example(Paths.get("someFile.txt"), Paths.get("someXXExtraNewFile.txt"));
+        example(Paths.get("someFile1.txt"), Paths.get("someXXExtraNewFile.txt"));
 
     }
 

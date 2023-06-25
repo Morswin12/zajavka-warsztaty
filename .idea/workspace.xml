@@ -4,29 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 3: filmy 15 - 18 &#10;FileInputStream, FileOutputStream&#10;BufferedInputStream, BufferedOutputStream">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/RoboczaClacc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P21_IO__in_out_PODSUMOWANIE_Reader_Writer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P21_IO__in_out_PODSUMOWANIE_Reader_Writer/copiedFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P21_IO__in_out_PODSUMOWANIE_Reader_Writer/copiedFile2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P22_IO__in_out_Serialization_Deserialization_cz_1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P22_IO__in_out_Serialization_Deserialization_cz_1/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P22_IO__in_out_Serialization_Deserialization_cz_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P22_IO__in_out_Serialization_Deserialization_cz_1/carsList.wathever" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Persian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/object.wathever" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/objectCars.wathever" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/objectDogs.wathever" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 3: filmy 19 - 23&#10;sERIALIZATION, dESERIALIZATION">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/SomeFileTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P22_IO__in_out_Serialization_Deserialization_cz_1/txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P28_IO_Podsumowanie_i_Testy/Testy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P29_NIO_Interface_Path_cz_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/oneDirectory/someFile1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/twoDirectory/someFile2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P32_NIO_2_Klasy_Paths_and_Files/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P32_NIO_2_Klasy_Paths_and_Files/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P32_NIO_2_Klasy_Paths_and_Files/fileCopied.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P32_NIO_2_Klasy_Paths_and_Files/movedFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/Main2_Atrybuty_Plikow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/Main3_Podejscie_funkcyjne_Streamy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/fileCopied.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P34_Testy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P34_Testy/Test_zad10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P34_Testy/bootcamp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/Main_Exe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/Main_Exe1_with_walk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/hfjhgjgjgjg/ftufyuu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/hfjhgjgjgjg/yjhgjgjg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/sdfg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/goro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asdf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zxcv.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasTrwania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/CzasTrwania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P12_IO__in_out__Klasa_File/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P12_IO__in_out__Klasa_File/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P14_IO__in_out__Streamy_teoria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P14_IO__in_out__Streamy_teoria/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P7_Exceptions_Try_With_Resources/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P8_Exception_Auto_Closable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P8_Exception_Auto_Closable/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +84,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P23_IO__in_out_Serialization_Deserialization_cz_2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/twoDirectory&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_Serialization_Deserialization_cz_1" />
@@ -89,27 +107,44 @@
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2\twoDirectory" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2\oneDirectory\twoDirectory" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P23_IO__in_out_Serialization_Deserialization_cz_2" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P21_IO__in_out_Serialization_Deserialization_cz_1" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P21_IO__in_out_PODSUMOWANIE_Reader_Writer" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P20_IO__in_out_Reader_Writer" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\zzz" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream.P18_IO__in_out__BufferedInputStream_BufferedOutputStream" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P9_Exceptions_SupressedExceptions" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main_Exe1_with_walk">
+    <configuration name="Exe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania.Exe1" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P34_Testy.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P34_Testy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.Main2" />
+    <configuration name="Main_Exe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.Main_Exe1" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_PODSUMOWANIE_Reader_Writer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_PODSUMOWANIE_Reader_Writer.Main" />
+    <configuration name="Main_Exe1_with_walk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.Main_Exe1_with_walk" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_PODSUMOWANIE_Reader_Writer.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,25 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1.Main" />
+    <configuration name="Test_zad10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P34_Testy.Test_zad10" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.Main" />
-      <module name="WarsztatyZajavka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P34_Testy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,18 +192,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_PODSUMOWANIE_Reader_Writer.Main" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1.Main" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.Main" />
-      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main_Exe1_with_walk" />
+      <item itemvalue="Application.Main_Exe1" />
+      <item itemvalue="Application.Exe1" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test_zad10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_PODSUMOWANIE_Reader_Writer.Main" />
+        <item itemvalue="Application.Main_Exe1_with_walk" />
+        <item itemvalue="Application.Main_Exe1" />
+        <item itemvalue="Application.Exe1" />
+        <item itemvalue="Application.Test_zad10" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -314,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687041201865</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Warsztat 3: filmy 19 - 23&#10;sERIALIZATION, dESERIALIZATION">
+      <created>1687109632906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687109632907</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,7 +364,8 @@
     <MESSAGE value="Warsztat 3: filmy 1-3" />
     <MESSAGE value="Warsztat 3: filmy do 15" />
     <MESSAGE value="Warsztat 3: filmy 15 - 18 &#10;FileInputStream, FileOutputStream&#10;BufferedInputStream, BufferedOutputStream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 3: filmy 15 - 18 &#10;FileInputStream, FileOutputStream&#10;BufferedInputStream, BufferedOutputStream" />
+    <MESSAGE value="Warsztat 3: filmy 19 - 23&#10;sERIALIZATION, dESERIALIZATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 3: filmy 19 - 23&#10;sERIALIZATION, dESERIALIZATION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,7 +400,16 @@
           <line>27</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NotDirectoryException" package="java.nio.file" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="path.getFileName().toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

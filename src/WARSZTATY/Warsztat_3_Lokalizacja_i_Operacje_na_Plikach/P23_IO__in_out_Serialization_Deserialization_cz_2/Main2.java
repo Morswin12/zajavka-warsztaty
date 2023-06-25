@@ -9,6 +9,7 @@ public class Main2 {
         File destination = new File("./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/" +
                 "P23_IO__in_out_Serialization_Deserialization_cz_2/objectCars.wathever");
 
+
         List<Car> cars = new ArrayList<>();
 //        cars.add(new Car("Ford Mustang", 1967L, List.of(new Door("left"), new Door("right"))));
 //        cars.add(new Car("BMW 3", 2015L, List.of(new Door("left"), new Door("right"))));
