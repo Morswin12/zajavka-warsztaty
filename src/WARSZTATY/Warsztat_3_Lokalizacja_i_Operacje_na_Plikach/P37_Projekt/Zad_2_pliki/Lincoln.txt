@@ -1,0 +1,67 @@
+[
+
+Transakcja numer: 145! 
+Kupujący= Coop Gentle, email='cgentle40@deliciousdays.com', ip='223.25.202.25', 
+samochod= Lincoln model: MKT', color='#c085da', VIN='WAUUL78E16A944097', rocznik='2011', cena =6444.46 euro, 
+data_zakupu=2020-04-14 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 270! 
+Kupujący= Daphene Bridge, email='dbridge7h@hhs.gov', ip='66.13.144.195', 
+samochod= Lincoln model: Town Car', color='#08d512', VIN='YV1672MK8D2251270', rocznik='1990', cena =96472.28 euro, 
+data_zakupu=2020-03-27 
+Lokalizacja:  Bavorov w Czech Republic, 
+
+Transakcja numer: 278! 
+Kupujący= Gloriane Schonfelder, email='gschonfelder7p@shinystat.com', ip='46.88.108.64', 
+samochod= Lincoln model: Navigator', color='#0e97fa', VIN='JTJHY7AX3F4021021', rocznik='2007', cena =90568.26 euro, 
+data_zakupu=2020-11-29 
+Lokalizacja:  Spytkowice w Poland, 
+
+Transakcja numer: 479! 
+Kupujący= Shurwood Garland, email='sgarlandda@printfriendly.com', ip='200.62.13.233', 
+samochod= Lincoln model: Navigator L', color='#621956', VIN='1GKMCAE37AR373541', rocznik='2007', cena =48521.65 euro, 
+data_zakupu=2020-11-22 
+Lokalizacja:  Kladruby w Czech Republic, 
+
+Transakcja numer: 525! 
+Kupujący= Juliann Moncarr, email='jmoncarrek@wisc.edu', ip='180.95.43.166', 
+samochod= Lincoln model: Blackwood', color='#22225b', VIN='WAU4FAFRXCA959042', rocznik='2002', cena =31306.78 euro, 
+data_zakupu=2020-09-05 
+Lokalizacja:  Janikowo w Poland, 
+
+Transakcja numer: 717! 
+Kupujący= Tiebout Hadenton, email='thadentonjw@plala.or.jp', ip='82.188.213.139', 
+samochod= Lincoln model: Navigator', color='#c2bf43', VIN='KM8JT3AB0CU252997', rocznik='2008', cena =1229.56 euro, 
+data_zakupu=2020-11-26 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 718! 
+Kupujący= Kellina Hanalan, email='khanalanjx@npr.org', ip='86.94.25.150', 
+samochod= Lincoln model: Navigator', color='#b36c62', VIN='WBA3A5C54DJ985706', rocznik='2006', cena =14405.46 euro, 
+data_zakupu=2020-09-14 
+Lokalizacja:  Zabierzów w Poland, 
+
+Transakcja numer: 813! 
+Kupujący= Sarette Lissenden, email='slissendenmk@stumbleupon.com', ip='226.227.121.33', 
+samochod= Lincoln model: Mark VIII', color='#86312e', VIN='5TDBKRFH1ES664560', rocznik='1998', cena =53874.79 euro, 
+data_zakupu=2020-07-02 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 839! 
+Kupujący= Ode Sackett, email='osackettna@abc.net.au', ip='69.217.46.81', 
+samochod= Lincoln model: Town Car', color='#55c009', VIN='WA1CMAFP1EA573111', rocznik='1993', cena =74697.14 euro, 
+data_zakupu=2020-12-26 
+Lokalizacja:  Hyżne w Poland, 
+
+Transakcja numer: 942! 
+Kupujący= Brandon Sclanders, email='bsclandersq5@usda.gov', ip='70.89.156.230', 
+samochod= Lincoln model: Continental', color='#64bf1a', VIN='WBAVC93558K375551', rocznik='1989', cena =66092.79 euro, 
+data_zakupu=2020-06-07 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 996! 
+Kupujący= Quent Lillgard, email='qlillgardrn@samsung.com', ip='144.218.189.171', 
+samochod= Lincoln model: MKT', color='#9b9ca3', VIN='WBAPH7G51BN565510', rocznik='2010', cena =60519.09 euro, 
+data_zakupu=2020-12-16 
+Lokalizacja:  Zator w Poland]

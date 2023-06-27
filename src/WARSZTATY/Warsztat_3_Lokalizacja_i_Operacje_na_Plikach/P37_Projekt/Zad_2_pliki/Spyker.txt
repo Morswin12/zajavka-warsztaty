@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 559! 
+Kupujący= Antoine Lynnitt, email='alynnittfi@dyndns.org', ip='91.125.49.240', 
+samochod= Spyker model: C8 Double 12 S', color='#8c25fa', VIN='5UXZV4C5XBL433882', rocznik='2006', cena =96561.56 euro, 
+data_zakupu=2020-08-13 
+Lokalizacja:  Golina w Poland]

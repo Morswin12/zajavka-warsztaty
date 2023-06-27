@@ -1,0 +1,25 @@
+[
+
+Transakcja numer: 37! 
+Kupujący= Burgess Dupree, email='bdupree10@bloglovin.com', ip='148.40.58.50', 
+samochod= Hummer model: H3', color='#6181ce', VIN='JN1BV7APXFM483323', rocznik='2006', cena =13377.50 euro, 
+data_zakupu=2020-09-09 
+Lokalizacja:  Velké Opatovice w Czech Republic, 
+
+Transakcja numer: 189! 
+Kupujący= Tallulah Yeo, email='tyeo58@newyorker.com', ip='235.244.121.238', 
+samochod= Hummer model: H2', color='#7946d5', VIN='WBSKG9C59BE048529', rocznik='2004', cena =29204.91 euro, 
+data_zakupu=2020-09-28 
+Lokalizacja:  Roudnice nad Labem w Czech Republic, 
+
+Transakcja numer: 828! 
+Kupujący= Afton Le Noury, email='alenourymz@sphinn.com', ip='247.1.193.213', 
+samochod= Hummer model: H1', color='#f1b5da', VIN='5TDBK3EH5DS647113', rocznik='1994', cena =4132.19 euro, 
+data_zakupu=2020-01-06 
+Lokalizacja:  Chropyně w Czech Republic, 
+
+Transakcja numer: 910! 
+Kupujący= Devora Pietrowski, email='dpietrowskip9@4shared.com', ip='177.148.225.75', 
+samochod= Hummer model: H1', color='#d12388', VIN='3C6TD5DT9CG344405', rocznik='1995', cena =97096.82 euro, 
+data_zakupu=2020-05-17 
+Lokalizacja:  Marianowo w Poland]

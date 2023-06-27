@@ -1,0 +1,73 @@
+[
+
+Transakcja numer: 38! 
+Kupujący= Dionisio Cornfoot, email='dcornfoot11@ihg.com', ip='237.19.217.54', 
+samochod= Land Rover model: Range Rover', color='#8c3079', VIN='1GKS1EEF0ER954156', rocznik='1994', cena =67417.84 euro, 
+data_zakupu=2020-02-13 
+Lokalizacja:  Přimda w Czech Republic, 
+
+Transakcja numer: 116! 
+Kupujący= Christiano O'Hengerty, email='cohengerty37@narod.ru', ip='210.142.188.139', 
+samochod= Land Rover model: Range Rover', color='#c5720f', VIN='1G4GC5ER4CF871894', rocznik='1991', cena =38105.55 euro, 
+data_zakupu=2020-12-09 
+Lokalizacja:  Černošín w Czech Republic, 
+
+Transakcja numer: 206! 
+Kupujący= Maynord Dunnett, email='mdunnett5p@engadget.com', ip='88.233.225.141', 
+samochod= Land Rover model: Discovery', color='#d52d17', VIN='3VWF17AT0FM576490', rocznik='2000', cena =44288.79 euro, 
+data_zakupu=2020-02-03 
+Lokalizacja:  Piasek w Poland, 
+
+Transakcja numer: 398! 
+Kupujący= Jerad St Ledger, email='jstledgerb1@opera.com', ip='107.225.87.235', 
+samochod= Land Rover model: Discovery', color='#2df7ae', VIN='WBAPL33579A476961', rocznik='2006', cena =77609.86 euro, 
+data_zakupu=2020-07-28 
+Lokalizacja:  Zabrušany w Czech Republic, 
+
+Transakcja numer: 419! 
+Kupujący= Keeley Claydon, email='kclaydonbm@cornell.edu', ip='54.102.184.36', 
+samochod= Land Rover model: LR3', color='#66c8a6', VIN='KMHCM3AC6BU599179', rocznik='2009', cena =55622.30 euro, 
+data_zakupu=2020-07-31 
+Lokalizacja:  Wińsko w Poland, 
+
+Transakcja numer: 444! 
+Kupujący= Min Weymouth, email='mweymouthcb@deviantart.com', ip='117.240.180.207', 
+samochod= Land Rover model: Range Rover', color='#117958', VIN='JN8AZ2ND2F9787561', rocznik='2010', cena =25524.36 euro, 
+data_zakupu=2020-11-16 
+Lokalizacja:  Ryki w Poland, 
+
+Transakcja numer: 498! 
+Kupujący= Sherie Josowitz, email='sjosowitzdt@discovery.com', ip='161.116.0.68', 
+samochod= Land Rover model: Range Rover', color='#b8bbfd', VIN='3D7TP2CT4AG957244', rocznik='2002', cena =45686.49 euro, 
+data_zakupu=2020-05-30 
+Lokalizacja:  Jemielno w Poland, 
+
+Transakcja numer: 504! 
+Kupujący= Aguistin Buttler, email='abuttlerdz@goodreads.com', ip='108.245.192.171', 
+samochod= Land Rover model: Range Rover', color='#7be2a4', VIN='3VWJX7AJ7AM028907', rocznik='1995', cena =9743.19 euro, 
+data_zakupu=2020-01-14 
+Lokalizacja:  Sokolniki w Poland, 
+
+Transakcja numer: 555! 
+Kupujący= Ikey Lufkin, email='ilufkinfe@vk.com', ip='161.245.102.21', 
+samochod= Land Rover model: Range Rover Sport', color='#907989', VIN='WAUDL94FX5N216148', rocznik='2010', cena =60212.16 euro, 
+data_zakupu=2020-02-10 
+Lokalizacja:  Krotoszyn w Poland, 
+
+Transakcja numer: 878! 
+Kupujący= Glenn Austing, email='gaustingod@slashdot.org', ip='12.16.130.125', 
+samochod= Land Rover model: Freelander', color='#3c7b1b', VIN='5UXKU2C57F0190533', rocznik='2011', cena =66450.69 euro, 
+data_zakupu=2020-09-14 
+Lokalizacja:  Cegłów w Poland, 
+
+Transakcja numer: 916! 
+Kupujący= Mar Davinet, email='mdavinetpf@dailymail.co.uk', ip='182.100.88.223', 
+samochod= Land Rover model: Discovery Series II', color='#c30700', VIN='JN1BJ0HP2EM378203', rocznik='2001', cena =72459.38 euro, 
+data_zakupu=2020-06-01 
+Lokalizacja:  Wysoka Strzyżowska w Poland, 
+
+Transakcja numer: 1000! 
+Kupujący= Norri Rothman, email='nrothmanrr@ucla.edu', ip='105.243.149.9', 
+samochod= Land Rover model: Range Rover Sport', color='#64e5e8', VIN='3D7LT2ET8AG370800', rocznik='2007', cena =48217.71 euro, 
+data_zakupu=2020-07-21 
+Lokalizacja:  Przemęt w Poland]

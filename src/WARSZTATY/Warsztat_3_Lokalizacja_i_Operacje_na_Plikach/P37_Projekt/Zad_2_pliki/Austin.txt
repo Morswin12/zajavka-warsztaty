@@ -1,0 +1,13 @@
+[
+
+Transakcja numer: 203! 
+Kupujący= Sophi Hamlin, email='shamlin5m@pbs.org', ip='210.75.70.29', 
+samochod= Austin model: Mini Cooper', color='#69e36b', VIN='1C4NJCBA4FD902257', rocznik='1961', cena =11178.82 euro, 
+data_zakupu=2020-03-06 
+Lokalizacja:  Golcowa w Poland, 
+
+Transakcja numer: 322! 
+Kupujący= Darb Rawle, email='drawle8x@ycombinator.com', ip='17.138.124.116', 
+samochod= Austin model: Mini Cooper S', color='#7a08e7', VIN='3D7TT2CT5BG259853', rocznik='1963', cena =98795.19 euro, 
+data_zakupu=2020-02-21 
+Lokalizacja:  Ryczów w Poland]

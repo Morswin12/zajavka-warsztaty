@@ -1,0 +1,91 @@
+[
+
+Transakcja numer: 73! 
+Kupujący= Shaylyn Jupe, email='sjupe20@yellowbook.com', ip='218.135.112.193', 
+samochod= Subaru model: Forester', color='#9e9218', VIN='WAUKF98E57A836352', rocznik='2012', cena =72205.00 euro, 
+data_zakupu=2020-05-29 
+Lokalizacja:  Żurowa w Poland, 
+
+Transakcja numer: 78! 
+Kupujący= Albie Fleischer, email='afleischer25@1688.com', ip='219.54.5.86', 
+samochod= Subaru model: Legacy', color='#2019ca', VIN='4A4AP3AU8DE558800', rocznik='2005', cena =84470.36 euro, 
+data_zakupu=2020-01-11 
+Lokalizacja:  Veltruby w Czech Republic, 
+
+Transakcja numer: 144! 
+Kupujący= Helaina Ricarde, email='hricarde3z@diigo.com', ip='10.103.101.175', 
+samochod= Subaru model: Leone', color='#98f6de', VIN='KNADH4A35B6864470', rocznik='1989', cena =61810.51 euro, 
+data_zakupu=2020-11-20 
+Lokalizacja:  Rusocice w Poland, 
+
+Transakcja numer: 231! 
+Kupujący= Marchall Goldsberry, email='mgoldsberry6e@clickbank.net', ip='153.35.46.255', 
+samochod= Subaru model: Justy', color='#c13843', VIN='1GKS1HE00DR398104', rocznik='1990', cena =82502.60 euro, 
+data_zakupu=2020-06-23 
+Lokalizacja:  Paprotnia w Poland, 
+
+Transakcja numer: 254! 
+Kupujący= Chrisy Puffett, email='cpuffett71@arstechnica.com', ip='251.34.85.23', 
+samochod= Subaru model: Legacy', color='#1a0157', VIN='1N6AA0EC6DN489739', rocznik='2004', cena =84340.16 euro, 
+data_zakupu=2020-03-18 
+Lokalizacja:  Świeradów-Zdrój w Poland, 
+
+Transakcja numer: 287! 
+Kupujący= Granville Deniske, email='gdeniske7y@google.de', ip='131.148.14.80', 
+samochod= Subaru model: SVX', color='#6e9c71', VIN='SCFFBCCD9BG210130', rocznik='1997', cena =96360.87 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Horní Jiřetín w Czech Republic, 
+
+Transakcja numer: 318! 
+Kupujący= Bendix De Morena, email='bdemorena8t@deviantart.com', ip='190.2.24.213', 
+samochod= Subaru model: Tribeca', color='#90e00e', VIN='WBSPM93579E089279', rocznik='2008', cena =51935.34 euro, 
+data_zakupu=2020-04-04 
+Lokalizacja:  Zator w Poland, 
+
+Transakcja numer: 497! 
+Kupujący= Jecho Booth, email='jboothds@boston.com', ip='170.86.23.130', 
+samochod= Subaru model: Justy', color='#55515e', VIN='1FM5K7B84FG098521', rocznik='1993', cena =15384.23 euro, 
+data_zakupu=2020-01-14 
+Lokalizacja:  Twardawa w Poland, 
+
+Transakcja numer: 547! 
+Kupujący= Aguste Peagram, email='apeagramf6@lycos.com', ip='10.160.170.234', 
+samochod= Subaru model: Outback', color='#935b01', VIN='1GYS4FEJ4DR413164', rocznik='2003', cena =37162.04 euro, 
+data_zakupu=2020-05-24 
+Lokalizacja:  Bałtów w Poland, 
+
+Transakcja numer: 549! 
+Kupujący= Craig Hulbert, email='chulbertf8@macromedia.com', ip='164.161.88.123', 
+samochod= Subaru model: Loyale', color='#cfc789', VIN='WAUMGBFL9DA137767', rocznik='1992', cena =43850.02 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Klwów w Poland, 
+
+Transakcja numer: 561! 
+Kupujący= Vida Edmondson, email='vedmondsonfk@rediff.com', ip='35.83.237.87', 
+samochod= Subaru model: Forester', color='#3265ac', VIN='WAUKF78E18A879883', rocznik='2010', cena =93179.89 euro, 
+data_zakupu=2020-02-08 
+Lokalizacja:  Hanau w Germany, 
+
+Transakcja numer: 582! 
+Kupujący= Padraig Porritt, email='pporrittg5@livejournal.com', ip='238.12.135.122', 
+samochod= Subaru model: Justy', color='#0e06db', VIN='3VWKX7AJ8AM222365', rocznik='1988', cena =38207.69 euro, 
+data_zakupu=2020-03-12 
+Lokalizacja:  Sokolnice w Czech Republic, 
+
+Transakcja numer: 670! 
+Kupujący= Edeline Burkill, email='eburkillil@wufoo.com', ip='98.180.20.157', 
+samochod= Subaru model: Legacy', color='#09d32a', VIN='JH4DC53863S360131', rocznik='2012', cena =25586.33 euro, 
+data_zakupu=2020-01-22 
+Lokalizacja:  Starý Bohumín w Czech Republic, 
+
+Transakcja numer: 726! 
+Kupujący= Malory McHaffy, email='mmchaffyk5@google.com.br', ip='107.82.158.90', 
+samochod= Subaru model: Forester', color='#d6c40f', VIN='1D4PT6GX9AW071839', rocznik='1999', cena =78481.71 euro, 
+data_zakupu=2020-07-27 
+Lokalizacja:  Zabłocie w Poland, 
+
+Transakcja numer: 905! 
+Kupujący= Guido Meneyer, email='gmeneyerp4@ucsd.edu', ip='31.211.100.115', 
+samochod= Subaru model: Outback', color='#a8898f', VIN='1G6DP5E39C0203022', rocznik='2009', cena =72940.96 euro, 
+data_zakupu=2020-07-08 
+Lokalizacja:  Valdice w Czech Republic]

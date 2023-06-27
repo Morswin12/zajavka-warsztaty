@@ -1,0 +1,25 @@
+[
+
+Transakcja numer: 46! 
+Kupujący= Cynthy Stanyon, email='cstanyon19@wikispaces.com', ip='252.53.116.11', 
+samochod= Eagle model: Vision', color='#9fc83c', VIN='WAUEH98E58A933379', rocznik='1997', cena =83032.48 euro, 
+data_zakupu=2020-03-04 
+Lokalizacja:  Červené Pečky w Czech Republic, 
+
+Transakcja numer: 202! 
+Kupujący= Obadiah Fattorini, email='ofattorini5l@so-net.ne.jp', ip='69.93.79.151', 
+samochod= Eagle model: Vision', color='#3a457e', VIN='SALVP1BG2EH471263', rocznik='1993', cena =73721.66 euro, 
+data_zakupu=2020-09-20 
+Lokalizacja:  Piława Górna w Poland, 
+
+Transakcja numer: 385! 
+Kupujący= Tresa Impy, email='timpyao@columbia.edu', ip='95.103.156.161', 
+samochod= Eagle model: Vision', color='#774b48', VIN='WAUFEAFM0DA155544', rocznik='1997', cena =55196.84 euro, 
+data_zakupu=2020-10-15 
+Lokalizacja:  Fabianki w Poland, 
+
+Transakcja numer: 466! 
+Kupujący= Dasha Eldin, email='deldincx@discovery.com', ip='68.223.32.25', 
+samochod= Eagle model: Talon', color='#b2b089', VIN='JTHBE1D28E5149437', rocznik='1990', cena =15778.36 euro, 
+data_zakupu=2020-07-05 
+Lokalizacja:  Lublin w Poland]

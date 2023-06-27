@@ -1,0 +1,55 @@
+[
+
+Transakcja numer: 113! 
+Kupujący= Raoul Saldler, email='rsaldler34@elegantthemes.com', ip='120.161.113.195', 
+samochod= Jaguar model: XJ Series', color='#ff5404', VIN='3D7TT2HT4BG527882', rocznik='1992', cena =16528.18 euro, 
+data_zakupu=2020-04-17 
+Lokalizacja:  Pecka w Czech Republic, 
+
+Transakcja numer: 162! 
+Kupujący= Nichols Wickett, email='nwickett4h@sourceforge.net', ip='104.211.245.175', 
+samochod= Jaguar model: XK Series', color='#5b62aa', VIN='1FMJK1F57AE992285', rocznik='2005', cena =61643.85 euro, 
+data_zakupu=2020-07-01 
+Lokalizacja:  Jelcz w Poland, 
+
+Transakcja numer: 280! 
+Kupujący= Kippie Lettice, email='klettice7r@jugem.jp', ip='164.5.64.231', 
+samochod= Jaguar model: S-Type', color='#145d7c', VIN='1FTEW1CFXFK374720', rocznik='2004', cena =74464.65 euro, 
+data_zakupu=2020-10-11 
+Lokalizacja:  Všetaty w Czech Republic, 
+
+Transakcja numer: 346! 
+Kupujący= Olimpia Sebright, email='osebright9l@time.com', ip='218.185.122.244', 
+samochod= Jaguar model: XJ Series', color='#5d85fd', VIN='3VW8S7AT3FM138925', rocznik='1998', cena =22518.01 euro, 
+data_zakupu=2020-05-30 
+Lokalizacja:  Stříbro w Czech Republic, 
+
+Transakcja numer: 512! 
+Kupujący= Pammy Gethin, email='pgethine7@harvard.edu', ip='144.146.136.81', 
+samochod= Jaguar model: S-Type', color='#6b21bf', VIN='KMHCM3AC6AU232183', rocznik='2001', cena =29889.66 euro, 
+data_zakupu=2020-06-21 
+Lokalizacja:  Loučovice w Czech Republic, 
+
+Transakcja numer: 531! 
+Kupujący= Alyson Cail, email='acaileq@cafepress.com', ip='68.241.172.226', 
+samochod= Jaguar model: XK Series', color='#ed4ea6', VIN='5J8TB3H59FL900493', rocznik='2005', cena =64030.07 euro, 
+data_zakupu=2020-02-28 
+Lokalizacja:  Libušín w Czech Republic, 
+
+Transakcja numer: 728! 
+Kupujący= Gilli Berridge, email='gberridgek7@cloudflare.com', ip='156.102.249.215', 
+samochod= Jaguar model: XJ Series', color='#fa2033', VIN='3D7TP2CTXBG823128', rocznik='1996', cena =24425.00 euro, 
+data_zakupu=2020-03-17 
+Lokalizacja:  Sosnowiec w Poland, 
+
+Transakcja numer: 757! 
+Kupujący= Amby Righy, email='arighyl0@goo.gl', ip='183.87.159.234', 
+samochod= Jaguar model: XK', color='#eab205', VIN='WAUWFAFL6BA883595', rocznik='2009', cena =18787.12 euro, 
+data_zakupu=2020-06-27 
+Lokalizacja:  Murów w Poland, 
+
+Transakcja numer: 808! 
+Kupujący= Noam Neads, email='nneadsmf@indiegogo.com', ip='143.51.164.103', 
+samochod= Jaguar model: XJ Series', color='#2cab9d', VIN='ML32A3HJ1EH334814', rocznik='1995', cena =31308.04 euro, 
+data_zakupu=2020-12-14 
+Lokalizacja:  Jaroměřice w Czech Republic]

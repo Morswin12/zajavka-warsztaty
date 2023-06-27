@@ -1,0 +1,205 @@
+[
+
+Transakcja numer: 5! 
+Kupujący= Gabbi Hafner, email='ghafner4@icio.us', ip='8.198.1.190', 
+samochod= Mazda model: B-Series Plus', color='#0d807c', VIN='WBAFU9C5XDD400069', rocznik='2004', cena =71988.49 euro, 
+data_zakupu=2020-12-26 
+Lokalizacja:  Gilowice w Poland, 
+
+Transakcja numer: 8! 
+Kupujący= Kean Corday, email='kcorday7@stanford.edu', ip='153.153.169.51', 
+samochod= Mazda model: MX-5', color='#9464f8', VIN='WAUDGAFL2CA998863', rocznik='1994', cena =25332.86 euro, 
+data_zakupu=2020-01-23 
+Lokalizacja:  Příbram w Czech Republic, 
+
+Transakcja numer: 40! 
+Kupujący= Dori Leroux, email='dleroux13@mysql.com', ip='227.62.73.141', 
+samochod= Mazda model: Mazdaspeed 3', color='#035e85', VIN='JTHDU1EF6A5223784', rocznik='2007', cena =43416.68 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Jonkowo w Poland, 
+
+Transakcja numer: 58! 
+Kupujący= Binky Hendrickson, email='bhendrickson1l@flickr.com', ip='89.4.101.35', 
+samochod= Mazda model: CX-7', color='#fc75a3', VIN='SAJWA4EB8EL899450', rocznik='2010', cena =74018.72 euro, 
+data_zakupu=2020-02-02 
+Lokalizacja:  Płońsk w Poland, 
+
+Transakcja numer: 120! 
+Kupujący= Carter Ayree, email='cayree3b@examiner.com', ip='68.252.134.98', 
+samochod= Mazda model: Mazda2', color='#2d3fe8', VIN='1G4HA5EM8BU593803', rocznik='2012', cena =77296.02 euro, 
+data_zakupu=2020-05-18 
+Lokalizacja:  Wojaszówka w Poland, 
+
+Transakcja numer: 160! 
+Kupujący= Brigit Giannasi, email='bgiannasi4f@youtu.be', ip='203.238.49.210', 
+samochod= Mazda model: 626', color='#2c4d52', VIN='1G4PR5SK9D4589754', rocznik='2001', cena =34880.98 euro, 
+data_zakupu=2020-03-05 
+Lokalizacja:  Modřice w Czech Republic, 
+
+Transakcja numer: 190! 
+Kupujący= Ludwig Jovicic, email='ljovicic59@cbslocal.com', ip='134.139.223.47', 
+samochod= Mazda model: MX-5', color='#c46eb4', VIN='KNAFZ6A35F5226233', rocznik='2012', cena =29357.94 euro, 
+data_zakupu=2020-06-15 
+Lokalizacja:  Chyňava w Czech Republic, 
+
+Transakcja numer: 213! 
+Kupujący= Leoine Sowman, email='lsowman5w@independent.co.uk', ip='232.60.68.122', 
+samochod= Mazda model: CX-7', color='#feb9d8', VIN='WDDJK7DA5EF653122', rocznik='2008', cena =53087.83 euro, 
+data_zakupu=2020-01-10 
+Lokalizacja:  Kraków w Poland, 
+
+Transakcja numer: 229! 
+Kupujący= Carey Moland, email='cmoland6c@ucoz.ru', ip='178.112.146.213', 
+samochod= Mazda model: Millenia', color='#26dbf1', VIN='JTDBT4K35CL411945', rocznik='1999', cena =22569.04 euro, 
+data_zakupu=2020-05-04 
+Lokalizacja:  Sośno w Poland, 
+
+Transakcja numer: 232! 
+Kupujący= Harwell Kenwin, email='hkenwin6f@baidu.com', ip='226.119.8.33', 
+samochod= Mazda model: CX-5', color='#a050d3', VIN='WA1CGAFE0ED941315', rocznik='2013', cena =56757.95 euro, 
+data_zakupu=2020-04-02 
+Lokalizacja:  Rokietnica w Poland, 
+
+Transakcja numer: 271! 
+Kupujący= Morse Borg-Bartolo, email='mborgbartolo7i@webmd.com', ip='51.39.204.103', 
+samochod= Mazda model: Millenia', color='#cc0528', VIN='1G6AM5SX7E0541153', rocznik='1996', cena =37991.48 euro, 
+data_zakupu=2020-09-23 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 284! 
+Kupujący= Alyce McGrae, email='amcgrae7v@mediafire.com', ip='225.100.7.23', 
+samochod= Mazda model: CX-7', color='#157c71', VIN='WAUGFAFC4DN341041', rocznik='2009', cena =80814.80 euro, 
+data_zakupu=2020-03-05 
+Lokalizacja:  Lukavec w Czech Republic, 
+
+Transakcja numer: 297! 
+Kupujący= Aurelea Dumbarton, email='adumbarton88@ameblo.jp', ip='242.229.200.222', 
+samochod= Mazda model: RX-7', color='#cd1c54', VIN='1G6DK8E35D0811587', rocznik='1983', cena =54789.33 euro, 
+data_zakupu=2020-12-24 
+Lokalizacja:  Korczew w Poland, 
+
+Transakcja numer: 334! 
+Kupujący= Cart Rozzier, email='crozzier99@samsung.com', ip='143.85.71.187', 
+samochod= Mazda model: RX-7', color='#91192e', VIN='1FTEX1C82AF480997', rocznik='1989', cena =60821.10 euro, 
+data_zakupu=2020-06-11 
+Lokalizacja:  Grygov w Czech Republic, 
+
+Transakcja numer: 370! 
+Kupujący= Rodie Windress, email='rwindressa9@admin.ch', ip='128.140.17.88', 
+samochod= Mazda model: B2000', color='#dc372d', VIN='3N1BC1AP8BL565641', rocznik='1985', cena =69924.62 euro, 
+data_zakupu=2020-12-01 
+Lokalizacja:  Stoczek w Poland, 
+
+Transakcja numer: 391! 
+Kupujący= Kellby Feeham, email='kfeehamau@odnoklassniki.ru', ip='86.118.49.71', 
+samochod= Mazda model: B-Series Plus', color='#e46b3a', VIN='5N1AN0NU9DN745948', rocznik='2002', cena =81993.36 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  Trzebnica w Poland, 
+
+Transakcja numer: 414! 
+Kupujący= Luigi Clemas, email='lclemasbh@bloomberg.com', ip='18.27.132.168', 
+samochod= Mazda model: Miata MX-5', color='#5ee766', VIN='1FTEW1CF7FK123072', rocznik='2002', cena =34512.20 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Dębe Wielkie w Poland, 
+
+Transakcja numer: 421! 
+Kupujący= Hilario Zannetti, email='hzannettibo@businessinsider.com', ip='153.214.110.37', 
+samochod= Mazda model: MX-5', color='#1fc3e2', VIN='4T1BF1FK0CU841945', rocznik='2004', cena =41728.54 euro, 
+data_zakupu=2020-09-12 
+Lokalizacja:  Sosnówka w Poland, 
+
+Transakcja numer: 434! 
+Kupujący= Carol-jean Mournian, email='cmournianc1@illinois.edu', ip='3.139.242.226', 
+samochod= Mazda model: MX-6', color='#1099f7', VIN='1C4AJWAG7DL939151', rocznik='1991', cena =56681.54 euro, 
+data_zakupu=2020-05-07 
+Lokalizacja:  Pawłowiczki w Poland, 
+
+Transakcja numer: 454! 
+Kupujący= Garik Gaw, email='ggawcl@t.co', ip='40.59.42.245', 
+samochod= Mazda model: CX-7', color='#7cb387', VIN='SCFBF04B88G078257', rocznik='2010', cena =21597.37 euro, 
+data_zakupu=2020-09-30 
+Lokalizacja:  Wasilków w Poland, 
+
+Transakcja numer: 473! 
+Kupujący= Fanchon Episcopio, email='fepiscopiod4@ocn.ne.jp', ip='161.193.57.28', 
+samochod= Mazda model: B-Series Plus', color='#909c5c', VIN='JH4CL95936C357534', rocznik='1992', cena =97277.50 euro, 
+data_zakupu=2020-03-04 
+Lokalizacja:  Uniejów w Poland, 
+
+Transakcja numer: 530! 
+Kupujący= Callida Ertelt, email='certeltep@shutterfly.com', ip='180.123.22.44', 
+samochod= Mazda model: B-Series Plus', color='#17f1ae', VIN='3D7LP2ET8BG985465', rocznik='2002', cena =45897.22 euro, 
+data_zakupu=2020-04-10 
+Lokalizacja:  Janowiec w Poland, 
+
+Transakcja numer: 625! 
+Kupujący= Bradley Plomer, email='bplomerhc@gmpg.org', ip='134.131.92.164', 
+samochod= Mazda model: RX-8', color='#dc7cfb', VIN='WBAFR7C59CD430006', rocznik='2010', cena =62387.06 euro, 
+data_zakupu=2020-03-04 
+Lokalizacja:  Gorzów Śląski w Poland, 
+
+Transakcja numer: 627! 
+Kupujący= Sigvard Parratt, email='sparratthe@tripod.com', ip='125.92.157.168', 
+samochod= Mazda model: Familia', color='#cb6f24', VIN='WAUXL68E44A133818', rocznik='1991', cena =70021.37 euro, 
+data_zakupu=2020-09-11 
+Lokalizacja:  Petřvald w Czech Republic, 
+
+Transakcja numer: 716! 
+Kupujący= Tracey Blethin, email='tblethinjv@redcross.org', ip='90.246.143.171', 
+samochod= Mazda model: CX-9', color='#775447', VIN='WAUMGBFL6AA150245', rocznik='2010', cena =19705.91 euro, 
+data_zakupu=2020-06-12 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 747! 
+Kupujący= Florella Leonard, email='fleonardkq@walmart.com', ip='224.124.229.58', 
+samochod= Mazda model: 626', color='#856a31', VIN='KMHTC6ADXFU970704', rocznik='1993', cena =71137.72 euro, 
+data_zakupu=2020-09-10 
+Lokalizacja:  Žirovnice w Czech Republic, 
+
+Transakcja numer: 755! 
+Kupujący= Caryn Connachan, email='cconnachanky@intel.com', ip='245.123.176.226', 
+samochod= Mazda model: MPV', color='#7de7e6', VIN='1G6KD57Y38U451081', rocznik='1992', cena =89254.00 euro, 
+data_zakupu=2020-07-25 
+Lokalizacja:  Měcholupy w Czech Republic, 
+
+Transakcja numer: 815! 
+Kupujący= Raven Keeri, email='rkeerimm@spotify.com', ip='129.185.92.52', 
+samochod= Mazda model: MPV', color='#a2296a', VIN='WAUNF98P96A924284', rocznik='1993', cena =58981.72 euro, 
+data_zakupu=2020-04-20 
+Lokalizacja:  Błaszki w Poland, 
+
+Transakcja numer: 834! 
+Kupujący= Vaughn Mayhou, email='vmayhoun5@ftc.gov', ip='156.15.245.84', 
+samochod= Mazda model: Mazdaspeed 3', color='#f6c8a4', VIN='JH4CU2E6XAC652178', rocznik='2007', cena =92331.15 euro, 
+data_zakupu=2020-05-31 
+Lokalizacja:  Kamenný Přívoz w Czech Republic, 
+
+Transakcja numer: 838! 
+Kupujący= Vikky Dadson, email='vdadsonn9@ed.gov', ip='119.76.168.70', 
+samochod= Mazda model: Familia', color='#1c8431', VIN='WA1BY94L38D593572', rocznik='1989', cena =83979.53 euro, 
+data_zakupu=2020-11-12 
+Lokalizacja:  Dambořice w Czech Republic, 
+
+Transakcja numer: 911! 
+Kupujący= Dore Canaan, email='dcanaanpa@canalblog.com', ip='11.225.244.198', 
+samochod= Mazda model: MX-5', color='#140149', VIN='SAJWA4EC5FM614630', rocznik='2006', cena =13384.30 euro, 
+data_zakupu=2020-07-31 
+Lokalizacja:  Častolovice w Czech Republic, 
+
+Transakcja numer: 922! 
+Kupujący= Reid Lettley, email='rlettleypl@friendfeed.com', ip='10.101.198.100', 
+samochod= Mazda model: MX-3', color='#257e11', VIN='3C3CFFBR3ET217714', rocznik='1995', cena =40200.92 euro, 
+data_zakupu=2020-04-01 
+Lokalizacja:  Orlová w Czech Republic, 
+
+Transakcja numer: 981! 
+Kupujący= Grier Houseman, email='ghousemanr8@ihg.com', ip='27.133.101.159', 
+samochod= Mazda model: 626', color='#5cdbc3', VIN='3D7TP2CT5BG448314', rocznik='1988', cena =27606.00 euro, 
+data_zakupu=2020-07-01 
+Lokalizacja:  Raškovice w Czech Republic, 
+
+Transakcja numer: 998! 
+Kupujący= Louis Leary, email='llearyrp@imdb.com', ip='52.131.214.105', 
+samochod= Mazda model: Tribute', color='#0ab4b7', VIN='1N6AD0CU7EN307356', rocznik='2010', cena =8031.83 euro, 
+data_zakupu=2020-04-25 
+Lokalizacja:  Nowe Miasto w Poland]

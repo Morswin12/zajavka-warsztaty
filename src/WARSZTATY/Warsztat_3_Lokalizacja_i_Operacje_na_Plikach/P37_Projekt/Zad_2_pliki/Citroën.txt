@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 267! 
+Kupujący= Cori Tarr, email='ctarr7e@skype.com', ip='60.31.145.105', 
+samochod= Citroën model: 2CV', color='#e208c9', VIN='WBXPC93587W702935', rocznik='1948', cena =21373.33 euro, 
+data_zakupu=2020-02-10 
+Lokalizacja:  Świętajno w Poland]

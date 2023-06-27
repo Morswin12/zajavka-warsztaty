@@ -1,0 +1,313 @@
+[
+
+Transakcja numer: 9! 
+Kupujący= Antonella Riepl, email='ariepl8@mediafire.com', ip='169.75.223.75', 
+samochod= Dodge model: Neon', color='#7c776f', VIN='2D4RN5D13AR749927', rocznik='2004', cena =18117.79 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Dobrzyca w Poland, 
+
+Transakcja numer: 13! 
+Kupujący= Nester Caurah, email='ncaurahc@google.fr', ip='70.71.96.24', 
+samochod= Dodge model: Charger', color='#4e0fab', VIN='2C3CDXHG5EH264592', rocznik='2009', cena =75360.35 euro, 
+data_zakupu=2020-04-03 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 17! 
+Kupujący= Gerty Mouse, email='gmouseg@alexa.com', ip='23.47.231.189', 
+samochod= Dodge model: Ram Van 1500', color='#7aef95', VIN='3GYT4MEF1DG663367', rocznik='1999', cena =6048.17 euro, 
+data_zakupu=2020-06-13 
+Lokalizacja:  Zákupy w Czech Republic, 
+
+Transakcja numer: 39! 
+Kupujący= Delores Wye, email='dwye12@fotki.com', ip='166.186.146.27', 
+samochod= Dodge model: D150 Club', color='#3bcc7f', VIN='1YVHZ8BH3B5464829', rocznik='1992', cena =45687.25 euro, 
+data_zakupu=2020-03-17 
+Lokalizacja:  Skorogoszcz w Poland, 
+
+Transakcja numer: 56! 
+Kupujący= Gerladina Bonifas, email='gbonifas1j@nytimes.com', ip='86.232.119.84', 
+samochod= Dodge model: Grand Caravan', color='#41c993', VIN='19XFB4F21FE114495', rocznik='1995', cena =28993.93 euro, 
+data_zakupu=2020-01-27 
+Lokalizacja:  Mikulovice w Czech Republic, 
+
+Transakcja numer: 61! 
+Kupujący= Emelina Quilter, email='equilter1o@cisco.com', ip='225.139.20.128', 
+samochod= Dodge model: Dakota Club', color='#8b5783', VIN='1N6AA0EK9FN039447', rocznik='2002', cena =15054.17 euro, 
+data_zakupu=2020-05-05 
+Lokalizacja:  Strančice w Czech Republic, 
+
+Transakcja numer: 125! 
+Kupujący= Gae Lumox, email='glumox3g@vkontakte.ru', ip='70.104.8.190', 
+samochod= Dodge model: Grand Caravan', color='#d64ec1', VIN='WAUBF98E48A446067', rocznik='2007', cena =15038.94 euro, 
+data_zakupu=2020-03-26 
+Lokalizacja:  Zastávka w Czech Republic, 
+
+Transakcja numer: 139! 
+Kupujący= Pietrek Gallahar, email='pgallahar3u@springer.com', ip='147.211.96.165', 
+samochod= Dodge model: Ram 1500', color='#4977be', VIN='WBAKA4C53BC902323', rocznik='2008', cena =98109.15 euro, 
+data_zakupu=2020-01-18 
+Lokalizacja:  Golčův Jeníkov w Czech Republic, 
+
+Transakcja numer: 141! 
+Kupujący= Eden Scamadin, email='escamadin3w@photobucket.com', ip='125.62.186.223', 
+samochod= Dodge model: Stratus', color='#79753b', VIN='4T1BF1FKXDU192155', rocznik='2004', cena =75713.09 euro, 
+data_zakupu=2020-12-25 
+Lokalizacja:  Kobeřice w Czech Republic, 
+
+Transakcja numer: 170! 
+Kupujący= Korney Teffrey, email='kteffrey4p@npr.org', ip='7.67.205.222', 
+samochod= Dodge model: Dakota Club', color='#00b2d9', VIN='SAJWA4DC4DM603701', rocznik='1998', cena =24630.42 euro, 
+data_zakupu=2020-10-20 
+Lokalizacja:  Strzelce w Poland, 
+
+Transakcja numer: 224! 
+Kupujący= Augustine Niles, email='aniles67@nymag.com', ip='212.220.241.14', 
+samochod= Dodge model: Ram 3500 Club', color='#489fe8', VIN='5J6YH1H30AL143945', rocznik='1997', cena =51816.43 euro, 
+data_zakupu=2020-10-01 
+Lokalizacja:  Sarnów w Poland, 
+
+Transakcja numer: 237! 
+Kupujący= Stafani Varnham, email='svarnham6k@weather.com', ip='145.239.57.201', 
+samochod= Dodge model: Ram Van 1500', color='#d10e87', VIN='SALAG2D44DA741088', rocznik='1996', cena =37628.39 euro, 
+data_zakupu=2020-02-06 
+Lokalizacja:  Fryčovice w Czech Republic, 
+
+Transakcja numer: 242! 
+Kupujący= Orsa Abbotson, email='oabbotson6p@mtv.com', ip='60.105.181.167', 
+samochod= Dodge model: Daytona', color='#c4a6ed', VIN='1B3CB5HA1AD958772', rocznik='1984', cena =65849.56 euro, 
+data_zakupu=2020-02-06 
+Lokalizacja:  Wola Uhruska w Poland, 
+
+Transakcja numer: 283! 
+Kupujący= Julio Stickles, email='jstickles7u@ehow.com', ip='188.10.28.24', 
+samochod= Dodge model: Magnum', color='#6a2893', VIN='1G6DC8EY0B0176915', rocznik='2006', cena =64382.28 euro, 
+data_zakupu=2020-03-30 
+Lokalizacja:  Świdnica w Poland, 
+
+Transakcja numer: 298! 
+Kupujący= Emyle Ridpath, email='eridpath89@imgur.com', ip='133.30.210.65', 
+samochod= Dodge model: Dakota Club', color='#37f526', VIN='JN1BY1AP2EM933890', rocznik='1993', cena =996.28 euro, 
+data_zakupu=2020-09-24 
+Lokalizacja:  Wińsko w Poland, 
+
+Transakcja numer: 320! 
+Kupujący= Kristen Girardez, email='kgirardez8v@hugedomains.com', ip='90.225.67.178', 
+samochod= Dodge model: Grand Caravan', color='#475f71', VIN='4T1BF1FK9EU502698', rocznik='2001', cena =77010.83 euro, 
+data_zakupu=2020-12-01 
+Lokalizacja:  Włocławek w Poland, 
+
+Transakcja numer: 327! 
+Kupujący= Morna Arons, email='marons92@delicious.com', ip='28.117.126.136', 
+samochod= Dodge model: Stratus', color='#a6311e', VIN='JTHBL5EF7F1735134', rocznik='2005', cena =48100.31 euro, 
+data_zakupu=2020-12-12 
+Lokalizacja:  Promna w Poland, 
+
+Transakcja numer: 407! 
+Kupujący= Gracia Falconar, email='gfalconarba@techcrunch.com', ip='96.144.138.187', 
+samochod= Dodge model: Ram Van 2500', color='#e595dc', VIN='WP0CA2A88AS487514', rocznik='1999', cena =58406.23 euro, 
+data_zakupu=2020-08-14 
+Lokalizacja:  Horní Libina w Czech Republic, 
+
+Transakcja numer: 432! 
+Kupujący= Gunther Malby, email='gmalbybz@diigo.com', ip='185.78.75.188', 
+samochod= Dodge model: Caravan', color='#165da5', VIN='SALAB2D4XDA837242', rocznik='2000', cena =2124.36 euro, 
+data_zakupu=2020-03-06 
+Lokalizacja:  Stoczek w Poland, 
+
+Transakcja numer: 435! 
+Kupujący= Chadwick Bonn, email='cbonnc2@bizjournals.com', ip='64.141.16.38', 
+samochod= Dodge model: Ram 2500 Club', color='#70f22c', VIN='1FTEX1CM2DF720034', rocznik='1999', cena =56625.93 euro, 
+data_zakupu=2020-09-29 
+Lokalizacja:  Rydzyna w Poland, 
+
+Transakcja numer: 459! 
+Kupujący= Darren Baskerville, email='dbaskervillecq@exblog.jp', ip='62.248.212.213', 
+samochod= Dodge model: Charger', color='#c4fe53', VIN='2HNYD18236H138164', rocznik='2009', cena =58401.94 euro, 
+data_zakupu=2020-06-08 
+Lokalizacja:  Černý Most w Czech Republic, 
+
+Transakcja numer: 491! 
+Kupujący= Dulcinea Seery, email='dseerydm@tuttocitta.it', ip='194.248.44.87', 
+samochod= Dodge model: Ram Van B350', color='#7e0b48', VIN='SCBCU7ZA2BC744712', rocznik='1994', cena =66831.50 euro, 
+data_zakupu=2020-11-16 
+Lokalizacja:  Zbytków w Poland, 
+
+Transakcja numer: 499! 
+Kupujący= Jackson Grzegorzewicz, email='jgrzegorzewiczdu@123-reg.co.uk', ip='158.96.196.114', 
+samochod= Dodge model: Viper', color='#410bb7', VIN='5LMJJ2H52AE787432', rocznik='1993', cena =41325.74 euro, 
+data_zakupu=2020-11-12 
+Lokalizacja:  Studzionka w Poland, 
+
+Transakcja numer: 528! 
+Kupujący= Karol Gaiter, email='kgaiteren@tuttocitta.it', ip='158.241.79.27', 
+samochod= Dodge model: Dakota', color='#7a516c', VIN='SCFFDCCD3CG713101', rocznik='1992', cena =99938.19 euro, 
+data_zakupu=2020-08-23 
+Lokalizacja:  Mazańcowice w Poland, 
+
+Transakcja numer: 542! 
+Kupujący= Cosimo Filimore, email='cfilimoref1@ovh.net', ip='226.187.123.119', 
+samochod= Dodge model: Dakota', color='#6a59a1', VIN='5BZBF0AA3FN404954', rocznik='1995', cena =39865.22 euro, 
+data_zakupu=2020-04-16 
+Lokalizacja:  Goworowo w Poland, 
+
+Transakcja numer: 545! 
+Kupujący= Pam Nuschke, email='pnuschkef4@mapquest.com', ip='235.11.16.87', 
+samochod= Dodge model: Stratus', color='#891356', VIN='WBA3D5C5XEF924890', rocznik='1998', cena =7386.62 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Nowe Skalmierzyce w Poland, 
+
+Transakcja numer: 548! 
+Kupujący= Wynn Hugues, email='whuguesf7@umich.edu', ip='156.161.210.4', 
+samochod= Dodge model: Ram Van B250', color='#1b86ad', VIN='1G6DJ8E34D0994323', rocznik='1994', cena =23476.59 euro, 
+data_zakupu=2020-02-21 
+Lokalizacja:  Zbrosławice w Poland, 
+
+Transakcja numer: 558! 
+Kupujący= Kimmi Bausor, email='kbausorfh@economist.com', ip='134.174.249.133', 
+samochod= Dodge model: Ram Van 1500', color='#34de8d', VIN='WBABD33495J025040', rocznik='1999', cena =27569.23 euro, 
+data_zakupu=2020-12-17 
+Lokalizacja:  Gorzów Wielkopolski w Poland, 
+
+Transakcja numer: 565! 
+Kupujący= Wenonah Goundry, email='wgoundryfo@dropbox.com', ip='146.22.89.181', 
+samochod= Dodge model: Dakota', color='#f9fbdc', VIN='1G4GC5EG8AF688929', rocznik='1993', cena =94078.77 euro, 
+data_zakupu=2020-12-25 
+Lokalizacja:  Suraż w Poland, 
+
+Transakcja numer: 576! 
+Kupujący= Florrie Hayesman, email='fhayesmanfz@multiply.com', ip='32.194.206.72', 
+samochod= Dodge model: Grand Caravan', color='#e3ba22', VIN='WBA3B1G56EN934993', rocznik='1995', cena =18931.15 euro, 
+data_zakupu=2020-02-05 
+Lokalizacja:  Smolec w Poland, 
+
+Transakcja numer: 607! 
+Kupujący= Thaxter Wignall, email='twignallgu@unblog.fr', ip='200.190.196.243', 
+samochod= Dodge model: Ram Wagon B250', color='#b11a14', VIN='WBABS534X2E025988', rocznik='1994', cena =47066.16 euro, 
+data_zakupu=2020-05-10 
+Lokalizacja:  Ursynów w Poland, 
+
+Transakcja numer: 609! 
+Kupujący= Alvera Cramb, email='acrambgw@skype.com', ip='7.131.206.57', 
+samochod= Dodge model: Avenger', color='#b86be5', VIN='1ZVBP8JS2A5298474', rocznik='2010', cena =54174.33 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Humniska w Poland, 
+
+Transakcja numer: 620! 
+Kupujący= Dorene Straughan, email='dstraughanh7@samsung.com', ip='212.170.85.153', 
+samochod= Dodge model: Dakota', color='#87fccb', VIN='1G6DG577090424744', rocznik='2002', cena =91294.44 euro, 
+data_zakupu=2020-01-20 
+Lokalizacja:  Lipov w Czech Republic, 
+
+Transakcja numer: 632! 
+Kupujący= Si Kinnerk, email='skinnerkhj@smugmug.com', ip='199.27.53.131', 
+samochod= Dodge model: Spirit', color='#cae8ea', VIN='WBAUP93528V957296', rocznik='1992', cena =62428.34 euro, 
+data_zakupu=2020-04-10 
+Lokalizacja:  Książki w Poland, 
+
+Transakcja numer: 634! 
+Kupujący= Mirna Grainge, email='mgraingehl@ihg.com', ip='34.229.232.189', 
+samochod= Dodge model: Ram Van B350', color='#43e59c', VIN='1FMJU1G56AE177147', rocznik='1992', cena =68013.76 euro, 
+data_zakupu=2020-09-10 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 645! 
+Kupujący= Myrah Wilcocke, email='mwilcockehw@cbc.ca', ip='219.236.232.243', 
+samochod= Dodge model: Avenger', color='#3a57c5', VIN='5N1AR2MM5EC088001', rocznik='1997', cena =47767.09 euro, 
+data_zakupu=2020-10-29 
+Lokalizacja:  Rogóźno w Poland, 
+
+Transakcja numer: 673! 
+Kupujący= Katusha Hayer, email='khayerio@springer.com', ip='124.225.87.39', 
+samochod= Dodge model: Grand Caravan', color='#97d0f2', VIN='WA1CMBFP9FA152843', rocznik='2003', cena =61882.08 euro, 
+data_zakupu=2020-07-08 
+Lokalizacja:  Kraslice w Czech Republic, 
+
+Transakcja numer: 675! 
+Kupujący= Sheelah Peachey, email='speacheyiq@github.io', ip='244.7.97.169', 
+samochod= Dodge model: Viper RT/10', color='#b80aa7', VIN='1G6YV36A675573460', rocznik='1995', cena =42522.73 euro, 
+data_zakupu=2020-08-14 
+Lokalizacja:  Ornontowice w Poland, 
+
+Transakcja numer: 677! 
+Kupujący= Sib Morena, email='smorenais@symantec.com', ip='117.161.99.47', 
+samochod= Dodge model: Ram Wagon B250', color='#54b333', VIN='WBAFR9C50BD074264', rocznik='1994', cena =34367.40 euro, 
+data_zakupu=2020-04-06 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 681! 
+Kupujący= Barnabas Grinsdale, email='bgrinsdaleiw@foxnews.com', ip='97.143.174.239', 
+samochod= Dodge model: Grand Caravan', color='#2d6d7d', VIN='2G4WC582X61377707', rocznik='2007', cena =28163.77 euro, 
+data_zakupu=2020-12-30 
+Lokalizacja:  Stepnica w Poland, 
+
+Transakcja numer: 749! 
+Kupujący= Daffy Baudains, email='dbaudainsks@sphinn.com', ip='101.5.63.49', 
+samochod= Dodge model: Durango', color='#c2f451', VIN='WBAPK7C5XAA490125', rocznik='2009', cena =45584.85 euro, 
+data_zakupu=2020-12-28 
+Lokalizacja:  Ochla w Poland, 
+
+Transakcja numer: 765! 
+Kupujący= Fredrika Kleynen, email='fkleynenl8@e-recht24.de', ip='39.193.180.228', 
+samochod= Dodge model: Ram Van 2500', color='#e3928f', VIN='3D7TP2CT1BG169068', rocznik='1997', cena =93066.99 euro, 
+data_zakupu=2020-10-25 
+Lokalizacja:  Prusice w Poland, 
+
+Transakcja numer: 771! 
+Kupujący= Mikol Ends, email='mendsle@sohu.com', ip='198.228.2.241', 
+samochod= Dodge model: Ram 2500 Club', color='#20f083', VIN='1FTWF3A53AE771803', rocznik='1996', cena =32511.62 euro, 
+data_zakupu=2020-06-23 
+Lokalizacja:  Odolanów w Poland, 
+
+Transakcja numer: 844! 
+Kupujący= Vlad Stiffkins, email='vstiffkinsnf@wikimedia.org', ip='229.169.5.122', 
+samochod= Dodge model: Ram 1500', color='#d50975', VIN='SALAB2V64EA427540', rocznik='2006', cena =97540.72 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Szemud w Poland, 
+
+Transakcja numer: 853! 
+Kupujący= Francine Shreeves, email='fshreevesno@surveymonkey.com', ip='229.34.247.205', 
+samochod= Dodge model: Charger', color='#fff295', VIN='5TFBM5F12AX467021', rocznik='2012', cena =96970.36 euro, 
+data_zakupu=2020-10-22 
+Lokalizacja:  Český Těšín w Czech Republic, 
+
+Transakcja numer: 872! 
+Kupujący= Michelle Rounsefell, email='mrounsefello7@chronoengine.com', ip='127.142.126.71', 
+samochod= Dodge model: Ram Van B150', color='#d397c2', VIN='NM0KS9BN6DT608431', rocznik='1994', cena =94292.51 euro, 
+data_zakupu=2020-08-10 
+Lokalizacja:  Mętków w Poland, 
+
+Transakcja numer: 884! 
+Kupujący= Roseann June, email='rjuneoj@unicef.org', ip='3.65.84.237', 
+samochod= Dodge model: Stratus', color='#347e3e', VIN='WAUVFAFH9AN251169', rocznik='2003', cena =78182.91 euro, 
+data_zakupu=2020-02-10 
+Lokalizacja:  Valdice w Czech Republic, 
+
+Transakcja numer: 918! 
+Kupujący= Brandyn Rean, email='breanph@xinhuanet.com', ip='237.74.32.111', 
+samochod= Dodge model: Neon', color='#54d872', VIN='WA1LMAFE7ED633440', rocznik='2003', cena =84507.12 euro, 
+data_zakupu=2020-10-06 
+Lokalizacja:  Louny w Czech Republic, 
+
+Transakcja numer: 929! 
+Kupujący= Annissa Beernt, email='abeerntps@about.me', ip='231.81.164.97', 
+samochod= Dodge model: Caravan', color='#c4ee83', VIN='1GYS3CEF6BR619628', rocznik='2010', cena =84143.31 euro, 
+data_zakupu=2020-06-05 
+Lokalizacja:  Horní Štěpánov w Czech Republic, 
+
+Transakcja numer: 946! 
+Kupujący= Claudetta Dorrance, email='cdorranceq9@ft.com', ip='58.120.252.39', 
+samochod= Dodge model: Ram Wagon B350', color='#41c53f', VIN='WBANW5C55AC276163', rocznik='1992', cena =81464.86 euro, 
+data_zakupu=2020-03-14 
+Lokalizacja:  Gręboszów w Poland, 
+
+Transakcja numer: 956! 
+Kupujący= Alon Ziemen, email='aziemenqj@tripod.com', ip='6.117.243.92', 
+samochod= Dodge model: Caravan', color='#35969e', VIN='WBY2Z2C55FV190146', rocznik='1999', cena =24546.55 euro, 
+data_zakupu=2020-10-01 
+Lokalizacja:  Velký Újezd w Czech Republic, 
+
+Transakcja numer: 967! 
+Kupujący= Jedd Pointon, email='jpointonqu@flickr.com', ip='30.221.214.139', 
+samochod= Dodge model: Ram 2500', color='#0caf98', VIN='WBAEN33432P150697', rocznik='1994', cena =60999.32 euro, 
+data_zakupu=2020-09-07 
+Lokalizacja:  Jastrowie w Poland]

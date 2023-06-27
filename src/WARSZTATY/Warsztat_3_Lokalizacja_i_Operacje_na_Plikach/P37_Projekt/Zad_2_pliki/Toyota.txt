@@ -1,0 +1,301 @@
+[
+
+Transakcja numer: 16! 
+Kupujący= Wolf Couroy, email='wcouroyf@dot.gov', ip='204.180.151.24', 
+samochod= Toyota model: T100 Xtra', color='#87b060', VIN='WBAAZ33415K216099', rocznik='1995', cena =83465.10 euro, 
+data_zakupu=2020-05-27 
+Lokalizacja:  Smolec w Poland, 
+
+Transakcja numer: 23! 
+Kupujący= Standford McBayne, email='smcbaynem@topsy.com', ip='219.138.159.166', 
+samochod= Toyota model: 4Runner', color='#5d3d15', VIN='2D4RN7DG9BR523778', rocznik='1997', cena =44024.02 euro, 
+data_zakupu=2020-10-20 
+Lokalizacja:  Chyňava w Czech Republic, 
+
+Transakcja numer: 64! 
+Kupujący= Roseline Francescuccio, email='rfrancescuccio1r@economist.com', ip='252.22.214.206', 
+samochod= Toyota model: T100', color='#fe13d7', VIN='SCBCR73W99C041320', rocznik='1996', cena =56891.24 euro, 
+data_zakupu=2020-02-29 
+Lokalizacja:  Ręczno w Poland, 
+
+Transakcja numer: 93! 
+Kupujący= Jake Wedge, email='jwedge2k@studiopress.com', ip='143.113.58.136', 
+samochod= Toyota model: Camry', color='#a49a39', VIN='19UUB3F71FA807150', rocznik='2010', cena =70473.21 euro, 
+data_zakupu=2020-09-08 
+Lokalizacja:  Zvole w Czech Republic, 
+
+Transakcja numer: 103! 
+Kupujący= Nathaniel Bunney, email='nbunney2u@qq.com', ip='183.181.78.22', 
+samochod= Toyota model: Sequoia', color='#5e30cf', VIN='WBANB33575B546408', rocznik='2012', cena =2401.63 euro, 
+data_zakupu=2020-02-26 
+Lokalizacja:  Polanka Wielka w Poland, 
+
+Transakcja numer: 105! 
+Kupujący= Sadie Lineham, email='slineham2w@nasa.gov', ip='33.94.149.8', 
+samochod= Toyota model: Previa', color='#bdf7a6', VIN='WAUVFAFR5CA695605', rocznik='1997', cena =75874.85 euro, 
+data_zakupu=2020-05-24 
+Lokalizacja:  Nové Město pod Smrkem w Czech Republic, 
+
+Transakcja numer: 118! 
+Kupujący= Terry Necolds, email='tnecolds39@bandcamp.com', ip='127.79.6.232', 
+samochod= Toyota model: Avalon', color='#06894a', VIN='1FTMF1CW5AK981046', rocznik='1998', cena =70333.33 euro, 
+data_zakupu=2020-12-01 
+Lokalizacja:  Železný Brod w Czech Republic, 
+
+Transakcja numer: 135! 
+Kupujący= Austine Owttrim, email='aowttrim3q@canalblog.com', ip='159.241.46.182', 
+samochod= Toyota model: Highlander', color='#12ab72', VIN='3D7TT2CT0AG015316', rocznik='2004', cena =80403.95 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Leipzig w Germany, 
+
+Transakcja numer: 179! 
+Kupujący= Rose Garfitt, email='rgarfitt4y@histats.com', ip='124.148.182.118', 
+samochod= Toyota model: Tercel', color='#143528', VIN='JN8AE2KP3B9529747', rocznik='1993', cena =16793.13 euro, 
+data_zakupu=2020-11-12 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 180! 
+Kupujący= Janet Gourley, email='jgourley4z@sourceforge.net', ip='190.51.206.173', 
+samochod= Toyota model: Tundra', color='#aac26c', VIN='3C3CFFJH9ET358618', rocznik='2005', cena =55141.00 euro, 
+data_zakupu=2020-12-06 
+Lokalizacja:  Zaječí w Czech Republic, 
+
+Transakcja numer: 181! 
+Kupujący= Cody De Lacey, email='cdelacey50@state.gov', ip='99.214.16.225', 
+samochod= Toyota model: 4Runner', color='#a62cc9', VIN='JA4AP3AU6BZ179950', rocznik='1994', cena =79398.95 euro, 
+data_zakupu=2020-01-20 
+Lokalizacja:  Šluknov w Czech Republic, 
+
+Transakcja numer: 222! 
+Kupujący= Lemar Cordes, email='lcordes65@nifty.com', ip='34.120.48.206', 
+samochod= Toyota model: Land Cruiser', color='#54888a', VIN='3GTU2YEJ8CG745896', rocznik='1996', cena =75418.19 euro, 
+data_zakupu=2020-08-30 
+Lokalizacja:  Sokolnice w Czech Republic, 
+
+Transakcja numer: 233! 
+Kupujący= Ruthanne Manion, email='rmanion6g@ask.com', ip='30.95.19.163', 
+samochod= Toyota model: Tacoma Xtra', color='#9b7386', VIN='5N1AA0NC4CN776767', rocznik='1995', cena =17711.85 euro, 
+data_zakupu=2020-07-16 
+Lokalizacja:  Chwaszczyno w Poland, 
+
+Transakcja numer: 243! 
+Kupujący= Maryanna Poyzer, email='mpoyzer6q@mashable.com', ip='153.199.165.20', 
+samochod= Toyota model: Ipsum', color='#b3177d', VIN='3VWF17AT0FM706624', rocznik='2000', cena =41036.16 euro, 
+data_zakupu=2020-10-10 
+Lokalizacja:  Przemków w Poland, 
+
+Transakcja numer: 244! 
+Kupujący= Danyelle Galtone, email='dgaltone6r@jigsy.com', ip='201.182.106.236', 
+samochod= Toyota model: Tacoma Xtra', color='#9420b2', VIN='KL4CJESB1EB970869', rocznik='1997', cena =17651.88 euro, 
+data_zakupu=2020-11-07 
+Lokalizacja:  Petřvald w Czech Republic, 
+
+Transakcja numer: 282! 
+Kupujący= Charity Rodway, email='crodway7t@google.ru', ip='164.149.4.199', 
+samochod= Toyota model: Celica', color='#ae11ba', VIN='WDCYC3HF8BX263054', rocznik='2002', cena =87073.77 euro, 
+data_zakupu=2020-03-13 
+Lokalizacja:  Wołczyn w Poland, 
+
+Transakcja numer: 310! 
+Kupujący= Eadie Rainey, email='erainey8l@google.com', ip='93.125.211.222', 
+samochod= Toyota model: Land Cruiser', color='#20923a', VIN='2HNYD28258H892952', rocznik='2003', cena =78357.14 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Želetava w Czech Republic, 
+
+Transakcja numer: 326! 
+Kupujący= Christina Aloway, email='caloway91@wufoo.com', ip='78.250.168.4', 
+samochod= Toyota model: Yaris', color='#171bde', VIN='1G6DD1E38E0221578', rocznik='2008', cena =95943.63 euro, 
+data_zakupu=2020-01-02 
+Lokalizacja:  Týnec w Czech Republic, 
+
+Transakcja numer: 329! 
+Kupujący= Ilyse Sibthorpe, email='isibthorpe94@smh.com.au', ip='127.142.21.80', 
+samochod= Toyota model: FJ Cruiser', color='#5dbb3b', VIN='WBABS53432J176923', rocznik='2010', cena =42841.55 euro, 
+data_zakupu=2020-08-11 
+Lokalizacja:  Stalowa Wola w Poland, 
+
+Transakcja numer: 345! 
+Kupujący= Tiebout Thomazet, email='tthomazet9k@wikispaces.com', ip='10.246.213.211', 
+samochod= Toyota model: RAV4', color='#66d740', VIN='5N1AA0NCXDN062563', rocznik='2009', cena =3950.60 euro, 
+data_zakupu=2020-07-02 
+Lokalizacja:  Czerniewice w Poland, 
+
+Transakcja numer: 359! 
+Kupujący= Moshe Gerretsen, email='mgerretsen9y@twitter.com', ip='63.34.206.123', 
+samochod= Toyota model: Corolla', color='#118388', VIN='WBAPH7C5XAE402049', rocznik='2005', cena =93300.93 euro, 
+data_zakupu=2020-08-12 
+Lokalizacja:  Polkowice w Poland, 
+
+Transakcja numer: 374! 
+Kupujący= Floyd Pigrome, email='fpigromead@guardian.co.uk', ip='3.137.99.181', 
+samochod= Toyota model: Sequoia', color='#f80129', VIN='JH4DC54814S157423', rocznik='2010', cena =13785.83 euro, 
+data_zakupu=2020-10-31 
+Lokalizacja:  Stanisław Górny w Poland, 
+
+Transakcja numer: 390! 
+Kupujący= Nonnah Bage, email='nbageat@seesaa.net', ip='142.86.133.63', 
+samochod= Toyota model: Camry', color='#1c3c00', VIN='WVWAP7AN2EE407945', rocznik='2011', cena =73846.22 euro, 
+data_zakupu=2020-09-14 
+Lokalizacja:  Bechyně w Czech Republic, 
+
+Transakcja numer: 409! 
+Kupujący= Lin Keesman, email='lkeesmanbc@discuz.net', ip='13.155.233.71', 
+samochod= Toyota model: Sienna', color='#fc4291', VIN='1G4HP54K83U176794', rocznik='1999', cena =68263.57 euro, 
+data_zakupu=2020-01-01 
+Lokalizacja:  Düsseldorf w Germany, 
+
+Transakcja numer: 413! 
+Kupujący= Emlynn Bickers, email='ebickersbg@ibm.com', ip='253.187.239.255', 
+samochod= Toyota model: Matrix', color='#fd14b2', VIN='WBANV13538C193630', rocznik='2008', cena =66666.84 euro, 
+data_zakupu=2020-07-16 
+Lokalizacja:  Buštěhrad w Czech Republic, 
+
+Transakcja numer: 415! 
+Kupujący= Boris Kenneway, email='bkennewaybi@house.gov', ip='107.8.184.2', 
+samochod= Toyota model: Echo', color='#c6ddb7', VIN='2G4WC582961391520', rocznik='2004', cena =57053.25 euro, 
+data_zakupu=2020-03-13 
+Lokalizacja:  Rogóźno w Poland, 
+
+Transakcja numer: 417! 
+Kupujący= Tania Izhaky, email='tizhakybk@upenn.edu', ip='146.214.165.47', 
+samochod= Toyota model: Highlander', color='#87f3c3', VIN='3D7TT2CT0BG620180', rocznik='2001', cena =70370.83 euro, 
+data_zakupu=2020-09-21 
+Lokalizacja:  Ożarowice w Poland, 
+
+Transakcja numer: 452! 
+Kupujący= Josepha Chartre, email='jchartrecj@google.de', ip='150.220.138.110', 
+samochod= Toyota model: MR2', color='#538b3d', VIN='WAUCH74F89N000497', rocznik='2001', cena =46421.38 euro, 
+data_zakupu=2020-08-29 
+Lokalizacja:  Moravský Beroun w Czech Republic, 
+
+Transakcja numer: 488! 
+Kupujący= Hollyanne Smorfit, email='hsmorfitdj@hatena.ne.jp', ip='163.248.199.68', 
+samochod= Toyota model: Supra', color='#7c4bdb', VIN='JM1CW2BL2E0937616', rocznik='1992', cena =8892.98 euro, 
+data_zakupu=2020-06-11 
+Lokalizacja:  Štěchovice w Czech Republic, 
+
+Transakcja numer: 509! 
+Kupujący= Thoma Benedidick, email='tbenedidicke4@a8.net', ip='177.69.83.120', 
+samochod= Toyota model: 4Runner', color='#2a8897', VIN='1FMCU4K34CK742581', rocznik='2012', cena =59534.29 euro, 
+data_zakupu=2020-02-12 
+Lokalizacja:  Śródmieście w Poland, 
+
+Transakcja numer: 546! 
+Kupujący= Christen Koeppe, email='ckoeppef5@slashdot.org', ip='58.25.235.162', 
+samochod= Toyota model: RAV4', color='#48749a', VIN='SCFEBBAK6CG505159', rocznik='2002', cena =43748.05 euro, 
+data_zakupu=2020-11-13 
+Lokalizacja:  Velké Losiny w Czech Republic, 
+
+Transakcja numer: 557! 
+Kupujący= Lolly Waadenburg, email='lwaadenburgfg@nymag.com', ip='61.50.110.80', 
+samochod= Toyota model: Tacoma', color='#10eaf3', VIN='3VW8S7AT0FM916890', rocznik='2000', cena =9305.26 euro, 
+data_zakupu=2020-11-26 
+Lokalizacja:  Dobříš w Czech Republic, 
+
+Transakcja numer: 566! 
+Kupujący= Edmon Brennon, email='ebrennonfp@auda.org.au', ip='181.101.27.121', 
+samochod= Toyota model: Corolla', color='#fc8cc5', VIN='5UXFA53502L717428', rocznik='1999', cena =69632.55 euro, 
+data_zakupu=2020-09-04 
+Lokalizacja:  Wiesbaden w Germany, 
+
+Transakcja numer: 569! 
+Kupujący= Corilla Bigmore, email='cbigmorefs@free.fr', ip='162.5.54.22', 
+samochod= Toyota model: Solara', color='#bb2689', VIN='WBA3B9G5XEN164490', rocznik='2004', cena =76247.84 euro, 
+data_zakupu=2020-05-10 
+Lokalizacja:  Ždánice w Czech Republic, 
+
+Transakcja numer: 641! 
+Kupujący= Florenza Mitton, email='fmittonhs@europa.eu', ip='206.22.154.208', 
+samochod= Toyota model: Land Cruiser', color='#f46ba9', VIN='KMHTC6ADXCU518571', rocznik='2000', cena =98423.50 euro, 
+data_zakupu=2020-01-21 
+Lokalizacja:  Štěnovice w Czech Republic, 
+
+Transakcja numer: 688! 
+Kupujący= Desmond Silcock, email='dsilcockj3@amazon.de', ip='122.30.242.133', 
+samochod= Toyota model: Land Cruiser', color='#10a5e4', VIN='2C3CCAJGXEH687937', rocznik='2001', cena =3437.42 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Zagórze w Poland, 
+
+Transakcja numer: 701! 
+Kupujący= Tiffany Chiene, email='tchienejg@hubpages.com', ip='128.192.42.90', 
+samochod= Toyota model: Tacoma Xtra', color='#07e6d9', VIN='WA1DGAFE8FD270367', rocznik='2003', cena =30131.86 euro, 
+data_zakupu=2020-01-12 
+Lokalizacja:  Parczew w Poland, 
+
+Transakcja numer: 738! 
+Kupujący= Adolphus Artindale, email='aartindalekh@businesswire.com', ip='43.232.241.99', 
+samochod= Toyota model: TundraMax', color='#912d77', VIN='3C63DRJL2CG659266', rocznik='2008', cena =21198.48 euro, 
+data_zakupu=2020-06-16 
+Lokalizacja:  Piastów w Poland, 
+
+Transakcja numer: 764! 
+Kupujący= Nealon Mewhirter, email='nmewhirterl7@amazon.co.jp', ip='102.107.68.203', 
+samochod= Toyota model: 4Runner', color='#72a09a', VIN='1ZVBP8JS1A5304443', rocznik='2002', cena =70872.84 euro, 
+data_zakupu=2020-04-12 
+Lokalizacja:  Všeruby w Czech Republic, 
+
+Transakcja numer: 769! 
+Kupujący= Herby Kidwell, email='hkidwelllc@prweb.com', ip='147.253.32.231', 
+samochod= Toyota model: Corolla', color='#b24a81', VIN='WBAAV33411F763601', rocznik='2005', cena =74715.53 euro, 
+data_zakupu=2020-08-01 
+Lokalizacja:  Mrągowo w Poland, 
+
+Transakcja numer: 774! 
+Kupujący= Ninetta Sole, email='nsolelh@mysql.com', ip='80.93.165.125', 
+samochod= Toyota model: Sequoia', color='#688fdc', VIN='1G6AM5SX7E0984774', rocznik='2008', cena =46742.90 euro, 
+data_zakupu=2020-09-29 
+Lokalizacja:  Brok w Poland, 
+
+Transakcja numer: 788! 
+Kupujący= Andriana Ox, email='aoxlv@google.de', ip='114.57.19.190', 
+samochod= Toyota model: Prius', color='#91ba46', VIN='WDDHF5GB4AA749620', rocznik='2007', cena =85887.26 euro, 
+data_zakupu=2020-11-01 
+Lokalizacja:  Horní Bečva w Czech Republic, 
+
+Transakcja numer: 794! 
+Kupujący= Leena Davitti, email='ldavittim1@typepad.com', ip='32.214.186.244', 
+samochod= Toyota model: Prius', color='#0ea6be', VIN='WBAYF8C50ED780859', rocznik='2002', cena =64093.23 euro, 
+data_zakupu=2020-12-02 
+Lokalizacja:  Jaroměř w Czech Republic, 
+
+Transakcja numer: 799! 
+Kupujący= Rayshell Macklam, email='rmacklamm6@canalblog.com', ip='58.131.18.96', 
+samochod= Toyota model: Camry', color='#3efd14', VIN='WDDLJ6FB3FA174806', rocznik='2004', cena =93120.77 euro, 
+data_zakupu=2020-10-10 
+Lokalizacja:  Kobiernice w Poland, 
+
+Transakcja numer: 847! 
+Kupujący= Yule Huggin, email='yhugginni@amazonaws.com', ip='121.73.61.74', 
+samochod= Toyota model: Tundra', color='#1bb37d', VIN='WBALZ5C53CC442908', rocznik='2004', cena =10592.64 euro, 
+data_zakupu=2020-09-09 
+Lokalizacja:  Wałcz w Poland, 
+
+Transakcja numer: 909! 
+Kupujący= Rheta Dorber, email='rdorberp8@bing.com', ip='177.162.38.1', 
+samochod= Toyota model: Avalon', color='#dbb349', VIN='5TDBW5G13DS164073', rocznik='2009', cena =61601.91 euro, 
+data_zakupu=2020-03-31 
+Lokalizacja:  Horní Čermná w Czech Republic, 
+
+Transakcja numer: 917! 
+Kupujący= Catharina Muzzillo, email='cmuzzillopg@furl.net', ip='118.117.250.220', 
+samochod= Toyota model: Tacoma', color='#eac125', VIN='WP0AB2A9XFS778407', rocznik='2009', cena =82909.59 euro, 
+data_zakupu=2020-05-23 
+Lokalizacja:  Stubno w Poland, 
+
+Transakcja numer: 921! 
+Kupujący= Janey Stell, email='jstellpk@shareasale.com', ip='154.3.35.248', 
+samochod= Toyota model: Celica', color='#9e3ae4', VIN='JTHBK1EG1B2777114', rocznik='1995', cena =28857.08 euro, 
+data_zakupu=2020-09-20 
+Lokalizacja:  Staré Město w Czech Republic, 
+
+Transakcja numer: 939! 
+Kupujący= Reinald Burroughes, email='rburroughesq2@ycombinator.com', ip='56.91.145.80', 
+samochod= Toyota model: T100', color='#164546', VIN='WP0AA2A99FS949005', rocznik='1996', cena =83019.17 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Miętne w Poland, 
+
+Transakcja numer: 988! 
+Kupujący= Devon Hayter, email='dhayterrf@ca.gov', ip='119.16.7.244', 
+samochod= Toyota model: Land Cruiser', color='#ae4c1c', VIN='KNAGM4AD6B5126166', rocznik='2008', cena =44841.20 euro, 
+data_zakupu=2020-10-21 
+Lokalizacja:  Besko w Poland]

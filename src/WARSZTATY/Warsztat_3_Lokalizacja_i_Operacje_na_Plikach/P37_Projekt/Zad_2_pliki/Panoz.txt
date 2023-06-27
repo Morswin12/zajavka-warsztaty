@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 77! 
+Kupujący= Addison Kleinstub, email='akleinstub24@prnewswire.com', ip='97.50.102.136', 
+samochod= Panoz model: Esperante', color='#530864', VIN='WAUJT54B53N474177', rocznik='2005', cena =53455.19 euro, 
+data_zakupu=2020-08-28 
+Lokalizacja:  Psáry w Czech Republic]

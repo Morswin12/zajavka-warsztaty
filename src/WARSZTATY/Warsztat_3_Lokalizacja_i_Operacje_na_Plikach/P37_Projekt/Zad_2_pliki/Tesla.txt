@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 937! 
+Kupujący= Charmaine Losseljong, email='closseljongq0@joomla.org', ip='231.4.10.164', 
+samochod= Tesla model: Roadster', color='#67bed4', VIN='2T2BK1BA1BC047234', rocznik='2010', cena =7056.76 euro, 
+data_zakupu=2020-12-09 
+Lokalizacja:  Černožice w Czech Republic]

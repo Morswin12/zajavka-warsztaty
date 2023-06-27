@@ -1,0 +1,253 @@
+[
+
+Transakcja numer: 32! 
+Kupujący= Cello Carroll, email='ccarrollv@spotify.com', ip='213.92.152.33', 
+samochod= Mitsubishi model: Truck', color='#e24e3a', VIN='JN8AZ1MU6CW935297', rocznik='1987', cena =67651.11 euro, 
+data_zakupu=2020-05-18 
+Lokalizacja:  Oborniki Śląskie w Poland, 
+
+Transakcja numer: 66! 
+Kupujący= Clementius Naerup, email='cnaerup1t@tuttocitta.it', ip='233.103.63.102', 
+samochod= Mitsubishi model: 3000GT', color='#75bf79', VIN='1GYS4JEF2DR071261', rocznik='1995', cena =69929.29 euro, 
+data_zakupu=2020-01-28 
+Lokalizacja:  Krásná Lípa w Czech Republic, 
+
+Transakcja numer: 80! 
+Kupujący= Chariot Kops, email='ckops27@mapquest.com', ip='126.25.65.87', 
+samochod= Mitsubishi model: Montero', color='#93601f', VIN='WBAFR1C55BC272071', rocznik='2001', cena =19694.43 euro, 
+data_zakupu=2020-06-06 
+Lokalizacja:  Ścinawa w Poland, 
+
+Transakcja numer: 124! 
+Kupujący= Maxine Sleath, email='msleath3f@gmpg.org', ip='191.46.219.106', 
+samochod= Mitsubishi model: Raider', color='#3424eb', VIN='WA1LGAFE5ED933548', rocznik='2006', cena =67799.88 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Skoczów w Poland, 
+
+Transakcja numer: 149! 
+Kupujący= Julee Gough, email='jgough44@ebay.co.uk', ip='18.43.22.229', 
+samochod= Mitsubishi model: Outlander', color='#87aa7a', VIN='5TFBW5F13CX770970', rocznik='2012', cena =20062.34 euro, 
+data_zakupu=2020-10-14 
+Lokalizacja:  Wąsosz w Poland, 
+
+Transakcja numer: 185! 
+Kupujący= Melinde Grimsdike, email='mgrimsdike54@about.com', ip='178.79.124.46', 
+samochod= Mitsubishi model: Endeavor', color='#0543fc', VIN='1FTEX1C80AF812466', rocznik='2006', cena =91031.36 euro, 
+data_zakupu=2020-08-19 
+Lokalizacja:  Jawornik Polski w Poland, 
+
+Transakcja numer: 236! 
+Kupujący= Fidela Morot, email='fmorot6j@sphinn.com', ip='182.65.149.159', 
+samochod= Mitsubishi model: Endeavor', color='#033a8d', VIN='JTHKD5BH5E2436995', rocznik='2010', cena =13604.86 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Bohutín w Czech Republic, 
+
+Transakcja numer: 272! 
+Kupujący= Gregory Farmiloe, email='gfarmiloe7j@myspace.com', ip='35.7.201.117', 
+samochod= Mitsubishi model: Mirage', color='#56b2f6', VIN='1GYEE23A290317227', rocznik='1985', cena =68946.01 euro, 
+data_zakupu=2020-02-25 
+Lokalizacja:  Lysice w Czech Republic, 
+
+Transakcja numer: 277! 
+Kupujący= Burty Rowswell, email='browswell7o@aboutads.info', ip='76.225.67.25', 
+samochod= Mitsubishi model: Mirage', color='#1a1d90', VIN='1GYS4GEF6BR688291', rocznik='1989', cena =30618.20 euro, 
+data_zakupu=2020-12-15 
+Lokalizacja:  Golina w Poland, 
+
+Transakcja numer: 281! 
+Kupujący= Forbes Haliburn, email='fhaliburn7s@icq.com', ip='30.109.153.66', 
+samochod= Mitsubishi model: Montero', color='#fe6e3c', VIN='WAUVT58E75A797369', rocznik='2005', cena =19069.70 euro, 
+data_zakupu=2020-09-27 
+Lokalizacja:  Zagórnik w Poland, 
+
+Transakcja numer: 340! 
+Kupujący= Berny Jereatt, email='bjereatt9f@php.net', ip='80.188.172.239', 
+samochod= Mitsubishi model: Lancer', color='#afda2e', VIN='SCBLF44J39C915414', rocznik='2004', cena =48645.33 euro, 
+data_zakupu=2020-03-09 
+Lokalizacja:  Kobylanka w Poland, 
+
+Transakcja numer: 354! 
+Kupujący= Vi Ogilvie, email='vogilvie9t@yandex.ru', ip='83.96.144.114', 
+samochod= Mitsubishi model: GTO', color='#1e6d7e', VIN='3VW507AT2FM463610', rocznik='1999', cena =82712.62 euro, 
+data_zakupu=2020-09-09 
+Lokalizacja:  Przelewice w Poland, 
+
+Transakcja numer: 442! 
+Kupujący= Damien Hingeley, email='dhingeleyc9@tumblr.com', ip='115.218.94.51', 
+samochod= Mitsubishi model: Mirage', color='#6c64f1', VIN='WAULT58E55A309706', rocznik='1990', cena =75669.99 euro, 
+data_zakupu=2020-05-09 
+Lokalizacja:  Jonkowo w Poland, 
+
+Transakcja numer: 461! 
+Kupujący= Lenora Dymick, email='ldymickcs@businesswire.com', ip='162.204.7.157', 
+samochod= Mitsubishi model: Eclipse', color='#0d386e', VIN='1FTSX2B58AE390940', rocznik='2008', cena =60875.66 euro, 
+data_zakupu=2020-06-20 
+Lokalizacja:  Wodzierady w Poland, 
+
+Transakcja numer: 474! 
+Kupujący= Jack Wetherell, email='jwetherelld5@so-net.ne.jp', ip='182.74.238.120', 
+samochod= Mitsubishi model: Truck', color='#500e59', VIN='WAU3FAFR3AA975656', rocznik='1995', cena =16530.55 euro, 
+data_zakupu=2020-10-23 
+Lokalizacja:  Karolinka w Czech Republic, 
+
+Transakcja numer: 484! 
+Kupujący= Maynard Rabson, email='mrabsondf@e-recht24.de', ip='217.148.1.146', 
+samochod= Mitsubishi model: Expo', color='#d4d13a', VIN='SCFEBBDL8EG492602', rocznik='1993', cena =44918.65 euro, 
+data_zakupu=2020-10-14 
+Lokalizacja:  Miasteczko Śląskie w Poland, 
+
+Transakcja numer: 496! 
+Kupujący= Engracia McConigal, email='emcconigaldr@economist.com', ip='192.221.245.52', 
+samochod= Mitsubishi model: Lancer Evolution', color='#3ab50c', VIN='KMHTC6AD1DU270115', rocznik='2005', cena =47392.84 euro, 
+data_zakupu=2020-11-04 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 501! 
+Kupujący= Haven Leafe, email='hleafedw@livejournal.com', ip='9.135.206.218', 
+samochod= Mitsubishi model: Starion', color='#db5bc9', VIN='WAUBNBFB4AN689797', rocznik='1987', cena =90774.68 euro, 
+data_zakupu=2020-07-19 
+Lokalizacja:  Oborniki Śląskie w Poland, 
+
+Transakcja numer: 518! 
+Kupujący= Ronnie Reville, email='rrevilleed@e-recht24.de', ip='71.195.74.151', 
+samochod= Mitsubishi model: Raider', color='#98fd16', VIN='WAUEH78E17A803568', rocznik='2006', cena =30250.68 euro, 
+data_zakupu=2020-04-27 
+Lokalizacja:  Uherský Ostroh w Czech Republic, 
+
+Transakcja numer: 529! 
+Kupujący= Inge Gummary, email='igummaryeo@github.com', ip='171.26.33.125', 
+samochod= Mitsubishi model: Truck', color='#740f37', VIN='JA32X2HU2BU735127', rocznik='1996', cena =23585.47 euro, 
+data_zakupu=2020-05-07 
+Lokalizacja:  Dolní Lhota w Czech Republic, 
+
+Transakcja numer: 532! 
+Kupujący= Graehme Trow, email='gtrower@ehow.com', ip='76.126.31.158', 
+samochod= Mitsubishi model: Eclipse', color='#bee854', VIN='1G6DL8ED0B0041804', rocznik='1995', cena =12423.75 euro, 
+data_zakupu=2020-05-13 
+Lokalizacja:  Strzelin w Poland, 
+
+Transakcja numer: 540! 
+Kupujący= Mignonne Duberry, email='mduberryez@cbc.ca', ip='207.251.252.74', 
+samochod= Mitsubishi model: Endeavor', color='#d2bbab', VIN='5N1AA0NCXEN690091', rocznik='2010', cena =75776.61 euro, 
+data_zakupu=2020-04-05 
+Lokalizacja:  Ochla w Poland, 
+
+Transakcja numer: 578! 
+Kupujący= Bianka Dunford, email='bdunfordg1@is.gd', ip='252.215.226.204', 
+samochod= Mitsubishi model: Mirage', color='#f715db', VIN='WAUKH94F07N082312', rocznik='1993', cena =23504.15 euro, 
+data_zakupu=2020-02-09 
+Lokalizacja:  Lubasz w Poland, 
+
+Transakcja numer: 626! 
+Kupujący= Gale Cardon, email='gcardonhd@yolasite.com', ip='150.169.159.29', 
+samochod= Mitsubishi model: Raider', color='#48db76', VIN='WAUNF78P76A958955', rocznik='2008', cena =19402.45 euro, 
+data_zakupu=2020-07-28 
+Lokalizacja:  Tarłów w Poland, 
+
+Transakcja numer: 629! 
+Kupujący= Elston Perrygo, email='eperrygohg@homestead.com', ip='53.191.167.97', 
+samochod= Mitsubishi model: Starion', color='#1568a9', VIN='1G6AM5S31F0988575', rocznik='1984', cena =55346.91 euro, 
+data_zakupu=2020-05-01 
+Lokalizacja:  Widuchowa w Poland, 
+
+Transakcja numer: 644! 
+Kupujący= Essa Pamphilon, email='epamphilonhv@mysql.com', ip='45.140.26.241', 
+samochod= Mitsubishi model: Pajero', color='#289ccc', VIN='WBACN53481L549243', rocznik='2005', cena =78651.13 euro, 
+data_zakupu=2020-05-10 
+Lokalizacja:  Lubasz w Poland, 
+
+Transakcja numer: 650! 
+Kupujący= Sherm Prevett, email='sprevetti1@nature.com', ip='242.155.58.172', 
+samochod= Mitsubishi model: Pajero', color='#97bc5c', VIN='JN1AJ0HP7AM004952', rocznik='1988', cena =88876.44 euro, 
+data_zakupu=2020-11-25 
+Lokalizacja:  Bodzechów w Poland, 
+
+Transakcja numer: 662! 
+Kupujący= Valentia Culkin, email='vculkinid@barnesandnoble.com', ip='186.188.69.253', 
+samochod= Mitsubishi model: Montero Sport', color='#edce01', VIN='3D73Y3CL1AG102536', rocznik='2003', cena =10997.24 euro, 
+data_zakupu=2020-11-13 
+Lokalizacja:  Czerniewice w Poland, 
+
+Transakcja numer: 687! 
+Kupujący= Nicoli Traves, email='ntravesj2@pbs.org', ip='23.11.209.173', 
+samochod= Mitsubishi model: Pajero', color='#52460c', VIN='3VW507AT9EM432711', rocznik='1993', cena =87775.12 euro, 
+data_zakupu=2020-09-13 
+Lokalizacja:  Namysłów w Poland, 
+
+Transakcja numer: 691! 
+Kupujący= Carling Wyke, email='cwykej6@seattletimes.com', ip='170.139.150.129', 
+samochod= Mitsubishi model: GTO', color='#50cd80', VIN='WAUKFAFL9DN682154', rocznik='1995', cena =5804.80 euro, 
+data_zakupu=2020-08-20 
+Lokalizacja:  Żernica w Poland, 
+
+Transakcja numer: 695! 
+Kupujący= Aleda Muirhead, email='amuirheadja@bloomberg.com', ip='35.247.64.104', 
+samochod= Mitsubishi model: Lancer', color='#b478e4', VIN='KM8JT3AB3DU734364', rocznik='2004', cena =25092.29 euro, 
+data_zakupu=2020-10-14 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 736! 
+Kupujący= Bryan Thiolier, email='bthiolierkf@delicious.com', ip='183.200.133.169', 
+samochod= Mitsubishi model: Pajero', color='#e3825f', VIN='WBA3N9C54EK059510', rocznik='2002', cena =40611.47 euro, 
+data_zakupu=2020-02-18 
+Lokalizacja:  Bílovec w Czech Republic, 
+
+Transakcja numer: 810! 
+Kupujący= Cathrine Baysting, email='cbaystingmh@slashdot.org', ip='127.42.205.62', 
+samochod= Mitsubishi model: GTO', color='#555fa6', VIN='1FTWW3DY2AE410486', rocznik='1997', cena =54508.40 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Izbicko w Poland, 
+
+Transakcja numer: 814! 
+Kupujący= Adria Kmiec, email='akmiecml@forbes.com', ip='108.75.144.161', 
+samochod= Mitsubishi model: Lancer Evolution', color='#af68ea', VIN='KMHCM3AC0BU954573', rocznik='2011', cena =48174.13 euro, 
+data_zakupu=2020-07-31 
+Lokalizacja:  Mirów w Poland, 
+
+Transakcja numer: 823! 
+Kupujący= Iona Hurdidge, email='ihurdidgemu@craigslist.org', ip='5.11.204.5', 
+samochod= Mitsubishi model: Challenger', color='#fd1967', VIN='JTHBC1KS7B5733378', rocznik='1999', cena =24182.93 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Latowicz w Poland, 
+
+Transakcja numer: 856! 
+Kupujący= Neddy Danihelka, email='ndanihelkanr@cmu.edu', ip='210.3.20.110', 
+samochod= Mitsubishi model: Truck', color='#a95560', VIN='1FTEX1CM0CF350961', rocznik='1992', cena =26599.44 euro, 
+data_zakupu=2020-08-06 
+Lokalizacja:  Wilkowice w Poland, 
+
+Transakcja numer: 880! 
+Kupujący= Morlee Blacklawe, email='mblacklaweof@domainmarket.com', ip='251.250.227.153', 
+samochod= Mitsubishi model: Endeavor', color='#7a1d81', VIN='2HNYD28267H388036', rocznik='2009', cena =4000.68 euro, 
+data_zakupu=2020-12-12 
+Lokalizacja:  Sezemice w Czech Republic, 
+
+Transakcja numer: 895! 
+Kupujący= Barnett Britcher, email='bbritcherou@blog.com', ip='43.219.219.175', 
+samochod= Mitsubishi model: Starion', color='#33d7a0', VIN='1GYS4HEF4CR449006', rocznik='1984', cena =73629.88 euro, 
+data_zakupu=2020-12-07 
+Lokalizacja:  Żarki-Letnisko w Poland, 
+
+Transakcja numer: 927! 
+Kupujący= Kareem Rheam, email='krheampq@unblog.fr', ip='239.86.70.84', 
+samochod= Mitsubishi model: Eclipse', color='#755613', VIN='WBA6B8C58FD828998', rocznik='1999', cena =86159.35 euro, 
+data_zakupu=2020-09-10 
+Lokalizacja:  Wysoka w Poland, 
+
+Transakcja numer: 936! 
+Kupujący= Paxton Romme, email='prommepz@arstechnica.com', ip='57.101.216.153', 
+samochod= Mitsubishi model: Pajero', color='#4dbe83', VIN='1FBNE3BL4BD056729', rocznik='1988', cena =42986.39 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Obryte w Poland, 
+
+Transakcja numer: 983! 
+Kupujący= Andrus Sutterby, email='asutterbyra@godaddy.com', ip='160.244.236.27', 
+samochod= Mitsubishi model: Mirage', color='#b422c6', VIN='1FTWX3D57AE721169', rocznik='1988', cena =88972.98 euro, 
+data_zakupu=2020-12-21 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 997! 
+Kupujący= Angy Tait, email='ataitro@ustream.tv', ip='158.170.176.89', 
+samochod= Mitsubishi model: Montero', color='#3a4344', VIN='5GAKRAED6CJ976705', rocznik='1999', cena =14036.44 euro, 
+data_zakupu=2020-06-01 
+Lokalizacja:  Mosina w Poland]

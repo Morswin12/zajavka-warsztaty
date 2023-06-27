@@ -1,0 +1,205 @@
+[
+
+Transakcja numer: 98! 
+Kupujący= Elmo Bezant, email='ebezant2p@newsvine.com', ip='235.99.242.125', 
+samochod= Mercury model: Cougar', color='#952399', VIN='1FTMF1CW3AF329339', rocznik='1970', cena =88700.15 euro, 
+data_zakupu=2020-01-04 
+Lokalizacja:  Mirošov w Czech Republic, 
+
+Transakcja numer: 114! 
+Kupujący= Lorenza Eley, email='leley35@free.fr', ip='91.212.4.150', 
+samochod= Mercury model: Tracer', color='#64b9b1', VIN='1G4PP5SK1F4723682', rocznik='1991', cena =27729.92 euro, 
+data_zakupu=2020-10-15 
+Lokalizacja:  Dębno w Poland, 
+
+Transakcja numer: 176! 
+Kupujący= Gay Meeking, email='gmeeking4v@wired.com', ip='79.239.0.249', 
+samochod= Mercury model: Cougar', color='#ee0712', VIN='WAUDF58EX5A224615', rocznik='2001', cena =84681.86 euro, 
+data_zakupu=2020-04-25 
+Lokalizacja:  Działoszyce w Poland, 
+
+Transakcja numer: 188! 
+Kupujący= Hettie Swyn, email='hswyn57@engadget.com', ip='189.107.173.220', 
+samochod= Mercury model: Mystique', color='#43f10e', VIN='WA1YD54B14N438089', rocznik='1999', cena =94727.98 euro, 
+data_zakupu=2020-05-03 
+Lokalizacja:  Bohumín w Czech Republic, 
+
+Transakcja numer: 201! 
+Kupujący= Stillmann Grazier, email='sgrazier5k@youtube.com', ip='126.104.250.87', 
+samochod= Mercury model: Villager', color='#48fda8', VIN='2T3BF4DV5BW765482', rocznik='2000', cena =64650.99 euro, 
+data_zakupu=2020-09-04 
+Lokalizacja:  Łobez w Poland, 
+
+Transakcja numer: 209! 
+Kupujący= Emmalynne Arckoll, email='earckoll5s@networksolutions.com', ip='141.212.255.13', 
+samochod= Mercury model: Grand Marquis', color='#14fc51', VIN='WAUEFAFL2AN732952', rocznik='1994', cena =55536.92 euro, 
+data_zakupu=2020-04-29 
+Lokalizacja:  Wyszków w Poland, 
+
+Transakcja numer: 216! 
+Kupujący= Dunc Chrispin, email='dchrispin5z@stanford.edu', ip='243.36.47.188', 
+samochod= Mercury model: Mountaineer', color='#1611ef', VIN='WAUCFAFR5FA025161', rocznik='2008', cena =42602.38 euro, 
+data_zakupu=2020-03-23 
+Lokalizacja:  Hrob w Czech Republic, 
+
+Transakcja numer: 217! 
+Kupujący= Hardy Breslane, email='hbreslane60@kickstarter.com', ip='73.191.94.185', 
+samochod= Mercury model: Grand Marquis', color='#6f2969', VIN='3GTU1YEJ4DG749044', rocznik='1995', cena =18317.22 euro, 
+data_zakupu=2020-02-16 
+Lokalizacja:  Jonkowo w Poland, 
+
+Transakcja numer: 239! 
+Kupujący= Marla Smallcomb, email='msmallcomb6m@edublogs.org', ip='169.130.72.178', 
+samochod= Mercury model: Grand Marquis', color='#52db8a', VIN='3FAHP0CG8CR001253', rocznik='2002', cena =16508.63 euro, 
+data_zakupu=2020-12-06 
+Lokalizacja:  Jablunkov w Czech Republic, 
+
+Transakcja numer: 311! 
+Kupujący= Ronni Nibley, email='rnibley8m@hibu.com', ip='124.9.3.216', 
+samochod= Mercury model: Milan', color='#10cae0', VIN='3GYFK62878G443953', rocznik='2009', cena =63884.95 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Grojec w Poland, 
+
+Transakcja numer: 315! 
+Kupujący= Hinze Gorriessen, email='hgorriessen8q@shutterfly.com', ip='38.156.81.87', 
+samochod= Mercury model: Villager', color='#dcba80', VIN='KNAGM4AD9F5600469', rocznik='2001', cena =31679.55 euro, 
+data_zakupu=2020-07-29 
+Lokalizacja:  Siemianowice Śląskie w Poland, 
+
+Transakcja numer: 317! 
+Kupujący= Khalil Barwack, email='kbarwack8s@lycos.com', ip='116.51.91.210', 
+samochod= Mercury model: Mariner', color='#b2b7cc', VIN='1GYS4DEF3DR442820', rocznik='2005', cena =51045.02 euro, 
+data_zakupu=2020-02-27 
+Lokalizacja:  Nelahozeves w Czech Republic, 
+
+Transakcja numer: 328! 
+Kupujący= Elnar Coltart, email='ecoltart93@nytimes.com', ip='145.206.93.96', 
+samochod= Mercury model: Mariner', color='#58dff1', VIN='JTEBU5JR2B5223875', rocznik='2008', cena =26925.61 euro, 
+data_zakupu=2020-10-28 
+Lokalizacja:  Heřmanův Městec w Czech Republic, 
+
+Transakcja numer: 342! 
+Kupujący= Alyssa Clashe, email='aclashe9h@blinklist.com', ip='230.61.62.9', 
+samochod= Mercury model: Lynx', color='#8a68e6', VIN='1G6DH5E50D0785012', rocznik='1984', cena =82170.72 euro, 
+data_zakupu=2020-03-06 
+Lokalizacja:  Ryglice w Poland, 
+
+Transakcja numer: 358! 
+Kupujący= Olia Callan, email='ocallan9x@infoseek.co.jp', ip='233.216.233.211', 
+samochod= Mercury model: Mountaineer', color='#39ef77', VIN='KMHHT6KD9AU835985', rocznik='2009', cena =22855.77 euro, 
+data_zakupu=2020-10-30 
+Lokalizacja:  Rozwadza w Poland, 
+
+Transakcja numer: 378! 
+Kupujący= Deidre Chazier, email='dchazierah@ustream.tv', ip='136.230.58.76', 
+samochod= Mercury model: Grand Marquis', color='#3947d1', VIN='WBAAV53491F688562', rocznik='1988', cena =28802.63 euro, 
+data_zakupu=2020-10-16 
+Lokalizacja:  Międzyzdroje w Poland, 
+
+Transakcja numer: 402! 
+Kupujący= Mayer Lazer, email='mlazerb5@edublogs.org', ip='167.64.141.230', 
+samochod= Mercury model: Mountaineer', color='#734860', VIN='WP0CA2A86FS611688', rocznik='1997', cena =41726.55 euro, 
+data_zakupu=2020-11-07 
+Lokalizacja:  Karnice w Poland, 
+
+Transakcja numer: 510! 
+Kupujący= Olly Sheryn, email='osheryne5@zimbio.com', ip='26.43.42.200', 
+samochod= Mercury model: Sable', color='#b17c5c', VIN='1GKS1AE01BR826492', rocznik='2008', cena =88771.17 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Dobczyce w Poland, 
+
+Transakcja numer: 526! 
+Kupujący= Gabriell Derr, email='gderrel@de.vu', ip='244.77.221.211', 
+samochod= Mercury model: Cougar', color='#478496', VIN='1FMJK1F54CE291898', rocznik='2002', cena =50675.72 euro, 
+data_zakupu=2020-01-10 
+Lokalizacja:  Drezdenko w Poland, 
+
+Transakcja numer: 553! 
+Kupujący= Faythe Shenton, email='fshentonfc@archive.org', ip='140.12.228.183', 
+samochod= Mercury model: Mariner', color='#07291f', VIN='WBASP2C56CC901204', rocznik='2006', cena =53006.62 euro, 
+data_zakupu=2020-09-04 
+Lokalizacja:  Gołkowice w Poland, 
+
+Transakcja numer: 563! 
+Kupujący= Florinda Maier, email='fmaierfm@economist.com', ip='147.254.125.182', 
+samochod= Mercury model: Sable', color='#d10a8b', VIN='1FA6P8AM6F5627941', rocznik='2001', cena =37903.44 euro, 
+data_zakupu=2020-07-13 
+Lokalizacja:  Kokotów w Poland, 
+
+Transakcja numer: 694! 
+Kupujący= Jeannine Grimbaldeston, email='jgrimbaldestonj9@army.mil', ip='151.193.138.112', 
+samochod= Mercury model: Cougar', color='#3e9c11', VIN='1FTEW1CM8EF381297', rocznik='1967', cena =55346.30 euro, 
+data_zakupu=2020-05-22 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 708! 
+Kupujący= Nealon De Gogay, email='ndegogayjn@yelp.com', ip='49.109.86.206', 
+samochod= Mercury model: Topaz', color='#a8ad35', VIN='WAULT58E05A962122', rocznik='1992', cena =88186.70 euro, 
+data_zakupu=2020-10-15 
+Lokalizacja:  Olszówka w Poland, 
+
+Transakcja numer: 712! 
+Kupujący= Collin Sollime, email='csollimejr@sciencedirect.com', ip='177.129.229.227', 
+samochod= Mercury model: Tracer', color='#647785', VIN='WBADR634X1G734997', rocznik='1992', cena =29227.96 euro, 
+data_zakupu=2020-06-23 
+Lokalizacja:  Všetaty w Czech Republic, 
+
+Transakcja numer: 756! 
+Kupujący= Dina Walkey, email='dwalkeykz@wisc.edu', ip='233.131.26.182', 
+samochod= Mercury model: Grand Marquis', color='#17dbfd', VIN='SCBBR93W88C407550', rocznik='1992', cena =96434.99 euro, 
+data_zakupu=2020-04-11 
+Lokalizacja:  Františkovy Lázně w Czech Republic, 
+
+Transakcja numer: 790! 
+Kupujący= Benyamin Nodes, email='bnodeslx@gizmodo.com', ip='112.70.141.94', 
+samochod= Mercury model: Villager', color='#c5ab8a', VIN='KMHGC4DD0DU079500', rocznik='1996', cena =19761.40 euro, 
+data_zakupu=2020-05-14 
+Lokalizacja:  Hamburg Harvestehude w Germany, 
+
+Transakcja numer: 792! 
+Kupujący= Leigh Froschauer, email='lfroschauerlz@wufoo.com', ip='97.207.13.52', 
+samochod= Mercury model: Topaz', color='#690902', VIN='1FTWX3B50AE789283', rocznik='1990', cena =6267.14 euro, 
+data_zakupu=2020-08-27 
+Lokalizacja:  Všetaty w Czech Republic, 
+
+Transakcja numer: 820! 
+Kupujący= Gardener Bilovus, email='gbilovusmr@europa.eu', ip='220.138.58.198', 
+samochod= Mercury model: Grand Marquis', color='#815aac', VIN='1D4PT2GK1AW486876', rocznik='1999', cena =92848.71 euro, 
+data_zakupu=2020-07-15 
+Lokalizacja:  Czarnowąsy w Poland, 
+
+Transakcja numer: 827! 
+Kupujący= Sydney O' Borne, email='sobornemy@arstechnica.com', ip='13.158.39.1', 
+samochod= Mercury model: Topaz', color='#36ce6f', VIN='WAUEF78E07A835773', rocznik='1989', cena =65032.86 euro, 
+data_zakupu=2020-09-15 
+Lokalizacja:  Svoboda nad Úpou w Czech Republic, 
+
+Transakcja numer: 840! 
+Kupujący= Brittaney Hambling, email='bhamblingnb@vkontakte.ru', ip='14.108.5.141', 
+samochod= Mercury model: Sable', color='#73644c', VIN='WBAGL83594D442623', rocznik='1987', cena =32745.24 euro, 
+data_zakupu=2020-11-21 
+Lokalizacja:  Karnice w Poland, 
+
+Transakcja numer: 940! 
+Kupujący= Garik Dwelley, email='gdwelleyq3@ezinearticles.com', ip='219.56.27.131', 
+samochod= Mercury model: Capri', color='#6d8d13', VIN='19XFA1F30AE306591', rocznik='1992', cena =8438.45 euro, 
+data_zakupu=2020-09-16 
+Lokalizacja:  Pražmo w Czech Republic, 
+
+Transakcja numer: 991! 
+Kupujący= Pauly Woolston, email='pwoolstonri@4shared.com', ip='200.141.161.185', 
+samochod= Mercury model: Cougar', color='#eafab3', VIN='JTDBT4K38B1070986', rocznik='1997', cena =18256.62 euro, 
+data_zakupu=2020-10-20 
+Lokalizacja:  Köln w Germany, 
+
+Transakcja numer: 993! 
+Kupujący= Rodd Munkley, email='rmunkleyrk@rambler.ru', ip='24.205.115.116', 
+samochod= Mercury model: Grand Marquis', color='#ad3482', VIN='WAUDFAFL9EN001310', rocznik='2000', cena =21225.95 euro, 
+data_zakupu=2020-01-12 
+Lokalizacja:  Čáslav w Czech Republic, 
+
+Transakcja numer: 995! 
+Kupujący= Rossie Hick, email='rhickrm@google.it', ip='0.110.248.57', 
+samochod= Mercury model: Lynx', color='#1ec438', VIN='2G4GT5GR0D9474299', rocznik='1986', cena =69167.18 euro, 
+data_zakupu=2020-05-12 
+Lokalizacja:  Zamarski w Poland]

@@ -1,0 +1,13 @@
+[
+
+Transakcja numer: 443! 
+Kupujący= Andris Stonnell, email='astonnellca@google.com', ip='165.168.107.3', 
+samochod= Geo model: Metro', color='#d00887', VIN='JN1AZ4EH4DM397570', rocznik='1996', cena =71671.73 euro, 
+data_zakupu=2020-04-23 
+Lokalizacja:  Przystajń w Poland, 
+
+Transakcja numer: 959! 
+Kupujący= Kissee Setchfield, email='ksetchfieldqm@eventbrite.com', ip='192.59.9.139', 
+samochod= Geo model: Metro', color='#f4700c', VIN='1N6AA0CA1FN538091', rocznik='1997', cena =5104.64 euro, 
+data_zakupu=2020-12-01 
+Lokalizacja:  Oleszyce w Poland]

@@ -1,0 +1,109 @@
+[
+
+Transakcja numer: 62! 
+Kupujący= Dorey Ayce, email='dayce1p@oakley.com', ip='237.66.116.77', 
+samochod= Volvo model: XC90', color='#99b43e', VIN='1N4AB7AP3DN745763', rocznik='2003', cena =45536.60 euro, 
+data_zakupu=2020-02-01 
+Lokalizacja:  Jaroměř w Czech Republic, 
+
+Transakcja numer: 81! 
+Kupujący= Marietta Matusovsky, email='mmatusovsky28@wp.com', ip='227.57.182.131', 
+samochod= Volvo model: V50', color='#5e5ac3', VIN='1G6AK5SX1E0004400', rocznik='2006', cena =95214.12 euro, 
+data_zakupu=2020-10-13 
+Lokalizacja:  Lubień Kujawski w Poland, 
+
+Transakcja numer: 104! 
+Kupujący= Hillel Gulberg, email='hgulberg2v@uol.com.br', ip='245.28.146.164', 
+samochod= Volvo model: C30', color='#be8d7c', VIN='WAUSH98E77A370532', rocznik='2012', cena =48525.09 euro, 
+data_zakupu=2020-09-29 
+Lokalizacja:  Sosnowiec w Poland, 
+
+Transakcja numer: 115! 
+Kupujący= Esta Knowlman, email='eknowlman36@webnode.com', ip='162.212.125.85', 
+samochod= Volvo model: S40', color='#4b8723', VIN='WDDHF2EB1DA707847', rocznik='2010', cena =1686.18 euro, 
+data_zakupu=2020-05-03 
+Lokalizacja:  Nová Paka w Czech Republic, 
+
+Transakcja numer: 127! 
+Kupujący= Rhody Silson, email='rsilson3i@woothemes.com', ip='150.7.140.200', 
+samochod= Volvo model: S80', color='#e2f736', VIN='1G4GG5G32CF381077', rocznik='2000', cena =65303.70 euro, 
+data_zakupu=2020-08-10 
+Lokalizacja:  Köln w Germany, 
+
+Transakcja numer: 131! 
+Kupujący= Caritta Penright, email='cpenright3m@intel.com', ip='157.148.217.153', 
+samochod= Volvo model: V70', color='#a07f32', VIN='WDDHH8JBXFB613580', rocznik='2009', cena =61642.73 euro, 
+data_zakupu=2020-09-23 
+Lokalizacja:  Milanówek w Poland, 
+
+Transakcja numer: 174! 
+Kupujący= Jay Diloway, email='jdiloway4t@bluehost.com', ip='112.171.188.5', 
+samochod= Volvo model: XC70', color='#74e5c9', VIN='2FMGK5BC0BB796935', rocznik='2007', cena =39565.71 euro, 
+data_zakupu=2020-11-21 
+Lokalizacja:  Szelków w Poland, 
+
+Transakcja numer: 240! 
+Kupujący= Cletis Swiers, email='cswiers6n@msu.edu', ip='177.142.211.247', 
+samochod= Volvo model: S80', color='#b203c6', VIN='5NPEB4AC1BH572085', rocznik='2000', cena =97566.15 euro, 
+data_zakupu=2020-12-12 
+Lokalizacja:  Pruchnik w Poland, 
+
+Transakcja numer: 350! 
+Kupujący= Granny Vanns, email='gvanns9p@wikimedia.org', ip='206.67.4.114', 
+samochod= Volvo model: XC90', color='#eed324', VIN='3VW4T7AT6EM080674', rocznik='2013', cena =52450.55 euro, 
+data_zakupu=2020-06-01 
+Lokalizacja:  Puńsk w Poland, 
+
+Transakcja numer: 447! 
+Kupujący= Pippy Lawry, email='plawryce@yahoo.com', ip='135.97.103.59', 
+samochod= Volvo model: 850', color='#7a41d8', VIN='3GYT4NEFXBG214899', rocznik='1996', cena =18007.71 euro, 
+data_zakupu=2020-01-09 
+Lokalizacja:  Dobratice w Czech Republic, 
+
+Transakcja numer: 455! 
+Kupujący= Jannel Sircombe, email='jsircombecm@fastcompany.com', ip='174.0.164.184', 
+samochod= Volvo model: XC70', color='#a69c05', VIN='3VWPG3AG1AM831140', rocznik='2008', cena =84822.49 euro, 
+data_zakupu=2020-07-30 
+Lokalizacja:  Zbýšov w Czech Republic, 
+
+Transakcja numer: 463! 
+Kupujący= Sarge Dewi, email='sdewicu@xinhuanet.com', ip='233.164.255.106', 
+samochod= Volvo model: C70', color='#c79ee1', VIN='WBAYE8C54DD504377', rocznik='2004', cena =28721.16 euro, 
+data_zakupu=2020-01-29 
+Lokalizacja:  Jastrowie w Poland, 
+
+Transakcja numer: 698! 
+Kupujący= Verla Wadlow, email='vwadlowjd@blogtalkradio.com', ip='244.255.54.18', 
+samochod= Volvo model: XC90', color='#1af3da', VIN='WUATNAFG6CN215918', rocznik='2004', cena =88051.88 euro, 
+data_zakupu=2020-04-19 
+Lokalizacja:  Hostomice w Czech Republic, 
+
+Transakcja numer: 707! 
+Kupujący= Darbee Tillett, email='dtillettjm@infoseek.co.jp', ip='228.226.88.199', 
+samochod= Volvo model: S60', color='#d322d0', VIN='19UUA56633A159019', rocznik='2011', cena =3041.86 euro, 
+data_zakupu=2020-11-09 
+Lokalizacja:  Zábřeh w Czech Republic, 
+
+Transakcja numer: 803! 
+Kupujący= Lothaire Capron, email='lcapronma@independent.co.uk', ip='7.85.231.234', 
+samochod= Volvo model: V70', color='#4626e4', VIN='1FT7W2A6XEE524128', rocznik='2006', cena =20525.58 euro, 
+data_zakupu=2020-10-29 
+Lokalizacja:  Jabłoń w Poland, 
+
+Transakcja numer: 818! 
+Kupujący= Raff Robertet, email='rrobertetmp@statcounter.com', ip='53.139.206.96', 
+samochod= Volvo model: S40', color='#896054', VIN='1FTFW1E88AK760919', rocznik='2007', cena =15768.43 euro, 
+data_zakupu=2020-06-21 
+Lokalizacja:  Wysoka w Poland, 
+
+Transakcja numer: 841! 
+Kupujący= Lia Mockford, email='lmockfordnc@naver.com', ip='103.42.221.3', 
+samochod= Volvo model: S80', color='#167bc7', VIN='WBSDX9C58DJ063686', rocznik='2005', cena =24114.33 euro, 
+data_zakupu=2020-06-02 
+Lokalizacja:  Staré Město w Czech Republic, 
+
+Transakcja numer: 933! 
+Kupujący= Charlotta Owbrick, email='cowbrickpw@w3.org', ip='145.128.195.219', 
+samochod= Volvo model: 850', color='#97f49e', VIN='1GYS4TKJXFR276804', rocznik='1996', cena =96991.57 euro, 
+data_zakupu=2020-09-26 
+Lokalizacja:  Radzanów w Poland]

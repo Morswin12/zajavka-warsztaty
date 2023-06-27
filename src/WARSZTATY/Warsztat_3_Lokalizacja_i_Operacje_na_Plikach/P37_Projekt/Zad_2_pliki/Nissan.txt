@@ -1,0 +1,229 @@
+[
+
+Transakcja numer: 76! 
+Kupujący= Ben Yarwood, email='byarwood23@creativecommons.org', ip='118.169.87.59', 
+samochod= Nissan model: 300ZX', color='#ff6af6', VIN='WBA6B4C59DD511334', rocznik='1991', cena =12845.04 euro, 
+data_zakupu=2020-10-02 
+Lokalizacja:  Borzęcin w Poland, 
+
+Transakcja numer: 82! 
+Kupujący= Carlina Sharma, email='csharma29@wsj.com', ip='22.97.208.15', 
+samochod= Nissan model: Altima', color='#744ef6', VIN='WAUJT68EX2A966932', rocznik='2003', cena =36066.50 euro, 
+data_zakupu=2020-02-16 
+Lokalizacja:  Łapanów w Poland, 
+
+Transakcja numer: 106! 
+Kupujący= Chelsey Kreuzer, email='ckreuzer2x@lycos.com', ip='230.41.160.252', 
+samochod= Nissan model: Titan', color='#f22c72', VIN='WVGEF9BP4FD544582', rocznik='2012', cena =18572.45 euro, 
+data_zakupu=2020-04-07 
+Lokalizacja:  Čáslav w Czech Republic, 
+
+Transakcja numer: 122! 
+Kupujący= Enos Kimmons, email='ekimmons3d@netscape.com', ip='97.146.236.243', 
+samochod= Nissan model: Sentra', color='#80f590', VIN='WDDHF5KB9EA860967', rocznik='2002', cena =9821.53 euro, 
+data_zakupu=2020-06-17 
+Lokalizacja:  Erfurt w Germany, 
+
+Transakcja numer: 133! 
+Kupujący= Mauricio Berzin, email='mberzin3o@wired.com', ip='208.131.181.172', 
+samochod= Nissan model: Cube', color='#3fa88c', VIN='WAUUL78E48A965531', rocznik='2012', cena =53525.58 euro, 
+data_zakupu=2020-03-02 
+Lokalizacja:  Chemnitz w Germany, 
+
+Transakcja numer: 146! 
+Kupujący= Penny Litzmann, email='plitzmann41@mapy.cz', ip='8.218.144.184', 
+samochod= Nissan model: Armada', color='#16d952', VIN='WAUDFAFL3AA370858', rocznik='2008', cena =89173.53 euro, 
+data_zakupu=2020-10-02 
+Lokalizacja:  Stoszowice w Poland, 
+
+Transakcja numer: 159! 
+Kupujący= Kata de Glanville, email='kdeglanville4e@jalbum.net', ip='217.141.29.71', 
+samochod= Nissan model: Rogue', color='#68a98f', VIN='1GTC5LF9XC8889885', rocznik='2010', cena =45315.63 euro, 
+data_zakupu=2020-08-17 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 198! 
+Kupujący= Deeann Hruska, email='dhruska5h@epa.gov', ip='3.15.40.200', 
+samochod= Nissan model: Sentra', color='#7887f1', VIN='2C3CDYBT0EH160216', rocznik='2009', cena =5011.93 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Strachówka w Poland, 
+
+Transakcja numer: 219! 
+Kupujący= Julita Davydochkin, email='jdavydochkin62@cnn.com', ip='94.8.177.218', 
+samochod= Nissan model: Sentra', color='#cea04a', VIN='WDDHF0EB5EB909249', rocznik='2005', cena =80813.75 euro, 
+data_zakupu=2020-12-29 
+Lokalizacja:  Leipzig w Germany, 
+
+Transakcja numer: 246! 
+Kupujący= Emyle Tathacott, email='etathacott6t@studiopress.com', ip='90.189.143.41', 
+samochod= Nissan model: Maxima', color='#8aa2ef', VIN='WAUKFAFL2DA494969', rocznik='2000', cena =49132.44 euro, 
+data_zakupu=2020-10-10 
+Lokalizacja:  Markowa w Poland, 
+
+Transakcja numer: 290! 
+Kupujący= Yule Woodier, email='ywoodier81@gizmodo.com', ip='181.230.26.68', 
+samochod= Nissan model: Versa', color='#e71412', VIN='WDDLJ6FB1FA422065', rocznik='2009', cena =91895.71 euro, 
+data_zakupu=2020-07-13 
+Lokalizacja:  Bieliny w Poland, 
+
+Transakcja numer: 396! 
+Kupujący= Mic Musker, email='mmuskeraz@friendfeed.com', ip='251.130.189.20', 
+samochod= Nissan model: Quest', color='#1edf4b', VIN='4T1BD1FK6CU327572', rocznik='1997', cena =14566.11 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Dolsk w Poland, 
+
+Transakcja numer: 416! 
+Kupujący= Jennette Agnew, email='jagnewbj@epa.gov', ip='241.201.207.109', 
+samochod= Nissan model: Pathfinder', color='#10b773', VIN='1N6BF0KX3FN272455', rocznik='1998', cena =82779.06 euro, 
+data_zakupu=2020-12-16 
+Lokalizacja:  Hostavice w Czech Republic, 
+
+Transakcja numer: 418! 
+Kupujący= Silvan Gearing, email='sgearingbl@desdev.cn', ip='142.115.61.196', 
+samochod= Nissan model: Altima', color='#deee1b', VIN='WDDEJ7GB4AA134398', rocznik='1996', cena =21401.25 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Raciąż w Poland, 
+
+Transakcja numer: 505! 
+Kupujący= Raddy Gerrelt, email='rgerrelte0@addtoany.com', ip='109.175.0.64', 
+samochod= Nissan model: Xterra', color='#96317d', VIN='WBA1F5C56FV607357', rocznik='2002', cena =83887.99 euro, 
+data_zakupu=2020-07-06 
+Lokalizacja:  Działdowo w Poland, 
+
+Transakcja numer: 538! 
+Kupujący= Jereme Heyward, email='jheywardex@hao123.com', ip='200.177.128.150', 
+samochod= Nissan model: Altima', color='#8378c9', VIN='3G5DA03L57S121587', rocznik='2002', cena =97208.51 euro, 
+data_zakupu=2020-05-02 
+Lokalizacja:  Dolní Studénky w Czech Republic, 
+
+Transakcja numer: 541! 
+Kupujący= Deborah Chessun, email='dchessunf0@shinystat.com', ip='68.208.158.151', 
+samochod= Nissan model: Datsun/Nissan Z-samochod', color='#8f9dba', VIN='1G4HC5EM3BU002416', rocznik='1990', cena =65142.23 euro, 
+data_zakupu=2020-05-27 
+Lokalizacja:  Psary w Poland, 
+
+Transakcja numer: 544! 
+Kupujący= Rawley Fryman, email='rfrymanf3@edublogs.org', ip='247.204.75.243', 
+samochod= Nissan model: Maxima', color='#4b9010', VIN='WDDUG7GB5FA114193', rocznik='1995', cena =55147.67 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  Sokolniki w Poland, 
+
+Transakcja numer: 574! 
+Kupujący= Alessandra Cloke, email='aclokefx@slashdot.org', ip='212.223.187.227', 
+samochod= Nissan model: Altima', color='#48e196', VIN='5XXGM4A75EG929645', rocznik='2000', cena =55524.45 euro, 
+data_zakupu=2020-01-09 
+Lokalizacja:  Rudziczka w Poland, 
+
+Transakcja numer: 580! 
+Kupujący= Ulrika Wroughton, email='uwroughtong3@tuttocitta.it', ip='141.163.147.147', 
+samochod= Nissan model: 200SX', color='#ce965e', VIN='WAUMR44E66N492420', rocznik='1998', cena =41834.99 euro, 
+data_zakupu=2020-06-06 
+Lokalizacja:  Okrouhlice w Czech Republic, 
+
+Transakcja numer: 616! 
+Kupujący= Early Fury, email='efuryh3@adobe.com', ip='160.189.87.14', 
+samochod= Nissan model: Pathfinder Armada', color='#9b18ac', VIN='WBA4A7C58FG184938', rocznik='2004', cena =96775.20 euro, 
+data_zakupu=2020-02-24 
+Lokalizacja:  Mosty w Poland, 
+
+Transakcja numer: 621! 
+Kupujący= Nolana Semonin, email='nsemoninh8@scribd.com', ip='171.134.28.14', 
+samochod= Nissan model: Titan', color='#2287d9', VIN='1G6DC8EY1B0437632', rocznik='2007', cena =41050.28 euro, 
+data_zakupu=2020-12-08 
+Lokalizacja:  Skrzydlna w Poland, 
+
+Transakcja numer: 624! 
+Kupujący= Danica Herion, email='dherionhb@google.es', ip='237.229.127.126', 
+samochod= Nissan model: Pathfinder', color='#c92c1b', VIN='WAUAF78E48A769308', rocznik='1998', cena =60327.03 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 714! 
+Kupujący= Alexandra Whitehorne, email='awhitehornejt@bravesites.com', ip='37.60.232.254', 
+samochod= Nissan model: Quest', color='#7a2163', VIN='WAUDK78T28A918435', rocznik='2012', cena =4025.41 euro, 
+data_zakupu=2020-06-30 
+Lokalizacja:  Wilkowice w Poland, 
+
+Transakcja numer: 751! 
+Kupujący= Georgina Darth, email='gdarthku@amazon.com', ip='39.214.180.208', 
+samochod= Nissan model: Datsun/Nissan Z-samochod', color='#6b88b1', VIN='4T1BF1FK7EU562107', rocznik='1990', cena =88329.10 euro, 
+data_zakupu=2020-02-08 
+Lokalizacja:  Piekoszów w Poland, 
+
+Transakcja numer: 778! 
+Kupujący= Tarra Lenglet, email='tlengletll@cbc.ca', ip='19.250.195.211', 
+samochod= Nissan model: Altima', color='#8dfad5', VIN='KMHCT4AE5EU157928', rocznik='1997', cena =37540.55 euro, 
+data_zakupu=2020-01-31 
+Lokalizacja:  Lučina w Czech Republic, 
+
+Transakcja numer: 816! 
+Kupujący= Rickie Cassey, email='rcasseymn@smh.com.au', ip='96.24.231.41', 
+samochod= Nissan model: 300ZX', color='#99f60c', VIN='2CTALMEC2B6053108', rocznik='1995', cena =84230.04 euro, 
+data_zakupu=2020-08-23 
+Lokalizacja:  Zásmuky w Czech Republic, 
+
+Transakcja numer: 835! 
+Kupujący= Helaina Pinkie, email='hpinkien6@rediff.com', ip='189.225.239.64', 
+samochod= Nissan model: Pathfinder', color='#6ac869', VIN='1FTWW3A5XAE602524', rocznik='2009', cena =96390.02 euro, 
+data_zakupu=2020-01-14 
+Lokalizacja:  Moryń w Poland, 
+
+Transakcja numer: 852! 
+Kupujący= Cesare Loyndon, email='cloyndonnn@vimeo.com', ip='38.50.54.89', 
+samochod= Nissan model: Pathfinder', color='#f06683', VIN='WAUAGAFD1EN016425', rocznik='2001', cena =25406.17 euro, 
+data_zakupu=2020-03-05 
+Lokalizacja:  České Meziříčí w Czech Republic, 
+
+Transakcja numer: 887! 
+Kupujący= Grissel Rudall, email='grudallom@java.com', ip='31.136.221.217', 
+samochod= Nissan model: 350Z', color='#052a83', VIN='3VW467ATXCM868684', rocznik='2003', cena =39853.04 euro, 
+data_zakupu=2020-02-21 
+Lokalizacja:  Gostyń w Poland, 
+
+Transakcja numer: 893! 
+Kupujący= Arlinda Pitkeathly, email='apitkeathlyos@forbes.com', ip='177.233.232.169', 
+samochod= Nissan model: Altima', color='#355fad', VIN='1GD422CGXEF710085', rocznik='2007', cena =45725.23 euro, 
+data_zakupu=2020-08-03 
+Lokalizacja:  Heilbronn w Germany, 
+
+Transakcja numer: 920! 
+Kupujący= Joelynn Crellin, email='jcrellinpj@amazon.de', ip='42.196.103.227', 
+samochod= Nissan model: Frontier', color='#9bcf64', VIN='SCFEFBBC1AG391287', rocznik='1998', cena =20489.68 euro, 
+data_zakupu=2020-07-06 
+Lokalizacja:  Chrast w Czech Republic, 
+
+Transakcja numer: 932! 
+Kupujący= Woodman Hallt, email='whalltpv@cargocollective.com', ip='23.206.149.175', 
+samochod= Nissan model: Quest', color='#045ec0', VIN='SCFAB01A27G820797', rocznik='2005', cena =39077.60 euro, 
+data_zakupu=2020-02-14 
+Lokalizacja:  Bardo w Poland, 
+
+Transakcja numer: 948! 
+Kupujący= Ferrel Eastmead, email='feastmeadqb@statcounter.com', ip='197.196.86.29', 
+samochod= Nissan model: Sentra', color='#25425d', VIN='3N1AB6AP7CL224826', rocznik='1993', cena =85674.67 euro, 
+data_zakupu=2020-06-28 
+Lokalizacja:  Grzmiąca w Poland, 
+
+Transakcja numer: 971! 
+Kupujący= Vivianne Boscher, email='vboscherqy@nationalgeographic.com', ip='186.167.165.72', 
+samochod= Nissan model: Altima', color='#15e946', VIN='WA1LKBFP8AA191325', rocznik='2002', cena =97803.65 euro, 
+data_zakupu=2020-05-07 
+Lokalizacja:  Knurów w Poland, 
+
+Transakcja numer: 976! 
+Kupujący= Brooke Ary, email='baryr3@rambler.ru', ip='177.126.58.141', 
+samochod= Nissan model: GT-R', color='#a68aa5', VIN='3C4PDDAG6ET999823', rocznik='2011', cena =3222.64 euro, 
+data_zakupu=2020-06-05 
+Lokalizacja:  Janowice w Poland, 
+
+Transakcja numer: 978! 
+Kupujący= Alia Bench, email='abenchr5@linkedin.com', ip='253.54.252.141', 
+samochod= Nissan model: Pathfinder', color='#fb903e', VIN='WBANA53515B514097', rocznik='2012', cena =36887.35 euro, 
+data_zakupu=2020-01-01 
+Lokalizacja:  Moravská Třebová w Czech Republic, 
+
+Transakcja numer: 985! 
+Kupujący= Neile Dany, email='ndanyrc@dion.ne.jp', ip='37.212.164.245', 
+samochod= Nissan model: Xterra', color='#9a0f16', VIN='1G6KF57973U932155', rocznik='2006', cena =7004.45 euro, 
+data_zakupu=2020-12-17 
+Lokalizacja:  Jawor w Poland]

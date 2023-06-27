@@ -1,0 +1,73 @@
+[
+
+Transakcja numer: 22! 
+Kupujący= Freddie Shutle, email='fshutlel@cnbc.com', ip='165.47.157.209', 
+samochod= Isuzu model: Rodeo', color='#f6e9c0', VIN='WAUXD68D62A671941', rocznik='2002', cena =61428.99 euro, 
+data_zakupu=2020-11-24 
+Lokalizacja:  Zábřeh w Czech Republic, 
+
+Transakcja numer: 154! 
+Kupujący= Etta Ruggs, email='eruggs49@vkontakte.ru', ip='4.6.154.104', 
+samochod= Isuzu model: Stylus', color='#5560ec', VIN='WA1WGAFPXEA898389', rocznik='1992', cena =3457.00 euro, 
+data_zakupu=2020-07-08 
+Lokalizacja:  Łaskarzew w Poland, 
+
+Transakcja numer: 300! 
+Kupujący= Etty Clay, email='eclay8b@guardian.co.uk', ip='167.188.45.254', 
+samochod= Isuzu model: Trooper', color='#43a66e', VIN='WDDHF2EB4DA998120', rocznik='2000', cena =53274.70 euro, 
+data_zakupu=2020-07-31 
+Lokalizacja:  Hřebeč w Czech Republic, 
+
+Transakcja numer: 405! 
+Kupujący= Junette Maxsted, email='jmaxstedb8@fc2.com', ip='229.131.255.191', 
+samochod= Isuzu model: Rodeo', color='#9658d5', VIN='VNKJTUD34FA807056', rocznik='2000', cena =91740.06 euro, 
+data_zakupu=2020-12-23 
+Lokalizacja:  Nysa w Poland, 
+
+Transakcja numer: 471! 
+Kupujący= Robby McLucky, email='rmcluckyd2@microsoft.com', ip='192.171.23.164', 
+samochod= Isuzu model: Trooper', color='#245ca6', VIN='WBAKE3C58CE231977', rocznik='2000', cena =82195.68 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Seč w Czech Republic, 
+
+Transakcja numer: 481! 
+Kupujący= Isabelita Valentinuzzi, email='ivalentinuzzidc@thetimes.co.uk', ip='137.241.119.28', 
+samochod= Isuzu model: i-370', color='#5fe01a', VIN='3D7LT2ET4BG923007', rocznik='2007', cena =18055.25 euro, 
+data_zakupu=2020-04-01 
+Lokalizacja:  Nowa Sól w Poland, 
+
+Transakcja numer: 640! 
+Kupujący= Laurette Kalkofen, email='lkalkofenhr@slate.com', ip='112.215.127.83', 
+samochod= Isuzu model: Trooper', color='#7bd339', VIN='YV140MAM2F1605922', rocznik='2000', cena =22890.55 euro, 
+data_zakupu=2020-05-20 
+Lokalizacja:  Golub-Dobrzyń w Poland, 
+
+Transakcja numer: 702! 
+Kupujący= Vincents Matushevich, email='vmatushevichjh@yahoo.com', ip='94.170.142.179', 
+samochod= Isuzu model: Rodeo', color='#69ae6a', VIN='WAUHGAFC6DN122809', rocznik='2002', cena =19340.99 euro, 
+data_zakupu=2020-04-03 
+Lokalizacja:  Bełsznica w Poland, 
+
+Transakcja numer: 784! 
+Kupujący= Adiana Zorzenoni, email='azorzenonilr@java.com', ip='123.30.26.84', 
+samochod= Isuzu model: Amigo', color='#2580c1', VIN='3FA6P0PU3ER633443', rocznik='2000', cena =36303.51 euro, 
+data_zakupu=2020-06-09 
+Lokalizacja:  Frankfurt am Main w Germany, 
+
+Transakcja numer: 802! 
+Kupujący= Kathrine Kinnier, email='kkinnierm9@japanpost.jp', ip='91.4.199.114', 
+samochod= Isuzu model: Hombre Space', color='#c94d3a', VIN='5N1AN0NU7EN124743', rocznik='1997', cena =14300.87 euro, 
+data_zakupu=2020-07-21 
+Lokalizacja:  Osieczna w Poland, 
+
+Transakcja numer: 812! 
+Kupujący= Frances Oxenden, email='foxendenmj@who.int', ip='198.29.46.43', 
+samochod= Isuzu model: Ascender', color='#49ef46', VIN='5J8TB18279A669328', rocznik='2007', cena =3700.19 euro, 
+data_zakupu=2020-08-03 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 825! 
+Kupujący= Puff Cinavas, email='pcinavasmw@europa.eu', ip='225.143.109.253', 
+samochod= Isuzu model: Rodeo Sport', color='#aa4438', VIN='1G6EL12Y42B849158', rocznik='2002', cena =59634.95 euro, 
+data_zakupu=2020-09-21 
+Lokalizacja:  Leipzig w Germany]

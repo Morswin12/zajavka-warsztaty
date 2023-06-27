@@ -1,0 +1,13 @@
+[
+
+Transakcja numer: 137! 
+Kupujący= Padraic Station, email='pstation3s@cisco.com', ip='195.189.158.218', 
+samochod= Morgan model: Aero 8', color='#a0a326', VIN='1YVHZ8BH7A5861880', rocznik='2009', cena =26557.70 euro, 
+data_zakupu=2020-12-24 
+Lokalizacja:  Zabierzów w Poland, 
+
+Transakcja numer: 562! 
+Kupujący= Jacquelin McKinney, email='jmckinneyfl@jigsy.com', ip='85.146.20.156', 
+samochod= Morgan model: Aero 8', color='#ec49b2', VIN='1C3CCBCG8EN195241', rocznik='2008', cena =70172.03 euro, 
+data_zakupu=2020-11-17 
+Lokalizacja:  Berlin w Germany]

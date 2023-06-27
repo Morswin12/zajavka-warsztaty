@@ -1,0 +1,67 @@
+[
+
+Transakcja numer: 25! 
+Kupujący= Wallace Oury, email='wouryo@woothemes.com', ip='90.88.188.67', 
+samochod= Acura model: RDX', color='#66184f', VIN='4T1BD1EB7FU026332', rocznik='2008', cena =64467.57 euro, 
+data_zakupu=2020-11-30 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 54! 
+Kupujący= Grant Syrett, email='gsyrett1h@prlog.org', ip='119.89.29.184', 
+samochod= Acura model: RL', color='#8c163c', VIN='WBADX1C5XCE850586', rocznik='2009', cena =87273.74 euro, 
+data_zakupu=2020-12-16 
+Lokalizacja:  Czerniewice w Poland, 
+
+Transakcja numer: 247! 
+Kupujący= Caresse Bussens, email='cbussens6u@dion.ne.jp', ip='219.63.220.114', 
+samochod= Acura model: TL', color='#095ecf', VIN='YV1940AS0B1810215', rocznik='2009', cena =36695.79 euro, 
+data_zakupu=2020-02-26 
+Lokalizacja:  Všenory w Czech Republic, 
+
+Transakcja numer: 424! 
+Kupujący= Sunny Wherry, email='swherrybr@apache.org', ip='65.86.131.188', 
+samochod= Acura model: NSX', color='#f4309a', VIN='1N6AF0LX4FN314352', rocznik='1997', cena =82460.18 euro, 
+data_zakupu=2020-08-11 
+Lokalizacja:  Stoczek Łukowski w Poland, 
+
+Transakcja numer: 450! 
+Kupujący= Eldin Esparza, email='eesparzach@cdc.gov', ip='203.168.41.225', 
+samochod= Acura model: TL', color='#8054b1', VIN='JH4KA96652C469297', rocznik='2006', cena =40421.13 euro, 
+data_zakupu=2020-11-25 
+Lokalizacja:  Jeseník w Czech Republic, 
+
+Transakcja numer: 476! 
+Kupujący= Marlin Pulford, email='mpulfordd7@google.es', ip='134.148.216.100', 
+samochod= Acura model: TL', color='#515fe2', VIN='1D7RB1GKXAS094771', rocznik='2005', cena =97537.19 euro, 
+data_zakupu=2020-01-06 
+Lokalizacja:  Izbicko w Poland, 
+
+Transakcja numer: 490! 
+Kupujący= Udale Antyukhin, email='uantyukhindl@t.co', ip='145.62.60.95', 
+samochod= Acura model: NSX', color='#62a077', VIN='1G6KS54Y64U621972', rocznik='2002', cena =41234.76 euro, 
+data_zakupu=2020-03-28 
+Lokalizacja:  Chlumčany w Czech Republic, 
+
+Transakcja numer: 622! 
+Kupujący= Olive Idell, email='oidellh9@ihg.com', ip='10.117.140.204', 
+samochod= Acura model: RL', color='#62ca37', VIN='KNAFU6A29C5266574', rocznik='2010', cena =19924.03 euro, 
+data_zakupu=2020-11-10 
+Lokalizacja:  Sadowie w Poland, 
+
+Transakcja numer: 759! 
+Kupujący= Fina Potebury, email='fpoteburyl2@eepurl.com', ip='24.163.163.111', 
+samochod= Acura model: Integra', color='#48ac4f', VIN='3GYFNAE37ES595203', rocznik='1996', cena =24435.25 euro, 
+data_zakupu=2020-04-18 
+Lokalizacja:  Osnabrück w Germany, 
+
+Transakcja numer: 862! 
+Kupujący= Neile Dutson, email='ndutsonnx@miibeian.gov.cn', ip='177.91.129.60', 
+samochod= Acura model: ZDX', color='#193f69', VIN='1G4HC5EMXAU370347', rocznik='2010', cena =74967.68 euro, 
+data_zakupu=2020-05-07 
+Lokalizacja:  Śniadowo w Poland, 
+
+Transakcja numer: 957! 
+Kupujący= Xylina Rawlings, email='xrawlingsqk@prweb.com', ip='242.229.116.229', 
+samochod= Acura model: CL', color='#f8c55b', VIN='SCBBP93WX9C557182', rocznik='2003', cena =82961.35 euro, 
+data_zakupu=2020-04-24 
+Lokalizacja:  Bochum w Germany]

@@ -1,0 +1,43 @@
+[
+
+Transakcja numer: 34! 
+Kupujący= Nadiya Margrett, email='nmargrettx@webmd.com', ip='165.240.10.21', 
+samochod= Lamborghini model: Countach', color='#cf7e18', VIN='5GADV23L26D627001', rocznik='1986', cena =62789.57 euro, 
+data_zakupu=2020-03-20 
+Lokalizacja:  Brody w Poland, 
+
+Transakcja numer: 197! 
+Kupujący= Calley Heining, email='cheining5g@soup.io', ip='42.59.179.207', 
+samochod= Lamborghini model: Gallardo', color='#1866ff', VIN='WAUEH98EX7A855924', rocznik='2012', cena =77676.69 euro, 
+data_zakupu=2020-12-25 
+Lokalizacja:  Cisiec w Poland, 
+
+Transakcja numer: 250! 
+Kupujący= Anson Ganiford, email='aganiford6x@weather.com', ip='68.120.214.124', 
+samochod= Lamborghini model: Gallardo', color='#29160c', VIN='WAUDF78E47A159260', rocznik='2005', cena =37201.94 euro, 
+data_zakupu=2020-01-31 
+Lokalizacja:  Olszówka w Poland, 
+
+Transakcja numer: 363! 
+Kupujący= Trescha Botley, email='tbotleya2@boston.com', ip='110.26.250.225', 
+samochod= Lamborghini model: Diablo', color='#d99d1c', VIN='5TDBY5G18DS810606', rocznik='1995', cena =86929.00 euro, 
+data_zakupu=2020-12-01 
+Lokalizacja:  Przyborów w Poland, 
+
+Transakcja numer: 972! 
+Kupujący= Larina Burdon, email='lburdonqz@cdbaby.com', ip='113.122.11.199', 
+samochod= Lamborghini model: Diablo', color='#db6e8e', VIN='1G6AT5S39F0339299', rocznik='1999', cena =67599.21 euro, 
+data_zakupu=2020-11-01 
+Lokalizacja:  Sokołów Podlaski w Poland, 
+
+Transakcja numer: 994! 
+Kupujący= Jamie Wigg, email='jwiggrl@odnoklassniki.ru', ip='52.70.77.30', 
+samochod= Lamborghini model: Diablo', color='#bf7802', VIN='1C3CCBCG8DN142991', rocznik='1997', cena =98881.13 euro, 
+data_zakupu=2020-04-12 
+Lokalizacja:  Krasnystaw w Poland, 
+
+Transakcja numer: 999! 
+Kupujący= Tracey Lantuff, email='tlantuffrq@columbia.edu', ip='208.232.47.241', 
+samochod= Lamborghini model: Gallardo', color='#2ef20a', VIN='SCBFT7ZA4DC921912', rocznik='2009', cena =92609.31 euro, 
+data_zakupu=2020-09-19 
+Lokalizacja:  Kowala w Poland]

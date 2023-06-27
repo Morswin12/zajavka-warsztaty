@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 579! 
+Kupujący= Delcine Cottisford, email='dcottisfordg2@java.com', ip='233.202.63.210', 
+samochod= Fiat model: Nuova 500', color='#f1e5f3', VIN='3N1AB6AP7CL730351', rocznik='2012', cena =66508.75 euro, 
+data_zakupu=2020-07-10 
+Lokalizacja:  Sieroszewice w Poland]

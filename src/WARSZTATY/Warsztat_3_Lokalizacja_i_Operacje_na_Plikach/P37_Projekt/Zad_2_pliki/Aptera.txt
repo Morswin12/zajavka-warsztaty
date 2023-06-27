@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 595! 
+Kupujący= Uta Stych, email='ustychgi@amazonaws.com', ip='87.95.129.26', 
+samochod= Aptera model: Typ-1', color='#abcf0d', VIN='WA1UFAFL7FA845805', rocznik='2008', cena =24570.34 euro, 
+data_zakupu=2020-12-15 
+Lokalizacja:  Vrdy w Czech Republic]

@@ -1,0 +1,37 @@
+[
+
+Transakcja numer: 264! 
+Kupujący= Tomaso Havick, email='thavick7b@mediafire.com', ip='247.62.65.118', 
+samochod= Maybach model: 57', color='#866cb7', VIN='5GAKVBKD9EJ247770', rocznik='2003', cena =61311.79 euro, 
+data_zakupu=2020-08-13 
+Lokalizacja:  Kopidlno w Czech Republic, 
+
+Transakcja numer: 353! 
+Kupujący= Delphine Freestone, email='dfreestone9s@thetimes.co.uk', ip='66.31.138.60', 
+samochod= Maybach model: 57', color='#7721bf', VIN='1FTMF1EW5AF592154', rocznik='2012', cena =77999.35 euro, 
+data_zakupu=2020-03-16 
+Lokalizacja:  Sztum w Poland, 
+
+Transakcja numer: 516! 
+Kupujący= Anallise Franks, email='afrankseb@wikia.com', ip='249.102.74.220', 
+samochod= Maybach model: 57', color='#0c069b', VIN='WBA3C1G59DN561363', rocznik='2007', cena =16819.49 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Grygov w Czech Republic, 
+
+Transakcja numer: 527! 
+Kupujący= Shurlocke O' Faherty, email='sofahertyem@oracle.com', ip='192.38.194.4', 
+samochod= Maybach model: 57', color='#a0da38', VIN='19XFB2F58CE761812', rocznik='2005', cena =23614.97 euro, 
+data_zakupu=2020-02-15 
+Lokalizacja:  Sawin w Poland, 
+
+Transakcja numer: 770! 
+Kupujący= Elianore D'Enrico, email='edenricold@twitpic.com', ip='198.136.50.169', 
+samochod= Maybach model: 62', color='#853e82', VIN='19UUA56632A835001', rocznik='2006', cena =92208.52 euro, 
+data_zakupu=2020-09-17 
+Lokalizacja:  Ostrów Mazowiecka w Poland, 
+
+Transakcja numer: 837! 
+Kupujący= Teddi Howle, email='thowlen8@bbb.org', ip='164.156.24.229', 
+samochod= Maybach model: 57', color='#7c7406', VIN='JTEBU5JRXA5183026', rocznik='2004', cena =11437.43 euro, 
+data_zakupu=2020-09-03 
+Lokalizacja:  Frankfurt am Main w Germany]

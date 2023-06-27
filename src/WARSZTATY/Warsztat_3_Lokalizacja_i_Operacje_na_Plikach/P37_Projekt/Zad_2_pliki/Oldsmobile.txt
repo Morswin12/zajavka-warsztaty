@@ -1,0 +1,73 @@
+[
+
+Transakcja numer: 241! 
+Kupujący= Jayson Brodie, email='jbrodie6o@theguardian.com', ip='199.255.176.103', 
+samochod= Oldsmobile model: Cutlass Supreme', color='#1991a7', VIN='2FMGK5B81DB281456', rocznik='1993', cena =40700.58 euro, 
+data_zakupu=2020-05-27 
+Lokalizacja:  Targanice w Poland, 
+
+Transakcja numer: 291! 
+Kupujący= Marta Lushey, email='mlushey82@msn.com', ip='249.144.185.35', 
+samochod= Oldsmobile model: Alero', color='#a24ff9', VIN='SCBGU3ZA6DC852294', rocznik='2003', cena =19600.82 euro, 
+data_zakupu=2020-02-26 
+Lokalizacja:  Czarna Białostocka w Poland, 
+
+Transakcja numer: 339! 
+Kupujący= Salomi Hatterslay, email='shatterslay9e@wp.com', ip='220.101.47.247', 
+samochod= Oldsmobile model: Intrigue', color='#283f29', VIN='JN1AJ0HP3CM621686', rocznik='2002', cena =44180.49 euro, 
+data_zakupu=2020-10-21 
+Lokalizacja:  Kościelec w Poland, 
+
+Transakcja numer: 445! 
+Kupujący= Mandy Vockins, email='mvockinscc@accuweather.com', ip='191.72.51.194', 
+samochod= Oldsmobile model: Silhouette', color='#2bbe8a', VIN='WAUYP54B51N511003', rocznik='1999', cena =13640.67 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Staré Město w Czech Republic, 
+
+Transakcja numer: 486! 
+Kupujący= Zara Laboune, email='zlabounedh@163.com', ip='11.32.103.49', 
+samochod= Oldsmobile model: Silhouette', color='#b7a3f2', VIN='YV4940BZ4E1396231', rocznik='1994', cena =31020.67 euro, 
+data_zakupu=2020-06-29 
+Lokalizacja:  Horní Bečva w Czech Republic, 
+
+Transakcja numer: 577! 
+Kupujący= Donn Mayall, email='dmayallg0@youtu.be', ip='184.114.66.129', 
+samochod= Oldsmobile model: Silhouette', color='#3b59b0', VIN='WVWED7AJ0BW841410', rocznik='1992', cena =41257.28 euro, 
+data_zakupu=2020-04-27 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 619! 
+Kupujący= Salomo Bolan, email='sbolanh6@businessweek.com', ip='61.146.197.221', 
+samochod= Oldsmobile model: Achieva', color='#ecb418', VIN='3MZBM1L76EM215606', rocznik='1995', cena =28345.66 euro, 
+data_zakupu=2020-05-18 
+Lokalizacja:  Szczawnica w Poland, 
+
+Transakcja numer: 654! 
+Kupujący= Tobye Coleman, email='tcolemani5@reverbnation.com', ip='124.250.73.38', 
+samochod= Oldsmobile model: Intrigue', color='#fed5af', VIN='YV140MEA1F1071148', rocznik='2000', cena =60617.56 euro, 
+data_zakupu=2020-12-23 
+Lokalizacja:  Toužim w Czech Republic, 
+
+Transakcja numer: 766! 
+Kupujący= Ashlin Nagle, email='anaglel9@facebook.com', ip='15.150.23.198', 
+samochod= Oldsmobile model: Bravada', color='#d03493', VIN='JH4DC53053C259280', rocznik='1997', cena =99984.84 euro, 
+data_zakupu=2020-02-29 
+Lokalizacja:  Osielsko w Poland, 
+
+Transakcja numer: 787! 
+Kupujący= Willamina Heintze, email='wheintzelu@newsvine.com', ip='53.240.147.7', 
+samochod= Oldsmobile model: Achieva', color='#21d18c', VIN='WBASP4C56AC472252', rocznik='1995', cena =27473.11 euro, 
+data_zakupu=2020-11-08 
+Lokalizacja:  Śniadowo w Poland, 
+
+Transakcja numer: 798! 
+Kupujący= Karlis Pryor, email='kpryorm5@seesaa.net', ip='144.142.151.229', 
+samochod= Oldsmobile model: Cutlass Supreme', color='#0f8702', VIN='1FMJK1H59BE663960', rocznik='1997', cena =91265.88 euro, 
+data_zakupu=2020-07-14 
+Lokalizacja:  Sokółka w Poland, 
+
+Transakcja numer: 934! 
+Kupujący= Golda Studdal, email='gstuddalpx@epa.gov', ip='109.155.157.193', 
+samochod= Oldsmobile model: Intrigue', color='#9ccbb2', VIN='3C4PDDGGXFT647756', rocznik='1998', cena =18210.02 euro, 
+data_zakupu=2020-03-26 
+Lokalizacja:  Lipiany w Poland]

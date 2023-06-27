@@ -1,0 +1,55 @@
+[
+
+Transakcja numer: 102! 
+Kupujący= Pierce Croall, email='pcroall2t@amazon.de', ip='35.112.209.246', 
+samochod= Kia model: Spectra', color='#49ba01', VIN='SCBGT3ZA8FC034801', rocznik='2005', cena =59132.18 euro, 
+data_zakupu=2020-04-27 
+Lokalizacja:  Kup w Poland, 
+
+Transakcja numer: 400! 
+Kupujący= Sofia Hairyes, email='shairyesb3@vkontakte.ru', ip='173.7.131.87', 
+samochod= Kia model: Sportage', color='#84e9a5', VIN='JM1DE1KY3E0709671', rocznik='2001', cena =62965.49 euro, 
+data_zakupu=2020-12-26 
+Lokalizacja:  Brudzew w Poland, 
+
+Transakcja numer: 590! 
+Kupujący= Hammad Adamini, email='hadaminigd@narod.ru', ip='173.136.41.129', 
+samochod= Kia model: Spectra', color='#1db8b0', VIN='5N1AN0NU9BC028216', rocznik='2000', cena =43602.19 euro, 
+data_zakupu=2020-02-11 
+Lokalizacja:  Trablice w Poland, 
+
+Transakcja numer: 603! 
+Kupujący= Kristy Sitford, email='ksitfordgq@usnews.com', ip='179.200.118.74', 
+samochod= Kia model: Rio', color='#e81465', VIN='1GYS3NKJ7FR439777', rocznik='2003', cena =41335.71 euro, 
+data_zakupu=2020-10-12 
+Lokalizacja:  Barlinek w Poland, 
+
+Transakcja numer: 610! 
+Kupujący= Patric Ashplant, email='pashplantgx@google.co.uk', ip='23.95.113.111', 
+samochod= Kia model: Sedona', color='#3ac540', VIN='1ZVBP8AM9B5221071', rocznik='2003', cena =75400.69 euro, 
+data_zakupu=2020-05-02 
+Lokalizacja:  Obryte w Poland, 
+
+Transakcja numer: 671! 
+Kupujący= Cornie Ponceford, email='cponcefordim@skyrock.com', ip='8.21.130.27', 
+samochod= Kia model: Soul', color='#95287e', VIN='1FTMF1EW2AK025326', rocznik='2012', cena =30479.21 euro, 
+data_zakupu=2020-04-14 
+Lokalizacja:  Kroczyce w Poland, 
+
+Transakcja numer: 693! 
+Kupujący= Burke McGloughlin, email='bmcgloughlinj8@hubpages.com', ip='92.112.131.26', 
+samochod= Kia model: Rio', color='#a8107c', VIN='1G6DM8EG1A0630639', rocznik='2009', cena =71735.09 euro, 
+data_zakupu=2020-01-18 
+Lokalizacja:  Lasek w Poland, 
+
+Transakcja numer: 724! 
+Kupujący= Bella Lehrer, email='blehrerk3@dropbox.com', ip='177.33.110.64', 
+samochod= Kia model: Optima', color='#158ec7', VIN='1G6AD5SXXD0031247', rocznik='2008', cena =36354.28 euro, 
+data_zakupu=2020-05-29 
+Lokalizacja:  Boronów w Poland, 
+
+Transakcja numer: 746! 
+Kupujący= Rosy Marion, email='rmarionkp@pcworld.com', ip='163.249.12.142', 
+samochod= Kia model: Sedona', color='#81d92c', VIN='WBA3A5G51EN209196', rocznik='2007', cena =56191.31 euro, 
+data_zakupu=2020-09-06 
+Lokalizacja:  München w Germany]

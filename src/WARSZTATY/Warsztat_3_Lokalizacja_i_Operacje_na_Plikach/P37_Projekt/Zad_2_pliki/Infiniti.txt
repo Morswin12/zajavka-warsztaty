@@ -1,0 +1,85 @@
+[
+
+Transakcja numer: 35! 
+Kupujący= Noll Mazzia, email='nmazziay@github.com', ip='186.76.124.140', 
+samochod= Infiniti model: Q', color='#704f70', VIN='1G6KD57Y68U623880', rocznik='1993', cena =22305.50 euro, 
+data_zakupu=2020-12-07 
+Lokalizacja:  Horní Suchá w Czech Republic, 
+
+Transakcja numer: 111! 
+Kupujący= Blondell Lensch, email='blensch32@google.fr', ip='42.63.200.75', 
+samochod= Infiniti model: FX', color='#b47c83', VIN='WDDGF4HB4CR544971', rocznik='2009', cena =10297.11 euro, 
+data_zakupu=2020-02-03 
+Lokalizacja:  Batelov w Czech Republic, 
+
+Transakcja numer: 228! 
+Kupujący= Ki Camerello, email='kcamerello6b@examiner.com', ip='209.124.238.39', 
+samochod= Infiniti model: G35', color='#2ab356', VIN='1G4PP5SK7E4298712', rocznik='2008', cena =70158.45 euro, 
+data_zakupu=2020-06-20 
+Lokalizacja:  Duisburg w Germany, 
+
+Transakcja numer: 360! 
+Kupujący= Lotti Keeton, email='lkeeton9z@comcast.net', ip='8.56.152.152', 
+samochod= Infiniti model: G37', color='#750c76', VIN='1FMJU2A58AE068204', rocznik='2011', cena =91197.03 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Rychnov nad Kněžnou w Czech Republic, 
+
+Transakcja numer: 411! 
+Kupujący= Hodge Vinck, email='hvinckbe@merriam-webster.com', ip='113.254.120.64', 
+samochod= Infiniti model: G', color='#0bba7c', VIN='WBABD53495P424247', rocznik='2000', cena =19425.70 euro, 
+data_zakupu=2020-02-15 
+Lokalizacja:  Rokitno Szlacheckie w Poland, 
+
+Transakcja numer: 427! 
+Kupujący= Deck Ebbers, email='debbersbu@huffingtonpost.com', ip='39.211.228.245', 
+samochod= Infiniti model: G', color='#b2be1c', VIN='WAUAF98E37A175948', rocznik='2012', cena =87854.37 euro, 
+data_zakupu=2020-03-07 
+Lokalizacja:  Łopuszna w Poland, 
+
+Transakcja numer: 535! 
+Kupujący= Chantalle Forcer, email='cforcereu@tmall.com', ip='143.254.62.130', 
+samochod= Infiniti model: I', color='#261776', VIN='JN8AZ2KR5CT188636', rocznik='1996', cena =23254.85 euro, 
+data_zakupu=2020-01-27 
+Lokalizacja:  Březí w Czech Republic, 
+
+Transakcja numer: 593! 
+Kupujący= Todd Spieck, email='tspieckgg@prnewswire.com', ip='26.10.117.78', 
+samochod= Infiniti model: FX', color='#95c552', VIN='1G4GG5E39DF428822', rocznik='2010', cena =46100.27 euro, 
+data_zakupu=2020-04-05 
+Lokalizacja:  Trzciana w Poland, 
+
+Transakcja numer: 672! 
+Kupujący= Sheri Daysh, email='sdayshin@blogtalkradio.com', ip='66.128.182.219', 
+samochod= Infiniti model: J', color='#63936e', VIN='5NMSG3AB1AH609122', rocznik='1993', cena =28641.01 euro, 
+data_zakupu=2020-03-03 
+Lokalizacja:  Březová w Czech Republic, 
+
+Transakcja numer: 678! 
+Kupujący= Maryanne Comoletti, email='mcomolettiit@amazon.de', ip='10.6.113.18', 
+samochod= Infiniti model: QX', color='#820fc4', VIN='1GKS1AE06CR916206', rocznik='2004', cena =94251.36 euro, 
+data_zakupu=2020-06-03 
+Lokalizacja:  Żarki w Poland, 
+
+Transakcja numer: 777! 
+Kupujący= Hewie Gerwood, email='hgerwoodlk@unesco.org', ip='17.71.222.173', 
+samochod= Infiniti model: FX', color='#c7d6fd', VIN='JH4CU2F46CC871476', rocznik='2007', cena =36091.78 euro, 
+data_zakupu=2020-10-13 
+Lokalizacja:  Vlachovice w Czech Republic, 
+
+Transakcja numer: 806! 
+Kupujący= May Meller, email='mmellermd@wix.com', ip='100.14.255.178', 
+samochod= Infiniti model: M', color='#742fee', VIN='WAUWGAFB8BN900085', rocznik='2009', cena =2551.07 euro, 
+data_zakupu=2020-10-17 
+Lokalizacja:  Bohumín w Czech Republic, 
+
+Transakcja numer: 889! 
+Kupujący= Emyle Bemrose, email='ebemroseoo@wsj.com', ip='93.71.228.19', 
+samochod= Infiniti model: EX', color='#bf1442', VIN='ML32A3HJ1FH973566', rocznik='2009', cena =1044.88 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Grębków w Poland, 
+
+Transakcja numer: 908! 
+Kupujący= Cymbre Toplis, email='ctoplisp7@cyberchimps.com', ip='22.93.159.188', 
+samochod= Infiniti model: M', color='#04fd94', VIN='1FTNS1EW9AD001481', rocznik='2006', cena =96817.88 euro, 
+data_zakupu=2020-08-29 
+Lokalizacja:  Nowy Dwór Gdański w Poland]

@@ -1,0 +1,241 @@
+[
+
+Transakcja numer: 26! 
+Kupujący= Vitia Wressell, email='vwressellp@joomla.org', ip='83.75.76.69', 
+samochod= BMW model: Z4', color='#fc52a8', VIN='5N1AA0NE0EN847693', rocznik='2010', cena =30372.27 euro, 
+data_zakupu=2020-01-07 
+Lokalizacja:  Břeclav w Czech Republic, 
+
+Transakcja numer: 53! 
+Kupujący= Ronica Kirtland, email='rkirtland1g@smh.com.au', ip='85.255.41.175', 
+samochod= BMW model: 1 Series', color='#362699', VIN='WA1WMAFE7DD223278', rocznik='2010', cena =59998.39 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Pilchowice w Poland, 
+
+Transakcja numer: 55! 
+Kupujący= Carly Vasnetsov, email='cvasnetsov1i@freewebs.com', ip='103.247.181.255', 
+samochod= BMW model: 5 Series', color='#67ddc5', VIN='WAUSF98E38A270340', rocznik='2000', cena =64328.89 euro, 
+data_zakupu=2020-03-26 
+Lokalizacja:  Hamburg Sankt Pauli w Germany, 
+
+Transakcja numer: 75! 
+Kupujący= Harland Cobello, email='hcobello22@ted.com', ip='240.61.35.39', 
+samochod= BMW model: X5', color='#acf056', VIN='YV440MBK4F1358967', rocznik='2000', cena =48845.79 euro, 
+data_zakupu=2020-03-09 
+Lokalizacja:  Rokitno w Poland, 
+
+Transakcja numer: 79! 
+Kupujący= Krystyna Ricardet, email='kricardet26@t.co', ip='39.45.161.206', 
+samochod= BMW model: 5 Series', color='#9ba311', VIN='3D7LT2ET7AG992093', rocznik='1997', cena =28961.60 euro, 
+data_zakupu=2020-05-06 
+Lokalizacja:  Chrást w Czech Republic, 
+
+Transakcja numer: 86! 
+Kupujący= Deane Kmieciak, email='dkmieciak2d@purevolume.com', ip='84.176.85.159', 
+samochod= BMW model: 600', color='#f955cc', VIN='WBAVB33576K499107', rocznik='1957', cena =72427.80 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Szczerbice w Poland, 
+
+Transakcja numer: 97! 
+Kupujący= Hi Yeomans, email='hyeomans2o@themeforest.net', ip='37.150.104.58', 
+samochod= BMW model: 8 Series', color='#9413c9', VIN='2C3CA7CW5AH234588', rocznik='1992', cena =36491.19 euro, 
+data_zakupu=2020-12-05 
+Lokalizacja:  Pyšely w Czech Republic, 
+
+Transakcja numer: 99! 
+Kupujący= Berny Rumsby, email='brumsby2q@pen.io', ip='63.72.144.27', 
+samochod= BMW model: 7 Series', color='#2eb791', VIN='WAUNF78P58A259925', rocznik='1995', cena =91829.08 euro, 
+data_zakupu=2020-03-13 
+Lokalizacja:  Pruszcz w Poland, 
+
+Transakcja numer: 117! 
+Kupujący= Trever Coulbeck, email='tcoulbeck38@toplist.cz', ip='165.177.248.84', 
+samochod= BMW model: 7 Series', color='#cc6e4c', VIN='JTDBT4K3XC1339796', rocznik='2009', cena =49082.37 euro, 
+data_zakupu=2020-11-23 
+Lokalizacja:  Holice w Czech Republic, 
+
+Transakcja numer: 150! 
+Kupujący= Glendon Rennolds, email='grennolds45@spotify.com', ip='185.126.21.252', 
+samochod= BMW model: M3', color='#266be8', VIN='WA1MKAFP7AA935589', rocznik='2012', cena =42175.04 euro, 
+data_zakupu=2020-01-08 
+Lokalizacja:  Neuss w Germany, 
+
+Transakcja numer: 161! 
+Kupujący= Keely Simes, email='ksimes4g@tamu.edu', ip='48.24.70.65', 
+samochod= BMW model: 6 Series', color='#0f0ab0', VIN='1C3BC6EV8AN404051', rocznik='1989', cena =96220.95 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Mrzeżyno w Poland, 
+
+Transakcja numer: 195! 
+Kupujący= Perla Bushell, email='pbushell5e@youku.com', ip='140.253.218.198', 
+samochod= BMW model: 545', color='#e431b1', VIN='5J8TB3H51EL197244', rocznik='2004', cena =62614.35 euro, 
+data_zakupu=2020-12-24 
+Lokalizacja:  Barwałd Górny w Poland, 
+
+Transakcja numer: 214! 
+Kupujący= Fionna Abramow, email='fabramow5x@wordpress.org', ip='251.56.24.25', 
+samochod= BMW model: X5', color='#0cdd9a', VIN='1FTFW1E8XAF166518', rocznik='2001', cena =35279.81 euro, 
+data_zakupu=2020-03-29 
+Lokalizacja:  Drawsko w Poland, 
+
+Transakcja numer: 238! 
+Kupujący= Elita Faill, email='efaill6l@cornell.edu', ip='141.223.153.71', 
+samochod= BMW model: 3 Series', color='#b9b455', VIN='3GYVKLEF8AG976355', rocznik='2005', cena =11549.17 euro, 
+data_zakupu=2020-03-08 
+Lokalizacja:  Gózd w Poland, 
+
+Transakcja numer: 245! 
+Kupujący= Monro Hatfield, email='mhatfield6s@biblegateway.com', ip='19.20.233.136', 
+samochod= BMW model: Z4', color='#8bf31a', VIN='WAUR4AFD2CN824808', rocznik='2010', cena =91014.28 euro, 
+data_zakupu=2020-04-20 
+Lokalizacja:  Przasnysz w Poland, 
+
+Transakcja numer: 269! 
+Kupujący= Cristie Jurasek, email='cjurasek7g@google.pl', ip='126.13.177.139', 
+samochod= BMW model: 3 Series', color='#2456cc', VIN='YV1902AH6E1788396', rocznik='1994', cena =38870.04 euro, 
+data_zakupu=2020-08-09 
+Lokalizacja:  Zagórów w Poland, 
+
+Transakcja numer: 295! 
+Kupujący= Ollie Burgisi, email='oburgisi86@va.gov', ip='1.107.118.200', 
+samochod= BMW model: Alpina B7', color='#e9cd43', VIN='WAUCFAFR3FA678619', rocznik='2007', cena =75764.70 euro, 
+data_zakupu=2020-10-05 
+Lokalizacja:  Kleszczewo w Poland, 
+
+Transakcja numer: 343! 
+Kupujący= Doria De Angelo, email='ddeangelo9i@imageshack.us', ip='188.150.129.226', 
+samochod= BMW model: X5', color='#0fbe26', VIN='SCFHDDAJ5CA177035', rocznik='2001', cena =38978.71 euro, 
+data_zakupu=2020-04-06 
+Lokalizacja:  Frankfurt am Main w Germany, 
+
+Transakcja numer: 349! 
+Kupujący= Anson Arnaudon, email='aarnaudon9o@over-blog.com', ip='184.197.82.34', 
+samochod= BMW model: M3', color='#b6c2aa', VIN='SCBET9ZA9FC137784', rocznik='2004', cena =3563.02 euro, 
+data_zakupu=2020-03-06 
+Lokalizacja:  Jaworzyna Śląska w Poland, 
+
+Transakcja numer: 367! 
+Kupujący= Yolande Cosgrove, email='ycosgrovea6@adobe.com', ip='41.41.17.78', 
+samochod= BMW model: 530', color='#40a84a', VIN='2C3CDZAGXFH102853', rocznik='2003', cena =36923.42 euro, 
+data_zakupu=2020-01-08 
+Lokalizacja:  Popielów w Poland, 
+
+Transakcja numer: 451! 
+Kupujący= Jazmin Mapstone, email='jmapstoneci@clickbank.net', ip='28.200.22.52', 
+samochod= BMW model: 5 Series', color='#84d91a', VIN='WAUEFBFL3BN474433', rocznik='2003', cena =6372.82 euro, 
+data_zakupu=2020-08-15 
+Lokalizacja:  Psary w Poland, 
+
+Transakcja numer: 478! 
+Kupujący= Ada Hadeke, email='ahadeked9@mashable.com', ip='92.201.230.105', 
+samochod= BMW model: M5', color='#eac55c', VIN='1N4AA5AP7CC491489', rocznik='2006', cena =38152.91 euro, 
+data_zakupu=2020-03-24 
+Lokalizacja:  Chlumčany w Czech Republic, 
+
+Transakcja numer: 522! 
+Kupujący= Regine Slader, email='rsladereh@vkontakte.ru', ip='68.216.205.116', 
+samochod= BMW model: 330', color='#1375fd', VIN='2T1KE4EE8BC652217', rocznik='2006', cena =3362.42 euro, 
+data_zakupu=2020-12-13 
+Lokalizacja:  Prażmów w Poland, 
+
+Transakcja numer: 539! 
+Kupujący= Archie Bloys, email='abloysey@fda.gov', ip='95.124.129.182', 
+samochod= BMW model: 530', color='#714e59', VIN='1G4CW54K314951206', rocznik='2007', cena =67131.57 euro, 
+data_zakupu=2020-12-19 
+Lokalizacja:  Horní Cerekev w Czech Republic, 
+
+Transakcja numer: 601! 
+Kupujący= Erasmus Peschke, email='epeschkego@google.es', ip='29.143.142.85', 
+samochod= BMW model: M5', color='#4636e3', VIN='WAUWFBFLXBA009224', rocznik='2001', cena =78384.64 euro, 
+data_zakupu=2020-09-19 
+Lokalizacja:  Michałów-Reginów w Poland, 
+
+Transakcja numer: 630! 
+Kupujący= Mellicent Sergent, email='msergenthh@howstuffworks.com', ip='176.43.113.212', 
+samochod= BMW model: 760', color='#46ac4e', VIN='1ZVBP8JSXB5330203', rocznik='2006', cena =69781.42 euro, 
+data_zakupu=2020-07-11 
+Lokalizacja:  Černovice w Czech Republic, 
+
+Transakcja numer: 633! 
+Kupujący= Sam Rickeard, email='srickeardhk@adobe.com', ip='111.6.178.72', 
+samochod= BMW model: 6 Series', color='#b7d7fa', VIN='WAUHF68P86A769514', rocznik='2005', cena =41179.80 euro, 
+data_zakupu=2020-11-23 
+Lokalizacja:  Żabieniec w Poland, 
+
+Transakcja numer: 636! 
+Kupujący= Tommy Learmount, email='tlearmounthn@hud.gov', ip='181.185.37.107', 
+samochod= BMW model: M', color='#ddd371', VIN='3D4PG9FG3BT856677', rocznik='2000', cena =70022.09 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  Łobez w Poland, 
+
+Transakcja numer: 657! 
+Kupujący= Bay Roantree, email='broantreei8@desdev.cn', ip='42.123.237.151', 
+samochod= BMW model: 760', color='#80008c', VIN='19UUA9F53CA939570', rocznik='2006', cena =59059.35 euro, 
+data_zakupu=2020-01-24 
+Lokalizacja:  Rogóźno w Poland, 
+
+Transakcja numer: 658! 
+Kupujący= Jamie MacMoyer, email='jmacmoyeri9@livejournal.com', ip='217.57.10.46', 
+samochod= BMW model: Alpina B7', color='#2879b8', VIN='WAUJC68E72A129314', rocznik='2008', cena =28596.30 euro, 
+data_zakupu=2020-04-02 
+Lokalizacja:  Frydrychowice w Poland, 
+
+Transakcja numer: 682! 
+Kupujący= Sascha Wringe, email='swringeix@cnet.com', ip='146.203.31.212', 
+samochod= BMW model: M3', color='#b4d5ce', VIN='WBAVT13556A226612', rocznik='2011', cena =79238.32 euro, 
+data_zakupu=2020-11-04 
+Lokalizacja:  Trzciana w Poland, 
+
+Transakcja numer: 734! 
+Kupujący= Chrysa Colman, email='ccolmankd@issuu.com', ip='210.68.171.160', 
+samochod= BMW model: X5 M', color='#c023b2', VIN='JN1CV6EK0BM778471', rocznik='2010', cena =74527.00 euro, 
+data_zakupu=2020-04-29 
+Lokalizacja:  Cisek w Poland, 
+
+Transakcja numer: 735! 
+Kupujący= Perl Caiger, email='pcaigerke@wordpress.com', ip='38.245.198.204', 
+samochod= BMW model: X6', color='#f81757', VIN='1C3BCBFG5CN025486', rocznik='2009', cena =64508.20 euro, 
+data_zakupu=2020-10-27 
+Lokalizacja:  Leśnica w Poland, 
+
+Transakcja numer: 754! 
+Kupujący= Marshall Adamiec, email='madamieckx@flickr.com', ip='215.141.7.211', 
+samochod= BMW model: X5', color='#0d7282', VIN='SCBLE37G45C648386', rocznik='2012', cena =33217.66 euro, 
+data_zakupu=2020-05-10 
+Lokalizacja:  Brzozów w Poland, 
+
+Transakcja numer: 780! 
+Kupujący= Vivi Keough, email='vkeoughln@merriam-webster.com', ip='56.73.252.43', 
+samochod= BMW model: M3', color='#22b80c', VIN='3VWKX7AJ2AM850860', rocznik='2005', cena =28318.62 euro, 
+data_zakupu=2020-09-28 
+Lokalizacja:  Świdwin w Poland, 
+
+Transakcja numer: 843! 
+Kupujący= Jared Hudspith, email='jhudspithne@cocolog-nifty.com', ip='206.127.159.23', 
+samochod= BMW model: 7 Series', color='#925c85', VIN='TRUTX28N321128904', rocznik='1993', cena =29836.57 euro, 
+data_zakupu=2020-11-19 
+Lokalizacja:  Goczałkowice Zdrój w Poland, 
+
+Transakcja numer: 894! 
+Kupujący= Vickie Muffitt, email='vmuffittot@sfgate.com', ip='57.45.46.106', 
+samochod= BMW model: 5 Series', color='#41cbb0', VIN='KNALN4D74F5578835', rocznik='2004', cena =21662.12 euro, 
+data_zakupu=2020-12-15 
+Lokalizacja:  Piekielnik w Poland, 
+
+Transakcja numer: 902! 
+Kupujący= Klement Probetts, email='kprobettsp1@xing.com', ip='180.234.99.175', 
+samochod= BMW model: X6', color='#41826a', VIN='1N6AA0CA1AN804279', rocznik='2013', cena =76733.87 euro, 
+data_zakupu=2020-02-29 
+Lokalizacja:  Bystřany w Czech Republic, 
+
+Transakcja numer: 954! 
+Kupujący= Heath Smallthwaite, email='hsmallthwaiteqh@last.fm', ip='70.198.40.140', 
+samochod= BMW model: M3', color='#59f2b9', VIN='1C3CDFBB0FD093143', rocznik='1997', cena =78597.13 euro, 
+data_zakupu=2020-03-14 
+Lokalizacja:  Kraczkowa w Poland, 
+
+Transakcja numer: 961! 
+Kupujący= Carola Darte, email='cdarteqo@bluehost.com', ip='136.246.236.170', 
+samochod= BMW model: M3', color='#0020e6', VIN='1FTMF1C84AK055254', rocznik='1998', cena =24263.80 euro, 
+data_zakupu=2020-04-17 
+Lokalizacja:  Batelov w Czech Republic]

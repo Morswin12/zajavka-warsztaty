@@ -1,0 +1,13 @@
+[
+
+Transakcja numer: 403! 
+Kupujący= Nye Seger, email='nsegerb6@usnews.com', ip='115.197.178.70', 
+samochod= Ram model: Dakota', color='#7a9066', VIN='1C3CDFCB0ED927490', rocznik='2011', cena =30072.66 euro, 
+data_zakupu=2020-09-29 
+Lokalizacja:  Heilbronn w Germany, 
+
+Transakcja numer: 833! 
+Kupujący= Karlotte Antusch, email='kantuschn4@google.com.hk', ip='8.137.24.96', 
+samochod= Ram model: 2500', color='#4f5e65', VIN='JH4CU2E66AC258290', rocznik='2011', cena =49301.29 euro, 
+data_zakupu=2020-04-09 
+Lokalizacja:  Prażmów w Poland]

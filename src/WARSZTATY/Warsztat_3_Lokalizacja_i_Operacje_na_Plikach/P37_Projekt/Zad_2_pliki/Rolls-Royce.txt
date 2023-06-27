@@ -1,0 +1,13 @@
+[
+
+Transakcja numer: 775! 
+Kupujący= Giusto Kaygill, email='gkaygillli@telegraph.co.uk', ip='219.150.26.162', 
+samochod= Rolls-Royce model: Phantom', color='#715f87', VIN='WAULC68E15A934576', rocznik='2008', cena =56285.59 euro, 
+data_zakupu=2020-08-03 
+Lokalizacja:  Białołeka w Poland, 
+
+Transakcja numer: 990! 
+Kupujący= Skyler Kitteman, email='skittemanrh@prlog.org', ip='71.6.225.239', 
+samochod= Rolls-Royce model: Phantom', color='#f02169', VIN='JN8AE2KP1C9709262', rocznik='2006', cena =92943.48 euro, 
+data_zakupu=2020-08-23 
+Lokalizacja:  Kiełczów w Poland]

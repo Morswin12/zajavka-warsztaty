@@ -1,0 +1,115 @@
+[
+
+Transakcja numer: 18! 
+Kupujący= Kissee Paull, email='kpaullh@blogs.com', ip='226.237.22.103', 
+samochod= Chrysler model: 300M', color='#9da9d2', VIN='WA1LFAFP9CA893316', rocznik='2003', cena =63058.40 euro, 
+data_zakupu=2020-10-26 
+Lokalizacja:  Niedzica w Poland, 
+
+Transakcja numer: 83! 
+Kupujący= Alethea Greensted, email='agreensted2a@blogspot.com', ip='207.120.225.241', 
+samochod= Chrysler model: Concorde', color='#42b5c5', VIN='WA1CYBFE6AD346143', rocznik='2001', cena =37644.77 euro, 
+data_zakupu=2020-08-31 
+Lokalizacja:  Łysomice w Poland, 
+
+Transakcja numer: 96! 
+Kupujący= Ali Chang, email='achang2n@archive.org', ip='30.226.219.224', 
+samochod= Chrysler model: PT Cruiser', color='#b8342f', VIN='3N1CE2CPXFL569911', rocznik='2007', cena =15721.87 euro, 
+data_zakupu=2020-01-03 
+Lokalizacja:  Zielonka w Poland, 
+
+Transakcja numer: 132! 
+Kupujący= Elna Matyukon, email='ematyukon3n@tmall.com', ip='70.245.48.64', 
+samochod= Chrysler model: New Yorker', color='#1922c4', VIN='1GKS1AEC8FR177192', rocznik='1996', cena =639.91 euro, 
+data_zakupu=2020-06-17 
+Lokalizacja:  Bořitov w Czech Republic, 
+
+Transakcja numer: 147! 
+Kupujący= Taddeusz Abberley, email='tabberley42@so-net.ne.jp', ip='96.32.64.77', 
+samochod= Chrysler model: Concorde', color='#57728c', VIN='WAUSH98E26A653886', rocznik='2001', cena =6938.73 euro, 
+data_zakupu=2020-06-04 
+Lokalizacja:  Malbork w Poland, 
+
+Transakcja numer: 226! 
+Kupujący= Aundrea Bail, email='abail69@guardian.co.uk', ip='192.77.158.95', 
+samochod= Chrysler model: PT Cruiser', color='#c6711e', VIN='SALVP2BG3FH478858', rocznik='2003', cena =77632.50 euro, 
+data_zakupu=2020-06-20 
+Lokalizacja:  Goworowo w Poland, 
+
+Transakcja numer: 331! 
+Kupujący= Wayne Hungerford, email='whungerford96@cafepress.com', ip='233.189.100.255', 
+samochod= Chrysler model: Cirrus', color='#e59c76', VIN='1G4HP52K44U838472', rocznik='2000', cena =52197.41 euro, 
+data_zakupu=2020-03-21 
+Lokalizacja:  Jablunkov w Czech Republic, 
+
+Transakcja numer: 365! 
+Kupujący= Gardy Smithe, email='gsmithea4@miibeian.gov.cn', ip='122.77.115.51', 
+samochod= Chrysler model: PT Cruiser', color='#b75cb4', VIN='3FA6P0SU1DR045806', rocznik='2001', cena =93248.67 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  Rybno w Poland, 
+
+Transakcja numer: 408! 
+Kupujący= Frayda Asson, email='fassonbb@ibm.com', ip='122.56.109.141', 
+samochod= Chrysler model: 300M', color='#46d325', VIN='5XYKT3A6XFG661316', rocznik='2000', cena =38131.86 euro, 
+data_zakupu=2020-12-27 
+Lokalizacja:  Kętrzyn w Poland, 
+
+Transakcja numer: 552! 
+Kupujący= Winnie Pattisson, email='wpattissonfb@pagesperso-orange.fr', ip='209.52.195.203', 
+samochod= Chrysler model: Concorde', color='#a77a7f', VIN='5GAKVCKD2DJ389334', rocznik='1995', cena =27196.08 euro, 
+data_zakupu=2020-05-29 
+Lokalizacja:  Nýdek w Czech Republic, 
+
+Transakcja numer: 571! 
+Kupujący= Sisely Burhouse, email='sburhousefu@reference.com', ip='149.89.251.104', 
+samochod= Chrysler model: Aspen', color='#c7a906', VIN='WUAW2AFC2FN180690', rocznik='2008', cena =43763.08 euro, 
+data_zakupu=2020-01-13 
+Lokalizacja:  Dukla w Poland, 
+
+Transakcja numer: 618! 
+Kupujący= Violet Dartnell, email='vdartnellh5@admin.ch', ip='26.169.145.212', 
+samochod= Chrysler model: Concorde', color='#2e61c7', VIN='1G4HP54KX44137643', rocznik='2000', cena =83447.00 euro, 
+data_zakupu=2020-06-14 
+Lokalizacja:  Březová w Czech Republic, 
+
+Transakcja numer: 704! 
+Kupujący= Clay Tedder, email='ctedderjj@umn.edu', ip='213.249.134.20', 
+samochod= Chrysler model: Town & Country', color='#4f1f63', VIN='19VDE1F58DE165280', rocznik='2002', cena =31825.27 euro, 
+data_zakupu=2020-03-24 
+Lokalizacja:  Syców w Poland, 
+
+Transakcja numer: 753! 
+Kupujący= Karina Stainer, email='kstainerkw@e-recht24.de', ip='190.39.22.207', 
+samochod= Chrysler model: Sebring', color='#e0d33e', VIN='3D4PH9FV8AT627616', rocznik='2000', cena =87816.17 euro, 
+data_zakupu=2020-01-14 
+Lokalizacja:  Paprotnia w Poland, 
+
+Transakcja numer: 767! 
+Kupujący= Conney Derham, email='cderhamla@tripadvisor.com', ip='161.192.57.99', 
+samochod= Chrysler model: Sebring', color='#89cfd8', VIN='WA1YD54B12N562456', rocznik='1998', cena =94816.65 euro, 
+data_zakupu=2020-11-22 
+Lokalizacja:  Rzewnie w Poland, 
+
+Transakcja numer: 866! 
+Kupujący= Clarie Faragher, email='cfaraghero1@tumblr.com', ip='162.148.212.146', 
+samochod= Chrysler model: 300', color='#503cf7', VIN='1C4RDHEG1DC613099', rocznik='1999', cena =91386.40 euro, 
+data_zakupu=2020-09-08 
+Lokalizacja:  Krotoszyn w Poland, 
+
+Transakcja numer: 926! 
+Kupujący= Karyn Nye, email='knyepp@gizmodo.com', ip='139.198.175.59', 
+samochod= Chrysler model: Voyager', color='#8fd156', VIN='1GYFC53239R755576', rocznik='2003', cena =22886.89 euro, 
+data_zakupu=2020-03-03 
+Lokalizacja:  Kołczygłowy w Poland, 
+
+Transakcja numer: 952! 
+Kupujący= Carley Double, email='cdoubleqf@creativecommons.org', ip='79.178.153.173', 
+samochod= Chrysler model: Concorde', color='#cbc8fd', VIN='2G4WS55J031845440', rocznik='1996', cena =20549.93 euro, 
+data_zakupu=2020-02-23 
+Lokalizacja:  Bechlín w Czech Republic, 
+
+Transakcja numer: 966! 
+Kupujący= Piotr Stoffers, email='pstoffersqt@moonfruit.com', ip='11.207.240.57', 
+samochod= Chrysler model: Town & Country', color='#8c01f0', VIN='5N1AN0NU2BC475745', rocznik='2011', cena =67749.86 euro, 
+data_zakupu=2020-05-31 
+Lokalizacja:  Dobřany w Czech Republic]

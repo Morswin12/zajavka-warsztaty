@@ -1,0 +1,25 @@
+[
+
+Transakcja numer: 373! 
+Kupujący= Liana Gulliver, email='lgulliverac@arstechnica.com', ip='125.27.168.55', 
+samochod= Saturn model: S-Series', color='#462550', VIN='5J6TF3H33CL872410', rocznik='2002', cena =13019.07 euro, 
+data_zakupu=2020-03-22 
+Lokalizacja:  Dukla w Poland, 
+
+Transakcja numer: 520! 
+Kupujący= Ainslie Heighway, email='aheighwayef@paginegialle.it', ip='82.244.255.212', 
+samochod= Saturn model: VUE', color='#8f92cd', VIN='1D4PT2GK1BW050398', rocznik='2003', cena =26812.74 euro, 
+data_zakupu=2020-01-27 
+Lokalizacja:  Świebodzice w Poland, 
+
+Transakcja numer: 674! 
+Kupujący= Carmella Dinning, email='cdinningip@delicious.com', ip='169.213.26.46', 
+samochod= Saturn model: Relay', color='#073e97', VIN='1G6AR5SX8F0793917', rocznik='2007', cena =47066.72 euro, 
+data_zakupu=2020-01-09 
+Lokalizacja:  Ojrzeń w Poland, 
+
+Transakcja numer: 938! 
+Kupujący= Justus Udell, email='judellq1@tripod.com', ip='160.39.222.198', 
+samochod= Saturn model: S-Series', color='#3087af', VIN='3GYFNAE37ES205765', rocznik='1999', cena =5014.98 euro, 
+data_zakupu=2020-10-17 
+Lokalizacja:  Bochov w Czech Republic]

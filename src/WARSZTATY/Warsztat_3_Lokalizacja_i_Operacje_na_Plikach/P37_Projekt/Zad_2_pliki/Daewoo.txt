@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 646! 
+Kupujący= Bamby Bampfield, email='bbampfieldhx@prlog.org', ip='20.48.247.153', 
+samochod= Daewoo model: Leganza', color='#3e57de', VIN='JTEBU5JR5C5108270', rocznik='2001', cena =94984.18 euro, 
+data_zakupu=2020-12-06 
+Lokalizacja:  Svoboda nad Úpou w Czech Republic]

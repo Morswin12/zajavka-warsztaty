@@ -1,0 +1,49 @@
+[
+
+Transakcja numer: 153! 
+Kupujący= Charmain Jacketts, email='cjacketts48@columbia.edu', ip='58.90.22.85', 
+samochod= Suzuki model: SJ 410', color='#d03b83', VIN='WAUAFAFCXCN611412', rocznik='1986', cena =47819.20 euro, 
+data_zakupu=2020-04-12 
+Lokalizacja:  Gelsenkirchen w Germany, 
+
+Transakcja numer: 259! 
+Kupujący= Sinclair Hele, email='shele76@csmonitor.com', ip='53.1.209.122', 
+samochod= Suzuki model: SX4', color='#c510d0', VIN='1C3CDFCB3ED569088', rocznik='2008', cena =22436.09 euro, 
+data_zakupu=2020-12-06 
+Lokalizacja:  Krzemieniewo w Poland, 
+
+Transakcja numer: 596! 
+Kupujący= Bartholemy Janecki, email='bjaneckigj@soup.io', ip='80.40.247.222', 
+samochod= Suzuki model: Sidekick', color='#8fbd26', VIN='5GADV23177D503502', rocznik='1997', cena =69918.56 euro, 
+data_zakupu=2020-04-02 
+Lokalizacja:  Chruszczobród w Poland, 
+
+Transakcja numer: 598! 
+Kupujący= Leigh Eck, email='leckgl@amazon.co.jp', ip='57.73.32.252', 
+samochod= Suzuki model: Swift', color='#100a86', VIN='19UUA568X3A052339', rocznik='2005', cena =36333.27 euro, 
+data_zakupu=2020-10-20 
+Lokalizacja:  Głuchów w Poland, 
+
+Transakcja numer: 638! 
+Kupujący= Lindsy Hryniewicz, email='lhryniewiczhp@networksolutions.com', ip='104.138.155.29', 
+samochod= Suzuki model: Swift', color='#d09206', VIN='1C4PJLAK0CW888232', rocznik='1988', cena =70272.78 euro, 
+data_zakupu=2020-04-09 
+Lokalizacja:  Brok w Poland, 
+
+Transakcja numer: 742! 
+Kupujący= Shaw Fairbridge, email='sfairbridgekl@behance.net', ip='16.112.59.248', 
+samochod= Suzuki model: Verona', color='#0f4863', VIN='JM1NC2PF9E0959424', rocznik='2005', cena =48857.49 euro, 
+data_zakupu=2020-01-30 
+Lokalizacja:  Frydrychowice w Poland, 
+
+Transakcja numer: 914! 
+Kupujący= Daffy Blyde, email='dblydepd@cocolog-nifty.com', ip='70.202.29.1', 
+samochod= Suzuki model: Grand Vitara', color='#c66722', VIN='1G6AM5S38D0852621', rocznik='2002', cena =46821.21 euro, 
+data_zakupu=2020-08-10 
+Lokalizacja:  Bystřany w Czech Republic, 
+
+Transakcja numer: 941! 
+Kupujący= Toddie Gaythorpe, email='tgaythorpeq4@1und1.de', ip='174.49.221.227', 
+samochod= Suzuki model: Kizashi', color='#a5e437', VIN='1G6AB5SA5D0621535', rocznik='2012', cena =49388.37 euro, 
+data_zakupu=2020-07-05 
+Lokalizacja:  Tuchomie w Poland]

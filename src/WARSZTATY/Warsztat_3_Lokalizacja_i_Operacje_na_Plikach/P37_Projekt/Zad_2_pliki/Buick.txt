@@ -1,0 +1,151 @@
+[
+
+Transakcja numer: 68! 
+Kupujący= Orsa Wilfling, email='owilfling1v@diigo.com', ip='53.136.57.107', 
+samochod= Buick model: LeSabre', color='#0a2fad', VIN='1D4RD4GG5BC716516', rocznik='1985', cena =7542.19 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Orlová w Czech Republic, 
+
+Transakcja numer: 91! 
+Kupujący= Charissa Berr, email='cberr2i@foxnews.com', ip='138.86.215.72', 
+samochod= Buick model: Regal', color='#23aea8', VIN='2G4WF551241593499', rocznik='1986', cena =82619.40 euro, 
+data_zakupu=2020-12-11 
+Lokalizacja:  Nýřany w Czech Republic, 
+
+Transakcja numer: 138! 
+Kupujący= Gerhardt Yeardsley, email='gyeardsley3t@slideshare.net', ip='120.48.41.18', 
+samochod= Buick model: Coachbuilder', color='#da4934', VIN='WAUDT48H84K166588', rocznik='1992', cena =56616.47 euro, 
+data_zakupu=2020-07-04 
+Lokalizacja:  Bechyně w Czech Republic, 
+
+Transakcja numer: 140! 
+Kupujący= Daniele Knapton, email='dknapton3v@diigo.com', ip='22.71.189.41', 
+samochod= Buick model: Coachbuilder', color='#bb37ce', VIN='1GYFK66858R431973', rocznik='1990', cena =98127.28 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Essen w Germany, 
+
+Transakcja numer: 156! 
+Kupujący= Corine Donhardt, email='cdonhardt4b@skype.com', ip='86.232.98.59', 
+samochod= Buick model: Century', color='#14731e', VIN='JH4DC53043C993859', rocznik='2004', cena =22140.55 euro, 
+data_zakupu=2020-06-25 
+Lokalizacja:  Milówka w Poland, 
+
+Transakcja numer: 208! 
+Kupujący= Caleb Galfour, email='cgalfour5r@sina.com.cn', ip='131.38.165.188', 
+samochod= Buick model: Skyhawk', color='#afeed2', VIN='WAUVF98K09A488580', rocznik='1988', cena =13632.45 euro, 
+data_zakupu=2020-04-19 
+Lokalizacja:  Měcholupy w Czech Republic, 
+
+Transakcja numer: 260! 
+Kupujący= Sasha Suart, email='ssuart77@dailymotion.com', ip='206.84.76.242', 
+samochod= Buick model: Roadmaster', color='#87c7ec', VIN='3C3CFFJHXET569181', rocznik='1996', cena =59545.91 euro, 
+data_zakupu=2020-07-06 
+Lokalizacja:  Stanisław Górny w Poland, 
+
+Transakcja numer: 261! 
+Kupujący= Shantee Borgnet, email='sborgnet78@noaa.gov', ip='251.239.251.181', 
+samochod= Buick model: Park Avenue', color='#3aac40', VIN='4T3BK3BB6FU541674', rocznik='2003', cena =62451.10 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Kaczory w Poland, 
+
+Transakcja numer: 289! 
+Kupujący= Marjy Fullun, email='mfullun80@webnode.com', ip='155.97.202.23', 
+samochod= Buick model: Roadmaster', color='#f6fbdd', VIN='5N1AR1NBXBC148017', rocznik='1993', cena =42570.05 euro, 
+data_zakupu=2020-07-31 
+Lokalizacja:  Zagórnik w Poland, 
+
+Transakcja numer: 335! 
+Kupujący= Michaelina Mollnar, email='mmollnar9a@lulu.com', ip='240.232.229.238', 
+samochod= Buick model: Riviera', color='#bd1932', VIN='SCFHDDAJ9BA686334', rocznik='1979', cena =46455.29 euro, 
+data_zakupu=2020-03-15 
+Lokalizacja:  Dolní Studénky w Czech Republic, 
+
+Transakcja numer: 372! 
+Kupujący= Janella McLaughlin, email='jmclaughlinab@wikimedia.org', ip='201.30.12.64', 
+samochod= Buick model: LeSabre', color='#61c2be', VIN='JH4DC548X5S673698', rocznik='1987', cena =15930.60 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Dolní Rychnov w Czech Republic, 
+
+Transakcja numer: 439! 
+Kupujący= Catherine Heyns, email='cheynsc6@virginia.edu', ip='176.62.217.117', 
+samochod= Buick model: Park Avenue', color='#9ffec6', VIN='5UXZV8C51CL417188', rocznik='1999', cena =19287.90 euro, 
+data_zakupu=2020-04-23 
+Lokalizacja:  Chodzież w Poland, 
+
+Transakcja numer: 469! 
+Kupujący= Austine Goreway, email='agorewayd0@bing.com', ip='3.84.90.236', 
+samochod= Buick model: LaCrosse', color='#614925', VIN='SALAB2V64FA125196', rocznik='2012', cena =91641.43 euro, 
+data_zakupu=2020-05-18 
+Lokalizacja:  Vacenovice w Czech Republic, 
+
+Transakcja numer: 503! 
+Kupujący= Cecily Muge, email='cmugedy@cbsnews.com', ip='146.221.209.213', 
+samochod= Buick model: Skylark', color='#b33cea', VIN='3VW467AT6CM351642', rocznik='1985', cena =96346.01 euro, 
+data_zakupu=2020-05-06 
+Lokalizacja:  Ruda-Huta w Poland, 
+
+Transakcja numer: 521! 
+Kupujący= Denna Malkinson, email='dmalkinsoneg@odnoklassniki.ru', ip='84.65.184.157', 
+samochod= Buick model: Rendezvous', color='#188024', VIN='SCBGR3ZA5DC630752', rocznik='2006', cena =23783.83 euro, 
+data_zakupu=2020-11-30 
+Lokalizacja:  Janowice w Poland, 
+
+Transakcja numer: 533! 
+Kupujący= Mechelle Fountian, email='mfountianes@smh.com.au', ip='2.24.248.83', 
+samochod= Buick model: Riviera', color='#bbf877', VIN='JHMZF1C60ES737771', rocznik='1986', cena =42903.43 euro, 
+data_zakupu=2020-11-29 
+Lokalizacja:  Horní Čermná w Czech Republic, 
+
+Transakcja numer: 655! 
+Kupujący= Leopold Summerskill, email='lsummerskilli6@joomla.org', ip='253.163.146.186', 
+samochod= Buick model: LaCrosse', color='#2ae4e4', VIN='3N6CM0KN0EK435379', rocznik='2010', cena =52594.08 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Nezamyslice w Czech Republic, 
+
+Transakcja numer: 690! 
+Kupujący= Powell Sket, email='psketj5@friendfeed.com', ip='244.5.236.175', 
+samochod= Buick model: Rendezvous', color='#e539d9', VIN='JTHBE5C27D5037364', rocznik='2005', cena =98175.12 euro, 
+data_zakupu=2020-01-04 
+Lokalizacja:  Stanowice w Poland, 
+
+Transakcja numer: 715! 
+Kupujący= Grissel Prebble, email='gprebbleju@networkadvertising.org', ip='150.55.116.199', 
+samochod= Buick model: Rainier', color='#5f08db', VIN='1G6DC67A480661314', rocznik='2004', cena =80773.22 euro, 
+data_zakupu=2020-12-02 
+Lokalizacja:  Wilkołaz w Poland, 
+
+Transakcja numer: 731! 
+Kupujący= Berkie Milam, email='bmilamka@cloudflare.com', ip='138.169.71.151', 
+samochod= Buick model: Century', color='#88987b', VIN='SALAC2D43CA044201', rocznik='2000', cena =8718.64 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Włoszczowa w Poland, 
+
+Transakcja numer: 745! 
+Kupujący= Thia Glenny, email='tglennyko@printfriendly.com', ip='33.206.18.2', 
+samochod= Buick model: Estate', color='#5631a3', VIN='1N4AB7AP2EN430700', rocznik='1989', cena =81302.51 euro, 
+data_zakupu=2020-03-27 
+Lokalizacja:  Stará Huť w Czech Republic, 
+
+Transakcja numer: 763! 
+Kupujący= Roshelle Leber, email='rleberl6@histats.com', ip='12.69.173.234', 
+samochod= Buick model: Regal', color='#e6fa6c', VIN='WDDHF2EB7BA330597', rocznik='2001', cena =54411.09 euro, 
+data_zakupu=2020-02-14 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 773! 
+Kupujący= Loreen Reeds, email='lreedslg@weather.com', ip='55.90.84.7', 
+samochod= Buick model: Park Avenue', color='#0b8a97', VIN='1FT7W2A69EE627072', rocznik='2003', cena =60691.83 euro, 
+data_zakupu=2020-05-04 
+Lokalizacja:  Bogoria w Poland, 
+
+Transakcja numer: 831! 
+Kupujący= Dunn Towl, email='dtowln2@about.com', ip='189.95.123.192', 
+samochod= Buick model: Roadmaster', color='#7469ed', VIN='WA1DKAFP3CA540246', rocznik='1993', cena =51829.87 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Šumperk w Czech Republic, 
+
+Transakcja numer: 874! 
+Kupujący= Sile Takkos, email='stakkoso9@scientificamerican.com', ip='9.238.116.134', 
+samochod= Buick model: Lucerne', color='#b51f1c', VIN='4T1BF3EK3BU925561', rocznik='2006', cena =2848.09 euro, 
+data_zakupu=2020-08-21 
+Lokalizacja:  Piasek w Poland]

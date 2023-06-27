@@ -1,0 +1,145 @@
+[
+
+Transakcja numer: 4! 
+Kupujący= Bobinette Silversmid, email='bsilversmid3@va.gov', ip='235.128.129.91', 
+samochod= Audi model: A6', color='#430bbb', VIN='3C4PDDDG8ET165757', rocznik='2002', cena =14233.71 euro, 
+data_zakupu=2020-02-04 
+Lokalizacja:  Parchowo w Poland, 
+
+Transakcja numer: 110! 
+Kupujący= Gwenny Arnowitz, email='garnowitz31@comsenz.com', ip='94.93.89.128', 
+samochod= Audi model: A8', color='#71b30f', VIN='4USBT53474L369108', rocznik='2000', cena =68877.19 euro, 
+data_zakupu=2020-05-25 
+Lokalizacja:  Rokitno w Poland, 
+
+Transakcja numer: 129! 
+Kupujący= Bink Duff, email='bduff3k@vkontakte.ru', ip='105.202.162.56', 
+samochod= Audi model: A3', color='#63bd24', VIN='19VDE3F33EE165652', rocznik='2008', cena =2217.07 euro, 
+data_zakupu=2020-07-25 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 152! 
+Kupujący= Bink Ballintime, email='bballintime47@hexun.com', ip='109.195.112.171', 
+samochod= Audi model: A3', color='#24f8ea', VIN='3D7TT2CT2BG762448', rocznik='2008', cena =59198.28 euro, 
+data_zakupu=2020-12-05 
+Lokalizacja:  Police nad Metují w Czech Republic, 
+
+Transakcja numer: 166! 
+Kupujący= Moina Fernando, email='mfernando4l@exblog.jp', ip='189.173.118.23', 
+samochod= Audi model: Coupe GT', color='#dd40f8', VIN='YV1672MC1BJ123741', rocznik='1987', cena =19044.06 euro, 
+data_zakupu=2020-03-14 
+Lokalizacja:  Dobšice w Czech Republic, 
+
+Transakcja numer: 192! 
+Kupujący= Stavro Alp, email='salp5b@wikipedia.org', ip='180.207.149.255', 
+samochod= Audi model: A8', color='#4fed1c', VIN='WAURD68DX1A800710', rocznik='2002', cena =14945.66 euro, 
+data_zakupu=2020-10-19 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 386! 
+Kupujący= Sonnnie Deschelle, email='sdeschelleap@barnesandnoble.com', ip='178.219.85.28', 
+samochod= Audi model: A8', color='#35f448', VIN='1G6DE5EG8A0896249', rocznik='2008', cena =4086.85 euro, 
+data_zakupu=2020-09-10 
+Lokalizacja:  Ledenice w Czech Republic, 
+
+Transakcja numer: 406! 
+Kupujący= Chevy Hoffmann, email='choffmannb9@prlog.org', ip='80.183.204.164', 
+samochod= Audi model: Q7', color='#9e7cfa', VIN='JN1CV6AP3FM036248', rocznik='2010', cena =4808.26 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Uniejów w Poland, 
+
+Transakcja numer: 433! 
+Kupujący= Daune Cabera, email='dcaberac0@mozilla.com', ip='116.216.207.221', 
+samochod= Audi model: S4', color='#1ae811', VIN='3D7TP2CT0AG441088', rocznik='2013', cena =92793.05 euro, 
+data_zakupu=2020-05-03 
+Lokalizacja:  Sarnaki w Poland, 
+
+Transakcja numer: 448! 
+Kupujący= Karin Frankiss, email='kfrankisscf@amazon.de', ip='80.122.120.34', 
+samochod= Audi model: A3', color='#59cac7', VIN='WBA3A5C5XFF165636', rocznik='2012', cena =3754.60 euro, 
+data_zakupu=2020-11-01 
+Lokalizacja:  Radom w Poland, 
+
+Transakcja numer: 449! 
+Kupujący= Trev Aldus, email='talduscg@joomla.org', ip='192.58.166.48', 
+samochod= Audi model: A3', color='#0ffe15', VIN='WBAPM5C50BE047457', rocznik='2006', cena =52107.28 euro, 
+data_zakupu=2020-12-29 
+Lokalizacja:  Stoczek w Poland, 
+
+Transakcja numer: 456! 
+Kupujący= Arvin Giddins, email='agiddinscn@surveymonkey.com', ip='120.208.104.140', 
+samochod= Audi model: V8', color='#7f0e24', VIN='WDDEJ7EBXDA815639', rocznik='1992', cena =94151.66 euro, 
+data_zakupu=2020-09-20 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 485! 
+Kupujący= Vinnie Scafe, email='vscafedg@telegraph.co.uk', ip='61.247.182.230', 
+samochod= Audi model: S8', color='#2531aa', VIN='1C3CDFBA5DD043407', rocznik='2002', cena =17758.68 euro, 
+data_zakupu=2020-05-12 
+Lokalizacja:  Sabnie w Poland, 
+
+Transakcja numer: 492! 
+Kupujący= Amanda Hearns, email='ahearnsdn@google.com', ip='42.36.168.247', 
+samochod= Audi model: A3', color='#8b14e6', VIN='5GAKVAKD5EJ909516', rocznik='2010', cena =63016.06 euro, 
+data_zakupu=2020-06-25 
+Lokalizacja:  Horní Čermná w Czech Republic, 
+
+Transakcja numer: 502! 
+Kupujący= Elsy Nottle, email='enottledx@blogs.com', ip='116.162.235.90', 
+samochod= Audi model: A4', color='#b4bff1', VIN='WBAET374X3N657500', rocznik='2001', cena =57306.97 euro, 
+data_zakupu=2020-01-26 
+Lokalizacja:  Łubniany w Poland, 
+
+Transakcja numer: 506! 
+Kupujący= Alic Drayson, email='adraysone1@alexa.com', ip='176.227.48.66', 
+samochod= Audi model: A4', color='#770c3e', VIN='WAUUL98E96A945333', rocznik='2005', cena =48332.49 euro, 
+data_zakupu=2020-07-28 
+Lokalizacja:  Tuchomie w Poland, 
+
+Transakcja numer: 513! 
+Kupujący= Krispin Agiolfinger, email='kagiolfingere8@samsung.com', ip='102.153.227.205', 
+samochod= Audi model: A6', color='#0f1fb4', VIN='JTDKN3DU9B0874200', rocznik='2005', cena =11159.29 euro, 
+data_zakupu=2020-07-10 
+Lokalizacja:  Wąsosz w Poland, 
+
+Transakcja numer: 519! 
+Kupujący= Ricki Kornyakov, email='rkornyakovee@123-reg.co.uk', ip='78.242.149.171', 
+samochod= Audi model: TT', color='#bb665a', VIN='WAUNF98P36A395303', rocznik='2004', cena =66745.47 euro, 
+data_zakupu=2020-03-17 
+Lokalizacja:  Przywidz w Poland, 
+
+Transakcja numer: 524! 
+Kupujący= Kathrine Sewell, email='ksewellej@berkeley.edu', ip='148.11.93.147', 
+samochod= Audi model: S4', color='#21b279', VIN='1G6DS5E35C0603934', rocznik='2002', cena =99248.87 euro, 
+data_zakupu=2020-02-14 
+Lokalizacja:  Gomunice w Poland, 
+
+Transakcja numer: 628! 
+Kupujący= Goddart Addeycott, email='gaddeycotthf@squidoo.com', ip='25.127.246.9', 
+samochod= Audi model: 5000S', color='#b4d7c6', VIN='WP1AA2A2XCL587402', rocznik='1987', cena =62830.11 euro, 
+data_zakupu=2020-09-11 
+Lokalizacja:  Podolí w Czech Republic, 
+
+Transakcja numer: 722! 
+Kupujący= Fabian Oxtoby, email='foxtobyk1@psu.edu', ip='135.138.148.20', 
+samochod= Audi model: A3', color='#af5902', VIN='1GKS1CE07ER948290', rocznik='2006', cena =2375.20 euro, 
+data_zakupu=2020-04-26 
+Lokalizacja:  Mnichovo Hradiště w Czech Republic, 
+
+Transakcja numer: 821! 
+Kupujący= Corbett Rheubottom, email='crheubottomms@umich.edu', ip='229.39.202.159', 
+samochod= Audi model: Quattro', color='#f3b1fd', VIN='1FTSW3B53AE198429', rocznik='1994', cena =49492.18 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Korczyna w Poland, 
+
+Transakcja numer: 923! 
+Kupujący= Ilario Trahmel, email='itrahmelpm@ifeng.com', ip='143.149.151.75', 
+samochod= Audi model: S4', color='#b11fc5', VIN='3N1BC1AP1BL419856', rocznik='2000', cena =31782.29 euro, 
+data_zakupu=2020-01-29 
+Lokalizacja:  Dąbrowice w Poland, 
+
+Transakcja numer: 964! 
+Kupujący= Robinette Laurence, email='rlaurenceqr@vk.com', ip='28.99.95.223', 
+samochod= Audi model: A8', color='#6ab30d', VIN='3D7LT2ET8BG756568', rocznik='2000', cena =25751.50 euro, 
+data_zakupu=2020-03-30 
+Lokalizacja:  Chruszczobród w Poland]

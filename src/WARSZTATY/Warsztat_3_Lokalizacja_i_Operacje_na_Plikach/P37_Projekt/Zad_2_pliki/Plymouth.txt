@@ -1,0 +1,43 @@
+[
+
+Transakcja numer: 31! 
+Kupujący= Concettina Westover, email='cwestoveru@goo.gl', ip='220.76.126.225', 
+samochod= Plymouth model: Colt Vista', color='#4b4a28', VIN='2T1KE4EE9BC170615', rocznik='1992', cena =53245.72 euro, 
+data_zakupu=2020-08-03 
+Lokalizacja:  Staré Město w Czech Republic, 
+
+Transakcja numer: 44! 
+Kupujący= Gannon Skoof, email='gskoof17@boston.com', ip='94.194.136.51', 
+samochod= Plymouth model: Volare', color='#2f379f', VIN='WAUAH74F88N598533', rocznik='1976', cena =88917.51 euro, 
+data_zakupu=2020-01-20 
+Lokalizacja:  Borkowice w Poland, 
+
+Transakcja numer: 126! 
+Kupujący= Florry Kohnemann, email='fkohnemann3h@canalblog.com', ip='195.88.172.159', 
+samochod= Plymouth model: Colt', color='#839a4c', VIN='WAUSH98E77A055083', rocznik='1992', cena =57417.48 euro, 
+data_zakupu=2020-07-01 
+Lokalizacja:  Kryry w Czech Republic, 
+
+Transakcja numer: 288! 
+Kupujący= Evelyn Gresly, email='egresly7z@goodreads.com', ip='145.42.85.9', 
+samochod= Plymouth model: Grand Voyager', color='#cf4b8b', VIN='SALME1D45CA074446', rocznik='1994', cena =12759.28 euro, 
+data_zakupu=2020-07-19 
+Lokalizacja:  Żychlin w Poland, 
+
+Transakcja numer: 536! 
+Kupujący= Jonah Nanninini, email='jnannininiev@acquirethisname.com', ip='14.202.170.72', 
+samochod= Plymouth model: Voyager', color='#338cb0', VIN='JTHBB1BA7A2707096', rocznik='1994', cena =64560.93 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Koło w Poland, 
+
+Transakcja numer: 587! 
+Kupujący= Neale Renney, email='nrenneyga@bbb.org', ip='73.35.133.164', 
+samochod= Plymouth model: Voyager', color='#c73a8d', VIN='SCFEBBCF5CG362138', rocznik='1997', cena =77905.52 euro, 
+data_zakupu=2020-10-29 
+Lokalizacja:  Dolní Cerekev w Czech Republic, 
+
+Transakcja numer: 869! 
+Kupujący= Inglebert Grist, email='igristo4@rediff.com', ip='213.6.195.167', 
+samochod= Plymouth model: Voyager', color='#24a8ec', VIN='WP1AE2A26FL260147', rocznik='1995', cena =86774.17 euro, 
+data_zakupu=2020-12-25 
+Lokalizacja:  Borek w Poland]

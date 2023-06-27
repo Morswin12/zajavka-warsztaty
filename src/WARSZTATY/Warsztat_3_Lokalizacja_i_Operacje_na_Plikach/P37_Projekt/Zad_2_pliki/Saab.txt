@@ -1,0 +1,79 @@
+[
+
+Transakcja numer: 95! 
+Kupujący= Horten Crimmins, email='hcrimmins2m@last.fm', ip='151.59.157.184', 
+samochod= Saab model: 9-7X', color='#948555', VIN='1FTWW3DY6AE591446', rocznik='2009', cena =48257.80 euro, 
+data_zakupu=2020-12-16 
+Lokalizacja:  Jevíčko w Czech Republic, 
+
+Transakcja numer: 255! 
+Kupujący= Derrek Boggas, email='dboggas72@imageshack.us', ip='162.222.114.91', 
+samochod= Saab model: 9000', color='#794309', VIN='1FTMF1EW5AK588063', rocznik='1997', cena =41963.43 euro, 
+data_zakupu=2020-03-30 
+Lokalizacja:  Tyrawa Wołoska w Poland, 
+
+Transakcja numer: 266! 
+Kupujący= Emmy Van den Velden, email='evandenvelden7d@yelp.com', ip='24.255.196.23', 
+samochod= Saab model: 9-5', color='#fb673f', VIN='SCFFDAAEXCG289495', rocznik='2011', cena =84764.56 euro, 
+data_zakupu=2020-03-22 
+Lokalizacja:  Trzcinica w Poland, 
+
+Transakcja numer: 268! 
+Kupujący= Nevin Lafond, email='nlafond7f@youtu.be', ip='243.13.113.179', 
+samochod= Saab model: 9000', color='#8cb5aa', VIN='1N6AA0CC2BN331740', rocznik='1986', cena =71315.68 euro, 
+data_zakupu=2020-05-08 
+Lokalizacja:  Kiernozia w Poland, 
+
+Transakcja numer: 321! 
+Kupujący= Adara Raincin, email='araincin8w@e-recht24.de', ip='126.118.35.206', 
+samochod= Saab model: 9-5', color='#369cbb', VIN='WAUED64B91N174322', rocznik='2011', cena =9799.03 euro, 
+data_zakupu=2020-04-20 
+Lokalizacja:  Trzciana w Poland, 
+
+Transakcja numer: 537! 
+Kupujący= Elisha Turfs, email='eturfsew@simplemachines.org', ip='251.19.103.243', 
+samochod= Saab model: 900', color='#233fe5', VIN='WBS3R9C57FK068901', rocznik='1988', cena =4098.13 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Milevsko w Czech Republic, 
+
+Transakcja numer: 568! 
+Kupujący= Jeannette Crone, email='jcronefr@netvibes.com', ip='102.34.4.226', 
+samochod= Saab model: 9-5', color='#0946c6', VIN='JN8AZ2KR4DT722324', rocznik='2006', cena =81185.71 euro, 
+data_zakupu=2020-06-17 
+Lokalizacja:  Ojrzeń w Poland, 
+
+Transakcja numer: 711! 
+Kupujący= Rebeka Swyne, email='rswynejq@liveinternet.ru', ip='40.135.199.195', 
+samochod= Saab model: 9-7X', color='#832b60', VIN='1FTEW1CF4FF633985', rocznik='2008', cena =62681.36 euro, 
+data_zakupu=2020-08-27 
+Lokalizacja:  Górzno w Poland, 
+
+Transakcja numer: 768! 
+Kupujący= Zitella Twinberrow, email='ztwinberrowlb@naver.com', ip='248.43.124.23', 
+samochod= Saab model: 9-7X', color='#b9615b', VIN='SALVN2BG5FH918505', rocznik='2009', cena =47600.13 euro, 
+data_zakupu=2020-12-14 
+Lokalizacja:  Łąck w Poland, 
+
+Transakcja numer: 832! 
+Kupujący= Howie McCallum, email='hmccallumn3@ezinearticles.com', ip='98.20.6.21', 
+samochod= Saab model: 900', color='#fe52c6', VIN='3VW467AT2CM735157', rocznik='1996', cena =94045.61 euro, 
+data_zakupu=2020-04-11 
+Lokalizacja:  Hostomice w Czech Republic, 
+
+Transakcja numer: 855! 
+Kupujący= Janean Clowney, email='jclowneynq@prnewswire.com', ip='27.15.19.28', 
+samochod= Saab model: 9-5', color='#4c2930', VIN='1N4AB7AP5EN975371', rocznik='1999', cena =49651.80 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 871! 
+Kupujący= Raven Sanchis, email='rsanchiso6@spiegel.de', ip='94.67.187.203', 
+samochod= Saab model: 9-3', color='#1fff46', VIN='WA1AGBFE2CD361929', rocznik='2011', cena =35561.43 euro, 
+data_zakupu=2020-05-26 
+Lokalizacja:  Chełmża w Poland, 
+
+Transakcja numer: 986! 
+Kupujący= Tedda Haslock, email='thaslockrd@linkedin.com', ip='67.222.96.231', 
+samochod= Saab model: 9000', color='#5ccd43', VIN='1G6YV34A355997078', rocznik='1994', cena =49014.60 euro, 
+data_zakupu=2020-06-06 
+Lokalizacja:  Łękawica w Poland]

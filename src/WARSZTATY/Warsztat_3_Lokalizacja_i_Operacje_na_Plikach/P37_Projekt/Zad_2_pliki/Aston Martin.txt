@@ -1,0 +1,19 @@
+[
+
+Transakcja numer: 191! 
+Kupujący= Vite Boldock, email='vboldock5a@google.it', ip='221.40.168.52', 
+samochod= Aston Martin model: DB9', color='#28a412', VIN='1J4AA2D14AL604371', rocznik='2009', cena =17877.99 euro, 
+data_zakupu=2020-11-22 
+Lokalizacja:  Kladno w Czech Republic, 
+
+Transakcja numer: 470! 
+Kupujący= Maurita Lindl, email='mlindld1@linkedin.com', ip='73.75.146.25', 
+samochod= Aston Martin model: DB9', color='#9bb222', VIN='JTDBT4K39B4532146', rocznik='2006', cena =6843.48 euro, 
+data_zakupu=2020-04-12 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 776! 
+Kupujący= Bron Troup, email='btrouplj@businesswire.com', ip='177.19.129.92', 
+samochod= Aston Martin model: DBS', color='#fe4389', VIN='1N4AA5APXAC978151', rocznik='2012', cena =72356.01 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Světlá nad Sázavou w Czech Republic]

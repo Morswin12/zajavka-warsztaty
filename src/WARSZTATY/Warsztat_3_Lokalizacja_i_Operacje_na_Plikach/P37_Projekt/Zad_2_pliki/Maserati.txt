@@ -1,0 +1,25 @@
+[
+
+Transakcja numer: 304! 
+Kupujący= Netta Capstake, email='ncapstake8f@dedecms.com', ip='77.124.177.109', 
+samochod= Maserati model: Biturbo', color='#17f86a', VIN='19UUA65606A893113', rocznik='1986', cena =64426.98 euro, 
+data_zakupu=2020-10-24 
+Lokalizacja:  Humpolec w Czech Republic, 
+
+Transakcja numer: 307! 
+Kupujący= Charmane MacDowall, email='cmacdowall8i@wix.com', ip='123.174.120.96', 
+samochod= Maserati model: Quattroporte', color='#64f411', VIN='1G6DK5E3XC0218000', rocznik='2005', cena =83431.20 euro, 
+data_zakupu=2020-02-17 
+Lokalizacja:  Dobrá w Czech Republic, 
+
+Transakcja numer: 430! 
+Kupujący= Dasi Davids, email='ddavidsbx@netvibes.com', ip='93.135.157.150', 
+samochod= Maserati model: GranTurismo', color='#6c1d79', VIN='WDDEJ7EB8CA352186', rocznik='2009', cena =9968.08 euro, 
+data_zakupu=2020-01-18 
+Lokalizacja:  Smidary w Czech Republic, 
+
+Transakcja numer: 703! 
+Kupujący= Regen Ibell, email='ribellji@yellowpages.com', ip='48.88.115.185', 
+samochod= Maserati model: Coupe', color='#07bece', VIN='1N6AA0EC3EN588827', rocznik='2005', cena =2453.93 euro, 
+data_zakupu=2020-06-12 
+Lokalizacja:  Rączna w Poland]

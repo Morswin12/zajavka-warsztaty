@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 72! 
+Kupujący= Maurits Dymock, email='mdymock1z@about.com', ip='35.247.231.46', 
+samochod= Corbin model: Sparrow', color='#d6cb92', VIN='JTEBC3EH3C2729369', rocznik='2004', cena =73545.83 euro, 
+data_zakupu=2020-05-29 
+Lokalizacja:  København w Denmark]

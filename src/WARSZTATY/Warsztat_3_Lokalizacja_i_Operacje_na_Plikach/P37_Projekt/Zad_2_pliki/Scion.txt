@@ -1,0 +1,7 @@
+[
+
+Transakcja numer: 199! 
+Kupujący= Brian Toffalo, email='btoffalo5i@statcounter.com', ip='78.19.48.188', 
+samochod= Scion model: xD', color='#907a96', VIN='TRUSC28N721996511', rocznik='2008', cena =40805.33 euro, 
+data_zakupu=2020-10-14 
+Lokalizacja:  Janowiec w Poland]

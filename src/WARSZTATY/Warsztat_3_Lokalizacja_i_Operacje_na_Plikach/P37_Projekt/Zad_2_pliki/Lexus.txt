@@ -1,0 +1,73 @@
+[
+
+Transakcja numer: 2! 
+Kupujący= Rozalie Koles, email='rkoles1@va.gov', ip='163.62.162.110', 
+samochod= Lexus model: IS F', color='#9a89e7', VIN='5UXKS4C52F0757166', rocznik='2009', cena =72669.07 euro, 
+data_zakupu=2020-07-22 
+Lokalizacja:  Kotuń w Poland, 
+
+Transakcja numer: 196! 
+Kupujący= Farrel Housley, email='fhousley5f@fc2.com', ip='164.185.140.49', 
+samochod= Lexus model: LS', color='#00a1c9', VIN='WP0CA2A8XBU992217', rocznik='1991', cena =90019.91 euro, 
+data_zakupu=2020-03-26 
+Lokalizacja:  Jedlová w Czech Republic, 
+
+Transakcja numer: 207! 
+Kupujący= Brett Poulsen, email='bpoulsen5q@wikipedia.org', ip='241.134.75.24', 
+samochod= Lexus model: ES', color='#710a9f', VIN='WAUKG74F66N843818', rocznik='1996', cena =75323.10 euro, 
+data_zakupu=2020-02-08 
+Lokalizacja:  Neuss w Germany, 
+
+Transakcja numer: 286! 
+Kupujący= Viki Lummis, email='vlummis7x@webmd.com', ip='10.88.110.132', 
+samochod= Lexus model: LX', color='#f09885', VIN='2C3CDXCT3DH859198', rocznik='2013', cena =61266.53 euro, 
+data_zakupu=2020-09-19 
+Lokalizacja:  Libiąż w Poland, 
+
+Transakcja numer: 393! 
+Kupujący= Harald Djordjevic, email='hdjordjevicaw@is.gd', ip='230.153.67.67', 
+samochod= Lexus model: IS F', color='#f54b25', VIN='JN8AZ2KR3AT723377', rocznik='2010', cena =7464.01 euro, 
+data_zakupu=2020-01-25 
+Lokalizacja:  Mrzeżyno w Poland, 
+
+Transakcja numer: 489! 
+Kupujący= Brooke Bartlam, email='bbartlamdk@samsung.com', ip='142.25.207.201', 
+samochod= Lexus model: IS', color='#a8aaf8', VIN='4A31K3DT7AE924652', rocznik='2008', cena =29762.35 euro, 
+data_zakupu=2020-12-06 
+Lokalizacja:  Kralupy nad Vltavou w Czech Republic, 
+
+Transakcja numer: 713! 
+Kupujący= Mac Maxsted, email='mmaxstedjs@globo.com', ip='4.229.2.72', 
+samochod= Lexus model: IS', color='#ce85cd', VIN='SCFFDABM9DG129650', rocznik='2007', cena =43953.17 euro, 
+data_zakupu=2020-02-20 
+Lokalizacja:  Dziemiany w Poland, 
+
+Transakcja numer: 817! 
+Kupujący= Faye Jellis, email='fjellismo@tmall.com', ip='16.33.233.143', 
+samochod= Lexus model: LS', color='#421bac', VIN='1G4GD5ED7BF117694', rocznik='1999', cena =28444.16 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Mirotice w Czech Republic, 
+
+Transakcja numer: 842! 
+Kupujący= Shaylah Airey, email='saireynd@yahoo.com', ip='186.137.165.179', 
+samochod= Lexus model: SC', color='#b1b67f', VIN='WVWGU7AN2CE955413', rocznik='2004', cena =61697.15 euro, 
+data_zakupu=2020-02-14 
+Lokalizacja:  Krzeczów w Poland, 
+
+Transakcja numer: 881! 
+Kupujący= Rochella Deverell, email='rdeverellog@google.fr', ip='30.245.34.73', 
+samochod= Lexus model: IS-F', color='#8e3cae', VIN='WAUML54B83N076720', rocznik='2011', cena =20327.75 euro, 
+data_zakupu=2020-09-04 
+Lokalizacja:  Słupno w Poland, 
+
+Transakcja numer: 882! 
+Kupujący= Tanner Courtois, email='tcourtoisoh@ucla.edu', ip='225.119.229.78', 
+samochod= Lexus model: SC', color='#6a96d0', VIN='1D4RE2GGXBC829525', rocznik='2009', cena =51389.10 euro, 
+data_zakupu=2020-09-11 
+Lokalizacja:  Dresden w Germany, 
+
+Transakcja numer: 980! 
+Kupujący= Brooke Stable, email='bstabler7@newyorker.com', ip='225.126.36.32', 
+samochod= Lexus model: GS', color='#a276c8', VIN='TRUWC28N811808207', rocznik='1993', cena =68162.34 euro, 
+data_zakupu=2020-06-05 
+Lokalizacja:  Tvarožná w Czech Republic]

@@ -1,0 +1,211 @@
+[
+
+Transakcja numer: 41! 
+Kupujący= Queenie Vial, email='qvial14@multiply.com', ip='201.11.195.220', 
+samochod= GMC model: Suburban 1500', color='#e8facb', VIN='WAUCFAFH8BN695474', rocznik='1993', cena =31746.21 euro, 
+data_zakupu=2020-09-06 
+Lokalizacja:  Bratislava w Slovakia, 
+
+Transakcja numer: 84! 
+Kupujący= Erich Cuniam, email='ecuniam2b@home.pl', ip='40.1.115.216', 
+samochod= GMC model: Jimmy', color='#b82390', VIN='JN8AZ2NC7D9278912', rocznik='1995', cena =64474.61 euro, 
+data_zakupu=2020-07-27 
+Lokalizacja:  Mainz w Germany, 
+
+Transakcja numer: 101! 
+Kupujący= Cassi Lathey, email='clathey2s@amazonaws.com', ip='107.61.186.115', 
+samochod= GMC model: Yukon', color='#f6a43a', VIN='3VW4A7AT5DM856202', rocznik='2005', cena =64903.07 euro, 
+data_zakupu=2020-06-06 
+Lokalizacja:  Chroustovice w Czech Republic, 
+
+Transakcja numer: 107! 
+Kupujący= Luis Charrisson, email='lcharrisson2y@over-blog.com', ip='173.83.117.187', 
+samochod= GMC model: 2500', color='#0478e5', VIN='WVGEF9BP1ED017355', rocznik='1994', cena =38509.40 euro, 
+data_zakupu=2020-10-05 
+Lokalizacja:  Osek nad Bečvou w Czech Republic, 
+
+Transakcja numer: 155! 
+Kupujący= Shea Dinzey, email='sdinzey4a@behance.net', ip='142.156.31.64', 
+samochod= GMC model: Sierra Denali', color='#2b6d57', VIN='2T1BU4EE8BC638837', rocznik='2006', cena =98958.47 euro, 
+data_zakupu=2020-06-02 
+Lokalizacja:  Huta Stara B w Poland, 
+
+Transakcja numer: 165! 
+Kupujący= Phillip Arens, email='parens4k@chicagotribune.com', ip='5.104.36.246', 
+samochod= GMC model: Yukon XL 1500', color='#a443d7', VIN='WBAKF3C58CJ512861', rocznik='2005', cena =55144.44 euro, 
+data_zakupu=2020-06-15 
+Lokalizacja:  Solec-Zdrój w Poland, 
+
+Transakcja numer: 184! 
+Kupujący= Ole Goymer, email='ogoymer53@ask.com', ip='113.144.242.228', 
+samochod= GMC model: Suburban 1500', color='#2a3c74', VIN='2HNYD18675H930982', rocznik='1997', cena =57284.76 euro, 
+data_zakupu=2020-07-20 
+Lokalizacja:  Goworowo w Poland, 
+
+Transakcja numer: 205! 
+Kupujący= Phyllis Moysey, email='pmoysey5o@ezinearticles.com', ip='205.115.97.222', 
+samochod= GMC model: 1500', color='#57c0fc', VIN='1GYEE23A890226205', rocznik='1998', cena =64062.67 euro, 
+data_zakupu=2020-09-15 
+Lokalizacja:  Wiązownica w Poland, 
+
+Transakcja numer: 215! 
+Kupujący= Antoni Laneham, email='alaneham5y@sbwire.com', ip='31.69.2.106', 
+samochod= GMC model: Sierra', color='#72ec52', VIN='KMHTC6AD8DU738521', rocznik='2008', cena =51743.05 euro, 
+data_zakupu=2020-09-12 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 262! 
+Kupujący= Tiphany Le Gall, email='tlegall79@hc360.com', ip='242.214.94.194', 
+samochod= GMC model: Envoy', color='#cca36e', VIN='WBAVM1C57EV303937', rocznik='2008', cena =58388.07 euro, 
+data_zakupu=2020-06-02 
+Lokalizacja:  Žďár w Czech Republic, 
+
+Transakcja numer: 263! 
+Kupujący= Perren Stroband, email='pstroband7a@google.co.jp', ip='26.153.98.123', 
+samochod= GMC model: Safari', color='#9bb4bb', VIN='5N1AA0NC8DN550684', rocznik='1994', cena =61548.34 euro, 
+data_zakupu=2020-12-17 
+Lokalizacja:  Czerwieńsk w Poland, 
+
+Transakcja numer: 292! 
+Kupujący= Giles Connow, email='gconnow83@youtube.com', ip='235.79.131.45', 
+samochod= GMC model: Yukon XL 2500', color='#0f626f', VIN='JTDJTUD38ED707208', rocznik='2007', cena =69035.73 euro, 
+data_zakupu=2020-11-20 
+Lokalizacja:  Malanów w Poland, 
+
+Transakcja numer: 308! 
+Kupujący= Granthem Eadon, email='geadon8j@salon.com', ip='132.24.118.249', 
+samochod= GMC model: Yukon', color='#19c402', VIN='KM8NU4CC4AU614708', rocznik='2004', cena =72033.77 euro, 
+data_zakupu=2020-05-02 
+Lokalizacja:  Plasy w Czech Republic, 
+
+Transakcja numer: 348! 
+Kupujący= Gearard Kingscote, email='gkingscote9n@engadget.com', ip='40.44.207.217', 
+samochod= GMC model: Yukon XL', color='#c2f4d5', VIN='WAULC58E35A583020', rocznik='2006', cena =11181.27 euro, 
+data_zakupu=2020-11-16 
+Lokalizacja:  Gierałtowice w Poland, 
+
+Transakcja numer: 375! 
+Kupujący= Shayna Schruur, email='sschruurae@delicious.com', ip='25.127.2.92', 
+samochod= GMC model: Sierra 3500HD', color='#9aaf0a', VIN='1GYEE637960103908', rocznik='2006', cena =84773.86 euro, 
+data_zakupu=2020-07-25 
+Lokalizacja:  Valašská Polanka w Czech Republic, 
+
+Transakcja numer: 387! 
+Kupujący= Mady MacGrath, email='mmacgrathaq@odnoklassniki.ru', ip='168.173.158.37', 
+samochod= GMC model: Sierra 3500', color='#516f4f', VIN='4T1BD1FK7EU858671', rocznik='2008', cena =53506.27 euro, 
+data_zakupu=2020-02-07 
+Lokalizacja:  Fabianki w Poland, 
+
+Transakcja numer: 395! 
+Kupujący= Umeko Taylerson, email='utaylersonay@e-recht24.de', ip='5.0.35.239', 
+samochod= GMC model: 1500', color='#6de45b', VIN='KNAGM4AD8B5260354', rocznik='1992', cena =3070.67 euro, 
+data_zakupu=2020-01-18 
+Lokalizacja:  Žatec w Czech Republic, 
+
+Transakcja numer: 426! 
+Kupujący= Marilin Fibbit, email='mfibbitbt@livejournal.com', ip='80.250.14.80', 
+samochod= GMC model: Savana', color='#707a7d', VIN='WAUEH94F66N031733', rocznik='2009', cena =31054.78 euro, 
+data_zakupu=2020-03-20 
+Lokalizacja:  Libochovice w Czech Republic, 
+
+Transakcja numer: 446! 
+Kupujący= Fern Lakenton, email='flakentoncd@facebook.com', ip='159.220.193.208', 
+samochod= GMC model: Jimmy', color='#40b818', VIN='WAUML54DX1N686746', rocznik='2000', cena =47126.24 euro, 
+data_zakupu=2020-01-16 
+Lokalizacja:  Szelków w Poland, 
+
+Transakcja numer: 507! 
+Kupujący= Brittni Aingel, email='baingele2@sina.com.cn', ip='53.42.198.158', 
+samochod= GMC model: Savana 2500', color='#441168', VIN='JN8AZ1MU0EW246066', rocznik='2006', cena =43340.55 euro, 
+data_zakupu=2020-08-05 
+Lokalizacja:  Gościeradów w Poland, 
+
+Transakcja numer: 534! 
+Kupujący= Sibeal Clementi, email='sclementiet@deliciousdays.com', ip='89.71.181.135', 
+samochod= GMC model: Sierra 2500HD', color='#c34a0f', VIN='5N1AN0NWXFN186320', rocznik='2006', cena =40112.71 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Janowice w Poland, 
+
+Transakcja numer: 589! 
+Kupujący= Isidor Yellowlea, email='iyellowleagc@ucoz.com', ip='151.112.41.48', 
+samochod= GMC model: Safari', color='#6d0aee', VIN='WBSKG9C59CE840763', rocznik='1998', cena =51305.64 euro, 
+data_zakupu=2020-04-22 
+Lokalizacja:  Dolsk w Poland, 
+
+Transakcja numer: 592! 
+Kupujący= Lewes Tyght, email='ltyghtgf@cnet.com', ip='16.40.31.102', 
+samochod= GMC model: Savana 3500', color='#b9ddee', VIN='1N6AF0KXXEN623632', rocznik='2005', cena =11530.76 euro, 
+data_zakupu=2020-04-22 
+Lokalizacja:  Koszarawa w Poland, 
+
+Transakcja numer: 604! 
+Kupujący= Gabriela Mourant, email='gmourantgr@weebly.com', ip='210.52.131.112', 
+samochod= GMC model: Suburban 2500', color='#0fbd48', VIN='2D4RN5D19AR043111', rocznik='1993', cena =84627.60 euro, 
+data_zakupu=2020-04-07 
+Lokalizacja:  Bílovice w Czech Republic, 
+
+Transakcja numer: 613! 
+Kupujący= Shayne Angelo, email='sangeloh0@nationalgeographic.com', ip='57.102.188.37', 
+samochod= GMC model: 2500 Club Coupe', color='#41087a', VIN='1G6KS54Y31U403967', rocznik='1992', cena =45723.16 euro, 
+data_zakupu=2020-07-16 
+Lokalizacja:  Czarna Dąbrówka w Poland, 
+
+Transakcja numer: 647! 
+Kupujący= Konstanze Clink, email='kclinkhy@stanford.edu', ip='72.146.2.5', 
+samochod= GMC model: Savana 2500', color='#4c53c5', VIN='JTEBU5JR7F5986836', rocznik='2012', cena =93562.16 euro, 
+data_zakupu=2020-12-11 
+Lokalizacja:  Hošťka w Czech Republic, 
+
+Transakcja numer: 660! 
+Kupujący= Cynthea Ellson, email='cellsonib@cocolog-nifty.com', ip='206.74.200.55', 
+samochod= GMC model: 2500', color='#c3226e', VIN='1D4PT7GXXAW497299', rocznik='1993', cena =21660.32 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Lubasz w Poland, 
+
+Transakcja numer: 667! 
+Kupujący= Maighdiln Sapp, email='msappii@list-manage.com', ip='64.112.131.231', 
+samochod= GMC model: Savana 1500', color='#b9a809', VIN='3D73Y4CL2BG053046', rocznik='2010', cena =40340.91 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Rozwadza w Poland, 
+
+Transakcja numer: 705! 
+Kupujący= Sax Mordan, email='smordanjk@biglobe.ne.jp', ip='7.122.198.201', 
+samochod= GMC model: Savana 2500', color='#f85043', VIN='1FTSX2A5XAE000101', rocznik='2002', cena =98810.22 euro, 
+data_zakupu=2020-07-21 
+Lokalizacja:  Dambořice w Czech Republic, 
+
+Transakcja numer: 748! 
+Kupujący= Ashli Blaske, email='ablaskekr@utexas.edu', ip='205.136.124.26', 
+samochod= GMC model: Sierra 1500', color='#1ff3f1', VIN='1FTEX1CM9CF292574', rocznik='2011', cena =56821.35 euro, 
+data_zakupu=2020-05-23 
+Lokalizacja:  Dzięgielów w Poland, 
+
+Transakcja numer: 864! 
+Kupujący= Kane Coldbreath, email='kcoldbreathnz@hexun.com', ip='145.161.71.20', 
+samochod= GMC model: Sierra 3500HD', color='#bc4595', VIN='WBANV13549C565848', rocznik='2006', cena =15836.35 euro, 
+data_zakupu=2020-04-22 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 891! 
+Kupujący= Corliss Cabena, email='ccabenaoq@csmonitor.com', ip='59.54.236.199', 
+samochod= GMC model: Rally Wagon G3500', color='#56dc82', VIN='19UUA8F24CA675498', rocznik='1995', cena =35595.63 euro, 
+data_zakupu=2020-01-03 
+Lokalizacja:  Chojna w Poland, 
+
+Transakcja numer: 907! 
+Kupujący= Kelvin Learman, email='klearmanp6@zdnet.com', ip='0.0.216.245', 
+samochod= GMC model: Yukon', color='#2b3e57', VIN='JHMZF1C48CS081847', rocznik='1997', cena =15503.07 euro, 
+data_zakupu=2020-08-06 
+Lokalizacja:  Łysomice w Poland, 
+
+Transakcja numer: 913! 
+Kupujący= Norina O'Lennane, email='nolennanepc@springer.com', ip='159.172.213.215', 
+samochod= GMC model: Savana 3500', color='#8d6fd2', VIN='SCFBF04B68G056306', rocznik='2008', cena =86096.31 euro, 
+data_zakupu=2020-02-03 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 968! 
+Kupujący= Odette Reed, email='oreedqv@quantcast.com', ip='236.215.165.143', 
+samochod= GMC model: Rally Wagon 3500', color='#05177f', VIN='JTHBK1GG3D2403989', rocznik='1993', cena =12368.59 euro, 
+data_zakupu=2020-03-28 
+Lokalizacja:  Náklo w Czech Republic]

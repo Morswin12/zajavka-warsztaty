@@ -1,0 +1,37 @@
+[
+
+Transakcja numer: 67! 
+Kupujący= Ranique Casazza, email='rcasazza1u@ameblo.jp', ip='191.69.144.190', 
+samochod= Jeep model: Compass', color='#647116', VIN='19UUA9F26AA748437', rocznik='2011', cena =92254.93 euro, 
+data_zakupu=2020-11-30 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 157! 
+Kupujący= Cinnamon Morkham, email='cmorkham4c@163.com', ip='216.10.136.85', 
+samochod= Jeep model: Liberty', color='#5da3c9', VIN='3D7TP2CTXAG397682', rocznik='2011', cena =70337.39 euro, 
+data_zakupu=2020-04-18 
+Lokalizacja:  Tovačov w Czech Republic, 
+
+Transakcja numer: 186! 
+Kupujący= Marijn Ceyssen, email='mceyssen55@zdnet.com', ip='10.213.16.133', 
+samochod= Jeep model: Cherokee', color='#718a41', VIN='WAUXG94F89N094736', rocznik='1994', cena =3765.12 euro, 
+data_zakupu=2020-02-04 
+Lokalizacja:  Klášterec nad Ohří w Czech Republic, 
+
+Transakcja numer: 330! 
+Kupujący= Leontine Scaddon, email='lscaddon95@github.com', ip='103.220.57.199', 
+samochod= Jeep model: Grand Cherokee', color='#b5f49c', VIN='SCBLC31E72C441418', rocznik='2008', cena =825.37 euro, 
+data_zakupu=2020-05-17 
+Lokalizacja:  Františkovy Lázně w Czech Republic, 
+
+Transakcja numer: 588! 
+Kupujący= Genny Le Provest, email='gleprovestgb@soup.io', ip='145.144.114.219', 
+samochod= Jeep model: Wrangler', color='#4a6be3', VIN='JH4NA12625S579545', rocznik='2008', cena =61759.51 euro, 
+data_zakupu=2020-10-27 
+Lokalizacja:  Wijewo w Poland, 
+
+Transakcja numer: 809! 
+Kupujący= Terrance Bandey, email='tbandeymg@drupal.org', ip='87.5.47.32', 
+samochod= Jeep model: Liberty', color='#9e8dd4', VIN='WBA5A7C58FD984967', rocznik='2002', cena =36867.34 euro, 
+data_zakupu=2020-09-26 
+Lokalizacja:  København w Denmark]

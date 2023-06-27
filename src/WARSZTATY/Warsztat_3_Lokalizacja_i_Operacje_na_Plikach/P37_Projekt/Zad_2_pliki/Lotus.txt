@@ -1,0 +1,37 @@
+[
+
+Transakcja numer: 305! 
+Kupujący= Marylinda Britnell, email='mbritnell8g@epa.gov', ip='153.247.81.108', 
+samochod= Lotus model: Elise', color='#7d2038', VIN='WAUDF48H77A122132', rocznik='2011', cena =21021.05 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Świnice Warckie w Poland, 
+
+Transakcja numer: 355! 
+Kupujący= Gwenore Tuffin, email='gtuffin9u@amazon.com', ip='51.144.192.253', 
+samochod= Lotus model: Esprit', color='#ce7c9c', VIN='WBAET37412N083299', rocznik='1997', cena =3056.61 euro, 
+data_zakupu=2020-11-24 
+Lokalizacja:  Józefów w Poland, 
+
+Transakcja numer: 651! 
+Kupujący= Hagen Dunnet, email='hdunneti2@hostgator.com', ip='19.170.52.148', 
+samochod= Lotus model: Esprit', color='#0a6ae7', VIN='1GYS4AEF4BR635733', rocznik='1999', cena =85714.00 euro, 
+data_zakupu=2020-08-01 
+Lokalizacja:  Bonn w Germany, 
+
+Transakcja numer: 719! 
+Kupujący= Gayleen Harrell, email='gharrelljy@ycombinator.com', ip='117.126.173.24', 
+samochod= Lotus model: Esprit', color='#03a432', VIN='4JGBB2FB4BA998024', rocznik='2004', cena =17571.25 euro, 
+data_zakupu=2020-03-22 
+Lokalizacja:  Kowale Oleckie w Poland, 
+
+Transakcja numer: 885! 
+Kupujący= Justine Rodenburgh, email='jrodenburghok@qq.com', ip='126.238.216.236', 
+samochod= Lotus model: Esprit', color='#956b1a', VIN='1C3BCBEB5DN187285', rocznik='1992', cena =10023.55 euro, 
+data_zakupu=2020-11-18 
+Lokalizacja:  Szlachta w Poland, 
+
+Transakcja numer: 944! 
+Kupujący= Trenton Tregear, email='ttregearq7@reddit.com', ip='27.184.88.252', 
+samochod= Lotus model: Exige', color='#3d04de', VIN='1GYS4DEF2BR059285', rocznik='2010', cena =25498.46 euro, 
+data_zakupu=2020-04-22 
+Lokalizacja:  Sypniewo w Poland]

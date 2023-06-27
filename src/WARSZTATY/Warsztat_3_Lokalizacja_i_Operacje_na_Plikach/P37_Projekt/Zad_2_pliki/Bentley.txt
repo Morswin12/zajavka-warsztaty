@@ -1,0 +1,37 @@
+[
+
+Transakcja numer: 257! 
+Kupujący= Randy Kohter, email='rkohter74@ibm.com', ip='234.104.43.48', 
+samochod= Bentley model: Mulsanne', color='#98688b', VIN='3GYFNGEY7BS941227', rocznik='2011', cena =44587.82 euro, 
+data_zakupu=2020-08-02 
+Lokalizacja:  Widuchowa w Poland, 
+
+Transakcja numer: 423! 
+Kupujący= Dalia Curnok, email='dcurnokbq@friendfeed.com', ip='61.190.42.123', 
+samochod= Bentley model: Continental Flying Spur', color='#b33f51', VIN='1C3CCBHG0CN239867', rocznik='2012', cena =4558.80 euro, 
+data_zakupu=2020-05-23 
+Lokalizacja:  Tuchomie w Poland, 
+
+Transakcja numer: 584! 
+Kupujący= Noah Birnie, email='nbirnieg7@taobao.com', ip='18.28.201.56', 
+samochod= Bentley model: Azure', color='#2b1b7f', VIN='WVWBN7AN0FE116582', rocznik='2010', cena =16032.57 euro, 
+data_zakupu=2020-10-01 
+Lokalizacja:  Koronowo w Poland, 
+
+Transakcja numer: 789! 
+Kupujący= Les Luebbert, email='lluebbertlw@noaa.gov', ip='56.143.94.250', 
+samochod= Bentley model: Continental', color='#68fcf2', VIN='1FTSW3A5XAE364902', rocznik='2008', cena =57996.64 euro, 
+data_zakupu=2020-08-24 
+Lokalizacja:  Ruda Śląska w Poland, 
+
+Transakcja numer: 850! 
+Kupujący= Arlyn Canedo, email='acanedonl@comsenz.com', ip='128.80.246.217', 
+samochod= Bentley model: Continental GTC', color='#ca4ddc', VIN='KL4CJCSB8EB601026', rocznik='2008', cena =46403.57 euro, 
+data_zakupu=2020-08-18 
+Lokalizacja:  Mstów w Poland, 
+
+Transakcja numer: 888! 
+Kupujący= Koo Lapslie, email='klapslieon@amazon.de', ip='38.144.134.10', 
+samochod= Bentley model: Continental Super', color='#b777ed', VIN='3N1CN7AP7EL011786', rocznik='2012', cena =95732.27 euro, 
+data_zakupu=2020-11-12 
+Lokalizacja:  Kralice na Hané w Czech Republic]

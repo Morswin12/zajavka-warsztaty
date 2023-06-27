@@ -1,0 +1,217 @@
+[
+
+Transakcja numer: 3! 
+Kupujący= Kettie Molesworth, email='kmolesworth2@amazon.co.jp', ip='112.14.244.143', 
+samochod= Volkswagen model: GTI', color='#e253f4', VIN='1G6DN56S250035433', rocznik='2005', cena =24576.75 euro, 
+data_zakupu=2020-02-13 
+Lokalizacja:  Koronowo w Poland, 
+
+Transakcja numer: 20! 
+Kupujący= Rosalie Scarlin, email='rscarlinj@slate.com', ip='231.170.1.216', 
+samochod= Volkswagen model: Passat', color='#b5096c', VIN='WAUKH78E88A568848', rocznik='1994', cena =63972.26 euro, 
+data_zakupu=2020-08-22 
+Lokalizacja:  Ústí nad Orlicí w Czech Republic, 
+
+Transakcja numer: 36! 
+Kupujący= Marion Normand, email='mnormandz@aboutads.info', ip='204.52.31.30', 
+samochod= Volkswagen model: New Beetle', color='#9f41db', VIN='WBA3B5C56EF695887', rocznik='2012', cena =57040.11 euro, 
+data_zakupu=2020-12-24 
+Lokalizacja:  Lukavec w Czech Republic, 
+
+Transakcja numer: 109! 
+Kupujący= Clarie Tue, email='ctue30@adobe.com', ip='2.97.86.205', 
+samochod= Volkswagen model: Touareg', color='#3108d6', VIN='JH4KC1F53EC957753', rocznik='2003', cena =22049.47 euro, 
+data_zakupu=2020-09-01 
+Lokalizacja:  Miłakowo w Poland, 
+
+Transakcja numer: 121! 
+Kupujący= Cathe Brandt, email='cbrandt3c@amazon.co.jp', ip='22.2.143.223', 
+samochod= Volkswagen model: Quantum', color='#927925', VIN='2HKRM3H54FH617510', rocznik='1984', cena =87150.11 euro, 
+data_zakupu=2020-12-26 
+Lokalizacja:  Dolní Bojanovice w Czech Republic, 
+
+Transakcja numer: 123! 
+Kupujący= Ulrich Houlison, email='uhoulison3e@eventbrite.com', ip='53.246.43.61', 
+samochod= Volkswagen model: Golf', color='#fc0218', VIN='WBAAZ33443K005444', rocznik='2006', cena =59642.25 euro, 
+data_zakupu=2020-11-24 
+Lokalizacja:  Warsaw w Poland, 
+
+Transakcja numer: 183! 
+Kupujący= Mattias Catonne, email='mcatonne52@bbb.org', ip='15.178.238.246', 
+samochod= Volkswagen model: Jetta', color='#71ca3c', VIN='5GAKRCED6CJ305031', rocznik='2004', cena =54480.68 euro, 
+data_zakupu=2020-10-13 
+Lokalizacja:  Wojaszówka w Poland, 
+
+Transakcja numer: 193! 
+Kupujący= Angelico de Lloyd, email='adelloyd5c@nih.gov', ip='142.18.170.95', 
+samochod= Volkswagen model: Jetta', color='#e444ff', VIN='3VW4A7ATXDM693515', rocznik='2001', cena =66267.35 euro, 
+data_zakupu=2020-05-02 
+Lokalizacja:  Laliki w Poland, 
+
+Transakcja numer: 253! 
+Kupujący= Broddie Guage, email='bguage70@i2i.jp', ip='117.199.244.47', 
+samochod= Volkswagen model: GLI', color='#c4d7ec', VIN='WA1VFAFL5EA085912', rocznik='2009', cena =82687.12 euro, 
+data_zakupu=2020-07-14 
+Lokalizacja:  Olsztyn w Poland, 
+
+Transakcja numer: 285! 
+Kupujący= Sabina Hruska, email='shruska7w@google.nl', ip='46.213.208.212', 
+samochod= Volkswagen model: rio', color='#24261e', VIN='WP1AE2A27DL938806', rocznik='2002', cena =21014.18 euro, 
+data_zakupu=2020-05-18 
+Lokalizacja:  Piasek w Poland, 
+
+Transakcja numer: 301! 
+Kupujący= Ashlen Iorio, email='aiorio8c@discuz.net', ip='247.8.11.67', 
+samochod= Volkswagen model: Fox', color='#d05f25', VIN='JH4KB2F60CC295032', rocznik='1988', cena =77660.74 euro, 
+data_zakupu=2020-08-15 
+Lokalizacja:  Sypniewo w Poland, 
+
+Transakcja numer: 303! 
+Kupujący= Kassey Piesing, email='kpiesing8e@goo.ne.jp', ip='204.53.128.219', 
+samochod= Volkswagen model: Rabbit', color='#f617b4', VIN='2T1KE4EE1BC266562', rocznik='2009', cena =46767.85 euro, 
+data_zakupu=2020-08-24 
+Lokalizacja:  Piotrków Trybunalski w Poland, 
+
+Transakcja numer: 309! 
+Kupujący= Corrinne Brownjohn, email='cbrownjohn8k@auda.org.au', ip='157.246.6.67', 
+samochod= Volkswagen model: Jetta', color='#52ecdd', VIN='WUAPV64B33N880152', rocznik='1998', cena =47131.71 euro, 
+data_zakupu=2020-05-19 
+Lokalizacja:  Skalbmierz w Poland, 
+
+Transakcja numer: 361! 
+Kupujący= Petronella Sinkin, email='psinkina0@microsoft.com', ip='102.86.23.4', 
+samochod= Volkswagen model: Cabriolet', color='#4072ed', VIN='19UUA9E56EA888425', rocznik='2001', cena =7012.09 euro, 
+data_zakupu=2020-05-08 
+Lokalizacja:  Dillenburg w Germany, 
+
+Transakcja numer: 376! 
+Kupujący= Dotti Acum, email='dacumaf@gizmodo.com', ip='22.71.156.242', 
+samochod= Volkswagen model: Golf', color='#797c95', VIN='WBASN4C57CC948890', rocznik='1984', cena =22554.05 euro, 
+data_zakupu=2020-02-22 
+Lokalizacja:  Litvínov w Czech Republic, 
+
+Transakcja numer: 381! 
+Kupujący= Ruttger Le Marchand, email='rlemarchandak@angelfire.com', ip='195.209.220.84', 
+samochod= Volkswagen model: GTI', color='#b304ec', VIN='WBAEV33433K477549', rocznik='1999', cena =64321.40 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Siedleczka w Poland, 
+
+Transakcja numer: 460! 
+Kupujący= Ekaterina Duncanson, email='eduncansoncr@hatena.ne.jp', ip='124.204.151.192', 
+samochod= Volkswagen model: Golf', color='#c1f4fe', VIN='1G6YV36A365641423', rocznik='1976', cena =90475.62 euro, 
+data_zakupu=2020-05-24 
+Lokalizacja:  Zaječí w Czech Republic, 
+
+Transakcja numer: 465! 
+Kupujący= Constancy Marsden, email='cmarsdencw@opensource.org', ip='180.34.221.242', 
+samochod= Volkswagen model: GTI', color='#5ed2c0', VIN='5UXFG8C50CL509566', rocznik='1996', cena =635.01 euro, 
+data_zakupu=2020-11-27 
+Lokalizacja:  Klatovy w Czech Republic, 
+
+Transakcja numer: 554! 
+Kupujący= Cosme Boutellier, email='cboutellierfd@google.cn', ip='104.31.181.213', 
+samochod= Volkswagen model: Jetta', color='#b40105', VIN='SALFR2BGXFH274153', rocznik='1984', cena =92236.98 euro, 
+data_zakupu=2020-11-23 
+Lokalizacja:  Besko w Poland, 
+
+Transakcja numer: 581! 
+Kupujący= Mackenzie McLennan, email='mmclennang4@boston.com', ip='251.49.137.21', 
+samochod= Volkswagen model: Cabriolet', color='#12355c', VIN='5GAKRBED5CJ399638', rocznik='1987', cena =48813.62 euro, 
+data_zakupu=2020-02-09 
+Lokalizacja:  Osięciny w Poland, 
+
+Transakcja numer: 612! 
+Kupujący= Nolly Tumioto, email='ntumiotogz@ucsd.edu', ip='38.38.75.193', 
+samochod= Volkswagen model: New Beetle', color='#a7c9f9', VIN='WAUVKAFR2AA363940', rocznik='2008', cena =6531.54 euro, 
+data_zakupu=2020-12-26 
+Lokalizacja:  Maszkienice w Poland, 
+
+Transakcja numer: 639! 
+Kupujący= Padgett Temlett, email='ptemletthq@diigo.com', ip='48.51.33.61', 
+samochod= Volkswagen model: Type 2', color='#e66818', VIN='3VW1K7AJ3CM656898', rocznik='1986', cena =42551.68 euro, 
+data_zakupu=2020-10-25 
+Lokalizacja:  Jedlová w Czech Republic, 
+
+Transakcja numer: 643! 
+Kupujący= Vivie Willingam, email='vwillingamhu@tamu.edu', ip='10.7.147.240', 
+samochod= Volkswagen model: Jetta', color='#4d02f5', VIN='5J8TB18277A721022', rocznik='2007', cena =58107.37 euro, 
+data_zakupu=2020-08-15 
+Lokalizacja:  Wola Jachowa w Poland, 
+
+Transakcja numer: 653! 
+Kupujący= Philis Yellowley, email='pyellowleyi4@ebay.com', ip='164.169.12.40', 
+samochod= Volkswagen model: Cabriolet', color='#57fcb4', VIN='JN8AZ1MU9EW465625', rocznik='1999', cena =17846.37 euro, 
+data_zakupu=2020-06-09 
+Lokalizacja:  Polkowice w Poland, 
+
+Transakcja numer: 676! 
+Kupujący= Reta Wickham, email='rwickhamir@intel.com', ip='218.99.137.199', 
+samochod= Volkswagen model: Tiguan', color='#6fa932', VIN='5GAKVDED1CJ543533', rocznik='2012', cena =15415.59 euro, 
+data_zakupu=2020-02-24 
+Lokalizacja:  Horní Počaply w Czech Republic, 
+
+Transakcja numer: 732! 
+Kupujący= Nickolai Shegog, email='nshegogkb@cnn.com', ip='161.26.212.24', 
+samochod= Volkswagen model: Golf', color='#0f5cf8', VIN='WAUBF78KX9N921807', rocznik='1992', cena =18020.98 euro, 
+data_zakupu=2020-08-02 
+Lokalizacja:  Ludgeřovice w Czech Republic, 
+
+Transakcja numer: 741! 
+Kupujący= Cort O'Fihily, email='cofihilykk@dyndns.org', ip='107.31.125.185', 
+samochod= Volkswagen model: Passat', color='#28ba1e', VIN='WBAVB73597F366589', rocznik='2008', cena =39395.61 euro, 
+data_zakupu=2020-10-27 
+Lokalizacja:  Kamionka w Poland, 
+
+Transakcja numer: 752! 
+Kupujący= Stephen Seilmann, email='sseilmannkv@cbsnews.com', ip='175.97.228.116', 
+samochod= Volkswagen model: Phaeton', color='#37a5b2', VIN='JH4KB26519C752916', rocznik='2005', cena =12833.78 euro, 
+data_zakupu=2020-06-06 
+Lokalizacja:  Kluki w Poland, 
+
+Transakcja numer: 762! 
+Kupujący= Ermin Redmond, email='eredmondl5@npr.org', ip='6.224.67.159', 
+samochod= Volkswagen model: Golf', color='#4b64d5', VIN='W04GV5EV3B1730803', rocznik='1976', cena =55014.97 euro, 
+data_zakupu=2020-08-08 
+Lokalizacja:  Działdowo w Poland, 
+
+Transakcja numer: 795! 
+Kupujący= Lexine Rubinsztein, email='lrubinszteinm2@chronoengine.com', ip='49.234.14.109', 
+samochod= Volkswagen model: Cabriolet', color='#fdc979', VIN='4JGBB2FB8AA453054', rocznik='1992', cena =11057.77 euro, 
+data_zakupu=2020-06-04 
+Lokalizacja:  Granica w Poland, 
+
+Transakcja numer: 865! 
+Kupujący= Imogene D'Alessio, email='idalessioo0@businesswire.com', ip='23.22.16.96', 
+samochod= Volkswagen model: GTI', color='#20ddd0', VIN='WAUKGBFB0BN490841', rocznik='1996', cena =67426.94 euro, 
+data_zakupu=2020-10-14 
+Lokalizacja:  Köln w Germany, 
+
+Transakcja numer: 876! 
+Kupujący= Sisile Shapera, email='sshaperaob@bloglovin.com', ip='27.197.243.235', 
+samochod= Volkswagen model: rio', color='#563c4c', VIN='2LMDJ6JC5AB563233', rocznik='1996', cena =37873.94 euro, 
+data_zakupu=2020-08-24 
+Lokalizacja:  Pogwizdów w Poland, 
+
+Transakcja numer: 890! 
+Kupujący= Kienan Sorby, email='ksorbyop@123-reg.co.uk', ip='220.227.38.233', 
+samochod= Volkswagen model: Cabriolet', color='#c68133', VIN='3C6JD6DK4CG325183', rocznik='1993', cena =52627.42 euro, 
+data_zakupu=2020-02-29 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 958! 
+Kupujący= Holly Burds, email='hburdsql@miitbeian.gov.cn', ip='218.109.8.116', 
+samochod= Volkswagen model: GTI', color='#f05f70', VIN='JN8AF5MR5FT402097', rocznik='2009', cena =42693.79 euro, 
+data_zakupu=2020-01-04 
+Lokalizacja:  Januszkowice w Poland, 
+
+Transakcja numer: 962! 
+Kupujący= Inness Marioneau, email='imarioneauqp@topsy.com', ip='158.117.75.180', 
+samochod= Volkswagen model: Rabbit', color='#766f30', VIN='WBAUP7C50CV116770', rocznik='2009', cena =16916.02 euro, 
+data_zakupu=2020-11-02 
+Lokalizacja:  Skała w Poland, 
+
+Transakcja numer: 989! 
+Kupujący= Malynda Doxey, email='mdoxeyrg@reddit.com', ip='232.244.81.160', 
+samochod= Volkswagen model: GTI', color='#510057', VIN='3C4PDDBG7CT110880', rocznik='1998', cena =71484.21 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Ptení w Czech Republic]

@@ -1,0 +1,577 @@
+[
+
+Transakcja numer: 7! 
+Kupujący= Ilario Gillott, email='igillott6@cpanel.net', ip='48.182.6.82', 
+samochod= Ford model: Thunderbird', color='#c7590d', VIN='WBAEH73465B522209', rocznik='1955', cena =17700.70 euro, 
+data_zakupu=2020-06-04 
+Lokalizacja:  Wapno w Poland, 
+
+Transakcja numer: 11! 
+Kupujący= Ninette Minard, email='nminarda@tinypic.com', ip='248.97.165.1', 
+samochod= Ford model: Escape', color='#ce2408', VIN='3D7TT2HTXBG962910', rocznik='2000', cena =66074.00 euro, 
+data_zakupu=2020-09-19 
+Lokalizacja:  Staré Město w Czech Republic, 
+
+Transakcja numer: 33! 
+Kupujący= Sheri Dunham, email='sdunhamw@behance.net', ip='117.185.200.59', 
+samochod= Ford model: Mustang', color='#af1431', VIN='1FTNX2A50AE167788', rocznik='2001', cena =98060.01 euro, 
+data_zakupu=2020-05-11 
+Lokalizacja:  Fajsławice w Poland, 
+
+Transakcja numer: 42! 
+Kupujący= Torey Baake, email='tbaake15@infoseek.co.jp', ip='236.205.233.29', 
+samochod= Ford model: Escape', color='#e577f8', VIN='3C3CFFFH5ET105840', rocznik='2004', cena =77271.23 euro, 
+data_zakupu=2020-12-17 
+Lokalizacja:  Malbork w Poland, 
+
+Transakcja numer: 49! 
+Kupujący= Bjorn Fawthrop, email='bfawthrop1c@boston.com', ip='170.135.22.129', 
+samochod= Ford model: Edge', color='#ecfcdb', VIN='1FAHP3EN6BW566772', rocznik='2010', cena =23688.13 euro, 
+data_zakupu=2020-12-07 
+Lokalizacja:  Plasy w Czech Republic, 
+
+Transakcja numer: 52! 
+Kupujący= Garvey Laval, email='glaval1f@aboutads.info', ip='121.166.111.198', 
+samochod= Ford model: F350', color='#e46be0', VIN='WDDHH8JB4FB844541', rocznik='2007', cena =29919.74 euro, 
+data_zakupu=2020-06-19 
+Lokalizacja:  Trzciana w Poland, 
+
+Transakcja numer: 57! 
+Kupujący= Lexie Quesne, email='lquesne1k@huffingtonpost.com', ip='170.229.138.252', 
+samochod= Ford model: Escape', color='#0b6ac2', VIN='3D73M3CL8AG088050', rocznik='2011', cena =84054.37 euro, 
+data_zakupu=2020-02-02 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 63! 
+Kupujący= Elinor Walicki, email='ewalicki1q@myspace.com', ip='4.80.205.89', 
+samochod= Ford model: E-Series', color='#d38c8b', VIN='WP0AA2A81FK247865', rocznik='1990', cena =36141.09 euro, 
+data_zakupu=2020-08-17 
+Lokalizacja:  Kłomnice w Poland, 
+
+Transakcja numer: 87! 
+Kupujący= Hephzibah Llorens, email='hllorens2e@nba.com', ip='153.32.83.243', 
+samochod= Ford model: Escape', color='#4983ba', VIN='19UUA65626A610940', rocznik='2004', cena =24614.31 euro, 
+data_zakupu=2020-01-06 
+Lokalizacja:  Ostravice w Czech Republic, 
+
+Transakcja numer: 88! 
+Kupujący= Waite Barnfather, email='wbarnfather2f@1688.com', ip='25.134.227.114', 
+samochod= Ford model: Mustang', color='#bb13fb', VIN='WBAKP9C54ED316479', rocznik='1992', cena =75613.97 euro, 
+data_zakupu=2020-10-13 
+Lokalizacja:  Klobuky w Czech Republic, 
+
+Transakcja numer: 92! 
+Kupujący= Erhart Spruce, email='espruce2j@techcrunch.com', ip='48.165.178.142', 
+samochod= Ford model: Bronco', color='#b24052', VIN='19UUA9F50EA902169', rocznik='1984', cena =75345.93 euro, 
+data_zakupu=2020-11-22 
+Lokalizacja:  Chabařovice w Czech Republic, 
+
+Transakcja numer: 94! 
+Kupujący= Ree McEnhill, email='rmcenhill2l@springer.com', ip='4.229.129.143', 
+samochod= Ford model: Excursion', color='#65eb6c', VIN='1FTNX2A51AE167024', rocznik='2000', cena =73354.65 euro, 
+data_zakupu=2020-03-11 
+Lokalizacja:  Młynary w Poland, 
+
+Transakcja numer: 163! 
+Kupujący= Albertine Sheasby, email='asheasby4i@weather.com', ip='203.65.83.72', 
+samochod= Ford model: E-Series', color='#8c6319', VIN='2D4RN6DX2AR728030', rocznik='2012', cena =16804.66 euro, 
+data_zakupu=2020-10-27 
+Lokalizacja:  Zambrów w Poland, 
+
+Transakcja numer: 177! 
+Kupujący= Shepherd Ferraresi, email='sferraresi4w@census.gov', ip='143.159.243.151', 
+samochod= Ford model: Mustang', color='#1ea9a7', VIN='1C3CDFCB9ED465706', rocznik='2013', cena =5178.45 euro, 
+data_zakupu=2020-03-06 
+Lokalizacja:  Tvarožná w Czech Republic, 
+
+Transakcja numer: 200! 
+Kupujący= Drew Menat, email='dmenat5j@bing.com', ip='22.217.105.10', 
+samochod= Ford model: Aerostar', color='#efe232', VIN='3VWC17AU3FM605198', rocznik='1990', cena =30656.51 euro, 
+data_zakupu=2020-02-13 
+Lokalizacja:  Malanów w Poland, 
+
+Transakcja numer: 212! 
+Kupujący= Penn Latliff, email='platliff5v@icio.us', ip='247.182.252.77', 
+samochod= Ford model: Tempo', color='#5ddedd', VIN='1G6DZ67A790847851', rocznik='1994', cena =28779.90 euro, 
+data_zakupu=2020-02-24 
+Lokalizacja:  Ćmielów w Poland, 
+
+Transakcja numer: 227! 
+Kupujący= Shannen Snoddon, email='ssnoddon6a@cnet.com', ip='77.8.213.146', 
+samochod= Ford model: F350', color='#909262', VIN='2B3CJ7DW6AH689798', rocznik='2011', cena =58379.50 euro, 
+data_zakupu=2020-01-22 
+Lokalizacja:  Łobez w Poland, 
+
+Transakcja numer: 256! 
+Kupujący= Bianca Casel, email='bcasel73@ftc.gov', ip='187.181.214.88', 
+samochod= Ford model: F250', color='#b923db', VIN='1FMJU1J53AE862361', rocznik='2008', cena =97873.45 euro, 
+data_zakupu=2020-03-02 
+Lokalizacja:  Sośnie w Poland, 
+
+Transakcja numer: 265! 
+Kupujący= Natalya Bricksey, email='nbricksey7c@ning.com', ip='74.56.133.163', 
+samochod= Ford model: F-Series Super Duty', color='#7f4c3c', VIN='WAUEH98E17A705183', rocznik='2010', cena =63191.27 euro, 
+data_zakupu=2020-10-19 
+Lokalizacja:  Nové Sedlo w Czech Republic, 
+
+Transakcja numer: 273! 
+Kupujący= Aube Francescoccio, email='afrancescoccio7k@prlog.org', ip='22.178.52.163', 
+samochod= Ford model: E150', color='#3862a7', VIN='5NPDH4AE2BH992904', rocznik='2011', cena =89021.13 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Krajenka w Poland, 
+
+Transakcja numer: 275! 
+Kupujący= Marcello Jeckells, email='mjeckells7m@harvard.edu', ip='252.185.193.210', 
+samochod= Ford model: Windstar', color='#6f3d60', VIN='1GD020CG5BF412929', rocznik='1997', cena =19569.07 euro, 
+data_zakupu=2020-04-21 
+Lokalizacja:  Zalewo w Poland, 
+
+Transakcja numer: 293! 
+Kupujący= Cindra Beamond, email='cbeamond84@boston.com', ip='175.111.94.230', 
+samochod= Ford model: F-Series Super Duty', color='#f5034f', VIN='WUALNAFG3EN905239', rocznik='2009', cena =13314.57 euro, 
+data_zakupu=2020-02-04 
+Lokalizacja:  Skołyszyn w Poland, 
+
+Transakcja numer: 299! 
+Kupujący= Patty Forth, email='pforth8a@drupal.org', ip='172.12.7.62', 
+samochod= Ford model: Th!nk', color='#e6e9eb', VIN='1G4PN5SK3C4069415', rocznik='2000', cena =82727.44 euro, 
+data_zakupu=2020-01-11 
+Lokalizacja:  Szczytno w Poland, 
+
+Transakcja numer: 312! 
+Kupujący= Beaufort Martino, email='bmartino8n@cocolog-nifty.com', ip='190.191.57.54', 
+samochod= Ford model: Explorer', color='#c9d5d5', VIN='1D4PT7GX6AW669778', rocznik='2003', cena =99482.35 euro, 
+data_zakupu=2020-06-09 
+Lokalizacja:  Žiželice w Czech Republic, 
+
+Transakcja numer: 324! 
+Kupujący= Else Fermoy, email='efermoy8z@harvard.edu', ip='112.255.88.204', 
+samochod= Ford model: Aerostar', color='#dabc1c', VIN='3VW1K7AJXCM946040', rocznik='1996', cena =88852.80 euro, 
+data_zakupu=2020-08-30 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 325! 
+Kupujący= Ermengarde Andrea, email='eandrea90@admin.ch', ip='243.190.121.218', 
+samochod= Ford model: Bronco', color='#a12cc2', VIN='JM1GJ1T61F1245135', rocznik='1996', cena =2081.42 euro, 
+data_zakupu=2020-12-21 
+Lokalizacja:  Błaszki w Poland, 
+
+Transakcja numer: 336! 
+Kupujący= Priscilla Marchetti, email='pmarchetti9b@gizmodo.com', ip='89.39.130.238', 
+samochod= Ford model: E150', color='#22e8ec', VIN='2HNYD28587H084328', rocznik='2008', cena =62890.12 euro, 
+data_zakupu=2020-09-26 
+Lokalizacja:  Frýdlant w Czech Republic, 
+
+Transakcja numer: 344! 
+Kupujący= Brandy McGrail, email='bmcgrail9j@macromedia.com', ip='192.242.198.32', 
+samochod= Ford model: Escort', color='#224310', VIN='WBAYM1C5XED622526', rocznik='1997', cena =34041.27 euro, 
+data_zakupu=2020-08-01 
+Lokalizacja:  Mrągowo w Poland, 
+
+Transakcja numer: 351! 
+Kupujący= Gwenora Degg, email='gdegg9q@1688.com', ip='59.194.218.88', 
+samochod= Ford model: F450', color='#caa58e', VIN='WAUDF98E17A098414', rocznik='2009', cena =66244.66 euro, 
+data_zakupu=2020-02-03 
+Lokalizacja:  Mirocin w Poland, 
+
+Transakcja numer: 352! 
+Kupujący= Analise Yarnold, email='ayarnold9r@posterous.com', ip='164.84.24.93', 
+samochod= Ford model: F-Series', color='#444f87', VIN='SALGR2WF9EA382325', rocznik='2009', cena =33685.29 euro, 
+data_zakupu=2020-02-27 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 369! 
+Kupujący= Nicky MacGowing, email='nmacgowinga8@quantcast.com', ip='99.69.129.109', 
+samochod= Ford model: F250', color='#ffc287', VIN='WBAWL73599P849496', rocznik='1996', cena =49845.67 euro, 
+data_zakupu=2020-10-28 
+Lokalizacja:  Głogów Małopolski w Poland, 
+
+Transakcja numer: 380! 
+Kupujący= Ardelis Hammon, email='ahammonaj@harvard.edu', ip='171.197.104.147', 
+samochod= Ford model: Thunderbird', color='#7c787d', VIN='JM1BL1L34C1082521', rocznik='1996', cena =97447.57 euro, 
+data_zakupu=2020-12-20 
+Lokalizacja:  Vrbice w Czech Republic, 
+
+Transakcja numer: 384! 
+Kupujący= Keefe Itter, email='kitteran@tamu.edu', ip='4.37.211.183', 
+samochod= Ford model: F150', color='#2c9453', VIN='WAUHFAFL2FN082752', rocznik='2009', cena =33093.92 euro, 
+data_zakupu=2020-05-03 
+Lokalizacja:  Nowy Dwór Gdański w Poland, 
+
+Transakcja numer: 389! 
+Kupujący= Lorens Bowdon, email='lbowdonas@prnewswire.com', ip='7.53.16.209', 
+samochod= Ford model: Taurus', color='#042bf1', VIN='1G4HP52K834840370', rocznik='1997', cena =47935.84 euro, 
+data_zakupu=2020-06-09 
+Lokalizacja:  Oleszyce w Poland, 
+
+Transakcja numer: 394! 
+Kupujący= Maisey Ezzell, email='mezzellax@engadget.com', ip='181.40.242.15', 
+samochod= Ford model: Mustang', color='#0e0614', VIN='3VWKX8AJ8BM364142', rocznik='1989', cena =16980.37 euro, 
+data_zakupu=2020-01-31 
+Lokalizacja:  Daszewice w Poland, 
+
+Transakcja numer: 397! 
+Kupujący= Meggi Forder, email='mforderb0@usatoday.com', ip='122.222.35.226', 
+samochod= Ford model: Probe', color='#e6f37d', VIN='1G6AR5S38E0474593', rocznik='1997', cena =93767.17 euro, 
+data_zakupu=2020-03-31 
+Lokalizacja:  Jasienica w Poland, 
+
+Transakcja numer: 399! 
+Kupujący= Butch Olekhov, email='bolekhovb2@prweb.com', ip='146.160.157.144', 
+samochod= Ford model: Expedition', color='#c684be', VIN='1ZVBP8JS3C5967807', rocznik='2012', cena =65644.92 euro, 
+data_zakupu=2020-03-30 
+Lokalizacja:  Duczki w Poland, 
+
+Transakcja numer: 410! 
+Kupujący= Skipp Marages, email='smaragesbd@cdbaby.com', ip='159.86.54.129', 
+samochod= Ford model: Mustang', color='#1a3e31', VIN='SCBBB7ZH8EC043594', rocznik='1990', cena =68937.65 euro, 
+data_zakupu=2020-12-17 
+Lokalizacja:  Zbýšov w Czech Republic, 
+
+Transakcja numer: 429! 
+Kupujący= Will Campo, email='wcampobw@discovery.com', ip='52.44.53.42', 
+samochod= Ford model: Transit Connect', color='#630a19', VIN='SCFEBBAK8BG489805', rocznik='2010', cena =99772.91 euro, 
+data_zakupu=2020-05-29 
+Lokalizacja:  Zebrzydowice w Poland, 
+
+Transakcja numer: 437! 
+Kupujący= Francisca Fadian, email='ffadianc4@wikia.com', ip='38.138.246.222', 
+samochod= Ford model: Contour', color='#9e7231', VIN='SALAG2D46AA900530', rocznik='1995', cena =48603.83 euro, 
+data_zakupu=2020-12-22 
+Lokalizacja:  Kopidlno w Czech Republic, 
+
+Transakcja numer: 438! 
+Kupujący= Nixie Yukhov, email='nyukhovc5@hp.com', ip='42.134.119.242', 
+samochod= Ford model: F150', color='#d8d6cb', VIN='WBAKE3C51BE835594', rocznik='1984', cena =4494.16 euro, 
+data_zakupu=2020-10-26 
+Lokalizacja:  Wolanów w Poland, 
+
+Transakcja numer: 440! 
+Kupujący= Alexa Pallas, email='apallasc7@vkontakte.ru', ip='26.238.135.74', 
+samochod= Ford model: Expedition', color='#98f68b', VIN='YV4902NC8F1971978', rocznik='2006', cena =84550.06 euro, 
+data_zakupu=2020-07-12 
+Lokalizacja:  Pewel Wielka w Poland, 
+
+Transakcja numer: 441! 
+Kupujący= Robbert Rigmond, email='rrigmondc8@printfriendly.com', ip='75.231.166.208', 
+samochod= Ford model: F350', color='#616bdb', VIN='2CTALMEC6B6435187', rocznik='2004', cena =87470.45 euro, 
+data_zakupu=2020-04-22 
+Lokalizacja:  Doksy w Czech Republic, 
+
+Transakcja numer: 462! 
+Kupujący= Keslie Willock, email='kwillockct@exblog.jp', ip='21.38.185.203', 
+samochod= Ford model: Taurus', color='#bc77cb', VIN='1N4AA5APXCC474959', rocznik='1997', cena =46204.10 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Golčův Jeníkov w Czech Republic, 
+
+Transakcja numer: 468! 
+Kupujący= Sebastian Dincke, email='sdinckecz@about.me', ip='153.219.8.201', 
+samochod= Ford model: Econoline E250', color='#f7f05a', VIN='SCFEBBDL7EG595087', rocznik='1995', cena =45703.33 euro, 
+data_zakupu=2020-10-12 
+Lokalizacja:  Topolná w Czech Republic, 
+
+Transakcja numer: 472! 
+Kupujący= Laurene Leavry, email='lleavryd3@unblog.fr', ip='211.212.230.98', 
+samochod= Ford model: F-Series', color='#610af0', VIN='1G6KD57Y76U239328', rocznik='2001', cena =77382.36 euro, 
+data_zakupu=2020-06-29 
+Lokalizacja:  Lubichowo w Poland, 
+
+Transakcja numer: 487! 
+Kupujący= Carolus Count, email='ccountdi@unicef.org', ip='50.212.12.150', 
+samochod= Ford model: Thunderbird', color='#9e323e', VIN='2G4WE587771126828', rocznik='1991', cena =95092.28 euro, 
+data_zakupu=2020-07-18 
+Lokalizacja:  Žďár w Czech Republic, 
+
+Transakcja numer: 493! 
+Kupujący= Gracie Vreede, email='gvreededo@intel.com', ip='161.160.214.144', 
+samochod= Ford model: Probe', color='#0c3773', VIN='WAUKF78E46A139385', rocznik='1996', cena =51447.41 euro, 
+data_zakupu=2020-03-26 
+Lokalizacja:  Libiąż w Poland, 
+
+Transakcja numer: 494! 
+Kupujący= Glennis Alway, email='galwaydp@ameblo.jp', ip='161.10.131.73', 
+samochod= Ford model: Econoline E150', color='#dd1393', VIN='WP0AB2A9XBS643101', rocznik='2001', cena =4969.63 euro, 
+data_zakupu=2020-04-18 
+Lokalizacja:  Dobroměřice w Czech Republic, 
+
+Transakcja numer: 517! 
+Kupujący= Noel Poolton, email='npooltonec@google.ru', ip='109.124.254.47', 
+samochod= Ford model: F250', color='#0ef729', VIN='5GAKRCED4BJ285019', rocznik='2003', cena =24090.47 euro, 
+data_zakupu=2020-05-25 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 523! 
+Kupujący= Nanette Mansour, email='nmansourei@deviantart.com', ip='125.171.132.71', 
+samochod= Ford model: Aerostar', color='#af0fa6', VIN='KMHHT6KD5BU694754', rocznik='1991', cena =96676.64 euro, 
+data_zakupu=2020-11-22 
+Lokalizacja:  Wierzchosławice w Poland, 
+
+Transakcja numer: 550! 
+Kupujący= Andreana Matanin, email='amataninf9@github.com', ip='77.84.224.209', 
+samochod= Ford model: Thunderbird', color='#80503e', VIN='3GYT4MEF1BG679596', rocznik='2004', cena =6090.10 euro, 
+data_zakupu=2020-05-30 
+Lokalizacja:  Korczew w Poland, 
+
+Transakcja numer: 567! 
+Kupujący= Maye Seally, email='mseallyfq@exblog.jp', ip='55.34.149.55', 
+samochod= Ford model: Freestyle', color='#6a59fa', VIN='5FRYD3H64EB608631', rocznik='2005', cena =85917.70 euro, 
+data_zakupu=2020-12-18 
+Lokalizacja:  Mýto w Czech Republic, 
+
+Transakcja numer: 585! 
+Kupujący= Dagny Jinks, email='djinksg8@vistaprint.com', ip='82.122.109.56', 
+samochod= Ford model: Econoline E250', color='#693127', VIN='5NPDH4AE0BH046817', rocznik='1994', cena =20678.02 euro, 
+data_zakupu=2020-06-05 
+Lokalizacja:  Všenory w Czech Republic, 
+
+Transakcja numer: 586! 
+Kupujący= Cyndie Leirmonth, email='cleirmonthg9@google.com', ip='9.150.234.15', 
+samochod= Ford model: Econoline E150', color='#e1dee0', VIN='3VW1K7AJ3FM479922', rocznik='2000', cena =60157.99 euro, 
+data_zakupu=2020-12-15 
+Lokalizacja:  Chrást w Czech Republic, 
+
+Transakcja numer: 597! 
+Kupujący= Arabele Leblanc, email='aleblancgk@hp.com', ip='3.219.16.92', 
+samochod= Ford model: Crown Victoria', color='#30b9d0', VIN='1G4GA5GR5CF949859', rocznik='2006', cena =31058.64 euro, 
+data_zakupu=2020-02-25 
+Lokalizacja:  Czarna Woda w Poland, 
+
+Transakcja numer: 606! 
+Kupujący= Joel Biddell, email='jbiddellgt@is.gd', ip='30.138.171.71', 
+samochod= Ford model: F-Series', color='#8dd2f0', VIN='WAUJC68EX3A565219', rocznik='1986', cena =79599.82 euro, 
+data_zakupu=2020-06-28 
+Lokalizacja:  Rudna Mała w Poland, 
+
+Transakcja numer: 615! 
+Kupujący= Ewart Beatey, email='ebeateyh2@baidu.com', ip='89.246.110.48', 
+samochod= Ford model: Ranger', color='#ac0d64', VIN='3D7TT2HT6AG705239', rocznik='2002', cena =68096.90 euro, 
+data_zakupu=2020-12-20 
+Lokalizacja:  Žitenice w Czech Republic, 
+
+Transakcja numer: 617! 
+Kupujący= Fancy Hooban, email='fhoobanh4@mail.ru', ip='139.13.220.142', 
+samochod= Ford model: Mustang', color='#3c6447', VIN='3GYFNDEY9AS621629', rocznik='1997', cena =63872.86 euro, 
+data_zakupu=2020-04-17 
+Lokalizacja:  Błaszki w Poland, 
+
+Transakcja numer: 648! 
+Kupujący= Cecilla Sturges, email='csturgeshz@independent.co.uk', ip='118.169.114.153', 
+samochod= Ford model: Tempo', color='#7d1b40', VIN='KM8JT3AB6DU726453', rocznik='1989', cena =45282.09 euro, 
+data_zakupu=2020-06-26 
+Lokalizacja:  Czerwonak w Poland, 
+
+Transakcja numer: 649! 
+Kupujący= Phyllis Shufflebotham, email='pshufflebothami0@dedecms.com', ip='3.177.11.217', 
+samochod= Ford model: Thunderbird', color='#77f8f4', VIN='3N1CN7AP3DL914323', rocznik='1958', cena =15928.37 euro, 
+data_zakupu=2020-04-14 
+Lokalizacja:  Główczyce w Poland, 
+
+Transakcja numer: 652! 
+Kupujący= Mathew De Hooch, email='mdehoochi3@arizona.edu', ip='12.31.117.171', 
+samochod= Ford model: Explorer', color='#90e402', VIN='WBAWL73587P081359', rocznik='2010', cena =17174.29 euro, 
+data_zakupu=2020-06-03 
+Lokalizacja:  Jeziora Wielkie w Poland, 
+
+Transakcja numer: 661! 
+Kupujący= Simonette Buffham, email='sbuffhamic@hexun.com', ip='193.120.117.146', 
+samochod= Ford model: Fusion', color='#c86692', VIN='WAUEFAFL1EN464563', rocznik='2006', cena =84373.36 euro, 
+data_zakupu=2020-04-29 
+Lokalizacja:  Milín w Czech Republic, 
+
+Transakcja numer: 663! 
+Kupujący= Glennis Bletcher, email='gbletcherie@list-manage.com', ip='144.117.86.86', 
+samochod= Ford model: Thunderbird', color='#c849e2', VIN='WP0AB2A96FS305040', rocznik='1986', cena =69282.98 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Bałtów w Poland, 
+
+Transakcja numer: 665! 
+Kupujący= Laural Tinklin, email='ltinklinig@indiegogo.com', ip='78.172.205.113', 
+samochod= Ford model: Taurus', color='#8a2a5e', VIN='JTDKDTB39F1453588', rocznik='2013', cena =9832.25 euro, 
+data_zakupu=2020-02-08 
+Lokalizacja:  München w Germany, 
+
+Transakcja numer: 669! 
+Kupujący= Felike Hollidge, email='fhollidgeik@amazon.de', ip='101.243.96.130', 
+samochod= Ford model: Laser', color='#e4408f', VIN='5N1AR2MM6FC716049', rocznik='1986', cena =76248.04 euro, 
+data_zakupu=2020-10-29 
+Lokalizacja:  Stare Pole w Poland, 
+
+Transakcja numer: 679! 
+Kupujący= Loella Elbourn, email='lelbourniu@cafepress.com', ip='94.54.175.172', 
+samochod= Ford model: Econoline E350', color='#6b3a71', VIN='WBAYB6C53FG398812', rocznik='1999', cena =70090.25 euro, 
+data_zakupu=2020-12-13 
+Lokalizacja:  Topolná w Czech Republic, 
+
+Transakcja numer: 683! 
+Kupujący= Omero Giacopazzi, email='ogiacopazziiy@fc2.com', ip='97.54.211.180', 
+samochod= Ford model: Ranger', color='#4c4be0', VIN='1G4GJ5E33DF921414', rocznik='1997', cena =84884.07 euro, 
+data_zakupu=2020-07-16 
+Lokalizacja:  Boleszkowice w Poland, 
+
+Transakcja numer: 684! 
+Kupujący= Fredek Marjoram, email='fmarjoramiz@ca.gov', ip='231.132.21.93', 
+samochod= Ford model: E250', color='#4d6750', VIN='1D4PT5GK0AW706476', rocznik='1984', cena =98725.52 euro, 
+data_zakupu=2020-06-14 
+Lokalizacja:  Maciejowice w Poland, 
+
+Transakcja numer: 709! 
+Kupujący= Mark O'Coskerry, email='mocoskerryjo@jalbum.net', ip='210.137.210.180', 
+samochod= Ford model: Aerostar', color='#9f6def', VIN='1G6DC8EY3B0776957', rocznik='1987', cena =50162.31 euro, 
+data_zakupu=2020-12-07 
+Lokalizacja:  Všemina w Czech Republic, 
+
+Transakcja numer: 720! 
+Kupujący= Anthony Smeaton, email='asmeatonjz@feedburner.com', ip='190.166.165.237', 
+samochod= Ford model: Escape', color='#51b296', VIN='JM1DE1KY0E0899980', rocznik='2012', cena =9988.65 euro, 
+data_zakupu=2020-06-01 
+Lokalizacja:  Trzciana w Poland, 
+
+Transakcja numer: 725! 
+Kupujący= Maure Klimkiewich, email='mklimkiewichk4@cyberchimps.com', ip='33.107.49.141', 
+samochod= Ford model: E-Series', color='#9b4395', VIN='WAUGGAFR3DA143978', rocznik='1992', cena =20677.50 euro, 
+data_zakupu=2020-09-26 
+Lokalizacja:  Sosnówka w Poland, 
+
+Transakcja numer: 727! 
+Kupujący= Isidro Shackleford, email='ishacklefordk6@cmu.edu', ip='38.81.83.72', 
+samochod= Ford model: Thunderbird', color='#784e4f', VIN='3D73M4EL7AG525006', rocznik='1990', cena =43073.07 euro, 
+data_zakupu=2020-10-30 
+Lokalizacja:  Łaziska Górne w Poland, 
+
+Transakcja numer: 730! 
+Kupujący= Julie Power, email='jpowerk9@ihg.com', ip='212.159.150.43', 
+samochod= Ford model: Mustang', color='#428843', VIN='WAUSH78E07A836919', rocznik='1986', cena =51802.38 euro, 
+data_zakupu=2020-01-01 
+Lokalizacja:  Rudniki w Poland, 
+
+Transakcja numer: 743! 
+Kupujący= Phebe Aubry, email='paubrykm@samsung.com', ip='49.195.241.229', 
+samochod= Ford model: Thunderbird', color='#31b293', VIN='WBA3T7C54F5397595', rocznik='1972', cena =48238.70 euro, 
+data_zakupu=2020-01-28 
+Lokalizacja:  Měřín w Czech Republic, 
+
+Transakcja numer: 750! 
+Kupujący= Rowena Baudins, email='rbaudinskt@twitter.com', ip='234.20.48.161', 
+samochod= Ford model: Freestar', color='#5fccf5', VIN='WAUWFBFL9AA874362', rocznik='2003', cena =74898.80 euro, 
+data_zakupu=2020-01-30 
+Lokalizacja:  Klimontów w Poland, 
+
+Transakcja numer: 758! 
+Kupujący= Agnes Lingfoot, email='alingfootl1@eventbrite.com', ip='34.51.204.59', 
+samochod= Ford model: Laser', color='#4c6a2e', VIN='JM3TB2CA9D0750470', rocznik='1987', cena =68546.30 euro, 
+data_zakupu=2020-05-27 
+Lokalizacja:  Gorzyczki w Poland, 
+
+Transakcja numer: 761! 
+Kupujący= Ritchie D'Elias, email='rdeliasl4@arstechnica.com', ip='169.229.184.145', 
+samochod= Ford model: Mustang', color='#f68a48', VIN='1G6DN8EV1A0298018', rocznik='1979', cena =64996.18 euro, 
+data_zakupu=2020-08-15 
+Lokalizacja:  Velké Meziříčí w Czech Republic, 
+
+Transakcja numer: 824! 
+Kupujący= Goldia Churching, email='gchurchingmv@adobe.com', ip='245.138.53.86', 
+samochod= Ford model: F-Series', color='#0a24e7', VIN='WAURV78T99A678833', rocznik='1995', cena =43641.50 euro, 
+data_zakupu=2020-11-10 
+Lokalizacja:  Lysice w Czech Republic, 
+
+Transakcja numer: 849! 
+Kupujący= Jocelyne Orgel, email='jorgelnk@dropbox.com', ip='212.210.162.216', 
+samochod= Ford model: Five Hundred', color='#aa47e9', VIN='WBA3C3C54FK696689', rocznik='2007', cena =63582.71 euro, 
+data_zakupu=2020-09-27 
+Lokalizacja:  Koło w Poland, 
+
+Transakcja numer: 857! 
+Kupujący= Marrilee Lockett, email='mlockettns@jimdo.com', ip='111.25.31.216', 
+samochod= Ford model: Festiva', color='#00c3fd', VIN='1G6DF8EY6B0927037', rocznik='1990', cena =12769.30 euro, 
+data_zakupu=2020-08-01 
+Lokalizacja:  Żółkiewka w Poland, 
+
+Transakcja numer: 863! 
+Kupujący= Krista Stidworthy, email='kstidworthyny@blogs.com', ip='120.85.58.34', 
+samochod= Ford model: Tempo', color='#535dfb', VIN='KMHGC4DE8AU481480', rocznik='1994', cena =26658.03 euro, 
+data_zakupu=2020-02-22 
+Lokalizacja:  Červená Voda w Czech Republic, 
+
+Transakcja numer: 868! 
+Kupujący= Tomaso Batram, email='tbatramo3@weibo.com', ip='7.178.208.251', 
+samochod= Ford model: Mustang', color='#9225f2', VIN='1FMJK1G53AE842351', rocznik='1984', cena =7797.95 euro, 
+data_zakupu=2020-10-24 
+Lokalizacja:  Trzebieszów w Poland, 
+
+Transakcja numer: 873! 
+Kupujący= Wolfy Mellsop, email='wmellsopo8@mail.ru', ip='81.216.21.68', 
+samochod= Ford model: Taurus', color='#f0dc89', VIN='1G6KD57Y89U071624', rocznik='1995', cena =29025.54 euro, 
+data_zakupu=2020-11-01 
+Lokalizacja:  Libušín w Czech Republic, 
+
+Transakcja numer: 875! 
+Kupujący= Jobye Hagergham, email='jhagerghamoa@alexa.com', ip='161.209.113.42', 
+samochod= Ford model: Thunderbird', color='#741c62', VIN='1GYS4KEF7CR319654', rocznik='2002', cena =7168.15 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Opatówek w Poland, 
+
+Transakcja numer: 879! 
+Kupujący= Chuck Issakov, email='cissakovoe@sciencedirect.com', ip='223.65.229.197', 
+samochod= Ford model: Crown Victoria', color='#57d774', VIN='1G6DL67A380538037', rocznik='2000', cena =73911.07 euro, 
+data_zakupu=2020-01-26 
+Lokalizacja:  Třebíč w Czech Republic, 
+
+Transakcja numer: 897! 
+Kupujący= Carree McQuilliam, email='cmcquilliamow@apache.org', ip='156.82.244.189', 
+samochod= Ford model: F350', color='#8eef36', VIN='WAUMF98P56A475178', rocznik='1993', cena =24466.36 euro, 
+data_zakupu=2020-08-25 
+Lokalizacja:  Lipka w Poland, 
+
+Transakcja numer: 903! 
+Kupujący= Lorie Hainning, email='lhainningp2@ca.gov', ip='24.94.61.26', 
+samochod= Ford model: F250', color='#648e60', VIN='JM1BL1L33C1799234', rocznik='2005', cena =90231.67 euro, 
+data_zakupu=2020-04-11 
+Lokalizacja:  Zlonice w Czech Republic, 
+
+Transakcja numer: 912! 
+Kupujący= Ethel Earey, email='eeareypb@japanpost.jp', ip='94.73.137.15', 
+samochod= Ford model: Econoline E350', color='#7fafd8', VIN='3N1AB7APXFY406422', rocznik='1992', cena =24240.30 euro, 
+data_zakupu=2020-04-08 
+Lokalizacja:  Rączna w Poland, 
+
+Transakcja numer: 943! 
+Kupujący= Carmencita Tapner, email='ctapnerq6@quantcast.com', ip='158.69.125.245', 
+samochod= Ford model: Taurus', color='#475c40', VIN='1N6AF0KX0EN805842', rocznik='1998', cena =56689.77 euro, 
+data_zakupu=2020-04-09 
+Lokalizacja:  Trawniki w Poland, 
+
+Transakcja numer: 950! 
+Kupujący= Rasla Chambers, email='rchambersqd@europa.eu', ip='147.141.190.231', 
+samochod= Ford model: Tempo', color='#74723d', VIN='19UYA42763A414787', rocznik='1985', cena =10645.96 euro, 
+data_zakupu=2020-07-14 
+Lokalizacja:  Solnice w Czech Republic, 
+
+Transakcja numer: 953! 
+Kupujący= Puff Brignell, email='pbrignellqg@mit.edu', ip='102.112.241.176', 
+samochod= Ford model: E150', color='#c5592a', VIN='WAUFL54D01N361760', rocznik='2012', cena =59923.71 euro, 
+data_zakupu=2020-05-23 
+Lokalizacja:  Chwaszczyno w Poland, 
+
+Transakcja numer: 955! 
+Kupujący= Krysta Mannooch, email='kmannoochqi@dot.gov', ip='216.79.55.159', 
+samochod= Ford model: Crown Victoria', color='#da0a25', VIN='1GYUKHEF9AR264767', rocznik='1998', cena =91469.34 euro, 
+data_zakupu=2020-05-10 
+Lokalizacja:  Zwierzyniec w Poland, 
+
+Transakcja numer: 965! 
+Kupujący= Lorianne Lello, email='llelloqs@miitbeian.gov.cn', ip='30.208.135.91', 
+samochod= Ford model: Crown Victoria', color='#cf790e', VIN='1G6AF5SX5E0537516', rocznik='2007', cena =78505.53 euro, 
+data_zakupu=2020-08-20 
+Lokalizacja:  Liběšice w Czech Republic, 
+
+Transakcja numer: 979! 
+Kupujący= Tawsha Cloughton, email='tcloughtonr6@oakley.com', ip='55.62.224.210', 
+samochod= Ford model: Galaxie', color='#ca6618', VIN='1C4RDHAG5EC003424', rocznik='1966', cena =64097.32 euro, 
+data_zakupu=2020-06-22 
+Lokalizacja:  Rostock w Germany, 
+
+Transakcja numer: 982! 
+Kupujący= Vincenz Ivel, email='vivelr9@rediff.com', ip='214.110.196.118', 
+samochod= Ford model: Windstar', color='#3a2b63', VIN='WAUAF98E45A019558', rocznik='2001', cena =67491.57 euro, 
+data_zakupu=2020-12-08 
+Lokalizacja:  Jadowniki w Poland]

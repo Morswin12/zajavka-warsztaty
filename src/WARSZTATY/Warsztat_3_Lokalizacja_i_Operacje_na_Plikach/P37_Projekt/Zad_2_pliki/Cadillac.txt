@@ -1,0 +1,127 @@
+[
+
+Transakcja numer: 12! 
+Kupujący= Brannon Dexter, email='bdexterb@mozilla.com', ip='242.111.242.135', 
+samochod= Cadillac model: Escalade ESV', color='#1906e0', VIN='1G6DS57VX90897709', rocznik='2007', cena =28270.94 euro, 
+data_zakupu=2020-01-12 
+Lokalizacja:  Rozwadza w Poland, 
+
+Transakcja numer: 60! 
+Kupujący= Ryan Drane, email='rdrane1n@ucla.edu', ip='113.128.203.179', 
+samochod= Cadillac model: CTS', color='#6354b6', VIN='WBA5M6C5XED138968', rocznik='2011', cena =25636.62 euro, 
+data_zakupu=2020-05-26 
+Lokalizacja:  Szydłowo w Poland, 
+
+Transakcja numer: 70! 
+Kupujący= Linn Louche, email='llouche1x@harvard.edu', ip='241.31.139.134', 
+samochod= Cadillac model: CTS-V', color='#b56ebc', VIN='1B3CB2HA2AD242557', rocznik='2009', cena =33447.26 euro, 
+data_zakupu=2020-02-22 
+Lokalizacja:  Miejska Górka w Poland, 
+
+Transakcja numer: 90! 
+Kupujący= Anita Gibbin, email='agibbin2h@lulu.com', ip='55.240.206.240', 
+samochod= Cadillac model: CTS', color='#4e4639', VIN='3MZBM1L72EM306808', rocznik='2004', cena =84373.48 euro, 
+data_zakupu=2020-06-01 
+Lokalizacja:  Łopuszna w Poland, 
+
+Transakcja numer: 182! 
+Kupujący= Selia Delf, email='sdelf51@wordpress.org', ip='239.231.27.205', 
+samochod= Cadillac model: Eldorado', color='#926eff', VIN='WAUGU44D43N075201', rocznik='1995', cena =52003.13 euro, 
+data_zakupu=2020-02-04 
+Lokalizacja:  Wilków w Poland, 
+
+Transakcja numer: 204! 
+Kupujący= Kassey Jehu, email='kjehu5n@squarespace.com', ip='19.45.135.14', 
+samochod= Cadillac model: CTS-V', color='#148cb1', VIN='WVGBF7A97AD498149', rocznik='2007', cena =30692.81 euro, 
+data_zakupu=2020-02-18 
+Lokalizacja:  Praga Północ w Poland, 
+
+Transakcja numer: 230! 
+Kupujący= Isidoro Stockney, email='istockney6d@baidu.com', ip='71.77.214.117', 
+samochod= Cadillac model: Escalade EXT', color='#1f2a96', VIN='3D73Y4HL5AG181322', rocznik='2004', cena =81035.43 euro, 
+data_zakupu=2020-02-21 
+Lokalizacja:  Małkinia Górna w Poland, 
+
+Transakcja numer: 296! 
+Kupujący= Drugi Scurrey, email='dscurrey87@opera.com', ip='138.46.92.46', 
+samochod= Cadillac model: SRX', color='#f30ea4', VIN='1GD01XEG5FZ282339', rocznik='2009', cena =28145.95 euro, 
+data_zakupu=2020-01-19 
+Lokalizacja:  Jonkowo w Poland, 
+
+Transakcja numer: 332! 
+Kupujący= Chrysler Winchcombe, email='cwinchcombe97@jigsy.com', ip='157.252.199.163', 
+samochod= Cadillac model: Escalade', color='#2eb982', VIN='WA1WMBFE9DD812581', rocznik='2008', cena =17720.70 euro, 
+data_zakupu=2020-03-31 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 453! 
+Kupujący= Erastus Charpin, email='echarpinck@cisco.com', ip='19.226.186.181', 
+samochod= Cadillac model: Escalade EXT', color='#5eb88a', VIN='1G6KD57Y06U694523', rocznik='2003', cena =97983.31 euro, 
+data_zakupu=2020-01-25 
+Lokalizacja:  Köln w Germany, 
+
+Transakcja numer: 573! 
+Kupujący= Charin Gotch, email='cgotchfw@topsy.com', ip='31.126.90.122', 
+samochod= Cadillac model: Escalade', color='#ac04c6', VIN='WVWED7AJ9DW454308', rocznik='2006', cena =59530.40 euro, 
+data_zakupu=2020-12-08 
+Lokalizacja:  Hostomice w Czech Republic, 
+
+Transakcja numer: 575! 
+Kupujący= Derek Fell, email='dfellfy@odnoklassniki.ru', ip='68.239.166.160', 
+samochod= Cadillac model: Escalade EXT', color='#284e74', VIN='WAUAF78E57A216018', rocznik='2012', cena =4916.34 euro, 
+data_zakupu=2020-06-03 
+Lokalizacja:  Vřesina w Czech Republic, 
+
+Transakcja numer: 614! 
+Kupujący= Ferdinand Wethered, email='fwetheredh1@php.net', ip='108.5.13.188', 
+samochod= Cadillac model: DeVille', color='#08ea45', VIN='WBADT53492C781846', rocznik='1993', cena =3635.44 euro, 
+data_zakupu=2020-03-01 
+Lokalizacja:  Řehlovice w Czech Republic, 
+
+Transakcja numer: 664! 
+Kupujący= Richmond Gartin, email='rgartinif@smh.com.au', ip='150.231.78.143', 
+samochod= Cadillac model: DeVille', color='#aa7c7a', VIN='1G6EL12Y71B193231', rocznik='2003', cena =69314.01 euro, 
+data_zakupu=2020-09-01 
+Lokalizacja:  Połajewo w Poland, 
+
+Transakcja numer: 685! 
+Kupujący= Wayne Ainslee, email='wainsleej0@tamu.edu', ip='245.73.253.149', 
+samochod= Cadillac model: Seville', color='#993abd', VIN='W04GU5GC6B1388214', rocznik='2000', cena =10923.46 euro, 
+data_zakupu=2020-03-18 
+Lokalizacja:  Licheń Stary w Poland, 
+
+Transakcja numer: 700! 
+Kupujący= Hendrika Henzer, email='hhenzerjf@earthlink.net', ip='66.26.160.212', 
+samochod= Cadillac model: SRX', color='#bab7bb', VIN='1C4SDJCT5FC458360', rocznik='2009', cena =56724.53 euro, 
+data_zakupu=2020-10-08 
+Lokalizacja:  Siemianowice Śląskie w Poland, 
+
+Transakcja numer: 723! 
+Kupujący= Lou Spittle, email='lspittlek2@google.cn', ip='7.89.74.148', 
+samochod= Cadillac model: Eldorado', color='#64a2a1', VIN='WBAEH13567C622572', rocznik='2001', cena =19680.87 euro, 
+data_zakupu=2020-06-10 
+Lokalizacja:  Włoszczowa w Poland, 
+
+Transakcja numer: 836! 
+Kupujący= Porty Hamber, email='phambern7@slashdot.org', ip='25.55.104.53', 
+samochod= Cadillac model: Seville', color='#dfffeb', VIN='WAUMGAFL0EA647324', rocznik='2004', cena =58204.20 euro, 
+data_zakupu=2020-10-29 
+Lokalizacja:  Jistebnice w Czech Republic, 
+
+Transakcja numer: 848! 
+Kupujący= Bertine Rispen, email='brispennj@hhs.gov', ip='166.238.198.27', 
+samochod= Cadillac model: Escalade ESV', color='#e1ec7b', VIN='JTHBL1EF5A5204900', rocznik='2009', cena =67009.11 euro, 
+data_zakupu=2020-08-18 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 867! 
+Kupujący= Irving Schult, email='ischulto2@etsy.com', ip='205.233.61.28', 
+samochod= Cadillac model: Seville', color='#efc402', VIN='2FMDK3AK5CB018390', rocznik='2003', cena =33537.49 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Borne Sulinowo w Poland, 
+
+Transakcja numer: 974! 
+Kupujący= Nil Broggio, email='nbroggior1@sourceforge.net', ip='84.124.154.88', 
+samochod= Cadillac model: Fleetwood', color='#989264', VIN='KMHFC4DD4BA315334', rocznik='1993', cena =97896.49 euro, 
+data_zakupu=2020-11-19 
+Lokalizacja:  Darkovice w Czech Republic]

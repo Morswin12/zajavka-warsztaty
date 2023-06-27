@@ -1,0 +1,73 @@
+[
+
+Transakcja numer: 164! 
+Kupujący= Hettie Grills, email='hgrills4j@businessinsider.com', ip='217.28.65.68', 
+samochod= Porsche model: 924 S', color='#ad07b6', VIN='1C3BCBFG1CN358350', rocznik='1987', cena =96664.65 euro, 
+data_zakupu=2020-12-16 
+Lokalizacja:  Paradyż w Poland, 
+
+Transakcja numer: 171! 
+Kupujący= Chelsae Flather, email='cflather4q@merriam-webster.com', ip='50.80.35.155', 
+samochod= Porsche model: 911', color='#0ebf5e', VIN='1GKS2GEJ8CR620290', rocznik='2012', cena =15405.22 euro, 
+data_zakupu=2020-12-04 
+Lokalizacja:  Višňové w Czech Republic, 
+
+Transakcja numer: 258! 
+Kupujący= Twyla Dougary, email='tdougary75@mapquest.com', ip='148.74.195.8', 
+samochod= Porsche model: 911', color='#069a71', VIN='ZFBCFABH5FZ754958', rocznik='2013', cena =89132.44 euro, 
+data_zakupu=2020-01-25 
+Lokalizacja:  Malanów w Poland, 
+
+Transakcja numer: 572! 
+Kupujący= Antonius Whibley, email='awhibleyfv@about.com', ip='133.222.186.221', 
+samochod= Porsche model: Boxster', color='#b02d9c', VIN='JN1AY1AP4BM053118', rocznik='1998', cena =59274.97 euro, 
+data_zakupu=2020-10-15 
+Lokalizacja:  Jednorożec w Poland, 
+
+Transakcja numer: 599! 
+Kupujący= Kippy Schermick, email='kschermickgm@paypal.com', ip='106.225.188.88', 
+samochod= Porsche model: Cayenne', color='#55569e', VIN='WAUVC58E03A629585', rocznik='2011', cena =99706.01 euro, 
+data_zakupu=2020-08-23 
+Lokalizacja:  Trmice w Czech Republic, 
+
+Transakcja numer: 696! 
+Kupujący= Solomon Haitlie, email='shaitliejb@51.la', ip='84.126.18.51', 
+samochod= Porsche model: 911', color='#f8a602', VIN='1D7RV1CP3BS521993', rocznik='1999', cena =32261.25 euro, 
+data_zakupu=2020-09-24 
+Lokalizacja:  Cheb w Czech Republic, 
+
+Transakcja numer: 786! 
+Kupujący= Gabbie Swidenbank, email='gswidenbanklt@deviantart.com', ip='7.91.176.191', 
+samochod= Porsche model: 911', color='#cced5e', VIN='2G4WD582871982579', rocznik='2012', cena =96690.50 euro, 
+data_zakupu=2020-11-23 
+Lokalizacja:  Żółkiewka w Poland, 
+
+Transakcja numer: 822! 
+Kupujący= Lane Bewlie, email='lbewliemt@a8.net', ip='42.92.90.156', 
+samochod= Porsche model: Boxster', color='#27f800', VIN='WBALY1C57ED761088', rocznik='2001', cena =53675.87 euro, 
+data_zakupu=2020-10-04 
+Lokalizacja:  Kamieniec w Poland, 
+
+Transakcja numer: 851! 
+Kupujący= Susan Labbet, email='slabbetnm@e-recht24.de', ip='144.230.120.154', 
+samochod= Porsche model: 911', color='#b5b151', VIN='5TDDW5G19FS981723', rocznik='1988', cena =42587.96 euro, 
+data_zakupu=2020-11-05 
+Lokalizacja:  Polanka Wielka w Poland, 
+
+Transakcja numer: 892! 
+Kupujący= Aldin Rosengart, email='arosengartor@bandcamp.com', ip='194.220.244.32', 
+samochod= Porsche model: 911', color='#1a6ccd', VIN='JN1AZ4EH8BM271032', rocznik='1997', cena =24654.89 euro, 
+data_zakupu=2020-09-23 
+Lokalizacja:  Warlubie w Poland, 
+
+Transakcja numer: 896! 
+Kupujący= Kevon Gobbet, email='kgobbetov@toplist.cz', ip='129.176.192.187', 
+samochod= Porsche model: Cayenne', color='#f6a6dc', VIN='WAUGFAFR3EA966186', rocznik='2010', cena =22476.31 euro, 
+data_zakupu=2020-03-13 
+Lokalizacja:  Reda w Poland, 
+
+Transakcja numer: 949! 
+Kupujący= Christal Beardsdale, email='cbeardsdaleqc@moonfruit.com', ip='217.219.117.226', 
+samochod= Porsche model: 911', color='#3c8f14', VIN='1N6AA0EK2FN082804', rocznik='1989', cena =89243.32 euro, 
+data_zakupu=2020-07-05 
+Lokalizacja:  Łobez w Poland]

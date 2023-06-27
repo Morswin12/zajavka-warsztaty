@@ -1,0 +1,283 @@
+[
+
+Transakcja numer: 27! 
+Kupujący= Carmen Bowen, email='cbowenq@nationalgeographic.com', ip='63.239.51.206', 
+samochod= Mercedes-Benz model: E-Class', color='#3fb1cf', VIN='WAUGL98E25A270887', rocznik='2005', cena =59050.98 euro, 
+data_zakupu=2020-03-14 
+Lokalizacja:  Kassel w Germany, 
+
+Transakcja numer: 47! 
+Kupujący= Jarrid Andreotti, email='jandreotti1a@acquirethisname.com', ip='38.184.194.184', 
+samochod= Mercedes-Benz model: CLS-Class', color='#0ba4ce', VIN='WAUDGAFL5DA732884', rocznik='2011', cena =3183.57 euro, 
+data_zakupu=2020-01-09 
+Lokalizacja:  Drawsko Pomorskie w Poland, 
+
+Transakcja numer: 50! 
+Kupujący= Sollie Palatino, email='spalatino1d@linkedin.com', ip='37.149.119.171', 
+samochod= Mercedes-Benz model: SLS AMG', color='#a8deac', VIN='5GAEV23D39J957670', rocznik='2012', cena =6369.83 euro, 
+data_zakupu=2020-10-03 
+Lokalizacja:  Znojmo w Czech Republic, 
+
+Transakcja numer: 59! 
+Kupujący= Julieta Havock, email='jhavock1m@sohu.com', ip='104.226.28.113', 
+samochod= Mercedes-Benz model: SL-Class', color='#24f4f5', VIN='WBSDX9C54BE066526', rocznik='1984', cena =42147.27 euro, 
+data_zakupu=2020-03-24 
+Lokalizacja:  Sanok w Poland, 
+
+Transakcja numer: 69! 
+Kupujący= Arley Blouet, email='ablouet1w@npr.org', ip='98.161.76.178', 
+samochod= Mercedes-Benz model: E-Class', color='#7a8ce0', VIN='WBAEU334X4P114527', rocznik='1995', cena =64393.66 euro, 
+data_zakupu=2020-01-03 
+Lokalizacja:  Wojnicz w Poland, 
+
+Transakcja numer: 85! 
+Kupujący= Cosmo McOnie, email='cmconie2c@oracle.com', ip='155.69.105.106', 
+samochod= Mercedes-Benz model: SL65 AMG', color='#9f9316', VIN='JHMFB4F21CS468704', rocznik='2006', cena =12734.28 euro, 
+data_zakupu=2020-10-25 
+Lokalizacja:  Heřmanův Městec w Czech Republic, 
+
+Transakcja numer: 128! 
+Kupujący= Brigida Keen, email='bkeen3j@networksolutions.com', ip='217.225.65.146', 
+samochod= Mercedes-Benz model: G-Class', color='#e739e1', VIN='4T1BF3EKXBU205285', rocznik='2005', cena =91226.32 euro, 
+data_zakupu=2020-11-07 
+Lokalizacja:  Piaski w Poland, 
+
+Transakcja numer: 134! 
+Kupujący= Grace Carr, email='gcarr3p@cam.ac.uk', ip='87.222.37.8', 
+samochod= Mercedes-Benz model: C-Class', color='#e5c96c', VIN='1C4AJWAG4DL069732', rocznik='2006', cena =24707.10 euro, 
+data_zakupu=2020-10-25 
+Lokalizacja:  Bałtów w Poland, 
+
+Transakcja numer: 172! 
+Kupujący= Bride Empleton, email='bempleton4r@businessinsider.com', ip='158.253.160.205', 
+samochod= Mercedes-Benz model: 300D', color='#7210c9', VIN='2C3CDXCT7CH704409', rocznik='1992', cena =17810.02 euro, 
+data_zakupu=2020-12-09 
+Lokalizacja:  Dąbrowice w Poland, 
+
+Transakcja numer: 187! 
+Kupujący= Ailey Usborn, email='ausborn56@deliciousdays.com', ip='147.164.79.146', 
+samochod= Mercedes-Benz model: M-Class', color='#1b8856', VIN='1FTEW1E8XAF520680', rocznik='2002', cena =98107.82 euro, 
+data_zakupu=2020-02-06 
+Lokalizacja:  Kożuchów w Poland, 
+
+Transakcja numer: 248! 
+Kupujący= Karmen Murrow, email='kmurrow6v@psu.edu', ip='101.103.206.79', 
+samochod= Mercedes-Benz model: C-Class', color='#4f8cbf', VIN='5UXFG2C51E0621889', rocznik='2006', cena =32785.51 euro, 
+data_zakupu=2020-11-14 
+Lokalizacja:  Regimin w Poland, 
+
+Transakcja numer: 294! 
+Kupujący= Starlin Wayvill, email='swayvill85@uol.com.br', ip='49.150.247.241', 
+samochod= Mercedes-Benz model: SLK-Class', color='#7e919e', VIN='4JGDA0EB2FA562733', rocznik='2012', cena =45019.57 euro, 
+data_zakupu=2020-09-15 
+Lokalizacja:  Oldřišov w Czech Republic, 
+
+Transakcja numer: 338! 
+Kupujący= Jeniece Towers, email='jtowers9d@t-online.de', ip='33.140.164.241', 
+samochod= Mercedes-Benz model: CLK-Class', color='#36937c', VIN='1G6AE5SX6D0613116', rocznik='2005', cena =93260.59 euro, 
+data_zakupu=2020-02-13 
+Lokalizacja:  Mainz w Germany, 
+
+Transakcja numer: 341! 
+Kupujący= Kathy Lount, email='klount9g@sakura.ne.jp', ip='71.81.245.90', 
+samochod= Mercedes-Benz model: E-Class', color='#b5bdc8', VIN='WAUFFAFL0FA626387', rocznik='1993', cena =42460.73 euro, 
+data_zakupu=2020-12-23 
+Lokalizacja:  Horka nad Moravou w Czech Republic, 
+
+Transakcja numer: 356! 
+Kupujący= Kariotta Gittens, email='kgittens9v@people.com.cn', ip='1.240.115.76', 
+samochod= Mercedes-Benz model: R-Class', color='#d3005a', VIN='4T3BA3BB4DU468000', rocznik='2011', cena =69554.95 euro, 
+data_zakupu=2020-02-26 
+Lokalizacja:  Stryków w Poland, 
+
+Transakcja numer: 362! 
+Kupujący= Maxie Riccardini, email='mriccardinia1@alexa.com', ip='238.58.249.186', 
+samochod= Mercedes-Benz model: W201', color='#7da7af', VIN='1N6AA0CAXCN717418', rocznik='1985', cena =93000.95 euro, 
+data_zakupu=2020-02-09 
+Lokalizacja:  Otaslavice w Czech Republic, 
+
+Transakcja numer: 371! 
+Kupujący= Florella Faivre, email='ffaivreaa@taobao.com', ip='220.249.190.204', 
+samochod= Mercedes-Benz model: SL-Class', color='#8f4944', VIN='WBAAZ33475K024301', rocznik='1999', cena =16464.10 euro, 
+data_zakupu=2020-02-14 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 425! 
+Kupujący= Elfrieda Poznan, email='epoznanbs@microsoft.com', ip='65.53.105.127', 
+samochod= Mercedes-Benz model: S-Class', color='#16c4ce', VIN='WAUEH94F46N957726', rocznik='2006', cena =63444.94 euro, 
+data_zakupu=2020-09-27 
+Lokalizacja:  Cielądz w Poland, 
+
+Transakcja numer: 436! 
+Kupujący= Loralee Gammell, email='lgammellc3@canalblog.com', ip='108.77.9.62', 
+samochod= Mercedes-Benz model: 300E', color='#bfc2d7', VIN='19VDE1F72DE536824', rocznik='1992', cena =69282.52 euro, 
+data_zakupu=2020-07-29 
+Lokalizacja:  Imielin w Poland, 
+
+Transakcja numer: 480! 
+Kupujący= Paulie Allso, email='pallsodb@naver.com', ip='11.169.68.80', 
+samochod= Mercedes-Benz model: SLK-Class', color='#49e867', VIN='1GYS3CEF4ER538647', rocznik='2002', cena =66904.75 euro, 
+data_zakupu=2020-09-22 
+Lokalizacja:  Łapsze Niżne w Poland, 
+
+Transakcja numer: 543! 
+Kupujący= Daryle Eul, email='deulf2@technorati.com', ip='100.29.120.198', 
+samochod= Mercedes-Benz model: R-Class', color='#1c2cb0', VIN='2D4RN3D18AR025963', rocznik='2008', cena =40634.21 euro, 
+data_zakupu=2020-08-17 
+Lokalizacja:  Pecna w Poland, 
+
+Transakcja numer: 608! 
+Kupujący= Niki Ramshay, email='nramshaygv@buzzfeed.com', ip='202.36.11.136', 
+samochod= Mercedes-Benz model: R-Class', color='#2f46a1', VIN='JTMHY7AJ8E4324454', rocznik='2006', cena =19967.40 euro, 
+data_zakupu=2020-06-10 
+Lokalizacja:  Sviadnov w Czech Republic, 
+
+Transakcja numer: 611! 
+Kupujący= Don Nuemann, email='dnuemanngy@rediff.com', ip='208.98.91.86', 
+samochod= Mercedes-Benz model: S-Class', color='#3c0bc2', VIN='1G4HP52KX4U461274', rocznik='2008', cena =80139.84 euro, 
+data_zakupu=2020-10-03 
+Lokalizacja:  Hamburg w Germany, 
+
+Transakcja numer: 635! 
+Kupujący= Helli Atchly, email='hatchlyhm@hatena.ne.jp', ip='132.170.78.198', 
+samochod= Mercedes-Benz model: SLK-Class', color='#d965a1', VIN='2HNYD18293H884663', rocznik='2011', cena =69094.53 euro, 
+data_zakupu=2020-05-30 
+Lokalizacja:  Kabaty w Poland, 
+
+Transakcja numer: 656! 
+Kupujący= Clyve Hart, email='charti7@rediff.com', ip='2.166.229.34', 
+samochod= Mercedes-Benz model: SLR McLaren', color='#42cc46', VIN='TRURD28N461598920', rocznik='2007', cena =98123.27 euro, 
+data_zakupu=2020-07-26 
+Lokalizacja:  Drobin w Poland, 
+
+Transakcja numer: 659! 
+Kupujący= Doloritas Finker, email='dfinkeria@unicef.org', ip='117.203.210.120', 
+samochod= Mercedes-Benz model: CL65 AMG', color='#1b0751', VIN='SCBLE47K88C474045', rocznik='2009', cena =59195.01 euro, 
+data_zakupu=2020-08-30 
+Lokalizacja:  Wierzchosławice w Poland, 
+
+Transakcja numer: 680! 
+Kupujący= Waylin Sofe, email='wsofeiv@berkeley.edu', ip='62.163.35.64', 
+samochod= Mercedes-Benz model: G-Class', color='#417bbe', VIN='YV4902DZ0B2091187', rocznik='2012', cena =30421.46 euro, 
+data_zakupu=2020-12-27 
+Lokalizacja:  Lípa w Czech Republic, 
+
+Transakcja numer: 710! 
+Kupujący= Liuka Gronno, email='lgronnojp@clickbank.net', ip='24.237.139.160', 
+samochod= Mercedes-Benz model: SLK-Class', color='#63b385', VIN='5N1AN0NU5DN788618', rocznik='2008', cena =17927.78 euro, 
+data_zakupu=2020-01-11 
+Lokalizacja:  Nowa Góra w Poland, 
+
+Transakcja numer: 729! 
+Kupujący= Tierney Bullent, email='tbullentk8@ibm.com', ip='8.8.111.155', 
+samochod= Mercedes-Benz model: M-Class', color='#f2bd67', VIN='1C4AJWAG0FL779908', rocznik='2010', cena =76751.56 euro, 
+data_zakupu=2020-01-06 
+Lokalizacja:  Kamieniec Wrocławski w Poland, 
+
+Transakcja numer: 733! 
+Kupujący= Gaylord Dosedale, email='gdosedalekc@hugedomains.com', ip='202.25.221.17', 
+samochod= Mercedes-Benz model: SL-Class', color='#2b1164', VIN='1C3CCBAG0EN919801', rocznik='2009', cena =81517.63 euro, 
+data_zakupu=2020-03-04 
+Lokalizacja:  Višňova w Czech Republic, 
+
+Transakcja numer: 740! 
+Kupujący= Philippine Newman, email='pnewmankj@github.io', ip='32.160.93.106', 
+samochod= Mercedes-Benz model: S-Class', color='#734857', VIN='2HNYD288X8H248397', rocznik='1989', cena =32875.67 euro, 
+data_zakupu=2020-02-11 
+Lokalizacja:  Vyškov w Czech Republic, 
+
+Transakcja numer: 781! 
+Kupujący= Kerry Eaddy, email='keaddylo@livejournal.com', ip='179.65.199.129', 
+samochod= Mercedes-Benz model: SL-Class', color='#a3be82', VIN='1FTEW1CFXFK468130', rocznik='1994', cena =4799.02 euro, 
+data_zakupu=2020-12-28 
+Lokalizacja:  Zielona Góra w Poland, 
+
+Transakcja numer: 785! 
+Kupujący= Elton MacLaughlin, email='emaclaughlinls@feedburner.com', ip='63.57.95.167', 
+samochod= Mercedes-Benz model: C-Class', color='#d981fa', VIN='WVGAV7AX9FW335673', rocznik='1999', cena =87503.18 euro, 
+data_zakupu=2020-04-15 
+Lokalizacja:  Petrov w Czech Republic, 
+
+Transakcja numer: 796! 
+Kupujący= Florence Shepton, email='fsheptonm3@mapy.cz', ip='4.65.18.55', 
+samochod= Mercedes-Benz model: CL-Class', color='#772c62', VIN='1GD422CG5EF564985', rocznik='2006', cena =77944.64 euro, 
+data_zakupu=2020-03-10 
+Lokalizacja:  Bludov w Czech Republic, 
+
+Transakcja numer: 805! 
+Kupujący= Darline Yakobowitz, email='dyakobowitzmc@etsy.com', ip='187.112.158.190', 
+samochod= Mercedes-Benz model: E-Class', color='#59c853', VIN='JN8AS1MU1AM533426', rocznik='1996', cena =54876.31 euro, 
+data_zakupu=2020-05-04 
+Lokalizacja:  Předměřice nad Labem w Czech Republic, 
+
+Transakcja numer: 811! 
+Kupujący= Radcliffe Petit, email='rpetitmi@bloglovin.com', ip='183.151.43.158', 
+samochod= Mercedes-Benz model: SL-Class', color='#f56d72', VIN='5N1BA0NE5FN170324', rocznik='2003', cena =66284.37 euro, 
+data_zakupu=2020-12-11 
+Lokalizacja:  Sędziejowice w Poland, 
+
+Transakcja numer: 819! 
+Kupujący= Babette Brayshaw, email='bbrayshawmq@tamu.edu', ip='252.133.3.111', 
+samochod= Mercedes-Benz model: SLS AMG', color='#4b9540', VIN='3D73Y3CL4BG766346', rocznik='2011', cena =79588.99 euro, 
+data_zakupu=2020-01-03 
+Lokalizacja:  Líně w Czech Republic, 
+
+Transakcja numer: 861! 
+Kupujący= Bob Allbrook, email='ballbrooknw@princeton.edu', ip='6.79.11.37', 
+samochod= Mercedes-Benz model: W201', color='#792007', VIN='3TMJU4GN3EM074082', rocznik='1992', cena =86538.44 euro, 
+data_zakupu=2020-03-19 
+Lokalizacja:  Potęgowo w Poland, 
+
+Transakcja numer: 877! 
+Kupujący= Alfy Nevill, email='anevilloc@mapy.cz', ip='147.243.148.87', 
+samochod= Mercedes-Benz model: SL-Class', color='#b668c9', VIN='1N6AD0CUXCN912310', rocznik='2012', cena =97767.71 euro, 
+data_zakupu=2020-04-05 
+Lokalizacja:  Komorów w Poland, 
+
+Transakcja numer: 901! 
+Kupujący= Ashlee Dismore, email='adismorep0@va.gov', ip='74.86.153.49', 
+samochod= Mercedes-Benz model: W123', color='#c2b7fe', VIN='2G4WC582561030950', rocznik='1977', cena =44748.84 euro, 
+data_zakupu=2020-01-18 
+Lokalizacja:  Berlin w Germany, 
+
+Transakcja numer: 906! 
+Kupujący= Heinrik Fewkes, email='hfewkesp5@zdnet.com', ip='255.212.54.62', 
+samochod= Mercedes-Benz model: E-Class', color='#a0ffbe', VIN='JTJBM7FX7A5973887', rocznik='1992', cena =31371.77 euro, 
+data_zakupu=2020-09-07 
+Lokalizacja:  København w Denmark, 
+
+Transakcja numer: 924! 
+Kupujący= Evelin Trustram, email='etrustrampn@berkeley.edu', ip='124.231.224.23', 
+samochod= Mercedes-Benz model: E-Class', color='#255d32', VIN='2C3CDXHG4CH218846', rocznik='1985', cena =20801.29 euro, 
+data_zakupu=2020-10-05 
+Lokalizacja:  Kołbiel w Poland, 
+
+Transakcja numer: 945! 
+Kupujący= Abe Mc Comb, email='amccombq8@chron.com', ip='161.32.18.178', 
+samochod= Mercedes-Benz model: C-Class', color='#881729', VIN='19VDE1F77FE872469', rocznik='2007', cena =44998.76 euro, 
+data_zakupu=2020-11-08 
+Lokalizacja:  Olsztynek w Poland, 
+
+Transakcja numer: 951! 
+Kupujący= Christy Merton, email='cmertonqe@oaic.gov.au', ip='93.202.134.73', 
+samochod= Mercedes-Benz model: 300TE', color='#325ec1', VIN='WBA3G7C5XEK034559', rocznik='1992', cena =58487.99 euro, 
+data_zakupu=2020-05-15 
+Lokalizacja:  Klenica w Poland, 
+
+Transakcja numer: 970! 
+Kupujący= Denney Meechan, email='dmeechanqx@icq.com', ip='191.96.132.126', 
+samochod= Mercedes-Benz model: SLK-Class', color='#51aa42', VIN='1N6AF0KY8EN499949', rocznik='2002', cena =93702.98 euro, 
+data_zakupu=2020-07-03 
+Lokalizacja:  Frederiksberg w Denmark, 
+
+Transakcja numer: 987! 
+Kupujący= Barnie Skentelbery, email='bskentelberyre@chicagotribune.com', ip='74.49.83.211', 
+samochod= Mercedes-Benz model: SL-Class', color='#bb2d06', VIN='WBAFB33461L281058', rocznik='2011', cena =18686.72 euro, 
+data_zakupu=2020-05-21 
+Lokalizacja:  Opatów w Poland, 
+
+Transakcja numer: 992! 
+Kupujący= Moreen Darley, email='mdarleyrj@skyrock.com', ip='123.209.151.121', 
+samochod= Mercedes-Benz model: E-Class', color='#334a1b', VIN='WAUHFAFL5DA539459', rocznik='2002', cena =38456.38 euro, 
+data_zakupu=2020-07-18 
+Lokalizacja:  Strachówka w Poland]
