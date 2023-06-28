@@ -4,11 +4,13 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -28,22 +30,85 @@ public class Main {
 //        recordToFileRaportDependingOnTheCompany(purchases);
 
         // wydruk posortowanej listy nazwy Producenta i wielkoci pliku z transakcjami
-        printFileNameAndFileSize();
+//        printFileNameAndFileSize();
 
+        // ZADANIE 3
+//        createNewFileWithRaport(purchases);
 
-//        BigDecimal zero = BigDecimal.ZERO;
-//        List<BigDecimal> nissan = purchases.stream()
-//                .filter(pur -> pur.getSamochod().getCar_company().equals("Nissan"))
-//                .map(purchase -> purchase.getSamochod().getPrice())
-//                .collect(Collectors.toList());
-//        for (BigDecimal bigDecimal : nissan) {
-//            zero = zero.add(bigDecimal);
-//        }
-//        System.out.println(nissan);
-//        System.out.println(zero);
+        String model = "TL";
+        checkAmountOfSelledModel(purchases, model);
 
+        // ZADANIE 4
+
+        createNewFileWithRaportForExe4(purchases);
+    }
+
+    private static void createNewFileWithRaportForExe4(List<Purchase> purchases) {
+        List<String> raport1 = madeRaportDailySellingCars_Exe_4a(purchases);
+        List<String> raport2 = madeRaportDailySellingCars_Exe_4b(purchases);
+
+        Path pathOnNewFilesZad4a = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar1.txt");
+        Path pathOnNewFilesZad4b = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar2.txt");
+        universalMethodToWriteDataToFileFromList(raport1, pathOnNewFilesZad4a);
+        universalMethodToWriteDataToFileFromList(raport2, pathOnNewFilesZad4b);
 
     }
+
+    private static List<String> madeRaportDailySellingCars_Exe_4b(List<Purchase> purchases) {
+        TreeMap<LocalDate, BigDecimal> map = purchases.stream().collect(Collectors.toMap(
+                Purchase::getData_zakupu,
+                value -> BigDecimal.ONE,
+                BigDecimal::add,
+                TreeMap::new
+        ));
+        ArrayList<Map.Entry<LocalDate, BigDecimal>> entryArrayList = new ArrayList<>(map.entrySet());
+        entryArrayList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+
+
+        return entryArrayList.stream()
+                .map(entry -> "W dniu: " + entry.getKey() + " sprzedano: " + entry.getValue() + " aut." )
+                .collect(Collectors.toList());
+    }
+
+    private static List<String> madeRaportDailySellingCars_Exe_4a(List<Purchase> purchases) {
+        TreeMap<LocalDate, BigDecimal> collect = purchases.stream().collect(Collectors.toMap(
+                Purchase::getData_zakupu,
+                value -> BigDecimal.ONE,
+                BigDecimal::add,
+                TreeMap::new
+        ));
+
+        return collect.entrySet().stream()
+                .map(entry -> "W dniu: " + entry.getKey() + " sprzedano: " + entry.getValue() + " aut.")
+                .collect(Collectors.toList());
+    }
+
+
+    private static void createNewFileWithRaport(List<Purchase> purchases) {
+        List<String> raportAboutAveragePriceDependentOnCarsModel = madeRaportAboutAveragePriceDependentOnCarsModel(purchases);
+
+        Path pathOnNewFilesZad3 = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_3_pliki/RaportOfAveragePrice.txt");
+
+        universalMethodToWriteDataToFileFromList(raportAboutAveragePriceDependentOnCarsModel, pathOnNewFilesZad3);
+    }
+
+    private static List<String> madeRaportAboutAveragePriceDependentOnCarsModel(List<Purchase> purchases) {
+        TreeMap<String, List<BigDecimal>> stringListTreeMap = purchases.stream().collect(Collectors.toMap(
+                key -> "" + key.getSamochod().getCar_company() + " " + key.getSamochod().getCar_model(),
+                value -> List.of(value.getSamochod().getPrice(), BigDecimal.ONE),
+                (left, right) -> List.of(left.get(0).add(right.get(0)), left.get(1).add(BigDecimal.ONE)),
+                TreeMap::new
+        ));
+        return stringListTreeMap.entrySet().stream()
+                .map(entry -> "Samochd: " + entry.getKey() + ", sprzedano: " + entry.getValue().get(1)
+                        + " szt., gdzie średnia cena to: " + averagePriceOfModel(entry) + " Euro.")
+                .collect(Collectors.toList());
+    }
+
+    private static BigDecimal averagePriceOfModel(Map.Entry<String, List<BigDecimal>> entry) {
+        return entry.getValue().get(0).divide(entry.getValue().get(1), 2, RoundingMode.HALF_UP);
+    }
+
 
     private static void printFileNameAndFileSize() {
         Path pathOnFiles = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki");
@@ -65,7 +130,7 @@ public class Main {
             ));
 
             for (Map.Entry<Long, List<String>> longListEntry : collect.entrySet()) {
-                System.out.println(longListEntry.getKey()+",  "+longListEntry.getValue());
+                System.out.println(longListEntry.getKey() + ",  " + longListEntry.getValue());
             }
             System.out.println(collect);
 
@@ -161,5 +226,38 @@ public class Main {
                 )
         );
 
+    }
+
+    private static void checkAmountOfSelledModel(List<Purchase> purchases, String model) {
+        AtomicInteger atomicInteger = new AtomicInteger(0);
+        List<BigDecimal> decimalList = new ArrayList<>();
+        decimalList.add(BigDecimal.ZERO);
+        purchases.stream()
+                .filter(purchase -> model.equals(purchase.getSamochod().getCar_model()))
+                .forEach(purchase -> {
+                            atomicInteger.addAndGet(1);
+                            decimalList.add(purchase.getSamochod().getPrice());
+                            System.out.println(purchase.getSamochod().getPrice());
+                        }
+                );
+        BigDecimal decimal = BigDecimal.ZERO;
+        for (BigDecimal bigDecimal : decimalList) {
+            decimal = decimal.add(bigDecimal);
+        }
+        BigDecimal averagePrice = decimal.divide(BigDecimal.valueOf(atomicInteger.longValue()), 2, RoundingMode.HALF_UP);
+        System.out.println("Model: \"" + model + "\" został sprzedany: " + atomicInteger + " razy, średnia cena to: " + averagePrice);
+    }
+
+    private static void universalMethodToWriteDataToFileFromList(List<String> raportAboutAveragePriceDependentOnCarsModel, Path pathOnNewFilesZad4a) {
+        try (BufferedWriter writer = Files.newBufferedWriter(pathOnNewFilesZad4a)) {
+            int id = 1;
+            for (String s : raportAboutAveragePriceDependentOnCarsModel) {
+                writer.write(id + ". " + s);
+                writer.newLine();
+                id++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

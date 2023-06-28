@@ -1,0 +1,513 @@
+1. Samochd: Acura CL, sprzedano: 1 szt., gdzie średnia cena to: 82961.35 Euro.
+2. Samochd: Acura Integra, sprzedano: 1 szt., gdzie średnia cena to: 24435.25 Euro.
+3. Samochd: Acura NSX, sprzedano: 2 szt., gdzie średnia cena to: 61847.47 Euro.
+4. Samochd: Acura RDX, sprzedano: 1 szt., gdzie średnia cena to: 64467.57 Euro.
+5. Samochd: Acura RL, sprzedano: 2 szt., gdzie średnia cena to: 53598.89 Euro.
+6. Samochd: Acura TL, sprzedano: 3 szt., gdzie średnia cena to: 58218.04 Euro.
+7. Samochd: Acura ZDX, sprzedano: 1 szt., gdzie średnia cena to: 74967.68 Euro.
+8. Samochd: Aptera Typ-1, sprzedano: 1 szt., gdzie średnia cena to: 24570.34 Euro.
+9. Samochd: Aston Martin DB9, sprzedano: 2 szt., gdzie średnia cena to: 12360.74 Euro.
+10. Samochd: Aston Martin DBS, sprzedano: 1 szt., gdzie średnia cena to: 72356.01 Euro.
+11. Samochd: Audi 5000S, sprzedano: 1 szt., gdzie średnia cena to: 62830.11 Euro.
+12. Samochd: Audi A3, sprzedano: 6 szt., gdzie średnia cena to: 30444.75 Euro.
+13. Samochd: Audi A4, sprzedano: 2 szt., gdzie średnia cena to: 52819.73 Euro.
+14. Samochd: Audi A6, sprzedano: 2 szt., gdzie średnia cena to: 12696.50 Euro.
+15. Samochd: Audi A8, sprzedano: 4 szt., gdzie średnia cena to: 28415.30 Euro.
+16. Samochd: Audi Coupe GT, sprzedano: 1 szt., gdzie średnia cena to: 19044.06 Euro.
+17. Samochd: Audi Q7, sprzedano: 1 szt., gdzie średnia cena to: 4808.26 Euro.
+18. Samochd: Audi Quattro, sprzedano: 1 szt., gdzie średnia cena to: 49492.18 Euro.
+19. Samochd: Audi S4, sprzedano: 3 szt., gdzie średnia cena to: 74608.07 Euro.
+20. Samochd: Audi S8, sprzedano: 1 szt., gdzie średnia cena to: 17758.68 Euro.
+21. Samochd: Audi TT, sprzedano: 1 szt., gdzie średnia cena to: 66745.47 Euro.
+22. Samochd: Audi V8, sprzedano: 1 szt., gdzie średnia cena to: 94151.66 Euro.
+23. Samochd: Austin Mini Cooper, sprzedano: 1 szt., gdzie średnia cena to: 11178.82 Euro.
+24. Samochd: Austin Mini Cooper S, sprzedano: 1 szt., gdzie średnia cena to: 98795.19 Euro.
+25. Samochd: BMW 1 Series, sprzedano: 1 szt., gdzie średnia cena to: 59998.39 Euro.
+26. Samochd: BMW 3 Series, sprzedano: 2 szt., gdzie średnia cena to: 25209.61 Euro.
+27. Samochd: BMW 330, sprzedano: 1 szt., gdzie średnia cena to: 3362.42 Euro.
+28. Samochd: BMW 5 Series, sprzedano: 4 szt., gdzie średnia cena to: 30331.36 Euro.
+29. Samochd: BMW 530, sprzedano: 2 szt., gdzie średnia cena to: 52027.50 Euro.
+30. Samochd: BMW 545, sprzedano: 1 szt., gdzie średnia cena to: 62614.35 Euro.
+31. Samochd: BMW 6 Series, sprzedano: 2 szt., gdzie średnia cena to: 68700.38 Euro.
+32. Samochd: BMW 600, sprzedano: 1 szt., gdzie średnia cena to: 72427.80 Euro.
+33. Samochd: BMW 7 Series, sprzedano: 3 szt., gdzie średnia cena to: 56916.01 Euro.
+34. Samochd: BMW 760, sprzedano: 2 szt., gdzie średnia cena to: 64420.39 Euro.
+35. Samochd: BMW 8 Series, sprzedano: 1 szt., gdzie średnia cena to: 36491.19 Euro.
+36. Samochd: BMW Alpina B7, sprzedano: 2 szt., gdzie średnia cena to: 52180.50 Euro.
+37. Samochd: BMW M, sprzedano: 1 szt., gdzie średnia cena to: 70022.09 Euro.
+38. Samochd: BMW M3, sprzedano: 6 szt., gdzie średnia cena to: 42692.66 Euro.
+39. Samochd: BMW M5, sprzedano: 2 szt., gdzie średnia cena to: 58268.78 Euro.
+40. Samochd: BMW X5, sprzedano: 4 szt., gdzie średnia cena to: 39080.49 Euro.
+41. Samochd: BMW X5 M, sprzedano: 1 szt., gdzie średnia cena to: 74527.00 Euro.
+42. Samochd: BMW X6, sprzedano: 2 szt., gdzie średnia cena to: 70621.04 Euro.
+43. Samochd: BMW Z4, sprzedano: 2 szt., gdzie średnia cena to: 60693.28 Euro.
+44. Samochd: Bentley Azure, sprzedano: 1 szt., gdzie średnia cena to: 16032.57 Euro.
+45. Samochd: Bentley Continental, sprzedano: 1 szt., gdzie średnia cena to: 57996.64 Euro.
+46. Samochd: Bentley Continental Flying Spur, sprzedano: 1 szt., gdzie średnia cena to: 4558.80 Euro.
+47. Samochd: Bentley Continental GTC, sprzedano: 1 szt., gdzie średnia cena to: 46403.57 Euro.
+48. Samochd: Bentley Continental Super, sprzedano: 1 szt., gdzie średnia cena to: 95732.27 Euro.
+49. Samochd: Bentley Mulsanne, sprzedano: 1 szt., gdzie średnia cena to: 44587.82 Euro.
+50. Samochd: Buick Century, sprzedano: 2 szt., gdzie średnia cena to: 15429.60 Euro.
+51. Samochd: Buick Coachbuilder, sprzedano: 2 szt., gdzie średnia cena to: 77371.88 Euro.
+52. Samochd: Buick Estate, sprzedano: 1 szt., gdzie średnia cena to: 81302.51 Euro.
+53. Samochd: Buick LaCrosse, sprzedano: 2 szt., gdzie średnia cena to: 72117.76 Euro.
+54. Samochd: Buick LeSabre, sprzedano: 2 szt., gdzie średnia cena to: 11736.40 Euro.
+55. Samochd: Buick Lucerne, sprzedano: 1 szt., gdzie średnia cena to: 2848.09 Euro.
+56. Samochd: Buick Park Avenue, sprzedano: 3 szt., gdzie średnia cena to: 47476.94 Euro.
+57. Samochd: Buick Rainier, sprzedano: 1 szt., gdzie średnia cena to: 80773.22 Euro.
+58. Samochd: Buick Regal, sprzedano: 2 szt., gdzie średnia cena to: 68515.25 Euro.
+59. Samochd: Buick Rendezvous, sprzedano: 2 szt., gdzie średnia cena to: 60979.48 Euro.
+60. Samochd: Buick Riviera, sprzedano: 2 szt., gdzie średnia cena to: 44679.36 Euro.
+61. Samochd: Buick Roadmaster, sprzedano: 3 szt., gdzie średnia cena to: 51315.28 Euro.
+62. Samochd: Buick Skyhawk, sprzedano: 1 szt., gdzie średnia cena to: 13632.45 Euro.
+63. Samochd: Buick Skylark, sprzedano: 1 szt., gdzie średnia cena to: 96346.01 Euro.
+64. Samochd: Cadillac CTS, sprzedano: 2 szt., gdzie średnia cena to: 55005.05 Euro.
+65. Samochd: Cadillac CTS-V, sprzedano: 2 szt., gdzie średnia cena to: 32070.04 Euro.
+66. Samochd: Cadillac DeVille, sprzedano: 2 szt., gdzie średnia cena to: 36474.73 Euro.
+67. Samochd: Cadillac Eldorado, sprzedano: 2 szt., gdzie średnia cena to: 35842.00 Euro.
+68. Samochd: Cadillac Escalade, sprzedano: 2 szt., gdzie średnia cena to: 38625.55 Euro.
+69. Samochd: Cadillac Escalade ESV, sprzedano: 2 szt., gdzie średnia cena to: 47640.03 Euro.
+70. Samochd: Cadillac Escalade EXT, sprzedano: 3 szt., gdzie średnia cena to: 61311.69 Euro.
+71. Samochd: Cadillac Fleetwood, sprzedano: 1 szt., gdzie średnia cena to: 97896.49 Euro.
+72. Samochd: Cadillac SRX, sprzedano: 2 szt., gdzie średnia cena to: 42435.24 Euro.
+73. Samochd: Cadillac Seville, sprzedano: 3 szt., gdzie średnia cena to: 34221.72 Euro.
+74. Samochd: Chevrolet 1500, sprzedano: 2 szt., gdzie średnia cena to: 55351.94 Euro.
+75. Samochd: Chevrolet 2500, sprzedano: 2 szt., gdzie średnia cena to: 36915.59 Euro.
+76. Samochd: Chevrolet 3500, sprzedano: 1 szt., gdzie średnia cena to: 80037.02 Euro.
+77. Samochd: Chevrolet Avalanche 1500, sprzedano: 2 szt., gdzie średnia cena to: 49791.30 Euro.
+78. Samochd: Chevrolet Aveo, sprzedano: 1 szt., gdzie średnia cena to: 54181.97 Euro.
+79. Samochd: Chevrolet Camaro, sprzedano: 1 szt., gdzie średnia cena to: 69624.54 Euro.
+80. Samochd: Chevrolet Caprice, sprzedano: 2 szt., gdzie średnia cena to: 13506.45 Euro.
+81. Samochd: Chevrolet Caprice Classic, sprzedano: 1 szt., gdzie średnia cena to: 73905.56 Euro.
+82. Samochd: Chevrolet Cavalier, sprzedano: 3 szt., gdzie średnia cena to: 51423.39 Euro.
+83. Samochd: Chevrolet Cobalt, sprzedano: 1 szt., gdzie średnia cena to: 67487.58 Euro.
+84. Samochd: Chevrolet Cobalt SS, sprzedano: 1 szt., gdzie średnia cena to: 68941.55 Euro.
+85. Samochd: Chevrolet Colorado, sprzedano: 2 szt., gdzie średnia cena to: 34649.48 Euro.
+86. Samochd: Chevrolet Corvette, sprzedano: 7 szt., gdzie średnia cena to: 31658.70 Euro.
+87. Samochd: Chevrolet Equinox, sprzedano: 1 szt., gdzie średnia cena to: 52849.21 Euro.
+88. Samochd: Chevrolet Express, sprzedano: 1 szt., gdzie średnia cena to: 74983.39 Euro.
+89. Samochd: Chevrolet Express 1500, sprzedano: 2 szt., gdzie średnia cena to: 20331.56 Euro.
+90. Samochd: Chevrolet Express 2500, sprzedano: 2 szt., gdzie średnia cena to: 41362.38 Euro.
+91. Samochd: Chevrolet Express 3500, sprzedano: 4 szt., gdzie średnia cena to: 57712.50 Euro.
+92. Samochd: Chevrolet G-Series G10, sprzedano: 2 szt., gdzie średnia cena to: 81369.28 Euro.
+93. Samochd: Chevrolet G-Series G20, sprzedano: 3 szt., gdzie średnia cena to: 55204.46 Euro.
+94. Samochd: Chevrolet HHR, sprzedano: 3 szt., gdzie średnia cena to: 31663.47 Euro.
+95. Samochd: Chevrolet Impala, sprzedano: 2 szt., gdzie średnia cena to: 42254.03 Euro.
+96. Samochd: Chevrolet Lumina, sprzedano: 2 szt., gdzie średnia cena to: 40238.98 Euro.
+97. Samochd: Chevrolet Malibu, sprzedano: 2 szt., gdzie średnia cena to: 44671.39 Euro.
+98. Samochd: Chevrolet Metro, sprzedano: 2 szt., gdzie średnia cena to: 85396.15 Euro.
+99. Samochd: Chevrolet Monte Carlo, sprzedano: 1 szt., gdzie średnia cena to: 66959.46 Euro.
+100. Samochd: Chevrolet S10, sprzedano: 1 szt., gdzie średnia cena to: 72424.96 Euro.
+101. Samochd: Chevrolet SSR, sprzedano: 1 szt., gdzie średnia cena to: 47507.31 Euro.
+102. Samochd: Chevrolet Silverado 2500, sprzedano: 4 szt., gdzie średnia cena to: 66028.31 Euro.
+103. Samochd: Chevrolet Silverado 3500, sprzedano: 1 szt., gdzie średnia cena to: 40912.28 Euro.
+104. Samochd: Chevrolet Sportvan G20, sprzedano: 1 szt., gdzie średnia cena to: 46420.20 Euro.
+105. Samochd: Chevrolet Sportvan G30, sprzedano: 3 szt., gdzie średnia cena to: 69505.22 Euro.
+106. Samochd: Chevrolet Suburban 1500, sprzedano: 1 szt., gdzie średnia cena to: 65723.19 Euro.
+107. Samochd: Chevrolet Suburban 2500, sprzedano: 4 szt., gdzie średnia cena to: 52548.65 Euro.
+108. Samochd: Chevrolet Tahoe, sprzedano: 1 szt., gdzie średnia cena to: 48509.46 Euro.
+109. Samochd: Chevrolet Tracker, sprzedano: 1 szt., gdzie średnia cena to: 72207.02 Euro.
+110. Samochd: Chevrolet TrailBlazer, sprzedano: 2 szt., gdzie średnia cena to: 44096.10 Euro.
+111. Samochd: Chevrolet Venture, sprzedano: 1 szt., gdzie średnia cena to: 61806.78 Euro.
+112. Samochd: Chrysler 300, sprzedano: 1 szt., gdzie średnia cena to: 91386.40 Euro.
+113. Samochd: Chrysler 300M, sprzedano: 2 szt., gdzie średnia cena to: 50595.13 Euro.
+114. Samochd: Chrysler Aspen, sprzedano: 1 szt., gdzie średnia cena to: 43763.08 Euro.
+115. Samochd: Chrysler Cirrus, sprzedano: 1 szt., gdzie średnia cena to: 52197.41 Euro.
+116. Samochd: Chrysler Concorde, sprzedano: 5 szt., gdzie średnia cena to: 35155.30 Euro.
+117. Samochd: Chrysler New Yorker, sprzedano: 1 szt., gdzie średnia cena to: 639.91 Euro.
+118. Samochd: Chrysler PT Cruiser, sprzedano: 3 szt., gdzie średnia cena to: 62201.01 Euro.
+119. Samochd: Chrysler Sebring, sprzedano: 2 szt., gdzie średnia cena to: 91316.41 Euro.
+120. Samochd: Chrysler Town & Country, sprzedano: 2 szt., gdzie średnia cena to: 49787.57 Euro.
+121. Samochd: Chrysler Voyager, sprzedano: 1 szt., gdzie średnia cena to: 22886.89 Euro.
+122. Samochd: Citroën 2CV, sprzedano: 1 szt., gdzie średnia cena to: 21373.33 Euro.
+123. Samochd: Corbin Sparrow, sprzedano: 1 szt., gdzie średnia cena to: 73545.83 Euro.
+124. Samochd: Daewoo Leganza, sprzedano: 1 szt., gdzie średnia cena to: 94984.18 Euro.
+125. Samochd: Dodge Avenger, sprzedano: 2 szt., gdzie średnia cena to: 50970.71 Euro.
+126. Samochd: Dodge Caravan, sprzedano: 3 szt., gdzie średnia cena to: 36938.07 Euro.
+127. Samochd: Dodge Charger, sprzedano: 3 szt., gdzie średnia cena to: 76910.88 Euro.
+128. Samochd: Dodge D150 Club, sprzedano: 1 szt., gdzie średnia cena to: 45687.25 Euro.
+129. Samochd: Dodge Dakota, sprzedano: 4 szt., gdzie średnia cena to: 81294.16 Euro.
+130. Samochd: Dodge Dakota Club, sprzedano: 3 szt., gdzie średnia cena to: 13560.29 Euro.
+131. Samochd: Dodge Daytona, sprzedano: 1 szt., gdzie średnia cena to: 65849.56 Euro.
+132. Samochd: Dodge Durango, sprzedano: 1 szt., gdzie średnia cena to: 45584.85 Euro.
+133. Samochd: Dodge Grand Caravan, sprzedano: 6 szt., gdzie średnia cena to: 38336.78 Euro.
+134. Samochd: Dodge Magnum, sprzedano: 1 szt., gdzie średnia cena to: 64382.28 Euro.
+135. Samochd: Dodge Neon, sprzedano: 2 szt., gdzie średnia cena to: 51312.46 Euro.
+136. Samochd: Dodge Ram 1500, sprzedano: 2 szt., gdzie średnia cena to: 97824.94 Euro.
+137. Samochd: Dodge Ram 2500, sprzedano: 1 szt., gdzie średnia cena to: 60999.32 Euro.
+138. Samochd: Dodge Ram 2500 Club, sprzedano: 2 szt., gdzie średnia cena to: 44568.78 Euro.
+139. Samochd: Dodge Ram 3500 Club, sprzedano: 1 szt., gdzie średnia cena to: 51816.43 Euro.
+140. Samochd: Dodge Ram Van 1500, sprzedano: 3 szt., gdzie średnia cena to: 23748.60 Euro.
+141. Samochd: Dodge Ram Van 2500, sprzedano: 2 szt., gdzie średnia cena to: 75736.61 Euro.
+142. Samochd: Dodge Ram Van B150, sprzedano: 1 szt., gdzie średnia cena to: 94292.51 Euro.
+143. Samochd: Dodge Ram Van B250, sprzedano: 1 szt., gdzie średnia cena to: 23476.59 Euro.
+144. Samochd: Dodge Ram Van B350, sprzedano: 2 szt., gdzie średnia cena to: 67422.63 Euro.
+145. Samochd: Dodge Ram Wagon B250, sprzedano: 2 szt., gdzie średnia cena to: 40716.78 Euro.
+146. Samochd: Dodge Ram Wagon B350, sprzedano: 1 szt., gdzie średnia cena to: 81464.86 Euro.
+147. Samochd: Dodge Spirit, sprzedano: 1 szt., gdzie średnia cena to: 62428.34 Euro.
+148. Samochd: Dodge Stratus, sprzedano: 4 szt., gdzie średnia cena to: 52345.73 Euro.
+149. Samochd: Dodge Viper, sprzedano: 1 szt., gdzie średnia cena to: 41325.74 Euro.
+150. Samochd: Dodge Viper RT/10, sprzedano: 1 szt., gdzie średnia cena to: 42522.73 Euro.
+151. Samochd: Eagle Talon, sprzedano: 1 szt., gdzie średnia cena to: 15778.36 Euro.
+152. Samochd: Eagle Vision, sprzedano: 3 szt., gdzie średnia cena to: 70650.33 Euro.
+153. Samochd: Fiat Nuova 500, sprzedano: 1 szt., gdzie średnia cena to: 66508.75 Euro.
+154. Samochd: Ford Aerostar, sprzedano: 4 szt., gdzie średnia cena to: 66587.07 Euro.
+155. Samochd: Ford Bronco, sprzedano: 2 szt., gdzie średnia cena to: 38713.68 Euro.
+156. Samochd: Ford Contour, sprzedano: 1 szt., gdzie średnia cena to: 48603.83 Euro.
+157. Samochd: Ford Crown Victoria, sprzedano: 4 szt., gdzie średnia cena to: 68736.15 Euro.
+158. Samochd: Ford E-Series, sprzedano: 3 szt., gdzie średnia cena to: 24541.08 Euro.
+159. Samochd: Ford E150, sprzedano: 3 szt., gdzie średnia cena to: 70611.65 Euro.
+160. Samochd: Ford E250, sprzedano: 1 szt., gdzie średnia cena to: 98725.52 Euro.
+161. Samochd: Ford Econoline E150, sprzedano: 2 szt., gdzie średnia cena to: 32563.81 Euro.
+162. Samochd: Ford Econoline E250, sprzedano: 2 szt., gdzie średnia cena to: 33190.68 Euro.
+163. Samochd: Ford Econoline E350, sprzedano: 2 szt., gdzie średnia cena to: 47165.28 Euro.
+164. Samochd: Ford Edge, sprzedano: 1 szt., gdzie średnia cena to: 23688.13 Euro.
+165. Samochd: Ford Escape, sprzedano: 5 szt., gdzie średnia cena to: 52400.51 Euro.
+166. Samochd: Ford Escort, sprzedano: 1 szt., gdzie średnia cena to: 34041.27 Euro.
+167. Samochd: Ford Excursion, sprzedano: 1 szt., gdzie średnia cena to: 73354.65 Euro.
+168. Samochd: Ford Expedition, sprzedano: 2 szt., gdzie średnia cena to: 75097.49 Euro.
+169. Samochd: Ford Explorer, sprzedano: 2 szt., gdzie średnia cena to: 58328.32 Euro.
+170. Samochd: Ford F-Series, sprzedano: 4 szt., gdzie średnia cena to: 58577.24 Euro.
+171. Samochd: Ford F-Series Super Duty, sprzedano: 2 szt., gdzie średnia cena to: 38252.92 Euro.
+172. Samochd: Ford F150, sprzedano: 2 szt., gdzie średnia cena to: 18794.04 Euro.
+173. Samochd: Ford F250, sprzedano: 4 szt., gdzie średnia cena to: 65510.32 Euro.
+174. Samochd: Ford F350, sprzedano: 4 szt., gdzie średnia cena to: 50059.01 Euro.
+175. Samochd: Ford F450, sprzedano: 1 szt., gdzie średnia cena to: 66244.66 Euro.
+176. Samochd: Ford Festiva, sprzedano: 1 szt., gdzie średnia cena to: 12769.30 Euro.
+177. Samochd: Ford Five Hundred, sprzedano: 1 szt., gdzie średnia cena to: 63582.71 Euro.
+178. Samochd: Ford Freestar, sprzedano: 1 szt., gdzie średnia cena to: 74898.80 Euro.
+179. Samochd: Ford Freestyle, sprzedano: 1 szt., gdzie średnia cena to: 85917.70 Euro.
+180. Samochd: Ford Fusion, sprzedano: 1 szt., gdzie średnia cena to: 84373.36 Euro.
+181. Samochd: Ford Galaxie, sprzedano: 1 szt., gdzie średnia cena to: 64097.32 Euro.
+182. Samochd: Ford Laser, sprzedano: 2 szt., gdzie średnia cena to: 72397.17 Euro.
+183. Samochd: Ford Mustang, sprzedano: 9 szt., gdzie średnia cena to: 50359.98 Euro.
+184. Samochd: Ford Probe, sprzedano: 2 szt., gdzie średnia cena to: 72607.29 Euro.
+185. Samochd: Ford Ranger, sprzedano: 2 szt., gdzie średnia cena to: 76490.49 Euro.
+186. Samochd: Ford Taurus, sprzedano: 5 szt., gdzie średnia cena to: 37937.50 Euro.
+187. Samochd: Ford Tempo, sprzedano: 4 szt., gdzie średnia cena to: 27841.50 Euro.
+188. Samochd: Ford Th!nk, sprzedano: 1 szt., gdzie średnia cena to: 82727.44 Euro.
+189. Samochd: Ford Thunderbird, sprzedano: 9 szt., gdzie średnia cena to: 44446.88 Euro.
+190. Samochd: Ford Transit Connect, sprzedano: 1 szt., gdzie średnia cena to: 99772.91 Euro.
+191. Samochd: Ford Windstar, sprzedano: 2 szt., gdzie średnia cena to: 43530.32 Euro.
+192. Samochd: GMC 1500, sprzedano: 2 szt., gdzie średnia cena to: 33566.67 Euro.
+193. Samochd: GMC 2500, sprzedano: 2 szt., gdzie średnia cena to: 30084.86 Euro.
+194. Samochd: GMC 2500 Club Coupe, sprzedano: 1 szt., gdzie średnia cena to: 45723.16 Euro.
+195. Samochd: GMC Envoy, sprzedano: 1 szt., gdzie średnia cena to: 58388.07 Euro.
+196. Samochd: GMC Jimmy, sprzedano: 2 szt., gdzie średnia cena to: 55800.43 Euro.
+197. Samochd: GMC Rally Wagon 3500, sprzedano: 1 szt., gdzie średnia cena to: 12368.59 Euro.
+198. Samochd: GMC Rally Wagon G3500, sprzedano: 1 szt., gdzie średnia cena to: 35595.63 Euro.
+199. Samochd: GMC Safari, sprzedano: 2 szt., gdzie średnia cena to: 56426.99 Euro.
+200. Samochd: GMC Savana, sprzedano: 1 szt., gdzie średnia cena to: 31054.78 Euro.
+201. Samochd: GMC Savana 1500, sprzedano: 1 szt., gdzie średnia cena to: 40340.91 Euro.
+202. Samochd: GMC Savana 2500, sprzedano: 3 szt., gdzie średnia cena to: 78570.98 Euro.
+203. Samochd: GMC Savana 3500, sprzedano: 2 szt., gdzie średnia cena to: 48813.54 Euro.
+204. Samochd: GMC Sierra, sprzedano: 1 szt., gdzie średnia cena to: 51743.05 Euro.
+205. Samochd: GMC Sierra 1500, sprzedano: 1 szt., gdzie średnia cena to: 56821.35 Euro.
+206. Samochd: GMC Sierra 2500HD, sprzedano: 1 szt., gdzie średnia cena to: 40112.71 Euro.
+207. Samochd: GMC Sierra 3500, sprzedano: 1 szt., gdzie średnia cena to: 53506.27 Euro.
+208. Samochd: GMC Sierra 3500HD, sprzedano: 2 szt., gdzie średnia cena to: 50305.11 Euro.
+209. Samochd: GMC Sierra Denali, sprzedano: 1 szt., gdzie średnia cena to: 98958.47 Euro.
+210. Samochd: GMC Suburban 1500, sprzedano: 2 szt., gdzie średnia cena to: 44515.49 Euro.
+211. Samochd: GMC Suburban 2500, sprzedano: 1 szt., gdzie średnia cena to: 84627.60 Euro.
+212. Samochd: GMC Yukon, sprzedano: 3 szt., gdzie średnia cena to: 50813.30 Euro.
+213. Samochd: GMC Yukon XL, sprzedano: 1 szt., gdzie średnia cena to: 11181.27 Euro.
+214. Samochd: GMC Yukon XL 1500, sprzedano: 1 szt., gdzie średnia cena to: 55144.44 Euro.
+215. Samochd: GMC Yukon XL 2500, sprzedano: 1 szt., gdzie średnia cena to: 69035.73 Euro.
+216. Samochd: Geo Metro, sprzedano: 2 szt., gdzie średnia cena to: 38388.19 Euro.
+217. Samochd: Honda Accord, sprzedano: 3 szt., gdzie średnia cena to: 70393.65 Euro.
+218. Samochd: Honda CR-V, sprzedano: 5 szt., gdzie średnia cena to: 47764.77 Euro.
+219. Samochd: Honda CR-X, sprzedano: 1 szt., gdzie średnia cena to: 30531.61 Euro.
+220. Samochd: Honda CR-Z, sprzedano: 2 szt., gdzie średnia cena to: 29907.54 Euro.
+221. Samochd: Honda Civic, sprzedano: 5 szt., gdzie średnia cena to: 60579.80 Euro.
+222. Samochd: Honda Element, sprzedano: 1 szt., gdzie średnia cena to: 76710.10 Euro.
+223. Samochd: Honda Fit, sprzedano: 2 szt., gdzie średnia cena to: 51534.78 Euro.
+224. Samochd: Honda Insight, sprzedano: 1 szt., gdzie średnia cena to: 62828.48 Euro.
+225. Samochd: Honda Odyssey, sprzedano: 3 szt., gdzie średnia cena to: 62767.96 Euro.
+226. Samochd: Honda Passport, sprzedano: 1 szt., gdzie średnia cena to: 68602.70 Euro.
+227. Samochd: Honda Pilot, sprzedano: 2 szt., gdzie średnia cena to: 40414.07 Euro.
+228. Samochd: Honda Prelude, sprzedano: 1 szt., gdzie średnia cena to: 99807.80 Euro.
+229. Samochd: Honda Ridgeline, sprzedano: 1 szt., gdzie średnia cena to: 56635.51 Euro.
+230. Samochd: Honda S2000, sprzedano: 1 szt., gdzie średnia cena to: 87946.88 Euro.
+231. Samochd: Honda del Sol, sprzedano: 1 szt., gdzie średnia cena to: 38137.21 Euro.
+232. Samochd: Hummer H1, sprzedano: 2 szt., gdzie średnia cena to: 50614.51 Euro.
+233. Samochd: Hummer H2, sprzedano: 1 szt., gdzie średnia cena to: 29204.91 Euro.
+234. Samochd: Hummer H3, sprzedano: 1 szt., gdzie średnia cena to: 13377.50 Euro.
+235. Samochd: Hyundai Accent, sprzedano: 3 szt., gdzie średnia cena to: 24414.07 Euro.
+236. Samochd: Hyundai Azera, sprzedano: 3 szt., gdzie średnia cena to: 15995.83 Euro.
+237. Samochd: Hyundai Elantra, sprzedano: 2 szt., gdzie średnia cena to: 50235.75 Euro.
+238. Samochd: Hyundai Genesis, sprzedano: 1 szt., gdzie średnia cena to: 1489.55 Euro.
+239. Samochd: Hyundai Genesis Coupe, sprzedano: 1 szt., gdzie średnia cena to: 16713.20 Euro.
+240. Samochd: Hyundai Santa Fe, sprzedano: 1 szt., gdzie średnia cena to: 38452.21 Euro.
+241. Samochd: Hyundai Scoupe, sprzedano: 1 szt., gdzie średnia cena to: 66626.90 Euro.
+242. Samochd: Hyundai Sonata, sprzedano: 5 szt., gdzie średnia cena to: 52611.10 Euro.
+243. Samochd: Hyundai Tiburon, sprzedano: 1 szt., gdzie średnia cena to: 64358.19 Euro.
+244. Samochd: Hyundai Tucson, sprzedano: 1 szt., gdzie średnia cena to: 96352.61 Euro.
+245. Samochd: Hyundai Veracruz, sprzedano: 2 szt., gdzie średnia cena to: 43679.31 Euro.
+246. Samochd: Infiniti EX, sprzedano: 1 szt., gdzie średnia cena to: 1044.88 Euro.
+247. Samochd: Infiniti FX, sprzedano: 3 szt., gdzie średnia cena to: 30829.72 Euro.
+248. Samochd: Infiniti G, sprzedano: 2 szt., gdzie średnia cena to: 53640.04 Euro.
+249. Samochd: Infiniti G35, sprzedano: 1 szt., gdzie średnia cena to: 70158.45 Euro.
+250. Samochd: Infiniti G37, sprzedano: 1 szt., gdzie średnia cena to: 91197.03 Euro.
+251. Samochd: Infiniti I, sprzedano: 1 szt., gdzie średnia cena to: 23254.85 Euro.
+252. Samochd: Infiniti J, sprzedano: 1 szt., gdzie średnia cena to: 28641.01 Euro.
+253. Samochd: Infiniti M, sprzedano: 2 szt., gdzie średnia cena to: 49684.48 Euro.
+254. Samochd: Infiniti Q, sprzedano: 1 szt., gdzie średnia cena to: 22305.50 Euro.
+255. Samochd: Infiniti QX, sprzedano: 1 szt., gdzie średnia cena to: 94251.36 Euro.
+256. Samochd: Isuzu Amigo, sprzedano: 1 szt., gdzie średnia cena to: 36303.51 Euro.
+257. Samochd: Isuzu Ascender, sprzedano: 1 szt., gdzie średnia cena to: 3700.19 Euro.
+258. Samochd: Isuzu Hombre Space, sprzedano: 1 szt., gdzie średnia cena to: 14300.87 Euro.
+259. Samochd: Isuzu Rodeo, sprzedano: 3 szt., gdzie średnia cena to: 57503.35 Euro.
+260. Samochd: Isuzu Rodeo Sport, sprzedano: 1 szt., gdzie średnia cena to: 59634.95 Euro.
+261. Samochd: Isuzu Stylus, sprzedano: 1 szt., gdzie średnia cena to: 3457.00 Euro.
+262. Samochd: Isuzu Trooper, sprzedano: 3 szt., gdzie średnia cena to: 52786.98 Euro.
+263. Samochd: Isuzu i-370, sprzedano: 1 szt., gdzie średnia cena to: 18055.25 Euro.
+264. Samochd: Jaguar S-Type, sprzedano: 2 szt., gdzie średnia cena to: 52177.16 Euro.
+265. Samochd: Jaguar XJ Series, sprzedano: 4 szt., gdzie średnia cena to: 23694.81 Euro.
+266. Samochd: Jaguar XK, sprzedano: 1 szt., gdzie średnia cena to: 18787.12 Euro.
+267. Samochd: Jaguar XK Series, sprzedano: 2 szt., gdzie średnia cena to: 62836.96 Euro.
+268. Samochd: Jeep Cherokee, sprzedano: 1 szt., gdzie średnia cena to: 3765.12 Euro.
+269. Samochd: Jeep Compass, sprzedano: 1 szt., gdzie średnia cena to: 92254.93 Euro.
+270. Samochd: Jeep Grand Cherokee, sprzedano: 1 szt., gdzie średnia cena to: 825.37 Euro.
+271. Samochd: Jeep Liberty, sprzedano: 2 szt., gdzie średnia cena to: 53602.37 Euro.
+272. Samochd: Jeep Wrangler, sprzedano: 1 szt., gdzie średnia cena to: 61759.51 Euro.
+273. Samochd: Kia Optima, sprzedano: 1 szt., gdzie średnia cena to: 36354.28 Euro.
+274. Samochd: Kia Rio, sprzedano: 2 szt., gdzie średnia cena to: 56535.40 Euro.
+275. Samochd: Kia Sedona, sprzedano: 2 szt., gdzie średnia cena to: 65796.00 Euro.
+276. Samochd: Kia Soul, sprzedano: 1 szt., gdzie średnia cena to: 30479.21 Euro.
+277. Samochd: Kia Spectra, sprzedano: 2 szt., gdzie średnia cena to: 51367.19 Euro.
+278. Samochd: Kia Sportage, sprzedano: 1 szt., gdzie średnia cena to: 62965.49 Euro.
+279. Samochd: Lamborghini Countach, sprzedano: 1 szt., gdzie średnia cena to: 62789.57 Euro.
+280. Samochd: Lamborghini Diablo, sprzedano: 3 szt., gdzie średnia cena to: 84469.78 Euro.
+281. Samochd: Lamborghini Gallardo, sprzedano: 3 szt., gdzie średnia cena to: 69162.65 Euro.
+282. Samochd: Land Rover Discovery, sprzedano: 2 szt., gdzie średnia cena to: 60949.33 Euro.
+283. Samochd: Land Rover Discovery Series II, sprzedano: 1 szt., gdzie średnia cena to: 72459.38 Euro.
+284. Samochd: Land Rover Freelander, sprzedano: 1 szt., gdzie średnia cena to: 66450.69 Euro.
+285. Samochd: Land Rover LR3, sprzedano: 1 szt., gdzie średnia cena to: 55622.30 Euro.
+286. Samochd: Land Rover Range Rover, sprzedano: 5 szt., gdzie średnia cena to: 37295.49 Euro.
+287. Samochd: Land Rover Range Rover Sport, sprzedano: 2 szt., gdzie średnia cena to: 54214.94 Euro.
+288. Samochd: Lexus ES, sprzedano: 1 szt., gdzie średnia cena to: 75323.10 Euro.
+289. Samochd: Lexus GS, sprzedano: 1 szt., gdzie średnia cena to: 68162.34 Euro.
+290. Samochd: Lexus IS, sprzedano: 2 szt., gdzie średnia cena to: 36857.76 Euro.
+291. Samochd: Lexus IS F, sprzedano: 2 szt., gdzie średnia cena to: 40066.54 Euro.
+292. Samochd: Lexus IS-F, sprzedano: 1 szt., gdzie średnia cena to: 20327.75 Euro.
+293. Samochd: Lexus LS, sprzedano: 2 szt., gdzie średnia cena to: 59232.04 Euro.
+294. Samochd: Lexus LX, sprzedano: 1 szt., gdzie średnia cena to: 61266.53 Euro.
+295. Samochd: Lexus SC, sprzedano: 2 szt., gdzie średnia cena to: 56543.13 Euro.
+296. Samochd: Lincoln Blackwood, sprzedano: 1 szt., gdzie średnia cena to: 31306.78 Euro.
+297. Samochd: Lincoln Continental, sprzedano: 1 szt., gdzie średnia cena to: 66092.79 Euro.
+298. Samochd: Lincoln MKT, sprzedano: 2 szt., gdzie średnia cena to: 33481.78 Euro.
+299. Samochd: Lincoln Mark VIII, sprzedano: 1 szt., gdzie średnia cena to: 53874.79 Euro.
+300. Samochd: Lincoln Navigator, sprzedano: 3 szt., gdzie średnia cena to: 35401.09 Euro.
+301. Samochd: Lincoln Navigator L, sprzedano: 1 szt., gdzie średnia cena to: 48521.65 Euro.
+302. Samochd: Lincoln Town Car, sprzedano: 2 szt., gdzie średnia cena to: 85584.71 Euro.
+303. Samochd: Lotus Elise, sprzedano: 1 szt., gdzie średnia cena to: 21021.05 Euro.
+304. Samochd: Lotus Esprit, sprzedano: 4 szt., gdzie średnia cena to: 29091.35 Euro.
+305. Samochd: Lotus Exige, sprzedano: 1 szt., gdzie średnia cena to: 25498.46 Euro.
+306. Samochd: MINI Clubman, sprzedano: 1 szt., gdzie średnia cena to: 16641.30 Euro.
+307. Samochd: MINI Cooper, sprzedano: 1 szt., gdzie średnia cena to: 1568.56 Euro.
+308. Samochd: Maserati Biturbo, sprzedano: 1 szt., gdzie średnia cena to: 64426.98 Euro.
+309. Samochd: Maserati Coupe, sprzedano: 1 szt., gdzie średnia cena to: 2453.93 Euro.
+310. Samochd: Maserati GranTurismo, sprzedano: 1 szt., gdzie średnia cena to: 9968.08 Euro.
+311. Samochd: Maserati Quattroporte, sprzedano: 1 szt., gdzie średnia cena to: 83431.20 Euro.
+312. Samochd: Maybach 57, sprzedano: 5 szt., gdzie średnia cena to: 38236.61 Euro.
+313. Samochd: Maybach 62, sprzedano: 1 szt., gdzie średnia cena to: 92208.52 Euro.
+314. Samochd: Mazda 626, sprzedano: 3 szt., gdzie średnia cena to: 44541.57 Euro.
+315. Samochd: Mazda B-Series Plus, sprzedano: 4 szt., gdzie średnia cena to: 74289.14 Euro.
+316. Samochd: Mazda B2000, sprzedano: 1 szt., gdzie średnia cena to: 69924.62 Euro.
+317. Samochd: Mazda CX-5, sprzedano: 1 szt., gdzie średnia cena to: 56757.95 Euro.
+318. Samochd: Mazda CX-7, sprzedano: 4 szt., gdzie średnia cena to: 57379.68 Euro.
+319. Samochd: Mazda CX-9, sprzedano: 1 szt., gdzie średnia cena to: 19705.91 Euro.
+320. Samochd: Mazda Familia, sprzedano: 2 szt., gdzie średnia cena to: 77000.45 Euro.
+321. Samochd: Mazda MPV, sprzedano: 2 szt., gdzie średnia cena to: 74117.86 Euro.
+322. Samochd: Mazda MX-3, sprzedano: 1 szt., gdzie średnia cena to: 40200.92 Euro.
+323. Samochd: Mazda MX-5, sprzedano: 4 szt., gdzie średnia cena to: 27450.91 Euro.
+324. Samochd: Mazda MX-6, sprzedano: 1 szt., gdzie średnia cena to: 56681.54 Euro.
+325. Samochd: Mazda Mazda2, sprzedano: 1 szt., gdzie średnia cena to: 77296.02 Euro.
+326. Samochd: Mazda Mazdaspeed 3, sprzedano: 2 szt., gdzie średnia cena to: 67873.92 Euro.
+327. Samochd: Mazda Miata MX-5, sprzedano: 1 szt., gdzie średnia cena to: 34512.20 Euro.
+328. Samochd: Mazda Millenia, sprzedano: 2 szt., gdzie średnia cena to: 30280.26 Euro.
+329. Samochd: Mazda RX-7, sprzedano: 2 szt., gdzie średnia cena to: 57805.22 Euro.
+330. Samochd: Mazda RX-8, sprzedano: 1 szt., gdzie średnia cena to: 62387.06 Euro.
+331. Samochd: Mazda Tribute, sprzedano: 1 szt., gdzie średnia cena to: 8031.83 Euro.
+332. Samochd: Mercedes-Benz 300D, sprzedano: 1 szt., gdzie średnia cena to: 17810.02 Euro.
+333. Samochd: Mercedes-Benz 300E, sprzedano: 1 szt., gdzie średnia cena to: 69282.52 Euro.
+334. Samochd: Mercedes-Benz 300TE, sprzedano: 1 szt., gdzie średnia cena to: 58487.99 Euro.
+335. Samochd: Mercedes-Benz C-Class, sprzedano: 4 szt., gdzie średnia cena to: 47498.64 Euro.
+336. Samochd: Mercedes-Benz CL-Class, sprzedano: 1 szt., gdzie średnia cena to: 77944.64 Euro.
+337. Samochd: Mercedes-Benz CL65 AMG, sprzedano: 1 szt., gdzie średnia cena to: 59195.01 Euro.
+338. Samochd: Mercedes-Benz CLK-Class, sprzedano: 1 szt., gdzie średnia cena to: 93260.59 Euro.
+339. Samochd: Mercedes-Benz CLS-Class, sprzedano: 1 szt., gdzie średnia cena to: 3183.57 Euro.
+340. Samochd: Mercedes-Benz E-Class, sprzedano: 7 szt., gdzie średnia cena to: 44487.30 Euro.
+341. Samochd: Mercedes-Benz G-Class, sprzedano: 2 szt., gdzie średnia cena to: 60823.89 Euro.
+342. Samochd: Mercedes-Benz M-Class, sprzedano: 2 szt., gdzie średnia cena to: 87429.69 Euro.
+343. Samochd: Mercedes-Benz R-Class, sprzedano: 3 szt., gdzie średnia cena to: 43385.52 Euro.
+344. Samochd: Mercedes-Benz S-Class, sprzedano: 3 szt., gdzie średnia cena to: 58820.15 Euro.
+345. Samochd: Mercedes-Benz SL-Class, sprzedano: 7 szt., gdzie średnia cena to: 46809.55 Euro.
+346. Samochd: Mercedes-Benz SL65 AMG, sprzedano: 1 szt., gdzie średnia cena to: 12734.28 Euro.
+347. Samochd: Mercedes-Benz SLK-Class, sprzedano: 5 szt., gdzie średnia cena to: 58529.92 Euro.
+348. Samochd: Mercedes-Benz SLR McLaren, sprzedano: 1 szt., gdzie średnia cena to: 98123.27 Euro.
+349. Samochd: Mercedes-Benz SLS AMG, sprzedano: 2 szt., gdzie średnia cena to: 42979.41 Euro.
+350. Samochd: Mercedes-Benz W123, sprzedano: 1 szt., gdzie średnia cena to: 44748.84 Euro.
+351. Samochd: Mercedes-Benz W201, sprzedano: 2 szt., gdzie średnia cena to: 89769.70 Euro.
+352. Samochd: Mercury Capri, sprzedano: 1 szt., gdzie średnia cena to: 8438.45 Euro.
+353. Samochd: Mercury Cougar, sprzedano: 5 szt., gdzie średnia cena to: 59532.13 Euro.
+354. Samochd: Mercury Grand Marquis, sprzedano: 7 szt., gdzie średnia cena to: 47096.44 Euro.
+355. Samochd: Mercury Lynx, sprzedano: 2 szt., gdzie średnia cena to: 75668.95 Euro.
+356. Samochd: Mercury Mariner, sprzedano: 3 szt., gdzie średnia cena to: 43659.08 Euro.
+357. Samochd: Mercury Milan, sprzedano: 1 szt., gdzie średnia cena to: 63884.95 Euro.
+358. Samochd: Mercury Mountaineer, sprzedano: 3 szt., gdzie średnia cena to: 35728.23 Euro.
+359. Samochd: Mercury Mystique, sprzedano: 1 szt., gdzie średnia cena to: 94727.98 Euro.
+360. Samochd: Mercury Sable, sprzedano: 3 szt., gdzie średnia cena to: 53139.95 Euro.
+361. Samochd: Mercury Topaz, sprzedano: 3 szt., gdzie średnia cena to: 53162.23 Euro.
+362. Samochd: Mercury Tracer, sprzedano: 2 szt., gdzie średnia cena to: 28478.94 Euro.
+363. Samochd: Mercury Villager, sprzedano: 3 szt., gdzie średnia cena to: 38697.31 Euro.
+364. Samochd: Mitsubishi 3000GT, sprzedano: 1 szt., gdzie średnia cena to: 69929.29 Euro.
+365. Samochd: Mitsubishi Challenger, sprzedano: 1 szt., gdzie średnia cena to: 24182.93 Euro.
+366. Samochd: Mitsubishi Eclipse, sprzedano: 3 szt., gdzie średnia cena to: 53152.92 Euro.
+367. Samochd: Mitsubishi Endeavor, sprzedano: 4 szt., gdzie średnia cena to: 46103.38 Euro.
+368. Samochd: Mitsubishi Expo, sprzedano: 1 szt., gdzie średnia cena to: 44918.65 Euro.
+369. Samochd: Mitsubishi GTO, sprzedano: 3 szt., gdzie średnia cena to: 47675.27 Euro.
+370. Samochd: Mitsubishi Lancer, sprzedano: 2 szt., gdzie średnia cena to: 36868.81 Euro.
+371. Samochd: Mitsubishi Lancer Evolution, sprzedano: 2 szt., gdzie średnia cena to: 47783.49 Euro.
+372. Samochd: Mitsubishi Mirage, sprzedano: 5 szt., gdzie średnia cena to: 57542.27 Euro.
+373. Samochd: Mitsubishi Montero, sprzedano: 3 szt., gdzie średnia cena to: 17600.19 Euro.
+374. Samochd: Mitsubishi Montero Sport, sprzedano: 1 szt., gdzie średnia cena to: 10997.24 Euro.
+375. Samochd: Mitsubishi Outlander, sprzedano: 1 szt., gdzie średnia cena to: 20062.34 Euro.
+376. Samochd: Mitsubishi Pajero, sprzedano: 5 szt., gdzie średnia cena to: 67780.11 Euro.
+377. Samochd: Mitsubishi Raider, sprzedano: 3 szt., gdzie średnia cena to: 39151.00 Euro.
+378. Samochd: Mitsubishi Starion, sprzedano: 3 szt., gdzie średnia cena to: 73250.49 Euro.
+379. Samochd: Mitsubishi Truck, sprzedano: 4 szt., gdzie średnia cena to: 33591.64 Euro.
+380. Samochd: Morgan Aero 8, sprzedano: 2 szt., gdzie średnia cena to: 48364.87 Euro.
+381. Samochd: Nissan 200SX, sprzedano: 1 szt., gdzie średnia cena to: 41834.99 Euro.
+382. Samochd: Nissan 300ZX, sprzedano: 2 szt., gdzie średnia cena to: 48537.54 Euro.
+383. Samochd: Nissan 350Z, sprzedano: 1 szt., gdzie średnia cena to: 39853.04 Euro.
+384. Samochd: Nissan Altima, sprzedano: 7 szt., gdzie średnia cena to: 55895.73 Euro.
+385. Samochd: Nissan Armada, sprzedano: 1 szt., gdzie średnia cena to: 89173.53 Euro.
+386. Samochd: Nissan Cube, sprzedano: 1 szt., gdzie średnia cena to: 53525.58 Euro.
+387. Samochd: Nissan Datsun/Nissan Z-samochod, sprzedano: 2 szt., gdzie średnia cena to: 76735.67 Euro.
+388. Samochd: Nissan Frontier, sprzedano: 1 szt., gdzie średnia cena to: 20489.68 Euro.
+389. Samochd: Nissan GT-R, sprzedano: 1 szt., gdzie średnia cena to: 3222.64 Euro.
+390. Samochd: Nissan Maxima, sprzedano: 2 szt., gdzie średnia cena to: 52140.06 Euro.
+391. Samochd: Nissan Pathfinder, sprzedano: 5 szt., gdzie średnia cena to: 60357.93 Euro.
+392. Samochd: Nissan Pathfinder Armada, sprzedano: 1 szt., gdzie średnia cena to: 96775.20 Euro.
+393. Samochd: Nissan Quest, sprzedano: 3 szt., gdzie średnia cena to: 19223.04 Euro.
+394. Samochd: Nissan Rogue, sprzedano: 1 szt., gdzie średnia cena to: 45315.63 Euro.
+395. Samochd: Nissan Sentra, sprzedano: 4 szt., gdzie średnia cena to: 45330.47 Euro.
+396. Samochd: Nissan Titan, sprzedano: 2 szt., gdzie średnia cena to: 29811.37 Euro.
+397. Samochd: Nissan Versa, sprzedano: 1 szt., gdzie średnia cena to: 91895.71 Euro.
+398. Samochd: Nissan Xterra, sprzedano: 2 szt., gdzie średnia cena to: 45446.22 Euro.
+399. Samochd: Oldsmobile Achieva, sprzedano: 2 szt., gdzie średnia cena to: 27909.39 Euro.
+400. Samochd: Oldsmobile Alero, sprzedano: 1 szt., gdzie średnia cena to: 19600.82 Euro.
+401. Samochd: Oldsmobile Bravada, sprzedano: 1 szt., gdzie średnia cena to: 99984.84 Euro.
+402. Samochd: Oldsmobile Cutlass Supreme, sprzedano: 2 szt., gdzie średnia cena to: 65983.23 Euro.
+403. Samochd: Oldsmobile Intrigue, sprzedano: 3 szt., gdzie średnia cena to: 41002.69 Euro.
+404. Samochd: Oldsmobile Silhouette, sprzedano: 3 szt., gdzie średnia cena to: 28639.54 Euro.
+405. Samochd: Panoz Esperante, sprzedano: 1 szt., gdzie średnia cena to: 53455.19 Euro.
+406. Samochd: Plymouth Colt, sprzedano: 1 szt., gdzie średnia cena to: 57417.48 Euro.
+407. Samochd: Plymouth Colt Vista, sprzedano: 1 szt., gdzie średnia cena to: 53245.72 Euro.
+408. Samochd: Plymouth Grand Voyager, sprzedano: 1 szt., gdzie średnia cena to: 12759.28 Euro.
+409. Samochd: Plymouth Volare, sprzedano: 1 szt., gdzie średnia cena to: 88917.51 Euro.
+410. Samochd: Plymouth Voyager, sprzedano: 3 szt., gdzie średnia cena to: 76413.54 Euro.
+411. Samochd: Pontiac 1000, sprzedano: 1 szt., gdzie średnia cena to: 84056.46 Euro.
+412. Samochd: Pontiac 6000, sprzedano: 1 szt., gdzie średnia cena to: 5256.21 Euro.
+413. Samochd: Pontiac Bonneville, sprzedano: 3 szt., gdzie średnia cena to: 52898.22 Euro.
+414. Samochd: Pontiac Daewoo Kalos, sprzedano: 1 szt., gdzie średnia cena to: 87202.11 Euro.
+415. Samochd: Pontiac Fiero, sprzedano: 1 szt., gdzie średnia cena to: 8202.10 Euro.
+416. Samochd: Pontiac Firebird, sprzedano: 1 szt., gdzie średnia cena to: 98532.02 Euro.
+417. Samochd: Pontiac G5, sprzedano: 1 szt., gdzie średnia cena to: 453.87 Euro.
+418. Samochd: Pontiac G6, sprzedano: 3 szt., gdzie średnia cena to: 58288.47 Euro.
+419. Samochd: Pontiac G8, sprzedano: 2 szt., gdzie średnia cena to: 22416.36 Euro.
+420. Samochd: Pontiac GTO, sprzedano: 1 szt., gdzie średnia cena to: 86303.79 Euro.
+421. Samochd: Pontiac Grand Am, sprzedano: 1 szt., gdzie średnia cena to: 31178.86 Euro.
+422. Samochd: Pontiac Grand Prix, sprzedano: 7 szt., gdzie średnia cena to: 52396.50 Euro.
+423. Samochd: Pontiac LeMans, sprzedano: 5 szt., gdzie średnia cena to: 76709.61 Euro.
+424. Samochd: Pontiac Montana, sprzedano: 1 szt., gdzie średnia cena to: 49063.18 Euro.
+425. Samochd: Pontiac Solstice, sprzedano: 1 szt., gdzie średnia cena to: 20647.67 Euro.
+426. Samochd: Pontiac Sunbird, sprzedano: 3 szt., gdzie średnia cena to: 69493.46 Euro.
+427. Samochd: Pontiac Trans Sport, sprzedano: 1 szt., gdzie średnia cena to: 305.73 Euro.
+428. Samochd: Pontiac Vibe, sprzedano: 2 szt., gdzie średnia cena to: 45140.29 Euro.
+429. Samochd: Porsche 911, sprzedano: 7 szt., gdzie średnia cena to: 55710.80 Euro.
+430. Samochd: Porsche 924 S, sprzedano: 1 szt., gdzie średnia cena to: 96664.65 Euro.
+431. Samochd: Porsche Boxster, sprzedano: 2 szt., gdzie średnia cena to: 56475.42 Euro.
+432. Samochd: Porsche Cayenne, sprzedano: 2 szt., gdzie średnia cena to: 61091.16 Euro.
+433. Samochd: Ram 2500, sprzedano: 1 szt., gdzie średnia cena to: 49301.29 Euro.
+434. Samochd: Ram Dakota, sprzedano: 1 szt., gdzie średnia cena to: 30072.66 Euro.
+435. Samochd: Rolls-Royce Phantom, sprzedano: 2 szt., gdzie średnia cena to: 74614.54 Euro.
+436. Samochd: Saab 9-3, sprzedano: 1 szt., gdzie średnia cena to: 35561.43 Euro.
+437. Samochd: Saab 9-5, sprzedano: 4 szt., gdzie średnia cena to: 56350.28 Euro.
+438. Samochd: Saab 9-7X, sprzedano: 3 szt., gdzie średnia cena to: 52846.43 Euro.
+439. Samochd: Saab 900, sprzedano: 2 szt., gdzie średnia cena to: 49071.87 Euro.
+440. Samochd: Saab 9000, sprzedano: 3 szt., gdzie średnia cena to: 54097.90 Euro.
+441. Samochd: Saturn Relay, sprzedano: 1 szt., gdzie średnia cena to: 47066.72 Euro.
+442. Samochd: Saturn S-Series, sprzedano: 2 szt., gdzie średnia cena to: 9017.03 Euro.
+443. Samochd: Saturn VUE, sprzedano: 1 szt., gdzie średnia cena to: 26812.74 Euro.
+444. Samochd: Scion xD, sprzedano: 1 szt., gdzie średnia cena to: 40805.33 Euro.
+445. Samochd: Spyker C8 Double 12 S, sprzedano: 1 szt., gdzie średnia cena to: 96561.56 Euro.
+446. Samochd: Subaru Forester, sprzedano: 3 szt., gdzie średnia cena to: 81288.87 Euro.
+447. Samochd: Subaru Justy, sprzedano: 3 szt., gdzie średnia cena to: 45364.84 Euro.
+448. Samochd: Subaru Legacy, sprzedano: 3 szt., gdzie średnia cena to: 64798.95 Euro.
+449. Samochd: Subaru Leone, sprzedano: 1 szt., gdzie średnia cena to: 61810.51 Euro.
+450. Samochd: Subaru Loyale, sprzedano: 1 szt., gdzie średnia cena to: 43850.02 Euro.
+451. Samochd: Subaru Outback, sprzedano: 2 szt., gdzie średnia cena to: 55051.50 Euro.
+452. Samochd: Subaru SVX, sprzedano: 1 szt., gdzie średnia cena to: 96360.87 Euro.
+453. Samochd: Subaru Tribeca, sprzedano: 1 szt., gdzie średnia cena to: 51935.34 Euro.
+454. Samochd: Suzuki Grand Vitara, sprzedano: 1 szt., gdzie średnia cena to: 46821.21 Euro.
+455. Samochd: Suzuki Kizashi, sprzedano: 1 szt., gdzie średnia cena to: 49388.37 Euro.
+456. Samochd: Suzuki SJ 410, sprzedano: 1 szt., gdzie średnia cena to: 47819.20 Euro.
+457. Samochd: Suzuki SX4, sprzedano: 1 szt., gdzie średnia cena to: 22436.09 Euro.
+458. Samochd: Suzuki Sidekick, sprzedano: 1 szt., gdzie średnia cena to: 69918.56 Euro.
+459. Samochd: Suzuki Swift, sprzedano: 2 szt., gdzie średnia cena to: 53303.03 Euro.
+460. Samochd: Suzuki Verona, sprzedano: 1 szt., gdzie średnia cena to: 48857.49 Euro.
+461. Samochd: Tesla Roadster, sprzedano: 1 szt., gdzie średnia cena to: 7056.76 Euro.
+462. Samochd: Toyota 4Runner, sprzedano: 4 szt., gdzie średnia cena to: 63457.53 Euro.
+463. Samochd: Toyota Avalon, sprzedano: 2 szt., gdzie średnia cena to: 65967.62 Euro.
+464. Samochd: Toyota Camry, sprzedano: 3 szt., gdzie średnia cena to: 79146.73 Euro.
+465. Samochd: Toyota Celica, sprzedano: 2 szt., gdzie średnia cena to: 57965.43 Euro.
+466. Samochd: Toyota Corolla, sprzedano: 3 szt., gdzie średnia cena to: 79216.34 Euro.
+467. Samochd: Toyota Echo, sprzedano: 1 szt., gdzie średnia cena to: 57053.25 Euro.
+468. Samochd: Toyota FJ Cruiser, sprzedano: 1 szt., gdzie średnia cena to: 42841.55 Euro.
+469. Samochd: Toyota Highlander, sprzedano: 2 szt., gdzie średnia cena to: 75387.39 Euro.
+470. Samochd: Toyota Ipsum, sprzedano: 1 szt., gdzie średnia cena to: 41036.16 Euro.
+471. Samochd: Toyota Land Cruiser, sprzedano: 5 szt., gdzie średnia cena to: 60095.49 Euro.
+472. Samochd: Toyota MR2, sprzedano: 1 szt., gdzie średnia cena to: 46421.38 Euro.
+473. Samochd: Toyota Matrix, sprzedano: 1 szt., gdzie średnia cena to: 66666.84 Euro.
+474. Samochd: Toyota Previa, sprzedano: 1 szt., gdzie średnia cena to: 75874.85 Euro.
+475. Samochd: Toyota Prius, sprzedano: 2 szt., gdzie średnia cena to: 74990.25 Euro.
+476. Samochd: Toyota RAV4, sprzedano: 2 szt., gdzie średnia cena to: 23849.33 Euro.
+477. Samochd: Toyota Sequoia, sprzedano: 3 szt., gdzie średnia cena to: 20976.79 Euro.
+478. Samochd: Toyota Sienna, sprzedano: 1 szt., gdzie średnia cena to: 68263.57 Euro.
+479. Samochd: Toyota Solara, sprzedano: 1 szt., gdzie średnia cena to: 76247.84 Euro.
+480. Samochd: Toyota Supra, sprzedano: 1 szt., gdzie średnia cena to: 8892.98 Euro.
+481. Samochd: Toyota T100, sprzedano: 2 szt., gdzie średnia cena to: 69955.21 Euro.
+482. Samochd: Toyota T100 Xtra, sprzedano: 1 szt., gdzie średnia cena to: 83465.10 Euro.
+483. Samochd: Toyota Tacoma, sprzedano: 2 szt., gdzie średnia cena to: 46107.43 Euro.
+484. Samochd: Toyota Tacoma Xtra, sprzedano: 3 szt., gdzie średnia cena to: 21831.86 Euro.
+485. Samochd: Toyota Tercel, sprzedano: 1 szt., gdzie średnia cena to: 16793.13 Euro.
+486. Samochd: Toyota Tundra, sprzedano: 2 szt., gdzie średnia cena to: 32866.82 Euro.
+487. Samochd: Toyota TundraMax, sprzedano: 1 szt., gdzie średnia cena to: 21198.48 Euro.
+488. Samochd: Toyota Yaris, sprzedano: 1 szt., gdzie średnia cena to: 95943.63 Euro.
+489. Samochd: Volkswagen Cabriolet, sprzedano: 5 szt., gdzie średnia cena to: 27471.45 Euro.
+490. Samochd: Volkswagen Fox, sprzedano: 1 szt., gdzie średnia cena to: 77660.74 Euro.
+491. Samochd: Volkswagen GLI, sprzedano: 1 szt., gdzie średnia cena to: 82687.12 Euro.
+492. Samochd: Volkswagen GTI, sprzedano: 6 szt., gdzie średnia cena to: 45189.68 Euro.
+493. Samochd: Volkswagen Golf, sprzedano: 5 szt., gdzie średnia cena to: 49141.57 Euro.
+494. Samochd: Volkswagen Jetta, sprzedano: 5 szt., gdzie średnia cena to: 63644.82 Euro.
+495. Samochd: Volkswagen New Beetle, sprzedano: 2 szt., gdzie średnia cena to: 31785.83 Euro.
+496. Samochd: Volkswagen Passat, sprzedano: 2 szt., gdzie średnia cena to: 51683.94 Euro.
+497. Samochd: Volkswagen Phaeton, sprzedano: 1 szt., gdzie średnia cena to: 12833.78 Euro.
+498. Samochd: Volkswagen Quantum, sprzedano: 1 szt., gdzie średnia cena to: 87150.11 Euro.
+499. Samochd: Volkswagen Rabbit, sprzedano: 2 szt., gdzie średnia cena to: 31841.94 Euro.
+500. Samochd: Volkswagen Tiguan, sprzedano: 1 szt., gdzie średnia cena to: 15415.59 Euro.
+501. Samochd: Volkswagen Touareg, sprzedano: 1 szt., gdzie średnia cena to: 22049.47 Euro.
+502. Samochd: Volkswagen Type 2, sprzedano: 1 szt., gdzie średnia cena to: 42551.68 Euro.
+503. Samochd: Volkswagen rio, sprzedano: 2 szt., gdzie średnia cena to: 29444.06 Euro.
+504. Samochd: Volvo 850, sprzedano: 2 szt., gdzie średnia cena to: 57499.64 Euro.
+505. Samochd: Volvo C30, sprzedano: 1 szt., gdzie średnia cena to: 48525.09 Euro.
+506. Samochd: Volvo C70, sprzedano: 1 szt., gdzie średnia cena to: 28721.16 Euro.
+507. Samochd: Volvo S40, sprzedano: 2 szt., gdzie średnia cena to: 8727.31 Euro.
+508. Samochd: Volvo S60, sprzedano: 1 szt., gdzie średnia cena to: 3041.86 Euro.
+509. Samochd: Volvo S80, sprzedano: 3 szt., gdzie średnia cena to: 62328.06 Euro.
+510. Samochd: Volvo V50, sprzedano: 1 szt., gdzie średnia cena to: 95214.12 Euro.
+511. Samochd: Volvo V70, sprzedano: 2 szt., gdzie średnia cena to: 41084.16 Euro.
+512. Samochd: Volvo XC70, sprzedano: 2 szt., gdzie średnia cena to: 62194.10 Euro.
+513. Samochd: Volvo XC90, sprzedano: 3 szt., gdzie średnia cena to: 62013.01 Euro.

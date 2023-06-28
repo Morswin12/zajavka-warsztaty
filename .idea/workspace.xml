@@ -4,81 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 3: do filmu 36 rozwiązanie zadań z Bartkiem">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/Main_Exe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/sdffsdfsdf.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/625edfcaf77be5002444b113-client-car-purchase-spreadsheet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Lokalizacja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Samochod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Acura.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Aptera.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Aston Martin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Audi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Austin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/BMW.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Bentley.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Buick.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Cadillac.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Chevrolet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Chrysler.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Citroën.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Corbin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Daewoo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Dodge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Eagle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Fiat.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Ford.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/GMC.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Geo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Honda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Hummer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Hyundai.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Infiniti.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Isuzu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Jaguar.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Jeep.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Kia.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Lamborghini.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Land Rover.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Lexus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Lincoln.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Lotus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/MINI.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Maserati.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Maybach.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Mazda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Mercedes-Benz.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Mercury.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Mitsubishi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Morgan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Nissan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Oldsmobile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Panoz.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Plymouth.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Pontiac.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Porsche.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Ram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Rolls-Royce.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Saab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Saturn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Scion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Spyker.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Subaru.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Suzuki.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Tesla.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Toyota.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Volkswagen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/Volvo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 3: projekt podpunkty 1 i 2 zrobione">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_3_pliki/RaportOfAveragePrice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P01_Bazy_Danych_Wprowadzenie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P01_Bazy_Danych_Wprowadzenie/how-does-a-database-server-work.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P02_SQL__Instalacja_PostgreSQL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P03_SQL__Praca_z_tabelami_cz1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P04_SQL__Praca_z_tabelami_cz2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P05_SQL_OPERACJE_cz2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P34_Testy/bootcamp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P34_Testy/bootcamp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P35_Zadania/Exe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/hfjhgjgjgjg/yjhgjgjg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem/asdf/hfjhgjgjgjg/yjhgjgjg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,20 +56,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/twoDirectory&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P05_SQL_OPERACJE_cz2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_Serialization_Deserialization_cz_1" />
@@ -141,11 +79,11 @@
       <recent name="WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P38_P40_PROJEKT" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P05_SQL_OPERACJE_cz2" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P04_SQL__Praca_z_tabelami_cz2" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P03_SQL__Praca_z_tabelami_cz1" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2\twoDirectory" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2\oneDirectory\twoDirectory" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P30_NIO_Interface_Path_cz_2" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P23_IO__in_out_Serialization_Deserialization_cz_2" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_3_Lokalizacja_i_Operacje_na_Plikach\P21_IO__in_out_Serialization_Deserialization_cz_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src" />
@@ -384,8 +322,26 @@
       <option name="project" value="LOCAL" />
       <updated>1687694283030</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Warsztat 3: projekt podpunkty 1 i 2 zrobione">
+      <created>1687907306031</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687907306031</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody" />
@@ -407,7 +363,8 @@
     <MESSAGE value="Warsztat 3: filmy 15 - 18 &#10;FileInputStream, FileOutputStream&#10;BufferedInputStream, BufferedOutputStream" />
     <MESSAGE value="Warsztat 3: filmy 19 - 23&#10;sERIALIZATION, dESERIALIZATION" />
     <MESSAGE value="Warsztat 3: do filmu 36 rozwiązanie zadań z Bartkiem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 3: do filmu 36 rozwiązanie zadań z Bartkiem" />
+    <MESSAGE value="Warsztat 3: projekt podpunkty 1 i 2 zrobione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 3: projekt podpunkty 1 i 2 zrobione" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
