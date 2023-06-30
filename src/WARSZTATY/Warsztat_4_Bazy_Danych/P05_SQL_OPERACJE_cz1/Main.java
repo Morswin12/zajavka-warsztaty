@@ -1,4 +1,4 @@
-package WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz2;
+package WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1;
 
 public class Main {
     public static void main(String[] args) {
