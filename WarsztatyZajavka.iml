@@ -14,5 +14,7 @@
     <orderEntry type="library" name="Maven: com.github.brzozasr:exchange-rates-nbp:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20190722" level="project" />
     <orderEntry type="library" name="postgresql-42.6.0" level="project" />
+    <orderEntry type="library" name="postgresql-42.6.01" level="project" />
+    <orderEntry type="library" name="postgresql-42.6.02" level="project" />
   </component>
 </module>

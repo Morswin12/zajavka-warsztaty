@@ -1,7 +1,8 @@
-package WARSZTATY.Warsztat_4_Bazy_Danych.P11_JDBC__Intro;
+package WARSZTATY.Warsztat_4_Bazy_Danych.P11_i_P12__JDBC__Intro;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Main {
@@ -17,17 +18,30 @@ public class Main {
         String password = "postgres";
 
         String query1 = "INSERT INTO PRODUCER (ID, PRODUCER_NAME, ADDRESS)"
-                + "VALUES (5, 'Zajavka Group 5', 'Zajavkowa 15, Warszawa')";
+                + "VALUES (6, 'Zajavka Group 6', 'Zajavkowa 15, Warszawa')";
         String query2 = "UPDATE PRODUCER SET ADDRESS = 'Nowy adres siedziby' WHERE ID = 1";
         String query3 = "DELETE FROM PRODUCER  WHERE ID IN (3, 4)";
+        String query4 = "SELECT * FROM PRODUCER";
 
         try (
                 Connection connection = DriverManager.getConnection(address, username, password);
                 Statement statement = connection.createStatement();
-//                ResultSet resultSet = statement.executeQuery("");
+                ResultSet resultSet = statement.executeQuery(query4);
         ) {
-            int i = statement.executeUpdate(query3);
-            System.out.println(i);
+
+            if (resultSet.next()) {
+                String producerName = resultSet.getString("producer_name");
+                String producerName2 = resultSet.getString("address");
+                System.out.println(producerName + ", " + producerName2);
+            }
+
+            //            boolean execute = statement.execute(query2);
+//            if (execute) {
+//                ResultSet resultSet = statement.getResultSet();
+//            } else {
+//                int updateCount = statement.getUpdateCount();
+//            }
+//            System.out.println(execute);
         } catch (Exception e) {
             System.err.println("Exceptionn: " + e.getMessage());
 
