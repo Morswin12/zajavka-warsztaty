@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: SQL pODSTAWY filmy 5-8">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P14_JDBC__ResultSet/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P14_JDBC__ResultSet/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P14_JDBC__ResultSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P14_JDBC__ResultSet/postgresql-42.6.0.jar" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ToDoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarsztatyZajavka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P11_JDBC__Intro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P11_i_P12__JDBC__Intro/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P11_JDBC__Intro/postgresql-42.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P11_i_P12__JDBC__Intro/postgresql-42.6.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +67,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project" />
       <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_Serialization_Deserialization_cz_1" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P1_wstep" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P14_JDBC__ResultSet" />
@@ -99,26 +92,13 @@
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet.Main">
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main_Exe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.Main_Exe2" />
-      <module name="WarsztatyZajavka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,20 +145,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" />
+      <module name="WarsztatyZajavka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.ToDoItem" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P11_i_P12__JDBC__Intro.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet.Main" />
-      <item itemvalue="Application.Main_Exe2" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P11_i_P12__JDBC__Intro.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main_Exe2" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688168339288</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14">
+      <created>1689631154951</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689631154951</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +382,8 @@
     <MESSAGE value="Warsztat 3: projekt podpunkty 1 i 2 zrobione" />
     <MESSAGE value="Warsztat 3: Projekt -&gt; Zrobione punkty 3 i 4&#10;Warsztat 4: Wstęp do SQL filmy 1-4" />
     <MESSAGE value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
+    <MESSAGE value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +417,19 @@
           <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java</url>
           <line>27</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.file.NotDirectoryException" package="java.nio.file" />
