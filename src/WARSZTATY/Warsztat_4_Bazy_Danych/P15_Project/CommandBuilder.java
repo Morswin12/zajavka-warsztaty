@@ -1,10 +1,7 @@
 package WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class CommandBuilder {
@@ -12,32 +9,59 @@ public class CommandBuilder {
         String[] split = line.split(";");
         String commandType = split[0];
         if (!Command.Type.valuesAsList().contains(commandType)) {
-            System.err.printf("User prowide unknown command: [%s]%n ", commandType );
+            System.err.printf("User prowide unknown command: [%s]%n ", commandType);
             return Optional.empty();
         }
 
         List<String> stringCommandWithParamsExtracted = Arrays.asList(split).subList(1, split.length);
         var parameterMap = stringCommandWithParamsExtracted.stream()
                 .map(item -> item.split("="))
-                .filter(paramSplit -> !ToDoItem.Field.SORT.name().equals(paramSplit[0])) // filtrowanie, żeby nie uwzględniał to SORT-a
+//                .filter(paramSplit -> !ToDoItem.Field.SORT.name().equals(paramSplit[0])) // filtrowanie, żeby nie uwzględniał to SORT-a
                 .collect(Collectors.toMap(
                         itemSplit -> itemSplit[0],
                         itemSplit -> itemSplit[1]
                 ));
 
-        Optional<String[]> sorting = stringCommandWithParamsExtracted.stream()
-                .map(item -> item.split("="))
-                .filter(paramSplit -> ToDoItem.Field.SORT.name().equals(paramSplit[0])) // filtrowanie, żeby uwzględniał tylko SORT-a
-                .findAny();
-
-        ///////////////////////////////
-        // minuta 13:12 filmu
-        //////////////////////////////
-
+        List<String> sortingParams = Optional.ofNullable(parameterMap.get(ToDoItem.Field.SORT.name()))
+                .map(params -> List.of(params.split(",")))
+                .orElse(Collections.emptyList());
 
         ToDoItem toDoItem = buildToDoItem(parameterMap);
-        return Optional.of(new Command(Command.Type.from(commandType),toDoItem, null, null));
+        return Optional.of(new Command(
+                        Command.Type.from(commandType),
+                        toDoItem,
+                        findSortingParams(sortingParams),
+                        findSortingDir(sortingParams)
+                )
+        );
     }
+
+    private ToDoItem.Field findSortingParams(List<String> sortingParams) {
+        if (sortingParams.isEmpty()) {
+            System.err.println("Sorting params are not specified");
+            return ToDoItem.Field.NAME;
+        }
+        try {
+            return ToDoItem.Field.valueOf(sortingParams.get(0));
+        } catch (Exception e) {
+            System.err.printf("Sorting field is not specified. Default [%s]%n", ToDoItem.Field.NAME);
+            return ToDoItem.Field.NAME;
+        }
+    }
+
+
+    private Command.SortDir findSortingDir(List<String> sortingParams) {
+        if (sortingParams.isEmpty()) {
+            return Command.SortDir.ASC;
+        }
+        try {
+            return Command.SortDir.valueOf(sortingParams.get(1));
+        } catch (Exception e) {
+            System.err.printf("Sorting dir is not specified. Default: [%s]%n", Command.SortDir.ASC);
+            return Command.SortDir.ASC;
+        }
+    }
+
 
     private ToDoItem buildToDoItem(final Map<String, String> parametersMap) {
         ToDoItem toDoItem = new ToDoItem();

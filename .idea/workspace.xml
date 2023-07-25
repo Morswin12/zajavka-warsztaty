@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14">
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ToDoItem.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: Projekt zad 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689631154951</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Warsztat 4: Projekt zad 1">
+      <created>1690297122793</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690297122793</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,60 +389,15 @@
     <MESSAGE value="Warsztat 3: Projekt -&gt; Zrobione punkty 3 i 4&#10;Warsztat 4: Wstęp do SQL filmy 1-4" />
     <MESSAGE value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
     <MESSAGE value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
+    <MESSAGE value="Warsztat 4: Projekt zad 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: Projekt zad 1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_1_GENERICS_Klasy_generyczne/P22_Set_HashSet__Zaawansowane_kolekcje/Main.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P14_Zadania_do_zrobienia/Zad_2/Zad2.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad7.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P3_Resource_bundle/code/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/AktualnaData.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java</url>
-          <line>20</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.nio.file.NotDirectoryException" package="java.nio.file" />
-          <option name="timeStamp" value="12" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="preparedStatement.toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

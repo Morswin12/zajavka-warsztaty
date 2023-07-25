@@ -34,10 +34,19 @@ public class Command {
                 '}';
     }
 
+    public ToDoItem.Field getSortBy() {
+        return sortBy;
+    }
+
+    public SortDir getSortDir() {
+        return sortDir;
+    }
+
     public enum Type {
         CREATE("CREATE"),
         UPDATE("UPDATE"),
         READ("READ"),
+        READ_GROUPED("READ GROUPED"),
         READ_ALL("READ ALL"),
         DELETE("DELETE"),
         DELETE_ALL("DELETE ALL");
