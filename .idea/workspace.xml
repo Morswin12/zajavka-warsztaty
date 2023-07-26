@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: Projekt zad 1">
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 4: Projekt zad DO 3">
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ExplicitRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ScannerRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/CommandBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/ToDoItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +94,13 @@
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" />
+  <component name="RunManager" selected="Application.ExplicitRunner">
+    <configuration name="ExplicitRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.ExplicitRunner" />
       <module name="WarsztatyZajavka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExplicitRunner" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P11_i_P12__JDBC__Intro.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExplicitRunner" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_4_Bazy_Danych.P11_i_P12__JDBC__Intro.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690297122793</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Warsztat 4: Projekt zad DO 3">
+      <created>1690327057144</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690327057144</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,9 +400,19 @@
     <MESSAGE value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
     <MESSAGE value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
     <MESSAGE value="Warsztat 4: Projekt zad 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: Projekt zad 1" />
+    <MESSAGE value="Warsztat 4: Projekt zad DO 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 4: Projekt zad DO 3" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WARSZTATY/Warsztat_4_Bazy_Danych/P15_Project/DatabaseRunner.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="preparedStatement.toString()" language="JAVA" />

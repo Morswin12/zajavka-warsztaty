@@ -49,8 +49,8 @@ public class Command {
         READ_GROUPED("READ GROUPED"),
         READ_ALL("READ ALL"),
         DELETE("DELETE"),
-        DELETE_ALL("DELETE ALL");
-
+        DELETE_ALL("DELETE ALL"),
+        COMPLETED("COMPLETED");
         private final String name;
 
         Type(String name) {
