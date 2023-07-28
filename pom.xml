@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>untitled</artifactId>
+    <artifactId>untitled_goro</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -21,7 +21,33 @@
             <artifactId>exchange-rates-nbp</artifactId>
             <version>1.0.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.14.2</version>
+<!--            <version>1.14.2-SNAPSHOT</version> - wersja, która jest w trakcie developmentu, czyli dziś i jutro może mieć trochę inną zawartość (brak ostatecznej wersji) -->
+<!--        <scope>compile</scope> - domyślny scope, (class path do biblioteki dodana na etapie kompilacji i uruchomienia), jeśli nic nie podamy to jest ten -->
+<!--        <scope>provided</scope> - zależność (class path) dodana na etapie kompilacji, ale na etapie uruchomienia już nie. Potrzebne do niektórych bibliotek, które nie muszą byc na etapie uruchomienia np. Lombok   -->
+<!--        <scope>runtime</scope> - biblioteka nie jest potrzebna na etapie kompilacji, ale jest potrzebna w czasie działania programu-->
+<!--        <scope>test</scope> - dana zależność (class path biblioteki ma być widoczna tylko w testach) -->
+        </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>
+                        17
+                    </release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

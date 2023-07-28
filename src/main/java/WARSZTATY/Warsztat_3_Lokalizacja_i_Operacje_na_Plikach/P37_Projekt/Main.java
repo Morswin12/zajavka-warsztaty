@@ -16,7 +16,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        Path path = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/625edfcaf77be5002444b113-client-car-purchase-spreadsheet.csv");
+        Path path = Paths.get("src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/625edfcaf77be5002444b113-client-car-purchase-spreadsheet.csv");
         List<String> inputList = new ArrayList<>();
         List<Purchase> purchases = new ArrayList<>();
 
@@ -47,8 +47,8 @@ public class Main {
         List<String> raport1 = madeRaportDailySellingCars_Exe_4a(purchases);
         List<String> raport2 = madeRaportDailySellingCars_Exe_4b(purchases);
 
-        Path pathOnNewFilesZad4a = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar1.txt");
-        Path pathOnNewFilesZad4b = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar2.txt");
+        Path pathOnNewFilesZad4a = Paths.get("src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar1.txt");
+        Path pathOnNewFilesZad4b = Paths.get("src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar2.txt");
         universalMethodToWriteDataToFileFromList(raport1, pathOnNewFilesZad4a);
         universalMethodToWriteDataToFileFromList(raport2, pathOnNewFilesZad4b);
 
@@ -87,7 +87,7 @@ public class Main {
     private static void createNewFileWithRaport(List<Purchase> purchases) {
         List<String> raportAboutAveragePriceDependentOnCarsModel = madeRaportAboutAveragePriceDependentOnCarsModel(purchases);
 
-        Path pathOnNewFilesZad3 = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_3_pliki/RaportOfAveragePrice.txt");
+        Path pathOnNewFilesZad3 = Paths.get("src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_3_pliki/RaportOfAveragePrice.txt");
 
         universalMethodToWriteDataToFileFromList(raportAboutAveragePriceDependentOnCarsModel, pathOnNewFilesZad3);
     }
@@ -111,7 +111,7 @@ public class Main {
 
 
     private static void printFileNameAndFileSize() {
-        Path pathOnFiles = Paths.get("src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki");
+        Path pathOnFiles = Paths.get("src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki");
         try {
             Stream<Path> listOfFilesTxt = Files.list(pathOnFiles);
             TreeMap<Long, List<String>> collect = listOfFilesTxt.collect(Collectors.toMap(
@@ -157,7 +157,7 @@ public class Main {
 //        System.out.println(mapKeyCompanyValuePurchase);
         for (Map.Entry<String, List<Purchase>> stringListEntry : mapKeyCompanyValuePurchase.entrySet()) {
 
-            String pathString = "src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/"
+            String pathString = "src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/"
                     + stringListEntry.getKey() + ".txt";
             Path path = Paths.get(pathString);
 
