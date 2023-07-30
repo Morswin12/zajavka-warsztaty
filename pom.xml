@@ -9,9 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--        <maven.compiler.source>19</maven.compiler.source>-->
+<!--        <maven.compiler.target>19</maven.compiler.target>-->
+<!--        zamiast tych dwóch powyżej od java 9 mona używać zapisu jak poniżej:-->
+        <maven.compiler.release>19</maven.compiler.release>
     </properties>
 
     <dependencies>
@@ -35,6 +37,24 @@
 
     </dependencies>
 
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>DEV</id>  &lt;!&ndash; tu określamy, że jakiś fragment kodu ma być uruchamiany dla jakiegoś danego profilu (deweloperskiego, testowego, produkcyjnego) &ndash;&gt;-->
+<!--            <build></build>-->
+<!--            <repositories></repositories>-->
+<!--            <dependencies></dependencies>-->
+<!--        </profile>-->
+<!--        <profile>-->
+<!--            <id>TEST</id>  &lt;!&ndash; tu określamy, że jakiś fragment kodu ma być uruchamiany dla jakiegoś danego profilu (deweloperskiego, testowego, produkcyjnego) &ndash;&gt;-->
+<!--            <build></build>-->
+<!--            <repositories></repositories>-->
+<!--            <dependencies></dependencies>-->
+<!--        </profile>-->
+<!--&lt;!&ndash;        // i możemy uruchomić konkretny profil z naszymi ustawieniami&ndash;&gt;-->
+<!--&lt;!&ndash;        // mvn compile -P TEST&ndash;&gt;-->
+<!--&lt;!&ndash;        // mvn compile -P DEV&ndash;&gt;-->
+<!--    </profiles>-->
+
     <build>
         <plugins>
             <plugin>
@@ -42,11 +62,52 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <release>
-                        17
-                    </release>
+<!--                    poniższy zapis nie jest potrzebny, bo mamy wersie java podaną wyżej-->
+<!--                    <release>-->
+<!--                        17-->
+<!--                    </release>-->
                 </configuration>
             </plugin>
+<!--            plugin do tworzenia Fat Jar, czyli jar_with_dependencies, który ma w sobie ściągnięte i spakowane także wszystkie zewnętrzne biblioteki używane w projekcie-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>WARSZTATY.Warsztat_5_BUILDING_TOOLS.P10_Maven_Fat_Jar_oraz_Profiles.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>jar-with-dependencies</descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+<!--            plugin sprawdzający poprawność napisanego przez nas kodu -->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-pmd-plugin</artifactId>-->
+<!--                <version>3.21.0</version>-->
+<!--                <configuration>-->
+<!--                    <printFailingErrors>true</printFailingErrors>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>check</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
