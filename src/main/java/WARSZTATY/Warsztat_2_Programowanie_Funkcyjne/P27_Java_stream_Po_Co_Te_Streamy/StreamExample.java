@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class StreamExample {
     public static void main(String[] args) {
-        List<String> cities = new ArrayList<>(List.of("Warszawa", "Gdańsk", "Łódź", "Wrocław", "Gdańsk", "Łódź"));
+        List<String> cities = new ArrayList<>(List.of("Warszawa", "Gdańsk", "Lódź", "Wrocław", "Gdańsk", "Lódź"));
         System.out.println(cities);
 
         // 1

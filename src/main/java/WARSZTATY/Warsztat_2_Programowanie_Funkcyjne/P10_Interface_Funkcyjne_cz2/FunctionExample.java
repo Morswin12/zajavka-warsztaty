@@ -7,8 +7,8 @@ public class FunctionExample {
     public static void main(String[] args) {
 //        Function<String, Integer> function = s -> s.length();
         Function<String, Integer> function = String::length;
-        Integer długiString = function.apply("długi string ");
-        System.out.println(długiString);
+        Integer dlugiString = function.apply("długi string ");
+        System.out.println(dlugiString);
 
         Function<Car, String> carStringFunction = Car::toString;
         Optional<String> carOptional = Optional.of(new MiniCar("MiniSamochod"))

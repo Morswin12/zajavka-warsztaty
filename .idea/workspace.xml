@@ -4,12 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 5: MAVEN zależności, pluginy, dependencji, &#10;zmiana struktury projektu dodanie po src main/java/&#10;POM">
-      <change afterPath="$PROJECT_DIR$/pom1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_5_BUILDING_TOOLS/P10_Maven_Fat_Jar_oraz_Profiles/Main.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 5: MAVEN itp">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P2_Adnotacje_cz_1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P2_Adnotacje_cz_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P2_Adnotacje_cz_1/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarsztatyZajavka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WarsztatyZajavka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarsztatyZajavka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pomCopy_xml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom1_xml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Kursy_walut_NBP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Mieso_Programu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Nowy_Przelew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/Platnik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/PrzeliczNaPLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/WczytajKursNBP_DlaPodanejDaty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJE_PROGRAMY/Kursy_Walut/ZarobkiMiesieczne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P10_Interface_Funkcyjne_cz2/FunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P25_Stream_Operacje_Posrednie2/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P25_Stream_Operacje_Posrednie2/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P27_Java_stream_Po_Co_Te_Streamy/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P27_Java_stream_Po_Co_Te_Streamy/StreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +41,42 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WarsztatyZajavka" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WarsztatyZajavka" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WarsztatyZajavka" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,11 +115,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P14_JDBC__ResultSet/postgresql-42.6.0.jar",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "File.Encoding",
     "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
   }
 }]]></component>
@@ -73,11 +132,11 @@
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P14_JDBC__ResultSet" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P13_JDBC___Prepared_Statement" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P06_SQL_OPERACJE_cz2" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P05_SQL_OPERACJE_cz2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java" />
@@ -93,20 +152,12 @@
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P7_Exceptions_Try_With_Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_5_BUILDING_TOOLS.P10_Maven_Fat_Jar_oraz_Profiles.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_5_BUILDING_TOOLS.P4_Zaleznosci_cz1.Main" />
-      <module name="WarsztatyZajavka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_5_BUILDING_TOOLS.P4_Zaleznosci_cz1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main">
     <configuration name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" />
       <module name="WarsztatyZajavka" />
@@ -133,16 +184,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
+      <module name="WarsztatyZajavka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarsztatyZajavka [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WarsztatyZajavka [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_5_BUILDING_TOOLS.P10_Maven_Fat_Jar_oraz_Profiles.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.WarsztatyZajavka [build]" />
+      <item itemvalue="Gradle.WarsztatyZajavka [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WarsztatyZajavka [build]" />
+        <item itemvalue="Gradle.WarsztatyZajavka [clean]" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_5_BUILDING_TOOLS.P10_Maven_Fat_Jar_oraz_Profiles.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690583828906</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Warsztat 5: MAVEN itp">
+      <created>1690746420305</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1690746420305</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Projekt policzenia podatku" />
     <MESSAGE value="wersja 2" />
     <MESSAGE value="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji" />
     <MESSAGE value="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego" />
@@ -384,7 +500,8 @@
     <MESSAGE value="Warsztat 4: Projekt zad DO 3" />
     <MESSAGE value="Warsztat 4: Projekt Całość" />
     <MESSAGE value="Warsztat 5: MAVEN zależności, pluginy, dependencji, &#10;zmiana struktury projektu dodanie po src main/java/&#10;POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 5: MAVEN zależności, pluginy, dependencji, &#10;zmiana struktury projektu dodanie po src main/java/&#10;POM" />
+    <MESSAGE value="Warsztat 5: MAVEN itp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 5: MAVEN itp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

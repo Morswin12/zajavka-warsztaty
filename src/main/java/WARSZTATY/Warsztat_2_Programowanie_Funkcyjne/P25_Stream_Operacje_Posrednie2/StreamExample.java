@@ -42,7 +42,7 @@ public class StreamExample {
         System.out.println("----------------distinct-----------------");
 
         List<String> cities = Arrays.asList(
-                "Warszawa", "Kraków", "Łódź","Ącice", "Kielce", "Kielce", "Wrocław", "Masłów", "BielskoBiaa"
+                "Warszawa", "Kraków", "Lódź","Ącice", "Kielce", "Kielce", "Wrocław", "Masłów", "BielskoBiaa"
         );
 
         String collect1 = cities.stream()

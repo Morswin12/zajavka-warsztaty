@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group = 'pl.zajavka'
+version = '1.0.0'
+sourceCompatibility = '19'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    testCompileOnly 'org.projectlombok:lombok:1.18.22'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'pl_group.example.Main'
+    }
+
+    //żeby zrobić FAT JAR musimy napisać poniższy kod:
+    from {
+        configurations.runtimeClasspath.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+allprojects {
+    // Inne ustawienia dla wszystkich projektów
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+}
