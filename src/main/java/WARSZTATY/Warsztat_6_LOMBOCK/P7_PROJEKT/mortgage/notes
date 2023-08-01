@@ -1,0 +1,24 @@
+    @Builder.Default
+    LocalDate repaymentStartDate = LocalDate.of(2020, 12, 10);
+    @Builder.Default
+    BigDecimal wiborPercent = BigDecimal.valueOf(1.70);
+    @Builder.Default
+    BigDecimal amount = BigDecimal.valueOf(301953.46);
+    @Builder.Default
+    BigDecimal monthsDuration = BigDecimal.valueOf(180);
+    @Builder.Default
+    MortgageType rateType = MortgageType.CONSTANT;
+    @Builder.Default
+    BigDecimal marginPercent = BigDecimal.valueOf(1.6);
+    @Builder.Default
+    BigDecimal overpaymentProvisionPercent = BigDecimal.valueOf(3);
+    @Builder.Default
+    BigDecimal overpaymentProvisionMonths = BigDecimal.valueOf(36);
+    @Builder.Default
+    BigDecimal overpaymentStartMonth = BigDecimal.valueOf(1);
+    @Builder.Default
+    Map<Integer, BigDecimal> overpaymentSchema = Map.of(2, BigDecimal.valueOf(10000), 3, BigDecimal.valueOf(10000), 5, BigDecimal.valueOf(10000), 6, BigDecimal.valueOf(10000), 7, BigDecimal.valueOf(10000));
+    @Builder.Default
+    String overpaymentReduceWay = Overpayment.REDUCE_PERIOD;
+    @Builder.Default
+    boolean mortgagePrintPayoffsSchedule = true;

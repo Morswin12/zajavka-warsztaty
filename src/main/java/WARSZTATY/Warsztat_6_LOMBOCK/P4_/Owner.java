@@ -1,13 +1,14 @@
 package WARSZTATY.Warsztat_6_LOMBOCK.P4_;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 
-@AllArgsConstructor
-@ToString
-@EqualsAndHashCode
+import java.util.List;
+
+@Value
 public class Owner {
-    private final String name;
+     String name;
 
+     @NonNull Integer age;
+
+    List<String> favouriteFood;
 }

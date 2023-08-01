@@ -7,12 +7,16 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @With
+//@EqualsAndHashCode
+//@ToString(onlyExplicitlyIncluded = true)
 public class Dog {
+//    @ToString.Include
     private @NonNull String name;
     private int age;
-    //    @ToString.Exclude
+//    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private Owner owner;
 
     public void consume(@NonNull String whatToConsume) {
