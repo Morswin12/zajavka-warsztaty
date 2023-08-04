@@ -1,0 +1,5 @@
+2023-08-03T14:29:09 [main] INFO  W.W.P7_Logowanie_LOGBACK_File.Main:main:14 - Logging info message in: WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main
+2023-08-03T14:29:09 [main] WARN  W.W.P7_Logowanie_LOGBACK_File.Main:main:15 - Logging warn message in: WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main
+2023-08-03T14:29:09 [main] ERROR W.W.P7_Logowanie_LOGBACK_File.Main:main:16 - Logging error message in: WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main
+2023-08-03T14:29:09 [main] INFO  W.W.P7_Logowanie_LOGBACK_File.logger1.Logger1:log:12 - Logging info message in: WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.logger1.Logger1
+2023-08-03T14:29:09 [main] INFO  W.W.P7_Logowanie_LOGBACK_File.logger2.Logger2:log:12 - Logging info message in: WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.logger2.Logger2

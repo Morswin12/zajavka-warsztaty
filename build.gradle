@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'pl.zajavka'
-version = '1.0.0'
+version = '1.0.1'
 sourceCompatibility = '19'
 
 repositories {
@@ -11,7 +11,10 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.8'
+
     implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
+
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
     testCompileOnly 'org.projectlombok:lombok:1.18.22'
@@ -20,8 +23,10 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'pl_group.example.Main'
+        attributes 'Main-Class': 'WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.MortgageCalculator'
     }
+
+    duplicatesStrategy = 'INCLUDE'
 
     //żeby zrobić FAT JAR musimy napisać poniższy kod:
     from {

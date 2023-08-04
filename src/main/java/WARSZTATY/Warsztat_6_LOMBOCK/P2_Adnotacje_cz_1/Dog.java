@@ -13,13 +13,13 @@ import lombok.*;
 //@ToString(onlyExplicitlyIncluded = true)
 public class Dog {
 //    @ToString.Include
-    private @NonNull String name;
+    private String name;
     private int age;
 //    @ToString.Exclude
-    @EqualsAndHashCode.Exclude
+//    @EqualsAndHashCode.Exclude
     private Owner owner;
 
-    public void consume(@NonNull String whatToConsume) {
+    public void consume(String whatToConsume) {
         System.out.println("Consuming: " + whatToConsume);
     }
 }

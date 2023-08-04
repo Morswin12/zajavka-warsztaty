@@ -4,49 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 5: Przerobienie pojektu z Maven do Gradle &#10;Warsztat 6: Lombock 1-3 filmy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Employee1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Employee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/MortgageCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/InputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/MortgageReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/MortgageResidual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/MortgageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/Overpayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/Rate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/RateAmounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/Summary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/TimePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/AmountsCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/AmountsCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ConstantAmountsCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ConstantAmountsCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/DecreasingAmountsCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/MortgageCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/MortgageCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/MortgageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/OverpaymentCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/OverpaymentCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/PrintingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/PrintingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/RateCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/RateCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ReferenceCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ReferenceCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ResidualCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/ResidualCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/SummaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/SummaryServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/TimePointCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/services/TimePointCalculationServiceImpl.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 6: projekt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P1_P2__Intro/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P3_Poziomy_Logowania/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P3_Poziomy_Logowania/slf4j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P4_Logowanie_LSF4J/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P4_Logowanie_LSF4J/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P5_Logowanie_LOGBACK_Console_cz1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P5_Logowanie_LOGBACK_Console_cz1/logger1/Logger1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P5_Logowanie_LOGBACK_Console_cz1/logger2/Logger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P6_Logowanie_LOGBACK_Console_cz2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P7_Logowanie_LOGBACK_File/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P7_Logowanie_LOGBACK_File/logger1/Logger1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P7_Logowanie_LOGBACK_File/logger2/Logger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/logger1/Logger1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/logger2/Logger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/loggerLoop/LoggerLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createdFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P2_Adnotacje_cz_1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P2_Adnotacje_cz_1/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P4_/Owner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +110,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -146,11 +127,11 @@
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P8_Logowanie_Logback_RollingFile" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P7_Logowanie_LOGBACK_File" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P5_Logowanie_LOGBAG_Console_cz1" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_6_LOMBOCK\P7_PROJEKT" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P14_JDBC__ResultSet" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\P13_JDBC___Prepared_Statement" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\WARSZTATY\Warsztat_4_Bazy_Danych\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java" />
@@ -159,11 +140,11 @@
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\zzz" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBAG_Console_cz1" />
+      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBAG_Console_cz1.logger2" />
+      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P4_Logowanie_LSF4J" />
       <recent name="WARSZTATY.Warsztat_6_LOMBOCK.P4_" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem" />
-      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P23_IO__in_out_Serialization_Deserialization_cz_2" />
-      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream.P18_IO__in_out__BufferedInputStream_BufferedOutputStream" />
-      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P9_Exceptions_SupressedExceptions" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -171,13 +152,13 @@
       <command value="gradle clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MortgageCalculator">
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_6_LOMBOCK.P4_.Main" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBACK_Console_cz1.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_6_LOMBOCK.P4_.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBACK_Console_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.MortgageCalculator" />
+    <configuration name="WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.loggerLoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
+    <configuration name="WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,7 +197,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--info" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -254,19 +235,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MortgageCalculator" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.WarsztatyZajavka [build]" />
       <item itemvalue="Gradle.WarsztatyZajavka [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MortgageCalculator" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_7_LOGOWANIE.P7_Logowanie_LOGBACK_File.Main" />
         <item itemvalue="Gradle.WarsztatyZajavka [build]" />
         <item itemvalue="Gradle.WarsztatyZajavka [clean]" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_6_LOMBOCK.P2_Adnotacje_cz_1.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690842434536</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Warsztat 6: projekt">
+      <created>1690882513638</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1690882513638</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 1: Zrobione zadanie nr 3 z zaawansowanych kolekcji" />
     <MESSAGE value="Warsztat 2:Filmy 1-6 powtórka lambda i wstep do programowania funkcyjnego" />
     <MESSAGE value="Warsztat 2: Filmy 7-9 interfejsy funkcyjne itp." />
     <MESSAGE value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
@@ -522,7 +509,8 @@
     <MESSAGE value="Warsztat 5: MAVEN zależności, pluginy, dependencji, &#10;zmiana struktury projektu dodanie po src main/java/&#10;POM" />
     <MESSAGE value="Warsztat 5: MAVEN itp" />
     <MESSAGE value="Warsztat 5: Przerobienie pojektu z Maven do Gradle &#10;Warsztat 6: Lombock 1-3 filmy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 5: Przerobienie pojektu z Maven do Gradle &#10;Warsztat 6: Lombock 1-3 filmy" />
+    <MESSAGE value="Warsztat 6: projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 6: projekt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
