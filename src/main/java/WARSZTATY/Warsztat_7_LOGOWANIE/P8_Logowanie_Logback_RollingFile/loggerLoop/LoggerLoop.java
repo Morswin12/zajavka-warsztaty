@@ -18,7 +18,7 @@ public class LoggerLoop {
             3, key -> log.error("Some error message, key: {}", key)
     );
     public static void log() {
-        IntStream.rangeClosed(0, 1_000_000)
+        IntStream.rangeClosed(0, 3_000_000)
                 .map(i -> i % 4)
                 .forEach(key -> Optional.ofNullable(ACTIONS.get(key))
                         .orElseThrow(() -> new RuntimeException("Case not handled"))

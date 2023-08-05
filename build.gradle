@@ -17,8 +17,12 @@ dependencies {
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
     testCompileOnly 'org.projectlombok:lombok:1.18.22'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+
 }
 
 jar {
@@ -41,5 +45,12 @@ allprojects {
 
     tasks.withType(JavaCompile) {
         options.encoding = 'UTF-8'
+    }
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
     }
 }
