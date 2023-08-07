@@ -4,31 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 7: filmy 1-7 i początek 8&#10;LOGBACK CONSOLE/fILE">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/P8_Logowanie_Logback_RollingFile.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.0.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/archived/P8_Logowanie_Logback_RollingFile.2023-08-04-20-08-62.9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P9_Logowanie_Podsumowanie/LoggerLombok/LoggerLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P1_Unit_Testing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P2_Integracja_Gradle_i_Maven/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P3_Testy_JUnit_Pierwsze_testy_w_Java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P3_Testy_JUnit_Pierwsze_testy_w_Java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 8: 1-3 &#10;Unit Tests">
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJ_NOTATNIK/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P10_Code_Coverage_cz_1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P10_Code_Coverage_cz_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P12_TDD/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P7_Testy_JUnit_Testy_parametryzowane/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/IAnotherCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/RealAnotherCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logbackCopy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P7_Testy_JUnit_Testy_parametryzowane/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/loggerLoop/LoggerLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_7_LOGOWANIE/P8_Logowanie_Logback_RollingFile/loggerLoop/LoggerLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +43,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\htmlInteliiJReportCoveredTests" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -81,20 +89,20 @@
         <option value="UML Sequence" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -128,8 +136,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P3_Testy_JUnit_Pierwsze_testy_w_Java",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka",
+    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -139,18 +147,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
       <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project" />
       <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet" />
       <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_Serialization_Deserialization_cz_1" />
       <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P7_Method_Reference_podejscie_funkcyjne" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\test\resources" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P8_Logowanie_Logback_RollingFile" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P7_Logowanie_LOGBACK_File" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P5_Logowanie_LOGBAG_Console_cz1" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_6_LOMBOCK\P7_PROJEKT" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java" />
@@ -162,14 +170,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P3_Testy_JUnit_Pierwsze_testy_w_Java" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P7_Testy_JUnit_Testy_parametryzowane" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P7_Testy_JUnit_Testy_parametryzowane" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P2_Integracja_Gradle_i_Maven" />
-      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBAG_Console_cz1" />
-      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P5_Logowanie_LOGBAG_Console_cz1.logger2" />
-      <recent name="WARSZTATY.Warsztat_7_LOGOWANIE.P4_Logowanie_LSF4J" />
-      <recent name="WARSZTATY.Warsztat_6_LOMBOCK.P4_" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -178,98 +190,22 @@
       <command value="gradle test --info" />
       <command value="gradle test" />
       <command value="gradle :test" />
+      <command value="gradle clean package" />
     </option>
   </component>
   <component name="RunManager" selected="Gradle.WarsztatyZajavka [build]">
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P3_Testy_JUnit_Pierwsze_testy_w_Java.CalculatorTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculatorTest.testAdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P3_Testy_JUnit_Pierwsze_testy_w_Java.CalculatorTest.testAdd&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculatorTest.testDivide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-            <option value="--tests" />
-            <option value="&quot;WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P3_Testy_JUnit_Pierwsze_testy_w_Java.CalculatorTest.testDivide&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WarsztatyZajavka [:test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
+      <module name="WarsztatyZajavka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="WarsztatyZajavka [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -292,20 +228,59 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.add (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.CalculatorTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in WarsztatyZajavka.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.CalculatorTest" />
-      <item itemvalue="Gradle.CalculatorTest.testAdd" />
-      <item itemvalue="Gradle.CalculatorTest.testDivide" />
-      <item itemvalue="Gradle.WarsztatyZajavka [:test]" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
       <item itemvalue="Gradle.WarsztatyZajavka [build]" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.add (1)" />
+      <item itemvalue="JUnit.java in WarsztatyZajavka.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.WarsztatyZajavka [build]" />
-        <item itemvalue="Gradle.CalculatorTest.testAdd" />
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.CalculatorTest.testDivide" />
-        <item itemvalue="Gradle.WarsztatyZajavka [:test]" />
+        <item itemvalue="JUnit.java in WarsztatyZajavka.test" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.add (1)" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691177130243</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Warsztat 8: 1-3 &#10;Unit Tests">
+      <created>1691264872790</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1691264872790</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 2: Filmy 7-9 interfejsy funkcyjne itp." />
     <MESSAGE value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
     <MESSAGE value="Warsztat 2: Filmy 12-14 interfejsy funkcyjne itp.&#10;Oraz program do liczenia objętości drzewa" />
     <MESSAGE value="Warsztat 2: Filmy do 28 straemy itp" />
@@ -575,7 +556,8 @@
     <MESSAGE value="Warsztat 5: Przerobienie pojektu z Maven do Gradle &#10;Warsztat 6: Lombock 1-3 filmy" />
     <MESSAGE value="Warsztat 6: projekt" />
     <MESSAGE value="Warsztat 7: filmy 1-7 i początek 8&#10;LOGBACK CONSOLE/fILE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 7: filmy 1-7 i początek 8&#10;LOGBACK CONSOLE/fILE" />
+    <MESSAGE value="Warsztat 8: 1-3 &#10;Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 8: 1-3 &#10;Unit Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,6 +572,11 @@
           <line>33</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/RealAnotherCalculator.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -603,6 +590,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WarsztatyZajavka$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1691417880750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/WarsztatyZajavka$CalculatorTest_testAdd.ic" NAME="CalculatorTest.testAdd Coverage Results" MODIFIED="1691262332142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WarsztatyZajavka$java_in_WarsztatyZajavka_test.ic" NAME="java in WarsztatyZajavka.test Coverage Results" MODIFIED="1691417942419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

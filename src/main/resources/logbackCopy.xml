@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
     <!--<property name="HOME_LOG" value="${user.dir}/logs/WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.log"/>-->
-    <property name="HOME_LOG_ROLLING" value="${user.dir}/logs/W8_P8_UnitTests.log"/>
+    <property name="HOME_LOG_ROLLING" value="${user.dir}/logs/P8_Logowanie_Logback_RollingFile.log"/>
 
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
@@ -10,14 +10,26 @@
         </encoder>
     </appender>
 
+    <!--    <appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+    <!--        <file>${HOME_LOG}</file>-->
+    <!--        <append>true</append>-->
+    <!--        <immediateFlush>true</immediateFlush>-->
+    <!--        <encoder>-->
+    <!--            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss} [%t] %-5level %logger{50}:%method:%line - %msg%n </pattern>-->
+    <!--        </encoder>-->
+    <!--    </appender>-->
+
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${HOME_LOG_ROLLING}</file>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${user.dir}/logs/archived/P8_Logowanie_Logback_RollingFile.%d{yyyy-MM-dd-HH-MM-SS}.%i.log.gz
             </fileNamePattern>
+            <!--            maksymalny roziar 1 pliku-->
             <maxFileSize>4mb</maxFileSize>
+            <!--            maksymalny rozmiar wszystkich plików, po którym najstarsze będą kasowane-->
             <totalSizeCap>1GB</totalSizeCap>
+            <!--            po ilu dniach pliki będą usuwane-->
             <maxHistory>50</maxHistory>
         </rollingPolicy>
 
@@ -26,8 +38,12 @@
         </encoder>
     </appender>
 
+    <logger name="WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.loggerLoop" level="debug"
+            additivity="false">
+        <appender-ref ref="FILE-ROLLING"/>
+    </logger>
 
-    <root level="warn">
+    <root level="info">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE-ROLLING"/>
     </root>
