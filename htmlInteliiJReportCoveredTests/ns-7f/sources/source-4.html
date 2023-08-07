@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > DecreasingAmountsCalculationServiceImpl</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services</a>
+</div>
+
+<h1>Coverage Summary for Class: DecreasingAmountsCalculationServiceImpl (WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">DecreasingAmountsCalculationServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/19)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services;
+&nbsp;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.InputData;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Overpayment;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Rate;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.RateAmounts;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.math.RoundingMode;
+&nbsp;
+<b class="nc">&nbsp;public class DecreasingAmountsCalculationServiceImpl implements DecreasingAmountsCalculationService {</b>
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment) {
+<b class="nc">&nbsp;        BigDecimal interestPercent = inputData.getInterestPercent();</b>
+&nbsp;
+<b class="nc">&nbsp;        final BigDecimal residualAmount = inputData.getAmount();</b>
+<b class="nc">&nbsp;        final BigDecimal residualDuration = inputData.getMonthsDuration();</b>
+&nbsp;
+<b class="nc">&nbsp;        BigDecimal interestAmount = AmountsCalculationService.calculateInterestAmount(residualAmount, interestPercent);</b>
+<b class="nc">&nbsp;        BigDecimal capitalAmount = AmountsCalculationService.compareCapitalWithResidual(</b>
+<b class="nc">&nbsp;            calculateDecreasingCapitalAmount(residualAmount, residualDuration), residualAmount);</b>
+<b class="nc">&nbsp;        BigDecimal rateAmount = capitalAmount.add(interestAmount);</b>
+&nbsp;
+<b class="nc">&nbsp;        return new RateAmounts(rateAmount, interestAmount, capitalAmount, overpayment);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousRate) {
+<b class="nc">&nbsp;        BigDecimal interestPercent = inputData.getInterestPercent();</b>
+&nbsp;
+<b class="nc">&nbsp;        BigDecimal residualAmount = previousRate.getMortgageResidual().getResidualAmount();</b>
+<b class="nc">&nbsp;        BigDecimal referenceAmount = previousRate.getMortgageReference().getReferenceAmount();</b>
+<b class="nc">&nbsp;        BigDecimal referenceDuration = previousRate.getMortgageReference().getReferenceDuration();</b>
+&nbsp;
+<b class="nc">&nbsp;        BigDecimal interestAmount = AmountsCalculationService.calculateInterestAmount(residualAmount, interestPercent);</b>
+<b class="nc">&nbsp;        BigDecimal capitalAmount = AmountsCalculationService.compareCapitalWithResidual(</b>
+<b class="nc">&nbsp;            calculateDecreasingCapitalAmount(referenceAmount, referenceDuration), residualAmount);</b>
+<b class="nc">&nbsp;        BigDecimal rateAmount = capitalAmount.add(interestAmount);</b>
+&nbsp;
+<b class="nc">&nbsp;        return new RateAmounts(rateAmount, interestAmount, capitalAmount, overpayment);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private BigDecimal calculateDecreasingCapitalAmount(final BigDecimal residualAmount, final BigDecimal residualDuration) {
+<b class="nc">&nbsp;        return residualAmount.divide(residualDuration, 2, RoundingMode.HALF_UP);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

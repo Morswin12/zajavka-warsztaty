@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main2_Zad7.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a> &gt; <span class="el_source">Main2_Zad7.java</span></div><h1>Main2_Zad7.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.DataFactory.produce;
+
+<span class="nc" id="L8">public class Main2_Zad7 {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L10">        List&lt;Purchase&gt; produceShopingList = produce();</span>
+
+        //      Zad 7
+
+<span class="nc" id="L14">        TreeMap&lt;String, Long&gt; productAndAmountMap = produceShopingList.stream()</span>
+<span class="nc" id="L15">                .collect(Collectors.toMap(</span>
+<span class="nc" id="L16">                        key -&gt; key.getProduct().getId(),</span>
+                        Purchase::getQuantity,
+                        Main2_Zad7::addAmount,
+                        TreeMap::new
+                ));
+
+<span class="nc" id="L22">        TreeMap&lt;Long, ArrayList&lt;String&gt;&gt; amountAndProductsmap = productAndAmountMap.entrySet().stream()</span>
+<span class="nc" id="L23">                .collect(Collectors.toMap(</span>
+                        Map.Entry::getValue,
+<span class="nc" id="L25">                        v -&gt; new ArrayList&lt;&gt;(List.of(v.getKey())),</span>
+                        Main2_Zad7::margeToList,
+                        TreeMap::new
+                ));
+
+<span class="nc" id="L30">        System.out.println(productAndAmountMap);</span>
+<span class="nc" id="L31">        System.out.println(amountAndProductsmap);</span>
+
+<span class="nc" id="L33">        Long aLong = amountAndProductsmap.entrySet().stream()</span>
+<span class="nc" id="L34">                .map(a -&gt; a.getKey())</span>
+<span class="nc" id="L35">                .sorted(Comparator.reverseOrder())</span>
+<span class="nc" id="L36">                .skip(1)</span>
+<span class="nc" id="L37">                .max(Comparator.naturalOrder())</span>
+<span class="nc" id="L38">                .orElse(0l);</span>
+
+<span class="nc" id="L40">        ArrayList&lt;String&gt; arrayList = amountAndProductsmap.get(aLong);</span>
+
+<span class="nc" id="L42">        System.out.println(arrayList);</span>
+<span class="nc" id="L43">        System.out.println(aLong);</span>
+//        System.out.println(&quot;\n   Exe 7 \nLiczba klientÃ³w ktÃ³rzy kupowali w \&quot;EUR\&quot; to: &quot; + clientYearMapUnique + &quot;  &quot;);
+
+<span class="nc" id="L46">    }</span>
+
+    private static Long addAmount(Long l, Long r) {
+<span class="nc" id="L49">        return l + r;</span>
+    }
+
+    private static ArrayList&lt;String&gt; margeToList(ArrayList&lt;String&gt; l, ArrayList&lt;String&gt; r) {
+<span class="nc" id="L53">        ArrayList&lt;String&gt; result = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L54">        result.addAll(l);</span>
+<span class="nc" id="L55">        result.addAll(r);</span>
+<span class="nc" id="L56">        return result;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

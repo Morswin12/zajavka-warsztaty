@@ -1,0 +1,224 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/38)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
+&nbsp;
+&nbsp;import java.time.LocalDate;
+&nbsp;import java.util.Arrays;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List&lt;Warsztat&gt; warsztaty = Arrays.asList(</b>
+&nbsp;                new Warsztat(&quot;JAVA GENERICS I KOLEKCJE&quot;, 1, 40, new CzasTrwania(5), new CzasTrwania(6, 15), new CzasTrwania(7), new Progress(22)),
+&nbsp;                new Warsztat(&quot;PROGRAMOWANIE FUNKCYJNE&quot;, 2, 37, new CzasTrwania(7, 15), new CzasTrwania(6, 30), new CzasTrwania(7, 15), new Progress(27)),
+&nbsp;                new Warsztat(&quot;LOKALIZACJA I OPERACJE NA PLIKACH&quot;, 3, 38, new CzasTrwania(8, 45), new CzasTrwania(8, 30), new CzasTrwania(6), new Progress(33)),
+&nbsp;                new Warsztat(&quot;PODSTAWOWE OPERACJE NA BAZACH DANYCH I JDBC&quot;, 4, 16, new CzasTrwania(5, 30), new CzasTrwania(0), new CzasTrwania(4, 45), new Progress(37)),
+&nbsp;                new Warsztat(&quot;BUILDING TOOLS&quot;, 5, 21, new CzasTrwania(5, 30), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(39)),
+&nbsp;                new Warsztat(&quot;JAK PISAC MNIEJ KODU? LOMBOK&quot;, 6, 7, new CzasTrwania(2), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(40)),
+&nbsp;                new Warsztat(&quot;ZAPIS PRZEBIEGU DZIALANIA APLIKACJI - LOGOWANIE&quot;, 7, 12, new CzasTrwania(2, 45), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(41)),
+&nbsp;                new Warsztat(&quot;TESTY JEDNOSTKOWE&quot;, 8, 15, new CzasTrwania(3, 45), new CzasTrwania(0), new CzasTrwania(2, 30), new Progress(44)),
+&nbsp;                new Warsztat(&quot;DIAGRAM UML&quot;, 9, 11, new CzasTrwania(2, 15), new CzasTrwania(0), new CzasTrwania(0), new Progress(45)),
+&nbsp;                new Warsztat(&quot;DESIGN PRINCIPLES I DESIGN PATTERNS&quot;, 10, 27, new CzasTrwania(9, 45), new CzasTrwania(0), new CzasTrwania(0), new Progress(48)),
+&nbsp;                new Warsztat(&quot;KOLEJNE WERSJE JAVY&quot;, 11, 19, new CzasTrwania(6), new CzasTrwania(0), new CzasTrwania(3), new Progress(52)),
+&nbsp;                new Warsztat(&quot;JAK ZAPISAC HISTORIE WPROWADZANYCH ZMIAN? GIT&quot;, 12, 36, new CzasTrwania(14), new CzasTrwania(0), new CzasTrwania(1), new Progress(58)),
+&nbsp;                new Warsztat(&quot;SPRING BEANS&quot;, 13, 14, new CzasTrwania(4), new CzasTrwania(0), new CzasTrwania(0, 30), new Progress(59)),
+&nbsp;                new Warsztat(&quot;MOCKING I SPRING&quot;, 14, 20, new CzasTrwania(4, 45), new CzasTrwania(0), new CzasTrwania(1, 30), new Progress(62)),
+&nbsp;                new Warsztat(&quot;SPRING DATA ACCESS&quot;, 15, 14, new CzasTrwania(3, 45), new CzasTrwania(0), new CzasTrwania(5, 45), new Progress(65)),
+&nbsp;                new Warsztat(&quot;ORM I HIBERNATE&quot;, 16, 40, new CzasTrwania(16), new CzasTrwania(0), new CzasTrwania(8), new Progress(74)),
+&nbsp;                new Warsztat(&quot;SPRING DATA JPA&quot;, 17, 18, new CzasTrwania(6, 45), new CzasTrwania(0), new CzasTrwania(4, 15), new Progress(79)),
+&nbsp;                new Warsztat(&quot;CONCURRENCY&quot;, 18, 1, new CzasTrwania(6), new CzasTrwania(0), new CzasTrwania(0), new Progress(81)),
+&nbsp;                new Warsztat(&quot;SPRING WEB MVC&quot;, 19, 24, new CzasTrwania(9, 45), new CzasTrwania(0), new CzasTrwania(5, 15), new Progress(87)),
+&nbsp;                new Warsztat(&quot;SPRING BOOT&quot;, 20, 20, new CzasTrwania(7, 30), new CzasTrwania(0), new CzasTrwania(1, 45), new Progress(90)),
+&nbsp;                new Warsztat(&quot;SPRING REST&quot;, 21, 39, new CzasTrwania(11, 45), new CzasTrwania(0), new CzasTrwania(4), new Progress(96)),
+&nbsp;                new Warsztat(&quot;HOW TO DEPLOY&quot;, 22, 2, new CzasTrwania(10), new CzasTrwania(0), new CzasTrwania(0), new Progress(100))
+&nbsp;        );
+<b class="nc">&nbsp;        CzasTrwania sumaryczny_czas = new CzasTrwania(0, 0);</b>
+<b class="nc">&nbsp;        for (Warsztat warsztat : warsztaty) {</b>
+<b class="nc">&nbsp;            sumaryczny_czas = sumaryczny_czas.add(warsztat.getSumarycznyCzas());</b>
+<b class="nc">&nbsp;            AktualnaData actualDate = new AktualnaData(sumaryczny_czas);</b>
+<b class="nc">&nbsp;            System.out.println(&quot;\n Do warsztatu nr: &quot; + warsztat.getNumer() + &quot; sumaryczny czas trwania filmów to: &quot; + sumaryczny_czas);</b>
+<b class="nc">&nbsp;            actualDate.printAmountOfMaterialsTime();</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        System.out.println(sumaryczny_czas);</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(warsztaty.get(0).getSumarycznyCzas());</b>
+&nbsp;//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getGodziny());
+&nbsp;//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getMinuty());
+&nbsp;
+<b class="nc">&nbsp;        CzasTrwania sumaryczny_czas_do_11_warsztatu = new CzasTrwania(0, 0);</b>
+<b class="nc">&nbsp;        for (int i = 0; i &lt; 11; i++) {</b>
+<b class="nc">&nbsp;            sumaryczny_czas_do_11_warsztatu = sumaryczny_czas_do_11_warsztatu.add(warsztaty.get(i).getSumarycznyCzas());</b>
+&nbsp;        }
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;sumaryczny_czas_do_11_warsztatu: &quot; + sumaryczny_czas_do_11_warsztatu);</b>
+<b class="nc">&nbsp;        Long suma_minut = sumaryczny_czas_do_11_warsztatu.getGodziny() * 60 + sumaryczny_czas_do_11_warsztatu.getMinuty();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;suma_minut: &quot; + suma_minut);</b>
+<b class="nc">&nbsp;        Long ilosc_minut_na_dzien = suma_minut / 157;</b>
+<b class="nc">&nbsp;        Long ilosc_minut_na_dzien_roboczy = suma_minut / 112;</b>
+<b class="nc">&nbsp;        System.out.println(&quot;ilosc_minut_na_dzien_roboczy &quot; + ilosc_minut_na_dzien_roboczy);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;ilosc_minut_na_dzien &quot; + ilosc_minut_na_dzien);</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        AktualnaData aktualnaData = new AktualnaData(5l);</b>
+<b class="nc">&nbsp;        aktualnaData.printAmountOfMaterialsTime();</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+<b class="nc">&nbsp;        AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 6, 18));</b>
+<b class="nc">&nbsp;        aktualnaData2.printAmountOfMaterialsTime();</b>
+&nbsp;
+&nbsp;//        List&lt;CzasFilmików&gt; czasFilmikówList = new ArrayList&lt;&gt;();
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(1, 22, 8));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(2, 6, 15));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(3, 11, 24));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(4, 6, 44));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(5, 61, 28));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(6, 10, 15));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(7, 6, 53));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(8, 7, 30));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(9, 6, 26));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(10, 44, 6));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(11, 0, 0));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(12, 102, 16));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(13, 6, 39));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(14, 23, 20));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(15, 9, 17));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(16, 63, 5));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(17, 0, 0));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(18, 48, 18));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(19, 7, 28));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(20, 20, 30));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(21, 40, 57));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(22, 19, 7));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(23, 5, 7));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(24, 17, 29));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(25, 39, 42));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(26, 36, 23));
+&nbsp;//        czasFilmikówList.add(new CzasFilmików(27, 3, 18));
+&nbsp;//
+&nbsp;//        CzasFilmików czasFilmikówDo = new CzasFilmików(0, 0, 0);
+&nbsp;//        for (CzasFilmików czasFilmików : czasFilmikówList) {
+&nbsp;//            czasFilmikówDo.setMinuty(czasFilmikówDo.getMinuty() + czasFilmików.getMinuty());
+&nbsp;//            czasFilmikówDo.setSekundy(czasFilmikówDo.getSekundy() + czasFilmików.getSekundy());
+&nbsp;//        }
+&nbsp;//        int minuty = czasFilmikówDo.getMinuty() + (czasFilmikówDo.getSekundy() / 60);
+&nbsp;//        System.out.println(&quot;Minut do filmu26: &quot; + minuty);
+&nbsp;//        System.out.println(&quot;Godzin: &quot; + minuty / 60 + &quot;:&quot; + minuty % 60);
+&nbsp;
+<b class="nc">&nbsp;        AktualnaData aktualnaData4 = new AktualnaData(new CzasTrwania(77, 00));</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(20, 60));</b>
+<b class="nc">&nbsp;        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(58, 30));</b>
+<b class="nc">&nbsp;        AktualnaData aktualnaData6 = new AktualnaData(LocalDate.of(2023,6,18));</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+<b class="nc">&nbsp;        aktualnaData3.printAmountOfMaterialsTime();</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        aktualnaData5.printAmountOfMaterialsTime();</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        aktualnaData6.printAmountOfMaterialsTime();</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

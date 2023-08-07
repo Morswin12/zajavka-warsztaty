@@ -1,0 +1,168 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/23)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P22_IO__in_out_Serialization_Deserialization_cz_1;
+&nbsp;
+&nbsp;import java.io.*;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) throws IOException, ClassNotFoundException {
+<b class="nc">&nbsp;        File destination = new File(&quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +</b>
+&nbsp;                &quot;P21_IO__in_out_Serialization_Deserialization_cz_1/carsList.wathever&quot;);
+&nbsp;
+&nbsp;//        List&lt;Car&gt; cars = new ArrayList&lt;&gt;();
+&nbsp;//        cars.add(new Car(&quot;Ford Mustang&quot;, 1967L, List.of(new Door(&quot;left&quot;), new Door(&quot;right&quot;))));
+&nbsp;//        cars.add(new Car(&quot;BMW 3&quot;, 2015L, List.of(new Door(&quot;left&quot;), new Door(&quot;right&quot;))));
+&nbsp;//        cars.add(new Car(&quot;Mercedec G-class&quot;, 2004L, List.of(new Door(&quot;left&quot;), new Door(&quot;right&quot;))));
+&nbsp;//
+&nbsp;//        serializeCars(cars, destination);
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Car&gt; carsDeserialized = deserializedCars(destination);</b>
+<b class="nc">&nbsp;        for (Car car : carsDeserialized) {</b>
+<b class="nc">&nbsp;            System.out.println(car);</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;//        System.out.println(carsDeserialized);
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void serializeCars(List&lt;Car&gt; cars, File destination) throws IOException {
+<b class="nc">&nbsp;        try (ObjectOutputStream outputStream = new ObjectOutputStream(</b>
+&nbsp;                new BufferedOutputStream(
+&nbsp;                        new FileOutputStream(destination)
+&nbsp;                )
+&nbsp;        )
+&nbsp;        ) {
+<b class="nc">&nbsp;            for (Car car : cars) {</b>
+<b class="nc">&nbsp;                outputStream.writeObject(car);</b>
+&nbsp;
+<b class="nc">&nbsp;            }</b>
+&nbsp;
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static List&lt;Car&gt; deserializedCars(File destination) throws IOException, ClassNotFoundException {
+<b class="nc">&nbsp;        List&lt;Car&gt; result = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        try (ObjectInputStream inputStream = new ObjectInputStream(</b>
+&nbsp;                new BufferedInputStream(
+&nbsp;                        new FileInputStream(destination)
+&nbsp;                )
+&nbsp;        )
+&nbsp;        ) {
+&nbsp;            while (true) {
+<b class="nc">&nbsp;                Object objects = inputStream.readObject();</b>
+<b class="nc">&nbsp;                if (!(objects instanceof Car)) {</b>
+<b class="nc">&nbsp;                    System.out.println(&quot;Object is not Car!&quot;);</b>
+&nbsp;                }
+<b class="nc">&nbsp;                Car carRead = (Car) objects;</b>
+<b class="nc">&nbsp;                System.out.println(&quot;Succesfully read a Car: &quot; + carRead);</b>
+<b class="nc">&nbsp;                result.add(carRead);</b>
+<b class="nc">&nbsp;            }</b>
+&nbsp;
+<b class="nc">&nbsp;        } catch (EOFException e) {</b>
+<b class="nc">&nbsp;            System.out.println(&quot;End of File!&quot;);</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

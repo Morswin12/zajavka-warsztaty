@@ -1,0 +1,135 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > PredicateExample</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1</a>
+</div>
+
+<h1>Coverage Summary for Class: PredicateExample (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">PredicateExample</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/15)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P9_Interfejsy_funkcyjne_cz1;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;import java.util.function.Predicate;
+&nbsp;
+<b class="nc">&nbsp;public class PredicateExample {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List&lt;String&gt; cities = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        cities.add(&quot;Kraków&quot;);</b>
+<b class="nc">&nbsp;        cities.add(&quot;Pcin&quot;);</b>
+<b class="nc">&nbsp;        cities.add(&quot;Piaseczno&quot;);</b>
+<b class="nc">&nbsp;        cities.add(&quot;Rowerowki&quot;);</b>
+<b class="nc">&nbsp;        cities.add(&quot;Por?bki&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        printSomeCities(cities, PredicateExample::isContains);</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        printSomeCities(cities, s -&gt; s.length()&gt;6);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static boolean isContains(String s) {
+<b class="nc">&nbsp;        return s.contains(&quot;P&quot;);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void printSomeCities(final List&lt;String&gt; cities, Predicate&lt;String&gt; checker) {
+<b class="nc">&nbsp;        for (String city : cities) {</b>
+<b class="nc">&nbsp;            if (checker.test(city)) {</b>
+<b class="nc">&nbsp;                System.out.println(city);</b>
+&nbsp;            }
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

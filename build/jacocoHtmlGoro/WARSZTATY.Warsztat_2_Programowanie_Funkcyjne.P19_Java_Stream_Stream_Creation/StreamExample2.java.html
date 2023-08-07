@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StreamExample2.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P19_Java_Stream_Stream_Creation</a> &gt; <span class="el_source">StreamExample2.java</span></div><h1>StreamExample2.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P19_Java_Stream_Stream_Creation;
+
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+<span class="nc" id="L6">public class StreamExample2 {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L8">        Stream&lt;String&gt; empty = Stream.empty();</span>
+<span class="nc" id="L9">        Stream&lt;String&gt; stringStream = Stream.of(&quot;1&quot;, &quot;7&quot;, &quot;10&quot;)</span>
+<span class="nc" id="L10">                .peek(elem -&gt; System.out.println(&quot;elem: &quot; + elem));</span>
+
+//        Stream.generate(() -&gt; Math.random()).peek(s -&gt; System.out.println(&quot;elem: &quot; + s)).collect(Collectors.toList());
+
+<span class="nc" id="L14">        Stream.iterate(0, previous -&gt; previous + 1).peek(s-&gt; System.out.println(s)).collect(Collectors.toList());</span>
+<span class="nc" id="L15">      }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

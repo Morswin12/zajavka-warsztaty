@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataFactory.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a> &gt; <span class="el_source">DataFactory.java</span></div><h1>DataFactory.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="nc" id="L9">public class DataFactory {</span>
+
+    public static List&lt;Purchase&gt; produce() {
+<span class="nc" id="L12">        List&lt;Purchase&gt; purchaseList = new ArrayList&lt;&gt;();</span>
+        // Clients
+<span class="nc" id="L14">        Client client0 = new Client(&quot;client0&quot;, &quot;Roman&quot;, &quot;Kowalski&quot;, BigInteger.valueOf(65814267854L), &quot;PoznaÅ„&quot;);</span>
+<span class="nc" id="L15">        Client client1 = new Client(&quot;client1&quot;, &quot;Karolina&quot;, &quot;Nowak&quot;, BigInteger.valueOf(66060897231L), &quot;Warszawa&quot;);</span>
+<span class="nc" id="L16">        Client client2 = new Client(&quot;client2&quot;, &quot;Marta&quot;, &quot;RomaÅ„czuk&quot;, BigInteger.valueOf(62063073633L), &quot;Szczecin&quot;);</span>
+<span class="nc" id="L17">        Client client3 = new Client(&quot;client3&quot;, &quot;Andrzej&quot;, &quot;StefaÅ„ski&quot;, BigInteger.valueOf(62051084215L), &quot;KrakÃ³w&quot;);</span>
+<span class="nc" id="L18">        Client client4 = new Client(&quot;client4&quot;, &quot;Krystyna&quot;, &quot;Baranowska&quot;, BigInteger.valueOf(65073073798L), &quot;Warszawa&quot;);</span>
+<span class="nc" id="L19">        Client client5 = new Client(&quot;client5&quot;, &quot;Marcin&quot;, &quot;Sadowski&quot;, BigInteger.valueOf(68071193875L), &quot;PoznaÅ„&quot;);</span>
+<span class="nc" id="L20">        Client client6 = new Client(&quot;client6&quot;, &quot;Monika&quot;, &quot;Radomska&quot;, BigInteger.valueOf(68042182821L), &quot;Szczecin&quot;);</span>
+<span class="nc" id="L21">        Client client7 = new Client(&quot;client7&quot;, &quot;Tadeusz&quot;, &quot;StefaÅ„ski&quot;, BigInteger.valueOf(92052325758L), &quot;KrakÃ³w&quot;);</span>
+<span class="nc" id="L22">        Client client8 = new Client(&quot;client8&quot;, &quot;Marta&quot;, &quot;Nowak&quot;, BigInteger.valueOf(62042135735L), &quot;KrakÃ³w&quot;);</span>
+<span class="nc" id="L23">        Client client9 = new Client(&quot;client9&quot;, &quot;Marcin&quot;, &quot;Kowalski&quot;, BigInteger.valueOf(72070729244L), &quot;Warszawa&quot;);</span>
+
+        // Products
+<span class="nc" id="L26">        Product product0 = new Product(&quot;product0&quot;, &quot;Doniczka&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;15.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L27">        Product product1 = new Product(&quot;product1&quot;, &quot;Lampa&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;18.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L28">        Product product2 = new Product(&quot;product2&quot;, &quot;Grill&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;12.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L29">        Product product3 = new Product(&quot;product3&quot;, &quot;Basen&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;10.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L30">        Product product4 = new Product(&quot;product4&quot;, &quot;Lampa&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;9.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L31">        Product product5 = new Product(&quot;product5&quot;, &quot;Grabki&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;12.99&quot;), Money.Currency.PLN));</span>
+
+<span class="nc" id="L33">        Product product6 = new Product(&quot;product6&quot;, &quot;KoÅ‚o&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;13.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L34">        Product product7 = new Product(&quot;product7&quot;, &quot;Kierownica&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;18.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L35">        Product product8 = new Product(&quot;product8&quot;, &quot;Dywanik&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;19.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L36">        Product product9 = new Product(&quot;product9&quot;, &quot;Fotel&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;20.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L37">        Product product10 = new Product(&quot;product10&quot;, &quot;Szyba&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;9.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L38">        Product product11 = new Product(&quot;product11&quot;, &quot;Skrobaczka&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;11.99&quot;), Money.Currency.EUR));</span>
+
+<span class="nc" id="L40">        Product product12 = new Product(&quot;product12&quot;, &quot;Koszulka&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;26.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L41">        Product product13 = new Product(&quot;product13&quot;, &quot;Garnitur&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;92.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L42">        Product product14 = new Product(&quot;product14&quot;, &quot;Spodnie&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;14.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L43">        Product product15 = new Product(&quot;product15&quot;, &quot;Spodnie&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;72.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L44">        Product product16 = new Product(&quot;product16&quot;, &quot;Koszula&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L45">        Product product17 = new Product(&quot;product17&quot;, &quot;SpÃ³dnica&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L46">        Product product18 = new Product(&quot;product18&quot;, &quot;Buty&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;23.99&quot;), Money.Currency.EUR));</span>
+
+<span class="nc" id="L48">        Product product19 = new Product(&quot;product19&quot;, &quot;Gra planszowa&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;26.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L49">        Product product20 = new Product(&quot;product20&quot;, &quot;Karty&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;72.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L50">        Product product21 = new Product(&quot;product21&quot;, &quot;PiÅ‚ka&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L51">        Product product22 = new Product(&quot;product22&quot;, &quot;Gazeta&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;62.99&quot;), Money.Currency.EUR));</span>
+<span class="nc" id="L52">        Product product23 = new Product(&quot;product23&quot;, &quot;SÅ‚uchawki&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;62.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L53">        Product product24 = new Product(&quot;product24&quot;, &quot;Konsola&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;15.99&quot;), Money.Currency.PLN));</span>
+<span class="nc" id="L54">        Product product25 = new Product(&quot;product25&quot;, &quot;KsiÄ…Å¼ka&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;19.99&quot;), Money.Currency.EUR));</span>
+
+        // Purchase
+<span class="nc" id="L57">        purchaseList.add(new Purchase(client0, product1, 7, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 7, 12)));</span>
+<span class="nc" id="L58">        purchaseList.add(new Purchase(client0, product17, 2, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 2, 12)));</span>
+<span class="nc" id="L59">        purchaseList.add(new Purchase(client1, product18, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 5)));</span>
+<span class="nc" id="L60">        purchaseList.add(new Purchase(client2, product19, 3, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 3, 6)));</span>
+<span class="nc" id="L61">        purchaseList.add(new Purchase(client1, product23, 7, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 7, 2)));</span>
+<span class="nc" id="L62">        purchaseList.add(new Purchase(client5, product9, 1, Purchase.Delivery.UPS, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 1)));</span>
+<span class="nc" id="L63">        purchaseList.add(new Purchase(client7, product3, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 4)));</span>
+<span class="nc" id="L64">        purchaseList.add(new Purchase(client2, product6, 2, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 2, 12)));</span>
+<span class="nc" id="L65">        purchaseList.add(new Purchase(client8, product7, 1, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 1, 12)));</span>
+<span class="nc" id="L66">        purchaseList.add(new Purchase(client2, product1, 6, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 6, 12)));</span>
+<span class="nc" id="L67">        purchaseList.add(new Purchase(client1, product19, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 11)));</span>
+<span class="nc" id="L68">        purchaseList.add(new Purchase(client7, product2, 9, Purchase.Delivery.UPS, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 11)));</span>
+<span class="nc" id="L69">        purchaseList.add(new Purchase(client2, product5, 2, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 2, 11)));</span>
+<span class="nc" id="L70">        purchaseList.add(new Purchase(client5, product3, 1, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 1, 12)));</span>
+<span class="nc" id="L71">        purchaseList.add(new Purchase(client2, product12, 5, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 5, 2)));</span>
+<span class="nc" id="L72">        purchaseList.add(new Purchase(client6, product1, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 2)));</span>
+<span class="nc" id="L73">        purchaseList.add(new Purchase(client9, product0, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 2)));</span>
+<span class="nc" id="L74">        purchaseList.add(new Purchase(client5, product4, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 12)));</span>
+<span class="nc" id="L75">        purchaseList.add(new Purchase(client4, product11, 8, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 8, 4)));</span>
+<span class="nc" id="L76">        purchaseList.add(new Purchase(client9, product10, 2, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 2, 4)));</span>
+<span class="nc" id="L77">        purchaseList.add(new Purchase(client3, product13, 1, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 4)));</span>
+<span class="nc" id="L78">        purchaseList.add(new Purchase(client4, product8, 9, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 12)));</span>
+<span class="nc" id="L79">        purchaseList.add(new Purchase(client2, product14, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 3, 4)));</span>
+<span class="nc" id="L80">        purchaseList.add(new Purchase(client2, product16, 1, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 1, 4)));</span>
+<span class="nc" id="L81">        purchaseList.add(new Purchase(client1, product15, 3, Purchase.Delivery.UPS, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 4)));</span>
+<span class="nc" id="L82">        purchaseList.add(new Purchase(client0, product25, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 3)));</span>
+<span class="nc" id="L83">        purchaseList.add(new Purchase(client0, product15, 6, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 6, 3)));</span>
+<span class="nc" id="L84">        purchaseList.add(new Purchase(client9, product3, 7, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 7, 3)));</span>
+<span class="nc" id="L85">        purchaseList.add(new Purchase(client8, product19, 8, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 8, 12)));</span>
+<span class="nc" id="L86">        purchaseList.add(new Purchase(client7, product24, 9, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 4)));</span>
+<span class="nc" id="L87">        purchaseList.add(new Purchase(client7, product21, 2, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 2, 4)));</span>
+<span class="nc" id="L88">        purchaseList.add(new Purchase(client6, product22, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 4)));</span>
+<span class="nc" id="L89">        purchaseList.add(new Purchase(client6, product20, 2, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 2, 12)));</span>
+
+<span class="nc" id="L91">        return purchaseList;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

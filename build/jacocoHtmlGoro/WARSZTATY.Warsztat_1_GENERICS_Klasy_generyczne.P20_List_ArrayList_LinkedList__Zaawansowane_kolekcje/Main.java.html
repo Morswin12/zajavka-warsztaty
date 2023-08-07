@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje;
+
+import java.util.*;
+
+<span class="nc" id="L5">public class Main {</span>
+
+    /*
+    void add(E element) - dodoaj element na koncu listy
+    void add(int index, E element) - dodaj eleent na miejscu index, a reszte przesuÅ„ do przodu
+    E get(int index) - zwrÃ³Ä‡ element na indexie
+    int indexOf(Object o) zwrÃ³Ä‡ pierwszy pasujÄ…cy index, albo -1 jak nie ma takiego
+    int lastIndexOf(Object o) zwrÃ³Ä‡ ostatni pasujÄ…cy index, albo -1 jak nie ma takiego
+    E remove(int index) - usuÅ„ element na podanym indexie i przesuÅ„ pozostaÅ‚e do przodu
+    E set(int index, E e) - zamieÅ„ element na podanym indexie i zwrÃ³Ä‡ poprzedni elament
+     */
+
+    public static void main(String[] args) {
+<span class="nc" id="L18">        List&lt;String&gt; list1 = Arrays.asList(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;);</span>
+<span class="nc" id="L19">        List&lt;String&gt; list2 = List.of(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;);</span>
+<span class="nc" id="L20">        List&lt;String&gt; list3 = Collections.singletonList(&quot;a&quot;);</span>
+<span class="nc" id="L21">        List&lt;String&gt; list4 = Collections.emptyList();</span>
+<span class="nc" id="L22">        List&lt;String&gt; list5 = new LinkedList&lt;&gt;();</span>
+<span class="nc" id="L23">        List&lt;String&gt; list6 = new ArrayList&lt;&gt;();</span>
+
+<span class="nc" id="L25">        System.out.println(list6);</span>
+<span class="nc" id="L26">        list6.add(&quot;a&quot;);</span>
+<span class="nc" id="L27">        list6.add(&quot;b&quot;);</span>
+<span class="nc" id="L28">        list6.add(&quot;c&quot;);</span>
+<span class="nc" id="L29">        list6.add(2,&quot;d&quot;);</span>
+<span class="nc" id="L30">        list6.add(&quot;e&quot;);</span>
+<span class="nc" id="L31">        list6.add(&quot;f&quot;);</span>
+<span class="nc" id="L32">        list6.add(&quot;c&quot;);</span>
+<span class="nc" id="L33">        System.out.println(list6);</span>
+<span class="nc" id="L34">        System.out.println(list6.indexOf(&quot;c&quot; ));</span>
+<span class="nc" id="L35">        System.out.println(list6.lastIndexOf(&quot;c&quot; ));</span>
+<span class="nc" id="L36">        list6.remove(&quot;c&quot;);</span>
+<span class="nc" id="L37">        list6.remove(5);</span>
+<span class="nc" id="L38">        System.out.println(list6);</span>
+<span class="nc" id="L39">        System.out.println(list6.remove(&quot;b&quot;));</span>
+<span class="nc" id="L40">        System.out.println(list6);</span>
+<span class="nc" id="L41">        System.out.println(list6.remove(2));</span>
+<span class="nc" id="L42">        System.out.println(list6);</span>
+<span class="nc" id="L43">        System.out.println(list6.set(1, &quot;r&quot;));</span>
+<span class="nc" id="L44">        System.out.println(list6);</span>
+<span class="nc" id="L45">        list6.add(&quot;e&quot;);</span>
+
+
+<span class="nc" id="L48">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

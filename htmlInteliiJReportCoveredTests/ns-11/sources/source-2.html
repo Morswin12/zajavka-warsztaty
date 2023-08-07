@@ -1,0 +1,205 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main1</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje</a>
+</div>
+
+<h1>Coverage Summary for Class: Main1 (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/25)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Main1$Dog</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/33)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P23_Set_LinkedHashSet__Zaawansowane_kolekcje;
+&nbsp;
+&nbsp;import WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P22_Set_HashSet__Zaawansowane_kolekcje.Main;
+&nbsp;
+&nbsp;import java.time.Duration;
+&nbsp;import java.time.LocalTime;
+&nbsp;import java.time.temporal.ChronoUnit;
+&nbsp;import java.util.HashSet;
+&nbsp;import java.util.LinkedHashSet;
+&nbsp;import java.util.Objects;
+&nbsp;import java.util.Set;
+&nbsp;
+<b class="nc">&nbsp;public class Main1 {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        Set&lt;Dog&gt; dogSet = new LinkedHashSet&lt;&gt;();</b>
+<b class="nc">&nbsp;        LocalTime localTime1 = LocalTime.now();</b>
+&nbsp;
+<b class="nc">&nbsp;        for (int i = 0; i &lt; 100000; i++) {</b>
+<b class="nc">&nbsp;            dogSet.add(new Dog(&quot;dogggo&quot; + i / 12));</b>
+&nbsp;        }
+<b class="nc">&nbsp;        LocalTime localTime2 = LocalTime.now();</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(Duration.between(localTime1,LocalTime.now()).toMillis());</b>
+&nbsp;
+<b class="nc">&nbsp;        Dog dog1 = new Dog(&quot;Romek1&quot;);</b>
+<b class="nc">&nbsp;        Dog dog2 = new Dog(&quot;Romek2&quot;);</b>
+<b class="nc">&nbsp;        Dog dog3 = new Dog(&quot;Romek3&quot;);</b>
+<b class="nc">&nbsp;        Dog dog4 = new Dog(&quot;Romek4&quot;);</b>
+<b class="nc">&nbsp;        Dog dog5 = new Dog(&quot;Romek5&quot;);</b>
+<b class="nc">&nbsp;        Dog dog6 = new Dog(&quot;Romek6&quot;);</b>
+<b class="nc">&nbsp;        Dog dog7 = new Dog(&quot;Romek6&quot;);</b>
+<b class="nc">&nbsp;        Dog dog8 = new Dog(&quot;Romek6&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        dogSet.add(dog1);</b>
+<b class="nc">&nbsp;        dogSet.add(dog2);</b>
+<b class="nc">&nbsp;        dogSet.add(dog3);</b>
+<b class="nc">&nbsp;        dogSet.add(dog4);</b>
+<b class="nc">&nbsp;        dogSet.add(dog5);</b>
+<b class="nc">&nbsp;        dogSet.add(dog6);</b>
+<b class="nc">&nbsp;        dogSet.add(dog6);</b>
+<b class="nc">&nbsp;        dogSet.add(dog6);</b>
+&nbsp;
+<b class="nc">&nbsp;        for (Dog dog : dogSet) {</b>
+&nbsp;//            System.out.println(dog);
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static class Dog {
+&nbsp;        private String name;
+&nbsp;
+<b class="nc">&nbsp;        public Dog(String name) {</b>
+<b class="nc">&nbsp;            this.name = name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public String toString() {
+<b class="nc">&nbsp;            return &quot;D: &quot; + name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public boolean equals(Object o) {
+<b class="nc">&nbsp;            if (this == o) return true;</b>
+<b class="nc">&nbsp;            if (o == null || getClass() != o.getClass()) return false;</b>
+<b class="nc">&nbsp;            Dog dog = (Dog) o;</b>
+<b class="nc">&nbsp;            return name.equals(dog.name);</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public int hashCode() {
+&nbsp;//            return Objects.hash(name);
+<b class="nc">&nbsp;       return 1;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

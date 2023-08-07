@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P11_IO__in_out__Koncept_systemu_plikow</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P11_IO__in_out__Koncept_systemu_plikow;
+
+import java.io.File;
+
+<span class="nc" id="L5">public class Main {</span>
+    public static void main(String[] args) {
+        // file          (plik)
+        // directory     (katalog)
+        // root          (korzeÅ„)  C:\ w Windows lub / w Linuxie
+        // file system   (odczyt plikÃ³w)
+        // Path         (Å›cieÅ¼ka)
+        //      Windows - /
+        //      Linux   - \
+        // absolute path    C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\someNewFile.txt
+        // relative path    WarsztatyZajavka\someNewFile.txt
+        // znaczniki:
+        //      /./././.        - w terminalu jedna kropka . to obecny folder
+        //      /../../../..    - w terminalu dwie kropka .. to poprzedni folder
+
+
+
+<span class="nc" id="L22">        System.out.println(File.separator);</span>
+<span class="nc" id="L23">        System.out.println(System.getProperty(&quot;file.separator&quot;));</span>
+
+
+<span class="nc" id="L26">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

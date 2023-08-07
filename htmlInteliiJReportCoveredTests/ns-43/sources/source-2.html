@@ -1,0 +1,210 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/25)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Main$Ziomek</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/29)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie;
+&nbsp;
+&nbsp;import java.util.*;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;        //      Collector       Operacja terminuj?ca:
+&nbsp;        //      counting        count
+&nbsp;        //      joining         reduce
+&nbsp;        //      toCollection    -
+&nbsp;        //      toList/toSet    -
+&nbsp;        //      minBy/maxBy     (min/max)
+&nbsp;        //      reducing        (reduce)
+&nbsp;        //      mapping         -
+&nbsp;        //      partitioningBy  -
+&nbsp;        //      toMap           -
+&nbsp;        //      groupingBy      -
+&nbsp;
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Optional&lt;String&gt; collect = List.of(&quot;jeden&quot;, &quot;dwa&quot;, &quot;trzy&quot;, &quot;cztery&quot;, &quot;pi??&quot;)</b>
+<b class="nc">&nbsp;                .stream()</b>
+<b class="nc">&nbsp;                .collect(Collectors.mapping(</b>
+<b class="nc">&nbsp;                        a -&gt; a.toUpperCase(),</b>
+<b class="nc">&nbsp;                        Collectors.mapping((String v) -&gt; v + &quot; goro&quot;,</b>
+<b class="nc">&nbsp;                                Collectors.maxBy(Comparator.naturalOrder()))));</b>
+<b class="nc">&nbsp;        System.out.println(collect);</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; jeden = List.of(&quot;jeden&quot;, &quot;dwa&quot;, &quot;trzy&quot;, &quot;cztery&quot;, &quot;pi??&quot;);</b>
+<b class="nc">&nbsp;        Map&lt;Boolean, List&lt;String&gt;&gt; d = jeden.stream().collect(Collectors.partitioningBy(v -&gt; v.contains(&quot;d&quot;)));</b>
+<b class="nc">&nbsp;        System.out.println(d);</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Map&lt;Integer, List&lt;Ziomek&gt;&gt; collect1 = jeden.stream().collect(Collectors</b>
+<b class="nc">&nbsp;                .toMap(</b>
+&nbsp;                        String::length,
+<b class="nc">&nbsp;                        name -&gt; isAdd(name),</b>
+<b class="nc">&nbsp;                        (a,b) -&gt; addToListGoro(a.toString(),b.toString()),</b>
+&nbsp;                        TreeMap::new
+&nbsp;                ));
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(collect1);</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    private static ArrayList&lt;Ziomek&gt; isAdd(String name) {
+<b class="nc">&nbsp;        ArrayList&lt;Ziomek&gt; objects = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        objects.add(new Ziomek(name));</b>
+<b class="nc">&nbsp;        return objects;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static ArrayList&lt;Ziomek&gt; addToListGoro(String a, String b) {
+<b class="nc">&nbsp;        ArrayList&lt;Ziomek&gt; result = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        result.add(new Ziomek(a));</b>
+<b class="nc">&nbsp;        result.add(new Ziomek(b));</b>
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static class Ziomek {
+&nbsp;        private final String name;
+&nbsp;
+<b class="nc">&nbsp;        public Ziomek(String name) {</b>
+<b class="nc">&nbsp;            this.name = name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        public String getName() {
+<b class="nc">&nbsp;            return name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public String toString() {
+<b class="nc">&nbsp;            return &quot;Ziomek{&quot; +</b>
+&nbsp;                    &quot;name=&#39;&quot; + name + &#39;\&#39;&#39; +
+&nbsp;                    &#39;}&#39;;
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

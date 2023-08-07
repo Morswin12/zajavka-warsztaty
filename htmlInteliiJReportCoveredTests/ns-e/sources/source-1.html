@@ -1,0 +1,152 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/28)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P20_List_ArrayList_LinkedList__Zaawansowane_kolekcje;
+&nbsp;
+&nbsp;import java.util.*;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;
+&nbsp;    /*
+&nbsp;    void add(E element) - dodoaj element na koncu listy
+&nbsp;    void add(int index, E element) - dodaj eleent na miejscu index, a reszte przesu? do przodu
+&nbsp;    E get(int index) - zwró? element na indexie
+&nbsp;    int indexOf(Object o) zwró? pierwszy pasuj?cy index, albo -1 jak nie ma takiego
+&nbsp;    int lastIndexOf(Object o) zwró? ostatni pasuj?cy index, albo -1 jak nie ma takiego
+&nbsp;    E remove(int index) - usu? element na podanym indexie i przesu? pozosta?e do przodu
+&nbsp;    E set(int index, E e) - zamie? element na podanym indexie i zwró? poprzedni elament
+&nbsp;     */
+&nbsp;
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List&lt;String&gt; list1 = Arrays.asList(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;);</b>
+<b class="nc">&nbsp;        List&lt;String&gt; list2 = List.of(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;);</b>
+<b class="nc">&nbsp;        List&lt;String&gt; list3 = Collections.singletonList(&quot;a&quot;);</b>
+<b class="nc">&nbsp;        List&lt;String&gt; list4 = Collections.emptyList();</b>
+<b class="nc">&nbsp;        List&lt;String&gt; list5 = new LinkedList&lt;&gt;();</b>
+<b class="nc">&nbsp;        List&lt;String&gt; list6 = new ArrayList&lt;&gt;();</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        list6.add(&quot;a&quot;);</b>
+<b class="nc">&nbsp;        list6.add(&quot;b&quot;);</b>
+<b class="nc">&nbsp;        list6.add(&quot;c&quot;);</b>
+<b class="nc">&nbsp;        list6.add(2,&quot;d&quot;);</b>
+<b class="nc">&nbsp;        list6.add(&quot;e&quot;);</b>
+<b class="nc">&nbsp;        list6.add(&quot;f&quot;);</b>
+<b class="nc">&nbsp;        list6.add(&quot;c&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        System.out.println(list6.indexOf(&quot;c&quot; ));</b>
+<b class="nc">&nbsp;        System.out.println(list6.lastIndexOf(&quot;c&quot; ));</b>
+<b class="nc">&nbsp;        list6.remove(&quot;c&quot;);</b>
+<b class="nc">&nbsp;        list6.remove(5);</b>
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        System.out.println(list6.remove(&quot;b&quot;));</b>
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        System.out.println(list6.remove(2));</b>
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        System.out.println(list6.set(1, &quot;r&quot;));</b>
+<b class="nc">&nbsp;        System.out.println(list6);</b>
+<b class="nc">&nbsp;        list6.add(&quot;e&quot;);</b>
+&nbsp;
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main2</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_7_LOGOWANIE.P4_Logowanie_LSF4J</a>
+</div>
+
+<h1>Coverage Summary for Class: Main2 (WARSZTATY.Warsztat_7_LOGOWANIE.P4_Logowanie_LSF4J)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main2</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_7_LOGOWANIE.P4_Logowanie_LSF4J;
+&nbsp;
+&nbsp;import org.slf4j.Logger;
+&nbsp;import org.slf4j.LoggerFactory;
+&nbsp;
+<b class="nc">&nbsp;public class Main2 {</b>
+&nbsp;
+<b class="nc">&nbsp;    private static final Logger log = LoggerFactory.getLogger(Main2.class);</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(log.getName());</b>
+<b class="nc">&nbsp;        System.out.println(log.getClass());</b>
+&nbsp;        //sam slf4j nie wystarczy potrzeba jeszcze drugiej biblioteki z jego implementacj? pod spodem w tym przypadku mamy org.slf4j-simple.2.0.7
+&nbsp;
+&nbsp;        // SimpleLoggera mo?emy te? edytowa? u?ywaj?c pliku: &quot;simplelogger.properties&quot;, który musimy utworzy? na naszym classpath-ie
+&nbsp;        //Simple implementation of Logger that sends all enabled log messages, for all defined loggers, to the console (System.err). The following system properties are supported to configure the behavior of this logger:
+&nbsp;        //
+&nbsp;        //org.slf4j.simpleLogger.logFile - The output target which can be the path to a file, or the special values &quot;System.out&quot; and &quot;System.err&quot;. Default is &quot;System.err&quot;.
+&nbsp;        //org.slf4j.simpleLogger.cacheOutputStream - If the output target is set to &quot;System.out&quot; or &quot;System.err&quot; (see preceding entry), by default, logs will be output to the latest value referenced by System.out/err variables. By setting this parameter to true, the output stream will be cached, i.e. assigned once at initialization time and re-used independently of the current value referenced by System.out/err.
+&nbsp;        //org.slf4j.simpleLogger.defaultLogLevel - Default log level for all instances of SimpleLogger. Must be one of (&quot;trace&quot;, &quot;debug&quot;, &quot;info&quot;, &quot;warn&quot;, &quot;error&quot; or &quot;off&quot;). If not specified, defaults to &quot;info&quot;.
+&nbsp;        //org.slf4j.simpleLogger.log.a.b.c - Logging detail level for a SimpleLogger instance named &quot;a.b.c&quot;. Right-side value must be one of &quot;trace&quot;, &quot;debug&quot;, &quot;info&quot;, &quot;warn&quot;, &quot;error&quot; or &quot;off&quot;. When a SimpleLogger named &quot;a.b.c&quot; is initialized, its level is assigned from this property. If unspecified, the level of nearest parent logger will be used, and if none is set, then the value specified by org.slf4j.simpleLogger.defaultLogLevel will be used.
+&nbsp;        //org.slf4j.simpleLogger.showDateTime - Set to true if you want the current date and time to be included in output messages. Default is false
+&nbsp;        //org.slf4j.simpleLogger.dateTimeFormat - The date and time format to be used in the output messages. The pattern describing the date and time format is defined by SimpleDateFormat. If the format is not specified or is invalid, the number of milliseconds since start up will be output.
+&nbsp;        //org.slf4j.simpleLogger.showThreadName -Set to true if you want to output the current thread name. Defaults to true.
+&nbsp;        //(since version 1.7.33 and 2.0.0-alpha6) org.slf4j.simpleLogger.showThreadId - If you would like to output the current thread id, then set to true. Defaults to false.
+&nbsp;        //org.slf4j.simpleLogger.showLogName - Set to true if you want the Logger instance name to be included in output messages. Defaults to true.
+&nbsp;        //org.slf4j.simpleLogger.showShortLogName - Set to true if you want the last component of the name to be included in output messages. Defaults to false.
+&nbsp;        //org.slf4j.simpleLogger.levelInBrackets - Should the level string be output in brackets? Defaults to false.
+&nbsp;        //org.slf4j.simpleLogger.warnLevelString - The string value output for the warn level. Defaults to WARN.
+&nbsp;        //In addition to looking for system properties with the names specified above, this implementation also checks for a class loader resource named &quot;simplelogger.properties&quot;, and includes any matching definitions from this resource (if it exists).
+&nbsp;        //
+&nbsp;        //With no configuration, the default output includes the relative time in milliseconds, thread name, the level, logger name, and the message followed by the line separator for the host. In log4j terms it amounts to the &quot;%r [%t] %level %logger - %m%n&quot; pattern.
+&nbsp;        //
+&nbsp;        //Sample output follows.
+&nbsp;        //
+&nbsp;        // 176 [main] INFO examples.Sort - Populating an array of 2 elements in reverse order.
+&nbsp;        // 225 [main] INFO examples.SortAlgo - Entered the sort method.
+&nbsp;        // 304 [main] INFO examples.SortAlgo - Dump of integer array:
+&nbsp;        // 317 [main] INFO examples.SortAlgo - Element [0] = 0
+&nbsp;        // 331 [main] INFO examples.SortAlgo - Element [1] = 1
+&nbsp;        // 343 [main] INFO examples.Sort - The next log statement should be an error message.
+&nbsp;        // 346 [main] ERROR examples.SortAlgo - Tried to dump an uninitialized array.
+&nbsp;        //   at org.log4j.examples.SortAlgo.dump(SortAlgo.java:58)
+&nbsp;        //   at org.log4j.examples.Sort.main(Sort.java:64)
+&nbsp;        // 467 [main] INFO  examples.Sort - Exiting main method.
+&nbsp;        //
+&nbsp;        //This implementation is heavily inspired by Apache Commons Logging&#39;s SimpleLog.
+&nbsp;
+&nbsp;        try {
+<b class="nc">&nbsp;            method1();</b>
+<b class="nc">&nbsp;        } catch (Exception e) {</b>
+<b class="nc">&nbsp;            log.error(&quot;Exception was thrown&quot;, e);</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void method1() {
+<b class="nc">&nbsp;        method2();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void method2() {
+<b class="nc">&nbsp;        method3();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void method3() {
+<b class="nc">&nbsp;        method4();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void method4() {
+<b class="nc">&nbsp;        method5();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void method5() {
+<b class="nc">&nbsp;        throw new RuntimeException(&quot;Some exception was thrown!!&quot;);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

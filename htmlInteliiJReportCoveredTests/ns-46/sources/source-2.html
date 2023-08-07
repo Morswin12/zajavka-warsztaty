@@ -1,0 +1,196 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > DataFactory</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a>
+</div>
+
+<h1>Coverage Summary for Class: DataFactory (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">DataFactory</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/72)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.math.BigInteger;
+&nbsp;import java.time.LocalDate;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class DataFactory {</b>
+&nbsp;
+&nbsp;    public static List&lt;Purchase&gt; produce() {
+<b class="nc">&nbsp;        List&lt;Purchase&gt; purchaseList = new ArrayList&lt;&gt;();</b>
+&nbsp;        // Clients
+<b class="nc">&nbsp;        Client client0 = new Client(&quot;client0&quot;, &quot;Roman&quot;, &quot;Kowalski&quot;, BigInteger.valueOf(65814267854L), &quot;Pozna?&quot;);</b>
+<b class="nc">&nbsp;        Client client1 = new Client(&quot;client1&quot;, &quot;Karolina&quot;, &quot;Nowak&quot;, BigInteger.valueOf(66060897231L), &quot;Warszawa&quot;);</b>
+<b class="nc">&nbsp;        Client client2 = new Client(&quot;client2&quot;, &quot;Marta&quot;, &quot;Roma?czuk&quot;, BigInteger.valueOf(62063073633L), &quot;Szczecin&quot;);</b>
+<b class="nc">&nbsp;        Client client3 = new Client(&quot;client3&quot;, &quot;Andrzej&quot;, &quot;Stefa?ski&quot;, BigInteger.valueOf(62051084215L), &quot;Kraków&quot;);</b>
+<b class="nc">&nbsp;        Client client4 = new Client(&quot;client4&quot;, &quot;Krystyna&quot;, &quot;Baranowska&quot;, BigInteger.valueOf(65073073798L), &quot;Warszawa&quot;);</b>
+<b class="nc">&nbsp;        Client client5 = new Client(&quot;client5&quot;, &quot;Marcin&quot;, &quot;Sadowski&quot;, BigInteger.valueOf(68071193875L), &quot;Pozna?&quot;);</b>
+<b class="nc">&nbsp;        Client client6 = new Client(&quot;client6&quot;, &quot;Monika&quot;, &quot;Radomska&quot;, BigInteger.valueOf(68042182821L), &quot;Szczecin&quot;);</b>
+<b class="nc">&nbsp;        Client client7 = new Client(&quot;client7&quot;, &quot;Tadeusz&quot;, &quot;Stefa?ski&quot;, BigInteger.valueOf(92052325758L), &quot;Kraków&quot;);</b>
+<b class="nc">&nbsp;        Client client8 = new Client(&quot;client8&quot;, &quot;Marta&quot;, &quot;Nowak&quot;, BigInteger.valueOf(62042135735L), &quot;Kraków&quot;);</b>
+<b class="nc">&nbsp;        Client client9 = new Client(&quot;client9&quot;, &quot;Marcin&quot;, &quot;Kowalski&quot;, BigInteger.valueOf(72070729244L), &quot;Warszawa&quot;);</b>
+&nbsp;
+&nbsp;        // Products
+<b class="nc">&nbsp;        Product product0 = new Product(&quot;product0&quot;, &quot;Doniczka&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;15.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product1 = new Product(&quot;product1&quot;, &quot;Lampa&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;18.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product2 = new Product(&quot;product2&quot;, &quot;Grill&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;12.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product3 = new Product(&quot;product3&quot;, &quot;Basen&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;10.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product4 = new Product(&quot;product4&quot;, &quot;Lampa&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;9.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product5 = new Product(&quot;product5&quot;, &quot;Grabki&quot;, Product.Category.GARDEN, new Money(new BigDecimal(&quot;12.99&quot;), Money.Currency.PLN));</b>
+&nbsp;
+<b class="nc">&nbsp;        Product product6 = new Product(&quot;product6&quot;, &quot;Ko?o&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;13.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product7 = new Product(&quot;product7&quot;, &quot;Kierownica&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;18.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product8 = new Product(&quot;product8&quot;, &quot;Dywanik&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;19.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product9 = new Product(&quot;product9&quot;, &quot;Fotel&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;20.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product10 = new Product(&quot;product10&quot;, &quot;Szyba&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;9.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product11 = new Product(&quot;product11&quot;, &quot;Skrobaczka&quot;, Product.Category.AUTOMOTIVE, new Money(new BigDecimal(&quot;11.99&quot;), Money.Currency.EUR));</b>
+&nbsp;
+<b class="nc">&nbsp;        Product product12 = new Product(&quot;product12&quot;, &quot;Koszulka&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;26.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product13 = new Product(&quot;product13&quot;, &quot;Garnitur&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;92.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product14 = new Product(&quot;product14&quot;, &quot;Spodnie&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;14.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product15 = new Product(&quot;product15&quot;, &quot;Spodnie&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;72.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product16 = new Product(&quot;product16&quot;, &quot;Koszula&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product17 = new Product(&quot;product17&quot;, &quot;Spódnica&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product18 = new Product(&quot;product18&quot;, &quot;Buty&quot;, Product.Category.CLOTHES, new Money(new BigDecimal(&quot;23.99&quot;), Money.Currency.EUR));</b>
+&nbsp;
+<b class="nc">&nbsp;        Product product19 = new Product(&quot;product19&quot;, &quot;Gra planszowa&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;26.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product20 = new Product(&quot;product20&quot;, &quot;Karty&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;72.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product21 = new Product(&quot;product21&quot;, &quot;Pi?ka&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;16.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product22 = new Product(&quot;product22&quot;, &quot;Gazeta&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;62.99&quot;), Money.Currency.EUR));</b>
+<b class="nc">&nbsp;        Product product23 = new Product(&quot;product23&quot;, &quot;S?uchawki&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;62.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product24 = new Product(&quot;product24&quot;, &quot;Konsola&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;15.99&quot;), Money.Currency.PLN));</b>
+<b class="nc">&nbsp;        Product product25 = new Product(&quot;product25&quot;, &quot;Ksi??ka&quot;, Product.Category.HOBBY, new Money(new BigDecimal(&quot;19.99&quot;), Money.Currency.EUR));</b>
+&nbsp;
+&nbsp;        // Purchase
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client0, product1, 7, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 7, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client0, product17, 2, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 2, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client1, product18, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 5)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product19, 3, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 3, 6)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client1, product23, 7, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 7, 2)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client5, product9, 1, Purchase.Delivery.UPS, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 1)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client7, product3, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product6, 2, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 2, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client8, product7, 1, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 1, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product1, 6, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 6, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client1, product19, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 11)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client7, product2, 9, Purchase.Delivery.UPS, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 11)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product5, 2, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 2, 11)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client5, product3, 1, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 1, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product12, 5, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 5, 2)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client6, product1, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 2)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client9, product0, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 2)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client5, product4, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client4, product11, 8, Purchase.Delivery.DHL, Purchase.Payment.CASH, LocalDate.of(2020, 8, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client9, product10, 2, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 2, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client3, product13, 1, Purchase.Delivery.DHL, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client4, product8, 9, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product14, 3, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 3, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client2, product16, 1, Purchase.Delivery.UPS, Purchase.Payment.CASH, LocalDate.of(2020, 1, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client1, product15, 3, Purchase.Delivery.UPS, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 3, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client0, product25, 1, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 1, 3)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client0, product15, 6, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 6, 3)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client9, product3, 7, Purchase.Delivery.DHL, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 7, 3)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client8, product19, 8, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 8, 12)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client7, product24, 9, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 9, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client7, product21, 2, Purchase.Delivery.IN_POST, Purchase.Payment.CREDIT_CARD, LocalDate.of(2020, 2, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client6, product22, 1, Purchase.Delivery.IN_POST, Purchase.Payment.BLIK, LocalDate.of(2020, 1, 4)));</b>
+<b class="nc">&nbsp;        purchaseList.add(new Purchase(client6, product20, 2, Purchase.Delivery.IN_POST, Purchase.Payment.CASH, LocalDate.of(2020, 2, 12)));</b>
+&nbsp;
+<b class="nc">&nbsp;        return purchaseList;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

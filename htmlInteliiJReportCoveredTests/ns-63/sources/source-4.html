@@ -1,0 +1,151 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Purchase</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt</a>
+</div>
+
+<h1>Coverage Summary for Class: Purchase (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Purchase</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/12)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.time.LocalDate;
+&nbsp;
+&nbsp;public class Purchase {
+&nbsp;    private final BigDecimal id_porzadkowe_zakupu;
+&nbsp;    private final Osoba osoba;
+&nbsp;    private final Samochod samochod;
+&nbsp;    private final Lokalizacja lokalizacja;
+&nbsp;    private final LocalDate data_zakupu;
+&nbsp;
+<b class="nc">&nbsp;    public Purchase(BigDecimal id_porzadkowe_zakupu, Osoba osoba, Samochod samochod, Lokalizacja lokalizacja, LocalDate data_zakupu) {</b>
+<b class="nc">&nbsp;        this.id_porzadkowe_zakupu = id_porzadkowe_zakupu;</b>
+<b class="nc">&nbsp;        this.osoba = osoba;</b>
+<b class="nc">&nbsp;        this.samochod = samochod;</b>
+<b class="nc">&nbsp;        this.lokalizacja = lokalizacja;</b>
+<b class="nc">&nbsp;        this.data_zakupu = data_zakupu;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public BigDecimal getId_porzadkowe_zakupu() {
+<b class="nc">&nbsp;        return id_porzadkowe_zakupu;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Osoba getOsoba() {
+<b class="nc">&nbsp;        return osoba;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Samochod getSamochod() {
+<b class="nc">&nbsp;        return samochod;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Lokalizacja getLokalizacja() {
+<b class="nc">&nbsp;        return lokalizacja;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public LocalDate getData_zakupu() {
+<b class="nc">&nbsp;        return data_zakupu;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public String toString() {
+<b class="nc">&nbsp;        return &quot;\n\nTransakcja numer: &quot; + id_porzadkowe_zakupu +</b>
+&nbsp;                &quot;! \nKupuj?cy=&quot; + osoba +
+&nbsp;                &quot;, \nsamochod=&quot; + samochod +
+&nbsp;                &quot;, \ndata_zakupu=&quot; + data_zakupu + &quot; \nLokalizacja: &quot; + lokalizacja;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

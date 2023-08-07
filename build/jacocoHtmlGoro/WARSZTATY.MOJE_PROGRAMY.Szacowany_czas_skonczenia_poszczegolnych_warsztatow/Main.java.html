@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
+
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
+
+<span class="nc" id="L7">public class Main {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L9">        List&lt;Warsztat&gt; warsztaty = Arrays.asList(</span>
+                new Warsztat(&quot;JAVA GENERICS I KOLEKCJE&quot;, 1, 40, new CzasTrwania(5), new CzasTrwania(6, 15), new CzasTrwania(7), new Progress(22)),
+                new Warsztat(&quot;PROGRAMOWANIE FUNKCYJNE&quot;, 2, 37, new CzasTrwania(7, 15), new CzasTrwania(6, 30), new CzasTrwania(7, 15), new Progress(27)),
+                new Warsztat(&quot;LOKALIZACJA I OPERACJE NA PLIKACH&quot;, 3, 38, new CzasTrwania(8, 45), new CzasTrwania(8, 30), new CzasTrwania(6), new Progress(33)),
+                new Warsztat(&quot;PODSTAWOWE OPERACJE NA BAZACH DANYCH I JDBC&quot;, 4, 16, new CzasTrwania(5, 30), new CzasTrwania(0), new CzasTrwania(4, 45), new Progress(37)),
+                new Warsztat(&quot;BUILDING TOOLS&quot;, 5, 21, new CzasTrwania(5, 30), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(39)),
+                new Warsztat(&quot;JAK PISAC MNIEJ KODU? LOMBOK&quot;, 6, 7, new CzasTrwania(2), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(40)),
+                new Warsztat(&quot;ZAPIS PRZEBIEGU DZIALANIA APLIKACJI - LOGOWANIE&quot;, 7, 12, new CzasTrwania(2, 45), new CzasTrwania(0), new CzasTrwania(0, 45), new Progress(41)),
+                new Warsztat(&quot;TESTY JEDNOSTKOWE&quot;, 8, 15, new CzasTrwania(3, 45), new CzasTrwania(0), new CzasTrwania(2, 30), new Progress(44)),
+                new Warsztat(&quot;DIAGRAM UML&quot;, 9, 11, new CzasTrwania(2, 15), new CzasTrwania(0), new CzasTrwania(0), new Progress(45)),
+                new Warsztat(&quot;DESIGN PRINCIPLES I DESIGN PATTERNS&quot;, 10, 27, new CzasTrwania(9, 45), new CzasTrwania(0), new CzasTrwania(0), new Progress(48)),
+                new Warsztat(&quot;KOLEJNE WERSJE JAVY&quot;, 11, 19, new CzasTrwania(6), new CzasTrwania(0), new CzasTrwania(3), new Progress(52)),
+                new Warsztat(&quot;JAK ZAPISAC HISTORIE WPROWADZANYCH ZMIAN? GIT&quot;, 12, 36, new CzasTrwania(14), new CzasTrwania(0), new CzasTrwania(1), new Progress(58)),
+                new Warsztat(&quot;SPRING BEANS&quot;, 13, 14, new CzasTrwania(4), new CzasTrwania(0), new CzasTrwania(0, 30), new Progress(59)),
+                new Warsztat(&quot;MOCKING I SPRING&quot;, 14, 20, new CzasTrwania(4, 45), new CzasTrwania(0), new CzasTrwania(1, 30), new Progress(62)),
+                new Warsztat(&quot;SPRING DATA ACCESS&quot;, 15, 14, new CzasTrwania(3, 45), new CzasTrwania(0), new CzasTrwania(5, 45), new Progress(65)),
+                new Warsztat(&quot;ORM I HIBERNATE&quot;, 16, 40, new CzasTrwania(16), new CzasTrwania(0), new CzasTrwania(8), new Progress(74)),
+                new Warsztat(&quot;SPRING DATA JPA&quot;, 17, 18, new CzasTrwania(6, 45), new CzasTrwania(0), new CzasTrwania(4, 15), new Progress(79)),
+                new Warsztat(&quot;CONCURRENCY&quot;, 18, 1, new CzasTrwania(6), new CzasTrwania(0), new CzasTrwania(0), new Progress(81)),
+                new Warsztat(&quot;SPRING WEB MVC&quot;, 19, 24, new CzasTrwania(9, 45), new CzasTrwania(0), new CzasTrwania(5, 15), new Progress(87)),
+                new Warsztat(&quot;SPRING BOOT&quot;, 20, 20, new CzasTrwania(7, 30), new CzasTrwania(0), new CzasTrwania(1, 45), new Progress(90)),
+                new Warsztat(&quot;SPRING REST&quot;, 21, 39, new CzasTrwania(11, 45), new CzasTrwania(0), new CzasTrwania(4), new Progress(96)),
+                new Warsztat(&quot;HOW TO DEPLOY&quot;, 22, 2, new CzasTrwania(10), new CzasTrwania(0), new CzasTrwania(0), new Progress(100))
+        );
+<span class="nc" id="L33">        CzasTrwania sumaryczny_czas = new CzasTrwania(0, 0);</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">        for (Warsztat warsztat : warsztaty) {</span>
+<span class="nc" id="L35">            sumaryczny_czas = sumaryczny_czas.add(warsztat.getSumarycznyCzas());</span>
+<span class="nc" id="L36">            AktualnaData actualDate = new AktualnaData(sumaryczny_czas);</span>
+<span class="nc" id="L37">            System.out.println(&quot;\n Do warsztatu nr: &quot; + warsztat.getNumer() + &quot; sumaryczny czas trwania filmÃ³w to: &quot; + sumaryczny_czas);</span>
+<span class="nc" id="L38">            actualDate.printAmountOfMaterialsTime();</span>
+<span class="nc" id="L39">        }</span>
+<span class="nc" id="L40">        System.out.println(sumaryczny_czas);</span>
+
+
+<span class="nc" id="L43">        System.out.println(warsztaty.get(0).getSumarycznyCzas());</span>
+//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getGodziny());
+//        System.out.println(warsztaty.get(0).getSumarycznyCzas().getMinuty());
+
+<span class="nc" id="L47">        CzasTrwania sumaryczny_czas_do_11_warsztatu = new CzasTrwania(0, 0);</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        for (int i = 0; i &lt; 11; i++) {</span>
+<span class="nc" id="L49">            sumaryczny_czas_do_11_warsztatu = sumaryczny_czas_do_11_warsztatu.add(warsztaty.get(i).getSumarycznyCzas());</span>
+        }
+<span class="nc" id="L51">        System.out.println();</span>
+<span class="nc" id="L52">        System.out.println(&quot;sumaryczny_czas_do_11_warsztatu: &quot; + sumaryczny_czas_do_11_warsztatu);</span>
+<span class="nc" id="L53">        Long suma_minut = sumaryczny_czas_do_11_warsztatu.getGodziny() * 60 + sumaryczny_czas_do_11_warsztatu.getMinuty();</span>
+<span class="nc" id="L54">        System.out.println(&quot;suma_minut: &quot; + suma_minut);</span>
+<span class="nc" id="L55">        Long ilosc_minut_na_dzien = suma_minut / 157;</span>
+<span class="nc" id="L56">        Long ilosc_minut_na_dzien_roboczy = suma_minut / 112;</span>
+<span class="nc" id="L57">        System.out.println(&quot;ilosc_minut_na_dzien_roboczy &quot; + ilosc_minut_na_dzien_roboczy);</span>
+<span class="nc" id="L58">        System.out.println(&quot;ilosc_minut_na_dzien &quot; + ilosc_minut_na_dzien);</span>
+
+
+<span class="nc" id="L61">        AktualnaData aktualnaData = new AktualnaData(5l);</span>
+<span class="nc" id="L62">        aktualnaData.printAmountOfMaterialsTime();</span>
+<span class="nc" id="L63">        System.out.println();</span>
+
+<span class="nc" id="L65">        AktualnaData aktualnaData2 = new AktualnaData(LocalDate.of(2023, 6, 18));</span>
+<span class="nc" id="L66">        aktualnaData2.printAmountOfMaterialsTime();</span>
+
+//        List&lt;CzasFilmikÃ³w&gt; czasFilmikÃ³wList = new ArrayList&lt;&gt;();
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(1, 22, 8));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(2, 6, 15));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(3, 11, 24));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(4, 6, 44));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(5, 61, 28));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(6, 10, 15));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(7, 6, 53));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(8, 7, 30));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(9, 6, 26));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(10, 44, 6));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(11, 0, 0));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(12, 102, 16));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(13, 6, 39));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(14, 23, 20));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(15, 9, 17));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(16, 63, 5));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(17, 0, 0));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(18, 48, 18));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(19, 7, 28));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(20, 20, 30));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(21, 40, 57));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(22, 19, 7));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(23, 5, 7));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(24, 17, 29));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(25, 39, 42));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(26, 36, 23));
+//        czasFilmikÃ³wList.add(new CzasFilmikÃ³w(27, 3, 18));
+//
+//        CzasFilmikÃ³w czasFilmikÃ³wDo = new CzasFilmikÃ³w(0, 0, 0);
+//        for (CzasFilmikÃ³w czasFilmikÃ³w : czasFilmikÃ³wList) {
+//            czasFilmikÃ³wDo.setMinuty(czasFilmikÃ³wDo.getMinuty() + czasFilmikÃ³w.getMinuty());
+//            czasFilmikÃ³wDo.setSekundy(czasFilmikÃ³wDo.getSekundy() + czasFilmikÃ³w.getSekundy());
+//        }
+//        int minuty = czasFilmikÃ³wDo.getMinuty() + (czasFilmikÃ³wDo.getSekundy() / 60);
+//        System.out.println(&quot;Minut do filmu26: &quot; + minuty);
+//        System.out.println(&quot;Godzin: &quot; + minuty / 60 + &quot;:&quot; + minuty % 60);
+
+<span class="nc" id="L106">        AktualnaData aktualnaData4 = new AktualnaData(new CzasTrwania(77, 00));</span>
+<span class="nc" id="L107">        System.out.println();</span>
+
+
+<span class="nc" id="L110">        AktualnaData aktualnaData3 = new AktualnaData(new CzasTrwania(20, 60));</span>
+<span class="nc" id="L111">        AktualnaData aktualnaData5 = new AktualnaData(new CzasTrwania(58, 30));</span>
+<span class="nc" id="L112">        AktualnaData aktualnaData6 = new AktualnaData(LocalDate.of(2023,6,18));</span>
+<span class="nc" id="L113">        System.out.println();</span>
+
+<span class="nc" id="L115">        aktualnaData3.printAmountOfMaterialsTime();</span>
+<span class="nc" id="L116">        System.out.println();</span>
+<span class="nc" id="L117">        aktualnaData5.printAmountOfMaterialsTime();</span>
+<span class="nc" id="L118">        System.out.println();</span>
+<span class="nc" id="L119">        aktualnaData6.printAmountOfMaterialsTime();</span>
+<span class="nc" id="L120">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

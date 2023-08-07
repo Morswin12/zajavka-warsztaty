@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+<span class="nc" id="L13">public class Main {</span>
+    public static void main(String[] args) {
+        // nowe BufferedReader
+
+<span class="nc" id="L17">        Path pathIn = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/file.txt&quot;);</span>
+        try {
+<span class="nc" id="L19">            Files.createFile(pathIn);</span>
+<span class="nc" id="L20">        } catch (IOException e) {</span>
+<span class="nc" id="L21">            System.err.println(&quot;Ten Plik juÅ¼ istnieje cepie: &quot;);</span>
+<span class="nc" id="L22">            System.out.println(e.getMessage());</span>
+<span class="nc" id="L23">        }</span>
+<span class="nc" id="L24">        List&lt;String&gt; stringList = new ArrayList&lt;&gt;();</span>
+        try {
+<span class="nc" id="L26">            stringList = Files.readAllLines(pathIn);</span>
+<span class="nc" id="L27">        } catch (IOException e) {</span>
+<span class="nc" id="L28">            System.out.println(&quot;JakiÄ™ bÅ‚Ä…d: &quot; + e.getMessage());</span>
+<span class="nc" id="L29">        }</span>
+<span class="nc" id="L30">        List&lt;String&gt; stringStream = stringList.stream().map(linne -&gt; linne + &quot;2&quot;).collect(Collectors.toList());</span>
+
+<span class="nc" id="L32">        System.out.println(stringStream);</span>
+
+        // nowe BufferedReader - tworzymy go tak jak poniÅ¼ej:
+        // Files.newBufferedReader i zwraca BufferedReader
+<span class="nc" id="L36">        try (BufferedReader bufferedReader = Files.newBufferedReader(pathIn);</span>
+        ) {
+            // tu czytamy linia po lini w pÄ™tli
+<span class="nc" id="L39">            String line = null;</span>
+<span class="nc bnc" id="L40" title="All 2 branches missed.">            while ((line = bufferedReader.readLine()) != null) {</span>
+<span class="nc" id="L41">                System.out.println(line);</span>
+            }
+
+<span class="nc" id="L44">        } catch (IOException e) {</span>
+<span class="nc" id="L45">            System.err.println(&quot;BÅ‚Ä…d z czymÅ›tam: &quot; + e.getMessage());</span>
+<span class="nc" id="L46">            e.printStackTrace();</span>
+
+<span class="nc" id="L48">        }</span>
+
+
+<span class="nc" id="L51">        Path pathOut = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/fileCopied.txt&quot;);</span>
+
+<span class="nc" id="L53">        try (BufferedWriter bufferedWriter = Files.newBufferedWriter(pathOut)) {</span>
+<span class="nc" id="L54">            bufferedWriter.write(&quot;gorororo 1&quot;);</span>
+<span class="nc" id="L55">            bufferedWriter.newLine();</span>
+<span class="nc" id="L56">            bufferedWriter.write(&quot;gorororo 2&quot;);</span>
+
+<span class="nc" id="L58">        } catch (IOException e) {</span>
+<span class="nc" id="L59">            System.out.println(e.getMessage());</span>
+<span class="nc" id="L60">            e.printStackTrace();</span>
+<span class="nc" id="L61">        }</span>
+<span class="nc" id="L62">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

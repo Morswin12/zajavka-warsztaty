@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Exe1.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania</a> &gt; <span class="el_source">Exe1.java</span></div><h1>Exe1.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+<span class="nc" id="L12">public class Exe1 {</span>
+    public static void main(String[] args) throws IOException {
+<span class="nc" id="L14">        Path path = Paths.get(&quot;src/WARSZTATY&quot;);</span>
+//        System.out.println(path.toAbsolutePath());
+<span class="nc" id="L16">        String ends = &quot;java&quot;;</span>
+
+<span class="nc" id="L18">        File[] files = path.toFile().listFiles();</span>
+<span class="nc" id="L19">        System.out.println(Arrays.stream(files).map(p -&gt; p.getName()).collect(Collectors.toList()));</span>
+<span class="nc" id="L20">        Map&lt;String, String&gt; stringStringMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L21">        listOfAllFilesWithExe1(path, ends, stringStringMap);</span>
+<span class="nc" id="L22">        System.out.println(stringStringMap);</span>
+
+<span class="nc bnc" id="L24" title="All 2 branches missed.">        for (Map.Entry&lt;String, String&gt; entry : stringStringMap.entrySet()) {</span>
+<span class="nc" id="L25">            System.out.println(&quot;Key: &quot; + entry.getValue() + &quot;, \n        Value: &quot; + entry.getKey());</span>
+<span class="nc" id="L26">        }</span>
+<span class="nc" id="L27">    }</span>
+
+    private static void listOfAllFilesWithExe1(Path path, String ends, Map&lt;String, String&gt; map) throws IOException {
+
+<span class="nc" id="L31">        File file = path.toFile();</span>
+<span class="nc" id="L32">        File[] files = file.listFiles();</span>
+
+<span class="nc bnc" id="L34" title="All 4 branches missed.">        if (file.isFile() &amp;&amp; file.toPath().endsWith(ends)) {</span>
+<span class="nc" id="L35">            map.put(file.getAbsolutePath(), file.getName());</span>
+//            System.out.println(file.getName()+&quot;  &quot;+  file.getAbsolutePath());
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        } else if (files.length &gt; 0) {</span>
+<span class="nc bnc" id="L38" title="All 2 branches missed.">            for (File file1 : files) {</span>
+<span class="nc bnc" id="L39" title="All 2 branches missed.">                if (file1.isDirectory()) {</span>
+<span class="nc" id="L40">                    listOfAllFilesWithExe1(file1.toPath(), ends, map);</span>
+                } else {
+<span class="nc bnc" id="L42" title="All 2 branches missed.">                    if (file1.toPath().getFileName().toString().endsWith(ends)) {</span>
+
+<span class="nc" id="L44">                        map.put(file1.getAbsolutePath(), file1.getName());</span>
+//                    System.out.println(file1.getName()+ &quot;  &quot; +  file1.getAbsolutePath());
+                    }
+                }
+            }
+        }
+
+
+<span class="nc" id="L52">    }</span>
+
+    private static void listOfAllFilesWithExe2(Path path, String ends, Map&lt;String, String&gt; map) throws IOException {
+
+<span class="nc" id="L56">        File file = path.toFile();</span>
+<span class="nc" id="L57">        File[] files = file.listFiles();</span>
+
+<span class="nc bnc" id="L59" title="All 4 branches missed.">        if (file.isFile() &amp;&amp; file.toPath().endsWith(&quot;txt&quot;)) {</span>
+<span class="nc" id="L60">            map.put(file.getAbsolutePath(), file.getName());</span>
+//            System.out.println(file.getName()+&quot;  &quot;+  file.getAbsolutePath());
+<span class="nc bnc" id="L62" title="All 2 branches missed.">        } else if (files.length &gt; 0) {</span>
+<span class="nc bnc" id="L63" title="All 2 branches missed.">            for (File file1 : files) {</span>
+<span class="nc bnc" id="L64" title="All 2 branches missed.">                if (file1.isDirectory()) {</span>
+<span class="nc" id="L65">                    listOfAllFilesWithExe1(file1.toPath(), ends, map);</span>
+                } else {
+<span class="nc bnc" id="L67" title="All 2 branches missed.">                    if (file1.toPath().getFileName().toString().endsWith(&quot;txt&quot;)) {</span>
+
+<span class="nc" id="L69">                        map.put(file1.getAbsolutePath(), file1.getName());</span>
+//                    System.out.println(file1.getName()+ &quot;  &quot; +  file1.getAbsolutePath());
+                    }
+                }
+            }
+        }
+
+
+<span class="nc" id="L77">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

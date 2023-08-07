@@ -1,0 +1,130 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P29_Podsumowanie</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P29_Podsumowanie)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P29_Podsumowanie;
+&nbsp;
+&nbsp;import java.util.OptionalDouble;
+&nbsp;import java.util.concurrent.atomic.AtomicInteger;
+&nbsp;import java.util.stream.Stream;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        Stream&lt;Integer&gt; stringStream = Stream.of(2, 4, 7, 9);</b>
+<b class="nc">&nbsp;        AtomicInteger atomicInteger = new AtomicInteger(0);</b>
+<b class="nc">&nbsp;        Integer sum = stringStream</b>
+<b class="nc">&nbsp;                .peek(elem-&gt; atomicInteger.incrementAndGet())</b>
+<b class="nc">&nbsp;                .reduce(0, (elem1, elem2) -&gt; elem1 + elem2);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(sum);</b>
+<b class="nc">&nbsp;        System.out.println(atomicInteger);</b>
+<b class="nc">&nbsp;        int i = atomicInteger.get();</b>
+<b class="nc">&nbsp;        double average = (double) sum / i;</b>
+<b class="nc">&nbsp;        System.out.println(average);</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Stream&lt;Integer&gt; stringStream2 = Stream.of(2, 4, 7, 9);</b>
+&nbsp;
+<b class="nc">&nbsp;        OptionalDouble average1 = stringStream2.mapToInt(value -&gt; value).average();</b>
+<b class="nc">&nbsp;        System.out.println(average1.orElse(0));</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

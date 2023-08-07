@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-08-07T15:53:50" hostname="GORO-COMP" time="0.008">
+  <properties/>
+  <testcase name="Testing method which tests adding behaviour" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After.CalculatorTest" time="0.003"/>
+  <testcase name="testSubtract()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After.CalculatorTest" time="0.001"/>
+  <testcase name="testDivide()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After.CalculatorTest" time="0.001"/>
+  <testcase name="Testing method which tests multiplying behaviour" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After.CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

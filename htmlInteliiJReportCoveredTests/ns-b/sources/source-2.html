@@ -1,0 +1,156 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CitiesToCompareAgain</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test</a>
+</div>
+
+<h1>Coverage Summary for Class: CitiesToCompareAgain (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CitiesToCompareAgain</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/19)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P17_Test;
+&nbsp;
+&nbsp;import java.util.*;
+&nbsp;
+&nbsp;public class CitiesToCompareAgain implements Comparable&lt;CitiesToCompareAgain&gt;, Comparator&lt;CitiesToCompareAgain&gt; {
+&nbsp;
+&nbsp;    private final String someText;
+&nbsp;    private final Integer someNumber;
+&nbsp;
+<b class="nc">&nbsp;    public CitiesToCompareAgain(final String someText, final int someNumber) {</b>
+<b class="nc">&nbsp;        this.someText = someText;</b>
+<b class="nc">&nbsp;        this.someNumber = someNumber;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public String toString() {
+<b class="nc">&nbsp;        return someNumber.toString();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public int compareTo(CitiesToCompareAgain element) {
+<b class="nc">&nbsp;        return element.someNumber - someNumber;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public int compare(CitiesToCompareAgain element1, CitiesToCompareAgain element2) {
+<b class="nc">&nbsp;        return element1.someText.compareTo(element2.someText);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        CitiesToCompareAgain element1 = new CitiesToCompareAgain(&quot;Text1&quot;, 2);</b>
+<b class="nc">&nbsp;        CitiesToCompareAgain element2 = new CitiesToCompareAgain(&quot;Text2&quot;, 3);</b>
+<b class="nc">&nbsp;        CitiesToCompareAgain element3 = new CitiesToCompareAgain(&quot;Text3&quot;, 1);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;CitiesToCompareAgain&gt; list = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        list.add(element1);</b>
+<b class="nc">&nbsp;        list.add(element2);</b>
+<b class="nc">&nbsp;        list.add(element3);</b>
+&nbsp;
+<b class="nc">&nbsp;        Collections.sort(list);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(list);</b>
+&nbsp;
+<b class="nc">&nbsp;        quiz();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void quiz() {
+<b class="nc">&nbsp;        List&lt;String&gt; list = Arrays.asList(&quot;Warszawa&quot;, &quot;Zakopane&quot;, &quot;Augustów&quot;, &quot;Jelenia Góra&quot;);</b>
+<b class="nc">&nbsp;        Collections.sort(list, (e1, e2) -&gt; e1.compareTo(e2));</b>
+<b class="nc">&nbsp;        System.out.println(Collections.binarySearch(list, &quot;Augustów&quot;));</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

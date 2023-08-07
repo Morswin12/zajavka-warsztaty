@@ -1,0 +1,164 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CustomerMapper</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet</a>
+</div>
+
+<h1>Coverage Summary for Class: CustomerMapper (WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CustomerMapper</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/23)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet;
+&nbsp;
+&nbsp;import java.sql.ResultSet;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class CustomerMapper {</b>
+&nbsp;
+&nbsp;//    static List&lt;Customer&gt; mapToCostumers(ResultSet resultSet) {
+&nbsp;//        List&lt;Customer&gt; result = new ArrayList&lt;&gt;();
+&nbsp;//        try {
+&nbsp;//            while (resultSet.next()) {
+&nbsp;//                result.add(new Customer(
+&nbsp;//                        resultSet.getString(&quot;id&quot;),
+&nbsp;//                        resultSet.getString(&quot;user_name&quot;),
+&nbsp;//                        resultSet.getString(&quot;email&quot;),
+&nbsp;//                        resultSet.getString(&quot;name&quot;),
+&nbsp;//                        resultSet.getString(&quot;surname&quot;),
+&nbsp;//                        LocalDate.parse(resultSet.getString(&quot;date_of_birth&quot;)),
+&nbsp;//                        resultSet.getString(&quot;telephone_number&quot;)
+&nbsp;//
+&nbsp;//                ));
+&nbsp;//            }
+&nbsp;//        } catch (Exception e) {
+&nbsp;//            System.err.println(&quot;Du?y b??d kolego: Error while mapping resultSet to list:  &quot; + e.getMessage() );
+&nbsp;//        }
+&nbsp;//
+&nbsp;//        return result;
+&nbsp;//    }
+&nbsp;
+&nbsp;    static List&lt;Customer&gt; mapToCostumers(ResultSet resultSet) {
+<b class="nc">&nbsp;        List&lt;Customer&gt; result = new ArrayList&lt;&gt;();</b>
+&nbsp;        try {
+<b class="nc">&nbsp;            while (resultSet.next()) {</b>
+<b class="nc">&nbsp;                Object column1 = resultSet.getObject(1);</b>
+<b class="nc">&nbsp;                if (column1 instanceof Integer) {</b>
+<b class="nc">&nbsp;                    Integer col1Int = (Integer) column1;</b>
+<b class="nc">&nbsp;                    System.out.println(col1Int);</b>
+&nbsp;                }
+<b class="nc">&nbsp;                if (column1 instanceof String) {</b>
+<b class="nc">&nbsp;                    String col1Str = (String) column1;</b>
+<b class="nc">&nbsp;                    System.out.println(col1Str);</b>
+&nbsp;                }
+<b class="nc">&nbsp;                result.add(new Customer(</b>
+<b class="nc">&nbsp;                        resultSet.getString(1),</b>
+<b class="nc">&nbsp;                        resultSet.getString(2),</b>
+<b class="nc">&nbsp;                        resultSet.getString(3),</b>
+<b class="nc">&nbsp;                        resultSet.getString(4),</b>
+<b class="nc">&nbsp;                        resultSet.getString(5),</b>
+<b class="nc">&nbsp;                        resultSet.getDate(6).toLocalDate(),</b>
+<b class="nc">&nbsp;                        resultSet.getString(7)</b>
+&nbsp;
+&nbsp;                ));
+<b class="nc">&nbsp;            }</b>
+<b class="nc">&nbsp;        } catch (Exception e) {</b>
+<b class="nc">&nbsp;            System.err.println(&quot;Du?y b??d kolego: Error while mapping resultSet to list:  &quot; + e.getMessage() );</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

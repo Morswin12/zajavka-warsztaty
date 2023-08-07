@@ -1,0 +1,234 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P26_Map_HashMap__Zaawansowane_kolekcje</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P26_Map_HashMap__Zaawansowane_kolekcje)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/29)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Main$Dog</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/10)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/39)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P26_Map_HashMap__Zaawansowane_kolekcje;
+&nbsp;
+&nbsp;import java.time.Duration;
+&nbsp;import java.time.LocalTime;
+&nbsp;import java.util.HashMap;
+&nbsp;import java.util.Map;
+&nbsp;import java.util.Objects;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;
+&nbsp;    /*
+&nbsp;    void clear()                        - czysci wszystko
+&nbsp;    boolean isEmpty()                   -  sprawdza czy jest pusty
+&nbsp;    int size()
+&nbsp;    V get(Object key)                   - wyciaga wartosc po kluczu
+&nbsp;    V put(K key, V value)
+&nbsp;    V remove(Object key)
+&nbsp;    boolean containsKey(Object key)     - czy zawera klucz key
+&nbsp;    boolean containsValue(Object value) - czy zawera wartosc value
+&nbsp;    Set&lt;K&gt; keySet()                     - zwraca Set wszystkich kluczy
+&nbsp;    Collection&lt;V&gt; value()               - zwraca kolekcje wszystkich wartosci
+&nbsp;     */
+&nbsp;    public static void main(String[] args) {
+&nbsp;//        Set&lt;String&gt; stringSet = Set.of(&quot;A&quot;);
+&nbsp;//        Map&lt;String, String&gt; stringStringMap = Map.of(&quot;2&quot;, &quot;ASDF&quot;);
+&nbsp;
+<b class="nc">&nbsp;        Map&lt;String, String&gt; someMap = new HashMap&lt;&gt;();</b>
+<b class="nc">&nbsp;        someMap.put(&quot;1&quot;, &quot;ABC&quot;);</b>
+<b class="nc">&nbsp;        someMap.put(&quot;2&quot;, &quot;DEF&quot;);</b>
+<b class="nc">&nbsp;        someMap.put(&quot;1&quot;, &quot;GHI&quot;);</b>
+<b class="nc">&nbsp;        someMap.put(&quot;4&quot;, &quot;JKL&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(someMap);</b>
+&nbsp;
+<b class="nc">&nbsp;        someMap.getOrDefault(&quot;5&quot;, &quot;co? zamiennego&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        Map&lt;Dog, String&gt; dogStringMap = new HashMap&lt;&gt;();</b>
+&nbsp;
+<b class="nc">&nbsp;        Dog andrzej = new Dog(&quot;Andrzej&quot;);</b>
+<b class="nc">&nbsp;        Dog stefan1 = new Dog(&quot;Stefan&quot;);</b>
+<b class="nc">&nbsp;        Dog zbyszek = new Dog(&quot;Zbyszek&quot;);</b>
+<b class="nc">&nbsp;        Dog stefan2 = new Dog(&quot;Stefan&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        dogStringMap.put(andrzej, &quot;Hau Andrzeju&quot;);</b>
+<b class="nc">&nbsp;        dogStringMap.put(stefan1, &quot;asdasdas&quot;);</b>
+<b class="nc">&nbsp;        dogStringMap.put(zbyszek, &quot;ewrwerewr&quot;);</b>
+<b class="nc">&nbsp;        dogStringMap.put(stefan2, &quot;srfsdfsdf&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(dogStringMap);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(dogStringMap.get(stefan1));</b>
+<b class="nc">&nbsp;        System.out.println(dogStringMap.get(stefan2));</b>
+&nbsp;
+<b class="nc">&nbsp;        stefan1.setName(&quot;Stefan1&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(dogStringMap.get(stefan1));</b>
+&nbsp;
+<b class="nc">&nbsp;        stefan1.setName(&quot;Stefan&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(dogStringMap.get(stefan1));</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Map&lt;Dog, String&gt; dogStringMaps = new HashMap&lt;&gt;();</b>
+&nbsp;
+<b class="nc">&nbsp;        LocalTime before = LocalTime.now();</b>
+<b class="nc">&nbsp;        for (int i = 0; i &lt; 100_000; i++) {</b>
+<b class="nc">&nbsp;            dogStringMaps.put(new Dog(&quot;Dog&quot; + i / 15), &quot;some value&quot;);</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(&quot;Loop took: &quot; + Duration.between(before, LocalTime.now()).toMillis());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static class Dog {
+&nbsp;        private String name;
+&nbsp;
+<b class="nc">&nbsp;        public Dog(String name) {</b>
+<b class="nc">&nbsp;            this.name = name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        public String getName() {
+<b class="nc">&nbsp;            return name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        public void setName(String name) {
+<b class="nc">&nbsp;            this.name = name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public String toString() {
+<b class="nc">&nbsp;            return &quot;Dog: &quot; + name;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public boolean equals(Object o) {
+<b class="nc">&nbsp;            if (this == o) return true;</b>
+<b class="nc">&nbsp;            if (o == null || getClass() != o.getClass()) return false;</b>
+<b class="nc">&nbsp;            Dog dog = (Dog) o;</b>
+<b class="nc">&nbsp;            return Objects.equals(name, dog.name);</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        @Override
+&nbsp;        public int hashCode() {
+&nbsp;//            return Objects.hash(name);
+<b class="nc">&nbsp;            return 1;</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

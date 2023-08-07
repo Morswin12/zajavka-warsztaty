@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P18_Zadanie</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P18_Zadanie)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/32)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P18_Zadanie;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.Collections;
+&nbsp;import java.util.Comparator;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List&lt;Employee&gt; employees = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam4&quot;, &quot;Nowak2&quot; , 34, 4500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam4&quot;, &quot;Nowak2&quot; , 56, 6500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam4&quot;, &quot;Nowak2&quot; , 23, 4500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam4&quot;, &quot;Nowak&quot; , 77, 7500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam3&quot;, &quot;Nowak6&quot; , 55, 4500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam6&quot;, &quot;Nowak6&quot; , 12, 8500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam7&quot;, &quot;Nowak6&quot; , 42, 3500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam8&quot;, &quot;Nowak6&quot; , 23, 3500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam&quot;, &quot;Nowakd&quot; , 55, 6500.00));</b>
+<b class="nc">&nbsp;        employees.add(new Employee(&quot;Adam&quot;, &quot;Nowakwe&quot; , 66, 4000.00));</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(employees);</b>
+<b class="nc">&nbsp;        Collections.sort(employees);</b>
+<b class="nc">&nbsp;        System.out.println(employees);</b>
+<b class="nc">&nbsp;        Comparator&lt;Employee&gt; comparator = (o1, o2) -&gt; {</b>
+<b class="nc">&nbsp;            int i = o1.getName().compareTo(o2.getName());</b>
+<b class="nc">&nbsp;            if (i == 0) {</b>
+<b class="nc">&nbsp;                i += o2.getSurName().compareTo(o1.getSurName());</b>
+&nbsp;            }
+<b class="nc">&nbsp;            if (i == 0) {</b>
+<b class="nc">&nbsp;                i += o1.getAge() - o2.getAge();</b>
+&nbsp;            }
+<b class="nc">&nbsp;            if (i == 0) {</b>
+<b class="nc">&nbsp;                double i1 = o1.getSalary() - o2.getSalary();</b>
+&nbsp;                int temporary;
+<b class="nc">&nbsp;                if (i1 == 0.00) {</b>
+<b class="nc">&nbsp;                    temporary = 0;</b>
+<b class="nc">&nbsp;                } else if (i1 &gt; 0) {</b>
+<b class="nc">&nbsp;                    temporary = 1;</b>
+&nbsp;                } else {
+<b class="nc">&nbsp;                    temporary = -1;</b>
+&nbsp;                }
+<b class="nc">&nbsp;                i += temporary;</b>
+&nbsp;            }
+&nbsp;
+<b class="nc">&nbsp;            return i;</b>
+&nbsp;        };
+&nbsp;
+<b class="nc">&nbsp;        employees.sort(comparator);</b>
+<b class="nc">&nbsp;        System.out.println(employees);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

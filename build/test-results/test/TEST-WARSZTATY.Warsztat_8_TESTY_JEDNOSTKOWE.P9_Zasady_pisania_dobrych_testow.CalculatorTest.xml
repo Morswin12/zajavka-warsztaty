@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-07T15:53:51" hostname="GORO-COMP" time="0.004">
+  <properties/>
+  <testcase name="add()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.CalculatorTest" time="0.004"/>
+  <system-out><![CDATA[13
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

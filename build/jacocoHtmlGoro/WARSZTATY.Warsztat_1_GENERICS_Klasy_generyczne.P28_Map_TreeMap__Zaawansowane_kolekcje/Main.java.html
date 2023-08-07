@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P28_Map_TreeMap__Zaawansowane_kolekcje</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P28_Map_TreeMap__Zaawansowane_kolekcje;
+
+import java.util.*;
+
+<span class="nc" id="L5">public class Main {</span>
+        public static void main(String[] args) {
+
+<span class="nc" id="L8">            Map&lt;String, String&gt; treeMap = new TreeMap&lt;&gt;(Comparator.comparing(o-&gt;o.length()));</span>
+<span class="nc" id="L9">            treeMap.put(&quot;1A&quot;, &quot;some treeMap1&quot;);</span>
+<span class="nc" id="L10">            treeMap.put(&quot;A1aa&quot;, &quot;some treeMap2&quot;);</span>
+<span class="nc" id="L11">            treeMap.put(&quot;aAaaa&quot;, &quot;some treeMap3&quot;);</span>
+<span class="nc" id="L12">            treeMap.put(&quot;BAa&quot;, &quot;some treeMap4&quot;);</span>
+<span class="nc" id="L13">            treeMap.put(&quot;4Aaaaaaaaa&quot;, &quot;some treeMap5&quot;);</span>
+
+<span class="nc" id="L15">            System.out.println(treeMap);</span>
+
+<span class="nc bnc" id="L17" title="All 2 branches missed.">            for (String value : treeMap.values()) {</span>
+<span class="nc" id="L18">                System.out.println(value);</span>
+<span class="nc" id="L19">            }</span>
+
+<span class="nc bnc" id="L21" title="All 2 branches missed.">            for (Map.Entry&lt;String, String&gt; entry : treeMap.entrySet()) {</span>
+<span class="nc" id="L22">                System.out.println(entry);</span>
+<span class="nc" id="L23">            }</span>
+<span class="nc" id="L24">            System.out.println();</span>
+
+<span class="nc" id="L26">            Map&lt;Dog, String&gt; treeDogsMap = new TreeMap&lt;&gt;((a,b) -&gt; b.name.compareTo(a.name));</span>
+<span class="nc" id="L27">            treeDogsMap.put(new Dog(&quot;4&quot;), &quot;some treeDogsMap4&quot;);</span>
+<span class="nc" id="L28">            treeDogsMap.put(new Dog(&quot;2&quot;), &quot;some treeDogsMap2&quot;);</span>
+<span class="nc" id="L29">            treeDogsMap.put(new Dog(&quot;1&quot;), &quot;some treeDogsMap1&quot;);</span>
+<span class="nc" id="L30">            treeDogsMap.put(new Dog(&quot;5&quot;), &quot;some treeDogsMap5&quot;);</span>
+<span class="nc" id="L31">            treeDogsMap.put(new Dog(&quot;3&quot;), &quot;some treeDogsMap3&quot;);</span>
+
+<span class="nc" id="L33">            System.out.println(treeDogsMap);</span>
+<span class="nc" id="L34">            System.out.println();</span>
+
+<span class="nc bnc" id="L36" title="All 2 branches missed.">            for (String value : treeDogsMap.values()) {</span>
+<span class="nc" id="L37">                System.out.println(value);</span>
+<span class="nc" id="L38">            }</span>
+
+<span class="nc" id="L40">            System.out.println();</span>
+
+<span class="nc bnc" id="L42" title="All 2 branches missed.">            for (Map.Entry&lt;Dog, String&gt; entry : treeDogsMap.entrySet()) {</span>
+<span class="nc" id="L43">                System.out.println(entry);</span>
+<span class="nc" id="L44">            }</span>
+
+
+//            Map&lt;String, String&gt; hashMap = new HashMap&lt;&gt;();
+//            hashMap.put(&quot;1A&quot;, &quot;some hashMap1&quot;);
+//            hashMap.put(&quot;A1&quot;, &quot;some hashMap2&quot;);
+//            hashMap.put(&quot;aA&quot;, &quot;some hashMap3&quot;);
+//            hashMap.put(&quot;BA&quot;, &quot;some hashMap4&quot;);
+//            hashMap.put(&quot;4A&quot;, &quot;some hashMap5&quot;);
+//
+//            System.out.println(hashMap);
+<span class="nc" id="L55">    }</span>
+
+    private static class Dog implements Comparable&lt;Dog&gt;{
+        private final String name;
+
+<span class="nc" id="L60">        public Dog(String name) {</span>
+<span class="nc" id="L61">            this.name = name;</span>
+<span class="nc" id="L62">        }</span>
+
+        public String getName() {
+<span class="nc" id="L65">            return name;</span>
+        }
+
+        @Override
+        public String toString() {
+<span class="nc" id="L70">            return &quot;Dog: &quot; + name;</span>
+        }
+
+        @Override
+        public boolean equals(Object o) {
+<span class="nc bnc" id="L75" title="All 2 branches missed.">            if (this == o) return true;</span>
+<span class="nc bnc" id="L76" title="All 4 branches missed.">            if (o == null || getClass() != o.getClass()) return false;</span>
+<span class="nc" id="L77">            Dog dog = (Dog) o;</span>
+<span class="nc" id="L78">            return Objects.equals(name, dog.name);</span>
+        }
+
+        @Override
+        public int hashCode() {
+//            return Objects.hash(name);
+<span class="nc" id="L84">            return 1;</span>
+        }
+
+        @Override
+        public int compareTo(Dog o) {
+<span class="nc" id="L89">            return this.name.compareTo(o.name);</span>
+        }
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

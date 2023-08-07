@@ -1,0 +1,4 @@
+j2023-08-07T15:53:51 [Test worker] INFO  W.W.P8_Testy_JUnit_Logback.Calculator:add:10 - some info message
+j2023-08-07T15:53:51 [Test worker] WARN  W.W.P8_Testy_JUnit_Logback.Calculator:add:11 - some warn message
+k2023-08-07T15:53:51 [Test worker] ERROR W.W.P8_Testy_JUnit_Logback.Calculator:add:12 - some error message
+13

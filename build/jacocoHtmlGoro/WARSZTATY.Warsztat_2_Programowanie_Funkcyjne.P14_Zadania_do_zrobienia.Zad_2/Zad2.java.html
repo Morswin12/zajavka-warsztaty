@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Zad2.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_2</a> &gt; <span class="el_source">Zad2.java</span></div><h1>Zad2.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_2;
+
+<span class="nc" id="L3">public class Zad2 {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L5">        SomeFunctionalInterface&lt;String, Integer, SomeSuperClass, Integer&gt; someFI = (s, i, x) -&gt; calculate(s, i, x);</span>
+<span class="nc" id="L6">        System.out.println(&quot;DÅ‚ugoÅ›Ä‡ to: &quot; + someFI.integerResumeMethod(&quot;Goro&quot;, 24, new SomeSuperClass()));</span>
+<span class="nc" id="L7">        SomeFunctionalInterface&lt;String, Integer, SomeSuperClass, Integer&gt; someFI2 = (s, i, x) -&gt; calculate2(s, i, x);</span>
+<span class="nc" id="L8">        System.out.println(&quot;DÅ‚ugoÅ›Ä‡ to: &quot; + someFI2.integerResumeMethod(&quot;ania&quot;, 24, new SomeSuperClass()));</span>
+<span class="nc" id="L9">    }</span>
+
+    private static Integer calculate(String s, Integer i, SomeSuperClass x) {
+<span class="nc" id="L12">        System.out.println(&quot;String: &quot; + s + &quot;, Integer: &quot; + i + &quot;, Class: &quot; + x);</span>
+<span class="nc" id="L13">        return s.length() + i + x.toString().length();</span>
+    }
+    private static Integer calculate2(String s, Integer i, SomeSuperClass x) {
+<span class="nc" id="L16">        System.out.println(&quot;String: &quot; + s + &quot;, Integer: &quot; + i + &quot;, Class: &quot; + x);</span>
+<span class="nc" id="L17">        Integer counter = 0;</span>
+<span class="nc bnc" id="L18" title="All 2 branches missed.">        for (int j = 0; j &lt; s.length(); j++) {</span>
+<span class="nc bnc" id="L19" title="All 2 branches missed.">            if (s.charAt(j) == 'a') {</span>
+<span class="nc" id="L20">                counter++;</span>
+            }
+        }
+<span class="nc" id="L23">        Integer counter2 = 0;</span>
+<span class="nc bnc" id="L24" title="All 2 branches missed.">        for (int j = 0; j &lt; x.toString().length(); j++) {</span>
+<span class="nc" id="L25">            char c = x.toString().charAt(j);</span>
+<span class="nc bnc" id="L26" title="All 4 branches missed.">            if (c == ',' || c == '=') {</span>
+<span class="nc" id="L27">                counter2++;</span>
+            }
+        }
+<span class="nc" id="L30">        return counter + i + counter2;</span>
+    }
+
+    private static class SomeSuperClass {
+        @Override
+        public String toString() {
+<span class="nc" id="L36">            return &quot;SomeSuperClass={,}&quot;;</span>
+        }
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

@@ -1,0 +1,184 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > StreamExample</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P24_Stream_Operacje_Posrednie</a>
+</div>
+
+<h1>Coverage Summary for Class: StreamExample (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P24_Stream_Operacje_Posrednie)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">StreamExample</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/37)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P24_Stream_Operacje_Posrednie;
+&nbsp;
+&nbsp;import java.util.Arrays;
+&nbsp;import java.util.List;
+&nbsp;import java.util.concurrent.atomic.AtomicInteger;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;import java.util.stream.Stream;
+&nbsp;
+<b class="nc">&nbsp;public class StreamExample {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+&nbsp;        //filter
+<b class="nc">&nbsp;        System.out.println(&quot;--------------filter-----------------\n&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; cities = Arrays.asList(</b>
+&nbsp;                &quot;Warszawa&quot;, &quot;Kraków&quot;, &quot;Kielce&quot;, &quot;Kielceo&quot;, &quot;Wroc?aw&quot;, &quot;Mas?ów&quot;, &quot;BielskoBiaa&quot;
+&nbsp;        );
+<b class="nc">&nbsp;        Stream&lt;String&gt; stream = cities.stream();</b>
+<b class="nc">&nbsp;        List&lt;String&gt; filteredList = stream</b>
+<b class="nc">&nbsp;                .filter(s -&gt; s.contains(&quot;a&quot;) || s.contains(&quot;o&quot;))</b>
+<b class="nc">&nbsp;                .filter(s -&gt; s.length() &gt; 6)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+<b class="nc">&nbsp;        System.out.println(filteredList);</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+&nbsp;        //map
+<b class="nc">&nbsp;        System.out.println(&quot;--------------map-------------&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; collect = cities.stream()</b>
+<b class="nc">&nbsp;                .map(s -&gt; s + &quot;-&quot; + s.length())</b>
+<b class="nc">&nbsp;                .map(String::toUpperCase)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(collect);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Person&gt; cities2 = Arrays.asList(</b>
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Warszawa&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Kraków&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Kielce&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Kielceo&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Wroc?aw&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Mas?ów&quot;)),
+&nbsp;                new Person(&quot;Adam&quot;, new City(&quot;Mas?ów&quot;)));
+&nbsp;
+<b class="nc">&nbsp;        List&lt;City&gt; collect1 = cities2.stream()</b>
+<b class="nc">&nbsp;                .map(Person::getCity)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+<b class="nc">&nbsp;        System.out.println(collect1);</b>
+&nbsp;
+<b class="nc">&nbsp;        AtomicInteger counter = new AtomicInteger(0);</b>
+<b class="nc">&nbsp;        String reduce = cities2.stream()</b>
+<b class="nc">&nbsp;                .map(Person::getCity)</b>
+<b class="nc">&nbsp;                .map(city -&gt; counter.incrementAndGet() + &quot; &quot; + city.getName())</b>
+<b class="nc">&nbsp;                .reduce(&quot;Start: &quot;, (a, b) -&gt; a + &quot; &quot; + b);</b>
+<b class="nc">&nbsp;        System.out.println(reduce);</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+&nbsp;        //flatMap
+<b class="nc">&nbsp;        System.out.println(&quot;------------------flatMap---------------------&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; cities3 = Arrays.asList(</b>
+&nbsp;                &quot;Warszawa&quot;, &quot;Kraków3&quot;, &quot;Kielce&quot;, &quot;Kielceo3&quot;, &quot;Wroc?aw&quot;, &quot;Mas?ów&quot;, &quot;BielskoBiaa&quot;
+&nbsp;        );
+<b class="nc">&nbsp;        List&lt;String&gt; cities4 = Arrays.asList(</b>
+&nbsp;                &quot;Warszawa4&quot;,  &quot;Kielce&quot;, &quot;Kielceo4&quot;,&quot;Kraków&quot;, &quot;Wroc?aw4&quot;, &quot;Mas?ów&quot;, &quot;BielskoBiaa&quot;
+&nbsp;        );
+<b class="nc">&nbsp;        List&lt;String&gt; cities5 = Arrays.asList(</b>
+&nbsp;                &quot;Warszawa&quot;, &quot;Kraków&quot;, &quot;Kielce5&quot;, &quot;Kielceo&quot;, &quot;Wroc?aw&quot;, &quot;Mas?ów5&quot;, &quot;BielskoBiaa5&quot;
+&nbsp;        );
+&nbsp;
+<b class="nc">&nbsp;        List&lt;List&lt;String&gt;&gt; lostOfCitiesLists = List.of(cities3, cities4, cities5);</b>
+<b class="nc">&nbsp;        System.out.println(lostOfCitiesLists);</b>
+&nbsp;
+<b class="nc">&nbsp;        Stream&lt;String&gt; stringStream = lostOfCitiesLists.stream()</b>
+<b class="nc">&nbsp;                .flatMap(citie -&gt; citie.stream().map(String::toUpperCase));</b>
+<b class="nc">&nbsp;        System.out.println(stringStream.collect(Collectors.toSet()));</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

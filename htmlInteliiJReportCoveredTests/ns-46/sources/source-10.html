@@ -1,0 +1,261 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Purchase</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a>
+</div>
+
+<h1>Coverage Summary for Class: Purchase (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Purchase</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/24)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Purchase$Delivery</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Purchase$Payment</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Purchase$Status</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/16)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/36)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+&nbsp;
+&nbsp;import java.time.LocalDate;
+&nbsp;
+&nbsp;public class Purchase {
+&nbsp;    private final Client buyer;
+&nbsp;    private final Product product;
+&nbsp;    private final long quantity;
+&nbsp;    private final Delivery delivery;
+&nbsp;    private final Payment payment;
+&nbsp;    private final LocalDate when;
+&nbsp;    private final Status status;
+&nbsp;    // konstruktory, gettery itp
+&nbsp;
+<b class="nc">&nbsp;    public Purchase(Client buyer, Product product, long quantity, Delivery delivery, Payment payment, LocalDate when) {</b>
+<b class="nc">&nbsp;        this.buyer = buyer;</b>
+<b class="nc">&nbsp;        this.product = product;</b>
+<b class="nc">&nbsp;        this.quantity = quantity;</b>
+<b class="nc">&nbsp;        this.delivery = delivery;</b>
+<b class="nc">&nbsp;        this.payment = payment;</b>
+<b class="nc">&nbsp;        this.when = when;</b>
+<b class="nc">&nbsp;        this.status = Status.PAID;</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public Purchase(Purchase purchase, Status status) {</b>
+<b class="nc">&nbsp;        this.buyer = purchase.buyer;</b>
+<b class="nc">&nbsp;        this.product = purchase.product;</b>
+<b class="nc">&nbsp;        this.quantity = purchase.quantity;</b>
+<b class="nc">&nbsp;        this.delivery = purchase.delivery;</b>
+<b class="nc">&nbsp;        this.payment = purchase.payment;</b>
+<b class="nc">&nbsp;        this.when = purchase.when;</b>
+<b class="nc">&nbsp;        this.status = status;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public String toString() {
+<b class="nc">&nbsp;        return &quot;Purchase{&quot; +</b>
+&nbsp;                &quot;buyer=&quot; + buyer +
+&nbsp;                &quot;, product=&quot; + product +
+&nbsp;                &quot;, quantity=&quot; + quantity +
+&nbsp;                &quot;, delivery=&quot; + delivery +
+&nbsp;                &quot;, payment=&quot; + payment +
+&nbsp;                &quot;, when=&quot; + when +
+&nbsp;                &quot;, status=&quot; + status +
+&nbsp;                &#39;}&#39;;
+&nbsp;    }
+&nbsp;
+&nbsp;    public Client getBuyer() {
+<b class="nc">&nbsp;        return buyer;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Product getProduct() {
+<b class="nc">&nbsp;        return product;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public long getQuantity() {
+<b class="nc">&nbsp;        return quantity;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Delivery getDelivery() {
+<b class="nc">&nbsp;        return delivery;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Payment getPayment() {
+<b class="nc">&nbsp;        return payment;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public LocalDate getWhen() {
+<b class="nc">&nbsp;        return when;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Status getStatus() {
+<b class="nc">&nbsp;        return status;</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public enum Delivery {</b>
+<b class="nc">&nbsp;        IN_POST,</b>
+<b class="nc">&nbsp;        UPS,</b>
+<b class="nc">&nbsp;        DHL</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public enum Payment {</b>
+<b class="nc">&nbsp;        CASH,</b>
+<b class="nc">&nbsp;        BLIK,</b>
+<b class="nc">&nbsp;        CREDIT_CARD</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public enum Status {</b>
+<b class="nc">&nbsp;        PAID,</b>
+<b class="nc">&nbsp;        SENT,</b>
+<b class="nc">&nbsp;        DONE</b>
+&nbsp;    }
+&nbsp;}
+&nbsp;
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

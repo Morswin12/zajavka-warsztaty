@@ -1,0 +1,226 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > GenericMethodMain</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody</a>
+</div>
+
+<h1>Coverage Summary for Class: GenericMethodMain (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">GenericMethodMain</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/19)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">GenericMethodMain$Apple</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">GenericMethodMain$Bike</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">GenericMethodMain$Vehicle</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/11)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/24)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P3_Generyczne_Metody;
+&nbsp;
+&nbsp;import java.util.Map;
+&nbsp;
+<b class="nc">&nbsp;public class GenericMethodMain&lt;T&gt; {</b>
+<b class="nc">&nbsp;    public static Map&lt;String, Vehicle&gt; vehicleMap = Map.of(</b>
+&nbsp;            &quot;Vehicle1&quot;, new Bike()
+&nbsp;    );
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        String s = &quot;ASDF&quot;;</b>
+<b class="nc">&nbsp;        Bike bike = new Bike();</b>
+<b class="nc">&nbsp;        call1(bike);</b>
+<b class="nc">&nbsp;        call1(s);</b>
+&nbsp;
+<b class="nc">&nbsp;        call2(new Vehicle());</b>
+<b class="nc">&nbsp;        call2(new Bike());</b>
+&nbsp;
+<b class="nc">&nbsp;        Bike bike1 = call3(bike);</b>
+<b class="nc">&nbsp;        System.out.println(bike1);</b>
+&nbsp;
+<b class="nc">&nbsp;        Bike b = call4();</b>
+<b class="nc">&nbsp;        System.out.println(b.getName());</b>
+<b class="nc">&nbsp;        String name1 = GenericMethodMain.&lt;Bike&gt;call4().getName();</b>
+<b class="nc">&nbsp;        System.out.println(name1);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static &lt;T&gt; void call1(T element) {
+<b class="nc">&nbsp;        System.out.println(element);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static &lt;T extends Vehicle&gt; void call2(T element) {
+<b class="nc">&nbsp;        System.out.println(element);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static &lt;T extends Vehicle&gt; T call3(T element) {
+<b class="nc">&nbsp;        T t = element;</b>
+<b class="nc">&nbsp;        return t;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static &lt;T&gt; T call4() {
+<b class="nc">&nbsp;        return (T) vehicleMap.get(&quot;Vehicle1&quot;);</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    static class Vehicle {</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    static class Bike extends Vehicle{</b>
+<b class="nc">&nbsp;        String name = &quot;asdf&quot;;</b>
+&nbsp;        String getName() {
+<b class="nc">&nbsp;            return &quot;bikeName&quot;;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    static class Apple {</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

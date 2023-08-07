@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_4_Bazy_Danych.P9_PROJEKT</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_4_Bazy_Danych.P9_PROJEKT;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static void main(String[] args) {
+
+/*
+
+pkt 1. StwÃ³rz wspomnianÄ… bazÄ™ danych.
+CREATE DATABASE zajavka_store
+
+
+CREATE TABLE CUSTOMER(
+	ID 		 			INT  			NOT NULL,
+	USER_NAME			VARCHAR(32) 	NOT NULL,
+	EMAIL				VARCHAR(32)		NOT NULL,
+	NAME				VARCHAR(32)		NOT NULL,
+	SURNAME 			VARCHAR(32)		NOT NULL,
+	DATE_OF_BIRTH		DATE,
+	TELEPHONE_NUMBER 	varchar(64),
+	PRIMARY KEY(ID),
+	UNIQUE(USER_NAME),
+	UNIQUE (EMAIL)
+);
+
+
+CREATE TABLE PRODUCER(
+	ID 		 			INT  			NOT NULL,
+	PRODUCER_NAME		VARCHAR(64) 	NOT NULL,
+	ADDRESS				VARCHAR(128)    NOT NULL,
+	PRIMARY KEY(ID),
+	UNIQUE (PRODUCER_NAME)
+);
+
+
+CREATE TABLE PRODUCT(
+	ID 		 				INT  			NOT NULL,
+	PRODUCT_CODE			VARCHAR(32)	 	NOT NULL,
+	PRODUCT_NAME			VARCHAR(64) 	NOT NULL,
+	PRODUCT_PRICE			NUMERIC(9, 2)	NOT NULL,
+	ADULTS_ONLY				BOOLEAN			NOT NULL,
+	DESCRIPTION				TEXT			NOT NULL,
+	PRODUCER_ID				INT				NOT NULL,
+	PRIMARY KEY(ID),
+	UNIQUE (PRODUCT_CODE),
+	CONSTRAINT 	fk_producer
+		FOREIGN KEY (PRODUCER_ID)
+			REFERENCES PRODUCER(ID)
+);
+
+
+
+CREATE TABLE PURCHASE(
+	ID 		 				INT  			NOT NULL,
+	CUSTOMER_ID				INT		 		NOT NULL,
+	PRODUCT_ID				INT				NOT NULL,
+	QUANTITY				INT				NOT NULL,
+	DATE_TIME				TIMESTAMPTZ 	NOT NULL,
+	PRIMARY KEY(ID),
+	CONSTRAINT 	fk_customer
+		FOREIGN KEY (CUSTOMER_ID)
+			REFERENCES CUSTOMER(ID),
+	CONSTRAINT 	fk_product
+		FOREIGN KEY (PRODUCT_ID)
+			REFERENCES PRODUCT(ID)
+);
+
+
+
+CREATE TABLE OPINION(
+	ID 		 				INT  			NOT NULL,
+	CUSTOMER_ID				INT		 		NOT NULL,
+	PRODUCT_ID				INT				NOT NULL,
+	STARS 					SMALLINT 		CHECK (STARS IN (1, 2, 3, 4, 5)   NOT NULL,
+    COMMENT 				TEXT			NOT NULL,
+	DATE_TIME				TIMESTAMPTZ 	NOT NULL,
+	PRIMARY KEY(ID),
+	CONSTRAINT 	fk_customer
+		FOREIGN KEY (CUSTOMER_ID)
+			REFERENCES CUSTOMER(ID),
+	CONSTRAINT 	fk_product
+		FOREIGN KEY (PRODUCT_ID)
+			REFERENCES PRODUCT(ID)
+);
+
+
+PKT. 4: Nie podobajÄ… nam siÄ™ opinie o ocenie niÅ¼szej niÅ¼ 4, wiÄ™c usuÅ„ je wszystkie
+
+DELETE FROM OPINION
+WHERE STARS &lt; 4;
+
+PKT. 5: WyÅ›wietl unikalne kody produktÃ³w, ktÃ³re zostaÅ‚y zakupione przed datÄ… '2020-02-01'.
+
+SELECT DISTINCT PRODUCT_CODE
+	FROM purchase
+		JOIN product ON purchase.PRODUCT_ID = product.ID
+			WHERE purchase.DATE_TIME &lt; '2020-02-01';
+
+lub:
+
+SELECT DISTINCT PR.PRODUCT_CODE
+	FROM PURCHASE AS PUR
+	INNER JOIN PRODUCT AS PR ON PUR.PRODUCT_ID = PR.ID
+WHERE PUR.DATe_TIME &lt; '2020-02-01';
+
+
+PKT.6:  WyÅ›wietl na ekranie kody oraz iloÅ›Ä‡ dokonanych transakcji zakupowych dla 5 produktÃ³w, ktÃ³re
+        pojawiajÄ… siÄ™ w najwiÄ™kszej iloÅ›ci transakcji. Wynik posortuj malejÄ…co na podstawie iloÅ›ci
+        dokonanych transakcji zakupowych. IloÅ›Ä‡ dokonanych transakcji zakupowych nie oznacza, Å¼e
+        produkt jest kupowany najczÄ™Å›ciej w obrÄ™bie jednej transakcji zakupowej, tylko oznacza, Å¼e produkt
+        pojawia siÄ™ w najwiÄ™kszej iloÅ›ci dokonanych transakcji zakupowych.
+
+SELECT DISTINCT PRODUCT.PRODUCT_CODE,
+	COUNT(PRODUCT.PRODUCT_CODE) AS COUNT_PURCHASE
+		FROM PURCHASE
+		JOIN PRODUCT ON purchase.PRODUCT_ID = PRODUCT.ID
+			GROUP BY PRODUCT.PRODUCT_CODE
+			ORDER BY COUNT_PURCHASE DESC
+			LIMIT(5)
+
+
+PKT.7:  WyÅ›wietl na ekranie wszystkich klientÃ³w ktÃ³rzy zakupili produkty przeznaczone dla dorosÅ‚ych
+        (flaga ADULTS_ONLY ustawiona na true).
+
+SELECT DISTINCT CUSTOMER.USER_NAME, product.adults_only
+	FROM purchase
+		JOIN CUSTOMER ON purchase.CUSTOMER_ID = CUSTOMER.ID
+		JOIN PRODUCT ON purchase.PRODUCT_ID = PRODUCT.ID
+			WHERE PRODUCT.ADULTS_ONLY = true;
+
+
+PKT. 8: Wprowadzamy promocjÄ™ w naszym sklepie i chcemy aby wszystkie produkty od producenta Bruen
+        Group, ktÃ³re kosztujÄ… wiÄ™cej niÅ¼ 50 pieniÄ™dzy zostaÅ‚y przecenione na 40 pieniÄ™dzy.
+
+
+update PRODUCT
+SET PRODUCT_PRICE = 'â‚¬40'
+	WHERE PRODUCER_ID IN (
+				SELECT ID
+					FROM PRODUCER
+						WHERE PRODUCER_NAME = 'Bruen Group'
+				) AND
+					PRODUCT_PRICE &gt; 'â‚¬50'
+
+
+
+PKT 9. ZnajdÅº osoby, ktÃ³re wystawiÅ‚y co najmniej jednÄ… opiniÄ™ o wartoÅ›ci 5 gwiazdek.
+
+SELECT DISTINCT CUSTOMER.USER_NAME, CUSTOMER.NAME, CUSTOMER.SURNAME, OPINION.STARS
+	FROM OPINION
+		JOIN CUSTOMER ON OPINION.CUSTOMER_ID = CUSTOMER.ID
+			WHERE OPINION.STARS &gt; 4
+
+
+ */
+
+<span class="nc" id="L156">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

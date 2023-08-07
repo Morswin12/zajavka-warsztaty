@@ -1,0 +1,158 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P20_IO__in_out_Reader_Writer</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P20_IO__in_out_Reader_Writer)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/25)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P20_IO__in_out_Reader_Writer;
+&nbsp;
+&nbsp;import java.io.*;
+&nbsp;import java.nio.charset.StandardCharsets;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) throws IOException {
+&nbsp;
+<b class="nc">&nbsp;        File inputFile = new File(</b>
+&nbsp;                &quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P20_IO__in_out_Reader_Writer/toRepeatFile.txt&quot;
+&nbsp;        );
+<b class="nc">&nbsp;        File outputFile = new File(</b>
+&nbsp;                &quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P20_IO__in_out_Reader_Writer/copiedFile.txt&quot;
+&nbsp;        );
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; fileReader = readFile(inputFile);</b>
+&nbsp;//        System.out.println(fileReader);
+<b class="nc">&nbsp;fileReader.forEach(l-&gt; System.out.println(l));</b>
+<b class="nc">&nbsp;        writeALineByLine(outputFile, fileReader);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static List&lt;String&gt; readFile(final File inputFile) throws IOException {
+<b class="nc">&nbsp;        List&lt;String&gt; newListResult = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                BufferedReader reader = new BufferedReader(new FileReader(inputFile, StandardCharsets.UTF_8));</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            String line = reader.readLine();</b>
+&nbsp;//            System.out.println(line);
+<b class="nc">&nbsp;            int counter = 0;</b>
+<b class="nc">&nbsp;            while (line != null) {</b>
+<b class="nc">&nbsp;                counter++;</b>
+<b class="nc">&nbsp;                newListResult.add( counter + &quot;  &quot; + line);</b>
+<b class="nc">&nbsp;                line = reader.readLine();</b>
+&nbsp;            }
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        return newListResult;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void writeALineByLine(File outputFile, List&lt;String&gt; fileReader) throws IOException {
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile, StandardCharsets.UTF_8, true))</b>
+&nbsp;
+&nbsp;                ) {
+<b class="nc">&nbsp;            for (String line : fileReader) {</b>
+<b class="nc">&nbsp;                writer.write(line);</b>
+<b class="nc">&nbsp;                writer.flush();</b>
+<b class="nc">&nbsp;                writer.newLine();</b>
+<b class="nc">&nbsp;            }</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

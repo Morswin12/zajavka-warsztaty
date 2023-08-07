@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Exe2.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania</a> &gt; <span class="el_source">Exe2.java</span></div><h1>Exe2.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P35_Zadania;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+<span class="nc" id="L9">public class Exe2 {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L11">        Path path = Paths.get(&quot;src/WARSZTATY&quot;);</span>
+<span class="nc" id="L12">        String extension = &quot;txt&quot;;</span>
+<span class="nc" id="L13">        String searchingContent = &quot;zajavka&quot;;</span>
+        try {
+<span class="nc" id="L15">            Files.walk(path)</span>
+<span class="nc" id="L16">                    .filter(Files::isRegularFile)</span>
+<span class="nc" id="L17">                    .filter(file -&gt; checkEkstension(file, extension))</span>
+<span class="nc" id="L18">                    .filter(file -&gt; checkIfContentExistInFile(file, searchingContent))</span>
+<span class="nc" id="L19">                    .forEach(file -&gt; System.out.println(file.toAbsolutePath()));</span>
+            ;
+<span class="nc" id="L21">        } catch (IOException e) {</span>
+<span class="nc" id="L22">            throw new RuntimeException(e);</span>
+<span class="nc" id="L23">        }</span>
+<span class="nc" id="L24">    }</span>
+
+    private static boolean checkIfContentExistInFile(Path file, String content) {
+<span class="nc" id="L27">        boolean result = false;</span>
+<span class="nc" id="L28">        try (BufferedReader writer = Files.newBufferedReader(file)</span>
+        ) {
+<span class="nc" id="L30">            String line = null;</span>
+<span class="nc bnc" id="L31" title="All 2 branches missed.">            while ((line = writer.readLine()) != null) {</span>
+<span class="nc bnc" id="L32" title="All 2 branches missed.">                if (line.contains(content)) {</span>
+<span class="nc" id="L33">                    result = true;</span>
+                }
+            }
+<span class="nc" id="L36">        } catch (IOException e) {</span>
+<span class="nc" id="L37">            System.out.println(&quot;JakiÅ› bÅ‚Ä…d w kodzie: &quot; + e.getMessage());</span>
+<span class="nc" id="L38">            e.printStackTrace();</span>
+<span class="nc" id="L39">        }</span>
+<span class="nc" id="L40">        return result;</span>
+    }
+
+    private static boolean checkEkstension(Path file, String extension) {
+<span class="nc" id="L44">        String[] split = file.getFileName().toString().split(&quot;\\.&quot;);</span>
+<span class="nc bnc" id="L45" title="All 2 branches missed.">        if (split.length != 2) {</span>
+<span class="nc" id="L46">            return false;</span>
+        } else {
+<span class="nc" id="L48">            return extension.equals(split[1]);</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

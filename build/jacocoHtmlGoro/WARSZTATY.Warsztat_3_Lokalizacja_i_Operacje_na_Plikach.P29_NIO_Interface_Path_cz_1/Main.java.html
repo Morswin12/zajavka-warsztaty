@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P29_NIO_Interface_Path_cz_1</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P29_NIO_Interface_Path_cz_1;
+
+import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.*;
+
+<span class="nc" id="L8">public class Main {</span>
+    public static void main(String[] args) {
+        // URI-Uniform Resources Identifier
+        // oznacza to, Å¼e na poczÄ…tku musimy napisaÄ‡ jakiego typu zasobÃ³w dotyczy Å›cieÅ¼ka:
+        // np: https://...
+        // file://...
+
+<span class="nc" id="L15">        examplesUsedPath();</span>
+
+<span class="nc" id="L17">        examplesUsingURIWithPath();</span>
+
+<span class="nc" id="L19">        exampleUsingFileSysytem();</span>
+
+
+<span class="nc" id="L22">    }</span>
+
+    private static void exampleUsingFileSysytem() {
+<span class="nc" id="L25">        FileSystem fileSystem = FileSystems.getDefault();</span>
+<span class="nc" id="L26">        Path path = fileSystem.getPath(&quot;.src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P29_NIO_Interface_Path_cz_1/newFile.txt&quot;);</span>
+<span class="nc" id="L27">        System.out.println(fileSystem);</span>
+<span class="nc" id="L28">        System.out.println(path);</span>
+<span class="nc" id="L29">    }</span>
+
+    private static void examplesUsingURIWithPath() {
+        try {
+//            URI uri1 = new URI(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P29_NIO_Interface_Path_cz_1/newFile.txt&quot;);
+//            Path path1 = Paths.get(uri1);
+<span class="nc" id="L35">            URI uri2 = new URI(&quot;file://src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P29_NIO_Interface_Path_cz_1/newFile.txt&quot;);</span>
+<span class="nc" id="L36">            Path path2 = Paths.get(uri2);</span>
+
+<span class="nc" id="L38">            File file = path2.toFile();</span>
+<span class="nc" id="L39">            Path path = file.toPath();</span>
+
+<span class="nc" id="L41">        } catch (URISyntaxException e) {</span>
+<span class="nc" id="L42">            e.printStackTrace();</span>
+<span class="nc" id="L43">        }</span>
+<span class="nc" id="L44">    }</span>
+
+    private static void examplesUsedPath() {
+<span class="nc" id="L47">        Path path = Paths.get(&quot;.src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P29_NIO_Interface_Path_cz_1/newFile.txt&quot;);</span>
+<span class="nc" id="L48">        System.out.println(&quot;path: &quot; + path);</span>
+<span class="nc" id="L49">        System.out.println(&quot;Files.exists(path): &quot; + Files.exists(path));</span>
+<span class="nc" id="L50">        Path path2 = Paths.get(&quot;.src&quot;,&quot;WARSZTATY&quot;,&quot;Warsztat_3_Lokalizacja_i_Operacje_na_Plikach&quot;,&quot;P29_NIO_Interface_Path_cz_1&quot;,&quot;newFile.txt&quot;);</span>
+<span class="nc" id="L51">        System.out.println(&quot;path2: &quot; + path2);</span>
+<span class="nc" id="L52">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

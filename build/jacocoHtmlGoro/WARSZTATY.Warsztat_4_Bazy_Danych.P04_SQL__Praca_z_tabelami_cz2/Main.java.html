@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_4_Bazy_Danych.P04_SQL__Praca_z_tabelami_cz2</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_4_Bazy_Danych.P04_SQL__Praca_z_tabelami_cz2;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static void main(String[] args) {
+       // DDL- Data Definition Language polecenia sÅ‚uÅ¼Ä…ce do tworzenia tabel
+    /*
+    TWORZENIE TABELKI:
+    CREATE TABLE EMPLOYEES(
+    	ID			 			INT					NOT NULL,
+	    NAME		 			VARCHAR(20)	   		NOT NULL,
+	    SURNAME		 			VARCHAR(20)			NOT NULL,
+	    AGE			 			SMALLINT,
+	    SALARY		 			NUMERIC(7,2) 		NOT NULL,
+	    DATE_OF_EMPLOYMENT 		DATE,
+	    PRIMARY KEY(ID)
+    );
+         */
+        /*
+        pobieranie dostepnego schematu tabel z PostgrSQL do stworzonej przez nas tabelki zajavka
+        SELECT * FROM information_schema.columns
+        WHERE table_name = 'employees';
+         */
+
+        // DROP TABLE employees; usuwanie tabeli o nazwie employees
+
+        /*
+        zmienianie tabeli
+        ALTER TABLE EMPLOYEES
+        ALTER COLUMN SURNAME DROP NOT NULL;  - usuwamy (drop) z surname constrajna, ktÃ³ry wykluczaÅ‚ nulla
+         */
+<span class="nc" id="L31">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

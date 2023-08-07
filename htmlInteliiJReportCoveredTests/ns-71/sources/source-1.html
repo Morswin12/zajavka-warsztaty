@@ -1,0 +1,177 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P06_SQL_OPERACJE_cz2</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_4_Bazy_Danych.P06_SQL_OPERACJE_cz2)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P06_SQL_OPERACJE_cz2;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;/*
+&nbsp;Sortowanie:
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE AGE IS NOT NULL               - dla wieku który nie jest nulem
+&nbsp;ORDER BY AGE DESC, SURNAME ASC      - sortuj po wieku malej?co, a je?li si? powtarza (DESC- descending), to po nazwisku rosn?co (ASC- ascending)
+&nbsp;LIMIT 4   - ogranicza do 4 wierszy
+&nbsp; */
+&nbsp;
+&nbsp;/*
+&nbsp;SELECT DISTINCT NAME        - distinct pozwala wydrukowa? tylko unikalne warto?ci (taki Set) nie b?dzie powtórze?
+&nbsp;FROM EMPLOYEES
+&nbsp;ORDER BY NAME DESC
+&nbsp;
+&nbsp; */
+&nbsp;
+&nbsp;/*
+&nbsp;SELECT NAME, COUNT(*) - grupuje po kluczu imi? i podaje imi? oraz w drugiej kolumnie ile jest takich imion
+&nbsp;FROM EMPLOYEES
+&nbsp;GROUP BY NAME
+&nbsp;
+&nbsp; - zlicza ilo?? imion
+&nbsp; SELECT  COUNT(NAME)
+&nbsp;FROM EMPLOYEES
+&nbsp;
+&nbsp;- zlicza ilo?? unikalnych imion
+&nbsp;SELECT  COUNT(DISTINCT NAME)
+&nbsp;FROM EMPLOYEES
+&nbsp;
+&nbsp;
+&nbsp; SELECT NAME,                       - s?u?y do wyci?gni?cia czego? z bazy danych
+&nbsp;	COUNT(ID) AS MEMBERS,           -
+&nbsp;	SUM(AGE) AS SUM_AGES,
+&nbsp;	SUM(SALARY) AS SUM_SALARIES,
+&nbsp;	AVG(SALARY) AS ?REDNIA_PENSJA,
+&nbsp;	MAX(AGE) AS MAKSYMALNY_WIEK,
+&nbsp;	MIN(SALARY) AS MINIMALNA_WYP?ATA
+&nbsp;FROM EMPLOYEES
+&nbsp;GROUP BY NAME
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;SELECT
+&nbsp;	COUNT(AGE),
+&nbsp;	MAX(AGE),
+&nbsp;	MIN(SALARY),
+&nbsp;	AVG(AGE) AS ?REDNIA_WIEKU
+&nbsp;FROM EMPLOYEES
+&nbsp;
+&nbsp;
+&nbsp;- edycja danych
+&nbsp; UPDATE EMPLOYEES
+&nbsp;SET
+&nbsp;	SALARY = 23000,
+&nbsp; 	SURNAME = &#39;Dupazbita&#39;
+&nbsp;WHERE NAME = &#39;Roman&#39;;
+&nbsp;
+&nbsp;
+&nbsp; - usuwanie (trzeba uwa?a?):
+&nbsp;DELETE FROM EMPLOYEES
+&nbsp;WHERE ID= 10;
+&nbsp;
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;
+&nbsp;
+&nbsp;ORDER BY AGE DESC NULLS LAST
+&nbsp; */
+<b class="nc">&nbsp;    }</b>
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;        // SELECT * FROM EMPLOYEES -&gt; pobieranie naszej tabeli
+&nbsp;         /*
+&nbsp;         dodawanie danych do tabeli:
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (1, &#39;Aleksander&#39;, &#39;Kwa?niewski&#39;, 63, 8973.23, &#39;2019-04-16&#39;);
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (2, &#39;Roman&#39;, &#39;Pomidorowy&#39;, 43, 7612.23, &#39;2012-01-01&#39;);
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (3, &#39;Anna&#39;, &#39;Rosó?&#39;, 38, 5728.23, &#39;2015-07-18&#39;);
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (4, &#39;Urszula&#39;, &#39;Nowak&#39;, 39, 3817.23, &#39;2014-12-15&#39;);
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (5, &#39;Stefan&#39;, &#39;Roma?ski&#39;, 38, 9201.23, &#39;2020-07-14&#39;);
+&nbsp;         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;         VALUES (6, &#39;Jolanta&#39;, &#39;Kowalska&#39;, 27, 6521.23, &#39;2012-06-04&#39;);
+&nbsp;
+&nbsp;        SELECT * FROM EMPLOYEES - * oznacza wszystkie kolumny, zamiast gwiazdki moemy wpisa? które kolumny nas interesuj? :
+&nbsp;        SELECT ID, NAME, AGE FROM EMPLOYEES - TU POKA?E TYLK O KOLUMNY WYPISANE
+&nbsp;
+&nbsp;        1	&quot;Aleksander&quot;	&quot;Kwa?niewski&quot;	63	8973.23	&quot;2019-04-16&quot;
+&nbsp;        2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.23	&quot;2012-01-01&quot;
+&nbsp;        3	&quot;Anna&quot;	&quot;Rosó?&quot;	38	5728.23	&quot;2015-07-18&quot;
+&nbsp;        4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.23	&quot;2014-12-15&quot;
+&nbsp;        5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;
+&nbsp;        6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.23	&quot;2012-06-04&quot;
+&nbsp;        7	&quot;Aleksander&quot;	&quot;Kwa?niewski&quot;	63	8973.23	&quot;2019-04-16&quot;
+&nbsp;        8	&quot;Aleksander&quot;	&quot;Kwa?niewski&quot;	63	23893.32	&quot;2019-04-16&quot;
+&nbsp;          */
+&nbsp;
+&nbsp;        /*usuwanie np wiersza o id wi?kszym od 6
+&nbsp;        DELETE FROM EMPLOYEES WHERE ID &gt; 6;
+&nbsp;         */
+&nbsp;
+&nbsp;        /* wypisz kolumny id oraz name i zmie? ich nazw? na goro_id, oraz super_name, ale tylko do odczytu, oryginalna tabela jest bez zmian
+&nbsp;SELECT
+&nbsp;	ID AS GORO_ID,
+&nbsp;	NAME AS SUPER_NAME
+&nbsp;FROM EMPLOYEES
+&nbsp;         */
+&nbsp;
+&nbsp;        /* wyci?ga tylko pracowników o imieniu &quot;Roman&quot;:
+&nbsp;ELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE name = &#39;Roman&#39;;
+&nbsp;         */
+&nbsp;
+&nbsp;        /* mo?emy ??czy? zapytania przy pomocy &quot;AND&quot; lub &quot;OR&quot;
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE age = 38 AND name = &#39;Stefan&#39;;
+&nbsp;
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE age = 39 OR name = &#39;Stefan&#39;;
+&nbsp;
+&nbsp;         */
+&nbsp;/*
+&nbsp;SELECT
+&nbsp;	NAME,
+&nbsp;	AGE,
+&nbsp;	AGE % 10 AS AGE_MOD,
+&nbsp;	age / 10 as age_dziesiatki,
+&nbsp;	AGE * 7 as age_dog,
+&nbsp;	age + 18 - 3 as age_co?,
+&nbsp;	AGE &gt; 38 as agee,
+&nbsp;	name != &#39;Roman&#39; as no_Roman_name,
+&nbsp;	name &lt;&gt; &#39;Anna&#39; as no_Anna_name,
+&nbsp;	name = &#39;Urszula&#39; as Urszula_name
+&nbsp;FROM EMPLOYEES
+&nbsp;
+&nbsp;&quot;name&quot;	        &quot;age&quot;	&quot;age_mod&quot;	&quot;age_dziesiatki&quot;	&quot;age_dog&quot;	&quot;age_co?&quot;	&quot;agee&quot;	&quot;no_roman_name&quot;	&quot;no_anna_name&quot;	&quot;urszula_name&quot;
+&nbsp;&quot;Aleksander&quot;	63	        3	        6	            441         	78	    true	    true        	true        	false
+&nbsp;&quot;Roman&quot;	        43	        3	        4	            301         	58	    true	    false	        true	        false
+&nbsp;&quot;Anna&quot;	        38	        8	        3	            266	            53	    false	    true	        false       	false
+&nbsp;&quot;Urszula&quot;	    39	        9	        3           	273	            54	    true	    true        	true        	true
+&nbsp;&quot;Stefan&quot;	    38	        8	        3	            266	            53	    false	    true	        true	        false
+&nbsp;&quot;Jolanta&quot;	    27	        7	        2	            189	            42  	false	    true        	true	        false
+&nbsp; */
+&nbsp;
+&nbsp;/*
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE
+&nbsp;	NAME &lt; &#39;S&#39;                              - 1.1 imi? zaczyna si? na liter? mniejsz? (w alfabecie) ni? &#39;s&#39;
+&nbsp;	AND AGE &gt;= 40                           - 1.2 oraz wiek wi?kszy równy 40
+&nbsp;	OR NAME IN (&#39;Anna&#39;, &#39;Urszula&#39;, &#39;Tomasz&#39;)- 2.1 lub imi? jedno z listy podanej w nawiasie
+&nbsp;	AND AGE BETWEEN 39 AND 50;              - 2.2 oraz wiek mi?dzy 39 a 50 (w tym przypadku, ta cz??? filtruje tylko to, co przejdzie po or
+&nbsp;*/
+&nbsp;        
+&nbsp;/*
+&nbsp;mo?emy tak?e wyszuka? osoby, które maj? nulle w niektórych komórkach
+&nbsp;SELECT * 
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE AGE IS NULL
+&nbsp;lub tych, którzy nie maj? nulla
+&nbsp;WHERE AGE IS NOT NULL
+&nbsp; */
+&nbsp;
+&nbsp;/*
+&nbsp;
+&nbsp;SELECT *
+&nbsp;FROM EMPLOYEES
+&nbsp;WHERE NAME LIKE &#39;%o%&#39; OR NAME LIKE &#39;%rsz%&#39; OR NAME LIKE &#39;Roman&#39;   - like suy do sprawdzenia, czy wyst?puje dok?adnie
+&nbsp;                                                                    wskazane imi? lub jaka? cz???, ale wtedy musimy
+&nbsp;                                                                    doda? % aby zwróci? uwag? ?e co? mo?e by? przed
+&nbsp;                                                                    lub po lub tu i tu
+&nbsp; */
+<b class="nc">&nbsp;    }</b>
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

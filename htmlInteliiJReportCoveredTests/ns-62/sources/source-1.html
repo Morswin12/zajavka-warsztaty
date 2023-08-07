@@ -1,0 +1,151 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main_Exe1</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem</a>
+</div>
+
+<h1>Coverage Summary for Class: Main_Exe1 (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main_Exe1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/18)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.nio.file.Paths;
+&nbsp;
+<b class="nc">&nbsp;public class Main_Exe1 {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+<b class="nc">&nbsp;        Path rootPath = Paths.get(&quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem&quot;);</b>
+<b class="nc">&nbsp;        String extention = &quot;txt&quot;;</b>
+&nbsp;
+<b class="nc">&nbsp;        printSpecificpath(rootPath, extention);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void printSpecificpath(Path rootPath, String extension) {
+<b class="nc">&nbsp;        if (extension == null || !Files.exists(rootPath)) {</b>
+<b class="nc">&nbsp;            throw new RuntimeException(&quot;Extension is null&quot;);</b>
+&nbsp;        } else {
+&nbsp;
+&nbsp;            try {
+<b class="nc">&nbsp;                Files.list(rootPath).forEach(path -&gt; heldlePath(path, extension));</b>
+&nbsp;
+<b class="nc">&nbsp;            } catch (IOException e) {</b>
+<b class="nc">&nbsp;                e.printStackTrace();</b>
+<b class="nc">&nbsp;            }</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void heldlePath(Path path, String extension) {
+<b class="nc">&nbsp;        if (Files.isDirectory(path)) {</b>
+<b class="nc">&nbsp;            printSpecificpath(path, extension);</b>
+<b class="nc">&nbsp;        } else if (Files.isRegularFile(path) &amp;&amp; isFileSpecificExtension(extension, path)) {</b>
+<b class="nc">&nbsp;            System.out.println(path.toAbsolutePath());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    private static boolean isFileSpecificExtension(String extension, Path path) {
+<b class="nc">&nbsp;        String[] split = path.getFileName().toString().split(&quot;\\.&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        if (split.length != 2) {</b>
+<b class="nc">&nbsp;            return false;</b>
+&nbsp;        } else {
+<b class="nc">&nbsp;            return extension.equals(split[1]);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

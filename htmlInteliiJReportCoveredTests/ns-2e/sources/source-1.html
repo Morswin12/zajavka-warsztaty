@@ -1,0 +1,119 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Zad1</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_1</a>
+</div>
+
+<h1>Coverage Summary for Class: Zad1 (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Zad1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/6)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P14_Zadania_do_zrobienia.Zad_1;
+&nbsp;
+&nbsp;import java.util.function.BiFunction;
+&nbsp;
+<b class="nc">&nbsp;public class Zad1 {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        BiFunction&lt;Integer, Double, String&gt; biFunction = Zad1::madeStringSum;</b>
+<b class="nc">&nbsp;        String apply = biFunction.apply(234, 323.3232);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Sum of is: &quot; + apply);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static String madeStringSum(Integer i, Double d) {
+<b class="nc">&nbsp;        System.out.println(&quot;Integer: &quot; + i + &quot;, double: &quot; + d);</b>
+<b class="nc">&nbsp;        return i + d + &quot;&quot;;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

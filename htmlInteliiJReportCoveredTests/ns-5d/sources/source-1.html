@@ -1,0 +1,196 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P30_NIO_Interface_Path_cz_2</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P30_NIO_Interface_Path_cz_2)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/46)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P30_NIO_Interface_Path_cz_2;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.nio.file.Paths;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;
+&nbsp;    public static void main(String[] args) throws IOException {
+&nbsp;        // URI  -  Uniform Resource Identifier
+<b class="nc">&nbsp;        Path path = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</b>
+<b class="nc">&nbsp;        Path path3 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</b>
+<b class="nc">&nbsp;        Path path1 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/oneDirectory/someFile1.txt&quot;).toAbsolutePath();</b>
+<b class="nc">&nbsp;        Path path2 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/twoDirectory/someFile2.txt&quot;).toAbsolutePath();</b>
+&nbsp;
+&nbsp;        // toString
+<b class="nc">&nbsp;        String toString = path.toString();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toString():   &quot; + toString);</b>
+&nbsp;
+&nbsp;        // getNameCount()  - podaje ilo?? elementów w ?cierzce
+<b class="nc">&nbsp;        int nameCount = path.getNameCount();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getNameCount():   &quot; + nameCount);</b>
+&nbsp;
+&nbsp;        // getName(index) - podaje nazw? katalogu o podanym indeksie od pocz?tku gdzie 0 jest perwszym katalogiem
+<b class="nc">&nbsp;        Path getPath = path.getName(0);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getName(0):   &quot; + getPath);</b>
+<b class="nc">&nbsp;        Path getPath2 = path.getName(nameCount - 1);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getName(4):   &quot; + getPath2);</b>
+&nbsp;//        Path getPath3 = path.getName(7);
+&nbsp;//        System.out.println(getPath3);
+&nbsp;
+&nbsp;        // getFileName() - podaje nazw? katalogu lub pliku ostatniego na ?cie?ce
+<b class="nc">&nbsp;        Path getFileName = path.getFileName();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getFileName():   &quot; + getFileName);</b>
+&nbsp;
+&nbsp;        // toAbsolutePath()  - podaje ?cie?k? absoutn? od roota
+<b class="nc">&nbsp;        Path toAbsolutePath = path.toAbsolutePath();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toAbsolutePath():  &quot; + toAbsolutePath);</b>
+&nbsp;
+&nbsp;        // isAbsolute() - sprawdza czy jest absolutna
+<b class="nc">&nbsp;        boolean absolute = path.isAbsolute();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;isAbsolute():  &quot; + absolute);</b>
+&nbsp;
+&nbsp;        // getParent()  - podaje ?cie?k? do naszego pliku, ale bez naszego pliku
+<b class="nc">&nbsp;        Path parent = path.getParent();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getParent():   &quot; + parent);</b>
+<b class="nc">&nbsp;        Path absolutePathParent = path.toAbsolutePath().getParent();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toAbsolutePath().getParent():  &quot; + absolutePathParent);</b>
+&nbsp;
+&nbsp;        // getRoot()  - poda root je?li ?cie?a jest absolutna lub null, je?li nie jest
+<b class="nc">&nbsp;        Path root = path.getRoot();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;getRoot():  &quot; + root);</b>
+<b class="nc">&nbsp;        Path root2 = path.toAbsolutePath().getRoot();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toAbsolutePath().getRoot():  &quot; + root2);</b>
+&nbsp;
+&nbsp;        // subpath(indeks_1, index_2) - PODAJE ?CIE?KE OD indeks_1, do index_2 (pierwszy katalog to 0)
+<b class="nc">&nbsp;        Path subpath = path.subpath(1,3);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;subpath():  &quot; + subpath);</b>
+&nbsp;
+&nbsp;        // relativize() pokazuje jak pierwszego pliku dosta? si? do drugiego pliku ..\..\twoDirectory\someFile2.txt
+&nbsp;        // 2 kroki do ty?u wej?? w twoDirecto ry\someFile2
+<b class="nc">&nbsp;        System.out.println(Files.exists(path1));</b>
+<b class="nc">&nbsp;        System.out.println(Files.exists(path2));</b>
+<b class="nc">&nbsp;        Path relativize = path1.relativize(path2);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;relativize():  &quot; + relativize);</b>
+&nbsp;
+&nbsp;        // resolve() - skleja ze sob? 2 ?cie?ki, je?eli nie s? absolutne lub je?li druga nie jest absolutna, je?li s?
+&nbsp;        // absolutne lub druga jest absolutna to wydrukuje tylko drug?
+<b class="nc">&nbsp;        Path resolve = path.resolve(path3);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;resolve():  &quot; + resolve);</b>
+&nbsp;
+&nbsp;        // normalize() - normalizuje ?cie?k? np usuwa cofni?cie si? i powrót
+<b class="nc">&nbsp;        Path path4 = Paths.get(&quot;src/../src/WARSZTATY/.../WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</b>
+<b class="nc">&nbsp;        Path normalize = path.normalize();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;normalize():  &quot; +path4);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;normalize():  &quot; + normalize);</b>
+&nbsp;
+&nbsp;        // toRealPath() - sprawdza czy podana ?cie?ka istnieje i drukuje ?ce?k? absloutna, je?li nie to rzuca wyj?tek
+<b class="nc">&nbsp;        Path toRealPath = path.toRealPath();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toRealPath():  &quot; +path4);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;toRealPath():  &quot; + toRealPath);</b>
+&nbsp;
+&nbsp;
+&nbsp;        // WD - Working Directory - katalog w którym jest ca?y nasz projekt ( w którym wykonywana jest praca)
+&nbsp;        // dlatego nie mo?na u?ywa? scie?ek absolutnych
+<b class="nc">&nbsp;        Path workingDirectoryPathPoint = Paths.get(&quot;.&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;workingDirectoryPath: &quot; + workingDirectoryPathPoint );</b>
+<b class="nc">&nbsp;        Path pathWD = workingDirectoryPathPoint.toRealPath();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;workingDirectoryPath:  &quot; + pathWD);</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

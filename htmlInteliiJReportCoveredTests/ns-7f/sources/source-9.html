@@ -1,0 +1,225 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > PrintingServiceImpl</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services</a>
+</div>
+
+<h1>Coverage Summary for Class: PrintingServiceImpl (WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">PrintingServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/66)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services;
+&nbsp;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.InputData;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Overpayment;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Rate;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Summary;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.math.RoundingMode;
+&nbsp;import java.util.List;
+&nbsp;import java.util.Map;
+&nbsp;import java.util.Optional;
+&nbsp;
+<b class="nc">&nbsp;public class PrintingServiceImpl implements PrintingService {</b>
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public void printIntroInformation(InputData inputData) {
+<b class="nc">&nbsp;        StringBuilder msg = new StringBuilder(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(MORTGAGE_AMOUNT).append(inputData.getAmount()).append(CURRENCY);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(MORTGAGE_PERIOD).append(inputData.getMonthsDuration()).append(MONTHS);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(INTEREST).append(inputData.getInterestToDisplay()).append(PERCENT);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(OVERPAYMENT_START_MONTH).append(inputData.getOverpaymentStartMonth()).append(BLANK).append(MONTH);</b>
+&nbsp;
+<b class="nc">&nbsp;        Optional.of(inputData.getOverpaymentSchema())</b>
+<b class="nc">&nbsp;            .filter(schema -&gt; schema.size() &gt; 0)</b>
+<b class="nc">&nbsp;            .ifPresent(schema -&gt; logOverpayment(msg, inputData.getOverpaymentSchema(), inputData.getOverpaymentReduceWay()));</b>
+&nbsp;
+<b class="nc">&nbsp;        logMessage(msg);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void logOverpayment(final StringBuilder msg, final Map&lt;Integer, BigDecimal&gt; schema, final String reduceWay) {
+<b class="nc">&nbsp;        switch (reduceWay) {</b>
+&nbsp;            case Overpayment.REDUCE_PERIOD:
+<b class="nc">&nbsp;                msg.append(OVERPAYMENT_REDUCE_PERIOD);</b>
+<b class="nc">&nbsp;                break;</b>
+&nbsp;            case Overpayment.REDUCE_RATE:
+<b class="nc">&nbsp;                msg.append(OVERPAYMENT_REDUCE_RATE);</b>
+<b class="nc">&nbsp;                break;</b>
+&nbsp;            default:
+<b class="nc">&nbsp;                throw new MortgageException(&quot;Case not handled&quot;);</b>
+&nbsp;        }
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(OVERPAYMENT_FREQUENCY).append(NEW_LINE).append(prettyPrintOverpaymentSchema(schema));</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private String prettyPrintOverpaymentSchema(Map&lt;Integer, BigDecimal&gt; schema) {
+<b class="nc">&nbsp;        StringBuilder schemaMsg = new StringBuilder();</b>
+<b class="nc">&nbsp;        for (Map.Entry&lt;Integer, BigDecimal&gt; entry : schema.entrySet()) {</b>
+<b class="nc">&nbsp;            schemaMsg.append(MONTH)</b>
+<b class="nc">&nbsp;                .append(entry.getKey())</b>
+<b class="nc">&nbsp;                .append(COMMA)</b>
+<b class="nc">&nbsp;                .append(AMOUNT)</b>
+<b class="nc">&nbsp;                .append(entry.getValue())</b>
+<b class="nc">&nbsp;                .append(CURRENCY)</b>
+<b class="nc">&nbsp;                .append(NEW_LINE);</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        return schemaMsg.toString();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public void printSchedule(final List&lt;Rate&gt; rates, final InputData inputData) {
+<b class="nc">&nbsp;        if (!inputData.isMortgagePrintPayoffsSchedule()) {</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        int index = 1;</b>
+<b class="nc">&nbsp;        for (Rate rate : rates) {</b>
+<b class="nc">&nbsp;            if (rate.getRateNumber().remainder(BigDecimal.valueOf(inputData.getMortgageRateNumberToPrint())).equals(BigDecimal.ZERO)) {</b>
+<b class="nc">&nbsp;                String logMessage = String.format(SCHEDULE_TABLE_FORMAT,</b>
+<b class="nc">&nbsp;                    RATE_NUMBER, rate.getRateNumber(),</b>
+<b class="nc">&nbsp;                    YEAR, rate.getTimePoint().getYear(),</b>
+<b class="nc">&nbsp;                    MONTH, rate.getTimePoint().getMonth(),</b>
+<b class="nc">&nbsp;                    DATE, rate.getTimePoint().getDate(),</b>
+<b class="nc">&nbsp;                    RATE, rate.getRateAmounts().getRateAmount(),</b>
+<b class="nc">&nbsp;                    INTEREST, rate.getRateAmounts().getInterestAmount(),</b>
+<b class="nc">&nbsp;                    CAPITAL, rate.getRateAmounts().getCapitalAmount(),</b>
+<b class="nc">&nbsp;                    OVERPAYMENT, rate.getRateAmounts().getOverpayment().getAmount(),</b>
+<b class="nc">&nbsp;                    LEFT_AMOUNT, rate.getMortgageResidual().getResidualAmount(),</b>
+<b class="nc">&nbsp;                    LEFT_MONTHS, rate.getMortgageResidual().getResidualDuration()</b>
+&nbsp;                );
+<b class="nc">&nbsp;                logMessage(logMessage);</b>
+<b class="nc">&nbsp;                if (index % AmountsCalculationService.YEAR.intValue() == 0) {</b>
+<b class="nc">&nbsp;                    logSeparator(SEPARATOR);</b>
+&nbsp;                }
+<b class="nc">&nbsp;                index++;</b>
+&nbsp;            }
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        logMessage(NEW_LINE);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public void printSummary(final Summary summary) {
+<b class="nc">&nbsp;        StringBuilder msg = new StringBuilder();</b>
+<b class="nc">&nbsp;        msg.append(INTEREST_SUM).append(summary.getInterestSum()).append(CURRENCY);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(OVERPAYMENT_PROVISION).append(summary.getOverpaymentProvisionSum().setScale(2, RoundingMode.HALF_UP)).append(CURRENCY);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(LOSTS_SUM).append(summary.getTotalLostSum().setScale(2, RoundingMode.HALF_UP)).append(CURRENCY);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+<b class="nc">&nbsp;        msg.append(CAPITAL_SUM).append(summary.getTotalCapital().setScale(2, RoundingMode.HALF_UP)).append(CURRENCY);</b>
+<b class="nc">&nbsp;        msg.append(NEW_LINE);</b>
+&nbsp;
+<b class="nc">&nbsp;        logMessage(msg);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @SuppressWarnings(&quot;SameParameterValue&quot;)
+&nbsp;    private void logSeparator(StringBuilder sep) {
+<b class="nc">&nbsp;        logMessage(sep);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void logMessage(StringBuilder message) {
+<b class="nc">&nbsp;        logMessage(message.toString());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void logMessage(String message) {
+<b class="nc">&nbsp;        System.out.println(message);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

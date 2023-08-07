@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MonthsHours.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.MOJE_PROGRAMY.ISLAND_Rozliczenie</a> &gt; <span class="el_source">MonthsHours.java</span></div><h1>MonthsHours.java</h1><pre class="source lang-java linenums">package WARSZTATY.MOJE_PROGRAMY.ISLAND_Rozliczenie;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MonthsHours {
+    private final int hoursOnMonth;
+    private final int normalHours;
+    private final int extraHours;
+
+<span class="nc" id="L11">    public MonthsHours(List&lt;Dniowka&gt; workHoursInMont) {</span>
+<span class="nc" id="L12">        this.hoursOnMonth = hoursOnMonthCalc(workHoursInMont);</span>
+<span class="nc" id="L13">        this.extraHours = extraHoursCalc(workHoursInMont).get(1);</span>
+<span class="nc" id="L14">        this.normalHours = extraHoursCalc(workHoursInMont).get(0);</span>
+<span class="nc" id="L15">    }</span>
+
+    private List&lt;Integer&gt; extraHoursCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<span class="nc" id="L18">        int extraHours1 = 0;</span>
+<span class="nc" id="L19">        int normalHours1 = 0;</span>
+<span class="nc" id="L20">        List&lt;Integer&gt; result = new ArrayList&lt;&gt;(2);</span>
+<span class="nc bnc" id="L21" title="All 2 branches missed.">        for (Dniowka dniowka : workHoursInMont) {</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">            if (dniowka.getDate().getDayOfWeek().equals(&quot;SUNDAY&quot;)) {</span>
+<span class="nc" id="L23">                extraHours1 += dniowka.getHoursNumbers();</span>
+            }
+<span class="nc bnc" id="L25" title="All 3 branches missed.">            switch (dniowka.getDate().getDayOfWeek()) {</span>
+<span class="nc" id="L26">                case SUNDAY, SATURDAY -&gt; extraHours1 += dniowka.getHoursNumbers();</span>
+                case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -&gt; {
+<span class="nc bnc" id="L28" title="All 2 branches missed.">                    if (dniowka.getHoursNumbers() &gt; 8) {</span>
+<span class="nc" id="L29">                        normalHours1 += 8;</span>
+<span class="nc" id="L30">                        extraHours1 += dniowka.getHoursNumbers() - 8;</span>
+                    } else {
+<span class="nc" id="L32">                        normalHours1 += dniowka.getHoursNumbers();</span>
+                    }
+                }
+            }
+<span class="nc" id="L36">        }</span>
+
+<span class="nc" id="L38">        result.add(0, normalHours1);</span>
+<span class="nc" id="L39">        result.add(0, extraHours1);</span>
+<span class="nc" id="L40">        return result;</span>
+    }
+
+    private int normalHoursCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<span class="nc" id="L44">        return 0;</span>
+    }
+
+    private int hoursOnMonthCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<span class="nc" id="L48">        int counter = 0;</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">        for (Dniowka dniowka : workHoursInMont) {</span>
+<span class="nc" id="L50">            counter += dniowka.getHoursNumbers();</span>
+<span class="nc" id="L51">        }</span>
+<span class="nc" id="L52">        return counter;</span>
+    }
+
+    public int getHoursOnMonth() {
+<span class="nc" id="L56">        return hoursOnMonth;</span>
+    }
+
+    public int getNormalHours() {
+<span class="nc" id="L60">        return normalHours;</span>
+    }
+
+    public int getExtraHours() {
+<span class="nc" id="L64">        return extraHours;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

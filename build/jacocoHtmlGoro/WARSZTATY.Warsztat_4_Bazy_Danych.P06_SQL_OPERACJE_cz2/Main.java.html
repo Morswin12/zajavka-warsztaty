@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_4_Bazy_Danych.P06_SQL_OPERACJE_cz2</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_4_Bazy_Danych.P06_SQL_OPERACJE_cz2;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static void main(String[] args) {
+/*
+Sortowanie:
+SELECT *
+FROM EMPLOYEES
+WHERE AGE IS NOT NULL               - dla wieku ktÃ³ry nie jest nulem
+ORDER BY AGE DESC, SURNAME ASC      - sortuj po wieku malejÄ…co, a jeÅ›li siÄ™ powtarza (DESC- descending), to po nazwisku rosnÄ…co (ASC- ascending)
+LIMIT 4   - ogranicza do 4 wierszy
+ */
+
+/*
+SELECT DISTINCT NAME        - distinct pozwala wydrukowaÄ‡ tylko unikalne wartoÅ›ci (taki Set) nie bÄ™dzie powtÃ³rzeÅ„
+FROM EMPLOYEES
+ORDER BY NAME DESC
+
+ */
+
+/*
+SELECT NAME, COUNT(*) - grupuje po kluczu imiÄ™ i podaje imiÄ™ oraz w drugiej kolumnie ile jest takich imion
+FROM EMPLOYEES
+GROUP BY NAME
+
+ - zlicza iloÅ›Ä‡ imion
+ SELECT  COUNT(NAME)
+FROM EMPLOYEES
+
+- zlicza iloÅ›Ä‡ unikalnych imion
+SELECT  COUNT(DISTINCT NAME)
+FROM EMPLOYEES
+
+
+ SELECT NAME,                       - sÅ‚uÅ¼y do wyciÄ…gniÄ™cia czegoÅ› z bazy danych
+	COUNT(ID) AS MEMBERS,           -
+	SUM(AGE) AS SUM_AGES,
+	SUM(SALARY) AS SUM_SALARIES,
+	AVG(SALARY) AS ÅšREDNIA_PENSJA,
+	MAX(AGE) AS MAKSYMALNY_WIEK,
+	MIN(SALARY) AS MINIMALNA_WYPÅ�ATA
+FROM EMPLOYEES
+GROUP BY NAME
+
+
+
+SELECT
+	COUNT(AGE),
+	MAX(AGE),
+	MIN(SALARY),
+	AVG(AGE) AS ÅšREDNIA_WIEKU
+FROM EMPLOYEES
+
+
+- edycja danych
+ UPDATE EMPLOYEES
+SET
+	SALARY = 23000,
+ 	SURNAME = 'Dupazbita'
+WHERE NAME = 'Roman';
+
+
+ - usuwanie (trzeba uwaÅ¼aÄ‡):
+DELETE FROM EMPLOYEES
+WHERE ID= 10;
+
+SELECT *
+FROM EMPLOYEES
+
+
+ORDER BY AGE DESC NULLS LAST
+ */
+<span class="nc" id="L73">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

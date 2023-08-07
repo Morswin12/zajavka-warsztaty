@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StreamExample.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P25_Stream_Operacje_Posrednie2</a> &gt; <span class="el_source">StreamExample.java</span></div><h1>StreamExample.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P25_Stream_Operacje_Posrednie2;
+
+import WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P24_Stream_Operacje_Posrednie.City;
+import WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P24_Stream_Operacje_Posrednie.Person;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+<span class="nc" id="L13">public class StreamExample {</span>
+    public static void main(String[] args) {
+
+        //peek
+<span class="nc" id="L17">        System.out.println(&quot;----------------peek-----------------&quot;);</span>
+
+<span class="nc" id="L19">        List&lt;Person&gt; people = Arrays.asList(</span>
+                new Person(&quot;Piotr&quot;, new City(&quot;Warszawa&quot;)),
+                new Person(&quot;Adam&quot;, new City(&quot;KrakÃ³w&quot;)),
+                new Person(&quot;Å‚ukasz&quot;, new City(&quot;Kielce&quot;)),
+                new Person(&quot;Karol&quot;, new City(&quot;Kielceo&quot;)),
+                new Person(&quot;MichaÅ‚&quot;, new City(&quot;WrocÅ‚aw&quot;)),
+                new Person(&quot;Darek&quot;, new City(&quot;MasÅ‚Ã³w&quot;)),
+                new Person(&quot;Adam&quot;, new City(&quot;MasÅ‚Ã³w&quot;)));
+
+<span class="nc" id="L28">        List&lt;Integer&gt; collect = people.stream()</span>
+<span class="nc" id="L29">                .peek(x -&gt; System.out.println(&quot;Step1: &quot; + x))</span>
+<span class="nc" id="L30">                .map(Person::getCity)</span>
+<span class="nc" id="L31">                .peek(x1 -&gt; System.out.println(&quot;Step2: &quot; + x1))</span>
+<span class="nc" id="L32">                .map(City::getName)</span>
+<span class="nc" id="L33">                .peek(x2 -&gt; System.out.println(&quot;Step3: &quot; + x2))</span>
+<span class="nc" id="L34">                .map(String::length)</span>
+<span class="nc" id="L35">                .peek(x3 -&gt; System.out.println(&quot;Step4: &quot; + x3))</span>
+<span class="nc" id="L36">                .collect(Collectors.toList());</span>
+
+<span class="nc" id="L38">        System.out.println(collect);</span>
+<span class="nc" id="L39">        System.out.println();</span>
+
+        //distinct
+<span class="nc" id="L42">        System.out.println(&quot;----------------distinct-----------------&quot;);</span>
+
+<span class="nc" id="L44">        List&lt;String&gt; cities = Arrays.asList(</span>
+                &quot;Warszawa&quot;, &quot;KrakÃ³w&quot;, &quot;LÃ³dÅº&quot;,&quot;Ä„cice&quot;, &quot;Kielce&quot;, &quot;Kielce&quot;, &quot;WrocÅ‚aw&quot;, &quot;MasÅ‚Ã³w&quot;, &quot;BielskoBiaa&quot;
+        );
+
+<span class="nc" id="L48">        String collect1 = cities.stream()</span>
+<span class="nc" id="L49">                .distinct()</span>
+<span class="nc" id="L50">                .collect(Collectors.joining(&quot;, &quot;));</span>
+
+<span class="nc" id="L52">        System.out.println(collect1);</span>
+<span class="nc" id="L53">        System.out.println();</span>
+
+        //limit
+<span class="nc" id="L56">        System.out.println(&quot;----------------limit-----------------&quot;);</span>
+
+<span class="nc" id="L58">        List&lt;String&gt; collect2 = cities.stream()</span>
+<span class="nc" id="L59">                .limit(3)</span>
+<span class="nc" id="L60">                .map(a -&gt; a + &quot; juhu&quot;)</span>
+<span class="nc" id="L61">                .peek(s -&gt; System.out.println(s))</span>
+<span class="nc" id="L62">                .map(a -&gt; a.toUpperCase())</span>
+<span class="nc" id="L63">                .collect(Collectors.toList());</span>
+<span class="nc" id="L64">        System.out.println(collect2);</span>
+
+<span class="nc" id="L66">        AtomicInteger counter = new AtomicInteger(0);</span>
+<span class="nc" id="L67">        List&lt;String&gt; collect3 = Stream.generate(() -&gt; &quot;Some String &quot; + counter.incrementAndGet())</span>
+<span class="nc" id="L68">                .limit(10)</span>
+<span class="nc" id="L69">                .collect(Collectors.toList());</span>
+<span class="nc" id="L70">        System.out.println(collect3);</span>
+
+        //skip
+<span class="nc" id="L73">        System.out.println(&quot;----------------skip-----------------&quot;);</span>
+
+<span class="nc" id="L75">        List&lt;String&gt; citiesSkip = Arrays.asList(</span>
+                &quot;Warszawa&quot;, &quot;KrakÃ³w&quot;, &quot;Kielce&quot;, &quot;Kielce&quot;, &quot;Kielce&quot;, &quot;WrocÅ‚aw&quot;, &quot;MasÅ‚Ã³w&quot;, &quot;Bielsko&quot;
+        );
+
+<span class="nc" id="L79">        List&lt;Integer&gt; collect4 = people.stream()</span>
+<span class="nc" id="L80">                .peek(x -&gt; System.out.println(&quot;Step1: &quot; + x.getName()))</span>
+<span class="nc" id="L81">                .map(Person::getCity)</span>
+<span class="nc" id="L82">                .peek(x1 -&gt; System.out.println(&quot;Step2: &quot; + x1.getName()))</span>
+<span class="nc" id="L83">                .map(City::getName)</span>
+<span class="nc" id="L84">                .skip(3)</span>
+<span class="nc" id="L85">                .peek(x2 -&gt; System.out.println(&quot;Step3: &quot; + x2))</span>
+<span class="nc" id="L86">                .map(String::length)</span>
+<span class="nc" id="L87">                .peek(x3 -&gt; System.out.println(&quot;Step4: &quot; + x3))</span>
+<span class="nc" id="L88">                .collect(Collectors.toList());</span>
+<span class="nc" id="L89">        System.out.println(collect4);</span>
+<span class="nc" id="L90">        System.out.println();</span>
+
+<span class="nc" id="L92">        Stream&lt;String&gt; citiesSkip2 = Stream.iterate(&quot;Start: &quot;, (elem) -&gt; elem + &quot;; &quot;);</span>
+<span class="nc" id="L93">        citiesSkip2</span>
+<span class="nc" id="L94">                .peek(x -&gt; System.out.println(&quot;Step1: &quot; + x))</span>
+<span class="nc" id="L95">                .map(String::toUpperCase)</span>
+<span class="nc" id="L96">                .limit(12)</span>
+<span class="nc" id="L97">                .peek(x1 -&gt; System.out.println(&quot;Step2: &quot; + x1))</span>
+<span class="nc" id="L98">                .map(String::toLowerCase)</span>
+<span class="nc" id="L99">                .skip(3)</span>
+<span class="nc" id="L100">                .peek(x2 -&gt; System.out.println(&quot;Step3: &quot; + x2))</span>
+<span class="nc" id="L101">                .map(String::length)</span>
+<span class="nc" id="L102">                .peek(x3 -&gt; System.out.println(&quot;Step4: &quot; + x3))</span>
+<span class="nc" id="L103">                .collect(Collectors.toList());</span>
+
+<span class="nc" id="L105">        System.out.println(&quot;\n&quot;);</span>
+
+        //skip
+<span class="nc" id="L108">        System.out.println(&quot;----------------skip-----------------&quot;);</span>
+
+<span class="nc" id="L110">        System.out.println();</span>
+<span class="nc" id="L111">        List&lt;Integer&gt; collect5 = cities.stream()</span>
+<span class="nc" id="L112">                .peek(x -&gt; System.out.println(&quot;Step1: &quot; + x))</span>
+<span class="nc" id="L113">                .sorted()</span>
+<span class="nc" id="L114">                .peek(x1 -&gt; System.out.println(&quot;Step2: &quot; + x1))</span>
+<span class="nc" id="L115">                .map(String::length)</span>
+<span class="nc" id="L116">                .collect(Collectors.toList());</span>
+<span class="nc" id="L117">        System.out.println(collect5);</span>
+
+
+<span class="nc" id="L120">        people.stream()</span>
+<span class="nc" id="L121">                .peek(d -&gt; System.out.println(&quot;Step1: &quot; + d))</span>
+<span class="nc" id="L122">                .sorted(Comparator.comparing(Person::getName))</span>
+<span class="nc" id="L123">                .peek(d -&gt; System.out.println(&quot;Step2: &quot; + d))</span>
+<span class="nc" id="L124">                .collect(Collectors.toList());</span>
+
+<span class="nc" id="L126">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

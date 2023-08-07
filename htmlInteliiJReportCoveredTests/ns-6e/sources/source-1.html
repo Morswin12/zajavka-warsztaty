@@ -1,0 +1,132 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P03_SQL__Praca_z_tabelami_cz1</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_4_Bazy_Danych.P03_SQL__Praca_z_tabelami_cz1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P03_SQL__Praca_z_tabelami_cz1;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;        /*
+&nbsp;        name        | rozmiar   | zakres                                | komentarz
+&nbsp;        --------------------------------------------------------------------------------------
+&nbsp;        boolean     | 1 byte    | false, true                           | mo?e te? by? null
+&nbsp;        --
+&nbsp;        smallint    | 2 bytes   | -32768, 32767                         | integer o ma?ym zakresie danych
+&nbsp;        integer     | 4 bytes   | -2147483648, 2147483648               | najcz??ciej u?ywany
+&nbsp;        bigint      | 8 bytes   | ~ -9*10^18, ~ 9*10^18                 | integer o du?ym zakresie danych
+&nbsp;        real        | 4 bytes   | dok?adno?? 6 cyfr dziesi?tnych        | &quot;the data types real ad double precision are inexact, variable-precision numeric types&quot; nie u?ywa? do warto?ci precyzyjnych jak pieni?dzy itp
+&nbsp;        numeric(p,s)| zmienny   | Do 131072 cyfr przed przecinkiem oraz | &quot;p&quot;- ilo?? cyfr, &quot;s&quot;- ilo?? miejsc po przecinku
+&nbsp;                    |           | do 16383 cyfr po przecinku            | numeric(5, 2) - to np.: 345.22 - u?ywany do kalkulacji pieni??nych
+&nbsp;                    |           | do 16383 cyfr po przecinku            | numeric(5, 2) - to np.: 345.22 - u?ywany do kalkulacji pieni??nych
+&nbsp;        --
+&nbsp;        char(c)     |           |                                       | &quot;n&quot; - ilo?? znaków. Gdy podamy 10 a s?owo ma 6 znaków reszta zostanie wype?niona spacjami. gdy s?owo ma wi?cej ni? 10 wyst?pi b??d
+&nbsp;        varchar(c)  |           |                                       | &quot;n&quot; - ilo?? znaków. Gdy podamy 10 a s?owo ma 6 znaków reszta nie zostanie wype?niona spacjami gdy s?owo ma wi?cej ni? 10 wyst?pi b??d
+&nbsp;        text        |           |                                       | tekst o d?ugo?ci teoretycznie nieograniczonej
+&nbsp;        --
+&nbsp;        DATE        |           |                                       | przechowuje tylko dat?
+&nbsp;        TIME        |           |                                       | przechowuje tylko czas
+&nbsp;        TIMESTAMP   |           |                                       | przechowuje dat? i czas
+&nbsp;        TIMESTAMP WITH TIME ZONE|                                       | przechowuje dat? i czas z uwzgl?dnieniem strefy czasowej
+&nbsp;
+&nbsp;         */
+<b class="nc">&nbsp;    }</b>
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

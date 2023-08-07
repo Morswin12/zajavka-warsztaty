@@ -1,0 +1,174 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > StreamExample</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P28_Stream_vs_Typy_Prymitywne</a>
+</div>
+
+<h1>Coverage Summary for Class: StreamExample (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P28_Stream_vs_Typy_Prymitywne)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">StreamExample</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/42)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P28_Stream_vs_Typy_Prymitywne;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;import java.util.OptionalDouble;
+&nbsp;import java.util.stream.DoubleStream;
+&nbsp;import java.util.stream.LongStream;
+&nbsp;import java.util.stream.Stream;
+&nbsp;
+<b class="nc">&nbsp;public class StreamExample {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Integer&gt; numbersInt = List.of(1, 2, 3, 4, 5, 6);</b>
+<b class="nc">&nbsp;        List&lt;Double&gt; numbersDouble = List.of(1.3, 2.2, 3.1, 4.2, 5.2, 6.2);</b>
+<b class="nc">&nbsp;        List&lt;Long&gt; numbersLong = List.of(1L, 2L, 3L, 4L, 5L, 6L);</b>
+&nbsp;
+<b class="nc">&nbsp;        Integer reduce = numbersInt.stream()</b>
+<b class="nc">&nbsp;                .reduce(0, Integer::sum);</b>
+&nbsp;//                .reduce(0, (left, right) -&gt; left + right);
+<b class="nc">&nbsp;        System.out.println(&quot;reduce: &quot; + reduce);</b>
+&nbsp;
+<b class="nc">&nbsp;        int sum = numbersInt.stream().mapToInt(value -&gt; value).sum();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;sum: &quot; + sum);</b>
+&nbsp;
+<b class="nc">&nbsp;        OptionalDouble average = numbersInt.stream().mapToInt(value -&gt; value).average();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;average: &quot; + average);</b>
+&nbsp;
+<b class="nc">&nbsp;        OptionalDouble averageLong = numbersLong.stream().mapToLong(value -&gt; value).average();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;averageLong: &quot; + averageLong);</b>
+&nbsp;
+<b class="nc">&nbsp;        long sum1 = numbersLong.stream().mapToLong(value -&gt; value).sum();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;sum1: &quot; + sum1);</b>
+&nbsp;
+<b class="nc">&nbsp;        OptionalDouble averageDouble = numbersDouble.stream().mapToDouble(value -&gt; value).average();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;averageDouble: &quot; + averageDouble);</b>
+&nbsp;
+<b class="nc">&nbsp;        double sumDouble = numbersDouble.stream().mapToDouble(value -&gt; value).sum();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;sumDouble: &quot; + sumDouble);</b>
+&nbsp;
+<b class="nc">&nbsp;        OptionalDouble max = numbersDouble.stream().mapToDouble(value -&gt; value).max();</b>
+<b class="nc">&nbsp;        System.out.println(&quot;max: &quot; + max);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        OptionalDouble average1 = DoubleStream</b>
+<b class="nc">&nbsp;                .generate(Math::random)</b>
+<b class="nc">&nbsp;                .peek(a -&gt; System.out.println(&quot;El.: &quot; + a))</b>
+<b class="nc">&nbsp;                .limit(15)</b>
+<b class="nc">&nbsp;                .average();</b>
+<b class="nc">&nbsp;        System.out.println(average1);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println();</b>
+<b class="nc">&nbsp;        long sum2 = LongStream.iterate(5, a -&gt; a * 10)</b>
+<b class="nc">&nbsp;                .peek(l -&gt; System.out.println(l))</b>
+<b class="nc">&nbsp;                .limit(10).sum();</b>
+<b class="nc">&nbsp;        System.out.println(sum2);</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+<b class="nc">&nbsp;        LongStream.range(1, 5)</b>
+<b class="nc">&nbsp;                .forEach(elem -&gt; System.out.println(&quot;Ranged: &quot; + elem));</b>
+&nbsp;
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;
+<b class="nc">&nbsp;        LongStream.rangeClosed(1, 5)</b>
+<b class="nc">&nbsp;                .mapToDouble(v-&gt; v*3.7)</b>
+<b class="nc">&nbsp;                .forEach(elem -&gt; System.out.println(&quot;Ranged: &quot; + elem));</b>
+&nbsp;
+<b class="nc">&nbsp;        DoubleStream iterate = DoubleStream.iterate(3, elem -&gt; elem + 3.4);</b>
+<b class="nc">&nbsp;        Stream&lt;Double&gt; boxed = DoubleStream.iterate(3, elem -&gt; elem + 3.4).boxed();</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

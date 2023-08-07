@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main_Exe1.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem</a> &gt; <span class="el_source">Main_Exe1.java</span></div><h1>Main_Exe1.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P36_Podsumowanie_Zadan_z_Bartkiem;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+<span class="nc" id="L8">public class Main_Exe1 {</span>
+    public static void main(String[] args) {
+
+<span class="nc" id="L11">        Path rootPath = Paths.get(&quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P36_Podsumowanie_Zadan_z_Bartkiem&quot;);</span>
+<span class="nc" id="L12">        String extention = &quot;txt&quot;;</span>
+
+<span class="nc" id="L14">        printSpecificpath(rootPath, extention);</span>
+<span class="nc" id="L15">    }</span>
+
+    private static void printSpecificpath(Path rootPath, String extension) {
+<span class="nc bnc" id="L18" title="All 4 branches missed.">        if (extension == null || !Files.exists(rootPath)) {</span>
+<span class="nc" id="L19">            throw new RuntimeException(&quot;Extension is null&quot;);</span>
+        } else {
+
+            try {
+<span class="nc" id="L23">                Files.list(rootPath).forEach(path -&gt; heldlePath(path, extension));</span>
+
+<span class="nc" id="L25">            } catch (IOException e) {</span>
+<span class="nc" id="L26">                e.printStackTrace();</span>
+<span class="nc" id="L27">            }</span>
+        }
+<span class="nc" id="L29">    }</span>
+
+    private static void heldlePath(Path path, String extension) {
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        if (Files.isDirectory(path)) {</span>
+<span class="nc" id="L33">            printSpecificpath(path, extension);</span>
+<span class="nc bnc" id="L34" title="All 4 branches missed.">        } else if (Files.isRegularFile(path) &amp;&amp; isFileSpecificExtension(extension, path)) {</span>
+<span class="nc" id="L35">            System.out.println(path.toAbsolutePath());</span>
+        }
+<span class="nc" id="L37">    }</span>
+
+    private static boolean isFileSpecificExtension(String extension, Path path) {
+<span class="nc" id="L40">        String[] split = path.getFileName().toString().split(&quot;\\.&quot;);</span>
+
+<span class="nc bnc" id="L42" title="All 2 branches missed.">        if (split.length != 2) {</span>
+<span class="nc" id="L43">            return false;</span>
+        } else {
+<span class="nc" id="L45">            return extension.equals(split[1]);</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

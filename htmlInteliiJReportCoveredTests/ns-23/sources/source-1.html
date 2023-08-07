@@ -1,0 +1,191 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > NoGenericMain</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic</a>
+</div>
+
+<h1>Coverage Summary for Class: NoGenericMain (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">NoGenericMain</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/15)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">NoGenericMain$Cat</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">NoGenericMain$Dog</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/17)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P4_No_Generic;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class NoGenericMain {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List dogs = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        dogs.add(new Dog());</b>
+&nbsp;//        dogs.add(new Cat());
+&nbsp;
+<b class="nc">&nbsp;        print(dogs);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Dog&gt; dogList = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        addDog(dogList);</b>
+<b class="nc">&nbsp;        System.out.println(dogList);</b>
+&nbsp;
+&nbsp;//        Dog dog = dogList.get(0);
+&nbsp;//        System.out.println(dog);
+&nbsp;
+<b class="nc">&nbsp;        List ints = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        ints.add(15);</b>
+<b class="nc">&nbsp;        int o = (Integer) ints.get(0);</b>
+<b class="nc">&nbsp;        System.out.println(o);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void addDog(List dogList) {
+<b class="nc">&nbsp;        dogList.add(new Cat());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static void print(List&lt;Dog&gt; list) {
+<b class="nc">&nbsp;        for (Dog dog : list) {</b>
+<b class="nc">&nbsp;            System.out.println(dog);</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public static class Dog {</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public static class Cat {</b>
+&nbsp;    }
+&nbsp;}
+&nbsp;
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

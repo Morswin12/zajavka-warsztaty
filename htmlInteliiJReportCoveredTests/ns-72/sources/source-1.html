@@ -1,0 +1,263 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P07_P08_SQL_RELACJE_cz_1_I_2</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_4_Bazy_Danych.P07_P08_SQL_RELACJE_cz_1_I_2)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P07_P08_SQL_RELACJE_cz_1_I_2;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;/*
+&nbsp;CREATE TABLE ADDRESSES(
+&nbsp;	ID INT NOT NULL,
+&nbsp;	CITY VARCHAR(32) NOT NULL,
+&nbsp;	STREET VARCHAR(64) NOT NULL,
+&nbsp;	PRIMARY KEY(ID)
+&nbsp;);
+&nbsp;
+&nbsp;CREATE TABLE EMPLOYEES(
+&nbsp;	ID INT NOT NULL,
+&nbsp;	NAME VARCHAR(20) NOT NULL,
+&nbsp;	SURNAME VARCHAR(20) NOT NULL,
+&nbsp;	AGE INT,
+&nbsp;	SALARY NUMERIC(7,2) NOT NULL,
+&nbsp;	dATE_OF_EMPLOYMENT DATE,
+&nbsp;	ADDRESS_ID INT NOT NULL,
+&nbsp;	PRIMARY KEY(ID),
+&nbsp;	CONSTRAINT fk_address
+&nbsp;		FOREIGN key (ADDRESS_ID)
+&nbsp;			REFERENCES ADDRESSES(ID)
+&nbsp;);
+&nbsp;
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET)
+&nbsp;		VALUES (1, &#39;Warszawa&#39;, &#39;Marsza?kowska&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET)
+&nbsp;		VALUES (2, &#39;Gda?sk&#39;, &#39;Oliwska&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET)
+&nbsp;		VALUES (3, &#39;Szczecin&#39;, &#39;Bia?a&#39;);
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;3	&quot;Szczecin&quot;	&quot;Bia?a&quot;
+&nbsp;
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;-- 		VALUES (1, &#39;Aleksander&#39;, &#39;Wyp?ata&#39;, 33, 8791.12, &#39;2018-03-12&#39;, 1);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (2, &#39;Roman&#39;, &#39;Pomidorowy&#39;, 43, 7612.12, &#39;2012-01-01&#39;, 2);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (3, &#39;Anna&#39;, &#39;Rosó?&#39;, 38, 5728.90, &#39;2015-07-18&#39;, 1);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (4, &#39;Urszula&#39;, &#39;Nowak&#39;, 39, 3817.21, &#39;2014-12-15&#39;, 2);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (5, &#39;Stefan&#39;, &#39;Roma?ski&#39;, 38, 9201.23, &#39;2020-07-14&#39;, 1);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (6, &#39;Jolanta&#39;, &#39;Kowalska&#39;, 27, 6521.22, &#39;2012-06-04&#39;, 3);
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;
+&nbsp;1	&quot;Aleksander&quot;	&quot;Wyp?ata&quot;	33	8791.12	&quot;2018-03-12&quot;	1
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2
+&nbsp;3	&quot;Anna&quot;	&quot;Rosó?&quot;	38	5728.90	&quot;2015-07-18&quot;	1
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1
+&nbsp;6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;	3
+&nbsp;
+&nbsp;
+&nbsp;SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+&nbsp;	FROM EMPLOYEES AS EMP
+&nbsp;		INNER JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+&nbsp;
+&nbsp; &quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;1	&quot;Aleksander&quot;	&quot;Wyp?ata&quot;	33	8791.12	&quot;2018-03-12&quot;	1	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;3	&quot;Anna&quot;	&quot;Rosó?&quot;	38	5728.90	&quot;2015-07-18&quot;	1	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;	3	3	&quot;Szczecin&quot;	&quot;Bia?a&quot;
+&nbsp;
+&nbsp;
+&nbsp;ALTER TABLE EMPLOYEES
+&nbsp;	ALTER COLUMN ADDRESS_ID DROP NOT NULL;
+&nbsp;
+&nbsp;DELETE FROM EMPLOYEES;
+&nbsp;DELETE FROM ADDRESSES;
+&nbsp;
+&nbsp;
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (1, &#39;Warszawa&#39;, &#39;Marsza?kowska&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (2, &#39;Gda?sk&#39;, &#39;Oliwska&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (3, &#39;Szczecin&#39;, &#39;Bia?a&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (4, &#39;Szczecin&#39;, &#39;Niebieska&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (5, &#39;Zakopane&#39;, &#39;Wodna&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (6, &#39;Zakopane&#39;, &#39;Piaskowa&#39;);
+&nbsp;INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (7, &#39;Kraków&#39;, &#39;Wawelska&#39;);
+&nbsp;
+&nbsp;
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;		VALUES (1, &#39;Aleksander&#39;, &#39;Wyp?ata&#39;, 33, 8791.12, &#39;2018-03-12&#39;);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (2, &#39;Roman&#39;, &#39;Pomidorowy&#39;, 43, 7612.12, &#39;2012-01-01&#39;, 2);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;		VALUES (3, &#39;Anna&#39;, &#39;Rosó?&#39;, 38, 5728.90, &#39;2015-07-18&#39;);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (4, &#39;Urszula&#39;, &#39;Nowak&#39;, 39, 3817.21, &#39;2014-12-15&#39;, 2);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+&nbsp;		VALUES (5, &#39;Stefan&#39;, &#39;Roma?ski&#39;, 38, 9201.23, &#39;2020-07-14&#39;, 1);
+&nbsp;INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+&nbsp;		VALUES (6, &#39;Jolanta&#39;, &#39;Kowalska&#39;, 27, 6521.22, &#39;2012-06-04&#39;);
+&nbsp;
+&nbsp;
+&nbsp;SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+&nbsp;	FROM EMPLOYEES AS EMP
+&nbsp;		INNER JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID; -bez s?owa inner te? dzia?a
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;
+&nbsp;
+&nbsp;SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+&nbsp;	FROM EMPLOYEES AS EMP
+&nbsp;		FULL JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;1	&quot;Aleksander&quot;	&quot;Wyp?ata&quot;	33	8791.12	&quot;2018-03-12&quot;
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;3	&quot;Anna&quot;	&quot;Rosó?&quot;	38	5728.90	&quot;2015-07-18&quot;
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;
+&nbsp;							5	&quot;Zakopane&quot;	&quot;Wodna&quot;
+&nbsp;							6	&quot;Zakopane&quot;	&quot;Piaskowa&quot;
+&nbsp;							4	&quot;Szczecin&quot;	&quot;Niebieska&quot;
+&nbsp;
+&nbsp;
+&nbsp;SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, CITY, STREET
+&nbsp;	FROM EMPLOYEES AS EMP
+&nbsp;		LEFT JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;1	&quot;Aleksander&quot;	&quot;Wyp?ata&quot;	33	8791.12	&quot;2018-03-12&quot;
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;3	&quot;Anna&quot;	&quot;Rosó?&quot;	38	5728.90	&quot;2015-07-18&quot;
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, CITY, STREET
+&nbsp;	FROM EMPLOYEES AS EMP
+&nbsp;		RIGHT JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+&nbsp;
+&nbsp;&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;city&quot;	&quot;street&quot;
+&nbsp;2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	&quot;Gda?sk&quot;	&quot;Oliwska&quot;
+&nbsp;5	&quot;Stefan&quot;	&quot;Roma?ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	&quot;Warszawa&quot;	&quot;Marsza?kowska&quot;
+&nbsp;							&quot;Zakopane&quot;	&quot;Wodna&quot;
+&nbsp;							&quot;Zakopane&quot;	&quot;Piaskowa&quot;
+&nbsp;							&quot;Szczecin&quot;	&quot;Niebieska&quot;
+&nbsp;							&quot;Szczecin&quot;	&quot;Bia?a&quot;
+&nbsp;							&quot;Kraków&quot;	&quot;Wawelska&quot;
+&nbsp;
+&nbsp; */
+<b class="nc">&nbsp;    }</b>
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

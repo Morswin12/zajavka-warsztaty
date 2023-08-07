@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/25)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P13_JDBC___Prepared_Statement;
+&nbsp;
+&nbsp;
+&nbsp;import java.sql.Connection;
+&nbsp;import java.sql.DriverManager;
+&nbsp;import java.sql.PreparedStatement;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+&nbsp;        // d?ugie -&gt;  3  3  - 6  (6)
+&nbsp;        // sko?ne -&gt;  4  5  - 9  (9)
+&nbsp;        // krótkie -&gt; 2  2  - 4  (6)
+&nbsp;//        String address = &quot;jdbc:postgresql://127.0.0.1:5432/zajavka&quot;;
+<b class="nc">&nbsp;        String address = &quot;jdbc:postgresql://localhost:5432/zajavka&quot;;</b>
+<b class="nc">&nbsp;        String dbUsername = &quot;postgres&quot;;</b>
+<b class="nc">&nbsp;        String dbPassword = &quot;postgres&quot;;</b>
+&nbsp;
+&nbsp;//        String username = &quot;jczajkowski22&quot;;
+<b class="nc">&nbsp;        String username = &quot;ntinner27&quot;;</b>
+&nbsp;        // SQL Injection
+&nbsp;//        String username = &quot;whatewer&#39; or 1=1 or USER_NAME = &#39;whateverAgain&quot;;  - wywo?anie tego przy zwyk?ym Statement
+&nbsp;//                                                    spowoduje usuni?cie wszyctkich u?ytkowników i danych
+&nbsp;
+<b class="nc">&nbsp;        String query1 = &quot;DELETE FROM OPINION WHERE CUSTOMER_ID IN (SELECT ID FROM CUSTOMER WHERE USER_NAME = ?);&quot;;</b>
+<b class="nc">&nbsp;        String query2 = &quot;DELETE FROM PURCHASE WHERE CUSTOMER_ID IN (SELECT ID FROM CUSTOMER WHERE USER_NAME = ?);&quot;;</b>
+<b class="nc">&nbsp;        String query3 = &quot;DELETE FROM CUSTOMER WHERE USER_NAME = ?;&quot;;</b>
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(address, dbUsername, dbPassword);</b>
+&nbsp;//                Statement statement = connection.createStatement();
+<b class="nc">&nbsp;                PreparedStatement statement1 = connection.prepareStatement(query1);</b>
+<b class="nc">&nbsp;                PreparedStatement statement2 = connection.prepareStatement(query2);</b>
+<b class="nc">&nbsp;                PreparedStatement statement3 = connection.prepareStatement(query3);</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            statement1.setString(1, username);</b>
+<b class="nc">&nbsp;            int count1 = statement1.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Changed &quot; + count1 + &quot; rows.&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;            statement2.setString(1, username);</b>
+<b class="nc">&nbsp;            int count2 = statement2.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Changed &quot; + count2 + &quot; rows.&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;            statement3.setString(1, username);</b>
+<b class="nc">&nbsp;            int count3 = statement3.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Changed &quot; + count3 + &quot; rows.&quot;);</b>
+<b class="nc">&nbsp;        } catch (Exception e) {</b>
+<b class="nc">&nbsp;            System.err.println(e.getMessage() + &quot; o w dupe&quot;);</b>
+&nbsp;            ;
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

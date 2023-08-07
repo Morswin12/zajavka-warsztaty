@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LowerBoundsWildcartMain.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P8_Generics_Lower_bound_Wildcard_dolna_granice_wieloznacznosci</a> &gt; <span class="el_source">LowerBoundsWildcartMain.java</span></div><h1>LowerBoundsWildcartMain.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P8_Generics_Lower_bound_Wildcard_dolna_granice_wieloznacznosci;
+
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="nc" id="L6">public class LowerBoundsWildcartMain {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L8">        List&lt;Dog&gt; dogs = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L9">        dogs.add(new Dog());</span>
+<span class="nc" id="L10">        List&lt;Animal&gt; animals = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L11">        animals.add(new Animal());</span>
+
+<span class="nc" id="L13">        addFlyingDog(dogs);</span>
+<span class="nc" id="L14">        addFlyingDog(animals);</span>
+
+<span class="nc" id="L16">        List&lt;? super Dog&gt; list1 = dogs;</span>
+<span class="nc" id="L17">        List&lt;? super Dog&gt; list2 = animals;</span>
+
+<span class="nc" id="L19">        list1.add(new FlyingDog());</span>
+<span class="nc" id="L20">        list1.add(new Dog());</span>
+<span class="nc" id="L21">        list1.add(new MoreFlyingDog());</span>
+//        list1.add(new Animal());
+<span class="nc" id="L23">    }</span>
+
+    private static void addFlyingDog(List&lt;? super Dog&gt; list) {
+<span class="nc" id="L26">        list.add(new FlyingDog());</span>
+<span class="nc" id="L27">    }</span>
+
+
+<span class="nc" id="L30">    static class Animal {</span>
+    }
+
+<span class="nc" id="L33">    static class Dog extends Animal {</span>
+    }
+
+<span class="nc" id="L36">    static class FlyingDog extends Dog {</span>
+    }
+
+<span class="nc" id="L39">    static class MoreFlyingDog extends FlyingDog {</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

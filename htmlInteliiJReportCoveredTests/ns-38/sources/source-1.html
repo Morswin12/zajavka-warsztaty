@@ -1,0 +1,137 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P23_Podsumowanie</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P23_Podsumowanie)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/19)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P23_Podsumowanie;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;import java.util.TreeSet;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Integer&gt; priceList = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        priceList.add(2);</b>
+<b class="nc">&nbsp;        priceList.add(4);</b>
+<b class="nc">&nbsp;        priceList.add(5);</b>
+<b class="nc">&nbsp;        priceList.add(8);</b>
+&nbsp;
+<b class="nc">&nbsp;        TreeSet&lt;Object&gt; peek = priceList.parallelStream()</b>
+<b class="nc">&nbsp;                .peek(s -&gt; System.out.println(s))</b>
+<b class="nc">&nbsp;                .collect(() -&gt; new TreeSet&lt;&gt;(),</b>
+<b class="nc">&nbsp;                        (currentSet, element)-&gt; currentSet.add(element),</b>
+<b class="nc">&nbsp;                        (firstSet, secondSet) -&gt; firstSet.addAll(secondSet));</b>
+<b class="nc">&nbsp;        System.out.println(peek);</b>
+&nbsp;
+<b class="nc">&nbsp;        Integer reduce = priceList.stream().reduce(0, Integer::sum);</b>
+<b class="nc">&nbsp;        System.out.println(reduce);</b>
+&nbsp;
+<b class="nc">&nbsp;        long count = priceList.stream().count();</b>
+<b class="nc">&nbsp;        System.out.println(count);</b>
+&nbsp;
+<b class="nc">&nbsp;        boolean b = priceList.stream().anyMatch(s -&gt; s == 5);</b>
+<b class="nc">&nbsp;        System.out.println(b);</b>
+&nbsp;
+<b class="nc">&nbsp;        priceList.forEach(s-&gt; System.out.println(s));</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

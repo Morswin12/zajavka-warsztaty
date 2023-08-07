@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P30_NIO_Interface_Path_cz_2</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P30_NIO_Interface_Path_cz_2;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+<span class="nc" id="L8">public class Main {</span>
+
+    public static void main(String[] args) throws IOException {
+        // URI  -  Uniform Resource Identifier
+<span class="nc" id="L12">        Path path = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</span>
+<span class="nc" id="L13">        Path path3 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</span>
+<span class="nc" id="L14">        Path path1 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/oneDirectory/someFile1.txt&quot;).toAbsolutePath();</span>
+<span class="nc" id="L15">        Path path2 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/twoDirectory/someFile2.txt&quot;).toAbsolutePath();</span>
+
+        // toString
+<span class="nc" id="L18">        String toString = path.toString();</span>
+<span class="nc" id="L19">        System.out.println(&quot;toString():   &quot; + toString);</span>
+
+        // getNameCount()  - podaje iloÅ›Ä‡ elementÃ³w w Å›cierzce
+<span class="nc" id="L22">        int nameCount = path.getNameCount();</span>
+<span class="nc" id="L23">        System.out.println(&quot;getNameCount():   &quot; + nameCount);</span>
+
+        // getName(index) - podaje nazwÄ™ katalogu o podanym indeksie od poczÄ…tku gdzie 0 jest perwszym katalogiem
+<span class="nc" id="L26">        Path getPath = path.getName(0);</span>
+<span class="nc" id="L27">        System.out.println(&quot;getName(0):   &quot; + getPath);</span>
+<span class="nc" id="L28">        Path getPath2 = path.getName(nameCount - 1);</span>
+<span class="nc" id="L29">        System.out.println(&quot;getName(4):   &quot; + getPath2);</span>
+//        Path getPath3 = path.getName(7);
+//        System.out.println(getPath3);
+
+        // getFileName() - podaje nazwÄ™ katalogu lub pliku ostatniego na Å›cieÅ¼ce
+<span class="nc" id="L34">        Path getFileName = path.getFileName();</span>
+<span class="nc" id="L35">        System.out.println(&quot;getFileName():   &quot; + getFileName);</span>
+
+        // toAbsolutePath()  - podaje Å›cieÅ¼kÄ™ absoutnÄ… od roota
+<span class="nc" id="L38">        Path toAbsolutePath = path.toAbsolutePath();</span>
+<span class="nc" id="L39">        System.out.println(&quot;toAbsolutePath():  &quot; + toAbsolutePath);</span>
+
+        // isAbsolute() - sprawdza czy jest absolutna
+<span class="nc" id="L42">        boolean absolute = path.isAbsolute();</span>
+<span class="nc" id="L43">        System.out.println(&quot;isAbsolute():  &quot; + absolute);</span>
+
+        // getParent()  - podaje Å›cieÅ¼kÄ™ do naszego pliku, ale bez naszego pliku
+<span class="nc" id="L46">        Path parent = path.getParent();</span>
+<span class="nc" id="L47">        System.out.println(&quot;getParent():   &quot; + parent);</span>
+<span class="nc" id="L48">        Path absolutePathParent = path.toAbsolutePath().getParent();</span>
+<span class="nc" id="L49">        System.out.println(&quot;toAbsolutePath().getParent():  &quot; + absolutePathParent);</span>
+
+        // getRoot()  - poda root jeÅ›li Å›cieÅ¼a jest absolutna lub null, jeÅ›li nie jest
+<span class="nc" id="L52">        Path root = path.getRoot();</span>
+<span class="nc" id="L53">        System.out.println(&quot;getRoot():  &quot; + root);</span>
+<span class="nc" id="L54">        Path root2 = path.toAbsolutePath().getRoot();</span>
+<span class="nc" id="L55">        System.out.println(&quot;toAbsolutePath().getRoot():  &quot; + root2);</span>
+
+        // subpath(indeks_1, index_2) - PODAJE ÅšCIEÅ»KE OD indeks_1, do index_2 (pierwszy katalog to 0)
+<span class="nc" id="L58">        Path subpath = path.subpath(1,3);</span>
+<span class="nc" id="L59">        System.out.println(&quot;subpath():  &quot; + subpath);</span>
+
+        // relativize() pokazuje jak pierwszego pliku dostaÄ‡ siÄ™ do drugiego pliku ..\..\twoDirectory\someFile2.txt
+        // 2 kroki do tyÅ‚u wejÅ›Ä‡ w twoDirecto ry\someFile2
+<span class="nc" id="L63">        System.out.println(Files.exists(path1));</span>
+<span class="nc" id="L64">        System.out.println(Files.exists(path2));</span>
+<span class="nc" id="L65">        Path relativize = path1.relativize(path2);</span>
+<span class="nc" id="L66">        System.out.println(&quot;relativize():  &quot; + relativize);</span>
+
+        // resolve() - skleja ze sobÄ… 2 Å›cieÅ¼ki, jeÅ¼eli nie sÄ… absolutne lub jeÅ›li druga nie jest absolutna, jeÅ›li sÄ…
+        // absolutne lub druga jest absolutna to wydrukuje tylko drugÄ…
+<span class="nc" id="L70">        Path resolve = path.resolve(path3);</span>
+<span class="nc" id="L71">        System.out.println(&quot;resolve():  &quot; + resolve);</span>
+
+        // normalize() - normalizuje Å›cieÅ¼kÄ™ np usuwa cofniÄ™cie siÄ™ i powrÃ³t
+<span class="nc" id="L74">        Path path4 = Paths.get(&quot;src/../src/WARSZTATY/.../WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P30_NIO_Interface_Path_cz_2/someFile.txt&quot;);</span>
+<span class="nc" id="L75">        Path normalize = path.normalize();</span>
+<span class="nc" id="L76">        System.out.println(&quot;normalize():  &quot; +path4);</span>
+<span class="nc" id="L77">        System.out.println(&quot;normalize():  &quot; + normalize);</span>
+
+        // toRealPath() - sprawdza czy podana Å›cieÅ¼ka istnieje i drukuje Å›ceÅ¼kÄ™ absloutna, jeÅ›li nie to rzuca wyjÄ…tek
+<span class="nc" id="L80">        Path toRealPath = path.toRealPath();</span>
+<span class="nc" id="L81">        System.out.println(&quot;toRealPath():  &quot; +path4);</span>
+<span class="nc" id="L82">        System.out.println(&quot;toRealPath():  &quot; + toRealPath);</span>
+
+
+        // WD - Working Directory - katalog w ktÃ³rym jest caÅ‚y nasz projekt ( w ktÃ³rym wykonywana jest praca)
+        // dlatego nie moÅ¼na uÅ¼ywaÄ‡ scieÅ¼ek absolutnych
+<span class="nc" id="L87">        Path workingDirectoryPathPoint = Paths.get(&quot;.&quot;);</span>
+<span class="nc" id="L88">        System.out.println(&quot;workingDirectoryPath: &quot; + workingDirectoryPathPoint );</span>
+<span class="nc" id="L89">        Path pathWD = workingDirectoryPathPoint.toRealPath();</span>
+<span class="nc" id="L90">        System.out.println(&quot;workingDirectoryPath:  &quot; + pathWD);</span>
+
+<span class="nc" id="L92">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

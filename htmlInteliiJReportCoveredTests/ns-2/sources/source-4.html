@@ -1,0 +1,195 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > MonthsHours</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.MOJE_PROGRAMY.ISLAND_Rozliczenie</a>
+</div>
+
+<h1>Coverage Summary for Class: MonthsHours (WARSZTATY.MOJE_PROGRAMY.ISLAND_Rozliczenie)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">MonthsHours</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/29)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">MonthsHours$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/30)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.MOJE_PROGRAMY.ISLAND_Rozliczenie;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;public class MonthsHours {
+&nbsp;    private final int hoursOnMonth;
+&nbsp;    private final int normalHours;
+&nbsp;    private final int extraHours;
+&nbsp;
+<b class="nc">&nbsp;    public MonthsHours(List&lt;Dniowka&gt; workHoursInMont) {</b>
+<b class="nc">&nbsp;        this.hoursOnMonth = hoursOnMonthCalc(workHoursInMont);</b>
+<b class="nc">&nbsp;        this.extraHours = extraHoursCalc(workHoursInMont).get(1);</b>
+<b class="nc">&nbsp;        this.normalHours = extraHoursCalc(workHoursInMont).get(0);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private List&lt;Integer&gt; extraHoursCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<b class="nc">&nbsp;        int extraHours1 = 0;</b>
+<b class="nc">&nbsp;        int normalHours1 = 0;</b>
+<b class="nc">&nbsp;        List&lt;Integer&gt; result = new ArrayList&lt;&gt;(2);</b>
+<b class="nc">&nbsp;        for (Dniowka dniowka : workHoursInMont) {</b>
+<b class="nc">&nbsp;            if (dniowka.getDate().getDayOfWeek().equals(&quot;SUNDAY&quot;)) {</b>
+<b class="nc">&nbsp;                extraHours1 += dniowka.getHoursNumbers();</b>
+&nbsp;            }
+<b class="nc">&nbsp;            switch (dniowka.getDate().getDayOfWeek()) {</b>
+<b class="nc">&nbsp;                case SUNDAY, SATURDAY -&gt; extraHours1 += dniowka.getHoursNumbers();</b>
+&nbsp;                case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -&gt; {
+<b class="nc">&nbsp;                    if (dniowka.getHoursNumbers() &gt; 8) {</b>
+<b class="nc">&nbsp;                        normalHours1 += 8;</b>
+<b class="nc">&nbsp;                        extraHours1 += dniowka.getHoursNumbers() - 8;</b>
+&nbsp;                    } else {
+<b class="nc">&nbsp;                        normalHours1 += dniowka.getHoursNumbers();</b>
+&nbsp;                    }
+&nbsp;                }
+&nbsp;            }
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+<b class="nc">&nbsp;        result.add(0, normalHours1);</b>
+<b class="nc">&nbsp;        result.add(0, extraHours1);</b>
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private int normalHoursCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<b class="nc">&nbsp;        return 0;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private int hoursOnMonthCalc(List&lt;Dniowka&gt; workHoursInMont) {
+<b class="nc">&nbsp;        int counter = 0;</b>
+<b class="nc">&nbsp;        for (Dniowka dniowka : workHoursInMont) {</b>
+<b class="nc">&nbsp;            counter += dniowka.getHoursNumbers();</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        return counter;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public int getHoursOnMonth() {
+<b class="nc">&nbsp;        return hoursOnMonth;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public int getNormalHours() {
+<b class="nc">&nbsp;        return normalHours;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public int getExtraHours() {
+<b class="nc">&nbsp;        return extraHours;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

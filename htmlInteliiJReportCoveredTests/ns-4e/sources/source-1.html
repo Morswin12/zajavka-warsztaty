@@ -1,0 +1,171 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P14_IO__in_out__Streamy_teoria</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P14_IO__in_out__Streamy_teoria)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P14_IO__in_out__Streamy_teoria;
+&nbsp;
+&nbsp;import java.io.*;
+&nbsp;import java.nio.charset.Charset;
+&nbsp;import java.nio.charset.StandardCharsets;
+&nbsp;import java.util.Arrays;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) throws IOException {
+&nbsp;
+&nbsp;        // IO Stream
+&nbsp;        // Stream
+&nbsp;        // InputStream / OutputStream
+&nbsp;        // Reader / Writer
+&nbsp;        // BufferedStream
+&nbsp;        //
+&nbsp;        // UTF-8, UTF-16, US-ASCII, ISO_8859_1
+&nbsp;
+&nbsp;        // Reader - klasa abstrakcyjne i dziedzicz? z niej wszystkie Readery
+&nbsp;        // FileReader - klasa, która czyta pojedyncze znaki z pliku | niskigo poziou
+&nbsp;        // InputStreamReader - klasa czytaj?ca znaki z przekazanego do niej InputStreama | wysoki poziom
+&nbsp;        // BufferedReader - czytaj?ca, grupuj?ca w paczki  | wysoki poziom
+&nbsp;        // Writer - Klasa abstrakcyjna, do dziedziczenia przez inne writery
+&nbsp;        // FileWriter - stream do zapisywania danych w formie znaowej | niskiego poziomu
+&nbsp;        // OutputStreamWriter - klasa zapisuj?ca znaki z przekazanego do niej InputStreama | wysoki poziom
+&nbsp;        // BufferedWriter - stream zapisuj?cy, grupuj?ca w paczki  | wysoki poziom
+&nbsp;        // PrintWriter - stream u?atwiajacy formatowanie tre?ci  | wysoki poziom
+&nbsp;        // InputStream - klasa abstrakcyjna z której dziedzicz? inne Input Streamy
+&nbsp;        // FileInputStream - klasa odczytuj?ca informacje z plików w postaci bajtów | niski poziom
+&nbsp;        // BufferedInputStream - klasa buforuj?ca odczyt bajtów | wysoki poiom
+&nbsp;        // ObjectinputStream - klasa, która mo?e odczytac obiekt Javovy | wysoki poziom
+&nbsp;        // OutputStream - klasa abstrakcyjna z której dziedzicz? inne Output Streamy
+&nbsp;        // FileOutputStream - klasa zapisujca pojedyncze bajtów | niski poziom
+&nbsp;        // BufferedoUTPUTStream - klasa GRUPUJ?CA OUTPUT STREAM, poprawia wydajno?? | wysoki poiom
+&nbsp;        // ObjectOutputStream - klasa, pozwalaj?ca na zapis do OutoStreama obiektów Java  | wysoki poziom
+&nbsp;        // PrintStream - klasa pozwalaj?ca na ?atwiejsze formatowanie tre?ci | wysoki poziom
+&nbsp;
+&nbsp;        // .flash() - wymusza zapisanei na dysku
+&nbsp;        // .skip() - pozwala pomin?? (rzadko u?ywana)
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(&quot;Charset.defaultCharset(): &quot; + Charset.defaultCharset());</b>
+&nbsp;
+<b class="nc">&nbsp;        String someSentence = &quot;asdasd ?ó??????ó&quot;;</b>
+<b class="nc">&nbsp;        byte[] bytes = someSentence.getBytes(StandardCharsets.UTF_8);</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(bytes));</b>
+<b class="nc">&nbsp;        System.out.println(someSentence);</b>
+&nbsp;
+<b class="nc">&nbsp;        String collectedString = new String(bytes, StandardCharsets.UTF_16LE);</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(someSentence.getBytes(StandardCharsets.UTF_16)));</b>
+<b class="nc">&nbsp;        String collectedString2 = new String(bytes, StandardCharsets.UTF_8);</b>
+<b class="nc">&nbsp;        byte[] bytes2 = someSentence.getBytes(StandardCharsets.UTF_8);</b>
+<b class="nc">&nbsp;        System.out.println(collectedString);</b>
+<b class="nc">&nbsp;        System.out.println(collectedString2);</b>
+&nbsp;
+<b class="nc">&nbsp;        Charset.availableCharsets().keySet().forEach(System.out::println);</b>
+&nbsp;
+&nbsp;
+&nbsp;//        try (ObjectInputStream objectInputStream = new ObjectInputStream(
+&nbsp;//                new BufferedInputStream(
+&nbsp;//                        new FileInputStream(&quot;someFile1.txt&quot;)
+&nbsp;//                )
+&nbsp;//        )) {
+&nbsp;//
+&nbsp;//        }
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

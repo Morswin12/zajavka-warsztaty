@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Samochod.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt</a> &gt; <span class="el_source">Samochod.java</span></div><h1>Samochod.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt;
+
+import java.math.BigDecimal;
+
+public class Samochod {
+    private final String color;
+    private final String car_vin;
+    private final String car_company;
+    private final String car_model;
+    private final String model_year;
+    private final BigDecimal price;
+
+
+<span class="nc" id="L14">    public Samochod(String color, String car_vin, String car_company, String car_model, String model_year, BigDecimal price) {</span>
+<span class="nc" id="L15">        this.color = color;</span>
+<span class="nc" id="L16">        this.car_vin = car_vin;</span>
+<span class="nc" id="L17">        this.car_company = car_company;</span>
+<span class="nc" id="L18">        this.car_model = car_model;</span>
+<span class="nc" id="L19">        this.model_year = model_year;</span>
+<span class="nc" id="L20">        this.price = price;</span>
+<span class="nc" id="L21">    }</span>
+
+    public String getColor() {
+<span class="nc" id="L24">        return color;</span>
+    }
+
+    public String getCar_vin() {
+<span class="nc" id="L28">        return car_vin;</span>
+    }
+
+    public String getCar_company() {
+<span class="nc" id="L32">        return car_company;</span>
+    }
+
+    public String getCar_model() {
+<span class="nc" id="L36">        return car_model;</span>
+    }
+
+    public String getModel_year() {
+<span class="nc" id="L40">        return model_year;</span>
+    }
+
+    public BigDecimal getPrice() {
+<span class="nc" id="L44">        return price;</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="nc" id="L49">        return &quot; &quot;  + car_company + &quot; model: &quot; + car_model + '\'' +</span>
+                &quot;, color='&quot; + color + '\'' +
+                &quot;, VIN='&quot; + car_vin + '\'' +
+                &quot;, rocznik='&quot; + model_year + '\'' +
+                &quot;, cena =&quot;  + price +
+                &quot; euro&quot;;
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

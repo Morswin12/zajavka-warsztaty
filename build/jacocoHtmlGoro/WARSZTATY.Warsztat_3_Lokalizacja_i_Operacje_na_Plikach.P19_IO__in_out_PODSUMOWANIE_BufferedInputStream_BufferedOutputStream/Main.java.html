@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream;
+
+import java.io.*;
+import java.time.Duration;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+import java.util.Arrays;
+
+<span class="nc" id="L9">public class Main {</span>
+    public static void main(String[] args) throws IOException {
+<span class="nc" id="L11">        File inputFile = new File(</span>
+                &quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream/&quot; +
+                        &quot;P18_IO__in_out__BufferedInputStream_BufferedOutputStream/toRepeatFile.txt&quot;
+        );
+<span class="nc" id="L16">        File outputFile = new File(</span>
+                &quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P19_IO__in_out_PODSUMOWANIE_BufferedInputStream_BufferedOutputStream/&quot; +
+                        &quot;P18_IO__in_out__BufferedInputStream_BufferedOutputStream/copiedFile.txt&quot;
+        );
+<span class="nc" id="L21">        double nano1 = LocalTime.now().getNano();</span>
+<span class="nc" id="L22">        LocalTime before = LocalTime.now();</span>
+
+<span class="nc" id="L24">        copyFileWithBuffered(inputFile, outputFile);</span>
+
+<span class="nc" id="L26">        LocalTime after = LocalTime.now();</span>
+<span class="nc" id="L27">        double nano2 = LocalTime.now().getNano();</span>
+
+<span class="nc" id="L29">        double i = (nano2 - nano1)/1000;</span>
+<span class="nc" id="L30">        System.out.println(&quot;Nanos: &quot; + i);</span>
+<span class="nc" id="L31">        System.out.println(&quot;Nanos: &quot; + Duration.between(before, after).get(ChronoUnit.NANOS)/1000000);</span>
+<span class="nc" id="L32">    }</span>
+
+    private static void copyFileWithBuffered(File inputFile, File outputFile) throws IOException {
+        try (
+<span class="nc" id="L36">                InputStream inputBuffered = new BufferedInputStream(new FileInputStream(inputFile));</span>
+<span class="nc" id="L37">                OutputStream outputBuffered = new BufferedOutputStream(new FileOutputStream(outputFile));</span>
+        ) {
+<span class="nc" id="L39">            byte[] buffer = new byte[4];</span>
+<span class="nc" id="L40">            int length = inputBuffered.read(buffer);</span>
+<span class="nc" id="L41">            System.out.printf(&quot;Reading file: [%s], chars: [%s] length: [%s] %n&quot;, Arrays.toString(buffer),</span>
+<span class="nc" id="L42">                    Arrays.toString(bufferToChar(buffer)), length);</span>
+
+<span class="nc bnc" id="L44" title="All 2 branches missed.">            while (length &gt; 0) {</span>
+
+<span class="nc" id="L46">                outputBuffered.write(buffer, 0, length);</span>
+<span class="nc" id="L47">                outputBuffered.flush();</span>
+//                System.out.printf(&quot;Writing file: [%s], chars: [%s] length: [%s] %n&quot;, Arrays.toString(buffer),
+//                        Arrays.toString(bufferToChar(buffer)), length);
+
+<span class="nc" id="L51">                length = inputBuffered.read(buffer);</span>
+//                System.out.printf(&quot;Reading file: [%s], chars: [%s] length: [%s] %n&quot;, Arrays.toString(buffer),
+//                        Arrays.toString(bufferToChar(buffer)), length);
+
+            }
+
+        }
+
+
+<span class="nc" id="L60">    }</span>
+
+    private static char[] bufferToChar(byte[] buffer) {
+<span class="nc" id="L63">        char[] bufferCopy = new char[buffer.length];</span>
+<span class="nc" id="L64">        char[] chars = new char[buffer.length];</span>
+<span class="nc bnc" id="L65" title="All 2 branches missed.">        for (int i = 0; i &lt; buffer.length; i++) {</span>
+<span class="nc bnc" id="L66" title="All 2 branches missed.">            if (10 == buffer[i]) {</span>
+<span class="nc" id="L67">                bufferCopy[i] = 32;</span>
+            }
+//            System.out.println(Arrays.toString(new byte[]{buffer[i]})+ &quot;   &quot; + Arrays.toString(new char[]{(char) buffer[i]}));
+<span class="nc" id="L70">            chars[i] = (char) bufferCopy[i];</span>
+        }
+<span class="nc" id="L72">        return chars;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

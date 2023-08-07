@@ -1,0 +1,140 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main3_Podejscie_funkcyjne_Streamy</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO</a>
+</div>
+
+<h1>Coverage Summary for Class: Main3_Podejscie_funkcyjne_Streamy (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main3_Podejscie_funkcyjne_Streamy</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/15)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.nio.file.Paths;
+&nbsp;import java.util.List;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;
+<b class="nc">&nbsp;public class Main3_Podejscie_funkcyjne_Streamy {</b>
+&nbsp;    public static void main(String[] args) throws IOException {
+<b class="nc">&nbsp;        Path pathIn = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot;);</b>
+&nbsp;
+&nbsp;        //
+<b class="nc">&nbsp;        List&lt;Path&gt; lines = Files.list(pathIn).collect(Collectors.toList());</b>
+<b class="nc">&nbsp;        lines.forEach(System.out::println);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;Path&gt; absolute = Files.list(pathIn)</b>
+&nbsp;//                .filter(Files::isRegularFile)
+<b class="nc">&nbsp;                .filter(Files::isDirectory)</b>
+<b class="nc">&nbsp;                .map(Path::toAbsolutePath)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;
+<b class="nc">&nbsp;        absolute.forEach(System.out::println);</b>
+&nbsp;
+&nbsp;
+&nbsp;        // listy z pliku
+<b class="nc">&nbsp;        Path pathIn2 = Paths.get(&quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P33_NIO_2_Klasy_Paths_and_Files_Porownanie_NIO_2_vs_IO/file.txt&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        List&lt;String&gt; stringList = Files.lines(pathIn2)</b>
+<b class="nc">&nbsp;                .map(l -&gt; l.toUpperCase())</b>
+<b class="nc">&nbsp;                .filter(l -&gt; l.contains(&quot;S&quot;))</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+<b class="nc">&nbsp;        stringList.forEach(System.out::println);</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

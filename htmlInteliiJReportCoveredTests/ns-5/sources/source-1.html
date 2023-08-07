@@ -1,0 +1,271 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.MOJ_NOTATNIK</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.MOJ_NOTATNIK)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/16)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Main$Cucumber</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Main$Soup</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Main$Tomato</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Main$VegeSoup</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">Main$Vegetable</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/12)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/21)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.MOJ_NOTATNIK;
+&nbsp;
+&nbsp;//import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services.Function;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;import java.util.function.Function;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;
+<b class="nc">&nbsp;    static class Vegetable {}</b>
+&nbsp;
+<b class="nc">&nbsp;    static class Tomato extends Vegetable {}</b>
+&nbsp;
+<b class="nc">&nbsp;    static class Cucumber extends Vegetable {}</b>
+&nbsp;
+<b class="nc">&nbsp;    static class Soup {}</b>
+&nbsp;
+<b class="nc">&nbsp;    static class VegeSoup extends Soup {}</b>
+&nbsp;
+&nbsp;    void metoda(Function&lt;? super Tomato, ? extends Soup&gt; f) {
+&nbsp;
+<b class="nc">&nbsp;    }</b>
+&nbsp;
+&nbsp;    void metoda5(Function&lt;? extends Vegetable, ? extends Soup&gt; f) {
+&nbsp;//        f.apply(new Cucumber());
+<b class="nc">&nbsp;    }</b>
+&nbsp;
+&nbsp;    void metoda2(Function&lt;Tomato, Soup&gt; f) {
+&nbsp;
+<b class="nc">&nbsp;    }</b>
+&nbsp;
+&nbsp;    void metoda3(List&lt;? extends Vegetable&gt; l) {
+&nbsp;
+<b class="nc">&nbsp;        l.stream().forEach(System.out::println);</b>
+&nbsp;//        l.add(new Cucumber());
+&nbsp;//        l.add
+&nbsp;    }
+&nbsp;
+&nbsp;    void metoda4(List&lt;? super Vegetable&gt; l) {
+<b class="nc">&nbsp;        l.add(new Tomato());</b>
+<b class="nc">&nbsp;        l.add(new Cucumber());</b>
+<b class="nc">&nbsp;        l.add(new Vegetable());</b>
+&nbsp;
+<b class="nc">&nbsp;        l.stream().forEach(System.out::println);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    void test() {
+<b class="nc">&nbsp;        Function&lt;Vegetable, VegeSoup&gt; f = (v) -&gt; null;</b>
+<b class="nc">&nbsp;        metoda(f);</b>
+&nbsp;//        metoda2(f);
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Function&lt;Tomato, VegeSoup&gt; f2 = (v) -&gt; new VegeSoup();</b>
+&nbsp;
+<b class="nc">&nbsp;        metoda5(f2);</b>
+&nbsp;
+<b class="nc">&nbsp;        metoda3(new ArrayList&lt;Cucumber&gt;());</b>
+&nbsp;
+<b class="nc">&nbsp;        metoda4(new ArrayList&lt;Object&gt;());</b>
+<b class="nc">&nbsp;        metoda4(new ArrayList&lt;Vegetable&gt;());</b>
+&nbsp;//        metoda4(new ArrayList&lt;Tomato&gt;());
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

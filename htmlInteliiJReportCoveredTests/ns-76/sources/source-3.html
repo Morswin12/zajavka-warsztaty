@@ -1,0 +1,370 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > DatabaseRunner</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project</a>
+</div>
+
+<h1>Coverage Summary for Class: DatabaseRunner (WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">DatabaseRunner</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/16)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/147)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project;
+&nbsp;
+&nbsp;import java.sql.*;
+&nbsp;import java.util.*;
+&nbsp;import java.util.function.Consumer;
+&nbsp;
+<b class="nc">&nbsp;public class DatabaseRunner {</b>
+&nbsp;    private static final String URL = &quot;jdbc:postgresql://localhost:5432/zajavka&quot;;
+&nbsp;    private static final String USERNAME = &quot;postgres&quot;;
+&nbsp;    private static final String PASSWORD = &quot;postgres&quot;;
+&nbsp;
+&nbsp;    private static final String SQL_INSERT = &quot;INSERT INTO TODOLIST (NAME, DESCRIPTION, DEADLINE, PRIORITY) VALUES (?, ?, ?, ?);&quot;;
+&nbsp;    private static final String SQL_UPDATE = &quot;UPDATE TODOLIST SET DESCRIPTION = ?, DEADLINE = ?, PRIORITY = ? WHERE NAME =?;&quot;;
+&nbsp;    private static final String SQL_READ_WHERE = &quot;SELECT * FROM TODOLIST WHERE NAME = ?;&quot;;
+&nbsp;    private static final String SQL_READ_ALL = &quot;SELECT * FROM TODOLIST ORDER BY ?1 ?2;&quot;;
+&nbsp;    private static final String SQL_READ_GROUPED = &quot;SELECT DATE(DEADLINE) AS DATE, ARRAY_AGG(NAME) AS TASK FROM TODOLIST GROUP BY DATE(DEADLINE) ORDER BY DATE DESC;&quot;;
+&nbsp;//    private static final String SQL_READ_GROUPED = &quot;SELECT DATE(DEADLINE) AS DATE, ARRAY_AGG(NAME) AS TASK FROM TODOLIST GROUP BY DATE(DEADLINE) ORDER BY DATE ASC;&quot;;
+&nbsp;    private static final String SQL_DELETE = &quot;DELETE FROM TODOLIST WHERE NAME = ?;&quot;;
+&nbsp;    private static final String SQL_DELETE_ALL = &quot;DELETE FROM TODOLIST;&quot;;
+&nbsp;    private static final String SQL_COMPLETED = &quot;UPDATE TODOLIST SET STATUS = ? WHERE NAME = ?&quot;;
+&nbsp;
+&nbsp;    private final Map&lt;Command.Type, Consumer&lt;Command&gt;&gt; EXECUTION_MAP;
+&nbsp;
+&nbsp;    {
+<b class="nc">&nbsp;        EXECUTION_MAP = Map.of(</b>
+&nbsp;                Command.Type.CREATE, this::runAdd,
+&nbsp;                Command.Type.UPDATE, this::runUpdate,
+&nbsp;                Command.Type.READ, this::runRead,
+&nbsp;                Command.Type.READ_ALL, this::runReadAll,
+&nbsp;                Command.Type.READ_GROUPED, this::runGrouped,
+&nbsp;                Command.Type.DELETE, this::runDelete,
+&nbsp;                Command.Type.DELETE_ALL, this::runDeleteAll,
+&nbsp;                Command.Type.COMPLETED, this::runComplete
+&nbsp;
+&nbsp;        );
+&nbsp;    }
+&nbsp;
+&nbsp;    void run(final Command command) {
+<b class="nc">&nbsp;        System.out.println(&quot;##### RUNNING COMMANDS #####&quot;);</b>
+<b class="nc">&nbsp;        Consumer&lt;Command&gt; commandConsumer = Optional.ofNullable(EXECUTION_MAP.get(command.getType()))</b>
+<b class="nc">&nbsp;                .orElseThrow(() -&gt; new IllegalArgumentException(</b>
+<b class="nc">&nbsp;                        String.format(&quot;Command: [%s] not supported %n&quot;, command.getType())));</b>
+&nbsp;
+<b class="nc">&nbsp;        commandConsumer.accept(command);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;##### FINISHED COMMANDS #####\n&quot;);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runAdd(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.CREATE.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_INSERT)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            preparedStatement.setString(1, command.getToDoItem().getName());</b>
+<b class="nc">&nbsp;            preparedStatement.setString(2, command.getToDoItem().getDescription());</b>
+<b class="nc">&nbsp;            preparedStatement.setTimestamp(3, Timestamp.valueOf(command.getToDoItem().getDeadline()));</b>
+<b class="nc">&nbsp;            preparedStatement.setInt(4, command.getToDoItem().getPriority());</b>
+&nbsp;
+<b class="nc">&nbsp;            int count = preparedStatement.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), count);</b>
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runUpdate(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.UPDATE.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_UPDATE)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            preparedStatement.setString(1, command.getToDoItem().getDescription());</b>
+<b class="nc">&nbsp;            preparedStatement.setTimestamp(2, Timestamp.valueOf(command.getToDoItem().getDeadline()));</b>
+<b class="nc">&nbsp;            preparedStatement.setInt(3, command.getToDoItem().getPriority());</b>
+<b class="nc">&nbsp;            preparedStatement.setString(4, command.getToDoItem().getName());</b>
+&nbsp;
+<b class="nc">&nbsp;            int count = preparedStatement.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), count);</b>
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runRead(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.READ.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_READ_WHERE)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            preparedStatement.setString(1, command.getToDoItem().getName());</b>
+&nbsp;
+<b class="nc">&nbsp;            try (ResultSet resultSet = preparedStatement.executeQuery();</b>
+&nbsp;            ) {
+<b class="nc">&nbsp;                List&lt;ToDoItem&gt; readItems = mapToToDoItem(resultSet);</b>
+<b class="nc">&nbsp;                print(readItems);</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), readItems.size());</b>
+<b class="nc">&nbsp;            }</b>
+&nbsp;
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runReadAll(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.READ_ALL.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_READ_ALL</b>
+<b class="nc">&nbsp;                        .replace(&quot;?1&quot;, command.getSortBy().name())</b>
+<b class="nc">&nbsp;                        .replace(&quot;?2&quot;, command.getSortDir().name()))</b>
+&nbsp;
+&nbsp;        ) {
+<b class="nc">&nbsp;            try (ResultSet resultSet = preparedStatement.executeQuery();</b>
+&nbsp;            ) {
+<b class="nc">&nbsp;                List&lt;ToDoItem&gt; readItems = mapToToDoItem(resultSet);</b>
+<b class="nc">&nbsp;                print(readItems);</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), readItems.size());</b>
+<b class="nc">&nbsp;            }</b>
+&nbsp;
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    private void runGrouped(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.READ_GROUPED.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_READ_GROUPED)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            try (ResultSet resultSet = preparedStatement.executeQuery();</b>
+&nbsp;            ) {
+<b class="nc">&nbsp;                var grouped = mapToGrouped(resultSet);</b>
+<b class="nc">&nbsp;                print(grouped);</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), grouped.size());</b>
+<b class="nc">&nbsp;            }</b>
+&nbsp;
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private Map&lt;String, String&gt; mapToGrouped(ResultSet resultSet) throws SQLException {
+<b class="nc">&nbsp;        Map&lt;String, String&gt; result = new LinkedHashMap&lt;&gt;();</b>
+<b class="nc">&nbsp;        while (resultSet.next()) {</b>
+<b class="nc">&nbsp;            result.put(resultSet.getString(&quot;DATE&quot;), resultSet.getString(&quot;TASK&quot;));</b>
+&nbsp;        }
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void print(List&lt;ToDoItem&gt; readItems) {
+<b class="nc">&nbsp;        System.out.println(&quot;PRINTING TODO LIST:&quot;);</b>
+<b class="nc">&nbsp;        String schema = &quot;%-25s%-25s%-25s%-25s%-25s%n&quot;;</b>
+<b class="nc">&nbsp;        System.out.printf(</b>
+&nbsp;                schema,
+&nbsp;                ToDoItem.Field.NAME,
+<b class="nc">&nbsp;                ToDoItem.Field.DESCRIPTION.name(),</b>
+<b class="nc">&nbsp;                ToDoItem.Field.DEADLINE.name(),</b>
+<b class="nc">&nbsp;                ToDoItem.Field.PRIORITY.name(),</b>
+<b class="nc">&nbsp;                ToDoItem.Field.STATUS.name()</b>
+&nbsp;        );
+<b class="nc">&nbsp;        readItems.forEach(entry -&gt; System.out.printf(</b>
+&nbsp;                schema,
+<b class="nc">&nbsp;                entry.getName(),</b>
+<b class="nc">&nbsp;                entry.getDescription(),</b>
+<b class="nc">&nbsp;                entry.getDeadline(),</b>
+<b class="nc">&nbsp;                entry.getPriority(),</b>
+<b class="nc">&nbsp;                entry.getStatus()));</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    private void print(Map&lt;String, String&gt; items) {
+<b class="nc">&nbsp;        System.out.println(&quot;READ GROUPED&quot;);</b>
+<b class="nc">&nbsp;        String schema = &quot;%-25s%-25s%n&quot;;</b>
+<b class="nc">&nbsp;        System.out.printf(</b>
+&nbsp;                schema,
+&nbsp;                &quot;DATE&quot;,
+&nbsp;                &quot;TASKS&quot;
+&nbsp;        );
+<b class="nc">&nbsp;        for (var entry : items.entrySet()) {</b>
+<b class="nc">&nbsp;            System.out.printf(schema,</b>
+<b class="nc">&nbsp;                    entry.getKey(),</b>
+<b class="nc">&nbsp;                    entry.getValue());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private List&lt;ToDoItem&gt; mapToToDoItem(ResultSet resultSet) throws SQLException {
+<b class="nc">&nbsp;        List&lt;ToDoItem&gt; result = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        while (resultSet.next()) {</b>
+<b class="nc">&nbsp;            ToDoItem toDoItem = new ToDoItem();</b>
+<b class="nc">&nbsp;            toDoItem.setName(resultSet.getString(ToDoItem.Field.NAME.name()));</b>
+<b class="nc">&nbsp;            toDoItem.setDescription(resultSet.getString(ToDoItem.Field.DESCRIPTION.name()));</b>
+<b class="nc">&nbsp;            toDoItem.setDeadline(resultSet.getTimestamp(ToDoItem.Field.DEADLINE.name()).toLocalDateTime());</b>
+<b class="nc">&nbsp;            toDoItem.setPriority(resultSet.getInt(ToDoItem.Field.PRIORITY.name()));</b>
+<b class="nc">&nbsp;            toDoItem.setStatus(ToDoItem.Status.valueOf(resultSet.getString(ToDoItem.Field.STATUS.name())));</b>
+<b class="nc">&nbsp;            result.add(toDoItem);</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runDelete(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.DELETE.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            preparedStatement.setString(1, command.getToDoItem().getName());</b>
+<b class="nc">&nbsp;            int count = preparedStatement.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), count);</b>
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void runDeleteAll(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.DELETE_ALL.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_ALL)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            int count = preparedStatement.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), count);</b>
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;    private void runComplete(final Command command) {
+<b class="nc">&nbsp;        if (!Command.Type.COMPLETED.equals(command.getType())) {</b>
+<b class="nc">&nbsp;            throw new IllegalArgumentException(command.getType().getName());</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);</b>
+<b class="nc">&nbsp;                PreparedStatement preparedStatement = connection.prepareStatement(SQL_COMPLETED)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            preparedStatement.setString(1, command.getToDoItem().getStatus().name());</b>
+<b class="nc">&nbsp;            preparedStatement.setString(2, command.getToDoItem().getName());</b>
+<b class="nc">&nbsp;            int count = preparedStatement.executeUpdate();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Run [%s] successfully, modified: [%s] rows %n&quot;, command.getType(), count);</b>
+<b class="nc">&nbsp;        } catch (SQLException e) {</b>
+<b class="nc">&nbsp;            System.err.printf(&quot;[%s] errorrrrrrrrrrr. Message: [%s] %n&quot;, command.getType(), e.getMessage());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

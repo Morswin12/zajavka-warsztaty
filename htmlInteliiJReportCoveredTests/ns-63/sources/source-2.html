@@ -1,0 +1,366 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/26)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/121)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P37_Projekt;
+&nbsp;
+&nbsp;import java.io.BufferedReader;
+&nbsp;import java.io.BufferedWriter;
+&nbsp;import java.io.IOException;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.math.RoundingMode;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.nio.file.Paths;
+&nbsp;import java.time.LocalDate;
+&nbsp;import java.util.*;
+&nbsp;import java.util.concurrent.atomic.AtomicInteger;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;import java.util.stream.Stream;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        Path path = Paths.get(&quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/625edfcaf77be5002444b113-client-car-purchase-spreadsheet.csv&quot;);</b>
+<b class="nc">&nbsp;        List&lt;String&gt; inputList = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        List&lt;Purchase&gt; purchases = new ArrayList&lt;&gt;();</b>
+&nbsp;
+&nbsp;        // stworzenie listy Stringów gdzie ka?da linia jest now? pozycj?
+<b class="nc">&nbsp;        readInputFileAndAddContentToLineList(path, inputList);</b>
+&nbsp;
+&nbsp;        // Stworzenie Listy Transakcji z listy Stringów danych wej?ciowych, gdzie ka?da pozycja jest now? transakcj?
+<b class="nc">&nbsp;        inputList.forEach(line -&gt; madePurchesListWithLineList(line, purchases));</b>
+&nbsp;
+&nbsp;        // ZAD 2 zapisz Transakcje do plikw sortujc po marce samochodu:
+&nbsp;//        recordToFileRaportDependingOnTheCompany(purchases);
+&nbsp;
+&nbsp;        // wydruk posortowanej listy nazwy Producenta i wielkoci pliku z transakcjami
+&nbsp;//        printFileNameAndFileSize();
+&nbsp;
+&nbsp;        // ZADANIE 3
+&nbsp;//        createNewFileWithRaport(purchases);
+&nbsp;
+<b class="nc">&nbsp;        String model = &quot;TL&quot;;</b>
+<b class="nc">&nbsp;        checkAmountOfSelledModel(purchases, model);</b>
+&nbsp;
+&nbsp;        // ZADANIE 4
+&nbsp;
+<b class="nc">&nbsp;        createNewFileWithRaportForExe4(purchases);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void createNewFileWithRaportForExe4(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        List&lt;String&gt; raport1 = madeRaportDailySellingCars_Exe_4a(purchases);</b>
+<b class="nc">&nbsp;        List&lt;String&gt; raport2 = madeRaportDailySellingCars_Exe_4b(purchases);</b>
+&nbsp;
+<b class="nc">&nbsp;        Path pathOnNewFilesZad4a = Paths.get(&quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar1.txt&quot;);</b>
+<b class="nc">&nbsp;        Path pathOnNewFilesZad4b = Paths.get(&quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_4_pliki/RaportOfDailySellingVar2.txt&quot;);</b>
+<b class="nc">&nbsp;        universalMethodToWriteDataToFileFromList(raport1, pathOnNewFilesZad4a);</b>
+<b class="nc">&nbsp;        universalMethodToWriteDataToFileFromList(raport2, pathOnNewFilesZad4b);</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    private static List&lt;String&gt; madeRaportDailySellingCars_Exe_4b(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        TreeMap&lt;LocalDate, BigDecimal&gt; map = purchases.stream().collect(Collectors.toMap(</b>
+&nbsp;                Purchase::getData_zakupu,
+<b class="nc">&nbsp;                value -&gt; BigDecimal.ONE,</b>
+&nbsp;                BigDecimal::add,
+&nbsp;                TreeMap::new
+&nbsp;        ));
+<b class="nc">&nbsp;        ArrayList&lt;Map.Entry&lt;LocalDate, BigDecimal&gt;&gt; entryArrayList = new ArrayList&lt;&gt;(map.entrySet());</b>
+<b class="nc">&nbsp;        entryArrayList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        return entryArrayList.stream()</b>
+<b class="nc">&nbsp;                .map(entry -&gt; &quot;W dniu: &quot; + entry.getKey() + &quot; sprzedano: &quot; + entry.getValue() + &quot; aut.&quot; )</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static List&lt;String&gt; madeRaportDailySellingCars_Exe_4a(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        TreeMap&lt;LocalDate, BigDecimal&gt; collect = purchases.stream().collect(Collectors.toMap(</b>
+&nbsp;                Purchase::getData_zakupu,
+<b class="nc">&nbsp;                value -&gt; BigDecimal.ONE,</b>
+&nbsp;                BigDecimal::add,
+&nbsp;                TreeMap::new
+&nbsp;        ));
+&nbsp;
+<b class="nc">&nbsp;        return collect.entrySet().stream()</b>
+<b class="nc">&nbsp;                .map(entry -&gt; &quot;W dniu: &quot; + entry.getKey() + &quot; sprzedano: &quot; + entry.getValue() + &quot; aut.&quot;)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    private static void createNewFileWithRaport(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        List&lt;String&gt; raportAboutAveragePriceDependentOnCarsModel = madeRaportAboutAveragePriceDependentOnCarsModel(purchases);</b>
+&nbsp;
+<b class="nc">&nbsp;        Path pathOnNewFilesZad3 = Paths.get(&quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_3_pliki/RaportOfAveragePrice.txt&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        universalMethodToWriteDataToFileFromList(raportAboutAveragePriceDependentOnCarsModel, pathOnNewFilesZad3);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static List&lt;String&gt; madeRaportAboutAveragePriceDependentOnCarsModel(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        TreeMap&lt;String, List&lt;BigDecimal&gt;&gt; stringListTreeMap = purchases.stream().collect(Collectors.toMap(</b>
+<b class="nc">&nbsp;                key -&gt; &quot;&quot; + key.getSamochod().getCar_company() + &quot; &quot; + key.getSamochod().getCar_model(),</b>
+<b class="nc">&nbsp;                value -&gt; List.of(value.getSamochod().getPrice(), BigDecimal.ONE),</b>
+<b class="nc">&nbsp;                (left, right) -&gt; List.of(left.get(0).add(right.get(0)), left.get(1).add(BigDecimal.ONE)),</b>
+&nbsp;                TreeMap::new
+&nbsp;        ));
+<b class="nc">&nbsp;        return stringListTreeMap.entrySet().stream()</b>
+<b class="nc">&nbsp;                .map(entry -&gt; &quot;Samochd: &quot; + entry.getKey() + &quot;, sprzedano: &quot; + entry.getValue().get(1)</b>
+<b class="nc">&nbsp;                        + &quot; szt., gdzie ?rednia cena to: &quot; + averagePriceOfModel(entry) + &quot; Euro.&quot;)</b>
+<b class="nc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static BigDecimal averagePriceOfModel(Map.Entry&lt;String, List&lt;BigDecimal&gt;&gt; entry) {
+<b class="nc">&nbsp;        return entry.getValue().get(0).divide(entry.getValue().get(1), 2, RoundingMode.HALF_UP);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    private static void printFileNameAndFileSize() {
+<b class="nc">&nbsp;        Path pathOnFiles = Paths.get(&quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki&quot;);</b>
+&nbsp;        try {
+<b class="nc">&nbsp;            Stream&lt;Path&gt; listOfFilesTxt = Files.list(pathOnFiles);</b>
+<b class="nc">&nbsp;            TreeMap&lt;Long, List&lt;String&gt;&gt; collect = listOfFilesTxt.collect(Collectors.toMap(</b>
+&nbsp;                    key1 -&gt; {
+<b class="nc">&nbsp;                        long size = 0;</b>
+&nbsp;                        try {
+<b class="nc">&nbsp;                            size = Files.size(key1.toAbsolutePath());</b>
+<b class="nc">&nbsp;                        } catch (IOException e) {</b>
+<b class="nc">&nbsp;                            e.printStackTrace();</b>
+<b class="nc">&nbsp;                        }</b>
+<b class="nc">&nbsp;                        return size;</b>
+&nbsp;                    },
+<b class="nc">&nbsp;                    value -&gt; new ArrayList&lt;&gt;(List.of(value.getFileName().toString().replaceAll(&quot;\\.txt&quot;, &quot;&quot;))),</b>
+&nbsp;                    Main::margeObjectToValueInMapIfDuplicate,
+&nbsp;                    TreeMap::new
+&nbsp;            ));
+&nbsp;
+<b class="nc">&nbsp;            for (Map.Entry&lt;Long, List&lt;String&gt;&gt; longListEntry : collect.entrySet()) {</b>
+<b class="nc">&nbsp;                System.out.println(longListEntry.getKey() + &quot;,  &quot; + longListEntry.getValue());</b>
+<b class="nc">&nbsp;            }</b>
+<b class="nc">&nbsp;            System.out.println(collect);</b>
+&nbsp;
+<b class="nc">&nbsp;        } catch (IOException e) {</b>
+<b class="nc">&nbsp;            e.printStackTrace();</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void recordToFileRaportDependingOnTheCompany(List&lt;Purchase&gt; purchases) {
+<b class="nc">&nbsp;        LinkedHashSet&lt;String&gt; collect = purchases.stream()</b>
+<b class="nc">&nbsp;                .map(p -&gt; p.getSamochod().getCar_company())</b>
+<b class="nc">&nbsp;                .collect(Collectors.toCollection(LinkedHashSet::new));</b>
+&nbsp;//        System.out.println(collect);
+&nbsp;
+<b class="nc">&nbsp;        Map&lt;String, List&lt;Purchase&gt;&gt; mapKeyCompanyValuePurchase = purchases.stream()</b>
+<b class="nc">&nbsp;                .collect(Collectors.toMap(</b>
+<b class="nc">&nbsp;                        key -&gt; key.getSamochod().getCar_company(),</b>
+<b class="nc">&nbsp;                        value -&gt; new ArrayList&lt;&gt;(List.of(value)),</b>
+&nbsp;                        Main::margeObjectToValueInMapIfDuplicate,
+&nbsp;                        HashMap::new));
+&nbsp;
+&nbsp;//        System.out.println(mapKeyCompanyValuePurchase);
+<b class="nc">&nbsp;        for (Map.Entry&lt;String, List&lt;Purchase&gt;&gt; stringListEntry : mapKeyCompanyValuePurchase.entrySet()) {</b>
+&nbsp;
+<b class="nc">&nbsp;            String pathString = &quot;src/main/java/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/P37_Projekt/Zad_2_pliki/&quot;</b>
+<b class="nc">&nbsp;                    + stringListEntry.getKey() + &quot;.txt&quot;;</b>
+<b class="nc">&nbsp;            Path path = Paths.get(pathString);</b>
+&nbsp;
+<b class="nc">&nbsp;            try (BufferedWriter writer = Files.newBufferedWriter(path)) {</b>
+<b class="nc">&nbsp;                writer.write(stringListEntry.getValue().toString());</b>
+<b class="nc">&nbsp;            } catch (IOException e) {</b>
+<b class="nc">&nbsp;                e.printStackTrace();</b>
+<b class="nc">&nbsp;            }</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    private static &lt;R&gt; List&lt;R&gt; margeObjectToValueInMapIfDuplicate(List&lt;R&gt; left, List&lt;R&gt; right) {
+<b class="nc">&nbsp;        List&lt;R&gt; result = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        result.addAll(left);</b>
+<b class="nc">&nbsp;        result.addAll(right);</b>
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void readInputFileAndAddContentToLineList(Path path, List&lt;String&gt; inputList) {
+<b class="nc">&nbsp;        try (BufferedReader reader = Files.newBufferedReader(path)) {</b>
+<b class="nc">&nbsp;            String line = reader.readLine();</b>
+<b class="nc">&nbsp;            while ((line = reader.readLine()) != null) {</b>
+<b class="nc">&nbsp;                inputList.add(line);</b>
+&nbsp;            }
+<b class="nc">&nbsp;        } catch (IOException e) {</b>
+<b class="nc">&nbsp;            e.printStackTrace();</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void madePurchesListWithLineList(String line, List&lt;Purchase&gt; purchaseList) {
+<b class="nc">&nbsp;        String[] split = line.split(&quot;,&quot;);</b>
+<b class="nc">&nbsp;        int length = split.length;</b>
+<b class="nc">&nbsp;        String[] splitDate = split[13].split(&quot;-&quot;);</b>
+<b class="nc">&nbsp;        List&lt;Integer&gt; collect = Arrays.stream(splitDate).map(Integer::parseInt)</b>
+<b class="nc">&nbsp;                .toList();</b>
+<b class="nc">&nbsp;        String[] priceArray = split[10].split(&quot;€&quot;);</b>
+<b class="nc">&nbsp;        String[] price = priceArray[1].split(&quot;\&quot;&quot;);</b>
+&nbsp;//        System.out.println(&quot;length: &quot; + length);
+&nbsp;//        System.out.println(&quot;id: &quot; + split[0] + &quot;, first_name: &quot; + split[1] + &quot;, second_name: &quot; + split[2] + &quot;, email: &quot;
+&nbsp;//                + split[3] + &quot;, ip: &quot; + split[4] + &quot;, color: &quot; + split[5] + &quot;, VIN: &quot; + split[6]
+&nbsp;//                + &quot;, Company: &quot; + split[7] + &quot;, model: &quot; + split[8] + &quot;, year: &quot; + split[9] + &quot;, price: &quot; + split[10]
+&nbsp;//                + &quot;, country: &quot; + split[11] + &quot;, city: &quot; + split[12] + &quot;, date: &quot; + split[13]);
+<b class="nc">&nbsp;        purchaseList.add(</b>
+&nbsp;                new Purchase(
+&nbsp;                        new BigDecimal(split[0]),
+&nbsp;                        new Osoba(
+&nbsp;                                split[1],
+&nbsp;                                split[2],
+&nbsp;                                split[3],
+&nbsp;                                split[4]),
+&nbsp;                        new Samochod(
+&nbsp;                                split[5],
+&nbsp;                                split[6],
+&nbsp;                                split[7],
+&nbsp;                                split[8],
+&nbsp;                                split[9],
+&nbsp;                                new BigDecimal(price[0])),
+&nbsp;                        new Lokalizacja(
+&nbsp;                                split[11],
+&nbsp;                                split[12]),
+<b class="nc">&nbsp;                        LocalDate.of(</b>
+<b class="nc">&nbsp;                                collect.get(0),</b>
+<b class="nc">&nbsp;                                collect.get(1),</b>
+<b class="nc">&nbsp;                                collect.get(2))</b>
+&nbsp;                )
+&nbsp;        );
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void checkAmountOfSelledModel(List&lt;Purchase&gt; purchases, String model) {
+<b class="nc">&nbsp;        AtomicInteger atomicInteger = new AtomicInteger(0);</b>
+<b class="nc">&nbsp;        List&lt;BigDecimal&gt; decimalList = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        decimalList.add(BigDecimal.ZERO);</b>
+<b class="nc">&nbsp;        purchases.stream()</b>
+<b class="nc">&nbsp;                .filter(purchase -&gt; model.equals(purchase.getSamochod().getCar_model()))</b>
+<b class="nc">&nbsp;                .forEach(purchase -&gt; {</b>
+<b class="nc">&nbsp;                            atomicInteger.addAndGet(1);</b>
+<b class="nc">&nbsp;                            decimalList.add(purchase.getSamochod().getPrice());</b>
+<b class="nc">&nbsp;                            System.out.println(purchase.getSamochod().getPrice());</b>
+&nbsp;                        }
+&nbsp;                );
+<b class="nc">&nbsp;        BigDecimal decimal = BigDecimal.ZERO;</b>
+<b class="nc">&nbsp;        for (BigDecimal bigDecimal : decimalList) {</b>
+<b class="nc">&nbsp;            decimal = decimal.add(bigDecimal);</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        BigDecimal averagePrice = decimal.divide(BigDecimal.valueOf(atomicInteger.longValue()), 2, RoundingMode.HALF_UP);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Model: \&quot;&quot; + model + &quot;\&quot; zosta? sprzedany: &quot; + atomicInteger + &quot; razy, ?rednia cena to: &quot; + averagePrice);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void universalMethodToWriteDataToFileFromList(List&lt;String&gt; raportAboutAveragePriceDependentOnCarsModel, Path pathOnNewFilesZad4a) {
+<b class="nc">&nbsp;        try (BufferedWriter writer = Files.newBufferedWriter(pathOnNewFilesZad4a)) {</b>
+<b class="nc">&nbsp;            int id = 1;</b>
+<b class="nc">&nbsp;            for (String s : raportAboutAveragePriceDependentOnCarsModel) {</b>
+<b class="nc">&nbsp;                writer.write(id + &quot;. &quot; + s);</b>
+<b class="nc">&nbsp;                writer.newLine();</b>
+<b class="nc">&nbsp;                id++;</b>
+<b class="nc">&nbsp;            }</b>
+<b class="nc">&nbsp;        } catch (IOException e) {</b>
+<b class="nc">&nbsp;            e.printStackTrace();</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

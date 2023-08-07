@@ -1,0 +1,139 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main2_Zad6</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a>
+</div>
+
+<h1>Coverage Summary for Class: Main2_Zad6 (WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main2_Zad6</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+&nbsp;
+&nbsp;import java.util.*;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;
+&nbsp;import static WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.DataFactory.produce;
+&nbsp;
+<b class="nc">&nbsp;public class Main2_Zad6 {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        List&lt;Purchase&gt; produceShopingList = produce();</b>
+&nbsp;
+&nbsp;        //      Zad 6
+&nbsp;
+<b class="nc">&nbsp;        TreeMap&lt;String, TreeSet&lt;String&gt;&gt; clientYearMapUnique = produceShopingList.stream()</b>
+<b class="nc">&nbsp;                .collect(Collectors.toMap(</b>
+<b class="nc">&nbsp;                        key -&gt; &quot;19&quot; + key.getBuyer().getPesel().toString().substring(0, 2),</b>
+<b class="nc">&nbsp;                        value -&gt; new TreeSet&lt;&gt;(List.of(value.getProduct().getId())),</b>
+&nbsp;                        Main2_Zad6::margeToList,
+&nbsp;                        TreeMap::new
+&nbsp;                ));
+&nbsp;
+<b class="nc">&nbsp;        for (Map.Entry&lt;String, TreeSet&lt;String&gt;&gt; stringHashSetEntry : clientYearMapUnique.entrySet()) {</b>
+<b class="nc">&nbsp;            System.out.println(stringHashSetEntry.getKey() + &quot; : &quot; + stringHashSetEntry.getValue());</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(&quot;\n   Exe 6 \nLiczba klientów którzy kupowali w \&quot;EUR\&quot; to: &quot; + clientYearMapUnique + &quot;  &quot;);</b>
+&nbsp;
+&nbsp;    }
+&nbsp;    private static TreeSet&lt;String&gt; margeToList(TreeSet&lt;String&gt; l, TreeSet&lt;String&gt; r) {
+<b class="nc">&nbsp;        TreeSet&lt;String&gt; result = new TreeSet&lt;&gt;();</b>
+<b class="nc">&nbsp;        result.addAll(l);</b>
+<b class="nc">&nbsp;        result.addAll(r);</b>
+<b class="nc">&nbsp;        return result;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

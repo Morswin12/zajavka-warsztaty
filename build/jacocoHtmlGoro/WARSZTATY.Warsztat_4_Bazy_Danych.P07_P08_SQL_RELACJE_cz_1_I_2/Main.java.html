@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_4_Bazy_Danych.P07_P08_SQL_RELACJE_cz_1_I_2</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_4_Bazy_Danych.P07_P08_SQL_RELACJE_cz_1_I_2;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static void main(String[] args) {
+/*
+CREATE TABLE ADDRESSES(
+	ID INT NOT NULL,
+	CITY VARCHAR(32) NOT NULL,
+	STREET VARCHAR(64) NOT NULL,
+	PRIMARY KEY(ID)
+);
+
+CREATE TABLE EMPLOYEES(
+	ID INT NOT NULL,
+	NAME VARCHAR(20) NOT NULL,
+	SURNAME VARCHAR(20) NOT NULL,
+	AGE INT,
+	SALARY NUMERIC(7,2) NOT NULL,
+	dATE_OF_EMPLOYMENT DATE,
+	ADDRESS_ID INT NOT NULL,
+	PRIMARY KEY(ID),
+	CONSTRAINT fk_address
+		FOREIGN key (ADDRESS_ID)
+			REFERENCES ADDRESSES(ID)
+);
+
+INSERT INTO ADDRESSES (ID, CITY, STREET)
+		VALUES (1, 'Warszawa', 'MarszaÅ‚kowska');
+INSERT INTO ADDRESSES (ID, CITY, STREET)
+		VALUES (2, 'GdaÅ„sk', 'Oliwska');
+INSERT INTO ADDRESSES (ID, CITY, STREET)
+		VALUES (3, 'Szczecin', 'BiaÅ‚a');
+
+&quot;id&quot;	&quot;city&quot;	&quot;street&quot;
+1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+3	&quot;Szczecin&quot;	&quot;BiaÅ‚a&quot;
+
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+-- 		VALUES (1, 'Aleksander', 'WypÅ‚ata', 33, 8791.12, '2018-03-12', 1);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (2, 'Roman', 'Pomidorowy', 43, 7612.12, '2012-01-01', 2);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (3, 'Anna', 'RosÃ³Å‚', 38, 5728.90, '2015-07-18', 1);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (4, 'Urszula', 'Nowak', 39, 3817.21, '2014-12-15', 2);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (5, 'Stefan', 'RomaÅ„ski', 38, 9201.23, '2020-07-14', 1);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (6, 'Jolanta', 'Kowalska', 27, 6521.22, '2012-06-04', 3);
+
+&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;
+1	&quot;Aleksander&quot;	&quot;WypÅ‚ata&quot;	33	8791.12	&quot;2018-03-12&quot;	1
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2
+3	&quot;Anna&quot;	&quot;RosÃ³Å‚&quot;	38	5728.90	&quot;2015-07-18&quot;	1
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1
+6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;	3
+
+
+SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+	FROM EMPLOYEES AS EMP
+		INNER JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+
+ &quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+1	&quot;Aleksander&quot;	&quot;WypÅ‚ata&quot;	33	8791.12	&quot;2018-03-12&quot;	1	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+3	&quot;Anna&quot;	&quot;RosÃ³Å‚&quot;	38	5728.90	&quot;2015-07-18&quot;	1	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;	3	3	&quot;Szczecin&quot;	&quot;BiaÅ‚a&quot;
+
+
+ALTER TABLE EMPLOYEES
+	ALTER COLUMN ADDRESS_ID DROP NOT NULL;
+
+DELETE FROM EMPLOYEES;
+DELETE FROM ADDRESSES;
+
+
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (1, 'Warszawa', 'MarszaÅ‚kowska');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (2, 'GdaÅ„sk', 'Oliwska');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (3, 'Szczecin', 'BiaÅ‚a');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (4, 'Szczecin', 'Niebieska');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (5, 'Zakopane', 'Wodna');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (6, 'Zakopane', 'Piaskowa');
+INSERT INTO ADDRESSES (ID, CITY, STREET) VALUES (7, 'KrakÃ³w', 'Wawelska');
+
+
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+		VALUES (1, 'Aleksander', 'WypÅ‚ata', 33, 8791.12, '2018-03-12');
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (2, 'Roman', 'Pomidorowy', 43, 7612.12, '2012-01-01', 2);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+		VALUES (3, 'Anna', 'RosÃ³Å‚', 38, 5728.90, '2015-07-18');
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (4, 'Urszula', 'Nowak', 39, 3817.21, '2014-12-15', 2);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID)
+		VALUES (5, 'Stefan', 'RomaÅ„ski', 38, 9201.23, '2020-07-14', 1);
+INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+		VALUES (6, 'Jolanta', 'Kowalska', 27, 6521.22, '2012-06-04');
+
+
+SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+	FROM EMPLOYEES AS EMP
+		INNER JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID; -bez sÅ‚owa inner teÅ¼ dziaÅ‚a
+
+&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+
+
+SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, ADR.ID, CITY, STREET
+	FROM EMPLOYEES AS EMP
+		FULL JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+
+&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;id-2&quot;	&quot;city&quot;	&quot;street&quot;
+1	&quot;Aleksander&quot;	&quot;WypÅ‚ata&quot;	33	8791.12	&quot;2018-03-12&quot;
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+3	&quot;Anna&quot;	&quot;RosÃ³Å‚&quot;	38	5728.90	&quot;2015-07-18&quot;
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;
+							5	&quot;Zakopane&quot;	&quot;Wodna&quot;
+							6	&quot;Zakopane&quot;	&quot;Piaskowa&quot;
+							4	&quot;Szczecin&quot;	&quot;Niebieska&quot;
+
+
+SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, CITY, STREET
+	FROM EMPLOYEES AS EMP
+		LEFT JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+
+&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;city&quot;	&quot;street&quot;
+1	&quot;Aleksander&quot;	&quot;WypÅ‚ata&quot;	33	8791.12	&quot;2018-03-12&quot;
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+3	&quot;Anna&quot;	&quot;RosÃ³Å‚&quot;	38	5728.90	&quot;2015-07-18&quot;
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.22	&quot;2012-06-04&quot;
+
+
+
+SELECT EMP.ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT, ADDRESS_ID, CITY, STREET
+	FROM EMPLOYEES AS EMP
+		RIGHT JOIN ADDRESSES AS ADR ON EMP.ADDRESS_ID = ADR.ID;
+
+&quot;id&quot;	&quot;name&quot;	&quot;surname&quot;	&quot;age&quot;	&quot;salary&quot;	&quot;date_of_employment&quot;	&quot;address_id&quot;	&quot;city&quot;	&quot;street&quot;
+2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.12	&quot;2012-01-01&quot;	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.21	&quot;2014-12-15&quot;	2	&quot;GdaÅ„sk&quot;	&quot;Oliwska&quot;
+5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;	1	&quot;Warszawa&quot;	&quot;MarszaÅ‚kowska&quot;
+							&quot;Zakopane&quot;	&quot;Wodna&quot;
+							&quot;Zakopane&quot;	&quot;Piaskowa&quot;
+							&quot;Szczecin&quot;	&quot;Niebieska&quot;
+							&quot;Szczecin&quot;	&quot;BiaÅ‚a&quot;
+							&quot;KrakÃ³w&quot;	&quot;Wawelska&quot;
+
+ */
+<span class="nc" id="L159">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

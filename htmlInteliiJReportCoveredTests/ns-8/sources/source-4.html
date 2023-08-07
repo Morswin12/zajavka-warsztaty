@@ -1,0 +1,128 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Zad4</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki</a>
+</div>
+
+<h1>Coverage Summary for Class: Zad4 (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Zad4</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P12_Zadania_Generyki;
+&nbsp;
+&nbsp;import java.util.Arrays;
+&nbsp;
+<b class="nc">&nbsp;public class Zad4 {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        String[] strings = {&quot;asdf&quot;, &quot;qwer&quot;, &quot;zxcv&quot;, &quot;mnbv&quot;, &quot;lkjh&quot;, &quot;poiu&quot;};</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(strings));</b>
+<b class="nc">&nbsp;        method(strings, 2, 4);</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(strings));</b>
+&nbsp;
+<b class="nc">&nbsp;        Integer[] integers = {2, 4, 6, 9, 19, 234, 4,};</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(integers));</b>
+<b class="nc">&nbsp;        method(integers, 1, 5);</b>
+<b class="nc">&nbsp;        System.out.println(Arrays.toString(integers));</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    public static &lt;T&gt; void method(T[] array, int position1, int position2) {
+<b class="nc">&nbsp;        T element1 = array[position1];</b>
+<b class="nc">&nbsp;        T element2 = array[position2];</b>
+<b class="nc">&nbsp;        array[position1] = element2;</b>
+<b class="nc">&nbsp;        array[position2] = element1;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

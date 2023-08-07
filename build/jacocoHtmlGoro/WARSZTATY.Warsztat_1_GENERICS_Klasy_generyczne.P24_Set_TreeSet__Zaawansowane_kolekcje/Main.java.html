@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P24_Set_TreeSet__Zaawansowane_kolekcje;
+
+import java.util.*;
+
+<span class="nc" id="L5">public class Main {</span>
+
+    /*
+    TreeSet implementuje interfejs NavigableSet. Ten interfejs zapewnia kilka interesujÄ…cych metod. Ich sygnatury
+        metod sÄ… nastÄ™pujÄ…ce:
+    E lower(E e) - Zwraca najwiekszy element, ktÃ³ry jest &lt; e, lub null jeÅ›li taki element nie istnieje
+    E floor(E e) - Zwraca najwiekszy element, ktÃ³ry jest &lt;= e, lub null jeÅ›li taki element nie istnieje
+    E celing(E e) - Zwraca najmniejszy element, ktÃ³ry jest &gt;= e, lub null jeÅ›li taki element nie istnieje
+    E higher(E e) - Zwraca najmniejszy element, ktÃ³ry jest &gt; e, lub null jeÅ›li taki element nie istnieje
+
+     */
+
+    public static void main(String[] args) {
+<span class="nc" id="L18">        List&lt;Integer&gt; integerList = Arrays.asList(1, 4, 1, 84, 5, 1, 2, 5, 3, 2, 5, 2, 1, 5, 2, 1, 52, 33, 45, 2, 535);</span>
+
+<span class="nc" id="L20">        Set&lt;Integer&gt; treeSet = new TreeSet&lt;&gt;(integerList);</span>
+<span class="nc" id="L21">        Set&lt;Integer&gt; hashSet = new HashSet&lt;&gt;(integerList);</span>
+
+<span class="nc" id="L23">        System.out.println(&quot;Tree&quot; + treeSet);</span>
+<span class="nc" id="L24">        System.out.println(&quot;Hash&quot; + hashSet);</span>
+
+<span class="nc" id="L26">        Set&lt;Dog&gt; dogSet1 = new TreeSet&lt;&gt;( );</span>
+<span class="nc" id="L27">        Set&lt;Dog&gt; dogSet = new TreeSet&lt;&gt;((o1, o2) -&gt; o1.name.compareTo(o2.name));</span>
+
+<span class="nc" id="L29">        dogSet.add(new Dog(&quot;Romek1&quot;));</span>
+<span class="nc" id="L30">        dogSet.add(new Dog(&quot;Romek2&quot;));</span>
+<span class="nc" id="L31">        dogSet.add(new Dog(&quot;Romek3&quot;));</span>
+<span class="nc" id="L32">        dogSet.add(new Dog(&quot;Romek4&quot;));</span>
+<span class="nc" id="L33">        dogSet.add(new Dog(&quot;Romek5&quot;));</span>
+<span class="nc" id="L34">        dogSet.add(new Dog(&quot;Romek6&quot;));</span>
+<span class="nc" id="L35">        dogSet.add(new Dog(&quot;Romek6&quot;));</span>
+<span class="nc" id="L36">        dogSet.add(new Dog(&quot;Romek6&quot;));</span>
+
+<span class="nc" id="L38">        System.out.println(dogSet );</span>
+
+<span class="nc" id="L40">        NavigableSet&lt;Integer&gt; navigableSet = new TreeSet&lt;&gt;();</span>
+<span class="nc bnc" id="L41" title="All 2 branches missed.">        for (int i = 0; i &lt;= 100; i++) {</span>
+<span class="nc" id="L42">            navigableSet.add(i);</span>
+        }
+
+<span class="nc" id="L45">        System.out.println(navigableSet.lower(50));</span>
+<span class="nc" id="L46">        System.out.println(navigableSet.lower(0));</span>
+<span class="nc" id="L47">        System.out.println(navigableSet.floor(50));</span>
+<span class="nc" id="L48">        System.out.println(navigableSet.ceiling(90));</span>
+<span class="nc" id="L49">        System.out.println(navigableSet.higher(90));</span>
+<span class="nc" id="L50">        System.out.println(navigableSet.ceiling(100));</span>
+<span class="nc" id="L51">        System.out.println(navigableSet.higher(100));</span>
+
+<span class="nc" id="L53">    }</span>
+
+    private static class Dog implements Comparable&lt;Dog&gt; {
+        private String name;
+
+<span class="nc" id="L58">        public Dog(String name) {</span>
+<span class="nc" id="L59">            this.name = name;</span>
+<span class="nc" id="L60">        }</span>
+
+        @Override
+        public String toString() {
+<span class="nc" id="L64">            return &quot;D: &quot; + name;</span>
+        }
+
+        @Override
+        public boolean equals(Object o) {
+<span class="nc bnc" id="L69" title="All 2 branches missed.">            if (this == o) return true;</span>
+<span class="nc bnc" id="L70" title="All 4 branches missed.">            if (o == null || getClass() != o.getClass()) return false;</span>
+<span class="nc" id="L71">            Dog dog = (Dog) o;</span>
+<span class="nc" id="L72">            return name.equals(dog.name);</span>
+        }
+
+        @Override
+        public int hashCode() {
+<span class="nc" id="L77">            return Objects.hash(name);</span>
+//       return 1;
+        }
+
+        @Override
+        public int compareTo(Dog o) {
+<span class="nc" id="L83">            return o.name.compareTo(this.name);</span>
+        }
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

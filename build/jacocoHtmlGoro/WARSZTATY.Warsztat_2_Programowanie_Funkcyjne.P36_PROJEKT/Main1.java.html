@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main1.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a> &gt; <span class="el_source">Main1.java</span></div><h1>Main1.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
+
+import static WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT.DataFactory.produce;
+
+<span class="nc" id="L11">public class Main1 {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L13">        List&lt;Purchase&gt; purchaseList = produce();</span>
+
+        // Zadanie 1
+
+<span class="nc" id="L17">        long counter = purchaseList.stream()</span>
+<span class="nc" id="L18">                .map(a -&gt; a.getBuyer().getId())</span>
+<span class="nc" id="L19">                .distinct()</span>
+<span class="nc" id="L20">                .count();</span>
+
+<span class="nc" id="L22">        System.out.println(&quot;   Exe 1 \n We have: : &quot; + counter + &quot; buyers.\n&quot;);</span>
+
+
+        // Zadanie 2a
+
+<span class="nc" id="L27">        AtomicInteger counter2 = new AtomicInteger(0);</span>
+<span class="nc" id="L28">        HashMap&lt;Purchase.Payment, HashSet&lt;String&gt;&gt; paymentAndBuyersMap = purchaseList.stream()</span>
+<span class="nc" id="L29">                .collect(Collectors.toMap(</span>
+                        Purchase::getPayment,
+<span class="nc" id="L31">                        value -&gt; new HashSet&lt;&gt;(List.of(value.getBuyer().getId())),</span>
+                        Main1::marge,
+                        HashMap::new
+                ));
+
+<span class="nc" id="L36">        HashSet&lt;String&gt; clientsPayingBLIK = paymentAndBuyersMap.get(Purchase.Payment.BLIK);</span>
+<span class="nc" id="L37">        clientsPayingBLIK.stream()</span>
+<span class="nc" id="L38">                .peek(client -&gt; counter2.incrementAndGet()).collect(Collectors.toList());</span>
+
+<span class="nc" id="L40">        System.out.println(&quot;Exe 2 \n &quot; + counter2 + &quot; clients used BLIK \n&quot;);</span>
+
+        // Zadanie 2a
+
+<span class="nc" id="L44">        long count2 = purchaseList.stream()</span>
+<span class="nc" id="L45">                .filter(p -&gt; Purchase.Payment.BLIK.equals(p.getPayment()))</span>
+<span class="nc" id="L46">                .map(Purchase::getBuyer)</span>
+<span class="nc" id="L47">                .distinct()</span>
+<span class="nc" id="L48">                .count();</span>
+
+<span class="nc" id="L50">        System.out.println(&quot;Exe 2 \n &quot; + count2 + &quot; clients used BLIK \n&quot;);</span>
+
+
+        // Zadanie 3
+
+<span class="nc" id="L55">        long count = paymentAndBuyersMap.get(Purchase.Payment.CREDIT_CARD).stream()</span>
+<span class="nc" id="L56">                .map(client -&gt; Integer.parseInt(client.substring(7)))</span>
+<span class="nc" id="L57">                .count()    ;</span>
+
+<span class="nc" id="L59">        System.out.println(&quot;Exe 3 \n &quot; + count + &quot; clients used Credit Card \n&quot;);</span>
+
+
+        // Zadanie 4
+
+<span class="nc" id="L64">        var currencyTransactionEUR = purchaseList.stream()</span>
+<span class="nc" id="L65">                .map(p -&gt; p.getProduct().getPrice().getCurrency())</span>
+<span class="nc" id="L66">                .map(Enum::toString)</span>
+<span class="nc" id="L67">                .filter(&quot;EUR&quot;::equals)</span>
+<span class="nc" id="L68">                .count();</span>
+
+<span class="nc" id="L70">        System.out.println(&quot;Exe 4 \n &quot; + currencyTransactionEUR + &quot; products was buying in EURO \n&quot;);</span>
+
+
+        // Zadanie 5a
+
+<span class="nc" id="L75">        HashMap&lt;Money.Currency, HashSet&lt;String&gt;&gt; currencyTransactionUniqueInEUR = purchaseList.stream()</span>
+<span class="nc" id="L76">                .collect(Collectors.toMap(</span>
+<span class="nc" id="L77">                        key -&gt; key.getProduct().getPrice().getCurrency(),</span>
+<span class="nc" id="L78">                        value -&gt; new HashSet&lt;&gt;(List.of(value.getProduct().getCategory().toString())),</span>
+                        Main1::marge,
+                        HashMap::new));
+
+<span class="nc" id="L82">        long count1 = currencyTransactionUniqueInEUR.get(Money.Currency.EUR).size();</span>
+
+<span class="nc" id="L84">        System.out.println(&quot;Exe 5 \n &quot; + count1 + &quot; unical products was buying in EURO \n&quot;);</span>
+
+        // Zadanie 5b
+
+<span class="nc" id="L88">        long count3 = purchaseList.stream()</span>
+<span class="nc" id="L89">                .filter(p -&gt; Money.Currency.EUR.equals(p.getProduct().getPrice().getCurrency()))</span>
+<span class="nc" id="L90">                .map(p -&gt; p.getProduct().getCategory())</span>
+<span class="nc" id="L91">                .distinct()</span>
+<span class="nc" id="L92">                .count();</span>
+
+<span class="nc" id="L94">        System.out.println(&quot;Exe 5 \n &quot; + count3 + &quot; unical products was buying in EURO \n&quot;);</span>
+<span class="nc" id="L95">    }</span>
+
+    private static HashSet&lt;String&gt; marge(HashSet&lt;String&gt; l, HashSet&lt;String&gt; r) {
+<span class="nc" id="L98">        HashSet&lt;String&gt; clientList = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L99">        clientList.addAll(l);</span>
+<span class="nc" id="L100">        clientList.addAll(r);</span>
+<span class="nc" id="L101">        return clientList;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

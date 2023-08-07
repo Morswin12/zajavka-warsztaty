@@ -1,0 +1,148 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Zadanie1</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad1</a>
+</div>
+
+<h1>Coverage Summary for Class: Zadanie1 (WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Zadanie1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/21)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_1_GENERICS_Klasy_generyczne.P36_Zadania_Zaawansowane_kolekcje.Zad1;
+&nbsp;
+&nbsp;import java.util.Comparator;
+&nbsp;import java.util.HashSet;
+&nbsp;import java.util.Set;
+&nbsp;import java.util.TreeSet;
+&nbsp;
+&nbsp;/*
+&nbsp;Wyobra? sobie, ?e idziesz do muzeum motoryzacji i wypisujesz sobie samochody, które chcesz tam
+&nbsp;zobaczy?. Wypisujesz informacje takie jak: marka, model oraz rocznik. Idziesz tam z inn? osob? i ona te?
+&nbsp;wypisuje swoje. Przedstaw to co napisali?cie w postaci 2 list zawieraj?cych obiekty klasy Car. Klasa Car
+&nbsp;ma posiada? pola brand, model oraz year. Nast?pnie sklej ze sob? te 2 listy, tak aby wyeliminowa?
+&nbsp;powtarzaj?ce si? samochody, które dodali?cie i przedstaw zawarto?? na ekranie posortowan? najpierw
+&nbsp;po roku rosn?co, potem po marce rosn?co oraz po modelu rosn?co. Za?ó?my, ?e taka by?aby kolejno??
+&nbsp;ogl?dania eksponatów w muzeum.
+&nbsp; */
+<b class="nc">&nbsp;public class Zadanie1 {</b>
+&nbsp;    public static void main(String[] args) {
+<b class="nc">&nbsp;        Set&lt;Car&gt; cars1 = new HashSet&lt;&gt;();</b>
+<b class="nc">&nbsp;        Set&lt;Car&gt; cars2 = new HashSet&lt;&gt;();</b>
+<b class="nc">&nbsp;        cars1.add(new Car(&quot;Peugeot&quot;, &quot;307SW&quot;, 2007));</b>
+<b class="nc">&nbsp;        cars1.add(new Car(&quot;Peugeot&quot;, &quot;308SW&quot;, 2009));</b>
+<b class="nc">&nbsp;        cars1.add(new Car(&quot;Peugeot&quot;, &quot;207SW&quot;, 2001));</b>
+<b class="nc">&nbsp;        cars1.add(new Car(&quot;BMW&quot;, &quot;3&quot;, 2002));</b>
+<b class="nc">&nbsp;        cars1.add(new Car(&quot;Peugeot&quot;, &quot;307SW&quot;, 2005));</b>
+&nbsp;
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Peugeot&quot;, &quot;307SW&quot;, 2007));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Peugeot&quot;, &quot;308SW&quot;, 2009));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Peugeot&quot;, &quot;207SW&quot;, 2002));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Peugeot&quot;, &quot;307&quot;, 2002));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Skoda&quot;, &quot;207SW&quot;, 2002));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;BMW&quot;, &quot;4&quot;, 2002));</b>
+<b class="nc">&nbsp;        cars2.add(new Car(&quot;Peugeot&quot;, &quot;307SW&quot;, 2014));</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        Set&lt;Car&gt; carsList = new TreeSet&lt;&gt;();</b>
+<b class="nc">&nbsp;        carsList.addAll(cars1);</b>
+<b class="nc">&nbsp;        carsList.addAll(cars2);</b>
+&nbsp;
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(cars1);</b>
+<b class="nc">&nbsp;        System.out.println(cars2);</b>
+<b class="nc">&nbsp;        System.out.println(carsList);</b>
+&nbsp;     }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

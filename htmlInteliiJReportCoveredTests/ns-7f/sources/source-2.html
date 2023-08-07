@@ -1,0 +1,178 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > AmountsCalculationServiceImpl</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services</a>
+</div>
+
+<h1>Coverage Summary for Class: AmountsCalculationServiceImpl (WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">AmountsCalculationServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/9)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">AmountsCalculationServiceImpl$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/10)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services;
+&nbsp;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.InputData;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Overpayment;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Rate;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.RateAmounts;
+&nbsp;import lombok.RequiredArgsConstructor;
+&nbsp;
+<b class="nc">&nbsp;@RequiredArgsConstructor</b>
+&nbsp;public class AmountsCalculationServiceImpl implements AmountsCalculationService {
+&nbsp;
+&nbsp;    private final ConstantAmountsCalculationService constantAmountsCalculationService;
+&nbsp;
+&nbsp;    private final DecreasingAmountsCalculationService decreasingAmountsCalculationService;
+&nbsp;
+&nbsp;//    public AmountsCalculationServiceImpl(
+&nbsp;//        final ConstantAmountsCalculationService constantAmountsCalculationService,
+&nbsp;//        final DecreasingAmountsCalculationService decreasingAmountsCalculationService
+&nbsp;//    ) {
+&nbsp;//        this.constantAmountsCalculationService = constantAmountsCalculationService;
+&nbsp;//        this.decreasingAmountsCalculationService = decreasingAmountsCalculationService;
+&nbsp;//    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment) {
+<b class="nc">&nbsp;        switch (inputData.getRateType()) {</b>
+&nbsp;            case CONSTANT:
+<b class="nc">&nbsp;                return constantAmountsCalculationService.calculate(inputData, overpayment);</b>
+&nbsp;            case DECREASING:
+<b class="nc">&nbsp;                return decreasingAmountsCalculationService.calculate(inputData, overpayment);</b>
+&nbsp;            default:
+<b class="nc">&nbsp;                throw new MortgageException(&quot;Case not handled&quot;);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousRate) {
+<b class="nc">&nbsp;        switch (inputData.getRateType()) {</b>
+&nbsp;            case CONSTANT:
+<b class="nc">&nbsp;                return constantAmountsCalculationService.calculate(inputData, overpayment, previousRate);</b>
+&nbsp;            case DECREASING:
+<b class="nc">&nbsp;                return decreasingAmountsCalculationService.calculate(inputData, overpayment, previousRate);</b>
+&nbsp;            default:
+<b class="nc">&nbsp;                throw new MortgageException(&quot;Case not handled&quot;);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

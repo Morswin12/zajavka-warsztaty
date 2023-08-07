@@ -1,0 +1,188 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Main</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P18_IO__in_out__BufferedInputStream_BufferedOutputStream</a>
+</div>
+
+<h1>Coverage Summary for Class: Main (WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P18_IO__in_out__BufferedInputStream_BufferedOutputStream)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/43)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P18_IO__in_out__BufferedInputStream_BufferedOutputStream;
+&nbsp;
+&nbsp;import java.io.*;
+&nbsp;import java.util.Arrays;
+&nbsp;
+<b class="nc">&nbsp;public class Main {</b>
+&nbsp;    public static void main(String[] args) throws IOException {
+&nbsp;
+<b class="nc">&nbsp;        File inputFile = new File(&quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +</b>
+&nbsp;                &quot;P18_IO__in_out__BufferedInputStream_BufferedOutputStream/24.jpg&quot;);
+&nbsp;
+<b class="nc">&nbsp;        File outputFile = new File(&quot;./src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +</b>
+&nbsp;                &quot;P18_IO__in_out__BufferedInputStream_BufferedOutputStream/24Copy.jpg&quot;);
+&nbsp;
+&nbsp;//        justCopyNoBuffer(inputFile, outputFile);
+<b class="nc">&nbsp;        justCopyWithBuffer(inputFile, outputFile);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void justCopyWithBuffer(File inputFile, File outputFile) throws IOException {
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                InputStream input = new BufferedInputStream(new FileInputStream(inputFile));</b>
+<b class="nc">&nbsp;                OutputStream output = new BufferedOutputStream(new FileOutputStream(outputFile))</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            byte[] buffer = new byte[1024];</b>
+<b class="nc">&nbsp;            int length = input.read(buffer);</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Start buffered reading file: [%s]  %n&quot;, inputFile);</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Reading buffered values: [%s], chars: [%s], length: [%s] %n&quot;,</b>
+<b class="nc">&nbsp;                    byteArrToString(buffer), toCharString(buffer), length</b>
+&nbsp;            );
+&nbsp;
+<b class="nc">&nbsp;            while (length &gt; 0) {</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Writing buffered values: [%s], chars: [%s] %n&quot;,</b>
+<b class="nc">&nbsp;                        byteArrToString(buffer), toCharString(buffer)</b>
+&nbsp;                        );
+&nbsp;
+<b class="nc">&nbsp;                output.write(buffer, 0, length);</b>
+<b class="nc">&nbsp;                output.flush();  // zmuszamy jave do natycmiastowego zapisy sczytanych danych do pliku</b>
+&nbsp;
+<b class="nc">&nbsp;                length = input.read(buffer);</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Reading buffered values: [%s], chars: [%s], length: [%s] %n&quot;,</b>
+<b class="nc">&nbsp;                        byteArrToString(buffer), toCharString(buffer), length</b>
+&nbsp;                );
+&nbsp;            }
+<b class="nc">&nbsp;        } catch (FileNotFoundException e) {</b>
+<b class="nc">&nbsp;            throw new RuntimeException(e);</b>
+<b class="nc">&nbsp;        } catch (IOException e) {</b>
+<b class="nc">&nbsp;            throw new RuntimeException(e);</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    static String toCharString(byte[] input) {
+<b class="nc">&nbsp;        char[] charArray = new char[input.length];</b>
+<b class="nc">&nbsp;        for (int i = 0; i &lt; input.length; i++) {</b>
+<b class="nc">&nbsp;            charArray[i] = (char) input[i];</b>
+&nbsp;        }
+<b class="nc">&nbsp;        return replaceNewLine(Arrays.toString(charArray));</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    static String byteArrToString(byte[] input) {
+<b class="nc">&nbsp;        return replaceNewLine(Arrays.toString(input));</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static String replaceNewLine(String input) {
+<b class="nc">&nbsp;        return input.replace(&quot;\n&quot;, &quot;\\n&quot;).replace(&quot;\r&quot;, &quot;\\r&quot;);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static void justCopyNoBuffer(File inputFile, File outputFile) throws IOException {
+<b class="nc">&nbsp;        try (</b>
+<b class="nc">&nbsp;                InputStream input = new FileInputStream(inputFile);</b>
+<b class="nc">&nbsp;                OutputStream output = new FileOutputStream(outputFile)</b>
+&nbsp;        ) {
+<b class="nc">&nbsp;            int value = input.read();</b>
+<b class="nc">&nbsp;            System.out.printf(&quot;Read value: [%s], char: [%s] %n&quot;, value, (char) value);</b>
+&nbsp;
+<b class="nc">&nbsp;            while (value != -1) {</b>
+<b class="nc">&nbsp;                output.write(value);</b>
+<b class="nc">&nbsp;                output.write(32);</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Write value: [%s], char: [%s] %n&quot;, value, (char) value);</b>
+<b class="nc">&nbsp;                value = input.read();</b>
+<b class="nc">&nbsp;                System.out.printf(&quot;Read value: [%s], char: [%s] %n&quot;, value, (char) value);</b>
+&nbsp;            }
+<b class="nc">&nbsp;        }</b>
+&nbsp;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Warsztat.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow</a> &gt; <span class="el_source">Warsztat.java</span></div><h1>Warsztat.java</h1><pre class="source lang-java linenums">package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
+
+public class Warsztat {
+    private String name;
+    private int numer;
+    private int iloscPostow;
+
+    private CzasTrwania czasTrwania_FilmowKarola;
+
+    private CzasTrwania czasTrwaniaPodsumowan;
+    private CzasTrwania czasTrwania_RozwiazanZadan;
+<span class="nc" id="L12">    private CzasTrwania sumarycznyCzas = new CzasTrwania(0);</span>
+    private Progress procentPostepu;
+
+    public Warsztat(String name,
+                    int numer,
+                    int iloscPostow,
+                    CzasTrwania czasTrwania_FilmowKarola,
+                    CzasTrwania czasTrwaniaPodsumowan,
+                    CzasTrwania czasTrwania_RozwiazanZadan,
+<span class="nc" id="L21">                    Progress procentPostepu) {</span>
+<span class="nc" id="L22">        this.name = name;</span>
+<span class="nc" id="L23">        this.numer = numer;</span>
+<span class="nc" id="L24">        this.iloscPostow = iloscPostow;</span>
+<span class="nc" id="L25">        this.czasTrwania_FilmowKarola = czasTrwania_FilmowKarola;</span>
+<span class="nc" id="L26">        this.czasTrwaniaPodsumowan = czasTrwaniaPodsumowan;</span>
+<span class="nc" id="L27">        this.czasTrwania_RozwiazanZadan = czasTrwania_RozwiazanZadan;</span>
+<span class="nc" id="L28">        this.procentPostepu = procentPostepu;</span>
+<span class="nc" id="L29">        this.sumarycznyCzas = sumarycznyCzas</span>
+<span class="nc" id="L30">                .add(czasTrwania_FilmowKarola)</span>
+//                .add(czasTrwaniaPodsumowan)
+//                .add(czasTrwania_RozwiazanZadan)
+        ;
+<span class="nc" id="L34">    }</span>
+
+    public String getName() {
+<span class="nc" id="L37">        return name;</span>
+    }
+
+    public int getNumer() {
+<span class="nc" id="L41">        return numer;</span>
+    }
+
+    public int getIloscPostow() {
+<span class="nc" id="L45">        return iloscPostow;</span>
+    }
+
+    public CzasTrwania getCzasTrwania_FilmowKarola() {
+<span class="nc" id="L49">        return czasTrwania_FilmowKarola;</span>
+    }
+
+    public CzasTrwania getCzasTrwaniaPodsumowan() {
+<span class="nc" id="L53">        return czasTrwaniaPodsumowan;</span>
+    }
+
+    public CzasTrwania getCzasTrwania_RozwiazanZadan() {
+<span class="nc" id="L57">        return czasTrwania_RozwiazanZadan;</span>
+    }
+
+    public CzasTrwania getSumarycznyCzas() {
+<span class="nc" id="L61">        return sumarycznyCzas;</span>
+    }
+
+    public Progress getProcentPostepu() {
+<span class="nc" id="L65">        return procentPostepu;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

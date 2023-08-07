@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Wood</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume</a>
+</div>
+
+<h1>Coverage Summary for Class: Wood (WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Wood</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.MOJE_PROGRAMY.Drewno_calculate_Volume;
+&nbsp;
+&nbsp;public class Wood {
+&nbsp;    private final Integer diameter;
+&nbsp;    private final Double longSize;
+&nbsp;    private final Integer amount;
+&nbsp;    private final Double objetosc;
+&nbsp;
+<b class="nc">&nbsp;    public Wood(Integer diameter, Double longSize, Integer amount) {</b>
+<b class="nc">&nbsp;        this.diameter = diameter;</b>
+<b class="nc">&nbsp;        this.longSize = longSize;</b>
+<b class="nc">&nbsp;        this.amount = amount;</b>
+<b class="nc">&nbsp;        this.objetosc = calculateObjetosc(diameter, longSize, amount);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private Double calculateObjetosc(Integer diameter, Double longSize, Integer amount) {
+<b class="nc">&nbsp;        Double radius = (double) (diameter / 2);</b>
+<b class="nc">&nbsp;        Double radiusCm = radius/100;</b>
+&nbsp;
+<b class="nc">&nbsp;        return Math.PI * radiusCm * radiusCm * amount*longSize;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Integer getDiameter() {
+<b class="nc">&nbsp;        return diameter;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Double getLongSize() {
+<b class="nc">&nbsp;        return longSize;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Integer getAmount() {
+<b class="nc">&nbsp;        return amount;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Double getObjetosc() {
+<b class="nc">&nbsp;        return objetosc;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public String toString() {
+<b class="nc">&nbsp;        return &quot;K?oda {&quot; +</b>
+&nbsp;                &quot;o ?rednicy = &quot; + diameter +
+&nbsp;                &quot;, i d?ugo?ci = &quot; + longSize +
+&nbsp;                &quot;, w ilo?ci: =&quot; + amount +
+&nbsp;                &#39;}&#39;;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

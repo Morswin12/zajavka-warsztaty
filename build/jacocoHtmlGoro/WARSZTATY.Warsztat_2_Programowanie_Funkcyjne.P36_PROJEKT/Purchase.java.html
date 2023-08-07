@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Purchase.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT</a> &gt; <span class="el_source">Purchase.java</span></div><h1>Purchase.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P36_PROJEKT;
+
+import java.time.LocalDate;
+
+public class Purchase {
+    private final Client buyer;
+    private final Product product;
+    private final long quantity;
+    private final Delivery delivery;
+    private final Payment payment;
+    private final LocalDate when;
+    private final Status status;
+    // konstruktory, gettery itp
+
+<span class="nc" id="L15">    public Purchase(Client buyer, Product product, long quantity, Delivery delivery, Payment payment, LocalDate when) {</span>
+<span class="nc" id="L16">        this.buyer = buyer;</span>
+<span class="nc" id="L17">        this.product = product;</span>
+<span class="nc" id="L18">        this.quantity = quantity;</span>
+<span class="nc" id="L19">        this.delivery = delivery;</span>
+<span class="nc" id="L20">        this.payment = payment;</span>
+<span class="nc" id="L21">        this.when = when;</span>
+<span class="nc" id="L22">        this.status = Status.PAID;</span>
+<span class="nc" id="L23">    }</span>
+
+<span class="nc" id="L25">    public Purchase(Purchase purchase, Status status) {</span>
+<span class="nc" id="L26">        this.buyer = purchase.buyer;</span>
+<span class="nc" id="L27">        this.product = purchase.product;</span>
+<span class="nc" id="L28">        this.quantity = purchase.quantity;</span>
+<span class="nc" id="L29">        this.delivery = purchase.delivery;</span>
+<span class="nc" id="L30">        this.payment = purchase.payment;</span>
+<span class="nc" id="L31">        this.when = purchase.when;</span>
+<span class="nc" id="L32">        this.status = status;</span>
+<span class="nc" id="L33">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L37">        return &quot;Purchase{&quot; +</span>
+                &quot;buyer=&quot; + buyer +
+                &quot;, product=&quot; + product +
+                &quot;, quantity=&quot; + quantity +
+                &quot;, delivery=&quot; + delivery +
+                &quot;, payment=&quot; + payment +
+                &quot;, when=&quot; + when +
+                &quot;, status=&quot; + status +
+                '}';
+    }
+
+    public Client getBuyer() {
+<span class="nc" id="L49">        return buyer;</span>
+    }
+
+    public Product getProduct() {
+<span class="nc" id="L53">        return product;</span>
+    }
+
+    public long getQuantity() {
+<span class="nc" id="L57">        return quantity;</span>
+    }
+
+    public Delivery getDelivery() {
+<span class="nc" id="L61">        return delivery;</span>
+    }
+
+    public Payment getPayment() {
+<span class="nc" id="L65">        return payment;</span>
+    }
+
+    public LocalDate getWhen() {
+<span class="nc" id="L69">        return when;</span>
+    }
+
+    public Status getStatus() {
+<span class="nc" id="L73">        return status;</span>
+    }
+
+<span class="nc" id="L76">    public enum Delivery {</span>
+<span class="nc" id="L77">        IN_POST,</span>
+<span class="nc" id="L78">        UPS,</span>
+<span class="nc" id="L79">        DHL</span>
+    }
+
+<span class="nc" id="L82">    public enum Payment {</span>
+<span class="nc" id="L83">        CASH,</span>
+<span class="nc" id="L84">        BLIK,</span>
+<span class="nc" id="L85">        CREDIT_CARD</span>
+    }
+
+<span class="nc" id="L88">    public enum Status {</span>
+<span class="nc" id="L89">        PAID,</span>
+<span class="nc" id="L90">        SENT,</span>
+<span class="nc" id="L91">        DONE</span>
+    }
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

@@ -1,0 +1,225 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > ResidualCalculationServiceImpl</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services</a>
+</div>
+
+<h1>Coverage Summary for Class: ResidualCalculationServiceImpl (WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ResidualCalculationServiceImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/32)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">ResidualCalculationServiceImpl$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/33)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.services;
+&nbsp;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.InputData;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.MortgageResidual;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.Rate;
+&nbsp;import WARSZTATY.Warsztat_6_LOMBOCK.P7_PROJEKT.mortgage.model.RateAmounts;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;import java.math.RoundingMode;
+&nbsp;
+<b class="nc">&nbsp;public class ResidualCalculationServiceImpl implements ResidualCalculationService {</b>
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public MortgageResidual calculate(RateAmounts rateAmounts, InputData inputData) {
+<b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(inputData.getAmount())) {</b>
+<b class="nc">&nbsp;            return new MortgageResidual(BigDecimal.ZERO, BigDecimal.ZERO);</b>
+&nbsp;        } else {
+<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(inputData.getAmount(), rateAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, inputData.getMonthsDuration(), rateAmounts);</b>
+<b class="nc">&nbsp;            return new MortgageResidual(residualAmount, residualDuration);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public MortgageResidual calculate(RateAmounts rateAmounts, final InputData inputData, Rate previousRate) {
+<b class="nc">&nbsp;        BigDecimal previousResidualAmount = previousRate.getMortgageResidual().getResidualAmount();</b>
+<b class="nc">&nbsp;        BigDecimal previousResidualDuration = previousRate.getMortgageResidual().getResidualDuration();</b>
+&nbsp;
+<b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(previousResidualAmount)) {</b>
+<b class="nc">&nbsp;            return new MortgageResidual(BigDecimal.ZERO, BigDecimal.ZERO);</b>
+&nbsp;        } else {
+<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(previousResidualAmount, rateAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, previousResidualDuration, rateAmounts);</b>
+<b class="nc">&nbsp;            return new MortgageResidual(residualAmount, residualDuration);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    private BigDecimal calculateResidualDuration(
+&nbsp;        InputData inputData,
+&nbsp;        BigDecimal residualAmount,
+&nbsp;        BigDecimal previousResidualDuration,
+&nbsp;        RateAmounts rateAmounts
+&nbsp;    ) {
+&nbsp;        // jak wyst?pi nadp?ata to zaczynaj? si? schody,
+&nbsp;        // trzeba przeliczy? kredyt w zale?no?ci od tego, czy podczas nadp?aty zmniejszamy czas trwania, czy wysoko?? raty
+<b class="nc">&nbsp;        if (rateAmounts.getOverpayment().getAmount().compareTo(BigDecimal.ZERO) &gt; 0) {</b>
+<b class="nc">&nbsp;            switch (inputData.getRateType()) {</b>
+&nbsp;                case CONSTANT:
+<b class="nc">&nbsp;                    return calculateConstantResidualDuration(inputData, residualAmount, rateAmounts);</b>
+&nbsp;                case DECREASING:
+<b class="nc">&nbsp;                    return calculateDecreasingResidualDuration(residualAmount, rateAmounts);</b>
+&nbsp;                default:
+<b class="nc">&nbsp;                    throw new MortgageException(&quot;Case not handled&quot;);</b>
+&nbsp;            }
+&nbsp;        } else {
+&nbsp;            // w ka?dym normalnym przypadku z miesi?ca na miesi?c ilo?? pozosta?ych miesi?cy jest zmniejszna o 1
+<b class="nc">&nbsp;            return previousResidualDuration.subtract(BigDecimal.ONE);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    private BigDecimal calculateDecreasingResidualDuration(BigDecimal residualAmount, RateAmounts rateAmounts) {
+<b class="nc">&nbsp;        return residualAmount.divide(rateAmounts.getCapitalAmount(), 0, RoundingMode.CEILING);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @SuppressWarnings(&quot;UnnecessaryLocalVariable&quot;)
+&nbsp;    // tutaj mamy zaszyt? logik? z tego, co wspomnia?em w trakcie nagra?,
+&nbsp;    // czyli jak oszacowa? ilo?? miesi?cy, jaka nam pozosta?a do sp?aty przy nadp?acie, ratach sta?ych i zmniejszeniu czasu trwania.
+&nbsp;    // Wyja?nienie stosowanych wzorów zosta?o dostarczone w pliku z rozwi?zaniem
+&nbsp;    private BigDecimal calculateConstantResidualDuration(InputData inputData, BigDecimal residualAmount, RateAmounts rateAmounts) {
+&nbsp;        // log_y(x) = log(x) / log (y)
+<b class="nc">&nbsp;        BigDecimal q = AmountsCalculationService.calculateQ(inputData.getInterestPercent());</b>
+&nbsp;
+&nbsp;        // licznik z naszego logarytmu z licznika wzoru ko?cowego
+<b class="nc">&nbsp;        BigDecimal xNumerator = rateAmounts.getRateAmount();</b>
+&nbsp;        // Mianownik z naszego logarytmu z licznika wzoru ko?cowego. b/m to równie dobrze q-1
+<b class="nc">&nbsp;        BigDecimal xDenominator = rateAmounts.getRateAmount().subtract(residualAmount.multiply(q.subtract(BigDecimal.ONE)));</b>
+&nbsp;
+<b class="nc">&nbsp;        BigDecimal x = xNumerator.divide(xDenominator, 10, RoundingMode.HALF_UP);</b>
+<b class="nc">&nbsp;        BigDecimal y = q;</b>
+&nbsp;
+&nbsp;        // logarytm z licznika
+<b class="nc">&nbsp;        BigDecimal logX = BigDecimal.valueOf(Math.log(x.doubleValue()));</b>
+&nbsp;        // logarytm z mianownika
+<b class="nc">&nbsp;        BigDecimal logY = BigDecimal.valueOf(Math.log(y.doubleValue()));</b>
+&nbsp;
+<b class="nc">&nbsp;        return logX.divide(logY, 0, RoundingMode.CEILING);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private BigDecimal calculateResidualAmount(final BigDecimal residualAmount, final RateAmounts rateAmounts) {
+<b class="nc">&nbsp;        return residualAmount</b>
+<b class="nc">&nbsp;            .subtract(rateAmounts.getCapitalAmount())</b>
+<b class="nc">&nbsp;            .subtract(rateAmounts.getOverpayment().getAmount())</b>
+<b class="nc">&nbsp;            .max(BigDecimal.ZERO);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-07 14:26</div>
+</div>
+</body>
+</html>

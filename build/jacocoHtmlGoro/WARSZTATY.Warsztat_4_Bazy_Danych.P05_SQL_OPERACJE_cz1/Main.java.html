@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_4_Bazy_Danych.P05_SQL_OPERACJE_cz1;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static void main(String[] args) {
+        // SELECT * FROM EMPLOYEES -&gt; pobieranie naszej tabeli
+         /*
+         dodawanie danych do tabeli:
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (1, 'Aleksander', 'KwaÅ›niewski', 63, 8973.23, '2019-04-16');
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (2, 'Roman', 'Pomidorowy', 43, 7612.23, '2012-01-01');
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (3, 'Anna', 'RosÃ³Å‚', 38, 5728.23, '2015-07-18');
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (4, 'Urszula', 'Nowak', 39, 3817.23, '2014-12-15');
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (5, 'Stefan', 'RomaÅ„ski', 38, 9201.23, '2020-07-14');
+         INSERT INTO EMPLOYEES (ID, NAME, SURNAME, AGE, SALARY, DATE_OF_EMPLOYMENT)
+         VALUES (6, 'Jolanta', 'Kowalska', 27, 6521.23, '2012-06-04');
+
+        SELECT * FROM EMPLOYEES - * oznacza wszystkie kolumny, zamiast gwiazdki moemy wpisaÄ‡ ktÃ³re kolumny nas interesujÄ… :
+        SELECT ID, NAME, AGE FROM EMPLOYEES - TU POKAÅ»E TYLK O KOLUMNY WYPISANE
+
+        1	&quot;Aleksander&quot;	&quot;KwaÅ›niewski&quot;	63	8973.23	&quot;2019-04-16&quot;
+        2	&quot;Roman&quot;	&quot;Pomidorowy&quot;	43	7612.23	&quot;2012-01-01&quot;
+        3	&quot;Anna&quot;	&quot;RosÃ³Å‚&quot;	38	5728.23	&quot;2015-07-18&quot;
+        4	&quot;Urszula&quot;	&quot;Nowak&quot;	39	3817.23	&quot;2014-12-15&quot;
+        5	&quot;Stefan&quot;	&quot;RomaÅ„ski&quot;	38	9201.23	&quot;2020-07-14&quot;
+        6	&quot;Jolanta&quot;	&quot;Kowalska&quot;	27	6521.23	&quot;2012-06-04&quot;
+        7	&quot;Aleksander&quot;	&quot;KwaÅ›niewski&quot;	63	8973.23	&quot;2019-04-16&quot;
+        8	&quot;Aleksander&quot;	&quot;KwaÅ›niewski&quot;	63	23893.32	&quot;2019-04-16&quot;
+          */
+
+        /*usuwanie np wiersza o id wiÄ™kszym od 6
+        DELETE FROM EMPLOYEES WHERE ID &gt; 6;
+         */
+
+        /* wypisz kolumny id oraz name i zmieÅ„ ich nazwÄ™ na goro_id, oraz super_name, ale tylko do odczytu, oryginalna tabela jest bez zmian
+SELECT
+	ID AS GORO_ID,
+	NAME AS SUPER_NAME
+FROM EMPLOYEES
+         */
+
+        /* wyciÄ…ga tylko pracownikÃ³w o imieniu &quot;Roman&quot;:
+ELECT *
+FROM EMPLOYEES
+WHERE name = 'Roman';
+         */
+
+        /* moÅ¼emy Å‚Ä…czyÄ‡ zapytania przy pomocy &quot;AND&quot; lub &quot;OR&quot;
+SELECT *
+FROM EMPLOYEES
+WHERE age = 38 AND name = 'Stefan';
+
+SELECT *
+FROM EMPLOYEES
+WHERE age = 39 OR name = 'Stefan';
+
+         */
+/*
+SELECT
+	NAME,
+	AGE,
+	AGE % 10 AS AGE_MOD,
+	age / 10 as age_dziesiatki,
+	AGE * 7 as age_dog,
+	age + 18 - 3 as age_coÅ›,
+	AGE &gt; 38 as agee,
+	name != 'Roman' as no_Roman_name,
+	name &lt;&gt; 'Anna' as no_Anna_name,
+	name = 'Urszula' as Urszula_name
+FROM EMPLOYEES
+
+&quot;name&quot;	        &quot;age&quot;	&quot;age_mod&quot;	&quot;age_dziesiatki&quot;	&quot;age_dog&quot;	&quot;age_coÅ›&quot;	&quot;agee&quot;	&quot;no_roman_name&quot;	&quot;no_anna_name&quot;	&quot;urszula_name&quot;
+&quot;Aleksander&quot;	63	        3	        6	            441         	78	    true	    true        	true        	false
+&quot;Roman&quot;	        43	        3	        4	            301         	58	    true	    false	        true	        false
+&quot;Anna&quot;	        38	        8	        3	            266	            53	    false	    true	        false       	false
+&quot;Urszula&quot;	    39	        9	        3           	273	            54	    true	    true        	true        	true
+&quot;Stefan&quot;	    38	        8	        3	            266	            53	    false	    true	        true	        false
+&quot;Jolanta&quot;	    27	        7	        2	            189	            42  	false	    true        	true	        false
+ */
+
+/*
+SELECT *
+FROM EMPLOYEES
+WHERE
+	NAME &lt; 'S'                              - 1.1 imiÄ™ zaczyna siÄ™ na literÄ™ mniejszÄ… (w alfabecie) niÅ¼ 's'
+	AND AGE &gt;= 40                           - 1.2 oraz wiek wiÄ™kszy rÃ³wny 40
+	OR NAME IN ('Anna', 'Urszula', 'Tomasz')- 2.1 lub imiÄ™ jedno z listy podanej w nawiasie
+	AND AGE BETWEEN 39 AND 50;              - 2.2 oraz wiek miÄ™dzy 39 a 50 (w tym przypadku, ta czÄ™Å›Ä‡ filtruje tylko to, co przejdzie po or
+*/
+        
+/*
+moÅ¼emy takÅ¼e wyszukaÄ‡ osoby, ktÃ³re majÄ… nulle w niektÃ³rych komÃ³rkach
+SELECT * 
+FROM EMPLOYEES
+WHERE AGE IS NULL
+lub tych, ktÃ³rzy nie majÄ… nulla
+WHERE AGE IS NOT NULL
+ */
+
+/*
+
+SELECT *
+FROM EMPLOYEES
+WHERE NAME LIKE '%o%' OR NAME LIKE '%rsz%' OR NAME LIKE 'Roman'   - like suy do sprawdzenia, czy wystÄ™puje dokÅ‚adnie
+                                                                    wskazane imiÄ™ lub jakaÅ› czÄ™Å›Ä‡, ale wtedy musimy
+                                                                    dodaÄ‡ % aby zwrÃ³ciÄ‡ uwagÄ™ Å¼e coÅ› moÅ¼e byÄ‡ przed
+                                                                    lub po lub tu i tu
+ */
+<span class="nc" id="L112">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

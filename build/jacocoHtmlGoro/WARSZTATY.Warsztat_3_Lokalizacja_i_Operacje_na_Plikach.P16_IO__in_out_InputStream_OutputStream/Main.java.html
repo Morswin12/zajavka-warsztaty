@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WarsztatyZajavka</a> &gt; <a href="index.source.html" class="el_package">WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P16_IO__in_out_InputStream_OutputStream</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P16_IO__in_out_InputStream_OutputStream;
+
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+
+<span class="nc" id="L7">public class Main {</span>
+    public static void main(String[] args) throws IOException {
+//        try {
+//            System.out.println(new File(
+//                    &quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+//                            &quot;P16_IO__in_out_InputStream_OutputStream/someFiled2.txt&quot;)
+//                    .createNewFile());
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+
+<span class="nc" id="L18">        File inputFile = new File(</span>
+                &quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P16_IO__in_out_InputStream_OutputStream/someFiledInput.txt&quot;);
+
+<span class="nc" id="L22">        File outputFile = new File(</span>
+                &quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P16_IO__in_out_InputStream_OutputStream/someFiledOutput.txt&quot;);
+
+<span class="nc" id="L26">        File inputFile2 = new File(</span>
+                &quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P16_IO__in_out_InputStream_OutputStream/24.jpg&quot;);
+
+<span class="nc" id="L30">        File outputFile2 = new File(</span>
+                &quot;src/WARSZTATY/Warsztat_3_Lokalizacja_i_Operacje_na_Plikach/&quot; +
+                        &quot;P16_IO__in_out_InputStream_OutputStream/24_COPY.jpg&quot;);
+
+<span class="nc" id="L34">        justCopyNotBuffer(inputFile, outputFile);</span>
+
+<span class="nc" id="L36">        byte[] bytes = &quot;Ä…&quot;.getBytes(StandardCharsets.UTF_8);</span>
+<span class="nc" id="L37">        System.out.println(Arrays.toString(bytes));</span>
+<span class="nc" id="L38">        System.out.println(&quot;Ä‡: &quot; + Arrays.toString(&quot;Ä‡&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L39">        System.out.println(&quot;Ä™: &quot; + Arrays.toString(&quot;Ä™&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L40">        System.out.println(&quot;Å‚: &quot; + Arrays.toString(&quot;Å‚&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L41">        System.out.println(&quot;Å„: &quot; + Arrays.toString(&quot;Å„&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L42">        System.out.println(&quot;Ã³: &quot; + Arrays.toString(&quot;Ã³&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L43">        System.out.println(&quot;Å›: &quot; + Arrays.toString(&quot;Å›&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L44">        System.out.println(&quot;Å¼: &quot; + Arrays.toString(&quot;Å¼&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+<span class="nc" id="L45">        System.out.println(&quot;Åº: &quot; + Arrays.toString(&quot;Åº&quot;.getBytes(StandardCharsets.UTF_8)));</span>
+
+<span class="nc" id="L47">        justCopyNotBuffer(inputFile2, outputFile2);</span>
+<span class="nc" id="L48">    }</span>
+
+    private static void justCopyNotBuffer(File inputFile, File outputFile) throws IOException {
+        try (
+<span class="nc" id="L52">                InputStream input = new FileInputStream(inputFile);</span>
+<span class="nc" id="L53">                OutputStream output = new FileOutputStream(outputFile)</span>
+        ) {
+<span class="nc" id="L55">            int value = input.read();</span>
+<span class="nc" id="L56">            System.out.printf(&quot;Start Reading File: [%s]%n&quot;, inputFile);</span>
+<span class="nc" id="L57">            System.out.printf(&quot;Reading value: [%s], char: [%s]%n&quot;, value, (char) value);</span>
+
+<span class="nc bnc" id="L59" title="All 2 branches missed.">            while (value != -1) {</span>
+<span class="nc" id="L60">                int modified = value;</span>
+<span class="nc bnc" id="L61" title="All 4 branches missed.">                if (modified &gt; 65 &amp;&amp; modified &lt; 250) {</span>
+<span class="nc" id="L62">                    modified += 5;</span>
+                }
+<span class="nc" id="L64">                System.out.printf(&quot;Writing value: [%s], char: [%s], modVal: [%s], modChar: [%s] %n&quot;,</span>
+<span class="nc" id="L65">                        value, (char) value, modified, (char) modified);</span>
+<span class="nc" id="L66">                output.write(modified);</span>
+<span class="nc" id="L67">                value = input.read();</span>
+<span class="nc" id="L68">                System.out.printf(&quot;Reading value: [%s], char: [%s]%n&quot;, value, (char) value);</span>
+<span class="nc" id="L69">            }</span>
+            //signed variables   - ze znakiem +/-
+            //unsigned variables - bez znaku (liczby 0 i liczby dodatnie)
+        }
+<span class="nc" id="L73">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
