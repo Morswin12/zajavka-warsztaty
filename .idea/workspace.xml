@@ -4,47 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="wszystkie pliki do warsztat 8 film 12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P2_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P3_Composition_Over_Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P1_2_UML/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/ManyToManyRelationsDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/ManyToManyRelationsDiagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/UML_Diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/UML_diagramm.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Heart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Customer_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/DiscountItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/DiscountItem_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/GoroDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/GoroDiagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Item_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/NormalCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/NormalItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/ShoppingCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIPCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIP_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/some_Uml_diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/some_Uml_diagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/gc.properties" beforeDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 9 Diagram UML- przykłady">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P3_Desingn_Principles__Composition_Over_Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P2_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P2_Design_Principless___DRY_KISS_YAGNI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P3_Composition_Over_Inheritance/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +79,11 @@
         <option value="Enum" />
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="UML Sequence" />
         <option value="UML Activity" />
         <option value="UML Component" />
         <option value="UML Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -206,13 +186,13 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WarsztatyZajavka [build]">
-    <configuration name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P4_Design_Principles_SOLID.Main2" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P4_Design_Principles_SOLID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,7 +261,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
+      <item itemvalue="Application.Main2" />
       <item itemvalue="Gradle.WarsztatyZajavka [build]" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.CalculatorTest.add (1)" />
@@ -289,11 +269,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Gradle.WarsztatyZajavka [build]" />
         <item itemvalue="JUnit.java in WarsztatyZajavka.test" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.add (1)" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691426140629</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Warsztat 9 Diagram UML- przykłady">
+      <created>1691699632889</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1691699632889</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 2: Filmy do 28 straemy itp" />
     <MESSAGE value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
     <MESSAGE value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
     <MESSAGE value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego" />
@@ -584,7 +570,8 @@
     <MESSAGE value="Warsztat 8: 1-3 &#10;Unit Tests" />
     <MESSAGE value="Warsztat 8: 4-12&#10;Testy parametryzowane&#10;Assertions&#10;Code Coverage&#10;Logbak w testach" />
     <MESSAGE value="wszystkie pliki do warsztat 8 film 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="wszystkie pliki do warsztat 8 film 12" />
+    <MESSAGE value="Warsztat 9 Diagram UML- przykłady" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 9 Diagram UML- przykłady" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

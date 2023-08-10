@@ -1,4 +1,4 @@
-package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P2_;
+package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P2_Design_Principless___DRY_KISS_YAGNI;
 
 public class Main {
     public static void main(String[] args) {
