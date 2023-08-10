@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'jacoco'
+//    id("org.dripto.gradle.plugin.plantuml.plantuml-generator") version "<1.0>"
 }
 
 group = 'pl.zajavka'
@@ -87,3 +88,16 @@ jacocoTestCoverageVerification {
 }
 
 check.dependsOn jacocoTestCoverageVerification
+
+//tasks.withType<org.dripto.gradle.plugin.plantuml.task.PlantUmlGeneratorTask>{
+//    destination="${buildDir}/reports/class-diagram.puml"
+//    config {
+//        scanPackages = listOf("org.dripto.plugins")
+//    }
+//    asciiConfig {
+//        enableAsciidocWrapper = true
+//        asciidocDiagramImageFormat = "png"
+//        asciidocDiagramName = "ascii_diagram"
+//        asciidocDiagramBlockDelimiter = "----"
+//    }
+//}

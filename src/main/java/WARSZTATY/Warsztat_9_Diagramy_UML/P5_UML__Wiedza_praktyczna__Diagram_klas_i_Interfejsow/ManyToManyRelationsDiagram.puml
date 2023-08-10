@@ -1,0 +1,18 @@
+@startuml
+!theme vibrant
+
+skinparam classAttributeIconSize 0
+
+class goro.pl.Owner{}
+
+class goro.pl.Car{}
+
+class goro.pl.Ownership{}
+
+goro.pl.Owner "1" o-[norank]-- "0..n" goro.pl.Ownership
+goro.pl.Ownership "0..n" --o "1" goro.pl.Car
+
+hide fields
+hide methods
+
+@enduml

@@ -1,0 +1,42 @@
+@startuml
+!theme vibrant
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Customer {
+{field} - name : String
+{field} - surname : String
+}
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.DiscountItem {
+}
+
+interface WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Item {
+}
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.NormalCustomer {
+}
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.NormalItem {
+}
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.ShoppingCard {
+}
+
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.VIP {
+}
+
+class WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.VIPCard {
+}
+
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Customer <--> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.ShoppingCard : shoppingCard
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.DiscountItem ..|> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Item
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.NormalCustomer --|> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Customer
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.NormalItem ..|> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Item
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.ShoppingCard "1" o--> "0..*" WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Item : item
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.VIP --> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.VIPCard : vipCard
+WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.VIP --|> WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram.Customer
+
+hide fields
+hide methods
+
+@enduml

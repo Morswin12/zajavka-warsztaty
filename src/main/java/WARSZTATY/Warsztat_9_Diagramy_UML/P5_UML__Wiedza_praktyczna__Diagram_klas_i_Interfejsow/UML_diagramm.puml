@@ -1,0 +1,26 @@
+@startuml
+
+package WARSZTATY.Warsztat_9_Diagramy_UML.P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow {
+    abstract class Employee {
+        -salary: BigDecimal
+        #SURNAME: String
+        ~age: Integer
+        -name: String
+
+        +Employee(age: Integer, surname: String)
+        +expectedSalary(): BigDecimal
+        {abstract} +opinion(): String
+        -goToWork(name: String, surname: String): void
+        +satisfied(force: boolean): boolean
+    }
+
+    interface Swim {
+        {static} +someStaticMethod(): void
+        {default} +cantSwim(): void
+        +getName(): String
+    }
+
+    Employee -|> Swim
+}
+
+@enduml

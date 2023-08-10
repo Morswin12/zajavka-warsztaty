@@ -4,37 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 8: 1-3 &#10;Unit Tests">
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/MOJ_NOTATNIK/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P10_Code_Coverage_cz_1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P10_Code_Coverage_cz_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P12_TDD/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P7_Testy_JUnit_Testy_parametryzowane/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/IAnotherCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/RealAnotherCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logbackCopy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P4_Testy_JUnit_Adnotacje_Before_i_After/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/Calculator2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P5_Testy_JUnit_Assertions/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P7_Testy_JUnit_Testy_parametryzowane/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P8_Testy_JUnit_Logback/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P9_Zasady_pisania_dobrych_testow/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/WarsztatyZajavka.test.iml" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="wszystkie pliki do warsztat 8 film 12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P2_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P3_Composition_Over_Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P1_2_UML/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/ManyToManyRelationsDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/ManyToManyRelationsDiagram.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/UML_Diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow/UML_diagramm.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Heart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Customer_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/DiscountItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/DiscountItem_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/GoroDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/GoroDiagram.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/Item_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/NormalCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/NormalItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/ShoppingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIPCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/nextDiagram/VIP_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/some_Uml_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje/some_Uml_diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +96,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="UML Sequence" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="UML Sequence" />
+        <option value="UML Activity" />
+        <option value="UML Component" />
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -127,31 +140,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE",
-    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram" />
+      <recent name="WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
       <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project" />
       <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet" />
-      <recent name="WARSZTATY.Warsztat_3_Lokalizacja_i_Operacje_na_Plikach.P21_IO__in_out_Serialization_Deserialization_cz_1" />
-      <recent name="WARSZTATY.Warsztat_2_Programowanie_Funkcyjne.P32_Podsumowanie" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\test\resources" />
@@ -517,7 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691264872790</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Warsztat 8: 4-12&#10;Testy parametryzowane&#10;Assertions&#10;Code Coverage&#10;Logbak w testach">
+      <created>1691425250235</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1691425250235</updated>
+    </task>
+    <task id="LOCAL-00034" summary="wszystkie pliki do warsztat 8 film 12">
+      <created>1691426140629</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1691426140629</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,8 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 2: Filmy 10-11 interfejsy funkcyjne itp." />
-    <MESSAGE value="Warsztat 2: Filmy 12-14 interfejsy funkcyjne itp.&#10;Oraz program do liczenia objętości drzewa" />
     <MESSAGE value="Warsztat 2: Filmy do 28 straemy itp" />
     <MESSAGE value="Warsztat 2: Filmy od 29 do 33 straemy itp&#10;plus zadania i wstep do projektu" />
     <MESSAGE value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
@@ -557,7 +582,9 @@
     <MESSAGE value="Warsztat 6: projekt" />
     <MESSAGE value="Warsztat 7: filmy 1-7 i początek 8&#10;LOGBACK CONSOLE/fILE" />
     <MESSAGE value="Warsztat 8: 1-3 &#10;Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 8: 1-3 &#10;Unit Tests" />
+    <MESSAGE value="Warsztat 8: 4-12&#10;Testy parametryzowane&#10;Assertions&#10;Code Coverage&#10;Logbak w testach" />
+    <MESSAGE value="wszystkie pliki do warsztat 8 film 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="wszystkie pliki do warsztat 8 film 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
