@@ -1,4 +1,4 @@
-package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P3_Desingn_Principles__Composition_Over_Inheritance;
+package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D1_DESIGN_PRINCIPLES.P3_Composition_Over_Inheritance;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,13 @@
-package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P4_Design_Principles_SOLID;
+package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D1_DESIGN_PRINCIPLES.P4_do_P9_SOLID;
 
 public class Main {
     public static void main(String[] args) {
         /*
+        S -> (SRP) Single Responsibility Principle
+        O -> (OCP) Open/Closed
+        L -> (LSP) Liskov Substitution Principle
+        I -> (ISP) Interface Segregation Principle
+        D -> (DIP) Dependency Inversion Principle
 
         SOLID -> zestaw pięciu zasad:
         S -> (SRP) Single Responsibility Principle -> A class should have only onr reason to change.
@@ -46,6 +51,19 @@ public class Main {
 
                     Abstraction should not depend on details.
                     Details (concrete implementations) should depend on abstractions.
+
+                    Oznacza to, że gdy klasy są zależne od siebie (zależność HAS-A, ale nie dziedziczą po sobie) to,
+                    zamiast Klas powinniśmy użyć Interfejsów. Dzięki temu możemy później użyć wszystkich klasy, które
+                    implementują dany Interfejs. Daje nam to dużo większą elastyczność działania.
+
+        Rozszerzenie do SOLID-a:
+
+        IoC -> Inversion of Control  (odwrócenie kontroli)
+        DI  -> Dependency Injection  (wstrzyknięcie dependencji) jest to niejako implementacja IoC
+        IoC Container -> rodzaj Framework-a, który będzie w sposób automatyczny implementował DI (Dependency Injection).
+                    To znaczy, że taki Framework byłby odpowiedzialny za zarządzanie i wstrzykiwanie tych obiektów
+                    zależnie od siebie. Czyli nie musielibyśmy tworzyć takiej klasy jak Factory i tworzyć tego
+                    wszystkiego ręcznie. Będzie to poruszane np. w Spring-u.
         */
     }
 }
