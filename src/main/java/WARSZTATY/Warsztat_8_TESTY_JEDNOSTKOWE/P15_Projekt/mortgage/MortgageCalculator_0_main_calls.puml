@@ -1,0 +1,379 @@
+@startuml
+
+/' diagram meta data start
+config=CallConfiguration;
+{
+  "rootMethod": "WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.MortgageCalculator#main(String[])",
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showMethodParametersTypes": false,
+    "showMethodParametersNames": false,
+    "showMethodReturnType": false,
+    "showPackageLevels": 2,
+    "showCallOrder": false,
+    "edgeMode": "MethodsOnly", // TypesOnly, MethodsOnly, TypesAndMethods, MethodsAndDirectTypeUsage
+    "showDetailedClassStructure": false
+  },
+  "rootClass": "WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.MortgageCalculator",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="LR"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_645301335 { 
+   	label=Warsztat_8_TESTY_JEDNOSTKOWE
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_28476913 { 
+   	label=P15_Projekt
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   subgraph cluster_1009531694 { 
+   	label=OverpaymentCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   OverpaymentCalculationServiceImpl1953265666XXXcalculate399151985[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="OverpaymentCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_1034203009 { 
+   	label=TimePointCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   TimePointCalculationServiceImpl1953265666XXXcalculate399151985[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="TimePointCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+TimePointCalculationServiceImpl1953265666XXXcalculate685741573[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="TimePointCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_128891957 { 
+   	label=SummaryServiceFactory
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   SummaryServiceFactory1953265666XXXcreate0[
+	label="+ create()"
+	style=filled
+	fillcolor=white
+	tooltip="SummaryServiceFactory
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_1305753009 { 
+   	label=InputData
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   InputData1307465847XXXbuilder0[
+	label="+ builder()"
+	style=filled
+	fillcolor=white
+	tooltip="InputData
+
+null"
+	fontcolor=darkgreen
+];
+
+InputData1307465847XXXdefaultInputData0[
+	label="+ defaultInputData()"
+	style=filled
+	fillcolor=white
+	tooltip="InputData
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_1726426887 { 
+   	label=ReferenceCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   ReferenceCalculationServiceImpl1953265666XXXcalculate1436821851[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="ReferenceCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+ReferenceCalculationServiceImpl1953265666XXXcalculate352744281[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="ReferenceCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_1977505065 { 
+   	label=AmountsCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   AmountsCalculationServiceImpl1953265666XXXcalculate1118106722[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="AmountsCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+AmountsCalculationServiceImpl1953265666XXXcalculate1929725610[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="AmountsCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_2024172418 { 
+   	label=MortgageCalculator
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   MortgageCalculator2082878030XXXmain1859653459[
+	label="+ main()"
+	style=filled
+	fillcolor=white
+	tooltip="MortgageCalculator
+
+null"
+	penwidth=4
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_2106512144 { 
+   	label=PrintingServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   PrintingServiceImpl1953265666XXXprintIntroInformation584522124[
+	label="+ printIntroInformation()"
+	style=filled
+	fillcolor=white
+	tooltip="PrintingServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+PrintingServiceImpl1953265666XXXprintSchedule1242085184[
+	label="+ printSchedule()"
+	style=filled
+	fillcolor=white
+	tooltip="PrintingServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+PrintingServiceImpl1953265666XXXprintSummary192987258[
+	label="+ printSummary()"
+	style=filled
+	fillcolor=white
+	tooltip="PrintingServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_2138693560 { 
+   	label=MortgageCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   MortgageCalculationServiceImpl1953265666XXXcalculate584522124[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="MortgageCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_55391484 { 
+   	label=RateCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   RateCalculationServiceImpl1953265666XXXcalculate584522124[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="RateCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_845447647 { 
+   	label=ResidualCalculationServiceImpl
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   ResidualCalculationServiceImpl1953265666XXXcalculate1436821851[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="ResidualCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+
+ResidualCalculationServiceImpl1953265666XXXcalculate352744281[
+	label="+ calculate()"
+	style=filled
+	fillcolor=white
+	tooltip="ResidualCalculationServiceImpl
+
+null"
+	fontcolor=darkgreen
+];
+} 
+} 
+} 
+
+'edges    
+InputData1307465847XXXdefaultInputData0 -> InputData1307465847XXXbuilder0;
+MortgageCalculationServiceImpl1953265666XXXcalculate584522124 -> PrintingServiceImpl1953265666XXXprintIntroInformation584522124;
+MortgageCalculationServiceImpl1953265666XXXcalculate584522124 -> PrintingServiceImpl1953265666XXXprintSchedule1242085184;
+MortgageCalculationServiceImpl1953265666XXXcalculate584522124 -> PrintingServiceImpl1953265666XXXprintSummary192987258;
+MortgageCalculationServiceImpl1953265666XXXcalculate584522124 -> RateCalculationServiceImpl1953265666XXXcalculate584522124;
+MortgageCalculator2082878030XXXmain1859653459 -> InputData1307465847XXXdefaultInputData0;
+MortgageCalculator2082878030XXXmain1859653459 -> MortgageCalculationServiceImpl1953265666XXXcalculate584522124;
+MortgageCalculator2082878030XXXmain1859653459 -> SummaryServiceFactory1953265666XXXcreate0;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> AmountsCalculationServiceImpl1953265666XXXcalculate1118106722;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> AmountsCalculationServiceImpl1953265666XXXcalculate1929725610;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> OverpaymentCalculationServiceImpl1953265666XXXcalculate399151985;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> ReferenceCalculationServiceImpl1953265666XXXcalculate1436821851;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> ReferenceCalculationServiceImpl1953265666XXXcalculate352744281;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> ResidualCalculationServiceImpl1953265666XXXcalculate1436821851;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> ResidualCalculationServiceImpl1953265666XXXcalculate352744281;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> TimePointCalculationServiceImpl1953265666XXXcalculate399151985;
+RateCalculationServiceImpl1953265666XXXcalculate584522124 -> TimePointCalculationServiceImpl1953265666XXXcalculate685741573;
+    
+}
+@enduml

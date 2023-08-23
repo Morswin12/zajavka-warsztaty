@@ -1,0 +1,330 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.MortgageCalculator",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_645301335 { 
+   	label=Warsztat_8_TESTY_JEDNOSTKOWE
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_28476913 { 
+   	label=P15_Projekt
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   AmountsCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)AmountsCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   constantAmountsCalculationService: ConstantAmountsCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   decreasingAmountsCalculationService: DecreasingAmountsCalculationService [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment): RateAmounts</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment, previousRate: Rate): RateAmounts</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ConstantAmountsCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ConstantAmountsCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment): RateAmounts</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment, previousRate: Rate): RateAmounts</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateConstantRateAmount(q: BigDecimal, interestAmount: BigDecimal, residualAmount: BigDecimal, referenceAmount: BigDecimal, referenceDuration: BigDecimal): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- compareRateWithResidual(rateAmount: BigDecimal, interestAmount: BigDecimal, residualAmount: BigDecimal): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+DecreasingAmountsCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)DecreasingAmountsCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment): RateAmounts</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData, overpayment: Overpayment, previousRate: Rate): RateAmounts</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateDecreasingCapitalAmount(residualAmount: BigDecimal, residualDuration: BigDecimal): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+InputData1307465847[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)InputData</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   amount: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   marginPercent: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   monthsDuration: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   mortgagePrintPayoffsSchedule: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   mortgageRateNumberToPrint: Integer [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentProvisionMonths: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentProvisionPercent: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentReduceWay: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentSchema: Map&lt;Integer, BigDecimal&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentStartMonth: BigDecimal [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   rateType: MortgageType [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   repaymentStartDate: LocalDate [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   wiborPercent: BigDecimal [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ builder(): InputDataBuilder</TD></TR>
+<TR><TD ALIGN="LEFT" >+ defaultInputData(): InputData</TD></TR>
+<TR><TD ALIGN="LEFT" >+ empty(): InputData</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+MortgageCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)MortgageCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   printingService: PrintingService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   rateCalculationService: RateCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   summaryService: SummaryService [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+MortgageCalculator2082878030[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)MortgageCalculator</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ main(args: String[])</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+OverpaymentCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)OverpaymentCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(rateNumber: BigDecimal, inputData: InputData): Overpayment</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateOverpaymentAmount(rateNumber: BigDecimal, overpaymentSchema: Map&lt;Integer, BigDecimal&gt;): Optional&lt;BigDecimal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateOverpaymentProvision(rateNumber: BigDecimal, overpaymentAmount: BigDecimal, inputData: InputData): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+PrintingServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PrintingServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- logMessage(message: StringBuilder)</TD></TR>
+<TR><TD ALIGN="LEFT" >- logMessage(message: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >- logOverpayment(msg: StringBuilder, schema: Map&lt;Integer, BigDecimal&gt;, reduceWay: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >- logSeparator(sep: StringBuilder)</TD></TR>
+<TR><TD ALIGN="LEFT" >- prettyPrintOverpaymentSchema(schema: Map&lt;Integer, BigDecimal&gt;): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printIntroInformation(inputData: InputData)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printSchedule(rates: List&lt;Rate&gt;, inputData: InputData)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printSummary(summary: Summary)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+RateCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)RateCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   amountsCalculationService: AmountsCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   overpaymentCalculationService: OverpaymentCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   referenceCalculationService: ReferenceCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   residualCalculationService: ResidualCalculationService [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   timePointCalculationService: TimePointCalculationService [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(inputData: InputData): List&lt;Rate&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateNextRate(rateNumber: BigDecimal, inputData: InputData, previousRate: Rate): Rate</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateZeroRate(rateNumber: BigDecimal, inputData: InputData): Rate</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ReferenceCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ReferenceCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(rateAmounts: RateAmounts, inputData: InputData): MortgageReference</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(rateAmounts: RateAmounts, inputData: InputData, previousRate: Rate): MortgageReference</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateResidualAmount(residualAmount: BigDecimal, rateAmounts: RateAmounts): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- reduceRateMortgageReference(rateAmounts: RateAmounts, previousResidual: MortgageResidual): MortgageReference</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ResidualCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ResidualCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(rateAmounts: RateAmounts, inputData: InputData): MortgageResidual</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(rateAmounts: RateAmounts, inputData: InputData, previousRate: Rate): MortgageResidual</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateConstantResidualDuration(inputData: InputData, residualAmount: BigDecimal, rateAmounts: RateAmounts): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateDecreasingResidualDuration(residualAmount: BigDecimal, rateAmounts: RateAmounts): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateResidualAmount(residualAmount: BigDecimal, rateAmounts: RateAmounts): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateResidualDuration(inputData: InputData, residualAmount: BigDecimal, previousResidualDuration: BigDecimal, rateAmounts: RateAmounts): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+SummaryServiceFactory1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)SummaryServiceFactory</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- calculate(rates: List&lt;Rate&gt;, function: Function): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >+ create(): SummaryService</TD></TR>
+<TR><TD ALIGN="LEFT" >- totalCapital(rateAmounts: RateAmounts): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+TimePointCalculationServiceImpl1953265666[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)TimePointCalculationServiceImpl</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ calculate(rateNumber: BigDecimal, inputData: InputData): TimePoint</TD></TR>
+<TR><TD ALIGN="LEFT" >+ calculate(rateNumber: BigDecimal, previousRate: Rate): TimePoint</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateMonth(rateNumber: BigDecimal): BigDecimal</TD></TR>
+<TR><TD ALIGN="LEFT" >- calculateYear(rateNumber: BigDecimal): BigDecimal</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+AmountsCalculationServiceImpl1953265666 -> ConstantAmountsCalculationServiceImpl1953265666[arrowhead=none];
+AmountsCalculationServiceImpl1953265666 -> DecreasingAmountsCalculationServiceImpl1953265666[arrowhead=none];
+MortgageCalculationServiceImpl1953265666 -> PrintingServiceImpl1953265666[arrowhead=none];
+MortgageCalculationServiceImpl1953265666 -> RateCalculationServiceImpl1953265666[arrowhead=none];
+MortgageCalculator2082878030 -> InputData1307465847[label="main() -> defaultInputData()"];
+MortgageCalculator2082878030 -> MortgageCalculationServiceImpl1953265666[arrowhead=none];
+MortgageCalculator2082878030 -> SummaryServiceFactory1953265666[label="main() -> create()"];
+RateCalculationServiceImpl1953265666 -> OverpaymentCalculationServiceImpl1953265666[arrowhead=none];
+RateCalculationServiceImpl1953265666 -> ReferenceCalculationServiceImpl1953265666[arrowhead=none];
+RateCalculationServiceImpl1953265666 -> ResidualCalculationServiceImpl1953265666[arrowhead=none];
+RateCalculationServiceImpl1953265666 -> TimePointCalculationServiceImpl1953265666[arrowhead=none];
+ResidualCalculationServiceImpl1953265666 -> AmountsCalculationServiceImpl1953265666[arrowhead=none];
+    
+}
+@enduml

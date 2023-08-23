@@ -4,22 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 10 Design Principle&#10;KISS&#10;DRY&#10;YAGNI&#10;SOLID">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P10_Intro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P10_Intro/Schemat_wzorce_projektowe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P11_SINGLETON/LazyInitializationSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P11_SINGLETON/LazyInitializationSingleton_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P11_SINGLETON/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P11_SINGLETON/Main_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P11_SINGLETON/StaticBlockSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/HawaiianPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/Main_0_main_calls.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/Main_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/PizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P12_FACTORY/Untitled.jpg" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 10 Design Patterns:&#10;Singleton&#10;Factory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/Combi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/FactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/HawaiianPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/Main_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P13_ABSTRACT_FACTORY/SUV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/CaroseryColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/Fuel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/Tractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P14_BUILDER/Tractor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P13_Zadanie/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P13_Zadanie/UserManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/MortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/MortgageCalculator_0_main_calls.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/MortgageCalculator_structure.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/MortgageReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/MortgageResidual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/MortgageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/Overpayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/RateAmounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/model/TimePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/AmountsCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/AmountsCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ConstantAmountsCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ConstantAmountsCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/DecreasingAmountsCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/MortgageCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/MortgageCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/MortgageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/OverpaymentCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/OverpaymentCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/PrintingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/PrintingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/RateCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/RateCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ReferenceCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ReferenceCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ResidualCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/ResidualCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/SummaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/SummaryServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/TimePointCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/TimePointCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/someDiagramFromExe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/someDiagramFromExe.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P13_Zadanie/UserManagementServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage/services/TimePointCalculationServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,15 +74,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P2_Design_Principless___DRY_KISS_YAGNI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P2_DRY_KISS_YAGNI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P3_Desingn_Principles__Composition_Over_Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P3_Composition_Over_Inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/P4_Design_Principles_SOLID/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D1_DESIGN_PRINCIPLES/P4_do_P9_SOLID/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +126,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="UML Sequence" />
         <option value="UML Activity" />
         <option value="UML Component" />
+        <option value="JUnit5 Test Class" />
         <option value="UML Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -133,38 +170,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_9_Diagramy_UML/P5_UML__Wiedza_praktyczna__Diagram_klas_i_Interfejsow&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/a",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY" />
       <recent name="WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje.nextDiagram" />
       <recent name="WARSZTATY.Warsztat_9_Diagramy_UML.P6_UML_Wiedza_praktyczna__Diagram_klas_i_Interfejsów__Relacje" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
-      <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P15_Project" />
-      <recent name="WARSZTATY.Warsztat_4_Bazy_Danych.P14_JDBC__ResultSet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS\D2_DESIGN_PATTERNS\a" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\test\resources" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P8_Logowanie_Logback_RollingFile" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P7_Logowanie_LOGBACK_File" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P5_Logowanie_LOGBAG_Console_cz1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java" />
@@ -176,18 +213,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.services" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.model" />
+      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P_13_Zadanie" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P7_Testy_JUnit_Testy_parametryzowane" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P7_Testy_JUnit_Testy_parametryzowane" />
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P4_Testy_JUnit_Adnotacje_Before_i_After" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P2_Integracja_Gradle_i_Maven" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -199,13 +236,13 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.Main">
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P11_SINGLETON.Main" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P11_SINGLETON.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P4_do_P9_Design_Principles_SOLID.Main2" />
+    <configuration name="MortgageCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.MortgageCalculator" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.P4_do_P9_Design_Principles_SOLID.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.Main" />
+    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,49 +276,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarsztatyZajavka [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="java in WarsztatyZajavka.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimePointCalculationServiceImplTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WarsztatyZajavka.test" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.services" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.services.TimePointCalculationServiceImplTest" />
+      <option name="METHOD_NAME" value="calculate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagementServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P13_Zadanie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P_13_Zadanie" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P13_Zadanie.UserManagementServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MortgageCalculator" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.Main" />
-      <item itemvalue="Gradle.WarsztatyZajavka [build]" />
-      <item itemvalue="JUnit.java in WarsztatyZajavka.test" />
+      <item itemvalue="JUnit.TimePointCalculationServiceImplTest.calculate" />
+      <item itemvalue="JUnit.UserManagementServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Gradle.WarsztatyZajavka [build]" />
-        <item itemvalue="JUnit.java in WarsztatyZajavka.test" />
+        <item itemvalue="JUnit.TimePointCalculationServiceImplTest.calculate" />
+        <item itemvalue="Application.MortgageCalculator" />
+        <item itemvalue="JUnit.UserManagementServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691711029224</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Warsztat 10 Design Patterns:&#10;Singleton&#10;Factory">
+      <created>1692274694171</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692274694171</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 2: Filmy od 34 do projektu &#10;zadania 1 i 2 poziomu z projektu" />
     <MESSAGE value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego" />
     <MESSAGE value="Warsztat 2: Projekt Końcowy Streamy: rozwiązanie pierwszego zadania z poziomu trzeciego kosmetyczne zmiany" />
     <MESSAGE value="Warsztat 3: filmy 1-3" />
@@ -586,7 +631,8 @@
     <MESSAGE value="wszystkie pliki do warsztat 8 film 12" />
     <MESSAGE value="Warsztat 9 Diagram UML- przykłady" />
     <MESSAGE value="Warsztat 10 Design Principle&#10;KISS&#10;DRY&#10;YAGNI&#10;SOLID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 10 Design Principle&#10;KISS&#10;DRY&#10;YAGNI&#10;SOLID" />
+    <MESSAGE value="Warsztat 10 Design Patterns:&#10;Singleton&#10;Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 10 Design Patterns:&#10;Singleton&#10;Factory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
