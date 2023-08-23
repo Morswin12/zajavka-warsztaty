@@ -1,6 +1,9 @@
 package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P12_FACTORY;
 
 public class Main {
+    /*
+    Factory Pattern - Fabryki używamy, gdy
+     */
     public static void main(String[] args) {
         Pizza pepperoni = PizzaFactory.preparePizza("Pepperoni");
         pepperoni.bake();

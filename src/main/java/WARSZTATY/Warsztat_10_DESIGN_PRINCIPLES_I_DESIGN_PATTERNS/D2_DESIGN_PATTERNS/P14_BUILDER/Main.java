@@ -2,7 +2,11 @@ package WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATT
 
 public class Main {
     public static void main(String[] args) {
-        // Builder
+        /* Builder — używamy, gdy chcemy mieć możliwość stworzenia obiektu przypisując mu wartości tylko wybranych
+                pól.
+                Zamiast tworzyć ten wzorzec samemu z ręki możemy także użyć Lombok-owej adnotacji "@Builder"
+
+         */
 
         Car car1 = Car.builder()
                 .brand("Ford")
