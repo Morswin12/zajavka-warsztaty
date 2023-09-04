@@ -5,41 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 10 Design Patterns:&#10;prototype">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/PizzaBaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/PizzaBakerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/PizzaBakerProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/PizzaBaker_0_bake_calls.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/PizzaBaker_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P19_PROXY/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/AttributeAfterDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/AttributeBeforeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/AttributeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/CarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/CarImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/Car_structure.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/NeonDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/RimsDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/SpoilerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P20_DECORATOR/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P21_BRIDGE/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P22_TEMPLATE_METHOD/BrickHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P22_TEMPLATE_METHOD/HouseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P22_TEMPLATE_METHOD/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P22_TEMPLATE_METHOD/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P22_TEMPLATE_METHOD/WoodenHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_11_KOLEJNE_WERSJE_JAVY/P1_Java_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_11_KOLEJNE_WERSJE_JAVY/P2_Java_9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/GenericHandler/GenericHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/GenericHandler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/GenericHandler/TextBugHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/GenericHandler/TextOpinionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/GenericHandler/TextZajavkaHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/LambdaHandler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/CabrioletHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/CarHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/ChainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/ColorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/CombiHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/EquipmentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/JeepHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/StandardHandler/QualityCheckHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P23_CHAIN_OF_RESPONSIBILITY/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/NewSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/NewsTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P24_OBSERVER/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Lambda/OnlineStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Lambda/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/CourierStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/DeliveryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/OnlineStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/ParcelLockerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/Traditional/PostStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P25_STRATEGY/UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/ShoppingCardElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/ShoppingCardVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/Lambda/ShoppingCardVisitorMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/ShoppingCardElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/ShoppingCardVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P26_VISITOR/traditional/ShoppingCardVisitorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_11_KOLEJNE_WERSJE_JAVY/P10_Java_12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_11_KOLEJNE_WERSJE_JAVY/P2_Java_9/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -47,8 +62,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,17 +177,17 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P23_CHAIN_OF_RESPONSIBILITY" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P18_FASADE" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P17_COMPOSITE" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P15_PROTOTYPE" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS\D2_DESIGN_PATTERNS\a" />
@@ -179,6 +197,7 @@
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P7_Logowanie_LOGBACK_File" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src" />
@@ -195,11 +214,11 @@
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P17_COMPOSITE" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P14_BUILDER" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P13_ABSTRACT_FACTORY" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P7_Testy_JUnit_Testy_parametryzowane" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR.Lambda" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY" />
+      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P23_CHAIN_OF_RESPONSIBILITY" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -211,13 +230,13 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.Main">
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P20_DECORATOR.Main" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR.traditional.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P20_DECORATOR.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR.traditional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P20_DECORATOR.Main2" />
+    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P20_DECORATOR.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P21_BRIDGE.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P21_BRIDGE.Main" />
+    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P21_BRIDGE.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.Main" />
+    <configuration name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P2_Java_9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P2_Java_9.Main" />
+    <configuration name="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P2_Java_9.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,19 +297,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P21_BRIDGE.Main" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.Main" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P2_Java_9.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional.Main" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P22_TEMPLATE_METHOD.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P21_BRIDGE.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P2_Java_9.Main" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P10_Java_12.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional.Main" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P24_OBSERVER.Main" />
       </list>
     </recent_temporary>
   </component>
