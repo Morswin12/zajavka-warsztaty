@@ -24,8 +24,8 @@ public class CzasTrwania {
     }
 
     public CzasTrwania add(CzasTrwania czasTrwania) {
-        long godziny1 = czasTrwania.godziny;
-        long minuty1 = czasTrwania.minuty;
+        long godziny1 = czasTrwania.getGodziny();
+        long minuty1 = czasTrwania.getMinuty();
         long godziny2 = this.godziny;
         long minuty2 = this.minuty;
         long extraGodziny = 0;
@@ -40,6 +40,7 @@ public class CzasTrwania {
 
         return new CzasTrwania(sumGodziny, sumMinuty);
     }
+
 
     @Override
     public String toString() {

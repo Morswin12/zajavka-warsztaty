@@ -37,7 +37,7 @@ public class Main {
             System.out.println("\n Do warsztatu nr: " + warsztat.getNumer() + " sumaryczny czas trwania filmów to: " + sumaryczny_czas);
             actualDate.printAmountOfMaterialsTime();
         }
-        System.out.println(sumaryczny_czas);
+        System.out.println("sumaryczny_czas: " +sumaryczny_czas);
 
 
         System.out.println(warsztaty.get(0).getSumarycznyCzas());

@@ -1,5 +1,6 @@
 package WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow;
 
+
 public class CzasFilmików {
     private int minuty;
     private int sekundy;
