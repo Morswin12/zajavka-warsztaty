@@ -44,6 +44,7 @@ public class Main_Part2 {
         long between = ChronoUnit.DAYS.between(LocalDate.of(2023, 9, 18), LocalDate.of(2023, 12, 15));
         System.out.println("days: " + between);
 
+
         long IloscMinutNaDzien = (sumarycznyCzasTrwaniaWarsztatowOd12Do22Karola.getGodziny() * 60 + sumarycznyCzasTrwaniaWarsztatowOd12Do22Karola.getMinuty()) / between;
         System.out.println(IloscMinutNaDzien);
         CzasTrwania czasTrwania = new CzasTrwania(0);
