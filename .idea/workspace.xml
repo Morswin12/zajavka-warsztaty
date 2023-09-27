@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 11 Upgrade">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_12_GIT/P11_gitignore/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_12_GIT/P12_Praca_ze_zmianami_Cofanie_zmian_Revert/asdfghgfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_12_GIT/P12_Praca_ze_zmianami_Cofanie_zmian_Revert/goroEmptyFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main_Part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/MOJE_PROGRAMY/Szacowany_czas_skonczenia_poszczegolnych_warsztatow/Main_Part2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main_Part2.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main_Part2.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -577,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695166773013</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Warsztat 12 Git że git">
+      <created>1695853232252</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1695853232252</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 3: do filmu 36 rozwiązanie zadań z Bartkiem" />
     <MESSAGE value="Warsztat 3: projekt podpunkty 1 i 2 zrobione" />
     <MESSAGE value="Warsztat 3: Projekt -&gt; Zrobione punkty 3 i 4&#10;Warsztat 4: Wstęp do SQL filmy 1-4" />
     <MESSAGE value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
@@ -634,7 +630,8 @@
     <MESSAGE value="Warsztat 10 Design Patterns:&#10;Adapter&#10;Composite&#10;Facade&#10;ProxyDecorator&#10;Bridge&#10;Template method&#10;Chain of Responsibility&#10;Observer&#10;Strategy" />
     <MESSAGE value="Warsztat 11 Kolejne wersje Javy&#10;Początek Gita (Warsztat 12)" />
     <MESSAGE value="Warsztat 11 Upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 11 Upgrade" />
+    <MESSAGE value="Warsztat 12 Git że git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 12 Git że git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
