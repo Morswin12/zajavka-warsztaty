@@ -4,39 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 13 SpringBeam (filmy 1-4)&#10; - teoria&#10; - konfiguracja XML">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P2_IoC/ExampleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P2_IoC/InjectedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P2_IoC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_BeanFactory_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_BeanFactory_simple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_CoreContainer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_SpringBeanLifecycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_SpringIoCContainer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P3_Spring_IoC_Container/Spring_overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P4_Konfiguracja_XML/AnotherInjectedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P4_Konfiguracja_XML/ExampleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P4_Konfiguracja_XML/ExampleBean2_InjectedBySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P4_Konfiguracja_XML/InjectedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P4_Konfiguracja_XML/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext_Goro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/AnotherInjectedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ConfigurationClassFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ConfigurationClassSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ExampleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ExampleConfigurationClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/InjectedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/InputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_6_LOMBOCK/P7_PROJEKT/mortgage/model/InputData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main_Part2.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +137,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java" />
       <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML" />
       <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P2_IoC" />
       <recent name="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P16_Java_17" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS\D2_DESIGN_PATTERNS\a" />
@@ -184,11 +168,11 @@
       <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR.Lambda" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional" />
       <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P23_CHAIN_OF_RESPONSIBILITY" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -200,26 +184,13 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main">
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P14_P15_Java_16.Part1.Main" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P14_P15_Java_16.Part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainNewSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P12_Java_14.MainNewSwitch" />
-      <module name="WarsztatyZajavka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P12_Java_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,20 +237,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
+      <module name="WarsztatyZajavka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
       <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" />
       <item itemvalue="Application.Main_Part2" />
       <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainNewSwitch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
         <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" />
         <item itemvalue="Application.Main_Part2" />
         <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainNewSwitch" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695166773013</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Warsztat 13 SpringBeam (filmy 1-4)&#10; - teoria&#10; - konfiguracja XML">
+      <created>1699815740113</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1699815740113</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
