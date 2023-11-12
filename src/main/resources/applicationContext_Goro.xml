@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="exampleBean" class="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.ExampleBean">
+        <constructor-arg>
+            <ref bean="injectedBean"/>
+        </constructor-arg>
+        <constructor-arg ref="anotherInjectedBean"/>
+    </bean>
+
+    <bean id="exampleBean2" class="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.ExampleBean2_InjectedBySet">
+        <property name="injectedBean">
+            <ref bean="injectedBean"/>
+        </property>
+    <property name="anotherInjectedBean" ref ="anotherInjectedBean"/>
+    </bean>
+
+    <bean id="injectedBean" class="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.InjectedBean"/>
+    <bean id="anotherInjectedBean" class="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.AnotherInjectedBean"/>
+</beans>
