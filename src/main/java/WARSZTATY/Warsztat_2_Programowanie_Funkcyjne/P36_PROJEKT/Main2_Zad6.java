@@ -24,7 +24,7 @@ public class Main2_Zad6 {
         }
 
 
-        System.out.println("\n   Exe 6 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMapUnique + "  ");
+        System.out.println("\n   Exe.txt 6 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMapUnique + "  ");
 
     }
     private static TreeSet<String> margeToList(TreeSet<String> l, TreeSet<String> r) {

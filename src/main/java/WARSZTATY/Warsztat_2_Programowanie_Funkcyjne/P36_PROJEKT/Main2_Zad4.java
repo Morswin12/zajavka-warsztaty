@@ -29,7 +29,7 @@ public class Main2_Zad4 {
                 ));
 
 
-        System.out.println("\n Exe 4 \n Liczba klientów którzy kupowali w \"EUR\" to: " + count + "  ");
+        System.out.println("\n Exe.txt 4 \n Liczba klientów którzy kupowali w \"EUR\" to: " + count + "  ");
 
         System.out.println(productListInEUR);
 

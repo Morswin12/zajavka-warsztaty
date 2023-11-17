@@ -19,7 +19,7 @@ public class Main1 {
                 .distinct()
                 .count();
 
-        System.out.println("   Exe 1 \n We have: : " + counter + " buyers.\n");
+        System.out.println("   Exe.txt 1 \n We have: : " + counter + " buyers.\n");
 
 
         // Zadanie 2a
@@ -37,7 +37,7 @@ public class Main1 {
         clientsPayingBLIK.stream()
                 .peek(client -> counter2.incrementAndGet()).collect(Collectors.toList());
 
-        System.out.println("Exe 2 \n " + counter2 + " clients used BLIK \n");
+        System.out.println("Exe.txt 2 \n " + counter2 + " clients used BLIK \n");
 
         // Zadanie 2a
 
@@ -47,7 +47,7 @@ public class Main1 {
                 .distinct()
                 .count();
 
-        System.out.println("Exe 2 \n " + count2 + " clients used BLIK \n");
+        System.out.println("Exe.txt 2 \n " + count2 + " clients used BLIK \n");
 
 
         // Zadanie 3
@@ -56,7 +56,7 @@ public class Main1 {
                 .map(client -> Integer.parseInt(client.substring(7)))
                 .count()    ;
 
-        System.out.println("Exe 3 \n " + count + " clients used Credit Card \n");
+        System.out.println("Exe.txt 3 \n " + count + " clients used Credit Card \n");
 
 
         // Zadanie 4
@@ -67,7 +67,7 @@ public class Main1 {
                 .filter("EUR"::equals)
                 .count();
 
-        System.out.println("Exe 4 \n " + currencyTransactionEUR + " products was buying in EURO \n");
+        System.out.println("Exe.txt 4 \n " + currencyTransactionEUR + " products was buying in EURO \n");
 
 
         // Zadanie 5a
@@ -81,7 +81,7 @@ public class Main1 {
 
         long count1 = currencyTransactionUniqueInEUR.get(Money.Currency.EUR).size();
 
-        System.out.println("Exe 5 \n " + count1 + " unical products was buying in EURO \n");
+        System.out.println("Exe.txt 5 \n " + count1 + " unical products was buying in EURO \n");
 
         // Zadanie 5b
 
@@ -91,7 +91,7 @@ public class Main1 {
                 .distinct()
                 .count();
 
-        System.out.println("Exe 5 \n " + count3 + " unical products was buying in EURO \n");
+        System.out.println("Exe.txt 5 \n " + count3 + " unical products was buying in EURO \n");
     }
 
     private static HashSet<String> marge(HashSet<String> l, HashSet<String> r) {

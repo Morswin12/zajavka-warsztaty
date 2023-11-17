@@ -22,7 +22,7 @@ public class Main2_Zad3 {
                 .count();
 
 
-        System.out.println("\n Exe 3 \n Liczba zakópów ze statusem \"DONE\" to: " + count + "  ");
+        System.out.println("\n Exe.txt 3 \n Liczba zakópów ze statusem \"DONE\" to: " + count + "  ");
 
         TreeMap<Purchase.Status, Integer> collect = produceShopingList.stream()
                 .map(purchase -> new Purchase(purchase, OrderService.checkOrderStatus(purchase)))

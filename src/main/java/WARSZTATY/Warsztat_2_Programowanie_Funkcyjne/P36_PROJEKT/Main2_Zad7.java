@@ -41,7 +41,7 @@ public class Main2_Zad7 {
 
         System.out.println(arrayList);
         System.out.println(aLong);
-//        System.out.println("\n   Exe 7 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMapUnique + "  ");
+//        System.out.println("\n   Exe.txt 7 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMapUnique + "  ");
 
     }
 

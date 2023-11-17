@@ -1,0 +1,1494 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://app.zajavka.pl/public/uploads/63fdb741bc87e100248e137e-w2-exercises-lambda-solutions.html
+Subject: =?utf-8?Q?Lambda=20-=20rozwi=C4=85zania?=
+Date: Mon, 8 May 2023 14:14:39 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--XWeIXgNwypFpz3qRrjCouNuw6o28nTU7PerbFgh2Jq----"
+
+
+------MultipartBoundary--XWeIXgNwypFpz3qRrjCouNuw6o28nTU7PerbFgh2Jq----
+Content-Type: text/html
+Content-ID: <frame-9B341199D997916BD61FC13036A5FA20@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://app.zajavka.pl/public/uploads/63fdb741bc87e100248e137e-w2-exercises-lambda-solutions.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-598f7482-d125-4a97-a194-e3b29c080a89@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-8ba69b7c-60ad-40bc=
+-9bcf-cfac55b7b47b@mhtml.blink" />
+
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta name=3D"generator" content=3D"Asciidoctor 2.0.17">
+<title>Lambda - rozwi=C4=85zania</title>
+
+
+</head>
+<body class=3D"article" unselectable=3D"on">
+<div id=3D"header">
+<h1>Lambda - rozwi=C4=85zania</h1>
+</div>
+<div id=3D"content">
+<div id=3D"preamble">
+<div class=3D"sectionbody">
+<div class=3D"admonitionblock note">
+<table>
+<tbody><tr>
+<td class=3D"icon">
+<div class=3D"title">Note</div>
+</td>
+<td class=3D"content">
+<div class=3D"paragraph">
+<p>W plikach z rozwi=C4=85zaniami specjalnie zablokowali=C5=9Bmy mo=C5=BCli=
+wo=C5=9B=C4=87 kopiowania kodu =C5=BAr=C3=B3d=C5=82owego, aby zmusi=C4=87 C=
+i=C4=99 do pisania kodu samodzielnie =F0=9F=98=81</p>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class=3D"admonitionblock note">
+<table>
+<tbody><tr>
+<td class=3D"icon">
+<div class=3D"title">Note</div>
+</td>
+<td class=3D"content">
+<div class=3D"paragraph">
+<p>Definicje interfejs=C3=B3w, kt=C3=B3re s=C4=85 wsp=C3=B3=C5=82dzielone m=
+i=C4=99dzy zadaniami zosta=C5=82y umieszczona poni=C5=BCej.</p>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Interface FunctionalInterface1</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+public</span> <span class=3D"kd">interface</span> <span class=3D"nc">Functi=
+onalInterface1</span> <span class=3D"o">{</span>
+
+    <span class=3D"nc">String</span> <span class=3D"nf">method</span><span =
+class=3D"o">(</span><span class=3D"kt">int</span> <span class=3D"n">a</span=
+><span class=3D"o">);</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Interface FunctionalInterface2</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+public</span> <span class=3D"kd">interface</span> <span class=3D"nc">Functi=
+onalInterface2</span> <span class=3D"o">{</span>
+
+    <span class=3D"nc">String</span> <span class=3D"nf">method</span><span =
+class=3D"o">(</span><span class=3D"kt">int</span> <span class=3D"n">a</span=
+><span class=3D"o">,</span> <span class=3D"nc">String</span> <span class=3D=
+"n">b</span><span class=3D"o">);</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Interface FunctionalInterface3</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+public</span> <span class=3D"kd">interface</span> <span class=3D"nc">Functi=
+onalInterface3</span> <span class=3D"o">{</span>
+
+    <span class=3D"nc">String</span> <span class=3D"nf">method</span><span =
+class=3D"o">(</span><span class=3D"kt">int</span> <span class=3D"n">a</span=
+><span class=3D"o">,</span> <span class=3D"kt">int</span> <span class=3D"n"=
+>b</span><span class=3D"o">,</span> <span class=3D"nc">String</span> <span =
+class=3D"n">c</span><span class=3D"o">);</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sect1">
+<h2 id=3D"_przyk=C5=82adowe_rozwi=C4=85zanie_zadania_1">Przyk=C5=82adowe ro=
+zwi=C4=85zanie zadania 1</h2>
+<div class=3D"sectionbody">
+<div class=3D"paragraph">
+<p><strong>Tre=C5=9B=C4=87:</strong> Stw=C3=B3rz interface funkcyjny z meto=
+d=C4=85 przyjmuj=C4=85c=C4=85 int i zwracaj=C4=85c=C4=85 String. Zaimplemen=
+tuj ten interface przy wykorzystaniu lambdy. Spr=C3=B3buj zapisa=C4=87 lamb=
+d=C4=99 na par=C4=99 pokazanych sposob=C3=B3w.</p>
+</div>
+<div class=3D"paragraph">
+<p><strong>Rozwi=C4=85zanie:</strong></p>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Klasa Exercise1</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+class</span> <span class=3D"nc">Exercise1</span> <span class=3D"o">{</span>
+    <span class=3D"kd">private</span> <span class=3D"kd">static</span> <spa=
+n class=3D"kt">void</span> <span class=3D"nf">exercise1</span><span class=
+=3D"o">()</span> <span class=3D"o">{</span>
+        <span class=3D"c1">// Wspomniany w tre=C5=9Bci interface zosta=C5=
+=82 nazwany FunctionalInterface1</span>
+        <span class=3D"nc">FunctionalInterface1</span> <span class=3D"n">fu=
+nctionalInterface1</span> <span class=3D"o">=3D</span> <span class=3D"n">a<=
+/span> <span class=3D"o">-&gt;</span> <span class=3D"s">"new String"</span>=
+<span class=3D"o">;</span>
+        <span class=3D"nc">FunctionalInterface1</span> <span class=3D"n">fu=
+nctionalInterface2</span> <span class=3D"o">=3D</span> <span class=3D"n">a<=
+/span> <span class=3D"o">-&gt;</span> <span class=3D"o">{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+        <span class=3D"nc">FunctionalInterface1</span> <span class=3D"n">fu=
+nctionalInterface3</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"n">a</span><span class=3D"o">)</span> <span class=3D"o=
+">-&gt;</span> <span class=3D"s">"new String"</span><span class=3D"o">;</sp=
+an>
+        <span class=3D"nc">FunctionalInterface1</span> <span class=3D"n">fu=
+nctionalInterface4</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"kt">int</span> <span class=3D"n">a</span><span class=
+=3D"o">)</span> <span class=3D"o">-&gt;</span> <span class=3D"o">{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+
+        <span class=3D"c1">// Wcze=C5=9Bniej implementowali=C5=9Bmy interfa=
+ce funkcyjny przy wykorzystaniu lambdy.</span>
+        <span class=3D"c1">// Poni=C5=BCej wywo=C5=82ujemy metody, kt=C3=B3=
+re zosta=C5=82y zaimplementowane wykorzystuj=C4=85c lambd=C4=99.</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface1</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface2</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface3</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface4</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">));</span>
+    <span class=3D"o">}</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sect1">
+<h2 id=3D"_przyk=C5=82adowe_rozwi=C4=85zanie_zadania_2">Przyk=C5=82adowe ro=
+zwi=C4=85zanie zadania 2</h2>
+<div class=3D"sectionbody">
+<div class=3D"paragraph">
+<p><strong>Tre=C5=9B=C4=87:</strong> Stw=C3=B3rz interface funkcyjny z meto=
+d=C4=85 przyjmuj=C4=85c=C4=85 int i String i zwracaj=C4=85c=C4=85 String. Z=
+aimplementuj ten interface przy wykorzystaniu lambdy. Spr=C3=B3buj zapisa=
+=C4=87 lambd=C4=99 na par=C4=99 pokazanych sposob=C3=B3w.</p>
+</div>
+<div class=3D"paragraph">
+<p><strong>Rozwi=C4=85zanie:</strong></p>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Klasa Exercise2</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+class</span> <span class=3D"nc">Exercise2</span> <span class=3D"o">{</span>
+    <span class=3D"kd">private</span> <span class=3D"kd">static</span> <spa=
+n class=3D"kt">void</span> <span class=3D"nf">exercise2</span><span class=
+=3D"o">()</span> <span class=3D"o">{</span>
+        <span class=3D"c1">// Wspomniany w tre=C5=9Bci interface zosta=C5=
+=82 nazwany FunctionalInterface2</span>
+        <span class=3D"nc">FunctionalInterface2</span> <span class=3D"n">fu=
+nctionalInterface1</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"n">a</span><span class=3D"o">,</span> <span class=3D"n=
+">b</span><span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span c=
+lass=3D"s">"new String"</span><span class=3D"o">;</span>
+        <span class=3D"nc">FunctionalInterface2</span> <span class=3D"n">fu=
+nctionalInterface2</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"n">a</span><span class=3D"o">,</span> <span class=3D"n=
+">b</span><span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span c=
+lass=3D"o">{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+        <span class=3D"nc">FunctionalInterface2</span> <span class=3D"n">fu=
+nctionalInterface3</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"kt">int</span> <span class=3D"n">a</span><span class=
+=3D"o">,</span> <span class=3D"nc">String</span> <span class=3D"n">b</span>=
+<span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span class=3D"s"=
+>"new String"</span><span class=3D"o">;</span>
+        <span class=3D"nc">FunctionalInterface2</span> <span class=3D"n">fu=
+nctionalInterface4</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"kt">int</span> <span class=3D"n">a</span><span class=
+=3D"o">,</span> <span class=3D"nc">String</span> <span class=3D"n">b</span>=
+<span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span class=3D"o"=
+>{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+
+        <span class=3D"c1">// Wcze=C5=9Bniej implementowali=C5=9Bmy interfa=
+ce funkcyjny przy wykorzystaniu lambdy.</span>
+        <span class=3D"c1">// Poni=C5=BCej wywo=C5=82ujemy metody, kt=C3=B3=
+re zosta=C5=82y zaimplementowane wykorzystuj=C4=85c lambd=C4=99.</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface1</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"s">"some argument"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface2</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"s">"some argument"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface3</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"s">"some argument"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface4</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"s">"some argument"</span><span class=3D"o">));</span>
+    <span class=3D"o">}</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sect1">
+<h2 id=3D"_przyk=C5=82adowe_rozwi=C4=85zanie_zadania_3">Przyk=C5=82adowe ro=
+zwi=C4=85zanie zadania 3</h2>
+<div class=3D"sectionbody">
+<div class=3D"paragraph">
+<p><strong>Tre=C5=9B=C4=87:</strong> Stw=C3=B3rz interface funkcyjny z meto=
+d=C4=85 przyjmuj=C4=85c=C4=85 int, int oraz String i zwracaj=C4=85c=C4=85 S=
+tring. Zaimplementuj ten interface przy wykorzystaniu lambdy. Spr=C3=B3buj =
+zapisa=C4=87 lambd=C4=99 na par=C4=99 pokazanych sposob=C3=B3w.</p>
+</div>
+<div class=3D"paragraph">
+<p><strong>Rozwi=C4=85zanie:</strong></p>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Klasa Exercise3</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+class</span> <span class=3D"nc">Exercise3</span> <span class=3D"o">{</span>
+    <span class=3D"kd">private</span> <span class=3D"kd">static</span> <spa=
+n class=3D"kt">void</span> <span class=3D"nf">exercise3</span><span class=
+=3D"o">()</span> <span class=3D"o">{</span>
+        <span class=3D"c1">// Wspomniany w tre=C5=9Bci interface zosta=C5=
+=82 nazwany FunctionalInterface3</span>
+        <span class=3D"nc">FunctionalInterface3</span> <span class=3D"n">fu=
+nctionalInterface1</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"n">a</span><span class=3D"o">,</span> <span class=3D"n=
+">b</span><span class=3D"o">,</span> <span class=3D"n">c</span><span class=
+=3D"o">)</span> <span class=3D"o">-&gt;</span> <span class=3D"s">"new Strin=
+g"</span><span class=3D"o">;</span>
+        <span class=3D"nc">FunctionalInterface3</span> <span class=3D"n">fu=
+nctionalInterface2</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"n">a</span><span class=3D"o">,</span> <span class=3D"n=
+">b</span><span class=3D"o">,</span> <span class=3D"n">c</span><span class=
+=3D"o">)</span> <span class=3D"o">-&gt;</span> <span class=3D"o">{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+        <span class=3D"nc">FunctionalInterface3</span> <span class=3D"n">fu=
+nctionalInterface3</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"kt">int</span> <span class=3D"n">a</span><span class=
+=3D"o">,</span> <span class=3D"kt">int</span> <span class=3D"n">b</span><sp=
+an class=3D"o">,</span> <span class=3D"nc">String</span> <span class=3D"n">=
+c</span><span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span cla=
+ss=3D"s">"new String"</span><span class=3D"o">;</span>
+        <span class=3D"nc">FunctionalInterface3</span> <span class=3D"n">fu=
+nctionalInterface4</span> <span class=3D"o">=3D</span> <span class=3D"o">(<=
+/span><span class=3D"kt">int</span> <span class=3D"n">a</span><span class=
+=3D"o">,</span> <span class=3D"kt">int</span> <span class=3D"n">b</span><sp=
+an class=3D"o">,</span> <span class=3D"nc">String</span> <span class=3D"n">=
+c</span><span class=3D"o">)</span> <span class=3D"o">-&gt;</span> <span cla=
+ss=3D"o">{</span>
+            <span class=3D"k">return</span> <span class=3D"s">"new String"<=
+/span><span class=3D"o">;</span>
+        <span class=3D"o">};</span>
+
+        <span class=3D"c1">// Wcze=C5=9Bniej implementowali=C5=9Bmy interfa=
+ce funkcyjny przy wykorzystaniu lambdy.</span>
+        <span class=3D"c1">// Poni=C5=BCej wywo=C5=82ujemy metody, kt=C3=B3=
+re zosta=C5=82y zaimplementowane wykorzystuj=C4=85c lambd=C4=99.</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface1</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface2</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface3</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface4</span>=
+<span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o"=
+>(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+    <span class=3D"o">}</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sect1">
+<h2 id=3D"_przyk=C5=82adowe_rozwi=C4=85zanie_zadania_4">Przyk=C5=82adowe ro=
+zwi=C4=85zanie zadania 4</h2>
+<div class=3D"sectionbody">
+<div class=3D"paragraph">
+<p><strong>Tre=C5=9B=C4=87:</strong> Dla por=C3=B3wnania, zaimplementuj int=
+erface z poprzedniego =C4=87wiczenia przy wykorzystaniu klasy implementuj=
+=C4=85cej interface, a nie lambdy.</p>
+</div>
+<div class=3D"paragraph">
+<p><strong>Rozwi=C4=85zanie:</strong></p>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Klasa Exercise4</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+class</span> <span class=3D"nc">Exercise4</span> <span class=3D"o">{</span>
+    <span class=3D"kd">private</span> <span class=3D"kd">static</span> <spa=
+n class=3D"kt">void</span> <span class=3D"nf">exercise4</span><span class=
+=3D"o">()</span> <span class=3D"o">{</span>
+        <span class=3D"nc">FunctionalInterface3</span> <span class=3D"n">fu=
+nctionalInterface</span> <span class=3D"o">=3D</span> <span class=3D"k">new=
+</span> <span class=3D"nc">ImplementingClassic</span><span class=3D"o">();<=
+/span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface</span><=
+span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o">=
+(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface</span><=
+span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o">=
+(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface</span><=
+span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o">=
+(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+        <span class=3D"nc">System</span><span class=3D"o">.</span><span cla=
+ss=3D"na">out</span><span class=3D"o">.</span><span class=3D"na">println</s=
+pan><span class=3D"o">(</span><span class=3D"n">functionalInterface</span><=
+span class=3D"o">.</span><span class=3D"na">method</span><span class=3D"o">=
+(</span><span class=3D"mi">1</span><span class=3D"o">,</span> <span class=
+=3D"mi">5</span><span class=3D"o">,</span> <span class=3D"s">"some argument=
+"</span><span class=3D"o">));</span>
+    <span class=3D"o">}</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+<div class=3D"listingblock">
+<div class=3D"title">Klasa ImplementingClassic</div>
+<div class=3D"content">
+<pre class=3D"rouge highlight"><code data-lang=3D"java"><span class=3D"kd">=
+class</span> <span class=3D"nc">ImplementingClassic</span> <span class=3D"k=
+d">implements</span> <span class=3D"nc">FunctionalInterface3</span> <span c=
+lass=3D"o">{</span>
+    <span class=3D"nd">@Override</span>
+    <span class=3D"kd">public</span> <span class=3D"nc">String</span> <span=
+ class=3D"nf">method</span><span class=3D"o">(</span><span class=3D"kd">fin=
+al</span> <span class=3D"kt">int</span> <span class=3D"n">a</span><span cla=
+ss=3D"o">,</span> <span class=3D"kd">final</span> <span class=3D"kt">int</s=
+pan> <span class=3D"n">b</span><span class=3D"o">,</span> <span class=3D"kd=
+">final</span> <span class=3D"nc">String</span> <span class=3D"n">c</span><=
+span class=3D"o">)</span> <span class=3D"o">{</span>
+        <span class=3D"k">return</span> <span class=3D"s">"new String"</spa=
+n><span class=3D"o">;</span>
+    <span class=3D"o">}</span>
+<span class=3D"o">}</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"footer">
+<div id=3D"footer-text">
+
+</div>
+</div>
+
+
+</body></html>
+------MultipartBoundary--XWeIXgNwypFpz3qRrjCouNuw6o28nTU7PerbFgh2Jq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-598f7482-d125-4a97-a194-e3b29c080a89@mhtml.blink
+
+@charset "utf-8";
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, =
+nav, section, summary { display: block; }
+
+audio, canvas, video { display: inline-block; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden] { display: none; }
+
+html { background: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: sa=
+ns-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+a:focus { outline: dotted thin; }
+
+a:active, a:hover { outline: 0px; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+
+pre { white-space: pre-wrap; }
+
+q { quotes: "=E2=80=9C" "=E2=80=9D" "=E2=80=98" "=E2=80=99"; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0px; }
+
+fieldset { border: 1px solid rgb(192, 192, 192); margin: 0px 2px; padding: =
+0.35em 0.625em 0.75em; }
+
+legend { border: 0px; padding: 0px; }
+
+button, input, select, textarea { font-family: inherit; font-size: 100%; ma=
+rgin: 0px; }
+
+button, input { line-height: normal; }
+
+button, select { text-transform: none; }
+
+button, html input[type=3D"button"], input[type=3D"reset"], input[type=3D"s=
+ubmit"] { appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input[type=3D"checkbox"], input[type=3D"radio"] { box-sizing: border-box; p=
+adding: 0px; }
+
+input[type=3D"search"] { appearance: textfield; box-sizing: content-box; }
+
+input[type=3D"search"]::-webkit-search-cancel-button, input[type=3D"search"=
+]::-webkit-search-decoration { appearance: none; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+*, ::before, ::after { box-sizing: border-box; }
+
+html, body { font-size: 100%; }
+
+body { background: white; color: rgb(34, 34, 34); padding: 0px; margin: 0px=
+; font-family: "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif; f=
+ont-weight: normal; font-style: normal; line-height: 1; position: relative;=
+ cursor: auto; }
+
+a:hover { cursor: pointer; }
+
+a:focus { outline: none; }
+
+img, object, embed { max-width: 100%; height: auto; }
+
+object, embed { height: 100%; }
+
+img { }
+
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .m=
+ap_canvas embed, .map_canvas object { max-width: none !important; }
+
+.left { float: left !important; }
+
+.right { float: right !important; }
+
+.text-left { text-align: left !important; }
+
+.text-right { text-align: right !important; }
+
+.text-center { text-align: center !important; }
+
+.text-justify { text-align: justify !important; }
+
+.hide { display: none; }
+
+.antialiased, body { -webkit-font-smoothing: antialiased; }
+
+img { display: inline-block; vertical-align: middle; }
+
+textarea { height: auto; min-height: 50px; }
+
+select { width: 100%; }
+
+p.lead, .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of=
+-type p { font-size: 1.21875em; line-height: 1.6; }
+
+.subheader, #content #toctitle, .admonitionblock td.content > .title, .exam=
+pleblock > .title, .imageblock > .title, .videoblock > .title, .listingbloc=
+k > .title, .literalblock > .title, .openblock > .title, .paragraph > .titl=
+e, .quoteblock > .title, .sidebarblock > .title, .tableblock > .title, .ver=
+seblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist=
+ > .title, .hdlist > .title, .tableblock > caption { line-height: 1.4; colo=
+r: rgb(0, 59, 107); font-weight: 300; margin-top: 0.2em; margin-bottom: 0.5=
+em; }
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .conten=
+t > .title, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0px; pad=
+ding: 0px; direction: ltr; }
+
+a { color: rgb(0, 87, 158); text-decoration: none; line-height: inherit; }
+
+a:hover, a:focus { color: rgb(51, 51, 51); }
+
+a img { border: none; }
+
+p { font-family: Arial, sans-serif; font-weight: normal; font-size: 1em; li=
+ne-height: 1.6; margin-bottom: 0.75em; text-rendering: optimizelegibility; =
+}
+
+p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font=
+-family: Arial, sans-serif; font-weight: normal; font-style: normal; color:=
+ rgb(123, 45, 0); text-rendering: optimizelegibility; margin-top: 0.5em; ma=
+rgin-bottom: 0.5em; line-height: 1.2125em; }
+
+h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .=
+title small, h4 small, h5 small, h6 small { font-size: 60%; color: rgb(255,=
+ 107, 21); line-height: 0; }
+
+h1 { font-size: 2.125em; }
+
+h2 { font-size: 1.6875em; }
+
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; }
+
+h4 { font-size: 1.125em; }
+
+h5 { font-size: 1.125em; }
+
+h6 { font-size: 1em; }
+
+hr { border-style: solid; border-color: rgb(221, 221, 221); border-image: i=
+nitial; border-width: 1px 0px 0px; clear: both; margin: 1.25em 0px 1.1875em=
+; height: 0px; }
+
+em, i { font-style: italic; line-height: inherit; }
+
+strong, b { font-weight: bold; line-height: inherit; }
+
+small { font-size: 60%; line-height: inherit; }
+
+code { font-family: Consolas, "Liberation Mono", Courier, monospace; font-w=
+eight: bold; color: rgb(0, 52, 38); }
+
+ul, ol, dl { font-size: 1em; line-height: 1.6; margin-bottom: 0.75em; list-=
+style-position: outside; font-family: Arial, sans-serif; }
+
+ul, ol { margin-left: 1.5em; }
+
+ul li ul, ul li ol { margin-left: 1.25em; margin-bottom: 0px; font-size: 1e=
+m; }
+
+ul.square li ul, ul.circle li ul, ul.disc li ul { list-style: inherit; }
+
+ul.square { list-style-type: square; }
+
+ul.circle { list-style-type: circle; }
+
+ul.disc { list-style-type: disc; }
+
+ul.no-bullet { list-style: none; }
+
+ol li ul, ol li ol { margin-left: 1.25em; margin-bottom: 0px; }
+
+dl dt { margin-bottom: 0.3em; font-weight: bold; }
+
+dl dd { margin-bottom: 0.75em; }
+
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: black; bo=
+rder-bottom: 1px dotted rgb(221, 221, 221); cursor: help; }
+
+abbr { text-transform: none; }
+
+blockquote { margin: 0px 0px 0.75em; padding: 0.5625em 1.25em 0px 1.1875em;=
+ border-left: 1px solid rgb(221, 221, 221); }
+
+blockquote cite { display: block; font-size: 0.8125em; color: rgb(225, 82, =
+0); }
+
+blockquote cite::before { content: "=E2=80=94 "; }
+
+blockquote cite a, blockquote cite a:visited { color: rgb(225, 82, 0); }
+
+blockquote, blockquote p { line-height: 1.6; color: rgb(51, 51, 51); }
+
+.vcard { display: inline-block; margin: 0px 0px 1.25em; border: 1px solid r=
+gb(221, 221, 221); padding: 0.625em 0.75em; }
+
+.vcard li { margin: 0px; display: block; }
+
+.vcard .fn { font-weight: bold; font-size: 0.9375em; }
+
+.vevent .summary { font-weight: bold; }
+
+.vevent abbr { cursor: auto; text-decoration: none; font-weight: bold; bord=
+er: none; padding: 0px 0.0625em; }
+
+@media only screen and (min-width: 768px) {
+  h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { li=
+ne-height: 1.4; }
+  h1 { font-size: 2.75em; }
+  h2 { font-size: 2.3125em; }
+  h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
+  h4 { font-size: 1.4375em; }
+}
+
+.print-only { display: none !important; }
+
+@media print {
+  * { background: transparent !important; color: rgb(0, 0, 0) !important; b=
+ox-shadow: none !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; }
+  abbr[title]::after { content: " (" attr(title) ")"; }
+  .ir a::after, a[href^=3D"javascript:"]::after, a[href^=3D"#"]::after { co=
+ntent: ""; }
+  pre, blockquote { border: 1px solid rgb(153, 153, 153); break-inside: avo=
+id; }
+  thead { display: table-header-group; }
+  tr, img { break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3, #toctitle, .sidebarblock > .content > .title { orphans: 3; wid=
+ows: 3; }
+  h2, h3, #toctitle, .sidebarblock > .content > .title { break-after: avoid=
+; }
+  .hide-on-print { display: none !important; }
+  .print-only { display: block !important; }
+  .hide-for-print { display: none !important; }
+  .show-for-print { display: inherit !important; }
+}
+
+table { background: white; margin-bottom: 1.25em; border: 1px solid rgb(216=
+, 216, 206); }
+
+table thead, table tfoot { background: -webkit-linear-gradient(top, rgb(173=
+, 211, 134), rgb(144, 182, 106)); font-weight: bold; }
+
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td =
+{ padding: 0.5em 0.625em 0.625em; font-size: inherit; color: white; text-al=
+ign: left; }
+
+table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; c=
+olor: rgb(109, 110, 113); }
+
+table tr.even, table tr.alt, table tr:nth-of-type(2n) { background: rgb(237=
+, 242, 242); }
+
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table=
+ tfoot tr td { display: table-cell; line-height: 1.4; }
+
+a:hover, a:focus { text-decoration: underline; }
+
+.clearfix::before, .clearfix::after, .float-group::before, .float-group::af=
+ter { content: " "; display: table; }
+
+.clearfix::after, .float-group::after { clear: both; }
+
+:not(pre) > code { font-size: inherit; padding: 3px 2px 1px; white-space: n=
+owrap; background-color: rgb(238, 238, 238); border: 1px solid rgb(221, 221=
+, 221); border-radius: 0px; text-shadow: none; }
+
+pre, pre > code { line-height: 1.6; color: black; font-family: Consolas, "L=
+iberation Mono", Courier, monospace; font-weight: normal; font-size: 0.8em;=
+ }
+
+kbd.keyseq { color: rgb(51, 51, 51); }
+
+kbd:not(.keyseq) { display: inline-block; color: black; font-size: 0.75em; =
+line-height: 1.4; background-color: rgb(247, 247, 247); border: 1px solid r=
+gb(204, 204, 204); border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.2) 0px 1=
+px 0px, white 0px 0px 0px 2px inset; margin: -0.15em 0.15em 0px; padding: 0=
+.2em 0.6em 0.2em 0.5em; vertical-align: middle; white-space: nowrap; }
+
+kbd kbd:first-child { margin-left: 0px; }
+
+kbd kbd:last-child { margin-right: 0px; }
+
+.menuseq, .menu { color: black; }
+
+#header, #content, #footnotes, #footer { width: 100%; margin: 0px auto; max=
+-width: 62.5em; position: relative; padding-left: 1.5em; padding-right: 1.5=
+em; }
+
+#header::before, #header::after, #content::before, #content::after, #footno=
+tes::before, #footnotes::after, #footer::before, #footer::after { content: =
+" "; display: table; }
+
+#header::after, #content::after, #footnotes::after, #footer::after { clear:=
+ both; }
+
+#header { margin-bottom: 2.5em; }
+
+#header > h1 { color: rgb(123, 45, 0); font-weight: normal; border-bottom: =
+1px solid rgb(221, 221, 221); margin-bottom: -28px; padding-bottom: 32px; }
+
+#header span { color: rgb(51, 51, 51); }
+
+#header #revnumber { text-transform: capitalize; }
+
+#header br { display: none; }
+
+#header br + span { padding-left: 3px; }
+
+#header br + span::before { content: "=E2=80=93 "; }
+
+#header br + span.author { padding-left: 0px; }
+
+#header br + span.author::before { content: ", "; }
+
+#toc { border-bottom: 1px solid rgb(221, 221, 221); padding-bottom: 1.25em;=
+ }
+
+#toc > ul { margin-left: 0.25em; }
+
+#toc ul.sectlevel0 > li > a { font-style: italic; }
+
+#toc ul.sectlevel0 ul.sectlevel1 { margin-left: 0px; margin-top: 0.5em; mar=
+gin-bottom: 0.5em; }
+
+#toc ul { list-style-type: none; }
+
+#toctitle { color: rgb(0, 59, 107); }
+
+@media only screen and (min-width: 1280px) {
+  body.toc2 { padding-left: 20em; }
+  #toc.toc2 { position: fixed; width: 20em; left: 0px; top: 0px; border-rig=
+ht: 1px solid rgb(221, 221, 221); border-bottom: 0px; z-index: 1000; paddin=
+g: 1em; height: 100%; overflow: auto; }
+  #toc.toc2 #toctitle { margin-top: 0px; }
+  #toc.toc2 > ul { font-size: 0.95em; }
+  #toc.toc2 ul ul { margin-left: 0px; padding-left: 1.25em; }
+  #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0px; margin-top: 0.=
+5em; margin-bottom: 0.5em; }
+  body.toc2.toc-right { padding-left: 0px; padding-right: 20em; }
+  body.toc2.toc-right #toc.toc2 { border-right: 0px; border-left: 1px solid=
+ rgb(221, 221, 221); left: auto; right: 0px; }
+}
+
+#content #toc { border-style: solid; border-color: rgb(230, 230, 230); marg=
+in-bottom: 1.25em; padding: 1.25em; background: white; border-width: 0px; b=
+order-radius: 0px; }
+
+#content #toc > :first-child { margin-top: 0px; }
+
+#content #toc > :last-child { margin-bottom: 0px; }
+
+#content #toc a { text-decoration: none; }
+
+#content #toctitle { font-weight: bold; font-family: "Helvetica Neue", Helv=
+etica, Helvetica, Arial, sans-serif; font-size: 1em; padding-left: 0.125em;=
+ }
+
+#footer { max-width: 100%; padding: 1.25em; }
+
+#footer-text { color: black; line-height: 1.44; }
+
+.sect1 { padding-bottom: 1.25em; }
+
+.sect1 + .sect1 { border-top: 1px solid rgb(221, 221, 221); }
+
+#content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor,=
+ .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor=
+, h6 > a.anchor { position: absolute; width: 1em; margin-left: -1em; displa=
+y: block; text-decoration: none; visibility: hidden; text-align: center; fo=
+nt-weight: normal; }
+
+#content h1 > a.anchor::before, h2 > a.anchor::before, h3 > a.anchor::befor=
+e, #toctitle > a.anchor::before, .sidebarblock > .content > .title > a.anch=
+or::before, h4 > a.anchor::before, h5 > a.anchor::before, h6 > a.anchor::be=
+fore { content: "=C2=A7"; font-size: 0.85em; vertical-align: text-top; disp=
+lay: block; margin-top: 0.05em; }
+
+#content h1:hover > a.anchor, #content h1 > a.anchor:hover, h2:hover > a.an=
+chor, h2 > a.anchor:hover, h3:hover > a.anchor, #toctitle:hover > a.anchor,=
+ .sidebarblock > .content > .title:hover > a.anchor, h3 > a.anchor:hover, #=
+toctitle > a.anchor:hover, .sidebarblock > .content > .title > a.anchor:hov=
+er, h4:hover > a.anchor, h4 > a.anchor:hover, h5:hover > a.anchor, h5 > a.a=
+nchor:hover, h6:hover > a.anchor, h6 > a.anchor:hover { visibility: visible=
+; }
+
+#content h1 > a.link, h2 > a.link, h3 > a.link, #toctitle > a.link, .sideba=
+rblock > .content > .title > a.link, h4 > a.link, h5 > a.link, h6 > a.link =
+{ color: rgb(123, 45, 0); text-decoration: none; }
+
+#content h1 > a.link:hover, h2 > a.link:hover, h3 > a.link:hover, #toctitle=
+ > a.link:hover, .sidebarblock > .content > .title > a.link:hover, h4 > a.l=
+ink:hover, h5 > a.link:hover, h6 > a.link:hover { color: rgb(98, 36, 0); }
+
+.imageblock, .literalblock, .listingblock, .verseblock, .videoblock { margi=
+n-bottom: 1.25em; }
+
+.admonitionblock td.content > .title, .exampleblock > .title, .imageblock >=
+ .title, .videoblock > .title, .listingblock > .title, .literalblock > .tit=
+le, .openblock > .title, .paragraph > .title, .quoteblock > .title, .sideba=
+rblock > .title, .tableblock > .title, .verseblock > .title, .dlist > .titl=
+e, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { te=
+xt-align: left; font-weight: bold; }
+
+.tableblock > caption { text-align: left; font-weight: bold; white-space: n=
+owrap; overflow: visible; max-width: 0px; }
+
+table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { fo=
+nt-size: inherit; }
+
+.admonitionblock > table { border: 0px; background: none; width: 100%; }
+
+.admonitionblock > table td.icon { text-align: center; width: 80px; }
+
+.admonitionblock > table td.icon img { max-width: none; }
+
+.admonitionblock > table td.icon .title { font-weight: bold; text-transform=
+: uppercase; }
+
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right:=
+ 1.25em; border-left: 1px solid rgb(221, 221, 221); color: rgb(51, 51, 51);=
+ }
+
+.admonitionblock > table td.content > :last-child > :last-child { margin-bo=
+ttom: 0px; }
+
+.exampleblock > .content { border-style: solid; border-width: 1px; border-c=
+olor: rgb(230, 230, 230); margin-bottom: 1.25em; padding: 1.25em; backgroun=
+d: white; border-radius: 0px; }
+
+.exampleblock > .content > :first-child { margin-top: 0px; }
+
+.exampleblock > .content > :last-child { margin-bottom: 0px; }
+
+.exampleblock > .content h1, .exampleblock > .content h2, .exampleblock > .=
+content h3, .exampleblock > .content #toctitle, .sidebarblock.exampleblock =
+> .content > .title, .exampleblock > .content h4, .exampleblock > .content =
+h5, .exampleblock > .content h6, .exampleblock > .content p { color: rgb(51=
+, 51, 51); }
+
+.exampleblock > .content h1, .exampleblock > .content h2, .exampleblock > .=
+content h3, .exampleblock > .content #toctitle, .sidebarblock.exampleblock =
+> .content > .title, .exampleblock > .content h4, .exampleblock > .content =
+h5, .exampleblock > .content h6 { line-height: 1; margin-bottom: 0.625em; }
+
+.exampleblock > .content h1.subheader, .exampleblock > .content h2.subheade=
+r, .exampleblock > .content h3.subheader, .exampleblock > .content .subhead=
+er#toctitle, .sidebarblock.exampleblock > .content > .subheader.title, .exa=
+mpleblock > .content h4.subheader, .exampleblock > .content h5.subheader, .=
+exampleblock > .content h6.subheader { line-height: 1.4; }
+
+.exampleblock.result > .content { box-shadow: rgb(170, 170, 170) 0px 1px 8p=
+x; }
+
+.sidebarblock { border-style: solid; border-width: 1px; border-color: rgb(2=
+30, 230, 230); margin-bottom: 1.25em; padding: 1.25em; background: white; b=
+order-radius: 0px; }
+
+.sidebarblock > :first-child { margin-top: 0px; }
+
+.sidebarblock > :last-child { margin-bottom: 0px; }
+
+.sidebarblock h1, .sidebarblock h2, .sidebarblock h3, .sidebarblock #toctit=
+le, .sidebarblock > .content > .title, .sidebarblock h4, .sidebarblock h5, =
+.sidebarblock h6, .sidebarblock p { color: rgb(51, 51, 51); }
+
+.sidebarblock h1, .sidebarblock h2, .sidebarblock h3, .sidebarblock #toctit=
+le, .sidebarblock > .content > .title, .sidebarblock h4, .sidebarblock h5, =
+.sidebarblock h6 { line-height: 1; margin-bottom: 0.625em; }
+
+.sidebarblock h1.subheader, .sidebarblock h2.subheader, .sidebarblock h3.su=
+bheader, .sidebarblock .subheader#toctitle, .sidebarblock > .content > .sub=
+header.title, .sidebarblock h4.subheader, .sidebarblock h5.subheader, .side=
+barblock h6.subheader { line-height: 1.4; }
+
+.sidebarblock > .content > .title { color: rgb(0, 59, 107); margin-top: 0px=
+; line-height: 1.6; }
+
+.exampleblock > .content > :last-child > :last-child, .exampleblock > .cont=
+ent .olist > ol > li:last-child > :last-child, .exampleblock > .content .ul=
+ist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > o=
+l > li:last-child > :last-child, .sidebarblock > .content > :last-child > :=
+last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-ch=
+ild, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .s=
+idebarblock > .content .qlist > ol > li:last-child > :last-child { margin-b=
+ottom: 0px; }
+
+.literalblock > .content pre, .listingblock > .content pre { background: rg=
+b(238, 238, 238); border-width: 1px; border-style: dashed; border-color: rg=
+b(102, 102, 102); border-radius: 0px; padding: 1.25em 1.5625em 1.125em; ove=
+rflow-wrap: break-word; }
+
+.literalblock > .content pre.nowrap, .listingblock > .content pre.nowrap { =
+overflow-x: auto; white-space: pre; overflow-wrap: normal; }
+
+.literalblock > .content pre > code, .listingblock > .content pre > code { =
+display: block; }
+
+@media only screen {
+  .literalblock > .content pre, .listingblock > .content pre { font-size: 0=
+.72em; }
+}
+
+@media only screen and (min-width: 768px) {
+  .literalblock > .content pre, .listingblock > .content pre { font-size: 0=
+.81em; }
+}
+
+@media only screen and (min-width: 1280px) {
+  .literalblock > .content pre, .listingblock > .content pre { font-size: 0=
+.9em; }
+}
+
+.listingblock > .content { position: relative; }
+
+.listingblock:hover code[class*=3D" language-"]::before { text-transform: u=
+ppercase; font-size: 0.9em; color: rgb(153, 153, 153); position: absolute; =
+top: 0.375em; right: 0.375em; }
+
+.listingblock:hover code.asciidoc::before { content: "asciidoc"; }
+
+.listingblock:hover code.clojure::before { content: "clojure"; }
+
+.listingblock:hover code.css::before { content: "css"; }
+
+.listingblock:hover code.groovy::before { content: "groovy"; }
+
+.listingblock:hover code.html::before { content: "html"; }
+
+.listingblock:hover code.java::before { content: "java"; }
+
+.listingblock:hover code.javascript::before { content: "javascript"; }
+
+.listingblock:hover code.python::before { content: "python"; }
+
+.listingblock:hover code.ruby::before { content: "ruby"; }
+
+.listingblock:hover code.scss::before { content: "scss"; }
+
+.listingblock:hover code.xml::before { content: "xml"; }
+
+.listingblock:hover code.yaml::before { content: "yaml"; }
+
+.listingblock.terminal pre .command::before { content: attr(data-prompt); p=
+adding-right: 0.5em; color: rgb(153, 153, 153); }
+
+.listingblock.terminal pre .command:not([data-prompt])::before { content: "=
+$"; }
+
+table.pyhltable { border: 0px; margin-bottom: 0px; }
+
+table.pyhltable td { vertical-align: top; padding-top: 0px; padding-bottom:=
+ 0px; }
+
+table.pyhltable td.code { padding-left: 0.75em; padding-right: 0px; }
+
+.highlight.pygments .lineno, table.pyhltable td:not(.code) { color: rgb(153=
+, 153, 153); padding-left: 0px; padding-right: 0.5em; border-right: 1px sol=
+id rgb(221, 221, 221); }
+
+.highlight.pygments .lineno { display: inline-block; margin-right: 0.25em; =
+}
+
+table.pyhltable .linenodiv { background-color: transparent !important; padd=
+ing-right: 0px !important; }
+
+.quoteblock { margin: 0px 0px 0.75em; padding: 0.5625em 1.25em 0px 1.1875em=
+; border-left: 1px solid rgb(221, 221, 221); }
+
+.quoteblock blockquote { margin: 0px 0px 0.75em; padding: 0px 0px 0.5625em;=
+ border: 0px; }
+
+.quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0px; }
+
+.quoteblock .attribution { margin-top: -0.25em; padding-bottom: 0.5625em; f=
+ont-size: 0.8125em; color: rgb(225, 82, 0); }
+
+.quoteblock .attribution br { display: none; }
+
+.quoteblock .attribution cite { display: block; margin-bottom: 0.625em; }
+
+table thead th, table tfoot th { font-weight: bold; }
+
+table.tableblock.grid-all { border-collapse: separate; border-spacing: 1px;=
+ border-radius: 0px; border-top: 1px solid rgb(221, 221, 221); border-botto=
+m: 1px solid rgb(221, 221, 221); }
+
+table.tableblock.frame-topbot, table.tableblock.frame-none { border-left: 0=
+px; border-right: 0px; }
+
+table.tableblock.frame-sides, table.tableblock.frame-none { border-top: 0px=
+; border-bottom: 0px; }
+
+table.tableblock td .paragraph:last-child p, table.tableblock td > p:last-c=
+hild { margin-bottom: 0px; }
+
+th.tableblock.halign-left, td.tableblock.halign-left { text-align: left; }
+
+th.tableblock.halign-right, td.tableblock.halign-right { text-align: right;=
+ }
+
+th.tableblock.halign-center, td.tableblock.halign-center { text-align: cent=
+er; }
+
+th.tableblock.valign-top, td.tableblock.valign-top { vertical-align: top; }
+
+th.tableblock.valign-bottom, td.tableblock.valign-bottom { vertical-align: =
+bottom; }
+
+th.tableblock.valign-middle, td.tableblock.valign-middle { vertical-align: =
+middle; }
+
+p.tableblock.header { color: white; font-weight: bold; }
+
+td > div.verse { white-space: pre; }
+
+ol { margin-left: 1.75em; }
+
+ul li ol { margin-left: 1.5em; }
+
+dl dd { margin-left: 1.125em; }
+
+dl dd:last-child, dl dd:last-child > :last-child { margin-bottom: 0px; }
+
+ol > li p, ul > li p, ul dd, ol dd, .olist .olist, .ulist .ulist, .ulist .o=
+list, .olist .ulist { margin-bottom: 0.375em; }
+
+ul.unstyled, ol.unnumbered, ul.checklist, ul.none { list-style-type: none; =
+}
+
+ul.unstyled, ol.unnumbered, ul.checklist { margin-left: 0.625em; }
+
+ul.checklist li > p:first-child > i[class^=3D"icon-check"]:first-child, ul.=
+checklist li > p:first-child > input[type=3D"checkbox"]:first-child { margi=
+n-right: 0.25em; }
+
+ul.checklist li > p:first-child > input[type=3D"checkbox"]:first-child { po=
+sition: relative; top: 1px; }
+
+ul.inline { margin: 0px 0px 0.375em -1.375em; padding: 0px; list-style: non=
+e; overflow: hidden; }
+
+ul.inline > li { list-style: none; float: left; margin-left: 1.375em; displ=
+ay: block; }
+
+ul.inline > li > * { display: block; }
+
+.unstyled dl dt { font-weight: normal; font-style: normal; }
+
+ol.arabic { list-style-type: decimal; }
+
+ol.decimal { list-style-type: decimal-leading-zero; }
+
+ol.loweralpha { list-style-type: lower-alpha; }
+
+ol.upperalpha { list-style-type: upper-alpha; }
+
+ol.lowerroman { list-style-type: lower-roman; }
+
+ol.upperroman { list-style-type: upper-roman; }
+
+ol.lowergreek { list-style-type: lower-greek; }
+
+.hdlist > table, .colist > table { border: 0px; background: none; }
+
+.hdlist > table > tbody > tr, .colist > table > tbody > tr { background: no=
+ne; }
+
+td.hdlist1 { padding-right: 0.8em; font-weight: bold; }
+
+td.hdlist1, td.hdlist2 { vertical-align: top; }
+
+.literalblock + .colist, .listingblock + .colist { margin-top: -0.5em; }
+
+.colist > table tr > td:first-of-type { padding: 0px 0.8em; line-height: 1;=
+ }
+
+.colist > table tr > td:last-of-type { padding: 0.25em 0px; }
+
+.qanda > ol > li > p > em:only-child { color: rgb(0, 73, 133); }
+
+.thumb, .th { line-height: 0; display: inline-block; border: 4px solid whit=
+e; box-shadow: rgb(221, 221, 221) 0px 0px 0px 1px; }
+
+.imageblock.left, .imageblock[style*=3D"float: left"] { margin: 0.25em 0.62=
+5em 1.25em 0px; }
+
+.imageblock.right, .imageblock[style*=3D"float: right"] { margin: 0.25em 0p=
+x 1.25em 0.625em; }
+
+.imageblock > .title { margin-bottom: 0px; }
+
+.imageblock.thumb, .imageblock.th { border-width: 6px; }
+
+.imageblock.thumb > .title, .imageblock.th > .title { padding: 0px 0.125em;=
+ }
+
+.image.left, .image.right { margin-top: 0.25em; margin-bottom: 0.25em; disp=
+lay: inline-block; line-height: 0; }
+
+.image.left { margin-right: 0.625em; }
+
+.image.right { margin-left: 0.625em; }
+
+a.image { text-decoration: none; }
+
+span.footnote, span.footnoteref { vertical-align: super; font-size: 0.875em=
+; }
+
+span.footnote a, span.footnoteref a { text-decoration: none; }
+
+#footnotes { padding-top: 0.75em; padding-bottom: 0.75em; margin-bottom: 0.=
+625em; }
+
+#footnotes hr { width: 20%; min-width: 6.25em; margin: -0.25em 0px 0.75em; =
+border-width: 1px 0px 0px; }
+
+#footnotes .footnote { padding: 0px 0.375em; line-height: 1.3; font-size: 0=
+.875em; margin-left: 1.2em; text-indent: -1.2em; margin-bottom: 0.2em; }
+
+#footnotes .footnote a:first-of-type { font-weight: bold; text-decoration: =
+none; }
+
+#footnotes .footnote:last-of-type { margin-bottom: 0px; }
+
+#content #footnotes { margin-top: -0.625em; margin-bottom: 0px; padding: 0.=
+75em 0px; }
+
+.gist .file-data > table { border: none; background: rgb(255, 255, 255); wi=
+dth: 100%; margin-bottom: 0px; }
+
+.gist .file-data > table td.line-data { width: 99%; }
+
+div.unbreakable { break-inside: avoid; }
+
+.big { font-size: larger; }
+
+.small { font-size: smaller; }
+
+.underline { text-decoration: underline; }
+
+.overline { text-decoration: overline; }
+
+.line-through { text-decoration: line-through; }
+
+.aqua { color: rgb(0, 191, 191); }
+
+.aqua-background { background-color: rgb(0, 250, 250); }
+
+.black { color: black; }
+
+.black-background { background-color: black; }
+
+.blue { color: rgb(0, 0, 191); }
+
+.blue-background { background-color: rgb(0, 0, 250); }
+
+.fuchsia { color: rgb(191, 0, 191); }
+
+.fuchsia-background { background-color: rgb(250, 0, 250); }
+
+.gray { color: rgb(96, 96, 96); }
+
+.gray-background { background-color: rgb(125, 125, 125); }
+
+.green { color: rgb(0, 96, 0); }
+
+.green-background { background-color: rgb(0, 125, 0); }
+
+.lime { color: rgb(0, 191, 0); }
+
+.lime-background { background-color: rgb(0, 250, 0); }
+
+.maroon { color: rgb(96, 0, 0); }
+
+.maroon-background { background-color: rgb(125, 0, 0); }
+
+.navy { color: rgb(0, 0, 96); }
+
+.navy-background { background-color: rgb(0, 0, 125); }
+
+.olive { color: rgb(96, 96, 0); }
+
+.olive-background { background-color: rgb(125, 125, 0); }
+
+.purple { color: rgb(96, 0, 96); }
+
+.purple-background { background-color: rgb(125, 0, 125); }
+
+.red { color: rgb(191, 0, 0); }
+
+.red-background { background-color: rgb(250, 0, 0); }
+
+.silver { color: rgb(144, 144, 144); }
+
+.silver-background { background-color: rgb(188, 188, 188); }
+
+.teal { color: rgb(0, 96, 96); }
+
+.teal-background { background-color: rgb(0, 125, 125); }
+
+.white { color: rgb(191, 191, 191); }
+
+.white-background { background-color: rgb(250, 250, 250); }
+
+.yellow { color: rgb(191, 191, 0); }
+
+.yellow-background { background-color: rgb(250, 250, 0); }
+
+span.icon > [class^=3D"icon-"], span.icon > [class*=3D" icon-"] { cursor: d=
+efault; }
+
+.admonitionblock td.icon [class^=3D"icon-"]::before { font-size: 2.5em; tex=
+t-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px; cursor: default; }
+
+.admonitionblock td.icon .icon-note::before { content: "=EF=81=9A"; color: =
+rgb(0, 65, 118); }
+
+.admonitionblock td.icon .icon-tip::before { content: "=EF=83=AB"; text-sha=
+dow: rgba(155, 155, 0, 0.8) 1px 1px 2px; color: rgb(17, 17, 17); }
+
+.admonitionblock td.icon .icon-warning::before { content: "=EF=81=B1"; colo=
+r: rgb(191, 105, 0); }
+
+.admonitionblock td.icon .icon-caution::before { content: "=EF=81=AD"; colo=
+r: rgb(191, 52, 0); }
+
+.admonitionblock td.icon .icon-important::before { content: "=EF=81=AA"; co=
+lor: rgb(191, 0, 0); }
+
+.conum { display: inline-block; background-color: black; border-radius: 100=
+px; text-align: center; width: 20px; height: 20px; font-size: 12px; font-we=
+ight: bold; line-height: 20px; font-family: Arial, sans-serif; font-style: =
+normal; position: relative; top: -2px; letter-spacing: -1px; color: white !=
+important; }
+
+.conum * { color: white !important; }
+
+.conum + b { display: none; }
+
+.conum::after { content: attr(data-value); }
+
+.conum:not([data-value]):empty { display: none; }
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { bord=
+er-bottom: 1px solid rgb(221, 221, 221); }
+
+#toctitle { color: rgb(0, 64, 111); font-weight: normal; margin-top: 1.5em;=
+ }
+
+.sidebarblock { border-color: rgb(170, 170, 170); }
+
+code { border-radius: 4px; }
+
+p.tableblock.header { color: rgb(109, 110, 113); }
+------MultipartBoundary--XWeIXgNwypFpz3qRrjCouNuw6o28nTU7PerbFgh2Jq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8ba69b7c-60ad-40bc-9bcf-cfac55b7b47b@mhtml.blink
+
+@charset "utf-8";
+
+pre.rouge table td { padding: 5px; }
+
+pre.rouge table pre { margin: 0px; }
+
+pre.rouge .cm { color: rgb(153, 153, 136); font-style: italic; }
+
+pre.rouge .cp { color: rgb(153, 153, 153); font-weight: bold; }
+
+pre.rouge .c1 { color: rgb(153, 153, 136); font-style: italic; }
+
+pre.rouge .cs { color: rgb(153, 153, 153); font-weight: bold; font-style: i=
+talic; }
+
+pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf { color: rgb(153=
+, 153, 136); font-style: italic; }
+
+pre.rouge .err { color: rgb(166, 23, 23); background-color: rgb(227, 210, 2=
+10); }
+
+pre.rouge .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221); =
+}
+
+pre.rouge .ge { color: rgb(0, 0, 0); font-style: italic; }
+
+pre.rouge .gr { color: rgb(170, 0, 0); }
+
+pre.rouge .gh { color: rgb(153, 153, 153); }
+
+pre.rouge .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221); =
+}
+
+pre.rouge .go { color: rgb(136, 136, 136); }
+
+pre.rouge .gp { color: rgb(85, 85, 85); }
+
+pre.rouge .gs { font-weight: bold; }
+
+pre.rouge .gu { color: rgb(170, 170, 170); }
+
+pre.rouge .gt { color: rgb(170, 0, 0); }
+
+pre.rouge .kc { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .kd { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .kn { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .kp { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .kr { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .kt { color: rgb(68, 85, 136); font-weight: bold; }
+
+pre.rouge .k, pre.rouge .kv { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .mf { color: rgb(0, 153, 153); }
+
+pre.rouge .mh { color: rgb(0, 153, 153); }
+
+pre.rouge .il { color: rgb(0, 153, 153); }
+
+pre.rouge .mi { color: rgb(0, 153, 153); }
+
+pre.rouge .mo { color: rgb(0, 153, 153); }
+
+pre.rouge .m, pre.rouge .mb, pre.rouge .mx { color: rgb(0, 153, 153); }
+
+pre.rouge .sa { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .sb { color: rgb(221, 17, 68); }
+
+pre.rouge .sc { color: rgb(221, 17, 68); }
+
+pre.rouge .sd { color: rgb(221, 17, 68); }
+
+pre.rouge .s2 { color: rgb(221, 17, 68); }
+
+pre.rouge .se { color: rgb(221, 17, 68); }
+
+pre.rouge .sh { color: rgb(221, 17, 68); }
+
+pre.rouge .si { color: rgb(221, 17, 68); }
+
+pre.rouge .sx { color: rgb(221, 17, 68); }
+
+pre.rouge .sr { color: rgb(0, 153, 38); }
+
+pre.rouge .s1 { color: rgb(221, 17, 68); }
+
+pre.rouge .ss { color: rgb(153, 0, 115); }
+
+pre.rouge .s, pre.rouge .dl { color: rgb(221, 17, 68); }
+
+pre.rouge .na { color: rgb(0, 128, 128); }
+
+pre.rouge .bp { color: rgb(153, 153, 153); }
+
+pre.rouge .nb { color: rgb(0, 134, 179); }
+
+pre.rouge .nc { color: rgb(68, 85, 136); font-weight: bold; }
+
+pre.rouge .no { color: rgb(0, 128, 128); }
+
+pre.rouge .nd { color: rgb(60, 93, 93); font-weight: bold; }
+
+pre.rouge .ni { color: rgb(128, 0, 128); }
+
+pre.rouge .ne { color: rgb(153, 0, 0); font-weight: bold; }
+
+pre.rouge .nf, pre.rouge .fm { color: rgb(153, 0, 0); font-weight: bold; }
+
+pre.rouge .nl { color: rgb(153, 0, 0); font-weight: bold; }
+
+pre.rouge .nn { color: rgb(85, 85, 85); }
+
+pre.rouge .nt { color: rgb(0, 0, 128); }
+
+pre.rouge .vc { color: rgb(0, 128, 128); }
+
+pre.rouge .vg { color: rgb(0, 128, 128); }
+
+pre.rouge .vi { color: rgb(0, 128, 128); }
+
+pre.rouge .nv, pre.rouge .vm { color: rgb(0, 128, 128); }
+
+pre.rouge .ow { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .o { color: rgb(0, 0, 0); font-weight: bold; }
+
+pre.rouge .w { color: rgb(187, 187, 187); }
+
+pre.rouge { background-color: rgb(248, 248, 248); }
+------MultipartBoundary--XWeIXgNwypFpz3qRrjCouNuw6o28nTU7PerbFgh2Jq------

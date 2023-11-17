@@ -31,7 +31,7 @@ public class Main2_Zad5 {
             System.out.println(stringArrayListEntry.getKey() + " : " + stringArrayListEntry.getValue());
         }
 
-        System.out.println("\n   Exe 5 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMap + "  ");
+        System.out.println("\n   Exe.txt 5 \nLiczba klientów którzy kupowali w \"EUR\" to: " + clientYearMap + "  ");
 
     }
 
