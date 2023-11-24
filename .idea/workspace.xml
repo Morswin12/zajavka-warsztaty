@@ -4,23 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/AnotherInjectedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ConfigurationClassFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ConfigurationClassSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ExampleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/ExampleConfigurationClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/InjectedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_13_SPRING_BEANS/P5_Konfiguracja_Java/Main.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 13 SpringBeam (filmiki od 6 do końca)&#10;projekt z Warsztatu 13&#10;&#10;Warsztat 14 Mockito &#10;Wstęp&#10;&#10;Bonus:&#10;Notatki do warsztatów">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P11_Mockito_Spy/ExampleBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P11_Mockito_Spy/ExampleBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P12_Mockito_Metody_Statyczne/StaticMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P13_Mockito_BDD/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P13_Mockito_BDD/UserRegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P13_Mockito_BDD/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/ExampleBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/ExampleBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/InjectedBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/InjectedBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P5_Mockito__Bledna_konfiguracja_Mockito/ExampleBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P5_Mockito__Bledna_konfiguracja_Mockito/ExampleBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P5_Mockito__Bledna_konfiguracja_Mockito/InjectedBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P5_Mockito__Bledna_konfiguracja_Mockito/InjectedBeanServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P6_Mockito_Wyjatki/ExampleBeanService6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P6_Mockito_Wyjatki/ExampleBeanService6Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P6_Mockito_Wyjatki/InjectedBeanService6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P6_Mockito_Wyjatki/InjectedBeanService6Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P7_Mockito_Rozne_sposoby_zapisu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P8_Mockito_kropka_verify_nawiasy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_14_Spring_Application_Testing__Wstep/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/ConfigScanBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/ExampleBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/ExampleBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/InjectedBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/InjectedBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/BeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/CapacityCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/CapacityCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/DepthCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/DepthCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/HeightCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/HeightCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/Marker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/WidthCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/WidthCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/Marker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/UserManagementInMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/UserManagementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/UserManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P11_Mockito_Spy/ExampleBeanServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P12_Mockito_Metody_Statyczne/StaticMethodExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P12_Mockito_Metody_Statyczne/StaticMethodExampleTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P13_Mockito_BDD/UserRegistryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P3_Mockito_Przyklady/ExampleBeanServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P5_Mockito__Bledna_konfiguracja_Mockito/ExampleBeanServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P6_Mockito_Wyjatki/ExampleBeanService6ImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_14_Spring_Application_Testing__Wstep/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/ConfigScanBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/ExampleBeanServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/NoSpringTestContextFrameworkExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_15_Spring_Application_Testing__Testy_Integracyjne/NoSpringTestContextFrameworkExample_2_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/CapacityCalculationServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock/TestBeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P_17_Spring_Application_Testing__ZADANIE/UserManagementServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WARSZTATY/Warsztat_2_Programowanie_Funkcyjne/P36_PROJEKT/Main2_Zad6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/TimePointCalculationServiceImplTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/SomeClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING/P2_Mockowanie_Spring/SomeClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +141,13 @@
         <option value="UML Sequence" />
         <option value="UML Activity" />
         <option value="UML Component" />
-        <option value="JUnit5 Test Class" />
         <option value="UML Class" />
         <option value="Enum" />
         <option value="Record" />
         <option value="package-info" />
-        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -117,36 +183,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_8_TESTY_JEDNOSTKOWE/P15_Projekt/mortgage&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS/D2_DESIGN_PATTERNS/P15_PROTOTYPE&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY/Warsztat_14_MOCKING_I_SPRING",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java" />
-      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML" />
-      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P2_IoC" />
-      <recent name="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P16_Java_17" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P6_Mockito_Wyjatki" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P2_Mockowanie_Mockito" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS\D2_DESIGN_PATTERNS\a" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\test\resources" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P8_Logowanie_Logback_RollingFile" />
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P7_Logowanie_LOGBACK_File" />
     </key>
@@ -161,18 +227,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.services" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P15_Projekt.mortgage.model" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P_13_Zadanie" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P9_Zasady_pisania_dobrych_testow" />
-      <recent name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.Testy_JUnit_Logback" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_16_Spring_Application_Testing__Testy_Integracyjne_vs_mock" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_14_Spring_Application_Testing__Wstep" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P13_Mockito_BDD" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne" />
+      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P12_Mockito_Metody_Statyczne" />
+      <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P6_Konfiguracja_Adnotacje" />
       <recent name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P26_VISITOR.Lambda" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Lambda" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY.Traditional" />
-      <recent name="WARSZTATY.Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS.D2_DESIGN_PATTERNS.P25_STRATEGY" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -184,86 +250,116 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P14_P15_Java_16.Part1.Main" />
-      <module name="WarsztatyZajavka.main" />
+  <component name="RunManager" selected="JUnit.UserManagementServiceTest">
+    <configuration name="ExampleBeanServiceImplTest.testSampleMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_11_KOLEJNE_WERSJE_JAVY.P14_P15_Java_16.Part1.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_15_Spring_Application_Testing__Testy_Integracyjne.ExampleBeanServiceImplTest" />
+      <option name="METHOD_NAME" value="testSampleMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main_Part2" />
-      <module name="WarsztatyZajavka.main" />
+    <configuration name="StaticMethodExampleTest2.testGetNanoNow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P12_Mockito_Metody_Statyczne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P12_Mockito_Metody_Statyczne" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P12_Mockito_Metody_Statyczne.StaticMethodExampleTest2" />
+      <option name="METHOD_NAME" value="testGetNanoNow" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
-      <module name="WarsztatyZajavka.main" />
+    <configuration name="UserManagementServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.UserManagementServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" />
-      <module name="WarsztatyZajavka.main" />
+    <configuration name="UserManagementServiceTest.shouldCreateMultipleUsersCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.UserManagementServiceTest" />
+      <option name="METHOD_NAME" value="shouldCreateMultipleUsersCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
-      <module name="WarsztatyZajavka.main" />
+    <configuration name="UserManagementServiceTest.shouldDeleteUserCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.UserManagementServiceTest" />
+      <option name="METHOD_NAME" value="shouldDeleteUserCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagementServiceTest.shouldThrowWhenDeletingNonExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WarsztatyZajavka.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE.UserManagementServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowWhenDeletingNonExistingUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
-      <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" />
-      <item itemvalue="Application.Main_Part2" />
-      <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ExampleBeanServiceImplTest.testSampleMethod" />
+      <item itemvalue="JUnit.UserManagementServiceTest" />
+      <item itemvalue="JUnit.UserManagementServiceTest.shouldCreateMultipleUsersCorrectly" />
+      <item itemvalue="JUnit.UserManagementServiceTest.shouldDeleteUserCorrectly" />
+      <item itemvalue="JUnit.UserManagementServiceTest.shouldThrowWhenDeletingNonExistingUser" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P5_Konfiguracja_Java.Main" />
-        <item itemvalue="Application.WARSZTATY.Warsztat_13_SPRING_BEANS.P4_Konfiguracja_XML.Main" />
-        <item itemvalue="Application.Main_Part2" />
-        <item itemvalue="Application.WARSZTATY.MOJE_PROGRAMY.Szacowany_czas_skonczenia_poszczegolnych_warsztatow.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserManagementServiceTest" />
+        <item itemvalue="JUnit.UserManagementServiceTest.shouldCreateMultipleUsersCorrectly" />
+        <item itemvalue="JUnit.UserManagementServiceTest.shouldThrowWhenDeletingNonExistingUser" />
+        <item itemvalue="JUnit.UserManagementServiceTest.shouldDeleteUserCorrectly" />
+        <item itemvalue="JUnit.ExampleBeanServiceImplTest.testSampleMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +683,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699815740113</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Warsztat 13 SpringBeam (film 5)&#10; - konfiguracja Java">
+      <created>1699819099457</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1699819099457</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Warsztat 13 SpringBeam (filmiki od 6 do końca)&#10;projekt z Warsztatu 13&#10;&#10;Warsztat 14 Mockito &#10;Wstęp&#10;&#10;Bonus:&#10;Notatki do warsztatów">
+      <created>1700250207088</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1700250207088</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,8 +759,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 3: projekt podpunkty 1 i 2 zrobione" />
-    <MESSAGE value="Warsztat 3: Projekt -&gt; Zrobione punkty 3 i 4&#10;Warsztat 4: Wstęp do SQL filmy 1-4" />
     <MESSAGE value="Warsztat 4: SQL pODSTAWY filmy 5-8" />
     <MESSAGE value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
     <MESSAGE value="Warsztat 4: Projekt zad 1" />
@@ -674,9 +782,16 @@
     <MESSAGE value="Warsztat 11 Kolejne wersje Javy&#10;Początek Gita (Warsztat 12)" />
     <MESSAGE value="Warsztat 11 Upgrade" />
     <MESSAGE value="Warsztat 13 SpringBeam (filmy 1-4)&#10; - teoria&#10; - konfiguracja XML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 13 SpringBeam (filmy 1-4)&#10; - teoria&#10; - konfiguracja XML" />
+    <MESSAGE value="Warsztat 13 SpringBeam (film 5)&#10; - konfiguracja Java" />
+    <MESSAGE value="Warsztat 13 SpringBeam (filmiki od 6 do końca)&#10;projekt z Warsztatu 13&#10;&#10;Warsztat 14 Mockito &#10;Wstęp&#10;&#10;Bonus:&#10;Notatki do warsztatów" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 13 SpringBeam (filmiki od 6 do końca)&#10;projekt z Warsztatu 13&#10;&#10;Warsztat 14 Mockito &#10;Wstęp&#10;&#10;Bonus:&#10;Notatki do warsztatów" />
   </component>
   <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.mockito.internal.creation.settings.CreationSettings" memberName="mockMaker" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="preparedStatement.toString()" language="JAVA" />

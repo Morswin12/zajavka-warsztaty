@@ -1,4 +1,4 @@
-package WARSZTATY.Warsztat_14_MOCKING_I_SPRING;
+package WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P2_Mockowanie_Spring;
 
 import WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P2_Mockowanie_Mockito.SomeClass;
 import WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P2_Mockowanie_Mockito.SomeOtherClass;
