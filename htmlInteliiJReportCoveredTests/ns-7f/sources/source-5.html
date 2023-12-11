@@ -106,11 +106,11 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    public void calculate(InputData inputData) {
 <b class="nc">&nbsp;        printingService.printIntroInformation(inputData);</b>
 &nbsp;
-<b class="nc">&nbsp;        List&lt;Rate&gt; rates = rateCalculationService.calculate(inputData);</b>
-<b class="nc">&nbsp;        Summary summary = summaryService.calculateSummary(rates);</b>
+<b class="nc">&nbsp;        List&lt;Rate&gt; installments = rateCalculationService.calculate(inputData);</b>
+<b class="nc">&nbsp;        Summary summary = summaryService.calculateSummary(installments);</b>
 &nbsp;
 <b class="nc">&nbsp;        printingService.printSummary(summary);</b>
-<b class="nc">&nbsp;        printingService.printSchedule(rates, inputData);</b>
+<b class="nc">&nbsp;        printingService.printSchedule(installments, inputData);</b>
 &nbsp;    }
 &nbsp;
 &nbsp;}

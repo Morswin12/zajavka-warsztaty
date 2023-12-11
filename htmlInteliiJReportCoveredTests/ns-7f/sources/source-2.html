@@ -136,12 +136,12 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    }
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousRate) {
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousInstallment) {
 <b class="nc">&nbsp;        switch (inputData.getRateType()) {</b>
 &nbsp;            case CONSTANT:
-<b class="nc">&nbsp;                return constantAmountsCalculationService.calculate(inputData, overpayment, previousRate);</b>
+<b class="nc">&nbsp;                return constantAmountsCalculationService.calculate(inputData, overpayment, previousInstallment);</b>
 &nbsp;            case DECREASING:
-<b class="nc">&nbsp;                return decreasingAmountsCalculationService.calculate(inputData, overpayment, previousRate);</b>
+<b class="nc">&nbsp;                return decreasingAmountsCalculationService.calculate(inputData, overpayment, previousInstallment);</b>
 &nbsp;            default:
 <b class="nc">&nbsp;                throw new MortgageException(&quot;Case not handled&quot;);</b>
 &nbsp;        }

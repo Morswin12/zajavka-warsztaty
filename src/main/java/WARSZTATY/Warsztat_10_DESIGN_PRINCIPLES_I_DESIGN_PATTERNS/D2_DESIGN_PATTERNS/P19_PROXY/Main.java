@@ -9,7 +9,7 @@ public class Main {
 
             1. kontrolowany dostęp do zasobów
             2. my       -> proxy    -> źródło (Proksy keszuje dane, czyli zapisuje do momentu aż w źródle się zmienią)
-               Klient   -> Kelner   -> Chef  >> kelner ju na etapie zamówienia może odpowiedzieć na pytanie o
+               Klient   -> Kelner   -> Chef  >> kelner już na etapie zamówienia może odpowiedzieć na pytanie o
                                                 braku dostępności niektórych potraw, zamiast o wszystko pytać chef'a
 
      */

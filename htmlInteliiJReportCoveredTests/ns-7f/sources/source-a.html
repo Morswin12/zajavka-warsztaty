@@ -113,46 +113,46 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;
 &nbsp;    @Override
 &nbsp;    public List&lt;Rate&gt; calculate(final InputData inputData) {
-<b class="nc">&nbsp;        List&lt;Rate&gt; rateList = new ArrayList&lt;&gt;();</b>
+<b class="nc">&nbsp;        List&lt;Rate&gt; installmentList = new ArrayList&lt;&gt;();</b>
 &nbsp;
 <b class="nc">&nbsp;        BigDecimal rateNumber = BigDecimal.ONE;</b>
 &nbsp;
-<b class="nc">&nbsp;        Rate zeroRate = calculateZeroRate(rateNumber, inputData);</b>
+<b class="nc">&nbsp;        Rate zeroInstallment = calculateZeroRate(rateNumber, inputData);</b>
 &nbsp;
-<b class="nc">&nbsp;        Rate previousRate = zeroRate;</b>
-<b class="nc">&nbsp;        rateList.add(zeroRate);</b>
+<b class="nc">&nbsp;        Rate previousInstallment = zeroInstallment;</b>
+<b class="nc">&nbsp;        installmentList.add(zeroInstallment);</b>
 &nbsp;
 <b class="nc">&nbsp;        for (BigDecimal i = rateNumber.add(BigDecimal.ONE); i.compareTo(inputData.getMonthsDuration()) &lt;= 0; i = i.add(BigDecimal.ONE)) {</b>
-<b class="nc">&nbsp;            Rate nextRate = calculateNextRate(i, inputData, previousRate);</b>
-<b class="nc">&nbsp;            previousRate = nextRate;</b>
-<b class="nc">&nbsp;            rateList.add(nextRate);</b>
+<b class="nc">&nbsp;            Rate nextInstallment = calculateNextRate(i, inputData, previousInstallment);</b>
+<b class="nc">&nbsp;            previousInstallment = nextInstallment;</b>
+<b class="nc">&nbsp;            installmentList.add(nextInstallment);</b>
 &nbsp;
-<b class="nc">&nbsp;            if (BigDecimal.ZERO.equals(nextRate.getMortgageResidual().getResidualAmount().setScale(0, RoundingMode.HALF_UP))) {</b>
+<b class="nc">&nbsp;            if (BigDecimal.ZERO.equals(nextInstallment.getMortgageResidual().getResidualAmount().setScale(0, RoundingMode.HALF_UP))) {</b>
 <b class="nc">&nbsp;                break;</b>
 &nbsp;            }
 &nbsp;        }
 &nbsp;
-<b class="nc">&nbsp;        return rateList;</b>
+<b class="nc">&nbsp;        return installmentList;</b>
 &nbsp;    }
 &nbsp;
 &nbsp;    private Rate calculateZeroRate(final BigDecimal rateNumber, final InputData inputData) {
 <b class="nc">&nbsp;        TimePoint timePoint = timePointCalculationService.calculate(rateNumber, inputData);</b>
 <b class="nc">&nbsp;        Overpayment overpayment = overpaymentCalculationService.calculate(rateNumber, inputData);</b>
-<b class="nc">&nbsp;        RateAmounts rateAmounts = amountsCalculationService.calculate(inputData, overpayment);</b>
-<b class="nc">&nbsp;        MortgageResidual mortgageResidual = residualCalculationService.calculate(rateAmounts, inputData);</b>
-<b class="nc">&nbsp;        MortgageReference mortgageReference = referenceCalculationService.calculate(rateAmounts, inputData);</b>
+<b class="nc">&nbsp;        RateAmounts installmentAmounts = amountsCalculationService.calculate(inputData, overpayment);</b>
+<b class="nc">&nbsp;        MortgageResidual mortgageResidual = residualCalculationService.calculate(installmentAmounts, inputData);</b>
+<b class="nc">&nbsp;        MortgageReference mortgageReference = referenceCalculationService.calculate(installmentAmounts, inputData);</b>
 &nbsp;
-<b class="nc">&nbsp;        return new Rate(rateNumber, timePoint, rateAmounts, mortgageResidual, mortgageReference);</b>
+<b class="nc">&nbsp;        return new Rate(rateNumber, timePoint, installmentAmounts, mortgageResidual, mortgageReference);</b>
 &nbsp;    }
 &nbsp;
-&nbsp;    private Rate calculateNextRate(final BigDecimal rateNumber, final InputData inputData, final Rate previousRate) {
-<b class="nc">&nbsp;        TimePoint timepoint = timePointCalculationService.calculate(rateNumber, previousRate);</b>
+&nbsp;    private Rate calculateNextRate(final BigDecimal rateNumber, final InputData inputData, final Rate previousInstallment) {
+<b class="nc">&nbsp;        TimePoint timepoint = timePointCalculationService.calculate(rateNumber, previousInstallment);</b>
 <b class="nc">&nbsp;        Overpayment overpayment = overpaymentCalculationService.calculate(rateNumber, inputData);</b>
-<b class="nc">&nbsp;        RateAmounts rateAmounts = amountsCalculationService.calculate(inputData, overpayment, previousRate);</b>
-<b class="nc">&nbsp;        MortgageResidual mortgageResidual = residualCalculationService.calculate(rateAmounts, inputData, previousRate);</b>
-<b class="nc">&nbsp;        MortgageReference mortgageReference = referenceCalculationService.calculate(rateAmounts, inputData, previousRate);</b>
+<b class="nc">&nbsp;        RateAmounts installmentAmounts = amountsCalculationService.calculate(inputData, overpayment, previousInstallment);</b>
+<b class="nc">&nbsp;        MortgageResidual mortgageResidual = residualCalculationService.calculate(installmentAmounts, inputData, previousInstallment);</b>
+<b class="nc">&nbsp;        MortgageReference mortgageReference = referenceCalculationService.calculate(installmentAmounts, inputData, previousInstallment);</b>
 &nbsp;
-<b class="nc">&nbsp;        return new Rate(rateNumber, timepoint, rateAmounts, mortgageResidual, mortgageReference);</b>
+<b class="nc">&nbsp;        return new Rate(rateNumber, timepoint, installmentAmounts, mortgageResidual, mortgageReference);</b>
 &nbsp;    }
 &nbsp;
 &nbsp;}

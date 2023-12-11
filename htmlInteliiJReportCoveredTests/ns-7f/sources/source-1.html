@@ -90,7 +90,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;
 &nbsp;    RateAmounts calculate(final InputData inputData, final Overpayment overpayment);
 &nbsp;
-&nbsp;    RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousRate);
+&nbsp;    RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousInstallment);
 &nbsp;
 &nbsp;    static BigDecimal calculateInterestAmount(final BigDecimal residualAmount, final BigDecimal interestPercentValue) {
 <b class="nc">&nbsp;        return residualAmount.multiply(interestPercentValue).divide(AmountsCalculationService.YEAR, 2, RoundingMode.HALF_UP);</b>

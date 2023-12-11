@@ -17,10 +17,10 @@
 <!--    </properties>-->
 
 <!--    <dependencies>-->
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.brzozasr/exchange-rates-nbp &ndash;&gt;-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.brzozasr/exchange-installments-nbp &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>com.github.brzozasr</groupId>-->
-<!--            <artifactId>exchange-rates-nbp</artifactId>-->
+<!--            <artifactId>exchange-installments-nbp</artifactId>-->
 <!--            <version>1.0.1</version>-->
 <!--        </dependency>-->
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.jsoup/jsoup &ndash;&gt;-->

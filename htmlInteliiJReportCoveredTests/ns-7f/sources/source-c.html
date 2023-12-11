@@ -113,26 +113,26 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="nc">&nbsp;public class ResidualCalculationServiceImpl implements ResidualCalculationService {</b>
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public MortgageResidual calculate(RateAmounts rateAmounts, InputData inputData) {
+&nbsp;    public MortgageResidual calculate(RateAmounts installmentAmounts, InputData inputData) {
 <b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(inputData.getAmount())) {</b>
 <b class="nc">&nbsp;            return new MortgageResidual(BigDecimal.ZERO, BigDecimal.ZERO);</b>
 &nbsp;        } else {
-<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(inputData.getAmount(), rateAmounts);</b>
-<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, inputData.getMonthsDuration(), rateAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(inputData.getAmount(), installmentAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, inputData.getMonthsDuration(), installmentAmounts);</b>
 <b class="nc">&nbsp;            return new MortgageResidual(residualAmount, residualDuration);</b>
 &nbsp;        }
 &nbsp;    }
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public MortgageResidual calculate(RateAmounts rateAmounts, final InputData inputData, Rate previousRate) {
-<b class="nc">&nbsp;        BigDecimal previousResidualAmount = previousRate.getMortgageResidual().getResidualAmount();</b>
-<b class="nc">&nbsp;        BigDecimal previousResidualDuration = previousRate.getMortgageResidual().getResidualDuration();</b>
+&nbsp;    public MortgageResidual calculate(RateAmounts installmentAmounts, final InputData inputData, Rate previousInstallment) {
+<b class="nc">&nbsp;        BigDecimal previousResidualAmount = previousInstallment.getMortgageResidual().getResidualAmount();</b>
+<b class="nc">&nbsp;        BigDecimal previousResidualDuration = previousInstallment.getMortgageResidual().getResidualDuration();</b>
 &nbsp;
 <b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(previousResidualAmount)) {</b>
 <b class="nc">&nbsp;            return new MortgageResidual(BigDecimal.ZERO, BigDecimal.ZERO);</b>
 &nbsp;        } else {
-<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(previousResidualAmount, rateAmounts);</b>
-<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, previousResidualDuration, rateAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(previousResidualAmount, installmentAmounts);</b>
+<b class="nc">&nbsp;            BigDecimal residualDuration = calculateResidualDuration(inputData, residualAmount, previousResidualDuration, installmentAmounts);</b>
 <b class="nc">&nbsp;            return new MortgageResidual(residualAmount, residualDuration);</b>
 &nbsp;        }
 &nbsp;    }
@@ -141,16 +141,16 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;        InputData inputData,
 &nbsp;        BigDecimal residualAmount,
 &nbsp;        BigDecimal previousResidualDuration,
-&nbsp;        RateAmounts rateAmounts
+&nbsp;        RateAmounts installmentAmounts
 &nbsp;    ) {
 &nbsp;        // jak wyst?pi nadp?ata to zaczynaj? si? schody,
 &nbsp;        // trzeba przeliczy? kredyt w zale?no?ci od tego, czy podczas nadp?aty zmniejszamy czas trwania, czy wysoko?? raty
-<b class="nc">&nbsp;        if (rateAmounts.getOverpayment().getAmount().compareTo(BigDecimal.ZERO) &gt; 0) {</b>
+<b class="nc">&nbsp;        if (installmentAmounts.getOverpayment().getAmount().compareTo(BigDecimal.ZERO) &gt; 0) {</b>
 <b class="nc">&nbsp;            switch (inputData.getRateType()) {</b>
 &nbsp;                case CONSTANT:
-<b class="nc">&nbsp;                    return calculateConstantResidualDuration(inputData, residualAmount, rateAmounts);</b>
+<b class="nc">&nbsp;                    return calculateConstantResidualDuration(inputData, residualAmount, installmentAmounts);</b>
 &nbsp;                case DECREASING:
-<b class="nc">&nbsp;                    return calculateDecreasingResidualDuration(residualAmount, rateAmounts);</b>
+<b class="nc">&nbsp;                    return calculateDecreasingResidualDuration(residualAmount, installmentAmounts);</b>
 &nbsp;                default:
 <b class="nc">&nbsp;                    throw new MortgageException(&quot;Case not handled&quot;);</b>
 &nbsp;            }
@@ -160,22 +160,22 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;        }
 &nbsp;    }
 &nbsp;
-&nbsp;    private BigDecimal calculateDecreasingResidualDuration(BigDecimal residualAmount, RateAmounts rateAmounts) {
-<b class="nc">&nbsp;        return residualAmount.divide(rateAmounts.getCapitalAmount(), 0, RoundingMode.CEILING);</b>
+&nbsp;    private BigDecimal calculateDecreasingResidualDuration(BigDecimal residualAmount, RateAmounts installmentAmounts) {
+<b class="nc">&nbsp;        return residualAmount.divide(installmentAmounts.getCapitalAmount(), 0, RoundingMode.CEILING);</b>
 &nbsp;    }
 &nbsp;
 &nbsp;    @SuppressWarnings(&quot;UnnecessaryLocalVariable&quot;)
 &nbsp;    // tutaj mamy zaszyt? logik? z tego, co wspomnia?em w trakcie nagra?,
 &nbsp;    // czyli jak oszacowa? ilo?? miesi?cy, jaka nam pozosta?a do sp?aty przy nadp?acie, ratach sta?ych i zmniejszeniu czasu trwania.
-&nbsp;    // Wyja?nienie stosowanych wzorów zosta?o dostarczone w pliku z rozwi?zaniem
-&nbsp;    private BigDecimal calculateConstantResidualDuration(InputData inputData, BigDecimal residualAmount, RateAmounts rateAmounts) {
+&nbsp;    // Wyja?nienie stosowanych wzorï¿½w zosta?o dostarczone w pliku z rozwi?zaniem
+&nbsp;    private BigDecimal calculateConstantResidualDuration(InputData inputData, BigDecimal residualAmount, RateAmounts installmentAmounts) {
 &nbsp;        // log_y(x) = log(x) / log (y)
 <b class="nc">&nbsp;        BigDecimal q = AmountsCalculationService.calculateQ(inputData.getInterestPercent());</b>
 &nbsp;
 &nbsp;        // licznik z naszego logarytmu z licznika wzoru ko?cowego
-<b class="nc">&nbsp;        BigDecimal xNumerator = rateAmounts.getRateAmount();</b>
-&nbsp;        // Mianownik z naszego logarytmu z licznika wzoru ko?cowego. b/m to równie dobrze q-1
-<b class="nc">&nbsp;        BigDecimal xDenominator = rateAmounts.getRateAmount().subtract(residualAmount.multiply(q.subtract(BigDecimal.ONE)));</b>
+<b class="nc">&nbsp;        BigDecimal xNumerator = installmentAmounts.getRateAmount();</b>
+&nbsp;        // Mianownik z naszego logarytmu z licznika wzoru ko?cowego. b/m to rï¿½wnie dobrze q-1
+<b class="nc">&nbsp;        BigDecimal xDenominator = installmentAmounts.getRateAmount().subtract(residualAmount.multiply(q.subtract(BigDecimal.ONE)));</b>
 &nbsp;
 <b class="nc">&nbsp;        BigDecimal x = xNumerator.divide(xDenominator, 10, RoundingMode.HALF_UP);</b>
 <b class="nc">&nbsp;        BigDecimal y = q;</b>
@@ -188,10 +188,10 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="nc">&nbsp;        return logX.divide(logY, 0, RoundingMode.CEILING);</b>
 &nbsp;    }
 &nbsp;
-&nbsp;    private BigDecimal calculateResidualAmount(final BigDecimal residualAmount, final RateAmounts rateAmounts) {
+&nbsp;    private BigDecimal calculateResidualAmount(final BigDecimal residualAmount, final RateAmounts installmentAmounts) {
 <b class="nc">&nbsp;        return residualAmount</b>
-<b class="nc">&nbsp;            .subtract(rateAmounts.getCapitalAmount())</b>
-<b class="nc">&nbsp;            .subtract(rateAmounts.getOverpayment().getAmount())</b>
+<b class="nc">&nbsp;            .subtract(installmentAmounts.getCapitalAmount())</b>
+<b class="nc">&nbsp;            .subtract(installmentAmounts.getOverpayment().getAmount())</b>
 <b class="nc">&nbsp;            .max(BigDecimal.ZERO);</b>
 &nbsp;    }
 &nbsp;

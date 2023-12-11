@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
     <!--<property name="HOME_LOG" value="${user.dir}/logs/WARSZTATY.Warsztat_7_LOGOWANIE.P8_Logowanie_Logback_RollingFile.log"/>-->
+<!--    poniżej lokalizacja logów: -->
     <property name="HOME_LOG_ROLLING" value="${user.dir}/logs/W8_P8_UnitTests.log"/>
 
 
@@ -26,9 +27,15 @@
         </encoder>
     </appender>
 
+<!--   dodane do projektu po warsztacie 14 od tąd: -->
+    <logger name="WARSZTATY.Projekty_Zajavka.Warsztat_14.services.PrintingServiceImpl" level="info" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+<!--   ... do tąd -->
+
 
 <!--    <root level="warn">-->
-    <root level="info">
+    <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE-ROLLING"/>
     </root>

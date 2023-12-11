@@ -86,24 +86,24 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="nc">&nbsp;public class SummaryServiceFactory {</b>
 &nbsp;
 &nbsp;    public static SummaryService create() {
-<b class="nc">&nbsp;        return rates -&gt; {</b>
-<b class="nc">&nbsp;            BigDecimal interestSum = calculate(rates, rate -&gt; rate.getRateAmounts().getInterestAmount());</b>
-<b class="nc">&nbsp;            BigDecimal overpaymentProvisionSum = calculate(rates, rate -&gt; rate.getRateAmounts().getOverpayment().getProvisionAmount());</b>
+<b class="nc">&nbsp;        return installments -&gt; {</b>
+<b class="nc">&nbsp;            BigDecimal interestSum = calculate(installments, installment -&gt; installment.getRateAmounts().getInterestAmount());</b>
+<b class="nc">&nbsp;            BigDecimal overpaymentProvisionSum = calculate(installments, installment -&gt; installment.getRateAmounts().getOverpayment().getProvisionAmount());</b>
 <b class="nc">&nbsp;            BigDecimal totalLostSum = interestSum.add(overpaymentProvisionSum);</b>
-<b class="nc">&nbsp;            BigDecimal totalCapital = calculate(rates, rate -&gt; totalCapital(rate.getRateAmounts()));</b>
+<b class="nc">&nbsp;            BigDecimal totalCapital = calculate(installments, installment -&gt; totalCapital(installment.getRateAmounts()));</b>
 <b class="nc">&nbsp;            return new Summary(interestSum, overpaymentProvisionSum, totalLostSum, totalCapital);</b>
 &nbsp;        };
 &nbsp;    }
 &nbsp;
-&nbsp;    private static BigDecimal totalCapital(final RateAmounts rateAmounts) {
-<b class="nc">&nbsp;        return rateAmounts.getCapitalAmount().add(rateAmounts.getOverpayment().getAmount());</b>
+&nbsp;    private static BigDecimal totalCapital(final RateAmounts installmentAmounts) {
+<b class="nc">&nbsp;        return installmentAmounts.getCapitalAmount().add(installmentAmounts.getOverpayment().getAmount());</b>
 &nbsp;    }
 &nbsp;
-&nbsp;    private static BigDecimal calculate(final List&lt;Rate&gt; rates, Function function) {
+&nbsp;    private static BigDecimal calculate(final List&lt;Rate&gt; installments, Function function) {
 <b class="nc">&nbsp;        BigDecimal sum = BigDecimal.ZERO;</b>
 &nbsp;
-<b class="nc">&nbsp;        for (Rate rate : rates) {</b>
-<b class="nc">&nbsp;            sum = sum.add(function.calculate(rate));</b>
+<b class="nc">&nbsp;        for (Rate installment : installments) {</b>
+<b class="nc">&nbsp;            sum = sum.add(function.calculate(installment));</b>
 <b class="nc">&nbsp;        }</b>
 <b class="nc">&nbsp;        return sum;</b>
 &nbsp;    }

@@ -102,12 +102,12 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    }
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousRate) {
+&nbsp;    public RateAmounts calculate(final InputData inputData, final Overpayment overpayment, final Rate previousInstallment) {
 <b class="nc">&nbsp;        BigDecimal interestPercent = inputData.getInterestPercent();</b>
 &nbsp;
-<b class="nc">&nbsp;        BigDecimal residualAmount = previousRate.getMortgageResidual().getResidualAmount();</b>
-<b class="nc">&nbsp;        BigDecimal referenceAmount = previousRate.getMortgageReference().getReferenceAmount();</b>
-<b class="nc">&nbsp;        BigDecimal referenceDuration = previousRate.getMortgageReference().getReferenceDuration();</b>
+<b class="nc">&nbsp;        BigDecimal residualAmount = previousInstallment.getMortgageResidual().getResidualAmount();</b>
+<b class="nc">&nbsp;        BigDecimal referenceAmount = previousInstallment.getMortgageReference().getReferenceAmount();</b>
+<b class="nc">&nbsp;        BigDecimal referenceDuration = previousInstallment.getMortgageReference().getReferenceDuration();</b>
 &nbsp;
 <b class="nc">&nbsp;        BigDecimal interestAmount = AmountsCalculationService.calculateInterestAmount(residualAmount, interestPercent);</b>
 <b class="nc">&nbsp;        BigDecimal capitalAmount = AmountsCalculationService.compareCapitalWithResidual(</b>

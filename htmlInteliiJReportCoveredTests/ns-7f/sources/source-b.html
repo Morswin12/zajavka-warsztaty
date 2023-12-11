@@ -83,7 +83,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="nc">&nbsp;public class ReferenceCalculationServiceImpl implements ReferenceCalculationService {</b>
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public MortgageReference calculate(RateAmounts rateAmounts, InputData inputData) {
+&nbsp;    public MortgageReference calculate(RateAmounts installmentAmounts, InputData inputData) {
 <b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(inputData.getAmount())) {</b>
 <b class="nc">&nbsp;            return new MortgageReference(BigDecimal.ZERO, BigDecimal.ZERO);</b>
 &nbsp;        }
@@ -92,14 +92,14 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    }
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public MortgageReference calculate(RateAmounts rateAmounts, final InputData inputData, Rate previousRate) {
-<b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(previousRate.getMortgageResidual().getResidualAmount())) {</b>
+&nbsp;    public MortgageReference calculate(RateAmounts installmentAmounts, final InputData inputData, Rate previousInstallment) {
+<b class="nc">&nbsp;        if (BigDecimal.ZERO.equals(previousInstallment.getMortgageResidual().getResidualAmount())) {</b>
 <b class="nc">&nbsp;            return new MortgageReference(BigDecimal.ZERO, BigDecimal.ZERO);</b>
 &nbsp;        }
 &nbsp;
 <b class="nc">&nbsp;        switch (inputData.getOverpaymentReduceWay()) {</b>
 &nbsp;            case Overpayment.REDUCE_RATE:
-<b class="nc">&nbsp;                return reduceRateMortgageReference(rateAmounts, previousRate.getMortgageResidual());</b>
+<b class="nc">&nbsp;                return reduceRateMortgageReference(installmentAmounts, previousInstallment.getMortgageResidual());</b>
 &nbsp;            case Overpayment.REDUCE_PERIOD:
 <b class="nc">&nbsp;                return new MortgageReference(inputData.getAmount(), inputData.getMonthsDuration());</b>
 &nbsp;            default:
@@ -108,19 +108,19 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;
 &nbsp;    }
 &nbsp;
-&nbsp;    private MortgageReference reduceRateMortgageReference(final RateAmounts rateAmounts, final MortgageResidual previousResidual) {
-<b class="nc">&nbsp;        if (rateAmounts.getOverpayment().getAmount().compareTo(BigDecimal.ZERO) &gt; 0) {</b>
-<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(previousResidual.getResidualAmount(), rateAmounts);</b>
+&nbsp;    private MortgageReference reduceRateMortgageReference(final RateAmounts installmentAmounts, final MortgageResidual previousResidual) {
+<b class="nc">&nbsp;        if (installmentAmounts.getOverpayment().getAmount().compareTo(BigDecimal.ZERO) &gt; 0) {</b>
+<b class="nc">&nbsp;            BigDecimal residualAmount = calculateResidualAmount(previousResidual.getResidualAmount(), installmentAmounts);</b>
 <b class="nc">&nbsp;            return new MortgageReference(residualAmount, previousResidual.getResidualDuration().subtract(BigDecimal.ONE));</b>
 &nbsp;        }
 &nbsp;
 <b class="nc">&nbsp;        return new MortgageReference(previousResidual.getResidualAmount(), previousResidual.getResidualDuration());</b>
 &nbsp;    }
 &nbsp;
-&nbsp;    private BigDecimal calculateResidualAmount(final BigDecimal residualAmount, final RateAmounts rateAmounts) {
+&nbsp;    private BigDecimal calculateResidualAmount(final BigDecimal residualAmount, final RateAmounts installmentAmounts) {
 <b class="nc">&nbsp;        return residualAmount</b>
-<b class="nc">&nbsp;            .subtract(rateAmounts.getCapitalAmount())</b>
-<b class="nc">&nbsp;            .subtract(rateAmounts.getOverpayment().getAmount())</b>
+<b class="nc">&nbsp;            .subtract(installmentAmounts.getCapitalAmount())</b>
+<b class="nc">&nbsp;            .subtract(installmentAmounts.getOverpayment().getAmount())</b>
 <b class="nc">&nbsp;            .max(BigDecimal.ZERO);</b>
 &nbsp;    }
 &nbsp;

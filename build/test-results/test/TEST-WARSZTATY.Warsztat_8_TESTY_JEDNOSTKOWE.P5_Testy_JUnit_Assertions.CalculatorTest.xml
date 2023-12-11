@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" tests="7" skipped="1" failures="0" errors="0" timestamp="2023-08-07T15:53:50" hostname="GORO-COMP" time="0.038">
+<testsuite name="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" tests="7" skipped="1" failures="0" errors="0" timestamp="2023-11-24T23:02:45" hostname="GORO-COMP" time="0.063">
   <properties/>
-  <testcase name="Testing few kind of Assertion like: Null, NotNull" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.004"/>
-  <testcase name="Testing AssertionAll where we can check few of different Equals assertion" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.01"/>
-  <testcase name="testAdd()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.001"/>
-  <testcase name="testSubtract()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.001"/>
-  <testcase name="Testing few kind of Assertion like: True, False, Equals, NotEquals" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.01"/>
-  <testcase name="testDivide()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.003">
+  <testcase name="Testing few kind of Assertion like: Null, NotNull" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.003"/>
+  <testcase name="Testing AssertionAll where we can check few of different Equals assertion" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.026"/>
+  <testcase name="testAdd()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.002"/>
+  <testcase name="testSubtract()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.003"/>
+  <testcase name="Testing few kind of Assertion like: True, False, Equals, NotEquals" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.009"/>
+  <testcase name="testDivide()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.002">
     <skipped/>
   </testcase>
-  <testcase name="testMultiply()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiply()" classname="WARSZTATY.Warsztat_8_TESTY_JEDNOSTKOWE.P5_Testy_JUnit_Assertions.CalculatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

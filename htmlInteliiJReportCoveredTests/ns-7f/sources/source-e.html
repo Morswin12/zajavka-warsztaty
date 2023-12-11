@@ -94,10 +94,10 @@ Current scope:     <a href="../../index.html">all classes</a>
 <b class="nc">&nbsp;        return new TimePoint(year, month, date);</b>
 &nbsp;    }
 &nbsp;
-&nbsp;    public TimePoint calculate(BigDecimal rateNumber, Rate previousRate) {
+&nbsp;    public TimePoint calculate(BigDecimal rateNumber, Rate previousInstallment) {
 <b class="nc">&nbsp;        BigDecimal year = calculateYear(rateNumber);</b>
 <b class="nc">&nbsp;        BigDecimal month = calculateMonth(rateNumber);</b>
-<b class="nc">&nbsp;        LocalDate date = previousRate.getTimePoint().getDate().plus(1, ChronoUnit.MONTHS);</b>
+<b class="nc">&nbsp;        LocalDate date = previousInstallment.getTimePoint().getDate().plus(1, ChronoUnit.MONTHS);</b>
 <b class="nc">&nbsp;        return new TimePoint(year, month, date);</b>
 &nbsp;    }
 &nbsp;

@@ -137,25 +137,25 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    }
 &nbsp;
 &nbsp;    @Override
-&nbsp;    public void printSchedule(final List&lt;Rate&gt; rates, final InputData inputData) {
+&nbsp;    public void printSchedule(final List&lt;Rate&gt; installments, final InputData inputData) {
 <b class="nc">&nbsp;        if (!inputData.isMortgagePrintPayoffsSchedule()) {</b>
 &nbsp;            return;
 &nbsp;        }
 &nbsp;
 <b class="nc">&nbsp;        int index = 1;</b>
-<b class="nc">&nbsp;        for (Rate rate : rates) {</b>
-<b class="nc">&nbsp;            if (rate.getRateNumber().remainder(BigDecimal.valueOf(inputData.getMortgageRateNumberToPrint())).equals(BigDecimal.ZERO)) {</b>
+<b class="nc">&nbsp;        for (Rate installment : installments) {</b>
+<b class="nc">&nbsp;            if (installment.getRateNumber().remainder(BigDecimal.valueOf(inputData.getMortgageRateNumberToPrint())).equals(BigDecimal.ZERO)) {</b>
 <b class="nc">&nbsp;                String logMessage = String.format(SCHEDULE_TABLE_FORMAT,</b>
-<b class="nc">&nbsp;                    RATE_NUMBER, rate.getRateNumber(),</b>
-<b class="nc">&nbsp;                    YEAR, rate.getTimePoint().getYear(),</b>
-<b class="nc">&nbsp;                    MONTH, rate.getTimePoint().getMonth(),</b>
-<b class="nc">&nbsp;                    DATE, rate.getTimePoint().getDate(),</b>
-<b class="nc">&nbsp;                    RATE, rate.getRateAmounts().getRateAmount(),</b>
-<b class="nc">&nbsp;                    INTEREST, rate.getRateAmounts().getInterestAmount(),</b>
-<b class="nc">&nbsp;                    CAPITAL, rate.getRateAmounts().getCapitalAmount(),</b>
-<b class="nc">&nbsp;                    OVERPAYMENT, rate.getRateAmounts().getOverpayment().getAmount(),</b>
-<b class="nc">&nbsp;                    LEFT_AMOUNT, rate.getMortgageResidual().getResidualAmount(),</b>
-<b class="nc">&nbsp;                    LEFT_MONTHS, rate.getMortgageResidual().getResidualDuration()</b>
+<b class="nc">&nbsp;                    RATE_NUMBER, installment.getRateNumber(),</b>
+<b class="nc">&nbsp;                    YEAR, installment.getTimePoint().getYear(),</b>
+<b class="nc">&nbsp;                    MONTH, installment.getTimePoint().getMonth(),</b>
+<b class="nc">&nbsp;                    DATE, installment.getTimePoint().getDate(),</b>
+<b class="nc">&nbsp;                    RATE, installment.getRateAmounts().getRateAmount(),</b>
+<b class="nc">&nbsp;                    INTEREST, installment.getRateAmounts().getInterestAmount(),</b>
+<b class="nc">&nbsp;                    CAPITAL, installment.getRateAmounts().getCapitalAmount(),</b>
+<b class="nc">&nbsp;                    OVERPAYMENT, installment.getRateAmounts().getOverpayment().getAmount(),</b>
+<b class="nc">&nbsp;                    LEFT_AMOUNT, installment.getMortgageResidual().getResidualAmount(),</b>
+<b class="nc">&nbsp;                    LEFT_MONTHS, installment.getMortgageResidual().getResidualDuration()</b>
 &nbsp;                );
 <b class="nc">&nbsp;                logMessage(logMessage);</b>
 <b class="nc">&nbsp;                if (index % AmountsCalculationService.YEAR.intValue() == 0) {</b>
