@@ -2,6 +2,8 @@ package WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P9_Hibernate_Intro_cz3;
 
 public class Main {
     public static void main(String[] args) {
+
+        //TODO
         // Strategie zarządzania bazami danych (np. dodawanie, usuwanie, modyfikowanie tabel, kolumn):
         //      - narzędzia jak np. Flyway (taki Git dla baz danych) pozwala zapisywać historie zmian struktury bazy
         //          danych
@@ -29,12 +31,10 @@ public class Main {
         //              Encja taka jest mapowana do konkretnego wiersza bazy danych, identyfikowanego przez klucz.
         //          Bieżąca sesja Hibernate jest odpowiedzialna za śledzenie wszystkich zmian dokonanych w zarządzanej
         //          encji i propagacje tych zmian do bazy danych.
-        //
         //      - DETACHED -> Stan oznaczający, że encja ma reprezentację w bazie danych, ale nie jest już zarządzana
         //          przez Session i nie jest śledzona przez persistence context. Wszelkie zmiany w tej encji nie
         //          zostaną odzwierciedlone w bazie danych i na odwrót. Encję taka można utworzyć zamykając sesje,
         //          z którą była powiązana lub usuwając ją z sesji za pomocą wywołania metody detach().
-        //
         //      - REMOVED -> użycie metody remove() z Session ustawia encję w stan Remove, co oznacza, że po
         //          zakończeniu transakcji odpowiedni wiersz w bazie danych zostanie usunięty.
 
