@@ -33,6 +33,11 @@
     </logger>
 <!--   ... do tąd -->
 
+    <!-- Poniższy zapis pomaga zobaczyc co jest w -->
+    <logger name="org.hibernate.orm.jdbc.bind" additivity="false" level="trace">
+        <appender-ref ref="CONSOLE"/>
+
+    </logger>
 
 <!--    <root level="warn">-->
     <root level="INFO">

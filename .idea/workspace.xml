@@ -4,47 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/CRUD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/EmployeeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/EmployeeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/HibernateUtilWithXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P10_Hibernate_CRUD_podstawy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P11_Hibernate_CRUD_wazne_aspekty/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P11_Hibernate_CRUD_wazne_aspekty/Transactional patterns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P12_Hibernate_Relacje_Teoria/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/Jakies_ustawienie_hibernate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/ExampleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/ExampleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P13_Hibernate_Relacje_One_To_One/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/Breed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/ExampleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/OneToManyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P14_Hibernate_Relacje_One_To_Many/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/ExampleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/ManyToManyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/Relacja_manyToMany.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P15_Hibernate_Relacje_Many_To_Many/definiowanieRelacje.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P13_15_Hibernate_Relacje/P16_Hibernate_Relacje_Fetch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P8_Hibernate_Intro_cz2/Flashowanie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P9_Hibernate_Intro_cz3/Cykl_zycia_encji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P9_Hibernate_Intro_cz3/Encja_w_stanie_detached.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P9_Hibernate_Intro_cz3/Entity_states_persistent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P9_Hibernate_Intro_cz3/Main.java" afterDir="false" />
+    <list default="true" id="ce2a12e2-6bc7-4ecb-9f0f-37588ecb78a3" name="Changes" comment="Warsztat 16 9-16 NOTATKI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/Breed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/OneToManyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/OwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/OwnerTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_24_Querying_JPQL_SELECT3/ToyStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/Breed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/OneToManyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/OwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/OwnerTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_25_Querying_JPQL_Named_Query/ToyStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_26_Querying_FetchMode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_27_Querying_JPQL_Problem_n_plus_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_28_Querying_Set_vs_List/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/ExampleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_29_Querying_Encje_i_equals_oraz_hashCode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/ExampleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_30_Querying_JPQL_Podsumowanie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/Breed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/OneToManyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/OwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/OwnerTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_31_Querying_Native_Query/ToyStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/ExampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/ExampleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/W16_P24.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -53,9 +74,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlInteliiJReportCoveredTests/ns-7b/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlInteliiJReportCoveredTests/ns-7b/sources/source-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlInteliiJReportCoveredTests/ns-7c/sources/source-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlInteliiJReportCoveredTests/ns-7c/sources/source-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/W8_P8_UnitTests.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_23_Querying_JPQL_SELECT2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_23_Querying_JPQL_SELECT2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +136,11 @@
         <option value="UML Activity" />
         <option value="UML Component" />
         <option value="UML Class" />
-        <option value="Record" />
         <option value="package-info" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -152,38 +177,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_15_SPRING_DATA_ACCESS/P8_JDBC__SimpleJdbcICall&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_directory_selection": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/test/java/WARSZTATY",
+    "last_opened_file_path": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/main/java/WARSZTATY/Warsztat_16_ORM_I_HIBERNATE/P_32_Querying_Criteria_API_cz1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "C:/Goro IT/ZAJAVKA/WarsztatyZajavka/WarsztatyZajavka/src/WARSZTATY/Warsztat_4_Bazy_Danych/P13_JDBC___Prepared_Statement/postgresql-42.6.0.jar"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_24_Querying_JPQL_SELECT3" />
       <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P10_Hibernate_CRUD_podstawy" />
       <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P2_JPA_cz1" />
       <recent name="WARSZTATY.Warsztat_15_SPRING_DATA_ACCESS.P12_Transakcje__Transakcje_fizyczne_vs_transakcje_logiczne" />
       <recent name="WARSZTATY.Warsztat_15_SPRING_DATA_ACCESS.P6_JDBC__JdbcTemplate" />
-      <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_17_Spring_Application_Testing__ZADANIE" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_15_SPRING_DATA_ACCESS\P8_JDBC__SimpleJdbcICall" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_10_DESIGN_PRINCIPLES_I_DESIGN_PATTERNS\D2_DESIGN_PATTERNS\a" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\test\resources" />
-      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_7_LOGOWANIE\P8_Logowanie_Logback_RollingFile" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_16_ORM_I_HIBERNATE\P_32_Querying_Criteria_API_cz1" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_16_ORM_I_HIBERNATE\P_31_Querying_Native_Query" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_16_ORM_I_HIBERNATE\P_30_Querying_JPQL_Podsumowanie" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_16_ORM_I_HIBERNATE\P_29_Querying_Encje_i_equals_oraz_hashCode" />
+      <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\java\WARSZTATY\Warsztat_16_ORM_I_HIBERNATE\P_25_Querying_JPQL_Named_Query" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Goro IT\ZAJAVKA\WarsztatyZajavka\WarsztatyZajavka\src\main\resources\tymczasowe_pliki_goro" />
@@ -203,11 +228,11 @@
       <recent name="WARSZTATY.Warsztat_14_MOCKING_I_SPRING.P_14_Spring_Application_Testing__Wstep" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_29_Querying_Encje_i_equals_oraz_hashCode" />
+      <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query" />
+      <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_21_Querying_JPQL_Modyfikacja_danych" />
       <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P14_Hibernate_Relacje_One_To_Many" />
       <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_Hibernate_Relacje_One_To_One" />
-      <recent name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P8_Hibernate_Intro_cz2" />
-      <recent name="WARSZTATY.Warsztat_15_SPRING_DATA_ACCESS.P12_Transakcje__Transakcje_fizyczne_vs_transakcje_logiczne" />
-      <recent name="WARSZTATY.Warsztat_15_SPRING_DATA_ACCESS.P11_Transakcje__Zarzadzanie_deklaratywne" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -219,26 +244,13 @@
       <command value="gradle clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OneToManyRunner">
-    <configuration name="EmployeeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P10_Hibernate_CRUD_podstawy.EmployeeExample" />
-      <module name="WarsztatyZajavka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P10_Hibernate_CRUD_podstawy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.ExampleRunner">
     <configuration name="ExampleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_Hibernate_Relacje_One_To_One.ExampleRunner" />
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_29_Querying_Encje_i_equals_oraz_hashCode.ExampleRunner" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_15_Hibernate_Relacje.P13_Hibernate_Relacje_One_To_One.P13_Hibernate_Relacje_One_To_One.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_29_Querying_Encje_i_equals_oraz_hashCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyToManyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_15_Hibernate_Relacje.P15_Hibernate_Relacje_Many_To_Many.ManyToManyRunner" />
+    <configuration name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query.OneToManyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query.OneToManyRunner" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_15_Hibernate_Relacje.P15_Hibernate_Relacje_Many_To_Many.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToManyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_15_Hibernate_Relacje.P14_Hibernate_Relacje_One_To_Many.OneToManyRunner" />
+    <configuration name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_30_Querying_JPQL_Podsumowanie.ExampleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_30_Querying_JPQL_Podsumowanie.ExampleRunner" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P13_15_Hibernate_Relacje.P14_Hibernate_Relacje_One_To_Many.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_30_Querying_JPQL_Podsumowanie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +284,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P8_Hibernate_Intro_cz2.PersonExample" />
+    <configuration name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_31_Querying_Native_Query.OneToManyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_31_Querying_Native_Query.OneToManyRunner" />
       <module name="WarsztatyZajavka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P8_Hibernate_Intro_cz2.*" />
+          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_31_Querying_Native_Query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.ExampleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.ExampleRunner" />
+      <module name="WarsztatyZajavka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ManyToManyRunner" />
-      <item itemvalue="Application.OneToManyRunner" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_30_Querying_JPQL_Podsumowanie.ExampleRunner" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_31_Querying_Native_Query.OneToManyRunner" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.ExampleRunner" />
+      <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query.OneToManyRunner" />
       <item itemvalue="Application.ExampleRunner" />
-      <item itemvalue="Application.EmployeeExample" />
-      <item itemvalue="Application.PersonExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManyToManyRunner" />
-        <item itemvalue="Application.OneToManyRunner" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_32_Querying_Criteria_API_cz1.ExampleRunner" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_31_Querying_Native_Query.OneToManyRunner" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_30_Querying_JPQL_Podsumowanie.ExampleRunner" />
         <item itemvalue="Application.ExampleRunner" />
-        <item itemvalue="Application.EmployeeExample" />
-        <item itemvalue="Application.PersonExample" />
+        <item itemvalue="Application.WARSZTATY.Warsztat_16_ORM_I_HIBERNATE.P_25_Querying_JPQL_Named_Query.OneToManyRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -313,13 +338,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681423016221</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Warsztat1 Zajavka Generyczne klasy, interfejsy i metody">
-      <created>1681586151851</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681586151851</updated>
     </task>
     <task id="LOCAL-00002" summary="Warsztat1 ZADANIA GENERYKI PODUMOWANIE &lt;?&gt; z extends i super&#10;wprowadzenie danych dotyczacych warsztatow do mojego projektu">
       <created>1681682050918</created>
@@ -643,7 +661,28 @@
       <option name="project" value="LOCAL" />
       <updated>1702329179579</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Warsztat 16 9-16 ODCINEK">
+      <created>1702831789229</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1702831789229</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Warsztat 16 9-16 NOTATKI">
+      <created>1702831861348</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702831861348</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Warsztat 16 9-16 NOTATKI">
+      <created>1704419426074</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1704419426075</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -705,8 +744,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warsztat 4: JDBC Connection, Prepared Statement, ResultSet&#10;  filmy 9-14" />
-    <MESSAGE value="Warsztat 4: Projekt zad 1" />
     <MESSAGE value="Warsztat 4: Projekt zad DO 3" />
     <MESSAGE value="Warsztat 4: Projekt Całość" />
     <MESSAGE value="Warsztat 5: MAVEN zależności, pluginy, dependencji, &#10;zmiana struktury projektu dodanie po src main/java/&#10;POM" />
@@ -730,7 +767,9 @@
     <MESSAGE value="Warsztat 13 SpringBeam (film 5)&#10; - konfiguracja Java" />
     <MESSAGE value="Warsztat 13 SpringBeam (filmiki od 6 do końca)&#10;projekt z Warsztatu 13&#10;&#10;Warsztat 14 Mockito &#10;Wstęp&#10;&#10;Bonus:&#10;Notatki do warsztatów" />
     <MESSAGE value="Warsztat 14 kontynuacja&#10;Warsztat 15 wszystko oprócz projektu&#10;Warsztat 16 pierwsze 8 odcinków" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 14 kontynuacja&#10;Warsztat 15 wszystko oprócz projektu&#10;Warsztat 16 pierwsze 8 odcinków" />
+    <MESSAGE value="Warsztat 16 9-16 ODCINEK" />
+    <MESSAGE value="Warsztat 16 9-16 NOTATKI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztat 16 9-16 NOTATKI" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
