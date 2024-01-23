@@ -80,9 +80,9 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;    public static void main(String[] args) {
 &nbsp;
 <b class="nc">&nbsp;        Owner owner1 = new Owner(&quot;Adam&quot;);</b>
-<b class="nc">&nbsp;        Owner owner2 = new Owner(&quot;Bartek&quot;);</b>
+<b class="nc">&nbsp;        Owner owner = new Owner(&quot;Bartek&quot;);</b>
 <b class="nc">&nbsp;        Dog dog1 = Dog.init(&quot;Burek&quot;, 3, owner1);</b>
-<b class="nc">&nbsp;        Dog dog2 = Dog.init(&quot;Burek&quot;, 3, owner2);</b>
+<b class="nc">&nbsp;        Dog dog2 = Dog.init(&quot;Burek&quot;, 3, owner);</b>
 <b class="nc">&nbsp;        System.out.println(dog1.equals(dog2));</b>
 &nbsp;
 <b class="nc">&nbsp;        Dog andrzej = dog1.withAge(12).withName(&quot;Andrzej&quot;);</b>
